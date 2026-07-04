@@ -42,6 +42,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data" / "census"
 
+# Load ROOT/.env (gitignored) so CENSUS_API_KEY survives across sessions
+# without living in the environment or the repo.
+_env_file = ROOT / ".env"
+if _env_file.exists():
+    for line in _env_file.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            k, _, v = line.partition("=")
+            os.environ.setdefault(k.strip(), v.strip())
+
 ACS_VINTAGE = "2023"  # ACS 5-year ending year
 ACS_BASE = f"https://api.census.gov/data/{ACS_VINTAGE}/acs/acs5"
 PL_BASE = "https://api.census.gov/data/2020/dec/pl"
@@ -59,7 +69,15 @@ TABLE_VARS = {
 def _get_json(url: str):
     req = urllib.request.Request(url, headers={"User-Agent": "home-finder/0.1"})
     with urllib.request.urlopen(req, timeout=120) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+        body = resp.read().decode("utf-8")
+        # The API 302s to an HTML page when the key is absent/not yet active —
+        # name that failure instead of letting json.loads throw a cryptic error.
+        if "missing_key" in resp.url or body.lstrip().startswith("<"):
+            raise RuntimeError(
+                "Census API rejected the request (missing/inactive key?). "
+                "Set CENSUS_API_KEY in .env — new keys can take a few minutes "
+                "to activate. Signup: https://api.census.gov/data/key_signup.html")
+        return json.loads(body)
 
 
 def _api_url(base: str, get_vars: list[str], geo_for: str, geo_in: str | None) -> str:

@@ -88,6 +88,22 @@ def round_coords(geom, ndigits: int = NDIGITS):
                      geom)
 
 
+def polygonal_part(geom):
+    """make_valid on a rounded polygon can return a GeometryCollection:
+    the real polygon plus degenerate line/point slivers (sub-11cm rounding
+    debris). Keep the polygonal components; dropping the debris is part of
+    canonicalization, not data loss."""
+    if geom.geom_type in ("Polygon", "MultiPolygon"):
+        return geom
+    if geom.geom_type == "GeometryCollection":
+        polys = [g for g in geom.geoms
+                 if g.geom_type in ("Polygon", "MultiPolygon")]
+        if polys:
+            return unary_union(polys)
+    raise ReviewRequired(f"no polygonal component after make_valid: "
+                         f"{geom.geom_type}")
+
+
 def canonicalize_rings(geom):
     """RFC7946 winding (exterior CCW, holes CW) + deterministic ordering of a
     MultiPolygon's constituent polygons by (min-x, min-y) of bounds — a pure
@@ -139,7 +155,7 @@ def normalize_zone(features: list[dict], zone_cfg: dict) -> dict:
                                  f"(field {field!r})")
     geom = unary_union([shape(f["geometry"]) for f in features])
     geom = round_coords(geom)
-    geom = make_valid(geom)          # rounding is topology-hostile
+    geom = polygonal_part(make_valid(geom))   # rounding is topology-hostile
     if not geom.is_valid:
         raise ReviewRequired("normalization produced invalid geometry")
     geom = canonicalize_rings(geom)
@@ -184,7 +200,7 @@ def fetch_zone(name: str, zone_cfg: dict) -> tuple[bool, str]:
     # raw server output only — the normalized feature's props are already
     # whitelisted, so re-gating it would trip on the renamed name field).
     geom1 = shape(fc["features"][0]["geometry"])
-    geom2 = canonicalize_rings(make_valid(round_coords(geom1)))
+    geom2 = canonicalize_rings(polygonal_part(make_valid(round_coords(geom1))))
     if json.dumps(mapping(geom2), sort_keys=True) != \
        json.dumps(json.loads(json.dumps(mapping(geom1))), sort_keys=True):
         problems.append("canonicalization is not byte-idempotent — investigate")

@@ -61,3 +61,121 @@ district_effective_year = "2025-26"
 listings_links    = [
   "https://www.redfin.com/city/30818/TX/Austin/filter/school-name=westlake-high-school",
 ]
+
+# --- Added 2026-07-03: LISD batch (same endpoint as Vandegrift; layer 5 = ---
+# --- 9th-10th, but name lists on layers 5 and 7 are identical for all six ---
+# --- schools; Glenn is the only split-feeder risk and is not registered). ---
+
+[leander-cedar-park]
+district          = "Leander ISD"
+high_school       = "Cedar Park HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
+boundary_where    = "DisplayName='Cedar Park High School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 100         # PROVISIONAL — pin from first geodesic print
+district_effective_year = "2024-25"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=cedar-park-high-school"]
+
+[leander-vista-ridge]
+district          = "Leander ISD"
+high_school       = "Vista Ridge HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
+boundary_where    = "DisplayName='Vista Ridge High School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 40          # PROVISIONAL
+district_effective_year = "2024-25"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=vista-ridge-high-school"]
+
+[leander-leander]
+district          = "Leander ISD"
+high_school       = "Leander HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
+boundary_where    = "DisplayName='Leander High School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 46          # pinned: gate tripped my 150 prior; geodesic 46.2
+district_effective_year = "2024-25"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=leander-high-school"]
+
+[leander-rouse]
+district          = "Leander ISD"
+high_school       = "Rouse HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
+boundary_where    = "DisplayName='Rouse High School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 40          # PROVISIONAL
+district_effective_year = "2024-25"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=rouse-high-school"]
+
+# --- RRISD batch (same endpoint as Westwood; names uppercase) ---
+
+[roundrock-roundrock]
+district          = "Round Rock ISD"
+high_school       = "Round Rock HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
+boundary_where    = "HIGH_NAME='ROUND ROCK'"
+boundary_name_field = "HIGH_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 60          # PROVISIONAL
+district_effective_year = "2025-26?"
+listings_links    = ["https://www.redfin.com/city/15723/TX/Round-Rock/filter/school-name=round-rock-high-school"]
+
+[roundrock-mcneil]
+district          = "Round Rock ISD"
+high_school       = "McNeil HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
+boundary_where    = "HIGH_NAME='MCNEIL'"
+boundary_name_field = "HIGH_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 40          # PROVISIONAL
+district_effective_year = "2025-26?"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=mcneil-high-school"]
+
+[roundrock-cedar-ridge]
+district          = "Round Rock ISD"
+high_school       = "Cedar Ridge HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
+boundary_where    = "HIGH_NAME='CEDAR RIDGE'"
+boundary_name_field = "HIGH_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 60          # PROVISIONAL
+district_effective_year = "2025-26?"
+listings_links    = ["https://www.redfin.com/city/15723/TX/Round-Rock/filter/school-name=cedar-ridge-high-school"]
+
+[roundrock-stony-point]
+district          = "Round Rock ISD"
+high_school       = "Stony Point HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
+boundary_where    = "HIGH_NAME='STONY POINT'"
+boundary_name_field = "HIGH_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 80          # PROVISIONAL
+district_effective_year = "2025-26?"
+listings_links    = ["https://www.redfin.com/city/15723/TX/Round-Rock/filter/school-name=stony-point-high-school"]
