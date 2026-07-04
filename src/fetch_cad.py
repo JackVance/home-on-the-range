@@ -19,6 +19,7 @@ Output: data/cad/<zone>.transfers.json (committed — snapshot the viewer reads)
 from __future__ import annotations
 
 import io
+import re
 import json
 import sys
 import urllib.parse
@@ -449,6 +450,12 @@ def fetch_hays() -> list[dict]:
             av = row.get("CurrAssessedValue") or ""
             sqft = row.get("SquareFootage") or ""
             legal_ac = row.get("LegalAcres") or ""
+            if not legal_ac:
+                # Many lot-method records carry size only inside the legal
+                # description text ("..., Lot 5, ACRES 0.28").
+                m = re.search(r"ACRES\s+(\d+\.?\d*)", row.get("LegalDesc") or "")
+                if m:
+                    legal_ac = m.group(1)
             rec = {
                 "address": (row.get("Situs") or "").strip(),
                 "deed_date": deeds[pid],
