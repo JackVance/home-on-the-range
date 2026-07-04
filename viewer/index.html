@@ -522,6 +522,28 @@ function applySort() {
 document.getElementById("zonesort").onchange = applySort;
 document.getElementById("zonedir").onchange = applySort;
 
+// TEA accountability (fetch_tea.py snapshots; vintage in the artifact).
+const GRADE_COLORS = { A: "#1d6b2a", B: "#1a7f8a", C: "#8a6d00",
+                       D: "#a04000", F: "#943126" };
+function schoolHtml(sch) {
+  if (!sch) return "";
+  const g = sch.rating;
+  if (!g || g === "Not Rated") {
+    return `<div style="font-size:12.5px; margin:4px 0;" class="moe">
+      TEA rating: not rated</div>`;
+  }
+  const badge = `<span style="display:inline-block; background:${GRADE_COLORS[g] || "#5a6b7a"};
+    color:#fff; font-weight:700; border-radius:4px; padding:0 7px;">${g}</span>`;
+  const dg = x => x?.grade && x.grade !== "Not Rated" ? x.grade : "—";
+  return `<div style="font-size:12.5px; margin:4px 0;">
+    ${badge} <b>${sch.score ?? ""}</b>
+    · ach <b>${dg(sch.achievement)}</b>
+    · growth <b>${dg(sch.growth)}</b>
+    ${sch.ccmr_score ? `· CCMR <b>${sch.ccmr_score}</b>` : ""}
+    · <a href="#" class="tapr" data-url="${sch.report_url}">report ↗</a>
+  </div>`;
+}
+
 // Committed transfer-rate windows (computed in fetch_cad.py, never here).
 // Row 1: 12/6/3-month rates as % of population. Row 2: raw counts.
 function transfersHtml(cad) {
@@ -552,6 +574,7 @@ function transfersHtml(cad) {
     const meta = await maybeJson(`../data/boundaries/${name}.meta.json`);
     const demo = await maybeJson(`../data/joined/${name}.demographics.json`);
     const cad = await maybeJson(`../data/cad/${name}.transfers.json`);
+    const sch = await maybeJson(`../data/schools/${name}.school.json`);
 
     let entry = null;
     if (fc) {
@@ -597,6 +620,7 @@ function transfersHtml(cad) {
           <span class="swatch" style="background:${color}"></span>${z.high_school}</h2>
       <div class="meta">${z.district} · ${meta?.district_effective_year ?? "?"}${area}</div>
       <div>${boundary}</div>
+      ${schoolHtml(sch)}
       ${demographicsHtml(demo)}
       ${transfersHtml(cad)}
       <div class="links">${links}</div>`;
@@ -637,6 +661,11 @@ function transfersHtml(cad) {
     }
     card.querySelectorAll(".links a").forEach(a => a.onclick = ev => ev.stopPropagation());
     card.querySelectorAll("details").forEach(dt => dt.onclick = ev => ev.stopPropagation());
+    const tapr = card.querySelector(".tapr");
+    if (tapr) tapr.onclick = (ev) => {
+      ev.preventDefault(); ev.stopPropagation();
+      window.open(tapr.dataset.url, "tapr", "width=1000,height=780,noopener");
+    };
     panel.appendChild(card);
 
     const sh_ = demo?.race_ethnicity?.shares ?? {};
