@@ -22,7 +22,7 @@ boundary_where    = "DisplayName='Vandegrift High School'"
 boundary_name_field = "DisplayName"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 80          # PROVISIONAL — pin from first geodesic print
+expected_area_km2 = 125         # pinned from first fetch (geodesic 124.8 km²)
 district_effective_year = "2024-25"   # app is labeled 24-25; LISD approved
                                       # 2026-27 rezoning Feb 2026 — recheck
 listings_links    = [
@@ -39,7 +39,7 @@ boundary_where    = "HIGH_NAME='WESTWOOD'"       # uppercase per probed schema
 boundary_name_field = "HIGH_NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 30          # PROVISIONAL — pin from first geodesic print
+expected_area_km2 = 39          # pinned from first fetch (geodesic 39.2 km²)
 district_effective_year = "2025-26?"  # service named _2526 but probed feature
                                       # says SCHL_YEAR=2024-25 — resolve at eyeball
 listings_links    = [
