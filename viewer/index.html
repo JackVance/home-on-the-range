@@ -57,6 +57,12 @@
       <span id="dotmeta" class="moe"></span></label>
     <div id="dotlegend" style="display:none; margin-top:4px;"></div>
   </div>
+  <div id="cadcontrol" style="display:none; margin-bottom:12px; font-size:13px;">
+    <label><input type="checkbox" id="cadtoggle"> Recent deed transfers
+      <span class="moe" id="cadmeta"></span></label>
+    <div class="moe" style="margin-top:2px;">CAD appraised values, NOT sale
+      prices (TX non-disclosure). Pins follow zone visibility.</div>
+  </div>
   <div id="zones"></div>
   <div class="disclaimer">
     Boundaries are snapshots — districts rezone. Verify with the district
@@ -195,9 +201,60 @@ async function initDotControl() {
 }
 initDotControl();
 
-const zoneLayers = [];   // {layer, visible}
+const zoneLayers = [];   // {name, layer, visible}
 let shadeOn = true;
 const FILL = 0.08;
+
+// Recent deed transfers (data/cad/<zone>.transfers.json, committed snapshots).
+// Pins are grouped per zone and follow zone visibility. Viewer renders the
+// committed values verbatim — value_kind says what the number is.
+const canvasRenderer = L.canvas({ padding: 0.4 });
+let cadOn = false;
+const cadGroups = {};    // name -> L.layerGroup (lazy)
+const cadMissing = new Set();
+
+const fmtVal = v => v == null ? "value n/a" : "$" + v.toLocaleString();
+
+async function cadGroup(name) {
+  if (cadGroups[name] || cadMissing.has(name)) return cadGroups[name];
+  const d = await maybeJson(`../data/cad/${name}.transfers.json`);
+  if (!d) { cadMissing.add(name); return null; }
+  const group = L.layerGroup(d.transfers.map(t =>
+    L.circleMarker([t.lat, t.lon], {
+      renderer: canvasRenderer, radius: 3.5, weight: 1,
+      color: "#7d3c98", fillColor: "#af7ac5", fillOpacity: 0.8,
+    }).bindPopup(
+      `<b>${t.address || "(no address)"}</b><br>` +
+      `deed date: ${t.deed_date}<br>` +
+      `${fmtVal(t.value)} <span style="color:#777">(${t.value_kind})</span>` +
+      (t.year_built ? `<br>built ${t.year_built}` : "") +
+      (t.sqft ? ` · ${t.sqft.toLocaleString()} sqft` : ""))));
+  cadGroups[name] = group;
+  return group;
+}
+
+async function syncCad() {
+  for (const e of zoneLayers) {
+    const g = await cadGroup(e.name);
+    if (!g) continue;
+    if (cadOn && e.visible) { if (!map.hasLayer(g)) g.addTo(map); }
+    else if (map.hasLayer(g)) map.removeLayer(g);
+  }
+}
+
+async function initCadControl() {
+  document.getElementById("cadcontrol").style.display = "block";
+  document.getElementById("cadtoggle").onchange = async (ev) => {
+    cadOn = ev.target.checked;
+    document.getElementById("cadmeta").textContent = cadOn ? "loading…" : "";
+    await syncCad();
+    if (cadOn) {
+      const n = Object.values(cadGroups).reduce((s, g) => s + g.getLayers().length, 0);
+      document.getElementById("cadmeta").textContent = `${n.toLocaleString()} parcels`;
+    }
+  };
+}
+initCadControl();
 
 function applyStyle(entry) {
   entry.layer.setStyle({ fillOpacity: shadeOn ? FILL : 0 });
@@ -218,7 +275,7 @@ function applyStyle(entry) {
     if (fc) {
       const layer = L.geoJSON(fc, { style: { color, weight: 2.5, fillOpacity: FILL } })
         .bindTooltip(z.high_school).addTo(map);
-      entry = { layer, visible: true };
+      entry = { name, layer, visible: true };
       zoneLayers.push(entry);
     }
 
@@ -262,6 +319,7 @@ function applyStyle(entry) {
         entry.visible = ev.target.checked;
         if (entry.visible) { entry.layer.addTo(map); applyStyle(entry); }
         else map.removeLayer(entry.layer);
+        if (cadOn) syncCad();
       };
     }
     card.querySelectorAll(".links a").forEach(a => a.onclick = ev => ev.stopPropagation());
