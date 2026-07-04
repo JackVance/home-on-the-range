@@ -71,6 +71,8 @@
       </select>
       · value $<input id="cadmin" type="number" placeholder="min" style="width:70px">
       – $<input id="cadmax" type="number" placeholder="max" style="width:70px">
+      <br><label><input type="checkbox" id="cadoutside"> include areas outside
+        zones (full tri-county)</label>
     </div>
   </div>
   <div id="zones"></div>
@@ -275,9 +277,19 @@ async function syncCad() {
     if (cadOn && e.visible) { if (!map.hasLayer(g)) g.addTo(map); }
     else if (map.hasLayer(g)) map.removeLayer(g);
   }
+  // The tri-county remainder ("_outside") obeys its own checkbox, not zone
+  // visibility — it IS the areas with no zone.
+  const wantOutside = cadOn && document.getElementById("cadoutside").checked;
+  const og = wantOutside ? await cadGroup("_outside") : cadGroups["_outside"];
+  if (og) {
+    if (wantOutside) { if (!map.hasLayer(og)) og.addTo(map); }
+    else if (map.hasLayer(og)) map.removeLayer(og);
+  }
   if (cadOn) {
     const n = Object.entries(cadGroups)
-      .filter(([name]) => zoneLayers.find(e => e.name === name && e.visible))
+      .filter(([name]) => name === "_outside"
+        ? wantOutside
+        : zoneLayers.find(e => e.name === name && e.visible))
       .reduce((s, [, g]) => s + g.getLayers().length, 0);
     document.getElementById("cadmeta").textContent = `${n.toLocaleString()} parcels shown`;
   } else {
@@ -303,6 +315,7 @@ async function initCadControl() {
     await syncCad();
   };
   document.getElementById("cadwindow").onchange = refilterCad;
+  document.getElementById("cadoutside").onchange = () => { if (cadOn) syncCad(); };
   let deb;
   for (const id of ["cadmin", "cadmax"]) {
     document.getElementById(id).oninput = () => {
@@ -317,16 +330,17 @@ function applyStyle(entry) {
 }
 
 // Committed transfer-rate windows (computed in fetch_cad.py, never here).
+// Row 1: 12/6/3-month rates as % of population. Row 2: raw counts.
 function transfersHtml(cad) {
   const w = cad?.windows;
   if (!w) return "";
   const pct = x => x?.pct_of_population != null ? x.pct_of_population + "%" : "—";
   const cnt = x => (x?.count ?? 0).toLocaleString();
-  return `<table class="stats"><tr><td>Deed transfers<br>
-      <span class="moe">3 / 6 / 12 mo, % of pop</span></td>
-    <td class="v">${cnt(w["3mo"])} / ${cnt(w["6mo"])} / ${cnt(w["12mo"])}<br>
-      <span class="moe">${pct(w["3mo"])} / ${pct(w["6mo"])} / ${pct(w["12mo"])}</span>
-    </td></tr></table>`;
+  return `<table class="stats">
+    <tr><td>Transfers, % of pop<br><span class="moe">12 / 6 / 3 mo</span></td>
+      <td class="v">${pct(w["12mo"])} / ${pct(w["6mo"])} / ${pct(w["3mo"])}<br>
+        <span class="moe">${cnt(w["12mo"])} / ${cnt(w["6mo"])} / ${cnt(w["3mo"])}</span>
+      </td></tr></table>`;
 }
 
 (async () => {

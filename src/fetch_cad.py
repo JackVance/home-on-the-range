@@ -249,10 +249,9 @@ def _hays_table(kind: str) -> Path:
 
 
 def fetch_hays() -> list[dict]:
-    """DSISD transfers. Zone membership is EXACT (the SDS taxing entity IS the
-    district = the zone, single-HS district); pin locations come from an
-    address join against the county 911 address points (match rate printed —
-    unmatched transfers are counted but not pinned)."""
+    """County-wide Hays transfers. Pin locations come from an address join
+    against the county 911 address points (match rate printed — unmatched
+    transfers are dropped from pins; zone stats still count matched only)."""
     import csv
     cut = cutoff_date().isoformat()
 
@@ -278,9 +277,6 @@ def fetch_hays() -> list[dict]:
             pid = row["PropertyID"]
             if pid not in deeds:
                 continue
-            entities = (row.get("TaxingUnitList") or "").split(",")
-            if DSISD_ENTITY not in entities:
-                continue
             key = _addr_key(row.get("SitusStreetNumber"),
                             row.get("SitusStreetName"))
             mv = row.get("CurrMarketValue") or ""
@@ -296,21 +292,15 @@ def fetch_hays() -> list[dict]:
                 recs[key] = rec
             else:
                 unmatched += 1
-    print(f">> Hays: {len(recs)} DSISD transfers to geolocate "
+    print(f">> Hays: {len(recs)} transfers to geolocate "
           f"({unmatched} with unusable situs)", flush=True)
 
-    # 911 address points within the DSISD zone bbox.
-    zone_fc = json.loads((BOUNDARIES / "drippingsprings-drippingsprings.geojson")
-                         .read_text(encoding="utf-8"))
-    minx, miny, maxx, maxy = shape(zone_fc["features"][0]["geometry"]).bounds
+    # County-wide 911 address points (paginated).
     points: dict[tuple, tuple[float, float]] = {}
     offset = 0
     while True:
         params = urllib.parse.urlencode({
             "where": "1=1", "outFields": "ADDR_NUM,FULL_NAME",
-            "geometry": f"{minx},{miny},{maxx},{maxy}",
-            "geometryType": "esriGeometryEnvelope", "inSR": 4326,
-            "spatialRel": "esriSpatialRelIntersects",
             "returnGeometry": "true", "outSR": 4326,
             "resultOffset": offset, "f": "geojson",
         })
@@ -324,7 +314,9 @@ def fetch_hays() -> list[dict]:
         if len(feats) < 2000:
             break
         offset += len(feats)
-    print(f">> Hays: {len(points)} 911 address points in DSISD bbox", flush=True)
+        if offset % 20000 == 0:
+            print(f">> Hays: {offset} address points scanned ...", flush=True)
+    print(f">> Hays: {len(points)} 911 address points county-wide", flush=True)
 
     out = []
     misses = 0
@@ -378,11 +370,16 @@ def main(counties: list[str] | None = None) -> int:
 
     from shapely.geometry import Point
     per_zone: dict[str, list[dict]] = {name: [] for name in zones}
+    outside: list[dict] = []
     for t in all_transfers:
         pt = Point(t["lon"], t["lat"])
+        hit = False
         for name, geom in zones.items():
             if geom.contains(pt):
                 per_zone[name].append(t)
+                hit = True
+        if not hit:
+            outside.append(t)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -420,6 +417,18 @@ def main(counties: list[str] | None = None) -> int:
             json.dumps(payload, indent=1, sort_keys=True) + "\n",
             encoding="utf-8", newline="\n")
         print(f">> {name}: {len(transfers)} transfers")
+
+    # County-wide remainder — everything located but outside every registered
+    # zone, so the map can show full tri-county coverage on demand.
+    outside.sort(key=lambda t: t.get("deed_date") or "", reverse=True)
+    (OUT_DIR / "_outside.transfers.json").write_text(
+        json.dumps({
+            "as_of": stamp, "months_back": MONTHS_BACK,
+            "disclaimer": ("Transfers outside all registered zones (rest of "
+                           "Travis/Williamson/Hays). CAD values, not prices."),
+            "count": len(outside), "transfers": outside,
+        }, indent=1, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
+    print(f">> _outside: {len(outside)} transfers (tri-county remainder)")
     return 0
 
 
