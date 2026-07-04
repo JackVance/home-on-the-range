@@ -68,6 +68,7 @@
     <input id="pininput" type="text" placeholder="drop pin: address or lat, lon"
       style="width:250px; padding:2px 5px;">
     <button id="pinbtn" style="cursor:pointer;">📍 pin</button>
+    <a href="#" id="pinclear" style="font-size:12px; display:none;">remove all</a>
     <div class="moe" id="pinstatus"></div>
   </div>
   <details id="filterpanel" style="margin-bottom:12px; font-size:13px;">
@@ -103,6 +104,9 @@
       – <input id="cadacmax" type="number" step="0.1" placeholder="max" style="width:48px">
       <br><label><input type="checkbox" id="cadoutside"> include areas outside
         zones (full tri-county)</label>
+      <div class="moe" style="margin-top:3px;">Setting a bound hides records
+        with unknown values — mainly acreage (unknown for ~39% of Hays and
+        ~12% of Travis transfers; sqft is near-complete for actual homes).</div>
     </div>
   </details>
   <div id="zones"></div>
@@ -452,7 +456,14 @@ function renderPins() {
       `<br><a href="#" data-pinrm="${i}">remove pin</a>`);
   });
   localStorage.setItem("userpins", JSON.stringify(userPins));
+  document.getElementById("pinclear").style.display =
+    userPins.length ? "inline" : "none";
 }
+document.getElementById("pinclear").onclick = (ev) => {
+  ev.preventDefault();
+  userPins = [];
+  renderPins();
+};
 map.on("popupopen", (e) => {
   const a = e.popup.getElement().querySelector("[data-pinrm]");
   if (a) a.onclick = (ev) => {
