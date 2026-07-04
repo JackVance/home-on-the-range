@@ -47,6 +47,11 @@
   <h1>home-finder</h1>
   <div class="sub">Austin-metro HS attendance zones · committed data only —
     the viewer never fetches from external services</div>
+  <div style="margin-bottom:8px; font-size:13px;">
+    <label><input type="checkbox" id="shadetoggle" checked> Zone shading</label>
+    &nbsp;·&nbsp;
+    <a href="#" id="allzones" style="font-size:12px;">show/hide all</a>
+  </div>
   <div id="dotcontrol" style="display:none; margin-bottom:12px; font-size:13px;">
     <label><input type="checkbox" id="dottoggle"> Ethnic dot map
       <span id="dotmeta" class="moe"></span></label>
@@ -62,11 +67,26 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-const COLORS = ["#c0392b", "#1f618d", "#1d8348", "#7d3c98", "#b7950b"];
+const COLORS = ["#c0392b", "#1f618d", "#1d8348", "#7d3c98", "#b7950b",
+                "#117864", "#a04000", "#5d6d7e", "#884ea0", "#2e86c1",
+                "#239b56", "#ca6f1e", "#7b241c", "#1a5276", "#6c3483",
+                "#0e6655", "#9a7d0a", "#515a5a", "#943126", "#21618c"];
 const map = L.map("map").setView([30.4, -97.8], 11);
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: '&copy; OpenStreetMap contributors', maxZoom: 19,
-}).addTo(map);
+
+// Basemaps — all free/keyless. "Light" is the least distracting under data.
+const BASEMAPS = {
+  "Light": L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 20 }),
+  "Streets": L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "&copy; OpenStreetMap contributors", maxZoom: 19 }),
+  "Dark": L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 20 }),
+  "Satellite": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+    attribution: "Esri, Maxar, Earthstar Geographics", maxZoom: 19 }),
+  "None": L.tileLayer("", { attribution: "" }),
+};
+BASEMAPS["Light"].addTo(map);
+L.control.layers(BASEMAPS, null, { position: "topleft", collapsed: false }).addTo(map);
 
 async function maybeJson(url) {
   try { const r = await fetch(url); return r.ok ? await r.json() : null; }
@@ -175,9 +195,16 @@ async function initDotControl() {
 }
 initDotControl();
 
+const zoneLayers = [];   // {layer, visible}
+let shadeOn = true;
+const FILL = 0.08;
+
+function applyStyle(entry) {
+  entry.layer.setStyle({ fillOpacity: shadeOn ? FILL : 0 });
+}
+
 (async () => {
   const registry = await maybeJson("zones.json");
-  const layers = [];
   let i = 0;
   const panel = document.getElementById("zones");
 
@@ -187,11 +214,12 @@ initDotControl();
     const meta = await maybeJson(`../data/boundaries/${name}.meta.json`);
     const demo = await maybeJson(`../data/joined/${name}.demographics.json`);
 
-    let layer = null;
+    let entry = null;
     if (fc) {
-      layer = L.geoJSON(fc, { style: { color, weight: 2.5, fillOpacity: 0.08 } })
+      const layer = L.geoJSON(fc, { style: { color, weight: 2.5, fillOpacity: FILL } })
         .bindTooltip(z.high_school).addTo(map);
-      layers.push(layer);
+      entry = { layer, visible: true };
+      zoneLayers.push(entry);
     }
 
     const verified = meta?.verified_by_human
@@ -202,24 +230,61 @@ initDotControl();
     const area = meta?.geodesic_area_km2 ? ` · ${meta.geodesic_area_km2} km²` : "";
     const boundary = fc ? verified + fetched
       : `<span class="badge warn">boundary pending (${z.boundary_source})</span>`;
-    const links = (z.listings_links ?? [])
+
+    // Link-outs: the configured school-filter search, plus a Redfin map view
+    // bounded to this zone's bbox (display logic — bbox comes from the layer).
+    let links = (z.listings_links ?? [])
       .map(u => `<a href="${u}" target="_blank" rel="noopener">listings ↗</a>`).join(" · ");
+    if (entry) {
+      const b = entry.layer.getBounds();
+      const vp = `${b.getNorth().toFixed(5)}:${b.getSouth().toFixed(5)}:` +
+                 `${b.getEast().toFixed(5)}:${b.getWest().toFixed(5)}`;
+      links += `${links ? " · " : ""}<a target="_blank" rel="noopener" ` +
+        `href="https://www.redfin.com/city/30818/TX/Austin/filter/viewport=${vp}">` +
+        `map area ↗</a>`;
+    }
 
     const card = document.createElement("div");
     card.className = "zone";
     card.innerHTML = `
-      <h2><span class="swatch" style="background:${color}"></span>${z.high_school}</h2>
+      <h2><label style="cursor:pointer"><input type="checkbox" class="zonevis"
+            ${entry ? "checked" : "disabled"}></label>
+          <span class="swatch" style="background:${color}"></span>${z.high_school}</h2>
       <div class="meta">${z.district} · ${meta?.district_effective_year ?? "?"}${area}</div>
       <div>${boundary}</div>
       ${demographicsHtml(demo)}
       <div class="links">${links}</div>`;
-    if (layer) card.onclick = () => map.fitBounds(layer.getBounds().pad(0.1));
+    if (entry) {
+      card.onclick = () => map.fitBounds(entry.layer.getBounds().pad(0.1));
+      const box = card.querySelector(".zonevis");
+      box.onclick = (ev) => ev.stopPropagation();
+      box.onchange = (ev) => {
+        entry.visible = ev.target.checked;
+        if (entry.visible) { entry.layer.addTo(map); applyStyle(entry); }
+        else map.removeLayer(entry.layer);
+      };
+    }
+    card.querySelectorAll(".links a").forEach(a => a.onclick = ev => ev.stopPropagation());
     panel.appendChild(card);
   }
 
-  if (layers.length) {
-    map.fitBounds(L.featureGroup(layers).getBounds().pad(0.08));
+  if (zoneLayers.length) {
+    map.fitBounds(L.featureGroup(zoneLayers.map(e => e.layer)).getBounds().pad(0.08));
   }
+
+  document.getElementById("shadetoggle").onchange = (ev) => {
+    shadeOn = ev.target.checked;
+    zoneLayers.forEach(e => e.visible && applyStyle(e));
+  };
+  let allOn = true;
+  document.getElementById("allzones").onclick = (ev) => {
+    ev.preventDefault();
+    allOn = !allOn;
+    document.querySelectorAll(".zonevis").forEach(box => {
+      if (!box.disabled && box.checked !== allOn) { box.checked = allOn;
+        box.dispatchEvent(new Event("change")); }
+    });
+  };
 })();
 </script>
 </body>

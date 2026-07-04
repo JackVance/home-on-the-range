@@ -243,3 +243,248 @@ expected_features = 1
 expected_area_km2 = 100         # PROVISIONAL
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=james-bowie-high-school"]
+
+# --- Added 2026-07-04: Georgetown (MyPlanWare), Pflugerville (embedded
+# --- webmap), Hutto + Lago Vista (TIGERweb single-HS), remaining AISD. ---
+
+[georgetown-georgetown]
+district          = "Georgetown ISD"
+high_school       = "Georgetown HS"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=4ea0552d-5e75-491f-9519-6f917f7a814e"
+boundary_where    = "name='Georgetown High'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 200          # PROVISIONAL
+district_effective_year = "2026-27"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=georgetown-hs"]
+
+[georgetown-east-view]
+district          = "Georgetown ISD"
+high_school       = "East View HS"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=4ea0552d-5e75-491f-9519-6f917f7a814e"
+boundary_where    = "name='East View High'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 200          # PROVISIONAL
+district_effective_year = "2026-27"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=east-view-hs"]
+
+[pflugerville-hendrickson]
+district          = "Pflugerville ISD"
+high_school       = "Hendrickson HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "HIGH_PLAN5='HENDRICKSON HIGH SCHOOL'"
+boundary_layer_title = "High Schools 2025-26"
+boundary_name_field = "HIGH_PLAN5"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 50          # PROVISIONAL
+district_effective_year = "2025-26"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=hendrickson-hs"]
+
+[pflugerville-weiss]
+district          = "Pflugerville ISD"
+high_school       = "Weiss HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "HIGH_PLAN5='WEISS HIGH SCHOOL'"
+boundary_layer_title = "High Schools 2025-26"
+boundary_name_field = "HIGH_PLAN5"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 60          # PROVISIONAL
+district_effective_year = "2025-26"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=weiss-hs"]
+
+[pflugerville-pflugerville]
+district          = "Pflugerville ISD"
+high_school       = "Pflugerville HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "HIGH_PLAN5='PFLUGERVILLE HIGH SCHOOL'"
+boundary_layer_title = "High Schools 2025-26"
+boundary_name_field = "HIGH_PLAN5"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 50          # PROVISIONAL
+district_effective_year = "2025-26"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=pflugerville-hs"]
+
+[pflugerville-connally]
+district          = "Pflugerville ISD"
+high_school       = "Connally HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "HIGH_PLAN5='CONNALLY HIGH SCHOOL'"
+boundary_layer_title = "High Schools 2025-26"
+boundary_name_field = "HIGH_PLAN5"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 50          # PROVISIONAL
+district_effective_year = "2025-26"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=connally-hs"]
+
+[hutto-hutto]
+district          = "Hutto ISD"
+high_school       = "Hutto HS"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4824100'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 150          # PROVISIONAL
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=hutto-hs"]
+
+[lagovista-lagovista]
+district          = "Lago Vista ISD"
+high_school       = "Lago Vista HS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4826400'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 90          # PROVISIONAL
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=lago-vista-hs"]
+
+[austin-austin-high]
+district          = "Austin ISD"
+high_school       = "Austin HS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='Austin HS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 80          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=austin-hs"]
+
+[austin-mccallum]
+district          = "Austin ISD"
+high_school       = "McCallum HS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='McCallum HS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 50          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=mccallum-hs"]
+
+[austin-akins]
+district          = "Austin ISD"
+high_school       = "Akins HS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='Akins HS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 60          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=akins-hs"]
+
+[austin-crockett]
+district          = "Austin ISD"
+high_school       = "Crockett ECHS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='Crockett ECHS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 40          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=crockett-echs"]
+
+[austin-eastside]
+district          = "Austin ISD"
+high_school       = "Eastside ECHS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='Eastside ECHS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 40          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=eastside-echs"]
+
+[austin-lbj]
+district          = "Austin ISD"
+high_school       = "LBJ ECHS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='LBJ ECHS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 60          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=lbj-echs"]
+
+[austin-navarro]
+district          = "Austin ISD"
+high_school       = "Navarro ECHS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='Navarro ECHS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 40          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=navarro-echs"]
+
+[austin-northeast]
+district          = "Austin ISD"
+high_school       = "Northeast ECHS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='Northeast ECHS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 60          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=northeast-echs"]
+
+[austin-travis]
+district          = "Austin ISD"
+high_school       = "Travis ECHS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='Travis ECHS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 50          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=travis-echs"]

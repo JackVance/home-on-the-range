@@ -87,6 +87,59 @@ def query_myplanware(url: str, where: str) -> list[dict]:
     return features
 
 
+def query_webmap_embedded(url: str, layer_title: str, where: str) -> list[dict]:
+    """ArcGIS webmap with geometry EMBEDDED in the webmap JSON (featureCollection
+    layers with no hosted service — e.g. PFISD). Extracts esri-JSON polygons
+    from the named layer, filters by attribute, converts to GeoJSON features,
+    and reprojects Web Mercator -> WGS84 when the spatial reference says so."""
+    from pyproj import Transformer
+    req = urllib.request.Request(url, headers={"User-Agent": "home-finder/0.1"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            body = json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        raise EndpointMoved(f"HTTP {e.code} from {url}") from e
+    except urllib.error.URLError as e:
+        raise EndpointMoved(f"unreachable: {url} ({e.reason})") from e
+
+    feature_sets = []
+    for layer in body.get("operationalLayers", []):
+        if layer.get("title") == layer_title:
+            for sub in layer.get("featureCollection", {}).get("layers", []):
+                fs = sub.get("featureSet", {})
+                if fs.get("features"):
+                    feature_sets.append(fs)
+    if not feature_sets:
+        titles = [l.get("title") for l in body.get("operationalLayers", [])]
+        raise EmptyResult(f"no embedded layer titled {layer_title!r}; webmap "
+                          f"has: {titles}")
+
+    field, value = _parse_where(where)
+    out: list[dict] = []
+    for fs in feature_sets:
+        for f in fs.get("features", []):
+            attrs = f.get("attributes", {})
+            if attrs.get(field) != value:
+                continue
+            geom = f.get("geometry", {})
+            rings = geom.get("rings", [])
+            wkid = (geom.get("spatialReference") or {}).get("latestWkid") or \
+                   (geom.get("spatialReference") or {}).get("wkid")
+            if wkid in (3857, 102100):
+                t = Transformer.from_crs(3857, 4326, always_xy=True)
+                rings = [[list(t.transform(x, y)) for x, y in ring]
+                         for ring in rings]
+            elif wkid not in (4326, None):
+                raise ReviewRequired(f"unhandled spatial reference wkid={wkid}")
+            # Hand all rings to GeoJSON as one Polygon; normalize_zone's
+            # make_valid + orient sorts out winding/holes/multi-parts.
+            out.append({"type": "Feature", "properties": attrs,
+                        "geometry": {"type": "Polygon", "coordinates": rings}})
+    if not out:
+        raise EmptyResult(f"no embedded feature with {field}={value!r}")
+    return out
+
+
 def query_zone(url: str, where: str) -> list[dict]:
     params = urllib.parse.urlencode({
         "where": where, "outFields": "*", "outSR": 4326, "f": "geojson",
@@ -219,6 +272,10 @@ def fetch_zone(name: str, zone_cfg: dict) -> tuple[bool, str]:
     if zone_cfg["boundary_source"] == "myplanware_geojson":
         features = query_myplanware(zone_cfg["boundary_url"],
                                     zone_cfg["boundary_where"])
+    elif zone_cfg["boundary_source"] == "arcgis_webmap_embedded":
+        features = query_webmap_embedded(zone_cfg["boundary_url"],
+                                         zone_cfg["boundary_layer_title"],
+                                         zone_cfg["boundary_where"])
     else:
         features = query_zone(zone_cfg["boundary_url"], zone_cfg["boundary_where"])
 
