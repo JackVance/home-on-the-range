@@ -1,0 +1,7 @@
+# Pin LF everywhere. The trust model depends on committed artifacts being
+# BYTE-identical across re-fetches (normalize_zone -> git diff); autocrlf
+# conversion on win32 would inject phantom diffs into exactly the layer
+# whose whole job is honest change detection.
+* text=auto eol=lf
+*.png binary
+*.gif binary

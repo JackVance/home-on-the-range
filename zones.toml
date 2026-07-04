@@ -1,0 +1,63 @@
+# zones.toml — the registry / extensibility seam (SPEC.md §1).
+# Adding a zone is config, not code. expected_* values are authored ONCE at
+# the one-time eyeball; editing them later IS the human acknowledging a change.
+#
+# Endpoints below were discovered by the step-0 spike (spike/FINDINGS.md,
+# 2026-07-03): Leander GO, Round Rock GO, Eanes NO-GO (manual trace).
+#
+# expected_area_km2 values are PROVISIONAL (order-of-magnitude priors) until
+# the first real fetch prints geodesic areas and a human pins them.
+# verified_against in each zone's meta.json is still pending for all three.
+
+[leander-vandegrift]
+district          = "Leander ISD"
+high_school       = "Vandegrift HS"
+counties          = ["48453", "48491"]           # Travis + Williamson
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
+# Layer 5 = "High School (9th-10th) Zones"; layer 7 = 11th-12th. LISD splits
+# some feeder patterns — CONFIRM at first fetch which layer holds Vandegrift's
+# full 9-12 zone, and whether both layers agree for it.
+boundary_where    = "DisplayName='Vandegrift High School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 80          # PROVISIONAL — pin from first geodesic print
+district_effective_year = "2024-25"   # app is labeled 24-25; LISD approved
+                                      # 2026-27 rezoning Feb 2026 — recheck
+listings_links    = [
+  "https://www.redfin.com/city/30818/TX/Austin/filter/school-name=vandegrift-high-school",
+]
+
+[roundrock-westwood]
+district          = "Round Rock ISD"
+high_school       = "Westwood HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
+boundary_where    = "HIGH_NAME='WESTWOOD'"       # uppercase per probed schema
+boundary_name_field = "HIGH_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 30          # PROVISIONAL — pin from first geodesic print
+district_effective_year = "2025-26?"  # service named _2526 but probed feature
+                                      # says SCHL_YEAR=2024-25 — resolve at eyeball
+listings_links    = [
+  "https://www.redfin.com/city/30818/TX/Austin/filter/school-name=westwood-high-school",
+]
+
+[eanes-westlake]
+district          = "Eanes ISD"
+high_school       = "Westlake HS"
+counties          = ["48453"]                    # Travis
+boundary_source   = "manual_trace"               # MyPlanWare SPA, no API (spike NO-GO)
+# Polygon is authored by hand-tracing the district's official boundary map in
+# QGIS/Google My Maps and saving to data/boundaries/eanes-westlake.geojson.
+# The fetch gates don't apply; the one-time eyeball IS its provenance.
+boundary_has_name = false
+expected_features = 1
+expected_area_km2 = 40          # from the design debate's prior
+district_effective_year = "2025-26"
+listings_links    = [
+  "https://www.redfin.com/city/30818/TX/Austin/filter/school-name=westlake-high-school",
+]
