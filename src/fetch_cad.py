@@ -624,12 +624,14 @@ def main(counties: list[str] | None = None) -> int:
         transfers.sort(key=lambda t: t.get("deed_date") or "", reverse=True)
         # Transfer-rate windows vs ACS population — derived stats belong in
         # the build step, committed, never computed in the viewer.
-        pop = None
+        pop = households = None
         demo_file = joined_dir / f"{name}.demographics.json"
         if demo_file.exists():
             demo = json.loads(demo_file.read_text(encoding="utf-8"))
             pop = (demo.get("race_ethnicity", {}).get("counts", {})
                    .get("B03002_001", {}).get("value"))
+            households = (demo.get("income", {}).get("brackets", {})
+                          .get("B19001_001", {}).get("value"))
         windows = {}
         for label, days in (("3mo", 91), ("6mo", 182), ("12mo", 365)):
             since = (date.today() - timedelta(days=days)).isoformat()
@@ -644,6 +646,8 @@ def main(counties: list[str] | None = None) -> int:
             windows[label] = {
                 "count": len(in_window),
                 "pct_of_population": round(len(in_window) / pop * 100, 2) if pop else None,
+                "pct_of_households": round(len(in_window) / households * 100, 2)
+                                     if households else None,
                 "median_value": median_value,
             }
         payload = {
@@ -654,6 +658,7 @@ def main(counties: list[str] | None = None) -> int:
                            "non-disclosure state."),
             "count": len(transfers),
             "population_acs": round(pop) if pop else None,
+            "households_acs": round(households) if households else None,
             "windows": windows,
             "transfers": transfers,
         }

@@ -92,6 +92,8 @@
       </select>
       <select id="zonedir"><option value="desc" selected>▼ desc</option>
         <option value="asc">▲ asc</option></select>
+      <button id="resort" style="cursor:pointer; font-size:12px;"
+        title="reapply sort after selections reordered the list">resort</button>
       <br>color by <select id="colorby">
         <option value="none" selected>—</option>
         <option value="pop">population</option>
@@ -576,6 +578,7 @@ function applySort() {
 }
 document.getElementById("zonesort").onchange = applySort;
 document.getElementById("zonedir").onchange = applySort;
+document.getElementById("resort").onclick = applySort;
 
 // --- Generic zone filters: add rows of {column, min, max}; a bounded column
 // hides zones missing that value. Filtered zones drop from cards AND map
@@ -686,9 +689,10 @@ function transfersHtml(cad) {
     `<tr><td>Median home value<br><span class="moe">transferred, 12 mo — CAD
       appraisal, not price</span></td>
       <td class="v">$${med.toLocaleString()}</td></tr>`;
+  const hh = x => x?.pct_of_households != null ? x.pct_of_households + "%" : "—";
   return `<table class="stats">${medRow}
-    <tr><td>Transfers, % of pop<br><span class="moe">12 / 6 / 3 mo</span></td>
-      <td class="v">${pct(w["12mo"])} / ${pct(w["6mo"])} / ${pct(w["3mo"])}<br>
+    <tr><td>Transfers, % of households<br><span class="moe">12 / 6 / 3 mo</span></td>
+      <td class="v">${hh(w["12mo"])} / ${hh(w["6mo"])} / ${hh(w["3mo"])}<br>
         <span class="moe">${cnt(w["12mo"])} / ${cnt(w["6mo"])} / ${cnt(w["3mo"])}</span>
       </td></tr></table>`;
 }
