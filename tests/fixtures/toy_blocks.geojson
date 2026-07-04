@@ -1,0 +1,36 @@
+{
+ "_comment": [
+  "4 hand-authored 2020-style blocks. Zone = unit square (0,0)-(1,1).",
+  "bg GEOID = block[:12]; tract = block[:11] (both bgs share one tract).",
+  "A: fully inside.            B: fully outside.",
+  "C: STRADDLES the west edge, centroid (0.1,0.6) INSIDE  -> counted in.",
+  "D: STRADDLES the NE corner, centroid (1.2,1.1) OUTSIDE -> not counted.",
+  "C and D document the knowingly-accepted centroid-at-block error.",
+  "Weights (hand-computed):",
+  "  bg1 480019501001: P1 100/150=2/3, P3 80/120=2/3, H1 40/50=0.8",
+  "  bg2 480019501002: P1 60/100=0.6,  P3 50/80=0.625, H1 20/40=0.5",
+  "  tract 48001950100: P1 160/250=0.64, P3 130/200=0.65, H1 60/90=2/3"
+ ],
+ "blocks": [
+  {
+   "GEOID": "480019501001001",
+   "P1": 100, "P3": 80, "H1": 40,
+   "geometry": {"type": "Polygon", "coordinates": [[[0.2, 0.2], [0.4, 0.2], [0.4, 0.4], [0.2, 0.4], [0.2, 0.2]]]}
+  },
+  {
+   "GEOID": "480019501001002",
+   "P1": 50, "P3": 40, "H1": 10,
+   "geometry": {"type": "Polygon", "coordinates": [[[1.2, 1.2], [1.4, 1.2], [1.4, 1.4], [1.2, 1.4], [1.2, 1.2]]]}
+  },
+  {
+   "GEOID": "480019501002001",
+   "P1": 60, "P3": 50, "H1": 20,
+   "geometry": {"type": "Polygon", "coordinates": [[[-0.2, 0.4], [0.4, 0.4], [0.4, 0.8], [-0.2, 0.8], [-0.2, 0.4]]]}
+  },
+  {
+   "GEOID": "480019501002002",
+   "P1": 40, "P3": 30, "H1": 20,
+   "geometry": {"type": "Polygon", "coordinates": [[[0.8, 0.8], [1.6, 0.8], [1.6, 1.4], [0.8, 1.4], [0.8, 0.8]]]}
+  }
+ ]
+}
