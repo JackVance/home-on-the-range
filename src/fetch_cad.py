@@ -53,12 +53,20 @@ TCAD_FIELDS = {
     "situs_street":  (1050, 1099),
     "situs_city":    (1110, 1139),
     "situs_zip":     (1140, 1149),
+    "legal_acreage": (1660, 1675),
     "appraised_val": (1916, 1930),
     "assessed_val":  (1946, 1960),
     "deed_dt":       (2034, 2058),
     "market_value":  (4214, 4227),
     "situs_num":     (4460, 4474),
 }
+
+# IMP_DET.TXT / IMP_ATR.TXT offsets (same layout doc, lengths accumulated).
+IMPDET_FIELDS = {"prop_id": (1, 12), "type_desc": (51, 75),
+                 "yr_built": (86, 89), "area": (94, 108)}
+IMPATR_FIELDS = {"prop_id": (1, 12), "attr_desc": (53, 77), "attr_cd": (78, 87)}
+TCAD_ATTRS = {"Foundation": "foundation", "Roof Covering": "roof",
+              "Roof Style": "roof_style"}
 
 
 def _get(url: str) -> bytes:
@@ -109,7 +117,7 @@ def fetch_williamson() -> list[dict]:
         in_list = ",".join(f"'{x}'" for x in chunk)
         q = urllib.parse.urlencode({
             "$select": "propertyid,quickrefid,currmarketvalue,"
-                       "currimprovmentvalue,situs",
+                       "currassessedvalue,currimprovmentvalue,situs",
             "$where": f"propertyid in({in_list})",
             "$limit": BATCH,
         })
@@ -120,10 +128,12 @@ def fetch_williamson() -> list[dict]:
                 continue
             pid = p["propertyid"]
             mv = p.get("currmarketvalue")
+            av = p.get("currassessedvalue")
             recs[pid] = {
                 "address": (p.get("situs") or "").strip(),
                 "deed_date": deeds.get(pid),
                 "value": int(float(mv)) if mv else None,
+                "assessed": int(float(av)) if av else None,
                 "value_kind": "market (WCAD)",
             }
         if (i // BATCH) % 40 == 0:
@@ -131,13 +141,43 @@ def fetch_williamson() -> list[dict]:
     print(f">> WCAD: {len(recs)} improved-residential transfers "
           f"({skipped_type} mobile/personal/unimproved skipped)", flush=True)
 
-    out: list[dict] = []
+    # Segment (MA = main area) -> year built, living sqft, construction
+    # extras. Enriches `recs` BEFORE the geometry pass copies them out.
+    WCAD_SEGMENT = "https://data.wcad.org/resource/4kxj-e8c3.json"
     ids = sorted(recs)
     for i in range(0, len(ids), BATCH):
         chunk = ids[i:i + BATCH]
         in_list = ",".join(f"'{x}'" for x in chunk)
         q = urllib.parse.urlencode({
-            "$select": "propertyid,geometry,resyrblt,resflrarea",
+            "$select": "propertyid,type,actyrbuilt,area,roof,foundation,extfinish",
+            "$where": f"propertyid in({in_list}) AND type = 'MA'",
+            "$limit": BATCH * 4,
+        })
+        for s in _get_json(f"{WCAD_SEGMENT}?{q}"):
+            rec = recs.get(s.get("propertyid", ""))
+            if not rec:
+                continue
+            if s.get("area"):
+                rec["sqft"] = int(rec.get("sqft") or 0) + int(float(s["area"]))
+            if s.get("actyrbuilt") and float(s["actyrbuilt"]) > 1800:
+                rec["year_built"] = min(rec.get("year_built") or 9999,
+                                        int(float(s["actyrbuilt"])))
+            extras = rec.setdefault("extras", {})
+            for src, dst in (("roof", "roof"), ("foundation", "foundation"),
+                             ("extfinish", "exterior")):
+                if s.get(src):
+                    extras.setdefault(dst, s[src])
+        if (i // BATCH) % 40 == 0:
+            print(f">> WCAD segments joined: {i}/{len(ids)}", flush=True)
+
+    from pyproj import Geod
+    _geod = Geod(ellps="WGS84")
+    out: list[dict] = []
+    for i in range(0, len(ids), BATCH):
+        chunk = ids[i:i + BATCH]
+        in_list = ",".join(f"'{x}'" for x in chunk)
+        q = urllib.parse.urlencode({
+            "$select": "propertyid,geometry",
             "$where": f"propertyid in({in_list})",
             "$limit": BATCH,
         })
@@ -146,11 +186,14 @@ def fetch_williamson() -> list[dict]:
             rec = recs.get(p.get("propertyid", ""))
             if not geom or not rec:
                 continue
-            c = shape(geom).centroid
+            g = shape(geom)
+            c = g.centroid
+            # Acres from the parcel polygon itself (no acreage column is
+            # published); geodesic area, EPSG:4326 in.
+            a, _ = _geod.geometry_area_perimeter(g)
             out.append({
                 "lon": round(c.x, 6), "lat": round(c.y, 6), **rec,
-                "year_built": int(float(p["resyrblt"])) if p.get("resyrblt") else None,
-                "sqft": int(float(p["resflrarea"])) if p.get("resflrarea") else None,
+                "acres": round(abs(a) * 0.000247105, 3) or None,
             })
         if (i // BATCH) % 40 == 0:
             print(f">> WCAD geometry joined: {len(out)}/{len(recs)}", flush=True)
@@ -200,15 +243,23 @@ def parse_tcad_roll() -> dict[str, dict]:
                     break
                 except ValueError:
                     continue
-            if deed is None or deed < cut:
+            # Future-dated deeds are CAD entry errors — they'd inflate every
+            # rate window, so drop them.
+            if deed is None or deed < cut or deed > date.today():
                 continue
             # Normalize: the roll zero-pads prop_id ('000000100008') but the
             # GIS layer returns integers — key both sides unpadded.
             pid = _slice(raw, "prop_id").lstrip("0")
             mv = _slice(raw, "market_value")
+            av = _slice(raw, "assessed_val")
+            acres = _slice(raw, "legal_acreage")
             out[pid] = {
                 "deed_date": deed.isoformat(),
                 "value": int(mv) if mv.isdigit() else None,
+                "assessed": int(av) if av.isdigit() else None,
+                # legal_acreage carries 3 implied decimals (6456 = 6.456 ac).
+                "acres": round(float(acres) / 1000, 3) if acres and
+                         acres.replace(".", "").isdigit() and float(acres) else None,
                 "value_kind": "market (TCAD appraisal)",
                 "address": " ".join(x for x in (
                     _slice(raw, "situs_num"), _slice(raw, "situs_street"),
@@ -216,7 +267,47 @@ def parse_tcad_roll() -> dict[str, dict]:
             }
     print(f">> TCAD roll: scanned {scanned} rows, "
           f"{len(out)} recent real-property transfers", flush=True)
+    _enrich_travis(out)
     return out
+
+
+def _fw(line: str, fields: dict, name: str) -> str:
+    a, b = fields[name]
+    return line[a - 1:b].strip()
+
+
+def _enrich_travis(transfers: dict[str, dict]) -> None:
+    """Stream IMP_DET (living sqft = summed floor areas, year built) and
+    IMP_ATR (foundation/roof) for just the transferred prop_ids."""
+    z = zipfile.ZipFile(TCAD_ROLL)
+    pids = set(transfers)
+    print(">> TCAD: enriching from IMP_DET (2GB stream) ...", flush=True)
+    with z.open("IMP_DET.TXT") as fh:
+        for raw in io.TextIOWrapper(fh, encoding="latin-1", errors="replace"):
+            pid = _fw(raw, IMPDET_FIELDS, "prop_id").lstrip("0")
+            if pid not in pids:
+                continue
+            rec = transfers[pid]
+            desc = _fw(raw, IMPDET_FIELDS, "type_desc").lower()
+            if "floor" in desc:
+                area = _fw(raw, IMPDET_FIELDS, "area")
+                try:
+                    rec["sqft"] = int(rec.get("sqft") or 0) + int(float(area))
+                except ValueError:
+                    pass
+                yr = _fw(raw, IMPDET_FIELDS, "yr_built")
+                if yr.isdigit() and int(yr) > 1800:
+                    rec["year_built"] = min(rec.get("year_built") or 9999, int(yr))
+    print(">> TCAD: enriching from IMP_ATR ...", flush=True)
+    with z.open("IMP_ATR.TXT") as fh:
+        for raw in io.TextIOWrapper(fh, encoding="latin-1", errors="replace"):
+            pid = _fw(raw, IMPATR_FIELDS, "prop_id").lstrip("0")
+            if pid not in pids:
+                continue
+            key = TCAD_ATTRS.get(_fw(raw, IMPATR_FIELDS, "attr_desc"))
+            if key:
+                extras = transfers[pid].setdefault("extras", {})
+                extras.setdefault(key, _fw(raw, IMPATR_FIELDS, "attr_cd"))
 
 
 def fetch_travis() -> list[dict]:
@@ -270,6 +361,10 @@ def _hays_table(kind: str) -> Path:
             return p
         if kind == "property" and '"TaxingUnitList"' in header and '"Situs"' in header:
             return p
+        if kind == "segment" and '"ActYrBuilt"' in header and '"Bedrooms"' in header:
+            return p
+        if kind == "land" and '"LandType"' in header and '"Acres"' in header:
+            return p
     raise FileNotFoundError(f"Hays {kind} table not found in {HAYS_INNER} — "
                             f"download + extract the Hays CAD export first")
 
@@ -297,6 +392,7 @@ def fetch_hays() -> list[dict]:
     print(f">> Hays: {len(deeds)} properties with deeds since {cut}", flush=True)
 
     recs: dict[tuple, dict] = {}
+    pid_to_rec: dict[str, dict] = {}
     unmatched = 0
     skipped_type = 0
     with open(_hays_table("property"), encoding="latin-1") as f:
@@ -314,14 +410,17 @@ def fetch_hays() -> list[dict]:
             key = _addr_key(row.get("SitusStreetNumber"),
                             row.get("SitusStreetName"))
             mv = row.get("CurrMarketValue") or ""
+            av = row.get("CurrAssessedValue") or ""
             sqft = row.get("SquareFootage") or ""
             rec = {
                 "address": (row.get("Situs") or "").strip(),
                 "deed_date": deeds[pid],
                 "value": int(float(mv)) if mv else None,
+                "assessed": int(float(av)) if av else None,
                 "value_kind": "market (Hays CAD)",
                 "sqft": int(float(sqft)) if sqft else None,
             }
+            pid_to_rec[pid] = rec
             if key:
                 recs[key] = rec
             else:
@@ -329,6 +428,34 @@ def fetch_hays() -> list[dict]:
     print(f">> Hays: {len(recs)} improved-residential transfers to geolocate "
           f"({unmatched} unusable situs; {skipped_type} mobile/personal/"
           f"unimproved skipped)", flush=True)
+
+    # SEGMENT (MA rows): year built + the construction/bedroom extras — Hays
+    # is the only county publishing bedrooms/fireplace/HVAC.
+    with open(_hays_table("segment"), encoding="latin-1") as f:
+        for row in csv.DictReader(f):
+            rec = pid_to_rec.get(row.get("PropertyID", ""))
+            if not rec or row.get("Type") != "MA":
+                continue
+            yr = row.get("ActYrBuilt") or ""
+            if yr and float(yr) > 1800:
+                rec["year_built"] = min(rec.get("year_built") or 9999,
+                                        int(float(yr)))
+            extras = rec.setdefault("extras", {})
+            for src, dst in (("Bedrooms", "bedrooms"), ("Fireplace", "fireplace"),
+                             ("HeatAC", "heat_ac"), ("Roof", "roof"),
+                             ("Foundation", "foundation"),
+                             ("ExtFinish", "exterior")):
+                if row.get(src):
+                    extras.setdefault(dst, row[src])
+    # LAND: lot acres (summed across land segments).
+    with open(_hays_table("land"), encoding="latin-1") as f:
+        for row in csv.DictReader(f):
+            rec = pid_to_rec.get(row.get("PropertyID", ""))
+            if not rec:
+                continue
+            acres = row.get("Acres") or ""
+            if acres:
+                rec["acres"] = round((rec.get("acres") or 0) + float(acres), 3)
 
     # County-wide 911 address points (paginated).
     points: dict[tuple, tuple[float, float]] = {}
@@ -396,6 +523,14 @@ def main(counties: list[str] | None = None) -> int:
             transfers = []
             print(f">> {county}: skipped, no cache", flush=True)
         all_transfers += transfers
+    # Universal guard: future-dated deeds are CAD entry errors.
+    today = date.today().isoformat()
+    n_future = sum(1 for t in all_transfers if (t.get("deed_date") or "") > today)
+    if n_future:
+        print(f">> dropping {n_future} future-dated deeds (CAD entry errors)",
+              flush=True)
+        all_transfers = [t for t in all_transfers
+                         if (t.get("deed_date") or "") <= today]
     print(f">> total transfers with location: {len(all_transfers)}", flush=True)
 
     zones = {}

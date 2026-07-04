@@ -106,6 +106,15 @@ const BASEMAPS = {
 BASEMAPS["Light"].addTo(map);
 L.control.layers(BASEMAPS, null, { position: "topleft", collapsed: false }).addTo(map);
 
+// Z-order: zone FILLS below transfer pins (pins stay clickable), zone
+// BORDERS above pins for visibility — but border pane ignores the mouse so
+// it never steals pin clicks.
+map.createPane("zonefill").style.zIndex = 410;
+map.createPane("cadpins").style.zIndex = 430;
+const borderPane = map.createPane("zoneborder");
+borderPane.style.zIndex = 450;
+borderPane.style.pointerEvents = "none";
+
 async function maybeJson(url) {
   try { const r = await fetch(url); return r.ok ? await r.json() : null; }
   catch { return null; }
@@ -138,12 +147,17 @@ function demographicsHtml(d) {
   return `${coarse}<table class="stats">
     ${statRow("Population (ACS)", pop, false)}
     ${statRow("Median HH income", med, false)}
+  </table>
+  <details><summary style="cursor:pointer; font-size:12.5px; color:#33566e">
+      demographics</summary>
+    <table class="stats">
     ${statRow("Hispanic", sh.pct_hispanic, true)}
     ${statRow("Non-Hisp. White", sh.pct_nh_white, true)}
     ${statRow("Non-Hisp. Black", sh.pct_nh_black, true)}
     ${statRow("Non-Hisp. Asian", sh.pct_nh_asian, true)}
     ${statRow("Bachelor's+", edu, true)}
-  </table>`;
+    </table>
+  </details>`;
 }
 
 // Ethnic dot map: pre-generated dots (src/make_dots.py, 2020 decennial P2).
@@ -228,7 +242,7 @@ const FILL = 0.08;
 // Recent deed transfers (data/cad/<zone>.transfers.json, committed snapshots).
 // Pins are grouped per zone and follow zone visibility. Viewer renders the
 // committed values verbatim — value_kind says what the number is.
-const canvasRenderer = L.canvas({ padding: 0.4 });
+const canvasRenderer = L.canvas({ padding: 0.4, pane: "cadpins" });
 let cadOn = false;
 const cadData = {};      // name -> transfers payload (lazy)
 const cadGroups = {};    // name -> L.layerGroup built for the CURRENT filter
@@ -245,18 +259,35 @@ function cadFilter() {
               (t.value == null ? min === 0 : (t.value >= min && t.value <= max));
 }
 
+function transferPopup(t) {
+  const lines = [`<b>${t.address || "(no address)"}</b>`,
+                 `transferred ${t.deed_date}`];
+  if (t.value != null) lines.push(
+    `${fmtVal(t.value)} <span style="color:#777">${t.value_kind}</span>`);
+  if (t.assessed != null && t.assessed !== t.value)
+    lines.push(`${fmtVal(t.assessed)} <span style="color:#777">assessed</span>`);
+  const facts = [];
+  if (t.sqft) facts.push(`${t.sqft.toLocaleString()} sqft`);
+  if (t.year_built) facts.push(`built ${t.year_built}`);
+  if (t.acres) facts.push(`${t.acres} ac lot`);
+  if (facts.length) lines.push(facts.join(" · "));
+  const ex = t.extras || {};
+  const exRows = Object.entries(ex)
+    .map(([k, v]) => `${k.replace("_", "/")}: ${v}`).join("<br>");
+  const details = exRows
+    ? `<details style="margin-top:4px"><summary style="cursor:pointer;
+        color:#33566e">details</summary>${exRows}</details>` : "";
+  return lines.join("<br>") + details;
+}
+
 function buildGroup(name) {
   const keep = cadFilter();
   return L.layerGroup(cadData[name].transfers.filter(keep).map(t =>
     L.circleMarker([t.lat, t.lon], {
       renderer: canvasRenderer, radius: 3.5, weight: 1,
       color: "#7d3c98", fillColor: "#af7ac5", fillOpacity: 0.8,
-    }).bindPopup(
-      `<b>${t.address || "(no address)"}</b><br>` +
-      `deed date: ${t.deed_date}<br>` +
-      `${fmtVal(t.value)} <span style="color:#777">(${t.value_kind})</span>` +
-      (t.year_built ? `<br>built ${t.year_built}` : "") +
-      (t.sqft ? ` · ${t.sqft.toLocaleString()} sqft` : ""))));
+      pane: "cadpins",
+    }).bindPopup(transferPopup(t))));
 }
 
 async function cadGroup(name) {
@@ -362,9 +393,14 @@ function transfersHtml(cad) {
 
     let entry = null;
     if (fc) {
-      const layer = L.geoJSON(fc, { style: { color, weight: 2.5, fillOpacity: FILL } })
+      // Fill layer: interactive (zone clicks), sits BELOW pins.
+      const layer = L.geoJSON(fc, { pane: "zonefill",
+        style: { color, weight: 0, fillOpacity: FILL } })
         .bindTooltip(z.high_school).addTo(map);
-      entry = { name, layer, visible: true };
+      // Border layer: drawn ABOVE pins, mouse-transparent.
+      const border = L.geoJSON(fc, { pane: "zoneborder", interactive: false,
+        style: { color, weight: 2.5, fill: false } }).addTo(map);
+      entry = { name, layer, border, visible: true };
       zoneLayers.push(entry);
     }
 
@@ -419,12 +455,16 @@ function transfersHtml(cad) {
       box.onclick = (ev) => ev.stopPropagation();
       box.onchange = (ev) => {
         entry.visible = ev.target.checked;
-        if (entry.visible) { entry.layer.addTo(map); applyStyle(entry); }
-        else map.removeLayer(entry.layer);
+        if (entry.visible) {
+          entry.layer.addTo(map); entry.border.addTo(map); applyStyle(entry);
+        } else {
+          map.removeLayer(entry.layer); map.removeLayer(entry.border);
+        }
         if (cadOn) syncCad();
       };
     }
     card.querySelectorAll(".links a").forEach(a => a.onclick = ev => ev.stopPropagation());
+    card.querySelectorAll("details").forEach(dt => dt.onclick = ev => ev.stopPropagation());
     panel.appendChild(card);
   }
 
