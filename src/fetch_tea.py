@@ -86,7 +86,18 @@ def main() -> int:
     for zone_key, z in cfg.items():
         r = match_campus(zone_key, z["high_school"], z["district"], rows)
         if r is None:
-            unmatched.append(f"{zone_key} ({z['high_school']}, {z['district']})")
+            # Absence of data must be explained, never silent: zones with a
+            # configured tea_note get a stub artifact carrying the reason.
+            note = z.get("tea_note")
+            if note:
+                (OUT_DIR / f"{zone_key}.school.json").write_text(
+                    json.dumps({"rating": None, "note": note,
+                                "as_of": date.today().isoformat()},
+                               indent=1, sort_keys=True) + "\n",
+                    encoding="utf-8", newline="\n")
+                print(f">> {zone_key}: no TEA campus — noted: {note}")
+            else:
+                unmatched.append(f"{zone_key} ({z['high_school']}, {z['district']})")
             continue
         distinctions = r.get("distinctions") or []
         payload = {

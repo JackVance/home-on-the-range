@@ -662,6 +662,7 @@ district_effective_year = "2026-27"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=liberty-hill-hs"]
 
 [libertyhill-legacy-ranch]
+tea_note          = "not yet rated — campus opened 2025, first accountability cycle pending"
 district          = "Liberty Hill ISD"
 high_school       = "Legacy Ranch HS"
 counties          = ["48491"]
@@ -810,6 +811,7 @@ district_effective_year = "current (single-HS district = district boundary)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=bartlett-hs"]
 
 [coupland-coupland]
+tea_note          = "no high school — K-8 district; HS students transfer by agreement"
 district          = "Coupland ISD"
 high_school       = "Coupland (K-8, no HS)"
 counties          = ["48491"]
@@ -822,3 +824,38 @@ expected_features = 1
 expected_area_km2 = 110   # pinned to measured geodesic
 district_effective_year = "K-8 district — NO high school; HS students transfer by agreement (Taylor/Elgin)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=coupland"]
+
+# --- Added 2026-07-04: Glenn HS (the LISD zone skipped in the first batch
+# --- — its absence WAS the Leander/Liberty Hill gap) and Thorndale ISD
+# --- (Milam-based edge district, 45.6 km2 of E Williamson). ---
+
+[leander-glenn]
+district          = "Leander ISD"
+high_school       = "Glenn HS"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"   # clip to TIGER district line
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
+boundary_where    = "DisplayName='Glenn High School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 115   # pinned to measured geodesic
+# NOTE: LISD splits some feeder patterns 9-10/11-12; layer 5 (9th-10th) used.
+# Verify Glenn 11th-12th zone (layer 7) matches at the one-time eyeball.
+district_effective_year = "2024-25"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=glenn-high-school"]
+
+[thorndale-thorndale]
+district          = "Thorndale ISD"
+high_school       = "Thorndale HS"
+counties          = ["48331", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4842630'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 348   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=thorndale-high-school"]

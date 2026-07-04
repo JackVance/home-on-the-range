@@ -636,11 +636,12 @@ document.getElementById("addfilter").onclick = (ev) => {
 const GRADE_COLORS = { A: "#1d6b2a", B: "#1a7f8a", C: "#8a6d00",
                        D: "#a04000", F: "#943126" };
 function schoolHtml(sch) {
-  if (!sch) return "";
+  if (!sch) return `<div style="font-size:12.5px; margin:4px 0;" class="moe">
+    TEA rating: no data</div>`;
   const g = sch.rating;
   if (!g || g === "Not Rated") {
     return `<div style="font-size:12.5px; margin:4px 0;" class="moe">
-      TEA rating: not rated</div>`;
+      TEA rating: ${sch.note || "not rated"}</div>`;
   }
   const badge = `<span style="display:inline-block; background:${GRADE_COLORS[g] || "#5a6b7a"};
     color:#fff; font-weight:700; border-radius:4px; padding:0 7px;">${g}</span>`;
