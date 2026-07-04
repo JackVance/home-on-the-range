@@ -29,14 +29,28 @@ OUT_DIR = ROOT / "data" / "schools"
 URL = "https://txschools.gov/data/schools.json"
 
 # Zone key -> exact TEA campus name, where token matching would misfire.
+# Overrides bypass the level/grade filters (e.g. Legacy Ranch HS carries
+# high_grade 09 while it grows a grade per year).
 OVERRIDES = {
     "hayscisd-hays": "Jack C Hays HS",
     "hayscisd-johnson": "Moe and Gene Johnson HS",
+    "johnsoncity-johnsoncity": "Lyndon B Johnson HS",
+    "austin-travis-heights-es-es": "Travis Hts Elem",
+    "austin-norman-sims-es-es": "Norman-Sims Elem",
+    "austin-s-nchez-es-es": "Sanchez Elem",
+    "pflugerville-spring-hill-elementary-es": "Springhill Elem",
+    "libertyhill-legacy-ranch": "Legacy Ranch HS",
 }
 
 
 def norm(s: str) -> str:
-    return "".join(c for c in (s or "").lower() if c.isalnum() or c == " ").strip()
+    import unicodedata
+    s = unicodedata.normalize("NFD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    # hyphens split words ('Norman-Sims' -> 'norman sims')
+    s = s.replace("-", " ")
+    return " ".join("".join(c for c in s.lower()
+                            if c.isalnum() or c == " ").split())
 
 
 def fetch_schools() -> list[dict]:
@@ -49,11 +63,30 @@ def fetch_schools() -> list[dict]:
     return json.loads(raw)
 
 
+# Suffix noise stripped before name matching, per level.
+_SUFFIXES = {"school", "elementary", "middle", "high", "hs", "ms", "es",
+             "elem", "attendance", "zone", "echs", "int"}
+
+
+def _base(name: str) -> str:
+    words = [w for w in norm(name).split() if w not in _SUFFIXES]
+    return " ".join(words)
+
+
+def _level_filter(r: dict, level: str) -> bool:
+    ct = r.get("campus_type") or ""
+    if level == "middle":
+        return "Middle" in ct or ct == "Junior High"
+    if level == "elementary":
+        return ct == "Elementary"
+    return r.get("high_grade_cd") == "12"   # high (default)
+
+
 def match_campus(zone_key: str, hs: str, district: str,
-                 rows: list[dict]) -> dict | None:
+                 rows: list[dict], level: str = "high") -> dict | None:
     cands = [r for r in rows
              if norm(r.get("district_name")) == norm(district)
-             and r.get("high_grade_cd") == "12"
+             and _level_filter(r, level)
              and r.get("entity_cd") == "C"
              # Exclude alternative-standards/online campuses: without this,
              # 'Travis ECHS' matched 'Travis County JJAEP' (caught by the
@@ -66,20 +99,29 @@ def match_campus(zone_key: str, hs: str, district: str,
              and r.get("enrollment_type") != "Special Assignment School"]
     want = OVERRIDES.get(zone_key)
     if want:
-        for r in cands:
-            if norm(r["name"]) == norm(want):
+        # Search the district unfiltered by level/grade (new campuses grow
+        # a grade per year and would fail the grade-12 filter).
+        for r in rows:
+            if norm(r.get("district_name")) == norm(district) and \
+               r.get("entity_cd") == "C" and norm(r["name"]) == norm(want):
                 return r
         return None
-    # First distinctive token of the zone's school name must appear in the
-    # TEA campus name ("Eastside ECHS" -> "Eastside Early College HS").
-    token = norm(hs).split()[0]
-    hits = [r for r in cands if token in norm(r["name"]).split()]
+    # Suffix-stripped prefix match: 'Oak Hill' matches 'Oak Hill Elem' but
+    # not 'Oak Springs Elem' (first-token matching would hit both).
+    base = _base(hs)
+    hits = [r for r in cands if _base(r["name"]) == base]
+    if not hits:
+        hits = [r for r in cands if _base(r["name"]).startswith(base)]
+    if not hits:
+        # TEA formal names wrap the common name ('Connally' -> 'John B
+        # Connally HS'); fall back to whole-token containment.
+        toks = set(base.split())
+        hits = [r for r in cands if toks <= set(_base(r["name"]).split())]
     if len(hits) == 1:
         return hits[0]
     # Disambiguate multi-hits by largest enrollment — the zoned comprehensive
     # campus is always the big one (a name-length tie-break once picked a
     # 7-student JJAEP over a 1,010-student ECHS).
-    hits = [r for r in hits if norm(r["name"]).startswith(token)]
     return max(hits, key=lambda r: r.get("enrollment") or 0) if hits else None
 
 
@@ -87,14 +129,36 @@ def grade(r: dict, g: str, s: str) -> dict:
     return {"grade": r.get(g) or None, "score": r.get(s) if r.get(s) != "" else None}
 
 
+def fetch_districts() -> list[dict]:
+    req = urllib.request.Request("https://txschools.gov/data/districts.json",
+                                 headers={"User-Agent": "home-finder/0.1",
+                                          "Accept-Encoding": "gzip"})
+    with urllib.request.urlopen(req, timeout=120) as r:
+        raw = r.read()
+    if raw[:2] == b"\x1f\x8b":
+        raw = gzip.decompress(raw)
+    return json.loads(raw)
+
+
+def match_district(district: str, drows: list[dict]) -> dict | None:
+    for r in drows:
+        if norm(r.get("district_name") or r.get("name")) == norm(district):
+            return r
+    return None
+
+
 def main() -> int:
     rows = fetch_schools()
-    print(f">> TEA dataset: {len(rows)} campuses statewide")
+    drows = fetch_districts()
+    print(f">> TEA dataset: {len(rows)} campuses, {len(drows)} districts")
     cfg = tomllib.loads((ROOT / "zones.toml").read_text(encoding="utf-8"))
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     unmatched = []
     for zone_key, z in cfg.items():
-        r = match_campus(zone_key, z["high_school"], z["district"], rows)
+        level = z.get("level", "high")
+        r = (match_district(z["district"], drows) if level == "district"
+             else match_campus(zone_key, z["high_school"], z["district"],
+                               rows, level))
         if r is None:
             # Absence of data must be explained, never silent: zones with a
             # configured tea_note get a stub artifact carrying the reason.
@@ -110,9 +174,10 @@ def main() -> int:
                 unmatched.append(f"{zone_key} ({z['high_school']}, {z['district']})")
             continue
         distinctions = r.get("distinctions") or []
+        view = "district" if level == "district" else "school"
         payload = {
             "campus_id": r["id"],
-            "campus_name": r["name"],
+            "campus_name": r.get("name") or r.get("district_name"),
             "district": r.get("district_name"),
             "rating": r.get("rating") or None,
             "score": r.get("score") if r.get("score") != "" else None,
@@ -128,7 +193,7 @@ def main() -> int:
             "latitude": r.get("latitude"),
             "longitude": r.get("longitude"),
             "distinctions_earned": sum(1 for d in distinctions if d == "Y"),
-            "report_url": (f"https://txschools.gov/?view=school&id={r['id']}"
+            "report_url": (f"https://txschools.gov/?view={view}&id={r['id']}"
                            f"&lng=en"),
             "as_of": date.today().isoformat(),
             "source": "TEA Texas School Report Cards (txschools.gov), current "

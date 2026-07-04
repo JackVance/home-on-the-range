@@ -1,0 +1,133 @@
+>> auditing 346 zones
+
+== 1. OVERLAPS (same level) ==
+  FAIL hayscisd-buda-es ∩ hayscisd-carpenter-hill-es = 3.754 km²
+  FAIL hayscisd-buda-es ∩ hayscisd-elm-grove-es = 5.277 km²
+  FAIL hayscisd-buda-es ∩ hayscisd-sunfield-es = 13.019 km²
+  FAIL hayscisd-chapa-ms ∩ hayscisd-simon-ms = 0.109 km²
+  FAIL hayscisd-dahlstrom-ms ∩ hayscisd-mccormick-ms = 13.019 km²
+  known hayscisd-hays ∩ hayscisd-johnson = 0.058 km² (adjudicated: hand-drawn source)
+  known hayscisd-hays ∩ hayscisd-lehman = 0.135 km² (adjudicated: hand-drawn source)
+  FAIL hayscisd-ramage-es ∩ hayscisd-science-hall-es = 0.109 km²
+  6 failing pair(s)
+
+== 2. COVERAGE (multi-zone districts vs TIGER district) ==
+  NOTE Hays CISD [elementary]: 2.1 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Hays CISD [middle]: 2.1 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Hays CISD [high]: 2.9 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Austin ISD [elementary]: 3.6 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Austin ISD [middle]: 59.4 km² of district not covered by its zones — missing zone or carve-out?
+  ok   Austin ISD [high]: fully tiled (residual 0.69 km²)
+  ok   Eanes ISD [elementary]: fully tiled (residual 0.02 km²)
+  ok   Eanes ISD [middle]: fully tiled (residual 0.02 km²)
+  ok   Eanes ISD [high]: fully tiled (residual 0.02 km²)
+  NOTE Georgetown ISD [elementary]: 13.5 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Georgetown ISD [middle]: 13.5 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Georgetown ISD [high]: 13.5 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Leander ISD [elementary]: 2.9 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Leander ISD [middle]: 2.9 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Leander ISD [high]: 2.9 km² of district not covered by its zones — missing zone or carve-out?
+  NOTE Liberty Hill ISD [elementary]: 29.5 km² of district not covered by its zones — missing zone or carve-out?
+  ok   Liberty Hill ISD [middle]: fully tiled (residual 0.12 km²)
+  ok   Liberty Hill ISD [high]: fully tiled (residual 0.12 km²)
+  ok   Pflugerville ISD [elementary]: fully tiled (residual 0.74 km²)
+  ok   Pflugerville ISD [middle]: fully tiled (residual 0.74 km²)
+  ok   Pflugerville ISD [high]: fully tiled (residual 0.78 km²)
+  ok   Round Rock ISD [elementary]: fully tiled (residual 0.23 km²)
+  ok   Round Rock ISD [middle]: fully tiled (residual 0.23 km²)
+  ok   Round Rock ISD [high]: fully tiled (residual 0.23 km²)
+
+== 3. CONTAINS (zone must contain its own campus point) ==
+  FAIL austin-langford-es-es: campus Langford Elem at (30.1648142, -97.74376032) is OUTSIDE its zone — wrong layer/name?
+  FAIL austin-pecan-springs-es-es: campus Pecan Springs Elem at (30.31400812, -97.66544076) is OUTSIDE its zone — wrong layer/name?
+  FAIL eanes-forest-trail-es: campus Forest Trail Elem at (30.28105187, -97.82008091) is OUTSIDE its zone — wrong layer/name?
+  FAIL hayscisd-carpenter-hill-es: campus Carpenter Hill Elem at (30.084353, -97.823411) is OUTSIDE its zone — wrong layer/name?
+  274 campuses checked; 4 FAILURES
+
+== 4. ROSTER (TEA campuses vs registered zones, per district) ==
+  NOTE Hays CISD [middle]: campus 'R C Barton MS' [105906041] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Hays CISD [middle]: campus 'Eric Dahlstrom MS' [105906043] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Hays CISD [middle]: campus 'Laura B Wallace MS' [105906044] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Hays CISD [middle]: campus 'Armando Chapa MS' [105906045] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Hays CISD [middle]: campus 'D J Red Simon MS' [105906046] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Hays CISD [middle]: campus 'Dr T C McCormick Jr MS' [105906047] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Hays CISD [elementary]: campus 'Susie Fuentes Elem' [105906108] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Hays CISD [elementary]: campus 'Laura B Negley Elem' [105906111] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Hays CISD [elementary]: campus 'Ralph Pfluger Elem' [105906116] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Hays CISD [elementary]: campus 'Jim Cullen Elem' [105906120] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [high]: campus 'Lasa HS' [227901018] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [high]: campus 'Richards Sch for Young Women Leaders' [227901028] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [middle]: campus 'Martin MS' [227901051] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [middle]: campus 'Bedichek MS' [227901054] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [middle]: campus 'General Marshall MS' [227901063] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [middle]: campus 'Garcia YMLA' [227901064] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [middle]: campus 'Sadler Means YWLA' [227901065] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Becker Elem' [227901104] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Dawson Elem' [227901114] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Oak Springs Elem' [227901125] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Sanchez Elem' [227901127] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Ridgetop Elem' [227901133] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Travis Hts Elem' [227901140] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Barrington Elem' [227901149] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Norman-Sims Elem' [227901150] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Odom Elem' [227901156] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Winn Montessori' [227901157] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Sunset Valley Elem' [227901158] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Widen Elem' [227901175] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Uphaus Early Childhood Center' [227901177] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [elementary]: campus 'Austin ISD Prek Partnership (Pkp)' [227901194] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [high]: campus 'Greenleaf NCC' [227901199] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Austin ISD [high]: campus 'Rosedale' [227901251] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Pflugerville ISD [elementary]: campus 'Springhill Elem' [227904109] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Pflugerville ISD [elementary]: campus 'Wilhelmina Delco Elem' [227904113] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Pflugerville ISD [elementary]: campus 'Ruth Barron Elem' [227904119] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Manor ISD [high]: campus 'Manor New Technology High' [227907004] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Eanes ISD [high]: campus 'Adult Transition Services' [227909005] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Georgetown ISD [middle]: campus 'Douglas Benold MS' [246904040] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Georgetown ISD [middle]: campus 'James Tippit MS' [246904041] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Georgetown ISD [middle]: campus 'Charles A Forbes MS' [246904042] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Georgetown ISD [middle]: campus 'George Wagner MS' [246904045] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Georgetown ISD [elementary]: campus 'Annie Purl Elem' [246904101] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Georgetown ISD [elementary]: campus 'Pat Cooper Elem' [246904104] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Georgetown ISD [elementary]: campus 'Raye McCoy Elem' [246904106] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Georgetown ISD [elementary]: campus 'Jo Ann Ford Elem' [246904109] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Georgetown ISD [elementary]: campus 'James E Mitchell Elem' [246904110] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Liberty Hill ISD [elementary]: campus 'Louine Noble Elem' [246908102] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [high]: campus 'Round Rock Opport Ctr DAEP' [246909002] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [high]: campus 'RRISD Early College HS' [246909015] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [middle]: campus 'C D Fulkes MS' [246909041] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [middle]: campus 'Noel Grisham MS' [246909042] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [middle]: campus 'James Garland Walsh MS' [246909052] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [middle]: campus 'PFC Robert P Hernandez MS' [246909053] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Claude Berkman Elem' [246909101] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'El DEAP' [246909102] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Xenia Voigt Elem' [246909106] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Kathy Caraway Elem' [246909110] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Vic Robertson Elem' [246909111] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Joe Lee Johnson Elem' [246909129] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Patsy Sommer Elem' [246909134] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Neysa Callison Elem' [246909136] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Linda Herrington Elem' [246909138] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Elsa England Elem' [246909139] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Round Rock ISD [elementary]: campus 'Rrisdpk3p' [246909140] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Taylor ISD [high]: campus 'Legacy Early College HS' [246911009] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [middle]: campus 'Artie L Henry MS' [246913044] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [middle]: campus 'Knox Wiley MS' [246913046] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [middle]: campus 'Florence W Stiles MS' [246913048] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [middle]: campus 'Stacy Kaye Danielson MS' [246913049] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Ada Mae Faubion Elem' [246913102] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'C C Mason Elem' [246913105] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Lois F Giddens Elem' [246913106] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Pauline Naumann Elem' [246913108] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Charlotte Cox Elem' [246913110] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Laura Welch Bush Elem' [246913111] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Patricia Knowles Elem' [246913112] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Jim Plain Elem' [246913116] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'William J Winkley Elem' [246913117] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Ronald Reagan Elem' [246913122] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Officer Leonard A Reed Elem' [246913124] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Christine Camacho Elem' [246913125] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Monta Jane Akin Elem' [246913126] has no registered zone (magnet/choice/new — adjudicate)
+  NOTE Leander ISD [elementary]: campus 'Donald Lewis Hisle' [246913130] has no registered zone (magnet/choice/new — adjudicate)
+
+== RESULT: FAIL (overlaps=6, containment=4; coverage/roster notes are judgment calls)

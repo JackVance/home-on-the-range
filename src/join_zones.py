@@ -30,6 +30,7 @@ import sys
 from pathlib import Path
 
 from shapely.geometry import shape
+from shapely.prepared import prep
 
 # ---------------------------------------------------------------------------
 # Module constants — cached judgment calls live in CODE, not zones.toml,
@@ -62,6 +63,20 @@ B19001_BRACKETS = [
 # Apportionment core
 # ---------------------------------------------------------------------------
 
+def _block_xy(b: dict) -> tuple[float, float]:
+    """Cached block point coords (blocks are Point geometries from TIGERweb)."""
+    xy = b.get("_xy")
+    if xy is None:
+        g = b["geometry"]
+        if g["type"] == "Point":
+            xy = tuple(g["coordinates"][:2])
+        else:
+            c = shape(g).centroid
+            xy = (c.x, c.y)
+        b["_xy"] = xy
+    return xy
+
+
 def block_weights(zone_geom, blocks: list[dict], weight_field: str,
                   geo_chars: int = 12) -> dict[str, float]:
     """Per-geography share of `weight_field` inside the zone.
@@ -70,14 +85,21 @@ def block_weights(zone_geom, blocks: list[dict], weight_field: str,
               "geometry": GeoJSON geometry}], all EPSG:4326.
     geo_chars slices the containing geography off the block GEOID (2020
     vintage nesting, asserted at ingest): 12 = block group, 11 = tract.
+    Bbox prefilter + prepared geometry: ~200 zones x ~50k blocks is minutes,
+    not an hour.
     """
+    from shapely.geometry import Point
+    prepared = prep(zone_geom)
+    minx, miny, maxx, maxy = zone_geom.bounds
     zone_w: dict[str, float] = {}
     total_w: dict[str, float] = {}
     for b in blocks:
         geo = b["GEOID"][:geo_chars]
         w = float(b.get(weight_field, 0) or 0)
         total_w[geo] = total_w.get(geo, 0.0) + w
-        if shape(b["geometry"]).centroid.within(zone_geom):
+        x, y = _block_xy(b)
+        if minx <= x <= maxx and miny <= y <= maxy and \
+           prepared.contains(Point(x, y)):
             zone_w[geo] = zone_w.get(geo, 0.0) + w
     return {
         geo: (zone_w.get(geo, 0.0) / tw) if tw else 0.0
@@ -216,8 +238,16 @@ def apportion_with_fallback(zone_geom, blocks: list[dict], table: str,
 
 
 def count_blocks_in_zone(zone_geom, blocks: list[dict]) -> int:
-    return sum(1 for b in blocks
-               if shape(b["geometry"]).centroid.within(zone_geom))
+    from shapely.geometry import Point
+    prepared = prep(zone_geom)
+    minx, miny, maxx, maxy = zone_geom.bounds
+    n = 0
+    for b in blocks:
+        x, y = _block_xy(b)
+        if minx <= x <= maxx and miny <= y <= maxy and \
+           prepared.contains(Point(x, y)):
+            n += 1
+    return n
 
 
 # ---------------------------------------------------------------------------

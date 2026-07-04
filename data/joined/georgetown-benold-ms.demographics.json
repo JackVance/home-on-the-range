@@ -1,0 +1,241 @@
+{
+ "block_count": 371,
+ "coarse_geography": false,
+ "education": {
+  "counts": {
+   "B15003_001": {
+    "cv": 0.0372,
+    "moe": 1109.9716243694313,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 18134.0693915467
+   },
+   "B15003_022": {
+    "cv": 0.0697,
+    "moe": 668.6533415796974,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 5834.8001115843235
+   },
+   "B15003_023": {
+    "cv": 0.1028,
+    "moe": 396.9118768319493,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 2347.0770417289027
+   },
+   "B15003_024": {
+    "cv": 0.1683,
+    "moe": 122.59493874426384,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 442.7123134176702
+   },
+   "B15003_025": {
+    "cv": 0.2026,
+    "moe": 78.39687585714563,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 235.1844950127184
+   }
+  },
+  "shares": {
+   "pct_bachelors_or_higher": {
+    "cv": 0.0395,
+    "moe": 0.0318,
+    "value": 0.4886
+   }
+  }
+ },
+ "income": {
+  "brackets": {
+   "B19001_001": {
+    "cv": 0.0345,
+    "moe": 532.4934228424977,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 9394.676109619053
+   },
+   "B19001_002": {
+    "cv": 0.3726,
+    "moe": 104.55848386352336,
+    "reason": "block_group CV 0.33 > 0.3",
+    "resolution": "tract",
+    "value": 170.60248114184202
+   },
+   "B19001_003": {
+    "cv": 0.4398,
+    "moe": 100.39235417401876,
+    "reason": "block_group CV 0.48 > 0.3",
+    "resolution": "tract",
+    "value": 138.77770971839104
+   },
+   "B19001_004": {
+    "cv": 0.4357,
+    "moe": 78.3497001941746,
+    "reason": "block_group CV 0.48 > 0.3",
+    "resolution": "tract",
+    "value": 109.30960618406925
+   },
+   "B19001_005": {
+    "cv": 0.3067,
+    "moe": 102.7812494704581,
+    "reason": "block_group CV 0.31 > 0.3",
+    "resolution": "tract",
+    "value": 203.7166845333136
+   },
+   "B19001_006": {
+    "cv": 0.285,
+    "moe": 104.11529996852468,
+    "reason": "block_group CV 0.31 > 0.3",
+    "resolution": "tract",
+    "value": 222.08309008125636
+   },
+   "B19001_007": {
+    "cv": 0.2226,
+    "moe": 129.14496694979505,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 352.7367556276859
+   },
+   "B19001_008": {
+    "cv": 0.3319,
+    "moe": 104.93938469964598,
+    "reason": "block_group CV 0.33 > 0.3",
+    "resolution": "tract",
+    "value": 192.21930768158228
+   },
+   "B19001_009": {
+    "cv": 0.293,
+    "moe": 133.95166150556577,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 277.88849281855477
+   },
+   "B19001_010": {
+    "cv": 0.2598,
+    "moe": 68.56731770842333,
+    "reason": "block_group CV 0.31 > 0.3",
+    "resolution": "tract",
+    "value": 160.44379920160503
+   },
+   "B19001_011": {
+    "cv": 0.1947,
+    "moe": 97.60914624815112,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 304.7061781920778
+   },
+   "B19001_012": {
+    "cv": 0.1858,
+    "moe": 201.1112583119318,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 658.1660887162194
+   },
+   "B19001_013": {
+    "cv": 0.131,
+    "moe": 276.8565796030229,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 1284.4806303469347
+   },
+   "B19001_014": {
+    "cv": 0.1175,
+    "moe": 190.9050403707408,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 987.7727336410641
+   },
+   "B19001_015": {
+    "cv": 0.153,
+    "moe": 224.1746456076614,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 890.6935338541316
+   },
+   "B19001_016": {
+    "cv": 0.1076,
+    "moe": 246.75857922754122,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 1394.1310578365426
+   },
+   "B19001_017": {
+    "cv": 0.0853,
+    "moe": 271.38129345048026,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 1934.4020512524594
+   }
+  },
+  "median_household_income": {
+   "cv": null,
+   "display": "$114,323",
+   "flag": null,
+   "moe": null,
+   "value": 114323
+  }
+ },
+ "race_ethnicity": {
+  "counts": {
+   "B03002_001": {
+    "cv": 0.0427,
+    "moe": 1679.4894032676007,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 23907.88511563915
+   },
+   "B03002_003": {
+    "cv": 0.0518,
+    "moe": 1516.34940102516,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 17790.530467590866
+   },
+   "B03002_004": {
+    "cv": 0.2543,
+    "moe": 284.0771273870691,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 678.9560697253918
+   },
+   "B03002_006": {
+    "cv": 0.2477,
+    "moe": 356.0592351412609,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 873.9274690374828
+   },
+   "B03002_012": {
+    "cv": 0.1123,
+    "moe": 635.973973772968,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 3444.14724322469
+   }
+  },
+  "shares": {
+   "pct_hispanic": {
+    "cv": 0.1038,
+    "moe": 0.0246,
+    "value": 0.1441
+   },
+   "pct_nh_asian": {
+    "cv": 0.244,
+    "moe": 0.0147,
+    "value": 0.0366
+   },
+   "pct_nh_black": {
+    "cv": 0.2507,
+    "moe": 0.0117,
+    "value": 0.0284
+   },
+   "pct_nh_white": {
+    "cv": 0.0293,
+    "moe": 0.0359,
+    "value": 0.7441
+   }
+  }
+ }
+}

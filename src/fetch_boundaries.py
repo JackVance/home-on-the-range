@@ -140,7 +140,7 @@ def query_webmap_embedded(url: str, layer_title: str, where: str) -> list[dict]:
     return out
 
 
-def query_kml(url: str, where: str) -> list[dict]:
+def query_kml(url: str, where: str, folder: str | None = None) -> list[dict]:
     """Google My Maps KML export (e.g. Hays CISD's official interactive map).
     Extracts the Placemark(s) whose <name> matches `where` and converts their
     polygons to GeoJSON features (KML coords are lon,lat[,alt] in WGS84)."""
@@ -158,9 +158,25 @@ def query_kml(url: str, where: str) -> list[dict]:
 
     field, value = _parse_where(where)   # field is always 'name' for KML
     out: list[dict] = []
-    for pm in root.iter(f"{{{ns['k']}}}Placemark"):
-        name = (pm.findtext("k:name", "", ns) or "").strip()
-        if name != value:
+    # Hand-drawn My Maps carry non-breaking-space duplicates of some names
+    # ("Blanco Vista\xa0Elementary..."); normalize before comparing.
+    clean = lambda s: " ".join((s or "").replace("\xa0", " ").split())
+    # My Maps organizes vintages as FOLDERS ("Elementary School Zones
+    # 2026-2027" vs 2025-2026) with identically-named placemarks — matching
+    # without a folder filter dissolves two years into one wrong polygon.
+    if folder:
+        scopes = [f for f in root.iter(f"{{{ns['k']}}}Folder")
+                  if clean(f.findtext("k:name", "", ns)) == clean(folder)]
+        if not scopes:
+            have = [clean(f.findtext("k:name", "", ns))
+                    for f in root.iter(f"{{{ns['k']}}}Folder")]
+            raise EmptyResult(f"no KML folder {folder!r}; has: {have}")
+    else:
+        scopes = [root]
+    for scope in scopes:
+     for pm in scope.iter(f"{{{ns['k']}}}Placemark"):
+        name = clean(pm.findtext("k:name", "", ns))
+        if name != clean(value):
             continue
         rings = []
         for poly in pm.iter(f"{{{ns['k']}}}Polygon"):
@@ -299,6 +315,9 @@ def normalize_zone(features: list[dict], zone_cfg: dict) -> dict:
             raise ReviewRequired(f"mixed/unlabeled schools in result: {names} "
                                  f"(field {field!r})")
     geom = unary_union([shape(f["geometry"]) for f in features])
+    # Validate BEFORE any set operation: hand-digitized sources ship
+    # self-intersections that make intersection() throw TopologyException.
+    geom = polygonal_part(make_valid(geom))
     # Inter-district edge alignment: district GIS is authoritative INSIDE the
     # district; the Census TIGER district line (edge-matched with every
     # neighboring district) is authoritative AT the district boundary. Clip
@@ -306,11 +325,23 @@ def normalize_zone(features: list[dict], zone_cfg: dict) -> dict:
     if zone_cfg.get("district_geoid"):
         geom = geom.intersection(district_polygon(zone_cfg["district_geoid"]))
         geom = polygonal_part(make_valid(geom))
-    geom = round_coords(geom)
-    geom = polygonal_part(make_valid(geom))   # rounding is topology-hostile
+    # Canonicalize to a FIXED POINT: dissolving many adjacent pieces (RRISD
+    # stores zones as composite cells) leaves rounding micro-seams that only
+    # settle after a second pass; iterate until byte-stable.
+    prev = None
+    for _ in range(4):
+        geom = round_coords(geom)
+        geom = polygonal_part(make_valid(geom))   # rounding is topology-hostile
+        geom = canonicalize_rings(geom)
+        cur = json.dumps(mapping(geom), sort_keys=True)
+        if cur == prev:
+            break
+        prev = cur
+    else:
+        raise ReviewRequired("canonicalization did not reach a fixed point "
+                             "in 4 passes")
     if not geom.is_valid:
         raise ReviewRequired("normalization produced invalid geometry")
-    geom = canonicalize_rings(geom)
     return {
         "type": "FeatureCollection",
         "features": [{
@@ -345,7 +376,8 @@ def fetch_zone(name: str, zone_cfg: dict) -> tuple[bool, str]:
                                          zone_cfg["boundary_where"])
     elif zone_cfg["boundary_source"] == "google_mymaps_kml":
         features = query_kml(zone_cfg["boundary_url"],
-                             zone_cfg["boundary_where"])
+                             zone_cfg["boundary_where"],
+                             zone_cfg.get("boundary_kml_folder"))
     else:
         features = query_zone(zone_cfg["boundary_url"], zone_cfg["boundary_where"])
 
@@ -373,7 +405,12 @@ def fetch_zone(name: str, zone_cfg: dict) -> tuple[bool, str]:
     geom = shape(fc["features"][0]["geometry"])
     actual = area_km2(geom)
     expected_area = zone_cfg["expected_area_km2"]
-    if not (expected_area / AREA_TOLERANCE <= actual <= expected_area * AREA_TOLERANCE):
+    # expected_area_km2 = 0 is the BOOTSTRAP sentinel: no prior exists (bulk
+    # multi-level generation), so skip the gate on first fetch — the audit's
+    # zone-contains-its-campus check covers the wrong-layer failure mode —
+    # and pin the measured value into zones.toml afterwards.
+    if expected_area and not \
+       (expected_area / AREA_TOLERANCE <= actual <= expected_area * AREA_TOLERANCE):
         problems.append(
             f"geodesic area {actual:.1f} km² vs expected {expected_area} km² "
             f"(tolerance {AREA_TOLERANCE}x) — fix boundary_where or bump "
@@ -421,6 +458,10 @@ def main(only: list[str] | None = None) -> int:
             ok, msg = fetch_zone(name, zone_cfg)
         except (EndpointMoved, EmptyResult) as e:
             ok, msg = False, f"{type(e).__name__}: {e}"
+        except Exception as e:   # never let one zone kill the batch
+            import traceback
+            traceback.print_exc()
+            ok, msg = False, f"UNEXPECTED {type(e).__name__}: {e}"
         print(f">> {name}: {msg}")
         if not ok:
             failures += 1

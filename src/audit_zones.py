@@ -49,6 +49,20 @@ ALLOWED_OVERLAPS = {
     frozenset({"hayscisd-hays", "hayscisd-lehman"}),
 }
 
+# Campuses adjudicated as legitimately outside their own zone (verified
+# against source maps 2026-07-04; distances shown). Districts do site
+# buildings outside their attendance zones, and AISD's planning app carves
+# reassignment areas out of existing polygons.
+ALLOWED_OUTSIDE = {
+    "eanes-forest-trail-es":       "162 m — boundary-adjacent after Eanes 2025 rezoning",
+    "austin-pecan-springs-es-es":  "552 m — inside an AISD reassignment carve",
+    "austin-langford-es-es":       "1.7 km — inside an AISD reassignment carve",
+    "hayscisd-carpenter-hill-es":  "2.3 km — outside own zone in BOTH year folders of the district map",
+    "hayscisd-simon-ms":           "9.7 km — building sited outside own zone per district map, both years",
+    "liberty-hill-louine-noble-es": "zone is the 2026-27 Saddleback-area assignment; "
+                                    "current Louine Noble building sits elsewhere (renames 2027-28)",
+}
+
 _geod = Geod(ellps="WGS84")
 
 
@@ -154,9 +168,12 @@ def check_contains(zones) -> int:
             continue
         checked += 1
         if not z["geom"].contains(Point(float(lon), float(lat))):
-            print(f"  FAIL {name}: campus {sch.get('campus_name')} at "
-                  f"({lat}, {lon}) is OUTSIDE its zone — wrong layer/name?")
-            bad += 1
+            if name in ALLOWED_OUTSIDE:
+                print(f"  known {name}: {ALLOWED_OUTSIDE[name]}")
+            else:
+                print(f"  FAIL {name}: campus {sch.get('campus_name')} at "
+                      f"({lat}, {lon}) is OUTSIDE its zone — wrong layer/name?")
+                bad += 1
     print(f"  {checked} campuses checked; "
           f"{'all inside their zones' if not bad else str(bad) + ' FAILURES'}")
     return bad
@@ -173,7 +190,18 @@ def check_roster(zones) -> None:
 
     def norm(s): return "".join(c for c in (s or "").lower()
                                 if c.isalnum() or c == " ").strip()
-    districts = {norm(z["cfg"]["district"]) for z in zones.values()}
+    def level_of(r):
+        ct = r.get("campus_type") or ""
+        if ct == "Elementary":
+            return "elementary"
+        if "Middle" in ct or ct == "Junior High":
+            return "middle"
+        if r.get("high_grade_cd") == "12":
+            return "high"
+        return None
+    # Only audit levels for districts where we actually built that level
+    # (sub-level sources exist for 8 districts so far).
+    built = {(norm(z["cfg"]["district"]), z["level"]) for z in zones.values()}
     matched_ids = set()
     for name in zones:
         f = SCHOOLS / f"{name}.school.json"
@@ -182,22 +210,22 @@ def check_roster(zones) -> None:
                             .get("campus_id"))
     findings = 0
     for r in rows:
-        if norm(r.get("district_name")) not in districts:
+        lvl = level_of(r)
+        if lvl is None or (norm(r.get("district_name")), lvl) not in built:
             continue
-        # Zoned comprehensive high schools only (grade 12, campus entity,
-        # not alternative-standards, not online).
-        if (r.get("high_grade_cd") != "12" or r.get("entity_cd") != "C"
+        if (r.get("entity_cd") != "C"
                 or r.get("alt_standards") == "Yes"
                 or r.get("online_school") == "Yes"
+                or r.get("enrollment_type") == "Special Assignment School"
                 or r.get("id") in matched_ids):
             continue
-        print(f"  NOTE {r.get('district_name')}: campus '{r.get('name')}' "
-              f"[{r['id']}] serves grade 12 but has no registered zone "
+        print(f"  NOTE {r.get('district_name')} [{lvl}]: campus "
+              f"'{r.get('name')}' [{r['id']}] has no registered zone "
               f"(magnet/choice/new — adjudicate)")
         findings += 1
     if not findings:
-        print("  ok — every grade-12 campus in covered districts is either "
-              "zoned or excluded")
+        print("  ok — every zoned-level campus in covered districts is "
+              "either zoned or excluded")
 
 
 def main() -> int:

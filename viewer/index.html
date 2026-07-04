@@ -48,6 +48,13 @@
   <h1>home-finder</h1>
   <div class="sub">Austin-metro HS attendance zones · committed data only —
     the viewer never fetches from external services</div>
+  <div style="margin-bottom:6px; font-size:13px;">
+    <b style="font-size:11px; color:#33566e; letter-spacing:.05em;">LEVEL</b>
+    <label><input type="radio" name="level" value="district"> District</label>
+    <label><input type="radio" name="level" value="high" checked> High</label>
+    <label><input type="radio" name="level" value="middle"> Middle</label>
+    <label><input type="radio" name="level" value="elementary"> Elem</label>
+  </div>
   <div style="margin-bottom:8px; font-size:13px;">
     <label><input type="checkbox" id="shadetoggle" checked> Zone shading</label>
     &nbsp;·&nbsp;
@@ -323,7 +330,7 @@ function pip(lng, lat, geom) {
 }
 map.on("click", (e) => {
   for (const z of zoneLayers) {
-    if (z.visible && pip(e.latlng.lng, e.latlng.lat, z.geom)) {
+    if (z.visible && !z.filtered && pip(e.latlng.lng, e.latlng.lat, z.geom)) {
       z.select(false);   // select + card-to-top, no zoom (map click)
       break;
     }
@@ -481,7 +488,8 @@ function applyColorBy() {
     return;
   }
   const ranked = cardsIndex
-    .filter(c => c.entry && c.metrics[key] != null)
+    .filter(c => c.entry && c.metrics[key] != null
+                 && (c.level || "high") === curLevel)
     .sort((a, b) => a.metrics[key] - b.metrics[key]);
   ranked.forEach((c, i) => {
     let f = ranked.length > 1 ? i / (ranked.length - 1) : 1;  // 0 low .. 1 high
@@ -590,6 +598,9 @@ const FILTER_COLS = {
   hisp: "% Hispanic", white: "% NH White", black: "% NH Black",
   asian: "% NH Asian", ba: "% Bachelor's+",
 };
+// The single visibility engine: a zone shows iff it's the ACTIVE LEVEL,
+// passes the metric filters, and its checkbox is on.
+let curLevel = "high";
 function applyZoneFilters() {
   const rows = [...document.querySelectorAll("#zonefilters .frow")].map(r => ({
     col: r.querySelector("select").value,
@@ -597,7 +608,8 @@ function applyZoneFilters() {
     max: +r.querySelector(".fmax").value || Infinity,
   })).filter(f => f.min !== -Infinity || f.max !== Infinity);
   for (const c of cardsIndex) {
-    const pass = rows.every(f => {
+    const levelOn = (c.level || "high") === curLevel;
+    const pass = levelOn && rows.every(f => {
       const v = c.metrics[f.col];
       return v != null && v >= f.min && v <= f.max;
     });
@@ -612,7 +624,12 @@ function applyZoneFilters() {
     e.filtered = !pass;
   }
   if (cadOn) syncCad();
+  applyColorBy();
 }
+document.querySelectorAll("input[name=level]").forEach(r => r.onchange = () => {
+  curLevel = document.querySelector("input[name=level]:checked").value;
+  applyZoneFilters();
+});
 document.getElementById("addfilter").onclick = (ev) => {
   ev.preventDefault();
   const row = document.createElement("div");
@@ -803,7 +820,7 @@ function transfersHtml(cad) {
     panel.appendChild(card);
 
     const sh_ = demo?.race_ethnicity?.shares ?? {};
-    cardsIndex.push({ card, entry, metrics: {
+    cardsIndex.push({ card, entry, level: z.level || "high", metrics: {
       school: sch?.score || null,
       ach: sch?.achievement?.score || null,
       growth: sch?.growth?.score || null,
@@ -826,6 +843,7 @@ function transfersHtml(cad) {
   if (zoneLayers.length) {
     map.fitBounds(L.featureGroup(zoneLayers.map(e => e.layer)).getBounds().pad(0.08));
   }
+  applyZoneFilters();   // apply the initial level (high) to the full registry
 
   document.getElementById("shadetoggle").onchange = (ev) => {
     shadeOn = ev.target.checked;
@@ -835,10 +853,15 @@ function transfersHtml(cad) {
   document.getElementById("allzones").onclick = (ev) => {
     ev.preventDefault();
     allOn = !allOn;
-    document.querySelectorAll(".zonevis").forEach(box => {
-      if (!box.disabled && box.checked !== allOn) { box.checked = allOn;
-        box.dispatchEvent(new Event("change")); }
-    });
+    // Only toggles the ACTIVE level's zones (hidden-level cards untouched).
+    for (const c of cardsIndex) {
+      if ((c.level || "high") !== curLevel) continue;
+      const box = c.card.querySelector(".zonevis");
+      if (box && !box.disabled && box.checked !== allOn) {
+        box.checked = allOn;
+        box.dispatchEvent(new Event("change"));
+      }
+    }
   };
 })();
 </script>

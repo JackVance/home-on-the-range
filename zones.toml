@@ -685,9 +685,10 @@ boundary_source   = "google_mymaps_kml"
 district_geoid    = "4800010"   # clip to TIGER district line
 boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
 boundary_where    = "name='Hays High School Zone'"
+boundary_kml_folder = "High School Zones"
 boundary_name_field = "name"
 boundary_has_name = true
-expected_features = 2   # discontiguous: main zone + small NE piece, eyeballed 2026-07-04
+expected_features = 2   # discontiguous within the single year folder, eyeball-adjudicated
 expected_area_km2 = 186   # pinned to measured geodesic
 district_effective_year = "2024-25 map (verify vintage)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=hays-hs"]
@@ -700,6 +701,7 @@ boundary_source   = "google_mymaps_kml"
 district_geoid    = "4800010"   # clip to TIGER district line
 boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
 boundary_where    = "name='Lehman High School Zone'"
+boundary_kml_folder = "High School Zones"
 boundary_name_field = "name"
 boundary_has_name = true
 expected_features = 1
@@ -715,6 +717,7 @@ boundary_source   = "google_mymaps_kml"
 district_geoid    = "4800010"   # clip to TIGER district line
 boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
 boundary_where    = "name='Johnson High School Zone'"
+boundary_kml_folder = "High School Zones"
 boundary_name_field = "name"
 boundary_has_name = true
 expected_features = 1
@@ -859,3 +862,4251 @@ expected_features = 1
 expected_area_km2 = 348   # pinned to measured geodesic
 district_effective_year = "current (single-HS district = district boundary)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=thorndale-high-school"]
+
+# ==========================================================================
+# MULTI-LEVEL BUILDOUT (generated 2026-07-04 from live source name
+# lists): district / middle / elementary zones. expected_area_km2 = 0
+# is the bootstrap sentinel — pinned from first fetch; accuracy is
+# guarded by audit_zones.py (campus containment + coverage + roster).
+# ==========================================================================
+
+[austin-district]
+level             = "district"
+district          = "Austin ISD"
+high_school       = "Austin ISD (district)"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4808940'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 596   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[bartlett-district]
+level             = "district"
+district          = "Bartlett ISD"
+high_school       = "Bartlett ISD (district)"
+counties          = ["48027", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4809540'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 264   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[blanco-district]
+level             = "district"
+district          = "Blanco ISD"
+high_school       = "Blanco ISD (district)"
+counties          = ["48031", "48209"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4810320'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 904   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[burnet-district]
+level             = "district"
+district          = "Burnet CISD"
+high_school       = "Burnet CISD (district)"
+counties          = ["48053", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4812220'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 1836   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[coupland-district]
+level             = "district"
+district          = "Coupland ISD"
+high_school       = "Coupland ISD (district)"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4815420'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 110   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[del-valle-district]
+level             = "district"
+district          = "Del Valle ISD"
+high_school       = "Del Valle ISD (district)"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4816620'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 443   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[dripping-springs-district]
+level             = "district"
+district          = "Dripping Springs ISD"
+high_school       = "Dripping Springs ISD (district)"
+counties          = ["48209", "48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4800008'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 510   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[eanes-district]
+level             = "district"
+district          = "Eanes ISD"
+high_school       = "Eanes ISD (district)"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4817760'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 88   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[elgin-district]
+level             = "district"
+district          = "Elgin ISD"
+high_school       = "Elgin ISD (district)"
+counties          = ["48021", "48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4818360'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 428   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[florence-district]
+level             = "district"
+district          = "Florence ISD"
+high_school       = "Florence ISD (district)"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4819320'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 367   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[georgetown-district]
+level             = "district"
+district          = "Georgetown ISD"
+high_school       = "Georgetown ISD (district)"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4820600'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 470   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[granger-district]
+level             = "district"
+district          = "Granger ISD"
+high_school       = "Granger ISD (district)"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4821590'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 257   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[hays-district]
+level             = "district"
+district          = "Hays CISD"
+high_school       = "Hays CISD (district)"
+counties          = ["48209"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4800010'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 564   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[hutto-district]
+level             = "district"
+district          = "Hutto ISD"
+high_school       = "Hutto ISD (district)"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4824100'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 176   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[jarrell-district]
+level             = "district"
+district          = "Jarrell ISD"
+high_school       = "Jarrell ISD (district)"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4824600'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 212   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[johnson-city-district]
+level             = "district"
+district          = "Johnson City ISD"
+high_school       = "Johnson City ISD (district)"
+counties          = ["48031", "48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4824840'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 1393   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[lago-vista-district]
+level             = "district"
+district          = "Lago Vista ISD"
+high_school       = "Lago Vista ISD (district)"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4826400'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 90   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[lake-travis-district]
+level             = "district"
+district          = "Lake Travis ISD"
+high_school       = "Lake Travis ISD (district)"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4826470'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 305   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[leander-district]
+level             = "district"
+district          = "Leander ISD"
+high_school       = "Leander ISD (district)"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4827030'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 518   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[liberty-hill-district]
+level             = "district"
+district          = "Liberty Hill ISD"
+high_school       = "Liberty Hill ISD (district)"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4827420'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 285   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[manor-district]
+level             = "district"
+district          = "Manor ISD"
+high_school       = "Manor ISD (district)"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4828890'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 232   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[marble-falls-district]
+level             = "district"
+district          = "Marble Falls ISD"
+high_school       = "Marble Falls ISD (district)"
+counties          = ["48053", "48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4829010'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 762   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[pflugerville-district]
+level             = "district"
+district          = "Pflugerville ISD"
+high_school       = "Pflugerville ISD (district)"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4834830'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 199   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[round-rock-district]
+level             = "district"
+district          = "Round Rock ISD"
+high_school       = "Round Rock ISD (district)"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4838080'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 254   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[san-marcos-district]
+level             = "district"
+district          = "San Marcos CISD"
+high_school       = "San Marcos CISD (district)"
+counties          = ["48209", "48055", "48187"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4838970'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 478   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[taylor-district]
+level             = "district"
+district          = "Taylor ISD"
+high_school       = "Taylor ISD (district)"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4842280'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 200   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[thorndale-district]
+level             = "district"
+district          = "Thorndale ISD"
+high_school       = "Thorndale ISD (district)"
+counties          = ["48331", "48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4842630'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 348   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[thrall-district]
+level             = "district"
+district          = "Thrall ISD"
+high_school       = "Thrall ISD (district)"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4842660'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 387   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[wimberley-district]
+level             = "district"
+district          = "Wimberley ISD"
+high_school       = "Wimberley ISD (district)"
+counties          = ["48209"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4800009'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 350   # pinned to measured geodesic
+district_effective_year = "current (TIGER district boundary)"
+
+[leander-canyon-ridge-middle-ms]
+level             = "middle"
+district          = "Leander ISD"
+high_school       = "Canyon Ridge Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/4"
+boundary_where    = "DisplayName='Canyon Ridge Middle School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 26   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-cedar-park-middle-ms]
+level             = "middle"
+district          = "Leander ISD"
+high_school       = "Cedar Park Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/4"
+boundary_where    = "DisplayName='Cedar Park Middle School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 118   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-danielson-middle-ms]
+level             = "middle"
+district          = "Leander ISD"
+high_school       = "Danielson Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/4"
+boundary_where    = "DisplayName='Danielson Middle School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 93   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-four-points-middle-ms]
+level             = "middle"
+district          = "Leander ISD"
+high_school       = "Four Points Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/4"
+boundary_where    = "DisplayName='Four Points Middle School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 97   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-henry-middle-ms]
+level             = "middle"
+district          = "Leander ISD"
+high_school       = "Henry Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/4"
+boundary_where    = "DisplayName='Henry Middle School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 27   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-leander-middle-ms]
+level             = "middle"
+district          = "Leander ISD"
+high_school       = "Leander Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/4"
+boundary_where    = "DisplayName='Leander Middle School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 34   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-running-brushy-middle-ms]
+level             = "middle"
+district          = "Leander ISD"
+high_school       = "Running Brushy Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/4"
+boundary_where    = "DisplayName='Running Brushy Middle School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 36   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-stiles-middle-ms]
+level             = "middle"
+district          = "Leander ISD"
+high_school       = "Stiles Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/4"
+boundary_where    = "DisplayName='Stiles Middle School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 44   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-wiley-middle-ms]
+level             = "middle"
+district          = "Leander ISD"
+high_school       = "Wiley Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/4"
+boundary_where    = "DisplayName='Wiley Middle School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 39   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-akin-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Akin Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Akin Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 15   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-bagdad-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Bagdad Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Bagdad Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 22   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-block-house-creek-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Block House Creek Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Block House Creek Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-bush-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Bush Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Bush Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-camacho-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Camacho Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Camacho Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-cox-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Cox Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Cox Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-cypress-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Cypress Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Cypress Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-deer-creek-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Deer Creek Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Deer Creek Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-faubion-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Faubion Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Faubion Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-giddens-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Giddens Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Giddens Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-grandview-hills-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Grandview Hills Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Grandview Hills Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 56   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-hisle-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Hisle Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Hisle Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 73   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-knowles-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Knowles Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Knowles Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-larkspur-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Larkspur Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Larkspur Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-mason-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Mason Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Mason Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 104   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-naumann-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Naumann Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Naumann Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-north-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "North Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='North Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-parkside-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Parkside Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Parkside Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 13   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-plain-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Plain Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Plain Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 10   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-pleasant-hill-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Pleasant Hill Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Pleasant Hill Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-reagan-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Reagan Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Reagan Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-reed-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Reed Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Reed Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-river-place-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "River Place Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='River Place Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 42   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-river-ridge-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "River Ridge Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='River Ridge Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 10   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-rutledge-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Rutledge Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Rutledge Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-steiner-ranch-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Steiner Ranch Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Steiner Ranch Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 11   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-tarvin-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Tarvin Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Tarvin Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 26   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-westside-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Westside Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Westside Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-whitestone-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Whitestone Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Whitestone Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[leander-winkley-elementary-es]
+level             = "elementary"
+district          = "Leander ISD"
+high_school       = "Winkley Elementary School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"
+boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/3"
+boundary_where    = "DisplayName='Winkley Elementary School'"
+boundary_name_field = "DisplayName"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2024-25"
+
+[roundrock-canyon-vista-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Canyon Vista"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='CANYON VISTA'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 29   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-cedar-valley-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Cedar Valley"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='CEDAR VALLEY'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 15   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-chisholm-trail-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Chisholm Trail"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='CHISHOLM TRAIL'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 19   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-deerpark-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Deerpark"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='DEERPARK'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 44   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-fulkes-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Fulkes"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='FULKES'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 20   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-grisham-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Grisham"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='GRISHAM'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 11   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-hernandez-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Hernandez"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='HERNANDEZ'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 16   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-hopewell-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Hopewell"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='HOPEWELL'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 36   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-pearson-ranch-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Pearson Ranch"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='PEARSON RANCH'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 21   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-ridgeview-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Ridgeview"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='RIDGEVIEW'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 18   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-walsh-ms]
+level             = "middle"
+district          = "Round Rock ISD"
+high_school       = "Walsh"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/3"
+boundary_where    = "MID_NAME='WALSH'"
+boundary_name_field = "MID_NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 26   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-anderson-mill-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Anderson Mill"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='ANDERSON MILL'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 33   # composite layer: zone stored as 33 pieces, dissolved
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-berkman-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Berkman"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='BERKMAN'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 19   # composite layer: zone stored as 19 pieces, dissolved
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-blackland-prairie-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Blackland Prairie"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='BLACKLAND PRAIRIE'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 18   # composite layer: zone stored as 18 pieces, dissolved
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-bluebonnet-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Bluebonnet"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='BLUEBONNET'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 12   # composite layer: zone stored as 12 pieces, dissolved
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-brushy-creek-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Brushy Creek"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='BRUSHY CREEK'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 17   # composite layer: zone stored as 17 pieces, dissolved
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-cactus-ranch-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Cactus Ranch"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='CACTUS RANCH'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 15   # composite layer: zone stored as 15 pieces, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-caldwell-heights-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Caldwell Heights"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='CALDWELL HEIGHTS'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 17   # composite layer: zone stored as 17 pieces, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-callison-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Callison"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='CALLISON'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 28   # composite layer: zone stored as 28 pieces, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-canyon-creek-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Canyon Creek"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='CANYON CREEK'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 8   # composite layer: zone stored as 8 pieces, dissolved
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-caraway-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Caraway"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='CARAWAY'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 24   # composite layer: zone stored as 24 pieces, dissolved
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-chandler-oaks-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Chandler Oaks"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='CHANDLER OAKS'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 14   # composite layer: zone stored as 14 pieces, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-deep-wood-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Deep Wood"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='DEEP WOOD'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 25   # composite layer: zone stored as 25 pieces, dissolved
+expected_area_km2 = 10   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-double-file-trail-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Double File Trail"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='DOUBLE FILE TRAIL'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 25   # composite layer: zone stored as 25 pieces, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-england-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "England"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='ENGLAND'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 21   # composite layer: zone stored as 21 pieces, dissolved
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-fern-bluff-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Fern Bluff"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='FERN BLUFF'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 11   # composite layer: zone stored as 11 pieces, dissolved
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-forest-creek-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Forest Creek"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='FOREST CREEK'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 27   # composite layer: zone stored as 27 pieces, dissolved
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-forest-north-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Forest North"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='FOREST NORTH'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 23   # composite layer: zone stored as 23 pieces, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-gattis-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Gattis"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='GATTIS'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 22   # composite layer: zone stored as 22 pieces, dissolved
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-great-oaks-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Great Oaks"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='GREAT OAKS'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 24   # composite layer: zone stored as 24 pieces, dissolved
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-herrington-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Herrington"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='HERRINGTON'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 10   # composite layer: zone stored as 10 pieces, dissolved
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-johnson-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Johnson"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='JOHNSON'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 40   # composite layer: zone stored as 40 pieces, dissolved
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-jollyville-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Jollyville"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='JOLLYVILLE'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 38   # composite layer: zone stored as 38 pieces, dissolved
+expected_area_km2 = 13   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-laurel-mountain-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Laurel Mountain"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='LAUREL MOUNTAIN'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 29   # composite layer: zone stored as 29 pieces, dissolved
+expected_area_km2 = 11   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-live-oak-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Live Oak"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='LIVE OAK'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 25   # composite layer: zone stored as 25 pieces, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-old-town-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Old Town"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='OLD TOWN'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 25   # composite layer: zone stored as 25 pieces, dissolved
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-pond-springs-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Pond Springs"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='POND SPRINGS'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 27   # composite/multi-piece source, dissolved
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-purple-sage-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Purple Sage"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='PURPLE SAGE'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 20   # composite/multi-piece source, dissolved
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-redbud-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Redbud"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='REDBUD'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 19   # composite/multi-piece source, dissolved
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-robertson-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Robertson"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='ROBERTSON'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 9   # composite/multi-piece source, dissolved
+expected_area_km2 = 3   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-sommer-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Sommer"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='SOMMER'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 21   # composite/multi-piece source, dissolved
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-spicewood-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Spicewood"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='SPICEWOOD'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 25   # composite/multi-piece source, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-teravista-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Teravista"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='TERAVISTA'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 18   # composite/multi-piece source, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-union-hill-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Union Hill"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='UNION HILL'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 16   # composite/multi-piece source, dissolved
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-voigt-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Voigt"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='VOIGT'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 17   # composite/multi-piece source, dissolved
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[roundrock-wells-branch-es]
+level             = "elementary"
+district          = "Round Rock ISD"
+high_school       = "Wells Branch"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"
+boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/4"
+boundary_where    = "ELEM_NAME='WELLS BRANCH'"
+boundary_name_field = "ELEM_NAME"
+boundary_has_name = true
+expected_features = 22   # composite/multi-piece source, dissolved
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26?"
+
+[austin-bailey-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Bailey MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Bailey MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 29   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-burnet-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Burnet MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Burnet MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 22   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-covington-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Covington MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Covington MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 28   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-dobie-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Dobie MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Dobie MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 27   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-gorzycki-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Gorzycki MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Gorzycki MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 48   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-kealing-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Kealing MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Kealing MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 17   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-lamar-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Lamar MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Lamar MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 48   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-lively-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Lively MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Lively MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 17   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-mendez-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Mendez MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Mendez MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 16   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-murchison-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Murchison MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Murchison MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 53   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-o-henry-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "O Henry MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='O Henry MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 75   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-paredes-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Paredes MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Paredes MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 59   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-small-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Small MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Small MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 81   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-webb-ms-ms]
+level             = "middle"
+district          = "Austin ISD"
+high_school       = "Webb MS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/3"
+boundary_where    = "MID_DESC='Webb MS' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "MID_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 16   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-allison-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Allison ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Allison ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-andrews-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Andrews ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Andrews ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 3   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-baldwin-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Baldwin ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Baldwin ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 73   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-baranoff-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Baranoff ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Baranoff ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 18   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-barton-hills-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Barton Hills ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Barton Hills ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-bear-creek-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Bear Creek ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Bear Creek ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-blackshear-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Blackshear ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Blackshear ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-blanton-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Blanton ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Blanton ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-blazier-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Blazier ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Blazier ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 28   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-boone-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Boone ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Boone ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-brentwood-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Brentwood ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Brentwood ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-brown-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Brown ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Brown ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-bryker-woods-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Bryker Woods ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Bryker Woods ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-campbell-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Campbell ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Campbell ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 3   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-casey-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Casey ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Casey ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-casis-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Casis ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Casis ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 11   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-clayton-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Clayton ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Clayton ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-cook-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Cook ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Cook ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-cowan-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Cowan ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Cowan ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-cunningham-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Cunningham ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Cunningham ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-davis-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Davis ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Davis ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 13   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-doss-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Doss ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Doss ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 11   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-galindo-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Galindo ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Galindo ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-govalle-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Govalle ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Govalle ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-graham-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Graham ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Graham ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-guerrero-thompson-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Guerrero Thompson ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Guerrero Thompson ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 1   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-gullett-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Gullett ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Gullett ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-harris-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Harris ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Harris ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-hart-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Hart ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Hart ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-highland-park-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Highland Park ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Highland Park ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 27   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-hill-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Hill ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Hill ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 19   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-houston-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Houston ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Houston ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-jordan-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Jordan ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Jordan ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-joslin-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Joslin ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Joslin ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 3   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-kiker-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Kiker ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Kiker ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-kocurek-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Kocurek ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Kocurek ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-langford-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Langford ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Langford ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-lee-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Lee ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Lee ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-linder-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Linder ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Linder ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 3   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-maplewood-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Maplewood ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Maplewood ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-mathews-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Mathews ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Mathews ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-mcbee-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "McBee ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='McBee ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-menchaca-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Menchaca ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Menchaca ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 22   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-mills-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Mills ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Mills ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-norman-sims-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Norman Sims ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Norman Sims ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 10   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-oak-hill-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Oak Hill ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Oak Hill ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 56   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-ortega-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Ortega ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Ortega ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-overton-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Overton ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Overton ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-padron-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Padron ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Padron ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 1   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-palm-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Palm ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Palm ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-patton-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Patton ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Patton ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 13   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-pecan-springs-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Pecan Springs ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Pecan Springs ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-perez-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Perez ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Perez ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-pickle-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Pickle ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Pickle ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 1   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-pillow-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Pillow ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Pillow ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-pleasant-hill-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Pleasant Hill ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Pleasant Hill ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-reilly-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Reilly ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Reilly ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-rodriguez-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Rodriguez ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Rodriguez ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-st-elmo-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "St Elmo ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='St Elmo ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 3   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-summitt-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Summitt ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Summitt ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 10   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-s-nchez-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Sánchez ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Sánchez ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-travis-heights-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Travis Heights ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Travis Heights ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-walnut-creek-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Walnut Creek ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Walnut Creek ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 3   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-williams-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Williams ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Williams ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-wooldridge-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Wooldridge ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Wooldridge ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 3   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-wooten-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Wooten ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Wooten ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-zavala-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Zavala ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Zavala ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 1   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[austin-zilker-es-es]
+level             = "elementary"
+district          = "Austin ISD"
+high_school       = "Zilker ES"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9"
+boundary_where    = "Campus='Zilker ES' AND NOT Campus LIKE 'Reassignment%'"
+boundary_name_field = "Campus"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+
+[pflugerville-bohls-middle-ms]
+level             = "middle"
+district          = "Pflugerville ISD"
+high_school       = "Bohls Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "MID_NAME='BOHLS MIDDLE SCHOOL'"
+boundary_name_field = "MID_NAME"
+boundary_layer_title = "Middle Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 65   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-cele-middle-ms]
+level             = "middle"
+district          = "Pflugerville ISD"
+high_school       = "Cele Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "MID_NAME='CELE MIDDLE SCHOOL'"
+boundary_name_field = "MID_NAME"
+boundary_layer_title = "Middle Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 38   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-dessau-middle-ms]
+level             = "middle"
+district          = "Pflugerville ISD"
+high_school       = "Dessau Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "MID_NAME='DESSAU MIDDLE SCHOOL'"
+boundary_name_field = "MID_NAME"
+boundary_layer_title = "Middle Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 15   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-kelly-lane-middle-ms]
+level             = "middle"
+district          = "Pflugerville ISD"
+high_school       = "Kelly Lane Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "MID_NAME='KELLY LANE MIDDLE SCHOOL'"
+boundary_name_field = "MID_NAME"
+boundary_layer_title = "Middle Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 13   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-park-crest-middle-ms]
+level             = "middle"
+district          = "Pflugerville ISD"
+high_school       = "Park Crest Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "MID_NAME='PARK CREST MIDDLE SCHOOL'"
+boundary_name_field = "MID_NAME"
+boundary_layer_title = "Middle Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 24   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-pflugerville-middle-ms]
+level             = "middle"
+district          = "Pflugerville ISD"
+high_school       = "Pflugerville Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "MID_NAME='PFLUGERVILLE MIDDLE SCHOOL'"
+boundary_name_field = "MID_NAME"
+boundary_layer_title = "Middle Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 17   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-westview-middle-ms]
+level             = "middle"
+district          = "Pflugerville ISD"
+high_school       = "Westview Middle School"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "MID_NAME='WESTVIEW MIDDLE SCHOOL'"
+boundary_name_field = "MID_NAME"
+boundary_layer_title = "Middle Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 27   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-barron-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Barron Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='BARRON ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-brookhollow-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Brookhollow Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='BROOKHOLLOW ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 13   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-caldwell-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Caldwell Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='CALDWELL ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-carpenter-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Carpenter Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='CARPENTER ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 39   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-copperfield-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Copperfield Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='COPPERFIELD ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 4   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-dearing-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Dearing Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='DEARING ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-delco-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Delco Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='DELCO ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 3   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-dessau-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Dessau Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='DESSAU ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 10   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-hidden-lake-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Hidden Lake Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='HIDDEN LAKE ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-highland-park-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Highland Park Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='HIGHLAND PARK ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-mott-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Mott Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='MOTT ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 32   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-murchison-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Murchison Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='MURCHISON ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-northwest-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Northwest Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='NORTHWEST ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-parmer-lane-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Parmer Lane Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='PARMER LANE ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-pflugerville-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Pflugerville Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='PFLUGERVILLE ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-riojas-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Riojas Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='RIOJAS ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-river-oaks-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "River Oaks Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='RIVER OAKS ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-rowe-lane-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Rowe Lane Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='ROWE LANE ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-spring-hill-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Spring Hill Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='SPRING HILL ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-timmerman-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Timmerman Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='TIMMERMAN ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-wieland-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Wieland Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='WIELAND ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[pflugerville-windermere-elementary-es]
+level             = "elementary"
+district          = "Pflugerville ISD"
+high_school       = "Windermere Elementary"
+counties          = ["48453", "48491"]
+boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"
+boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
+boundary_where    = "ELEM_NAME='WINDERMERE ELEMENTARY'"
+boundary_name_field = "ELEM_NAME"
+boundary_layer_title = "Elementary Schools 2025-26"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 5   # pinned to measured geodesic
+district_effective_year = "2025-26"
+
+[eanes-barton-creek-es]
+level             = "elementary"
+district          = "Eanes ISD"
+high_school       = "Barton Creek Elementary"
+counties          = ["48453"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4817760"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=40669a54-a33b-43e1-ab74-8ce7364ec1c9&collectionItemId=afaff545-ade1-4754-8f2e-7321b312a994"
+boundary_where    = "name='Barton Creek Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 27   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[eanes-bridge-point-es]
+level             = "elementary"
+district          = "Eanes ISD"
+high_school       = "Bridge Point Elementary"
+counties          = ["48453"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4817760"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=40669a54-a33b-43e1-ab74-8ce7364ec1c9&collectionItemId=afaff545-ade1-4754-8f2e-7321b312a994"
+boundary_where    = "name='Bridge Point Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 24   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[eanes-cedar-creek-es]
+level             = "elementary"
+district          = "Eanes ISD"
+high_school       = "Cedar Creek Elementary"
+counties          = ["48453"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4817760"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=40669a54-a33b-43e1-ab74-8ce7364ec1c9&collectionItemId=afaff545-ade1-4754-8f2e-7321b312a994"
+boundary_where    = "name='Cedar Creek Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[eanes-eanes-es]
+level             = "elementary"
+district          = "Eanes ISD"
+high_school       = "Eanes Elementary"
+counties          = ["48453"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4817760"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=40669a54-a33b-43e1-ab74-8ce7364ec1c9&collectionItemId=afaff545-ade1-4754-8f2e-7321b312a994"
+boundary_where    = "name='Eanes Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 14   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[eanes-forest-trail-es]
+level             = "elementary"
+district          = "Eanes ISD"
+high_school       = "Forest Trail Elementary"
+counties          = ["48453"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4817760"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=40669a54-a33b-43e1-ab74-8ce7364ec1c9&collectionItemId=afaff545-ade1-4754-8f2e-7321b312a994"
+boundary_where    = "name='Forest Trail Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 16   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[eanes-hill-country-ms]
+level             = "middle"
+district          = "Eanes ISD"
+high_school       = "Hill Country Middle School"
+counties          = ["48453"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4817760"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=40669a54-a33b-43e1-ab74-8ce7364ec1c9&collectionItemId=c9a4d64c-5359-4c0d-8bae-fa7816275999"
+boundary_where    = "name='Hill Country Middle School'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 44   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[eanes-west-ridge-ms]
+level             = "middle"
+district          = "Eanes ISD"
+high_school       = "West Ridge Middle School"
+counties          = ["48453"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4817760"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=40669a54-a33b-43e1-ab74-8ce7364ec1c9&collectionItemId=c9a4d64c-5359-4c0d-8bae-fa7816275999"
+boundary_where    = "name='West Ridge Middle School'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 44   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-mccoy-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "McCoy Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='McCoy Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 18   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-carver-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "Carver Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='Carver Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 16   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-mitchell-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "Mitchell Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='Mitchell Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-cooper-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "Cooper Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='Cooper Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 82   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-purl-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "Purl Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='Purl Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 18   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-frost-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "Frost Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='Frost Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 28   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-wolf-ranch-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "Wolf Ranch Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='Wolf Ranch Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 51   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-ford-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "Ford Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='Ford Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 74   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-village-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "Village Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='Village Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 11   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-williams-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "Williams Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='Williams Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 93   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-san-gabriel-es]
+level             = "elementary"
+district          = "Georgetown ISD"
+high_school       = "San Gabriel Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=be1c4ba0-b17c-48cd-9b49-a2a20e5f2df3"
+boundary_where    = "name='San Gabriel Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 59   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-forbes-ms]
+level             = "middle"
+district          = "Georgetown ISD"
+high_school       = "Forbes Middle"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=3add9899-5b1a-438a-af08-d545c91430f1"
+boundary_where    = "name='Forbes Middle'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 190   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-benold-ms]
+level             = "middle"
+district          = "Georgetown ISD"
+high_school       = "Benold Middle"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=3add9899-5b1a-438a-af08-d545c91430f1"
+boundary_where    = "name='Benold Middle'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 140   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-tippit-ms]
+level             = "middle"
+district          = "Georgetown ISD"
+high_school       = "Tippit Middle"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=3add9899-5b1a-438a-af08-d545c91430f1"
+boundary_where    = "name='Tippit Middle'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 79   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[georgetown-wagner-ms]
+level             = "middle"
+district          = "Georgetown ISD"
+high_school       = "Wagner Middle"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=3add9899-5b1a-438a-af08-d545c91430f1"
+boundary_where    = "name='Wagner Middle'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 47   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-liberty-hill-es]
+level             = "elementary"
+district          = "Liberty Hill ISD"
+high_school       = "Liberty Hill Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=a86fc61f-e7da-4fff-ac58-49d3c420c39b"
+boundary_where    = "name='Liberty Hill Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 134   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-bill-burden-es]
+level             = "elementary"
+district          = "Liberty Hill ISD"
+high_school       = "Bill Burden Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=a86fc61f-e7da-4fff-ac58-49d3c420c39b"
+boundary_where    = "name='Bill Burden Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 41   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-rancho-sienna-es]
+level             = "elementary"
+district          = "Liberty Hill ISD"
+high_school       = "Rancho Sienna Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=a86fc61f-e7da-4fff-ac58-49d3c420c39b"
+boundary_where    = "name='Rancho Sienna Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 18   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-santa-rita-es]
+level             = "elementary"
+district          = "Liberty Hill ISD"
+high_school       = "Santa Rita Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=a86fc61f-e7da-4fff-ac58-49d3c420c39b"
+boundary_where    = "name='Santa Rita Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 6   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-bar-w-es]
+level             = "elementary"
+district          = "Liberty Hill ISD"
+high_school       = "Bar W Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=a86fc61f-e7da-4fff-ac58-49d3c420c39b"
+boundary_where    = "name='Bar W Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-tierra-rosa-es]
+level             = "elementary"
+district          = "Liberty Hill ISD"
+high_school       = "Tierra Rosa Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=a86fc61f-e7da-4fff-ac58-49d3c420c39b"
+boundary_where    = "name='Tierra Rosa Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 7   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-lariat-trails-es]
+tea_note          = "campus not yet in TEA accountability data (opens 2026-27)"
+level             = "elementary"
+district          = "Liberty Hill ISD"
+high_school       = "Lariat Trails Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=a86fc61f-e7da-4fff-ac58-49d3c420c39b"
+boundary_where    = "name='Lariat Trails Elementary'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 42   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-liberty-hill-ms]
+level             = "middle"
+district          = "Liberty Hill ISD"
+high_school       = "Liberty Hill Middle"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=92a9cd70-a1c5-46cc-ad30-3ab6d5bc10b8"
+boundary_where    = "name='Liberty Hill Middle'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 216   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-santa-rita-ms]
+level             = "middle"
+district          = "Liberty Hill ISD"
+high_school       = "Santa Rita Middle"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=92a9cd70-a1c5-46cc-ad30-3ab6d5bc10b8"
+boundary_where    = "name='Santa Rita Middle'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 28   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[liberty-hill-legacy-ranch-ms]
+tea_note          = "campus not yet in TEA accountability data (opens 2026-27)"
+level             = "middle"
+district          = "Liberty Hill ISD"
+high_school       = "Legacy Ranch Middle School"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=92a9cd70-a1c5-46cc-ad30-3ab6d5bc10b8"
+boundary_where    = "name='Legacy Ranch Middle School'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 41   # pinned to measured geodesic
+district_effective_year = "2026-27"
+
+[hayscisd-barton-ms]
+level             = "middle"
+district          = "Hays CISD"
+high_school       = "Barton Middle School"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Barton Middle School Zone'"
+boundary_kml_folder = "Middle School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 2   # discontiguous within the single year folder, eyeball-adjudicated
+expected_area_km2 = 99   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-blanco-vista-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Blanco Vista Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Blanco Vista Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 56   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-buda-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Buda Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Buda Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 43   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-camino-real-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Camino Real Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Camino Real Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 59   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-carpenter-hill-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Carpenter Hill Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Carpenter Hill Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 162   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-chapa-ms]
+level             = "middle"
+district          = "Hays CISD"
+high_school       = "Chapa Middle School"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Chapa Middle School Zone'"
+boundary_kml_folder = "Middle School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 31   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-cullen-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Cullen Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Cullen Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 2   # discontiguous within the single year folder, eyeball-adjudicated
+expected_area_km2 = 70   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-dahlstrom-ms]
+level             = "middle"
+district          = "Hays CISD"
+high_school       = "Dahlstrom Middle School"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Dahlstrom Middle School Zone'"
+boundary_kml_folder = "Middle School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 191   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-elm-grove-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Elm Grove Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Elm Grove Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-fuentes-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Fuentes Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Fuentes Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 15   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-hemphill-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Hemphill Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Hemphill Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 30   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-kyle-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Kyle Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Kyle Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 14   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-mccormick-ms]
+level             = "middle"
+district          = "Hays CISD"
+high_school       = "McCormick Middle School"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='McCormick Middle School Zone'"
+boundary_kml_folder = "Middle School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 95   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-negley-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Negley Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Negley Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 15   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-pfluger-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Pfluger Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Pfluger Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 12   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-ramage-es]
+tea_note          = "campus not yet in TEA accountability data (new school)"
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Ramage Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Ramage Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 25   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-science-hall-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Science Hall Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Science Hall Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 15   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-simon-ms]
+level             = "middle"
+district          = "Hays CISD"
+high_school       = "Simon Middle School"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Simon Middle School Zone'"
+boundary_kml_folder = "Middle School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 70   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-sunfield-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Sunfield Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Sunfield Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 22   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-tobias-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Tobias Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Tobias Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 9   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-tom-green-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Tom Green Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Tom Green Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 8   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-uhland-es]
+level             = "elementary"
+district          = "Hays CISD"
+high_school       = "Uhland Elementary"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Uhland Elementary Attendance Zone'"
+boundary_kml_folder = "Elementary School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 19   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[hayscisd-wallace-ms]
+level             = "middle"
+district          = "Hays CISD"
+high_school       = "Wallace Middle School"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Wallace Middle School Zone'"
+boundary_kml_folder = "Middle School Zones 2026-2027"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 88   # pinned to measured geodesic
+district_effective_year = "2026-27 (KML year folder)"
+
+[liberty-hill-louine-noble-es]
+level             = "elementary"
+district          = "Liberty Hill ISD"
+high_school       = "Louine Noble Elementary"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=a86fc61f-e7da-4fff-ac58-49d3c420c39b"
+boundary_where    = "name='Louine Noble Elementary (Saddleback 2027-28)'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 29   # pinned to measured geodesic
+district_effective_year = "2026-27 (renames to Saddleback 2027-28)"
