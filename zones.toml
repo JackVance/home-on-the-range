@@ -50,14 +50,17 @@ listings_links    = [
 district          = "Eanes ISD"
 high_school       = "Westlake HS"
 counties          = ["48453"]                    # Travis
-boundary_source   = "manual_trace"               # MyPlanWare SPA, no API (spike NO-GO)
-# Polygon is authored by hand-tracing the district's official boundary map in
-# QGIS/Google My Maps and saving to data/boundaries/eanes-westlake.geojson.
-# The fetch gates don't apply; the one-time eyeball IS its provenance.
-boundary_has_name = false
+# Upgraded 2026-07-03: browser network inspection found MyPlanWare's public
+# JSON API (the same query the district's own lookup tool makes client-side).
+# Collection = "School Year 2026-27"; item d6c4df32 = the HS layer (1 feature).
+boundary_source   = "myplanware_geojson"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=40669a54-a33b-43e1-ab74-8ce7364ec1c9&collectionItemId=d6c4df32-eb21-4461-8350-296e0008ff7c"
+boundary_where    = "name='Westlake High School'"
+boundary_name_field = "name"
+boundary_has_name = true
 expected_features = 1
 expected_area_km2 = 40          # from the design debate's prior
-district_effective_year = "2025-26"
+district_effective_year = "2026-27"
 listings_links    = [
   "https://www.redfin.com/city/30818/TX/Austin/filter/school-name=westlake-high-school",
 ]

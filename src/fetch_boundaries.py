@@ -55,6 +55,38 @@ class ReviewRequired(Exception):
 # Query
 # ---------------------------------------------------------------------------
 
+def _parse_where(where: str) -> tuple[str, str]:
+    """Parse a simple \"field='value'\" clause for non-SQL sources."""
+    field, _, value = where.partition("=")
+    return field.strip(), value.strip().strip("'")
+
+
+def query_myplanware(url: str, where: str) -> list[dict]:
+    """MyPlanWare schoolsearch API: the URL returns a GeoJSON FeatureCollection
+    (the same query the district's public lookup makes client-side; coordinates
+    are already WGS84 lon/lat). `where` filters features by property."""
+    req = urllib.request.Request(url, headers={"User-Agent": "home-finder/0.1"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            body = json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        raise EndpointMoved(f"HTTP {e.code} from {url} — vendor may have "
+                            f"changed clientId/collectionItemId") from e
+    except urllib.error.URLError as e:
+        raise EndpointMoved(f"unreachable: {url} ({e.reason})") from e
+    if isinstance(body, list):
+        body = body[0] if body else {}
+    field, value = _parse_where(where)
+    features = [f for f in body.get("features", [])
+                if f.get("properties", {}).get(field) == value]
+    if not features:
+        have = [f.get("properties", {}).get(field)
+                for f in body.get("features", [])]
+        raise EmptyResult(f"no feature with {field}={value!r}; collection "
+                          f"has: {have}")
+    return features
+
+
 def query_zone(url: str, where: str) -> list[dict]:
     params = urllib.parse.urlencode({
         "where": where, "outFields": "*", "outSR": 4326, "f": "geojson",
@@ -184,7 +216,11 @@ def fetch_zone(name: str, zone_cfg: dict) -> tuple[bool, str]:
     review_file = OUT_DIR / f"{name}.geojson.REVIEW"
     meta_file = OUT_DIR / f"{name}.meta.json"
 
-    features = query_zone(zone_cfg["boundary_url"], zone_cfg["boundary_where"])
+    if zone_cfg["boundary_source"] == "myplanware_geojson":
+        features = query_myplanware(zone_cfg["boundary_url"],
+                                    zone_cfg["boundary_where"])
+    else:
+        features = query_zone(zone_cfg["boundary_url"], zone_cfg["boundary_where"])
 
     problems: list[str] = []
     try:

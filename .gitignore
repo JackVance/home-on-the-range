@@ -21,3 +21,6 @@ Thumbs.db
 
 # Secrets — never commit
 .env
+
+# Derived visualization artifacts — reproducible via src/make_dots.py
+data/derived/

@@ -47,6 +47,11 @@
   <h1>home-finder</h1>
   <div class="sub">Austin-metro HS attendance zones · committed data only —
     the viewer never fetches from external services</div>
+  <div id="dotcontrol" style="display:none; margin-bottom:12px; font-size:13px;">
+    <label><input type="checkbox" id="dottoggle"> Ethnic dot map
+      <span id="dotmeta" class="moe"></span></label>
+    <div id="dotlegend" style="display:none; margin-top:4px;"></div>
+  </div>
   <div id="zones"></div>
   <div class="disclaimer">
     Boundaries are snapshots — districts rezone. Verify with the district
@@ -100,6 +105,75 @@ function demographicsHtml(d) {
     ${statRow("Bachelor's+", edu, true)}
   </table>`;
 }
+
+// Ethnic dot map: pre-generated dots (src/make_dots.py, 2020 decennial P2).
+// The viewer only DRAWS — counts and placement are baked into the artifact.
+const DotLayer = L.Layer.extend({
+  initialize(data) { this._data = data; },
+  onAdd(map) {
+    this._map = map;
+    this._canvas = L.DomUtil.create("canvas", "leaflet-layer");
+    this._canvas.style.pointerEvents = "none";
+    map.getPanes().overlayPane.appendChild(this._canvas);
+    map.on("moveend zoomend resize", this._redraw, this);
+    this._redraw();
+  },
+  onRemove(map) {
+    map.getPanes().overlayPane.removeChild(this._canvas);
+    map.off("moveend zoomend resize", this._redraw, this);
+  },
+  _redraw() {
+    const map = this._map, size = map.getSize();
+    L.DomUtil.setPosition(this._canvas, map.containerPointToLayerPoint([0, 0]));
+    this._canvas.width = size.x; this._canvas.height = size.y;
+    const ctx = this._canvas.getContext("2d");
+    const b = map.getBounds();
+    const s = b.getSouth(), n = b.getNorth(), w = b.getWest(), e = b.getEast();
+    const colors = this._data.categories.map(c => this._data.colors[c]);
+    const z = map.getZoom();
+    const r = z >= 15 ? 3 : z >= 13 ? 2 : z >= 11 ? 1.5 : 1;
+    ctx.globalAlpha = 0.7;
+    for (const [lon, lat, c] of this._data.dots) {
+      if (lat < s || lat > n || lon < w || lon > e) continue;
+      const p = map.latLngToContainerPoint([lat, lon]);
+      ctx.fillStyle = colors[c];
+      ctx.fillRect(p.x - r / 2, p.y - r / 2, r, r);
+    }
+  },
+});
+
+let dotLayer = null, dotData = null;
+async function initDotControl() {
+  // Presence check only (HEAD) — the 2-3MB payload loads on first toggle.
+  try {
+    const head = await fetch("../data/derived/dots.json", { method: "HEAD" });
+    if (!head.ok) return;
+  } catch { return; }
+  document.getElementById("dotcontrol").style.display = "block";
+  document.getElementById("dottoggle").onchange = async (ev) => {
+    if (ev.target.checked) {
+      if (!dotData) {
+        document.getElementById("dotmeta").textContent = "loading…";
+        dotData = await maybeJson("../data/derived/dots.json");
+        if (!dotData) return;
+        document.getElementById("dotmeta").textContent =
+          `1 dot = ${dotData.people_per_dot} people (2020 census; placement approximate)`;
+        const lg = document.getElementById("dotlegend");
+        lg.innerHTML = dotData.categories.map(c =>
+          `<span class="badge" style="background:${dotData.colors[c]}22;
+            border:1px solid ${dotData.colors[c]}; color:#1a2733">
+            <span class="swatch" style="background:${dotData.colors[c]};
+            width:8px;height:8px"></span> ${c}</span>`).join(" ");
+      }
+      dotLayer = new DotLayer(dotData).addTo(map);
+      document.getElementById("dotlegend").style.display = "block";
+    } else if (dotLayer) {
+      map.removeLayer(dotLayer);
+      document.getElementById("dotlegend").style.display = "none";
+    }
+  };
+}
+initDotControl();
 
 (async () => {
   const registry = await maybeJson("zones.json");

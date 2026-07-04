@@ -52,7 +52,7 @@ if _env_file.exists():
             k, _, v = line.partition("=")
             os.environ.setdefault(k.strip(), v.strip())
 
-ACS_VINTAGE = "2023"  # ACS 5-year ending year
+ACS_VINTAGE = "2024"  # ACS 5-year ending year (2020-2024 pooled; released Dec 2025)
 ACS_BASE = f"https://api.census.gov/data/{ACS_VINTAGE}/acs/acs5"
 PL_BASE = "https://api.census.gov/data/2020/dec/pl"
 TIGERWEB_ROOT = ("https://tigerweb.geo.census.gov/arcgis/rest/services/"
