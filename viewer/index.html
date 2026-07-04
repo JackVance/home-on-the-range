@@ -92,6 +92,25 @@
       </select>
       <select id="zonedir"><option value="desc" selected>▼ desc</option>
         <option value="asc">▲ asc</option></select>
+      <br>color by <select id="colorby">
+        <option value="none" selected>—</option>
+        <option value="pop">population</option>
+        <option value="income">median HH income</option>
+        <option value="homeval">median home value</option>
+        <option value="school">school rating score</option>
+        <option value="ach">achievement score</option>
+        <option value="growth">growth score</option>
+        <option value="ccmr">CCMR</option>
+        <option value="hisp">% Hispanic</option>
+        <option value="white">% NH White</option>
+        <option value="black">% NH Black</option>
+        <option value="asian">% NH Asian</option>
+        <option value="ba">% Bachelor's+</option>
+      </select>
+      <select id="colorbydir">
+        <option value="desc" selected>high = green</option>
+        <option value="asc">low = green</option>
+      </select>
       <br><a href="#" id="addfilter" style="font-size:12px;">＋ add filter</a>
       <div id="zonefilters"></div>
     </div>
@@ -446,6 +465,36 @@ function applyStyle(entry) {
   entry.layer.setStyle({ fillOpacity: shadeOn ? FILL : 0 });
 }
 
+// --- Color-by choropleth: rank-based green->red gradient over any metric,
+// independent of the card sort. Rank (not value) scaling keeps outliers
+// (e.g. Westlake's $1.7M median) from flattening everyone else.
+function applyColorBy() {
+  const key = document.getElementById("colorby").value;
+  const dir = document.getElementById("colorbydir").value;
+  if (key === "none") {
+    for (const c of cardsIndex) {
+      if (c.entry) c.entry.layer.setStyle(
+        { fillColor: c.entry.color, fillOpacity: shadeOn ? FILL : 0 });
+    }
+    return;
+  }
+  const ranked = cardsIndex
+    .filter(c => c.entry && c.metrics[key] != null)
+    .sort((a, b) => a.metrics[key] - b.metrics[key]);
+  ranked.forEach((c, i) => {
+    let f = ranked.length > 1 ? i / (ranked.length - 1) : 1;  // 0 low .. 1 high
+    if (dir === "asc") f = 1 - f;
+    c.entry.layer.setStyle({ fillColor: `hsl(${Math.round(120 * f)},72%,45%)`,
+                             fillOpacity: shadeOn ? 0.45 : 0 });
+  });
+  for (const c of cardsIndex) {   // metric unknown -> neutral grey
+    if (c.entry && c.metrics[key] == null) c.entry.layer.setStyle(
+      { fillColor: "#8a969e", fillOpacity: shadeOn ? 0.18 : 0 });
+  }
+}
+document.getElementById("colorby").onchange = applyColorBy;
+document.getElementById("colorbydir").onchange = applyColorBy;
+
 // --- User pins: by address (Census Bureau geocoder, user-initiated) or
 // --- "lat, lon". Persisted in localStorage; popup shows containing zone.
 const pinsLayer = L.layerGroup().addTo(map);
@@ -713,7 +762,7 @@ function transfersHtml(cad) {
       box.onchange = (ev) => {
         entry.visible = ev.target.checked;
         if (entry.visible) {
-          entry.layer.addTo(map); entry.border.addTo(map); applyStyle(entry);
+          entry.layer.addTo(map); entry.border.addTo(map); applyColorBy();
         } else {
           map.removeLayer(entry.layer); map.removeLayer(entry.border);
         }
@@ -756,7 +805,7 @@ function transfersHtml(cad) {
 
   document.getElementById("shadetoggle").onchange = (ev) => {
     shadeOn = ev.target.checked;
-    zoneLayers.forEach(e => e.visible && applyStyle(e));
+    applyColorBy();   // handles both plain shading and color-by modes
   };
   let allOn = true;
   document.getElementById("allzones").onclick = (ev) => {

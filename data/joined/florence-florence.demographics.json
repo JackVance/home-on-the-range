@@ -1,240 +1,240 @@
 {
- "block_count": 164,
+ "block_count": 209,
  "coarse_geography": false,
  "education": {
   "counts": {
    "B15003_001": {
-    "cv": 0.0708,
-    "moe": 375.35545166104544,
+    "cv": 0.0595,
+    "moe": 386.5967915969629,
     "reason": null,
     "resolution": "block_group",
-    "value": 3221.309294956069
+    "value": 3951.064292290837
    },
    "B15003_022": {
-    "cv": 0.1379,
-    "moe": 133.89753318120313,
+    "cv": 0.1162,
+    "moe": 137.9173995374279,
     "reason": null,
     "resolution": "block_group",
-    "value": 590.2408286556366
+    "value": 721.765453653519
    },
    "B15003_023": {
-    "cv": 0.1809,
-    "moe": 71.45150375451367,
+    "cv": 0.1511,
+    "moe": 74.39654445098384,
     "reason": null,
     "resolution": "block_group",
-    "value": 240.08234479254673
+    "value": 299.256042959814
    },
    "B15003_024": {
-    "cv": 0.4225,
-    "moe": 14.401211849976939,
-    "reason": "block_group CV 0.67 > 0.3",
+    "cv": 0.3278,
+    "moe": 15.77455578229644,
+    "reason": "block_group CV 0.53 > 0.3",
     "resolution": "tract",
-    "value": 20.721347147480735
+    "value": 29.25244677567789
    },
    "B15003_025": {
-    "cv": 0.3861,
-    "moe": 38.568370422353546,
-    "reason": "block_group CV 0.39 > 0.3",
+    "cv": 0.333,
+    "moe": 39.981438549363,
+    "reason": "block_group CV 0.32 > 0.3",
     "resolution": "tract",
-    "value": 60.73117667235051
+    "value": 72.99316038569067
    }
   },
   "shares": {
    "pct_bachelors_or_higher": {
-    "cv": 0.0773,
-    "moe": 0.036,
-    "value": 0.283
+    "cv": 0.0648,
+    "moe": 0.0303,
+    "value": 0.2843
    }
   }
  },
  "income": {
   "brackets": {
    "B19001_001": {
-    "cv": 0.0673,
-    "moe": 169.10332072522866,
+    "cv": 0.0566,
+    "moe": 176.97963653159792,
     "reason": null,
     "resolution": "block_group",
-    "value": 1527.7565075658954
+    "value": 1901.8483011125259
    },
    "B19001_002": {
-    "cv": 0.4587,
-    "moe": 46.60578704497453,
-    "reason": "block_group CV 0.45 > 0.3",
+    "cv": 0.3722,
+    "moe": 48.40455737715863,
+    "reason": "block_group CV 0.33 > 0.3",
     "resolution": "tract",
-    "value": 61.76916347664967
+    "value": 79.0483427774595
    },
    "B19001_003": {
-    "cv": 1.0684,
-    "moe": 24.08536712756742,
-    "reason": "block_group CV 1.52 > 0.3",
+    "cv": 0.7426,
+    "moe": 24.565192370257613,
+    "reason": "block_group CV 1.33 > 0.3",
     "resolution": "tract",
-    "value": 13.704615384615385
+    "value": 20.108265137784134
    },
    "B19001_004": {
-    "cv": 0.4589,
-    "moe": 25.508389411243275,
-    "reason": "block_group CV 0.57 > 0.3",
+    "cv": 0.368,
+    "moe": 26.589702727703905,
+    "reason": "block_group CV 0.43 > 0.3",
     "resolution": "tract",
-    "value": 33.78831211953514
+    "value": 43.92502703587446
    },
    "B19001_005": {
-    "cv": 0.8297,
-    "moe": 50.186501459016775,
-    "reason": "block_group CV 0.84 > 0.3",
+    "cv": 0.5886,
+    "moe": 51.63397830882089,
+    "reason": "block_group CV 0.80 > 0.3",
     "resolution": "tract",
-    "value": 36.77114923445858
+    "value": 53.322759148071974
    },
    "B19001_006": {
-    "cv": 1.6563,
-    "moe": 15.944616333157265,
-    "reason": "block_group CV 2.63 > 0.3",
+    "cv": 0.4666,
+    "moe": 21.657366625279895,
+    "reason": "block_group CV 0.69 > 0.3",
     "resolution": "tract",
-    "value": 5.852167054687129
+    "value": 28.217491035270434
    },
    "B19001_007": {
-    "cv": 0.702,
-    "moe": 17.0276198024146,
-    "reason": "block_group CV 1.08 > 0.3",
+    "cv": 0.5786,
+    "moe": 17.598322950647113,
+    "reason": "block_group CV 0.76 > 0.3",
     "resolution": "tract",
-    "value": 14.745355817213477
+    "value": 18.488802785393048
    },
    "B19001_008": {
-    "cv": 0.4178,
-    "moe": 44.33181948168649,
-    "reason": "block_group CV 0.41 > 0.3",
+    "cv": 0.35,
+    "moe": 44.936722369336714,
+    "reason": "block_group CV 0.35 > 0.3",
     "resolution": "tract",
-    "value": 64.5064748201439
+    "value": 78.05646688432192
    },
    "B19001_009": {
-    "cv": 0.4187,
-    "moe": 25.527972977717354,
-    "reason": "block_group CV 0.49 > 0.3",
+    "cv": 0.3122,
+    "moe": 28.115277120620064,
+    "reason": "block_group CV 0.35 > 0.3",
     "resolution": "tract",
-    "value": 37.06704496810211
+    "value": 54.737700464914454
    },
    "B19001_010": {
-    "cv": 0.6231,
-    "moe": 88.96686728598158,
-    "reason": "block_group CV 0.66 > 0.3",
+    "cv": 0.5244,
+    "moe": 89.70070503413066,
+    "reason": "block_group CV 0.63 > 0.3",
     "resolution": "tract",
-    "value": 86.79147930992403
+    "value": 103.990144846098
    },
    "B19001_011": {
-    "cv": 0.3673,
-    "moe": 50.96106528374928,
-    "reason": "block_group CV 0.40 > 0.3",
+    "cv": 0.3335,
+    "moe": 51.237516620375516,
+    "reason": "block_group CV 0.39 > 0.3",
     "resolution": "tract",
-    "value": 84.34097546897152
+    "value": 93.38608863062655
    },
    "B19001_012": {
-    "cv": 0.3306,
-    "moe": 73.3341458660312,
-    "reason": "block_group CV 0.34 > 0.3",
-    "resolution": "tract",
-    "value": 134.83534341263623
+    "cv": 0.2648,
+    "moe": 82.0200464361165,
+    "reason": null,
+    "resolution": "block_group",
+    "value": 188.26437621216027
    },
    "B19001_013": {
-    "cv": 0.1887,
-    "moe": 64.4627449961206,
+    "cv": 0.1586,
+    "moe": 67.96198615740649,
     "reason": null,
     "resolution": "block_group",
-    "value": 207.68088183600892
+    "value": 260.477413526348
    },
    "B19001_014": {
-    "cv": 0.2629,
-    "moe": 98.03974952847327,
+    "cv": 0.2368,
+    "moe": 98.91681508788677,
     "reason": null,
     "resolution": "block_group",
-    "value": 226.66971318845287
+    "value": 253.9875204355577
    },
    "B19001_015": {
-    "cv": 0.255,
-    "moe": 65.65897340722566,
+    "cv": 0.217,
+    "moe": 68.28448986765501,
     "reason": null,
     "resolution": "block_group",
-    "value": 156.53829487849782
+    "value": 191.3284167476838
    },
    "B19001_016": {
-    "cv": 0.2521,
-    "moe": 46.234919224376455,
+    "cv": 0.1887,
+    "moe": 52.53817825216015,
     "reason": null,
     "resolution": "block_group",
-    "value": 111.47873293036253
+    "value": 169.23695048275573
    },
    "B19001_017": {
-    "cv": 0.1603,
-    "moe": 69.08967986344081,
+    "cv": 0.1416,
+    "moe": 70.87077036705081,
     "reason": null,
     "resolution": "block_group",
-    "value": 261.9262700647072
+    "value": 304.2167762059848
    }
   },
   "median_household_income": {
    "cv": null,
-   "display": "$98,481",
+   "display": "$95,045",
    "flag": null,
    "moe": null,
-   "value": 98481
+   "value": 95045
   }
  },
  "race_ethnicity": {
   "counts": {
    "B03002_001": {
-    "cv": 0.0996,
-    "moe": 774.5552574342572,
+    "cv": 0.084,
+    "moe": 785.0451088672451,
     "reason": null,
     "resolution": "block_group",
-    "value": 4728.928405104854
+    "value": 5679.685826733633
    },
    "B03002_003": {
-    "cv": 0.1327,
-    "moe": 672.9966892475173,
+    "cv": 0.1118,
+    "moe": 682.4665170309777,
     "reason": null,
     "resolution": "block_group",
-    "value": 3081.935951283915
+    "value": 3711.164269199252
    },
    "B03002_004": {
-    "cv": 0.8074,
-    "moe": 21.172444769182217,
-    "reason": "block_group CV 0.93 > 0.3",
+    "cv": 0.1674,
+    "moe": 35.600592739712155,
+    "reason": "block_group CV 0.30 > 0.3",
     "resolution": "tract",
-    "value": 15.94011423391095
+    "value": 129.26358468475274
    },
    "B03002_006": {
-    "cv": 1.7709,
-    "moe": 19.293765722442544,
-    "reason": "block_group CV 2.65 > 0.3",
+    "cv": 0.4907,
+    "moe": 28.247336309518236,
+    "reason": "block_group CV 0.59 > 0.3",
     "resolution": "tract",
-    "value": 6.62297595841304
+    "value": 34.991396538698844
    },
    "B03002_012": {
-    "cv": 0.2106,
-    "moe": 488.6052981692629,
+    "cv": 0.189,
+    "moe": 492.2859975983985,
     "reason": null,
     "resolution": "block_group",
-    "value": 1410.455569259968
+    "value": 1583.7068531798207
    }
   },
   "shares": {
    "pct_hispanic": {
-    "cv": 0.1856,
-    "moe": 0.091,
-    "value": 0.2983
+    "cv": 0.1693,
+    "moe": 0.0776,
+    "value": 0.2788
    },
    "pct_nh_asian": {
-    "cv": 1.7681,
-    "moe": 0.0041,
-    "value": 0.0014
+    "cv": 0.4835,
+    "moe": 0.0049,
+    "value": 0.0062
    },
    "pct_nh_black": {
-    "cv": 0.8013,
-    "moe": 0.0044,
-    "value": 0.0034
+    "cv": 0.1448,
+    "moe": 0.0054,
+    "value": 0.0228
    },
    "pct_nh_white": {
-    "cv": 0.0878,
-    "moe": 0.0941,
-    "value": 0.6517
+    "cv": 0.0737,
+    "moe": 0.0793,
+    "value": 0.6534
    }
   }
  }
