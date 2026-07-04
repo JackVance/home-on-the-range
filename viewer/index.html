@@ -647,13 +647,31 @@ function schoolHtml(sch) {
     color:#fff; font-weight:700; border-radius:4px; padding:0 7px;">${g}</span>`;
   const dg = x => x?.grade && x.grade !== "Not Rated"
     ? `${x.grade}${x.score ? " " + x.score : ""}` : "—";
+  const row = (label, val) => val == null ? "" :
+    `<tr><td>${label}</td><td class="v">${val}</td></tr>`;
   return `<div style="font-size:12.5px; margin:4px 0;">
     ${badge} <b>${sch.score ?? ""}</b>
     · ach <b>${dg(sch.achievement)}</b>
     · growth <b>${dg(sch.growth)}</b>
-    ${sch.ccmr_score ? `· CCMR <b>${sch.ccmr_score}</b>` : ""}
+    ${sch.ccmr_score ? `· CCMR <b>${sch.ccmr_score}%</b>` : ""}
     · <a href="#" class="tapr" data-url="${sch.report_url}">report ↗</a>
-  </div>`;
+  </div>
+  <details><summary style="cursor:pointer; font-size:12.5px; color:#33566e">
+      school detail</summary>
+    <table class="stats">
+      ${row("Campus", sch.campus_name)}
+      ${row("Overall", dg({ grade: sch.rating, score: sch.score }))}
+      ${row("Achievement (D1)", dg(sch.achievement))}
+      ${row("· STAAR", sch.staar_score)}
+      ${row("· CCMR", sch.ccmr_score != null ? sch.ccmr_score + "%" : null)}
+      ${row("· Graduation", sch.graduation_score != null ? sch.graduation_score + "%" : null)}
+      ${row("Growth (D2)", dg(sch.growth))}
+      ${row("Closing gaps (D3)", dg(sch.closing_gaps))}
+      ${row("Distinctions", sch.distinctions_earned != null ? sch.distinctions_earned + " of 7" : null)}
+      ${row("Enrollment", sch.enrollment?.toLocaleString?.() ?? sch.enrollment)}
+      ${row("As of", sch.as_of)}
+    </table>
+  </details>`;
 }
 
 // Committed transfer-rate windows (computed in fetch_cad.py, never here).
