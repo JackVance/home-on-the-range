@@ -14,6 +14,7 @@ district          = "Leander ISD"
 high_school       = "Vandegrift HS"
 counties          = ["48453", "48491"]           # Travis + Williamson
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"   # clip to TIGER district line
 boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
 # Layer 5 = "High School (9th-10th) Zones"; layer 7 = 11th-12th. LISD splits
 # some feeder patterns — CONFIRM at first fetch which layer holds Vandegrift's
@@ -34,6 +35,7 @@ district          = "Round Rock ISD"
 high_school       = "Westwood HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"   # clip to TIGER district line
 boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
 boundary_where    = "HIGH_NAME='WESTWOOD'"       # uppercase per probed schema
 boundary_name_field = "HIGH_NAME"
@@ -54,6 +56,7 @@ counties          = ["48453"]                    # Travis
 # JSON API (the same query the district's own lookup tool makes client-side).
 # Collection = "School Year 2026-27"; item d6c4df32 = the HS layer (1 feature).
 boundary_source   = "myplanware_geojson"
+district_geoid    = "4817760"   # clip to TIGER district line
 boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=40669a54-a33b-43e1-ab74-8ce7364ec1c9&collectionItemId=d6c4df32-eb21-4461-8350-296e0008ff7c"
 boundary_where    = "name='Westlake High School'"
 boundary_name_field = "name"
@@ -74,6 +77,7 @@ district          = "Leander ISD"
 high_school       = "Cedar Park HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"   # clip to TIGER district line
 boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
 boundary_where    = "DisplayName='Cedar Park High School'"
 boundary_name_field = "DisplayName"
@@ -88,6 +92,7 @@ district          = "Leander ISD"
 high_school       = "Vista Ridge HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"   # clip to TIGER district line
 boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
 boundary_where    = "DisplayName='Vista Ridge High School'"
 boundary_name_field = "DisplayName"
@@ -102,6 +107,7 @@ district          = "Leander ISD"
 high_school       = "Leander HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"   # clip to TIGER district line
 boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
 boundary_where    = "DisplayName='Leander High School'"
 boundary_name_field = "DisplayName"
@@ -116,6 +122,7 @@ district          = "Leander ISD"
 high_school       = "Rouse HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4827030"   # clip to TIGER district line
 boundary_url      = "https://utility.arcgis.com/usrsvcs/servers/09a49c137df944e3b8399905ef8b3d8b/rest/services/Leander_AZ_Finder_24_25_WFL1/FeatureServer/5"
 boundary_where    = "DisplayName='Rouse High School'"
 boundary_name_field = "DisplayName"
@@ -132,6 +139,7 @@ district          = "Round Rock ISD"
 high_school       = "Round Rock HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"   # clip to TIGER district line
 boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
 boundary_where    = "HIGH_NAME='ROUND ROCK'"
 boundary_name_field = "HIGH_NAME"
@@ -146,6 +154,7 @@ district          = "Round Rock ISD"
 high_school       = "McNeil HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"   # clip to TIGER district line
 boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
 boundary_where    = "HIGH_NAME='MCNEIL'"
 boundary_name_field = "HIGH_NAME"
@@ -160,6 +169,7 @@ district          = "Round Rock ISD"
 high_school       = "Cedar Ridge HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"   # clip to TIGER district line
 boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
 boundary_where    = "HIGH_NAME='CEDAR RIDGE'"
 boundary_name_field = "HIGH_NAME"
@@ -174,6 +184,7 @@ district          = "Round Rock ISD"
 high_school       = "Stony Point HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4838080"   # clip to TIGER district line
 boundary_url      = "https://server.metrostudygis.com/arcgis/rest/services/Round_Rock_ISD_2526/MapServer/2"
 boundary_where    = "HIGH_NAME='STONY POINT'"
 boundary_name_field = "HIGH_NAME"
@@ -221,6 +232,7 @@ district          = "Austin ISD"
 high_school       = "Anderson HS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='Anderson HS'"
 boundary_name_field = "HIGH_DESC"
@@ -235,6 +247,7 @@ district          = "Austin ISD"
 high_school       = "Bowie HS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='Bowie HS'"
 boundary_name_field = "HIGH_DESC"
@@ -252,6 +265,7 @@ district          = "Georgetown ISD"
 high_school       = "Georgetown HS"
 counties          = ["48491"]
 boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"   # clip to TIGER district line
 boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=4ea0552d-5e75-491f-9519-6f917f7a814e"
 boundary_where    = "name='Georgetown High'"
 boundary_name_field = "name"
@@ -266,6 +280,7 @@ district          = "Georgetown ISD"
 high_school       = "East View HS"
 counties          = ["48491"]
 boundary_source   = "myplanware_geojson"
+district_geoid    = "4820600"   # clip to TIGER district line
 boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=65021521-b0d6-4590-a14c-882d415961ba&collectionItemId=4ea0552d-5e75-491f-9519-6f917f7a814e"
 boundary_where    = "name='East View High'"
 boundary_name_field = "name"
@@ -280,6 +295,7 @@ district          = "Pflugerville ISD"
 high_school       = "Hendrickson HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"   # clip to TIGER district line
 boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
 boundary_where    = "HIGH_PLAN5='HENDRICKSON HIGH SCHOOL'"
 boundary_layer_title = "High Schools 2025-26"
@@ -295,6 +311,7 @@ district          = "Pflugerville ISD"
 high_school       = "Weiss HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"   # clip to TIGER district line
 boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
 boundary_where    = "HIGH_PLAN5='WEISS HIGH SCHOOL'"
 boundary_layer_title = "High Schools 2025-26"
@@ -310,6 +327,7 @@ district          = "Pflugerville ISD"
 high_school       = "Pflugerville HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"   # clip to TIGER district line
 boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
 boundary_where    = "HIGH_PLAN5='PFLUGERVILLE HIGH SCHOOL'"
 boundary_layer_title = "High Schools 2025-26"
@@ -325,6 +343,7 @@ district          = "Pflugerville ISD"
 high_school       = "Connally HS"
 counties          = ["48453", "48491"]
 boundary_source   = "arcgis_webmap_embedded"
+district_geoid    = "4834830"   # clip to TIGER district line
 boundary_url      = "https://www.arcgis.com/sharing/rest/content/items/bb587c1043a949cca04f1b1904c235e3/data?f=json"
 boundary_where    = "HIGH_PLAN5='CONNALLY HIGH SCHOOL'"
 boundary_layer_title = "High Schools 2025-26"
@@ -368,6 +387,7 @@ district          = "Austin ISD"
 high_school       = "Austin HS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='Austin HS'"
 boundary_name_field = "HIGH_DESC"
@@ -382,6 +402,7 @@ district          = "Austin ISD"
 high_school       = "McCallum HS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='McCallum HS'"
 boundary_name_field = "HIGH_DESC"
@@ -396,6 +417,7 @@ district          = "Austin ISD"
 high_school       = "Akins HS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='Akins HS'"
 boundary_name_field = "HIGH_DESC"
@@ -410,6 +432,7 @@ district          = "Austin ISD"
 high_school       = "Crockett ECHS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='Crockett ECHS'"
 boundary_name_field = "HIGH_DESC"
@@ -424,6 +447,7 @@ district          = "Austin ISD"
 high_school       = "Eastside ECHS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='Eastside ECHS'"
 boundary_name_field = "HIGH_DESC"
@@ -438,6 +462,7 @@ district          = "Austin ISD"
 high_school       = "LBJ ECHS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='LBJ ECHS'"
 boundary_name_field = "HIGH_DESC"
@@ -452,6 +477,7 @@ district          = "Austin ISD"
 high_school       = "Navarro ECHS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='Navarro ECHS'"
 boundary_name_field = "HIGH_DESC"
@@ -466,6 +492,7 @@ district          = "Austin ISD"
 high_school       = "Northeast ECHS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='Northeast ECHS'"
 boundary_name_field = "HIGH_DESC"
@@ -480,6 +507,7 @@ district          = "Austin ISD"
 high_school       = "Travis ECHS"
 counties          = ["48453"]
 boundary_source   = "arcgis_query_url"
+district_geoid    = "4808940"   # clip to TIGER district line
 boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
 boundary_where    = "HIGH_DESC='Travis ECHS'"
 boundary_name_field = "HIGH_DESC"
@@ -623,6 +651,7 @@ district          = "Liberty Hill ISD"
 high_school       = "Liberty Hill HS"
 counties          = ["48491"]
 boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"   # clip to TIGER district line
 boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=ebcac291-c781-4696-b002-c96b3b197304"
 boundary_where    = "name='Liberty Hill High'"
 boundary_name_field = "name"
@@ -637,6 +666,7 @@ district          = "Liberty Hill ISD"
 high_school       = "Legacy Ranch HS"
 counties          = ["48491"]
 boundary_source   = "myplanware_geojson"
+district_geoid    = "4827420"   # clip to TIGER district line
 boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=ebcac291-c781-4696-b002-c96b3b197304"
 boundary_where    = "name='Legacy Ranch High'"
 boundary_name_field = "name"
@@ -651,6 +681,7 @@ district          = "Hays CISD"
 high_school       = "Hays HS"
 counties          = ["48209"]
 boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"   # clip to TIGER district line
 boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
 boundary_where    = "name='Hays High School Zone'"
 boundary_name_field = "name"
@@ -665,6 +696,7 @@ district          = "Hays CISD"
 high_school       = "Lehman HS"
 counties          = ["48209"]
 boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"   # clip to TIGER district line
 boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
 boundary_where    = "name='Lehman High School Zone'"
 boundary_name_field = "name"
@@ -679,6 +711,7 @@ district          = "Hays CISD"
 high_school       = "Johnson HS"
 counties          = ["48209"]
 boundary_source   = "google_mymaps_kml"
+district_geoid    = "4800010"   # clip to TIGER district line
 boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
 boundary_where    = "name='Johnson High School Zone'"
 boundary_name_field = "name"

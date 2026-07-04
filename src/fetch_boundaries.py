@@ -266,6 +266,21 @@ def whitelist_props(features: list[dict], zone_cfg: dict) -> dict:
     }
 
 
+TIGERWEB_SD = ("https://tigerweb.geo.census.gov/arcgis/rest/services/"
+               "TIGERweb/School/MapServer/0")
+_district_cache: dict[str, object] = {}
+
+
+def district_polygon(geoid: str):
+    """Census TIGER unified-school-district polygon (edge-matched nationally —
+    TIGER districts never overlap each other). Cached per run."""
+    if geoid not in _district_cache:
+        feats = query_zone(TIGERWEB_SD, f"GEOID='{geoid}'")
+        _district_cache[geoid] = unary_union(
+            [shape(f["geometry"]) for f in feats])
+    return _district_cache[geoid]
+
+
 def normalize_zone(features: list[dict], zone_cfg: dict) -> dict:
     """N raw features for ONE school -> one canonical (Multi)Polygon FC.
     Postcondition: valid geometry AND byte-idempotent serialization."""
@@ -284,6 +299,13 @@ def normalize_zone(features: list[dict], zone_cfg: dict) -> dict:
             raise ReviewRequired(f"mixed/unlabeled schools in result: {names} "
                                  f"(field {field!r})")
     geom = unary_union([shape(f["geometry"]) for f in features])
+    # Inter-district edge alignment: district GIS is authoritative INSIDE the
+    # district; the Census TIGER district line (edge-matched with every
+    # neighboring district) is authoritative AT the district boundary. Clip
+    # so zones from different sources can't overlap in edge slivers.
+    if zone_cfg.get("district_geoid"):
+        geom = geom.intersection(district_polygon(zone_cfg["district_geoid"]))
+        geom = polygonal_part(make_valid(geom))
     geom = round_coords(geom)
     geom = polygonal_part(make_valid(geom))   # rounding is topology-hostile
     if not geom.is_valid:

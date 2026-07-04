@@ -80,6 +80,10 @@
         <option value="pop">population</option>
         <option value="income">median HH income</option>
         <option value="homeval">median home value</option>
+        <option value="school">school rating score</option>
+        <option value="ach">achievement score</option>
+        <option value="growth">growth score</option>
+        <option value="ccmr">CCMR</option>
         <option value="hisp">% Hispanic</option>
         <option value="white">% NH White</option>
         <option value="black">% NH Black</option>
@@ -88,6 +92,8 @@
       </select>
       <select id="zonedir"><option value="desc" selected>▼ desc</option>
         <option value="asc">▲ asc</option></select>
+      <br><a href="#" id="addfilter" style="font-size:12px;">＋ add filter</a>
+      <div id="zonefilters"></div>
     </div>
     <div id="cadfilters" style="border-left:3px solid #af7ac5; padding-left:8px;">
       <b style="font-size:11px; color:#7d3c98; letter-spacing:.05em;">DEED TRANSFERS</b><br>
@@ -384,7 +390,7 @@ async function syncCad() {
   for (const e of zoneLayers) {
     const g = await cadGroup(e.name);
     if (!g) continue;
-    if (cadOn && e.visible) { if (!map.hasLayer(g)) g.addTo(map); }
+    if (cadOn && e.visible && !e.filtered) { if (!map.hasLayer(g)) g.addTo(map); }
     else if (map.hasLayer(g)) map.removeLayer(g);
   }
   // The tri-county remainder ("_outside") obeys its own checkbox, not zone
@@ -509,7 +515,7 @@ document.getElementById("pininput").onkeydown = (e) => {
 };
 
 // --- Zone-card sorting: metrics captured at card build, reordered on demand.
-const cardsIndex = [];   // {card, metrics}
+const cardsIndex = [];   // {card, metrics, entry}
 function applySort() {
   const key = document.getElementById("zonesort").value;
   if (key === "none") return;
@@ -521,6 +527,61 @@ function applySort() {
 }
 document.getElementById("zonesort").onchange = applySort;
 document.getElementById("zonedir").onchange = applySort;
+
+// --- Generic zone filters: add rows of {column, min, max}; a bounded column
+// hides zones missing that value. Filtered zones drop from cards AND map
+// (their visibility checkbox state is preserved underneath).
+const FILTER_COLS = {
+  pop: "population", income: "median HH income", homeval: "median home value",
+  school: "school rating score", ach: "achievement score",
+  growth: "growth score", ccmr: "CCMR",
+  hisp: "% Hispanic", white: "% NH White", black: "% NH Black",
+  asian: "% NH Asian", ba: "% Bachelor's+",
+};
+function applyZoneFilters() {
+  const rows = [...document.querySelectorAll("#zonefilters .frow")].map(r => ({
+    col: r.querySelector("select").value,
+    min: +r.querySelector(".fmin").value || -Infinity,
+    max: +r.querySelector(".fmax").value || Infinity,
+  })).filter(f => f.min !== -Infinity || f.max !== Infinity);
+  for (const c of cardsIndex) {
+    const pass = rows.every(f => {
+      const v = c.metrics[f.col];
+      return v != null && v >= f.min && v <= f.max;
+    });
+    c.card.style.display = pass ? "" : "none";
+    const e = c.entry;
+    if (!e) continue;
+    const wantOnMap = pass && e.visible;
+    for (const l of [e.layer, e.border]) {
+      if (wantOnMap && !map.hasLayer(l)) l.addTo(map);
+      if (!wantOnMap && map.hasLayer(l)) map.removeLayer(l);
+    }
+    e.filtered = !pass;
+  }
+  if (cadOn) syncCad();
+}
+document.getElementById("addfilter").onclick = (ev) => {
+  ev.preventDefault();
+  const row = document.createElement("div");
+  row.className = "frow";
+  row.style.cssText = "margin-top:3px; font-size:12.5px;";
+  row.innerHTML =
+    `<select>${Object.entries(FILTER_COLS).map(([k, v]) =>
+      `<option value="${k}">${v}</option>`).join("")}</select>
+     <input class="fmin" type="number" placeholder="min" style="width:70px">
+     – <input class="fmax" type="number" placeholder="max" style="width:70px">
+     <a href="#" class="frm">×</a>`;
+  document.getElementById("zonefilters").appendChild(row);
+  row.querySelector(".frm").onclick = (e2) => {
+    e2.preventDefault(); row.remove(); applyZoneFilters();
+  };
+  row.querySelector("select").onchange = applyZoneFilters;
+  let deb2;
+  row.querySelectorAll("input").forEach(inp => inp.oninput = () => {
+    clearTimeout(deb2); deb2 = setTimeout(applyZoneFilters, 400);
+  });
+};
 
 // TEA accountability (fetch_tea.py snapshots; vintage in the artifact).
 const GRADE_COLORS = { A: "#1d6b2a", B: "#1a7f8a", C: "#8a6d00",
@@ -669,7 +730,11 @@ function transfersHtml(cad) {
     panel.appendChild(card);
 
     const sh_ = demo?.race_ethnicity?.shares ?? {};
-    cardsIndex.push({ card, metrics: {
+    cardsIndex.push({ card, entry, metrics: {
+      school: sch?.score || null,
+      ach: sch?.achievement?.score || null,
+      growth: sch?.growth?.score || null,
+      ccmr: sch?.ccmr_score || null,
       pop: demo?.race_ethnicity?.counts?.["B03002_001"]?.value ?? null,
       // Open-top-bracket medians (">$200,000") sort above any numeric value.
       income: demo?.income?.median_household_income?.value ??

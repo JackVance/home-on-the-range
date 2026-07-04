@@ -103,7 +103,8 @@ def main() -> int:
             "closing_gaps": grade(r, "d3g", "d3s"),
             "enrollment": r.get("enrollment"),
             "distinctions_earned": sum(1 for d in distinctions if d == "Y"),
-            "report_url": f"https://txschools.gov/schools/{r['id']}/overview",
+            "report_url": (f"https://txschools.gov/?view=school&id={r['id']}"
+                           f"&lng=en"),
             "as_of": date.today().isoformat(),
             "source": "TEA Texas School Report Cards (txschools.gov), current "
                       "accountability year at fetch time",
