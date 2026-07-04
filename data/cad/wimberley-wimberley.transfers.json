@@ -1,5 +1,5 @@
 {
- "as_of": "2026-07-04T17:32:14+00:00",
+ "as_of": "2026-07-04T17:59:13+00:00",
  "count": 456,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
@@ -9,6 +9,7 @@
    "acres": 4.88,
    "address": "802 LONESOME TRL, DRIFTWOOD, TX  78619",
    "assessed": 537000,
+   "class": "A",
    "deed_date": "2026-06-10",
    "extras": {
     "bedrooms": "3.000000",
@@ -16,6 +17,7 @@
     "foundation": "P-B",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.062564,
    "lon": -98.024049,
    "sqft": 1272,
@@ -27,6 +29,7 @@
    "acres": 0.24,
    "address": "4 CEDARWOOD, WIMBERLEY, TX  78676",
    "assessed": 414290,
+   "class": "A",
    "deed_date": "2026-06-09",
    "extras": {
     "bedrooms": "3.000000",
@@ -34,6 +37,7 @@
     "foundation": "S",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.039006,
    "lon": -98.147887,
    "sqft": 1863,
@@ -45,6 +49,7 @@
    "acres": 1.99,
    "address": "1121 COVERED BRIDGE DR, DRIFTWOOD, TX  78619",
    "assessed": 1321408,
+   "class": "A",
    "deed_date": "2026-06-09",
    "extras": {
     "bedrooms": "3.000000",
@@ -54,6 +59,7 @@
     "heat_ac": "CAH",
     "roof": "H-M"
    },
+   "homestead": true,
    "lat": 30.083674,
    "lon": -98.043453,
    "sqft": 3154,
@@ -65,11 +71,13 @@
    "acres": 15.34,
    "address": "900 SANDY POINT RD, WIMBERLEY, TX  78676",
    "assessed": 625463,
+   "class": "A",
    "deed_date": "2026-06-05",
    "extras": {
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.051367,
    "lon": -98.219112,
    "sqft": 1200,
@@ -80,6 +88,7 @@
   {
    "address": "8 REDWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 510000,
+   "class": "A",
    "deed_date": "2026-06-05",
    "extras": {
     "bedrooms": "3.000000",
@@ -89,6 +98,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.039525,
    "lon": -98.151716,
    "sqft": 1953,
@@ -100,6 +110,7 @@
    "acres": 0.84,
    "address": "500 CLIMBING WAY, WIMBERLEY, TX  78676",
    "assessed": 362830,
+   "class": "E",
    "deed_date": "2026-06-04",
    "extras": {
     "exterior": "R",
@@ -108,6 +119,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.979006,
    "lon": -98.083688,
    "sqft": 1390,
@@ -119,8 +131,10 @@
    "acres": 0.39,
    "address": "20 MERIDIAN DR, WIMBERLEY, TX  78676",
    "assessed": 702350,
+   "class": "A",
    "deed_date": "2026-06-04",
    "extras": {},
+   "homestead": false,
    "lat": 29.979835,
    "lon": -98.078588,
    "sqft": 2608,
@@ -131,6 +145,7 @@
   {
    "address": "615 MOUNTAIN CREST DR, WIMBERLEY, TX  78676",
    "assessed": 735320,
+   "class": "A",
    "deed_date": "2026-06-04",
    "extras": {
     "exterior": "R",
@@ -138,6 +153,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.034916,
    "lon": -98.112261,
    "sqft": 2356,
@@ -149,6 +165,7 @@
    "acres": 1.065,
    "address": "209 FREEDOM DR, WIMBERLEY, TX  78676",
    "assessed": 871228,
+   "class": "A",
    "deed_date": "2026-06-04",
    "extras": {
     "exterior": "R",
@@ -157,6 +174,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.976939,
    "lon": -98.105641,
    "sqft": 2796,
@@ -167,6 +185,7 @@
   {
    "address": "221 WOODCREEK DR, WIMBERLEY, TX  78676",
    "assessed": 300850,
+   "class": "A",
    "deed_date": "2026-05-29",
    "extras": {
     "exterior": "R",
@@ -175,6 +194,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.017108,
    "lon": -98.120248,
    "sqft": 1536,
@@ -186,8 +206,10 @@
    "acres": 3.18,
    "address": "302 MESA DR, WIMBERLEY, TX  78676",
    "assessed": 665570,
+   "class": "A",
    "deed_date": "2026-05-29",
    "extras": {},
+   "homestead": true,
    "lat": 29.967957,
    "lon": -98.087985,
    "sqft": 1925,
@@ -198,6 +220,7 @@
   {
    "address": "2 CROOKED ARROW CT, WIMBERLEY, TX  78676",
    "assessed": 552000,
+   "class": "A",
    "deed_date": "2026-05-29",
    "extras": {
     "exterior": "R, C-S",
@@ -206,6 +229,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.03585,
    "lon": -98.146401,
    "sqft": 2181,
@@ -216,6 +240,7 @@
   {
    "address": "5 SUNSET CIR, WIMBERLEY, TX  78676",
    "assessed": 349500,
+   "class": "A",
    "deed_date": "2026-05-29",
    "extras": {
     "bedrooms": "3.000000",
@@ -225,6 +250,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.040093,
    "lon": -98.144458,
    "sqft": 1385,
@@ -236,8 +262,10 @@
    "acres": 0.376,
    "address": "42 PEACE PIPE, WIMBERLEY, TX  78676",
    "assessed": 726150,
+   "class": "A",
    "deed_date": "2026-05-29",
    "extras": {},
+   "homestead": false,
    "lat": 30.019057,
    "lon": -98.142743,
    "sqft": 2949,
@@ -249,6 +277,7 @@
    "acres": 1.86,
    "address": "744 CANNA LILY CIR, DRIFTWOOD, TX  78619",
    "assessed": 728270,
+   "class": "A",
    "deed_date": "2026-05-28",
    "extras": {
     "exterior": "R, S",
@@ -257,6 +286,7 @@
     "heat_ac": "2CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.058092,
    "lon": -98.005004,
    "sqft": 2565,
@@ -268,10 +298,12 @@
    "acres": 1.0,
    "address": "112 LIBERTY LN, WIMBERLEY, TX  78676",
    "assessed": 429040,
+   "class": "A",
    "deed_date": "2026-05-27",
    "extras": {
     "bedrooms": "3.000000"
    },
+   "homestead": true,
    "lat": 29.977664,
    "lon": -98.104853,
    "sqft": 1376,
@@ -283,6 +315,7 @@
    "acres": 2.61,
    "address": "590 RANCHO GRANDE DR, WIMBERLEY, TX  78676",
    "assessed": 771246,
+   "class": "A",
    "deed_date": "2026-05-27",
    "extras": {
     "bedrooms": "2.000000",
@@ -292,6 +325,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.01904,
    "lon": -98.049835,
    "sqft": 1553,
@@ -302,6 +336,7 @@
   {
    "address": "55 CHAMPIONS CIR, WIMBERLEY, TX  78676",
    "assessed": 362480,
+   "class": "A",
    "deed_date": "2026-05-27",
    "extras": {
     "exterior": "C-S",
@@ -310,6 +345,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.021805,
    "lon": -98.104056,
    "sqft": 1509,
@@ -320,12 +356,14 @@
   {
    "address": "131 CHAMPIONS CIR, WIMBERLEY, TX  78676",
    "assessed": 403940,
+   "class": "A",
    "deed_date": "2026-05-26",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "O"
    },
+   "homestead": true,
    "lat": 30.021101,
    "lon": -98.111914,
    "sqft": 1697,
@@ -337,8 +375,10 @@
    "acres": 7.94,
    "address": "6058 MUSTANG VALLEY TRL, WIMBERLEY, TX  78676",
    "assessed": 1062450,
+   "class": "A",
    "deed_date": "2026-05-26",
    "extras": {},
+   "homestead": true,
    "lat": 30.020226,
    "lon": -98.180528,
    "sqft": 3478,
@@ -349,6 +389,7 @@
   {
    "address": "12 DEER RIDGE, WIMBERLEY, TX  78676",
    "assessed": 401010,
+   "class": "A",
    "deed_date": "2026-05-22",
    "extras": {
     "exterior": "R-C",
@@ -357,6 +398,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.030645,
    "lon": -98.132503,
    "sqft": 1772,
@@ -368,6 +410,7 @@
    "acres": 2.0,
    "address": "410 ARROWHEAD PASS, WIMBERLEY, TX  78676",
    "assessed": 791420,
+   "class": "A",
    "deed_date": "2026-05-22",
    "extras": {
     "exterior": "B-C",
@@ -376,6 +419,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 29.95529,
    "lon": -98.069385,
    "sqft": 2780,
@@ -387,8 +431,10 @@
    "acres": 0.359,
    "address": "43 WAR BONNET, WIMBERLEY, TX  78676",
    "assessed": 694140,
+   "class": "A",
    "deed_date": "2026-05-22",
    "extras": {},
+   "homestead": false,
    "lat": 30.019866,
    "lon": -98.141605,
    "sqft": 2817,
@@ -400,6 +446,7 @@
    "acres": 5.51,
    "address": "213 RANCHO ENCINO DR, SAN MARCOS, TX  78666",
    "assessed": 1188290,
+   "class": "A",
    "deed_date": "2026-05-21",
    "extras": {
     "exterior": "R",
@@ -408,6 +455,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.925096,
    "lon": -98.056808,
    "sqft": 3982,
@@ -419,8 +467,10 @@
    "acres": 1.0,
    "address": "18300 RR 12, WIMBERLEY, TX  78676",
    "assessed": 369340,
+   "class": "E",
    "deed_date": "2026-05-20",
    "extras": {},
+   "homestead": false,
    "lat": 30.060715,
    "lon": -98.090906,
    "sqft": 1955,
@@ -432,6 +482,7 @@
    "acres": 1.67,
    "address": "105 RIDGE OAK DR, WIMBERLEY, TX  78676",
    "assessed": 553357,
+   "class": "A",
    "deed_date": "2026-05-18",
    "extras": {
     "exterior": "C-S",
@@ -440,6 +491,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.980921,
    "lon": -98.156709,
    "sqft": 1916,
@@ -451,6 +503,7 @@
    "acres": 10.01,
    "address": "215 WHISPERING OAKS LN, DRIPPING SPRINGS, TX  78620",
    "assessed": 864070,
+   "class": "D1",
    "deed_date": "2026-05-15",
    "extras": {
     "bedrooms": "5.000000",
@@ -460,6 +513,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C, H-M"
    },
+   "homestead": true,
    "lat": 30.034195,
    "lon": -98.142865,
    "sqft": 3078,
@@ -471,6 +525,7 @@
    "acres": 0.8,
    "address": "110 CEDAR DR, MOUNTAIN CITY, TX  78610",
    "assessed": 444179,
+   "class": "A",
    "deed_date": "2026-05-14",
    "extras": {
     "exterior": "R-W",
@@ -478,6 +533,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.982859,
    "lon": -98.102353,
    "sqft": 1739,
@@ -488,8 +544,10 @@
    "acres": 5.79,
    "address": "5300 FISCHER STORE RD, WIMBERLEY, TX  78676",
    "assessed": 293586,
+   "class": "A",
    "deed_date": "2026-05-14",
    "extras": {},
+   "homestead": true,
    "lat": 29.996829,
    "lon": -98.234127,
    "sqft": 1856,
@@ -500,6 +558,7 @@
   {
    "address": "44 BROOKHOLLOW DR, WIMBERLEY, TX  78676",
    "assessed": 553470,
+   "class": "A",
    "deed_date": "2026-05-14",
    "extras": {
     "bedrooms": "4.000000",
@@ -507,6 +566,7 @@
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.028044,
    "lon": -98.113884,
    "sqft": 3087,
@@ -518,10 +578,12 @@
    "acres": 4.0,
    "address": "201 RAINCLOUD, WIMBERLEY, TX  78676",
    "assessed": 687380,
+   "class": "A",
    "deed_date": "2026-05-13",
    "extras": {
     "bedrooms": "4.000000"
    },
+   "homestead": false,
    "lat": 30.085316,
    "lon": -98.06755,
    "sqft": 1176,
@@ -533,8 +595,10 @@
    "acres": 19.71,
    "address": "410 HIGH RD, KYLE, TX  78640",
    "assessed": 707800,
+   "class": "E",
    "deed_date": "2026-05-12",
    "extras": {},
+   "homestead": false,
    "lat": 29.973942,
    "lon": -98.129036,
    "sqft": 824,
@@ -546,6 +610,7 @@
    "acres": 1.377,
    "address": "300 WIMBERLEY HILLS DR, WIMBERLEY, TX  78676",
    "assessed": 614941,
+   "class": "A",
    "deed_date": "2026-05-12",
    "extras": {
     "exterior": "R",
@@ -553,6 +618,7 @@
     "heat_ac": "2CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.004312,
    "lon": -98.179165,
    "sqft": 2106,
@@ -564,6 +630,7 @@
    "acres": 1.58,
    "address": "164 ARABIAN LN, DRIFTWOOD, TX  78619",
    "assessed": 1457850,
+   "class": "A",
    "deed_date": "2026-05-12",
    "extras": {
     "bedrooms": "5.000000",
@@ -573,6 +640,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.078979,
    "lon": -98.044496,
    "sqft": 3535,
@@ -583,6 +651,7 @@
   {
    "address": "1440 FLITE ACRES RD, WIMBERLEY, TX  78676",
    "assessed": 940187,
+   "class": "A",
    "deed_date": "2026-05-11",
    "extras": {
     "exterior": "R",
@@ -591,6 +660,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.985398,
    "lon": -98.071487,
    "sqft": 2384,
@@ -601,6 +671,7 @@
   {
    "address": "78 AUGUSTA DR, WIMBERLEY, TX  78676",
    "assessed": 535086,
+   "class": "A",
    "deed_date": "2026-05-11",
    "extras": {
     "bedrooms": "4.000000",
@@ -609,6 +680,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.031471,
    "lon": -98.112092,
    "sqft": 2088,
@@ -620,8 +692,10 @@
    "acres": 2.46,
    "address": "275 PINION TRL, WIMBERLEY, TX  78676",
    "assessed": 256244,
+   "class": "A",
    "deed_date": "2026-05-11",
    "extras": {},
+   "homestead": false,
    "lat": 29.99587,
    "lon": -98.120324,
    "sqft": 1497,
@@ -633,8 +707,10 @@
    "acres": 5.155,
    "address": "3840 RIVER RD, WIMBERLEY, TX  78676",
    "assessed": 1045290,
+   "class": "A",
    "deed_date": "2026-05-10",
    "extras": {},
+   "homestead": true,
    "lat": 29.97791,
    "lon": -98.138365,
    "sqft": 4163,
@@ -645,6 +721,7 @@
   {
    "address": "29 PRESIDIO RD, WIMBERLEY, TX  78676",
    "assessed": 434280,
+   "class": "A",
    "deed_date": "2026-05-08",
    "extras": {
     "exterior": "R",
@@ -653,6 +730,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.015998,
    "lon": -98.11817,
    "sqft": 1488,
@@ -662,6 +740,7 @@
   {
    "address": "1 SUNSET CIR, WIMBERLEY, TX  78676",
    "assessed": 505400,
+   "class": "A",
    "deed_date": "2026-05-08",
    "extras": {
     "bedrooms": "3.000000",
@@ -671,6 +750,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.039723,
    "lon": -98.144802,
    "sqft": 1864,
@@ -682,8 +762,10 @@
    "acres": 10.698,
    "address": "1301 RED HAWK RD, WIMBERLEY, TX  78676",
    "assessed": 1268350,
+   "class": "A",
    "deed_date": "2026-05-08",
    "extras": {},
+   "homestead": true,
    "lat": 29.998436,
    "lon": -98.032345,
    "sqft": 2265,
@@ -694,8 +776,10 @@
   {
    "address": "16 SHADY GROVE LN, WIMBERLEY, TX  78676",
    "assessed": 450530,
+   "class": "A",
    "deed_date": "2026-05-07",
    "extras": {},
+   "homestead": true,
    "lat": 30.03208,
    "lon": -98.130138,
    "sqft": 2001,
@@ -706,12 +790,14 @@
    "acres": 0.66,
    "address": "349 SCENIC WAY, WIMBERLEY, TX  78676",
    "assessed": 332351,
+   "class": "A",
    "deed_date": "2026-05-07",
    "extras": {
     "exterior": "W",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.019843,
    "lon": -98.10654,
    "sqft": 2144,
@@ -723,6 +809,7 @@
    "acres": 1.5,
    "address": "314 HONEYCOMB CIR, DRIFTWOOD, TX  78619",
    "assessed": 819360,
+   "class": "A",
    "deed_date": "2026-05-07",
    "extras": {
     "bedrooms": "4.000000",
@@ -732,6 +819,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.055851,
    "lon": -97.992694,
    "sqft": 2850,
@@ -743,8 +831,10 @@
    "acres": 3.58,
    "address": "800 TODO LN, DRIFTWOOD, TX  78619",
    "assessed": 340560,
+   "class": "A",
    "deed_date": "2026-05-07",
    "extras": {},
+   "homestead": false,
    "lat": 30.072405,
    "lon": -98.031129,
    "sqft": 1344,
@@ -754,6 +844,7 @@
   {
    "address": "9 RAMBLING CREEK, WIMBERLEY, TX  78676",
    "assessed": 318180,
+   "class": "A",
    "deed_date": "2026-05-05",
    "extras": {
     "exterior": "R, C-S",
@@ -762,6 +853,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.02704,
    "lon": -98.129569,
    "sqft": 1149,
@@ -773,8 +865,10 @@
    "acres": 12.18,
    "address": "101 STONE RIDGE RD, WIMBERLEY, TX  78676",
    "assessed": 593883,
+   "class": "E",
    "deed_date": "2026-05-01",
    "extras": {},
+   "homestead": false,
    "lat": 30.075264,
    "lon": -98.12602,
    "sqft": 1064,
@@ -784,6 +878,7 @@
   {
    "address": "12 BIRCHWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 500652,
+   "class": "A",
    "deed_date": "2026-05-01",
    "extras": {
     "exterior": "C-S",
@@ -791,6 +886,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.041463,
    "lon": -98.150135,
    "sqft": 2607,
@@ -802,8 +898,10 @@
    "acres": 0.89,
    "address": "1704 RIVER RD, WIMBERLEY, TX  78676",
    "assessed": 221213,
+   "class": "E",
    "deed_date": "2026-04-30",
    "extras": {},
+   "homestead": false,
    "lat": 29.982772,
    "lon": -98.116255,
    "sqft": 800,
@@ -814,12 +912,14 @@
    "acres": 1.06,
    "address": "710 DEER CREEK CIR, DRIPPING SPRINGS, TX  78620",
    "assessed": 418490,
+   "class": "A",
    "deed_date": "2026-04-30",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 29.972247,
    "lon": -98.18867,
    "sqft": 1436,
@@ -831,12 +931,14 @@
    "acres": 11.978,
    "address": "1101 SKYLINE RIDGE LOOKOUT, WIMBERLEY, TX  78676",
    "assessed": 1195273,
+   "class": "A",
    "deed_date": "2026-04-30",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.03516,
    "lon": -98.072304,
    "sqft": 3267,
@@ -847,8 +949,10 @@
   {
    "address": "1 ROLLING HILLS, WIMBERLEY, TX  78676",
    "assessed": 415600,
+   "class": "A",
    "deed_date": "2026-04-30",
    "extras": {},
+   "homestead": true,
    "lat": 30.024521,
    "lon": -98.134776,
    "sqft": 1529,
@@ -860,6 +964,7 @@
    "acres": 2.35,
    "address": "412 FIELD RD, FISCHER, TX  78623",
    "assessed": 1259150,
+   "class": "A",
    "deed_date": "2026-04-30",
    "extras": {
     "exterior": "R",
@@ -868,6 +973,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 29.972964,
    "lon": -98.198852,
    "sqft": 2369,
@@ -878,8 +984,10 @@
    "acres": 1.92,
    "address": "2350 RIVER RD, WIMBERLEY, TX  78676",
    "assessed": 432259,
+   "class": "A",
    "deed_date": "2026-04-30",
    "extras": {},
+   "homestead": true,
    "lat": 29.973985,
    "lon": -98.122193,
    "sqft": 1500,
@@ -891,8 +999,10 @@
    "acres": 1.77,
    "address": "1000 RIDGE OAK, WIMBERLEY, TX  78676",
    "assessed": 381399,
+   "class": "A",
    "deed_date": "2026-04-29",
    "extras": {},
+   "homestead": true,
    "lat": 29.96646,
    "lon": -98.155627,
    "sqft": 2291,
@@ -902,6 +1012,7 @@
   {
    "address": "11 MOONLIGHT LN, WIMBERLEY, TX  78676",
    "assessed": 252540,
+   "class": "A",
    "deed_date": "2026-04-29",
    "extras": {
     "exterior": "W",
@@ -909,6 +1020,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.04561,
    "lon": -98.142105,
    "sqft": 1888,
@@ -920,6 +1032,7 @@
    "acres": 3.38,
    "address": "241 NAMELESS RD, DRIFTWOOD, TX  78619",
    "assessed": 1299946,
+   "class": "A",
    "deed_date": "2026-04-29",
    "extras": {
     "bedrooms": "3.000000",
@@ -929,6 +1042,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.048513,
    "lon": -98.009136,
    "sqft": 3341,
@@ -940,8 +1054,10 @@
    "acres": 0.5,
    "address": "4705 WAYSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 527710,
+   "class": "E",
    "deed_date": "2026-04-28",
    "extras": {},
+   "homestead": false,
    "lat": 29.968634,
    "lon": -98.179829,
    "sqft": 3293,
@@ -952,6 +1068,7 @@
    "acres": 13.56,
    "address": "4711 WAYSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 535930,
+   "class": "D1",
    "deed_date": "2026-04-28",
    "extras": {
     "bedrooms": "2.000000",
@@ -961,6 +1078,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 29.969202,
    "lon": -98.180758,
    "sqft": 2142,
@@ -972,6 +1090,7 @@
    "acres": 4.24,
    "address": "4701 WAYSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 261900,
+   "class": "D1",
    "deed_date": "2026-04-28",
    "extras": {
     "exterior": "W",
@@ -979,6 +1098,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 29.969886,
    "lon": -98.178442,
    "sqft": 2448,
@@ -988,8 +1108,10 @@
   {
    "address": "17 BROOKSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 711971,
+   "class": "A",
    "deed_date": "2026-04-28",
    "extras": {},
+   "homestead": true,
    "lat": 30.031748,
    "lon": -98.108489,
    "sqft": 4232,
@@ -1001,6 +1123,7 @@
    "acres": 26.332,
    "address": "201 GOLD NUGGET RD, WIMBERLEY, TX  78676",
    "assessed": 2184315,
+   "class": "E",
    "deed_date": "2026-04-27",
    "extras": {
     "bedrooms": "3.000000",
@@ -1010,6 +1133,7 @@
     "heat_ac": "CAH",
     "roof": "H-M, G-M"
    },
+   "homestead": true,
    "lat": 30.064611,
    "lon": -98.106023,
    "sqft": 3832,
@@ -1021,6 +1145,7 @@
    "acres": 9.65,
    "address": "320 RANCHO ENCINO DR, SAN MARCOS, TX  78666",
    "assessed": 509680,
+   "class": "A",
    "deed_date": "2026-04-27",
    "extras": {
     "exterior": "R, W",
@@ -1028,6 +1153,7 @@
     "heat_ac": "CAH",
     "roof": "FLAT"
    },
+   "homestead": true,
    "lat": 29.925924,
    "lon": -98.05273,
    "sqft": 2572,
@@ -1039,10 +1165,12 @@
    "acres": 0.26,
    "address": "1 BROOKSIDE CT, WIMBERLEY, TX  78676",
    "assessed": 628290,
+   "class": "A",
    "deed_date": "2026-04-24",
    "extras": {
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.029378,
    "lon": -98.110331,
    "sqft": 3193,
@@ -1053,12 +1181,14 @@
   {
    "address": "23 PALMER LN, WIMBERLEY, TX  78676",
    "assessed": 575850,
+   "class": "A",
    "deed_date": "2026-04-24",
    "extras": {
     "exterior": "B",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.024043,
    "lon": -98.105001,
    "sqft": 2535,
@@ -1069,8 +1199,10 @@
   {
    "address": "72 WOODACRE DR, WIMBERLEY, TX  78676",
    "assessed": 419280,
+   "class": "A",
    "deed_date": "2026-04-24",
    "extras": {},
+   "homestead": true,
    "lat": 30.031802,
    "lon": -98.129362,
    "sqft": 1514,
@@ -1082,8 +1214,10 @@
    "acres": 5.003,
    "address": "601 VALLEY VIEW WEST RD, SAN MARCOS, TX  78666",
    "assessed": 294531,
+   "class": "A",
    "deed_date": "2026-04-24",
    "extras": {},
+   "homestead": true,
    "lat": 30.045414,
    "lon": -98.176749,
    "sqft": 1512,
@@ -1095,8 +1229,10 @@
    "acres": 5.1,
    "address": "1250 BUTTERCUP LN, WIMBERLEY, TX  78676",
    "assessed": 717090,
+   "class": "A",
    "deed_date": "2026-04-24",
    "extras": {},
+   "homestead": false,
    "lat": 29.995255,
    "lon": -98.069121,
    "sqft": 1200,
@@ -1108,12 +1244,14 @@
    "acres": 3.95,
    "address": "256 CANNA LILY CIR, DRIFTWOOD, TX  78619",
    "assessed": 1314420,
+   "class": "A",
    "deed_date": "2026-04-23",
    "extras": {
     "exterior": "R-S",
     "foundation": "S",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.064434,
    "lon": -98.00691,
    "sqft": 3525,
@@ -1125,6 +1263,7 @@
    "acres": 4.97,
    "address": "107 LIGHTED WAY, WIMBERLEY, TX  78676",
    "assessed": 1424680,
+   "class": "A",
    "deed_date": "2026-04-23",
    "extras": {
     "exterior": "S, R",
@@ -1133,6 +1272,7 @@
     "heat_ac": "2CAH",
     "roof": "G-T"
    },
+   "homestead": true,
    "lat": 29.978885,
    "lon": -98.125765,
    "sqft": 2959,
@@ -1143,6 +1283,7 @@
   {
    "address": "178 SHADY BLUFF DR, WIMBERLEY, TX  78676",
    "assessed": 255000,
+   "class": "A",
    "deed_date": "2026-04-23",
    "extras": {
     "exterior": "C-S",
@@ -1150,6 +1291,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.032251,
    "lon": -98.131345,
    "sqft": 1152,
@@ -1161,12 +1303,14 @@
    "acres": 1.0,
    "address": "103 LIVE OAK DR, WIMBERLEY, TX  78676",
    "assessed": 607470,
+   "class": "A",
    "deed_date": "2026-04-23",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.036182,
    "lon": -98.108874,
    "sqft": 2108,
@@ -1177,6 +1321,7 @@
   {
    "address": "155 CHAMPIONS CIR, WIMBERLEY, TX  78676",
    "assessed": 460280,
+   "class": "A",
    "deed_date": "2026-04-23",
    "extras": {
     "exterior": "R",
@@ -1185,6 +1330,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.021026,
    "lon": -98.115005,
    "sqft": 1617,
@@ -1196,6 +1342,7 @@
    "acres": 24.031,
    "address": "1500 E MT GAINOR, DRIPPING SPRINGS, TX  78620",
    "assessed": 696220,
+   "class": "E",
    "deed_date": "2026-04-23",
    "extras": {
     "exterior": "C-S",
@@ -1203,6 +1350,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.090053,
    "lon": -98.138446,
    "sqft": 3575,
@@ -1214,6 +1362,7 @@
    "acres": 6.338,
    "address": "1201 SANDY POINT RD, WIMBERLEY, TX  78676",
    "assessed": 485650,
+   "class": "A",
    "deed_date": "2026-04-22",
    "extras": {
     "bedrooms": "3.000000",
@@ -1222,6 +1371,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.048435,
    "lon": -98.225896,
    "sqft": 1875,
@@ -1233,6 +1383,7 @@
    "acres": 1.82,
    "address": "125 BROWN SADDLE CV, DRIFTWOOD, TX  78619",
    "assessed": 1050000,
+   "class": "A",
    "deed_date": "2026-04-17",
    "extras": {
     "bedrooms": "4.000000",
@@ -1242,6 +1393,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.075202,
    "lon": -98.042745,
    "sqft": 3664,
@@ -1253,8 +1405,10 @@
    "acres": 1.0,
    "address": "351 OAK MEADOWS DR, SAN MARCOS, TX  78666",
    "assessed": 145260,
+   "class": "A",
    "deed_date": "2026-04-16",
    "extras": {},
+   "homestead": false,
    "lat": 29.965993,
    "lon": -98.160995,
    "sqft": 1216,
@@ -1264,6 +1418,7 @@
   {
    "address": "4 SONATA CIR, WIMBERLEY, TX  78676",
    "assessed": 447590,
+   "class": "A",
    "deed_date": "2026-04-16",
    "extras": {
     "exterior": "R-C",
@@ -1272,6 +1427,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.049013,
    "lon": -98.147233,
    "sqft": 1817,
@@ -1283,8 +1439,10 @@
    "acres": 2.75,
    "address": "843 COVERED BRIDGE DR, DRIFTWOOD, TX  78619",
    "assessed": 1433110,
+   "class": "A",
    "deed_date": "2026-04-16",
    "extras": {},
+   "homestead": true,
    "lat": 30.086925,
    "lon": -98.042421,
    "sqft": 3738,
@@ -1296,8 +1454,10 @@
    "acres": 3.135,
    "address": "1920 RIVER RD, WIMBERLEY, TX  78676",
    "assessed": 1600762,
+   "class": "E",
    "deed_date": "2026-04-15",
    "extras": {},
+   "homestead": false,
    "lat": 29.982183,
    "lon": -98.117139,
    "sqft": 2874,
@@ -1309,8 +1469,10 @@
    "acres": 2.68,
    "address": "133 LAZY L LN, WIMBERLEY, TX  78676",
    "assessed": 1199913,
+   "class": "A",
    "deed_date": "2026-04-15",
    "extras": {},
+   "homestead": true,
    "lat": 29.977023,
    "lon": -98.115893,
    "sqft": 2910,
@@ -1322,12 +1484,14 @@
    "acres": 6.94,
    "address": "191 HIDDEN CREEK, WIMBERLEY, TX  78676",
    "assessed": 415214,
+   "class": "A",
    "deed_date": "2026-04-15",
    "extras": {
     "exterior": "R-W",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.998206,
    "lon": -98.019526,
    "sqft": 2232,
@@ -1338,6 +1502,7 @@
   {
    "address": "14 BROOKSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 461926,
+   "class": "A",
    "deed_date": "2026-04-14",
    "extras": {
     "exterior": "R-C",
@@ -1346,6 +1511,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.031174,
    "lon": -98.107886,
    "sqft": 2701,
@@ -1357,6 +1523,7 @@
    "acres": 5.001,
    "address": "8095 GAGE LN, WIMBERLEY, TX  78676",
    "assessed": 395460,
+   "class": "A",
    "deed_date": "2026-04-14",
    "extras": {
     "exterior": "R",
@@ -1364,6 +1531,7 @@
     "foundation": "S",
     "roof": "H-M"
    },
+   "homestead": true,
    "lat": 30.095072,
    "lon": -98.173176,
    "sqft": 1494,
@@ -1375,8 +1543,10 @@
    "acres": 1.0,
    "address": "100 FLITE ACRES RD, WIMBERLEY, TX  78676",
    "assessed": 357517,
+   "class": "A",
    "deed_date": "2026-04-13",
    "extras": {},
+   "homestead": true,
    "lat": 29.995224,
    "lon": -98.084566,
    "sqft": 4209,
@@ -1387,8 +1557,10 @@
    "acres": 11.084,
    "address": "250 HIDDEN OAKS RD, WIMBERLEY, TX  78676",
    "assessed": 1398254,
+   "class": "A",
    "deed_date": "2026-04-13",
    "extras": {},
+   "homestead": false,
    "lat": 29.968929,
    "lon": -98.161563,
    "sqft": 3537,
@@ -1399,12 +1571,14 @@
   {
    "address": "14 EL CONEJO TRL, WIMBERLEY, TX  78676",
    "assessed": 145659,
+   "class": "A",
    "deed_date": "2026-04-10",
    "extras": {
     "exterior": "R, W",
     "foundation": "P-B",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.018046,
    "lon": -98.11906,
    "sqft": 1392,
@@ -1415,6 +1589,7 @@
   {
    "address": "11 CREEKSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 449384,
+   "class": "A",
    "deed_date": "2026-04-10",
    "extras": {
     "exterior": "R-C",
@@ -1423,6 +1598,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.034648,
    "lon": -98.145267,
    "sqft": 1966,
@@ -1433,12 +1609,14 @@
   {
    "address": "15 SUNSHINE CIR, WIMBERLEY, TX  78676",
    "assessed": 593988,
+   "class": "A",
    "deed_date": "2026-04-10",
    "extras": {
     "exterior": "R-S",
     "foundation": "S",
     "roof": "HG-C, G-M, H-M"
    },
+   "homestead": true,
    "lat": 30.047778,
    "lon": -98.143349,
    "sqft": 2271,
@@ -1450,6 +1628,7 @@
    "acres": 7.155,
    "address": "233 HIDDEN OAKS, WIMBERLEY, TX  78676",
    "assessed": 704972,
+   "class": "A",
    "deed_date": "2026-04-06",
    "extras": {
     "exterior": "W",
@@ -1457,6 +1636,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.969825,
    "lon": -98.15736,
    "sqft": 2424,
@@ -1467,6 +1647,7 @@
   {
    "address": "5 SUMAC CT, WIMBERLEY, TX  78676",
    "assessed": 430081,
+   "class": "A",
    "deed_date": "2026-04-06",
    "extras": {
     "bedrooms": "2.000000",
@@ -1476,6 +1657,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.035359,
    "lon": -98.130993,
    "sqft": 1726,
@@ -1487,6 +1669,7 @@
    "acres": 1.624,
    "address": "609 LAS COLINAS DR, WIMBERLEY TX",
    "assessed": 522336,
+   "class": "A",
    "deed_date": "2026-04-06",
    "extras": {
     "exterior": "S",
@@ -1494,6 +1677,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.982968,
    "lon": -98.096332,
    "sqft": 1689,
@@ -1505,6 +1689,7 @@
    "acres": 3.76,
    "address": "1134 COVERED BRIDGE DR, DRIFTWOOD, TX  78619",
    "assessed": 1170809,
+   "class": "A",
    "deed_date": "2026-04-03",
    "extras": {
     "exterior": "R, S",
@@ -1512,6 +1697,7 @@
     "heat_ac": "2CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.083217,
    "lon": -98.044416,
    "sqft": 3029,
@@ -1523,6 +1709,7 @@
    "acres": 0.25,
    "address": "27 WHISPERING VALLEY, WIMBERLEY, TX  78676",
    "assessed": 460590,
+   "class": "A",
    "deed_date": "2026-04-02",
    "extras": {
     "bedrooms": "3.000000",
@@ -1531,6 +1718,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.032114,
    "lon": -98.144384,
    "sqft": 1699,
@@ -1541,12 +1729,14 @@
   {
    "address": "62 BROOKHOLLOW, WIMBERLEY, TX  78676",
    "assessed": 625000,
+   "class": "A",
    "deed_date": "2026-04-02",
    "extras": {
     "exterior": "R, C-S",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.029703,
    "lon": -98.114994,
    "sqft": 2365,
@@ -1558,12 +1748,14 @@
    "acres": 0.519,
    "address": "532 HILL COUNTRY TRL, WIMBERLEY, TX  78676",
    "assessed": 490210,
+   "class": "A",
    "deed_date": "2026-04-02",
    "extras": {
     "exterior": "V",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.985286,
    "lon": -98.097778,
    "sqft": 1499,
@@ -1575,8 +1767,10 @@
    "acres": 7.27,
    "address": "700 CAMINO DE RANCHO, WIMBERLEY, TX  78676",
    "assessed": 1027620,
+   "class": "A",
    "deed_date": "2026-04-01",
    "extras": {},
+   "homestead": false,
    "lat": 30.024605,
    "lon": -98.031543,
    "sqft": 3240,
@@ -1588,8 +1782,10 @@
    "acres": 10.0,
    "address": "301 MISTI LN, DRIFTWOOD, TX  78619",
    "assessed": 588612,
+   "class": "A",
    "deed_date": "2026-04-01",
    "extras": {},
+   "homestead": true,
    "lat": 30.065358,
    "lon": -98.015249,
    "sqft": 1872,
@@ -1601,8 +1797,10 @@
    "acres": 2.58,
    "address": "140 WINDY HILLS RD, DRIPPING SPRINGS, TX  78620",
    "assessed": 264387,
+   "class": "A",
    "deed_date": "2026-04-01",
    "extras": {},
+   "homestead": true,
    "lat": 29.977866,
    "lon": -98.197085,
    "sqft": 2086,
@@ -1614,6 +1812,7 @@
    "acres": 5.69,
    "address": "111 HIDDEN CREEK, WIMBERLEY, TX  78676",
    "assessed": 1446130,
+   "class": "A",
    "deed_date": "2026-03-31",
    "extras": {
     "exterior": "R",
@@ -1622,6 +1821,7 @@
     "heat_ac": "3CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.995515,
    "lon": -98.015528,
    "sqft": 4043,
@@ -1633,8 +1833,10 @@
    "acres": 0.5,
    "address": "33 BROOKMEADOW DR, WIMBERLEY, TX  78676",
    "assessed": 529507,
+   "class": "A",
    "deed_date": "2026-03-30",
    "extras": {},
+   "homestead": true,
    "lat": 30.029985,
    "lon": -98.106789,
    "sqft": 2103,
@@ -1646,6 +1848,7 @@
    "acres": 5.12,
    "address": "725 BLUE SKY LN, WIMBERLEY, TX  78676",
    "assessed": 866230,
+   "class": "D1",
    "deed_date": "2026-03-30",
    "extras": {
     "exterior": "B",
@@ -1653,6 +1856,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.056699,
    "lon": -98.13656,
    "sqft": 2952,
@@ -1664,6 +1868,7 @@
    "acres": 2.13,
    "address": "204 W BLANCO BEND DR, WIMBERLEY, TX  78676",
    "assessed": 1161398,
+   "class": "A",
    "deed_date": "2026-03-27",
    "extras": {
     "exterior": "V",
@@ -1672,6 +1877,7 @@
     "heat_ac": "2CAH",
     "roof": "F-C"
    },
+   "homestead": true,
    "lat": 29.99241,
    "lon": -98.084372,
    "sqft": 1976,
@@ -1682,6 +1888,7 @@
   {
    "address": "4 GREEN WILLOW LN, WIMBERLEY, TX  78676",
    "assessed": 370222,
+   "class": "A",
    "deed_date": "2026-03-27",
    "extras": {
     "bedrooms": "3.000000",
@@ -1690,6 +1897,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.034015,
    "lon": -98.133332,
    "sqft": 1697,
@@ -1701,6 +1909,7 @@
    "acres": 5.18,
    "address": "350 WATER PARK RD, WIMBERLEY, TX  78676",
    "assessed": 992961,
+   "class": "A",
    "deed_date": "2026-03-27",
    "extras": {
     "exterior": "R-W",
@@ -1708,6 +1917,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.998275,
    "lon": -98.013197,
    "sqft": 2749,
@@ -1719,6 +1929,7 @@
    "acres": 47.14,
    "address": "1249 HEATON HOLLOW RD, WIMBERLEY, TX  78676",
    "assessed": 658470,
+   "class": "D1",
    "deed_date": "2026-03-27",
    "extras": {
     "bedrooms": "1.000000",
@@ -1728,6 +1939,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 29.995761,
    "lon": -98.13943,
    "sqft": 1349,
@@ -1739,6 +1951,7 @@
    "acres": 4.0,
    "address": "120 OAK SPRINGS DR, DRIPPING SPRINGS, TX  78620",
    "assessed": 1017213,
+   "class": "A",
    "deed_date": "2026-03-26",
    "extras": {
     "exterior": "B",
@@ -1746,6 +1959,7 @@
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.994191,
    "lon": -98.0681,
    "sqft": 2145,
@@ -1757,12 +1971,14 @@
    "acres": 0.13,
    "address": "116 OVERLOOK CIR, WIMBERLEY, TX  78676",
    "assessed": 431398,
+   "class": "A",
    "deed_date": "2026-03-25",
    "extras": {
     "exterior": "W, B",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.023167,
    "lon": -98.103036,
    "sqft": 2057,
@@ -1773,12 +1989,14 @@
   {
    "address": "15 DEERFIELD, WIMBERLEY, TX  78676",
    "assessed": 628367,
+   "class": "B3",
    "deed_date": "2026-03-25",
    "extras": {
     "exterior": "W",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.028945,
    "lon": -98.102828,
    "sqft": 3434,
@@ -1789,12 +2007,14 @@
   {
    "address": "5 DEERFIELD, WIMBERLEY, TX  78676",
    "assessed": 649410,
+   "class": "B3",
    "deed_date": "2026-03-25",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.028069,
    "lon": -98.10186,
    "sqft": 3549,
@@ -1805,12 +2025,14 @@
   {
    "address": "10 DEERFIELD, WIMBERLEY, TX  78676",
    "assessed": 628367,
+   "class": "B3",
    "deed_date": "2026-03-25",
    "extras": {
     "exterior": "W",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.028652,
    "lon": -98.102512,
    "sqft": 3434,
@@ -1822,6 +2044,7 @@
    "acres": 1.02,
    "address": "375 RHODES LN, WIMBERLEY, TX  78676",
    "assessed": 402387,
+   "class": "A",
    "deed_date": "2026-03-23",
    "extras": {
     "exterior": "R",
@@ -1829,6 +2052,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 29.998453,
    "lon": -98.105587,
    "sqft": 2024,
@@ -1839,8 +2063,10 @@
   {
    "address": "12 TANGLEWOOD TRL, WIMBERLEY, TX  78676",
    "assessed": 450225,
+   "class": "A",
    "deed_date": "2026-03-23",
    "extras": {},
+   "homestead": true,
    "lat": 30.037153,
    "lon": -98.152911,
    "sqft": 1877,
@@ -1852,6 +2078,7 @@
    "acres": 2.73,
    "address": "400 SUNRISE DR, WIMBERLEY, TX  78676",
    "assessed": 958842,
+   "class": "E",
    "deed_date": "2026-03-20",
    "extras": {
     "exterior": "R-S",
@@ -1859,6 +2086,7 @@
     "heat_ac": "2CAH",
     "roof": "H-M"
    },
+   "homestead": false,
    "lat": 29.97969,
    "lon": -98.078013,
    "sqft": 2403,
@@ -1870,6 +2098,7 @@
    "acres": 5.77,
    "address": "302 ROCKY SPRINGS RD, WIMBERLEY, TX  78676",
    "assessed": 642600,
+   "class": "E",
    "deed_date": "2026-03-20",
    "extras": {
     "bedrooms": "3.000000",
@@ -1877,6 +2106,7 @@
     "foundation": "P-B",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.01367,
    "lon": -98.070234,
    "sqft": 1200,
@@ -1888,8 +2118,10 @@
    "acres": 2.67,
    "address": "351 LONESOME TRL, DRIFTWOOD, TX  78619",
    "assessed": 197172,
+   "class": "A",
    "deed_date": "2026-03-19",
    "extras": {},
+   "homestead": true,
    "lat": 30.06646,
    "lon": -98.021439,
    "sqft": 1368,
@@ -1901,8 +2133,10 @@
    "acres": 6.06,
    "address": "5675 MUSTANG VALLEY TRL, WIMBERLEY, TX  78676",
    "assessed": 703630,
+   "class": "D1",
    "deed_date": "2026-03-19",
    "extras": {},
+   "homestead": true,
    "lat": 30.024539,
    "lon": -98.176439,
    "sqft": 2893,
@@ -1913,6 +2147,7 @@
   {
    "address": "126 BIG LEAF DR, BUDA, TX  78610",
    "assessed": 342070,
+   "class": "A",
    "deed_date": "2026-03-19",
    "extras": {
     "bedrooms": "3.000000",
@@ -1921,6 +2156,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 29.990223,
    "lon": -98.148125,
    "sqft": 1488,
@@ -1932,8 +2168,10 @@
    "acres": 2.6,
    "address": "500 RANCHO GRANDE DR, WIMBERLEY, TX  78676",
    "assessed": 1770600,
+   "class": "A",
    "deed_date": "2026-03-18",
    "extras": {},
+   "homestead": false,
    "lat": 30.021268,
    "lon": -98.048588,
    "sqft": 4295,
@@ -1945,6 +2183,7 @@
    "acres": 10.01,
    "address": "201 SECRET SPRINGS RD, WIMBERLEY, TX  78676",
    "assessed": 759498,
+   "class": "A",
    "deed_date": "2026-03-16",
    "extras": {
     "exterior": "W",
@@ -1953,6 +2192,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.073959,
    "lon": -98.136473,
    "sqft": 948,
@@ -1964,10 +2204,12 @@
    "acres": 4.815,
    "address": "760 SKYLINE RIDGE LOOKOUT, WIMBERLEY, TX  78676",
    "assessed": 741190,
+   "class": "A",
    "deed_date": "2026-03-16",
    "extras": {
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.034941,
    "lon": -98.077461,
    "sqft": 1908,
@@ -1977,6 +2219,7 @@
   {
    "address": "72 AUGUSTA DR, WIMBERLEY TX, TX  78676",
    "assessed": 587710,
+   "class": "A",
    "deed_date": "2026-03-16",
    "extras": {
     "exterior": "R",
@@ -1985,6 +2228,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.031003,
    "lon": -98.112434,
    "sqft": 2252,
@@ -1995,8 +2239,10 @@
   {
    "address": "14 RHAPSODY LN, WIMBERLEY, TX  78676",
    "assessed": 535260,
+   "class": "A",
    "deed_date": "2026-03-13",
    "extras": {},
+   "homestead": false,
    "lat": 30.046505,
    "lon": -98.144868,
    "sqft": 2075,
@@ -2007,8 +2253,10 @@
   {
    "address": "201 CANYON WREN DR, BUDA, TX  78610",
    "assessed": 483501,
+   "class": "A",
    "deed_date": "2026-03-12",
    "extras": {},
+   "homestead": true,
    "lat": 29.961688,
    "lon": -98.161051,
    "sqft": 1632,
@@ -2019,6 +2267,7 @@
   {
    "address": "302 VALLEY DR, WIMBERLEY, TX  78676",
    "assessed": 408464,
+   "class": "A",
    "deed_date": "2026-03-12",
    "extras": {
     "bedrooms": "3.000000",
@@ -2028,6 +2277,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 29.989564,
    "lon": -98.084546,
    "sqft": 1384,
@@ -2039,6 +2289,7 @@
    "acres": 0.67,
    "address": "4 MERIDIAN DR, WIMBERLEY, TX  78676",
    "assessed": 404730,
+   "class": "A",
    "deed_date": "2026-03-12",
    "extras": {
     "bedrooms": "2.000000",
@@ -2048,6 +2299,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 29.978127,
    "lon": -98.079344,
    "sqft": 1294,
@@ -2058,6 +2310,7 @@
   {
    "address": "57 WOODACRE DR, WIMBERLEY, TX  78676",
    "assessed": 361260,
+   "class": "A",
    "deed_date": "2026-03-12",
    "extras": {
     "bedrooms": "3.000000",
@@ -2066,6 +2319,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.030887,
    "lon": -98.129918,
    "sqft": 1278,
@@ -2076,6 +2330,7 @@
   {
    "address": "241 PLEASANT VALLEY RD, WIMBERLEY, TX  78676",
    "assessed": 553210,
+   "class": "A",
    "deed_date": "2026-03-12",
    "extras": {
     "exterior": "B",
@@ -2083,6 +2338,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.033308,
    "lon": -98.138395,
    "sqft": 2033,
@@ -2094,6 +2350,7 @@
    "acres": 10.29,
    "address": "5840 WAYSIDE RD, FISCHER, TX  78623",
    "assessed": 692470,
+   "class": "E",
    "deed_date": "2026-03-11",
    "extras": {
     "exterior": "S",
@@ -2102,6 +2359,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.970077,
    "lon": -98.197281,
    "sqft": 2395,
@@ -2112,6 +2370,7 @@
   {
    "address": "5 TAMMY TER, WIMBERLEY, TX  78676",
    "assessed": 663940,
+   "class": "A",
    "deed_date": "2026-03-10",
    "extras": {
     "exterior": "C-S",
@@ -2120,6 +2379,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.044563,
    "lon": -98.147794,
    "sqft": 2559,
@@ -2131,6 +2391,7 @@
    "acres": 2.5,
    "address": "940 WAYSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 989370,
+   "class": "A",
    "deed_date": "2026-03-09",
    "extras": {
     "bedrooms": "4.000000",
@@ -2140,6 +2401,7 @@
     "heat_ac": "CAH",
     "roof": "H-M"
    },
+   "homestead": true,
    "lat": 29.984173,
    "lon": -98.127448,
    "sqft": 3432,
@@ -2151,8 +2413,10 @@
    "acres": 5.0,
    "address": "500 EAGLES NEST RD, WIMBERLEY, TX  78676",
    "assessed": 647430,
+   "class": "E",
    "deed_date": "2026-03-06",
    "extras": {},
+   "homestead": false,
    "lat": 30.037147,
    "lon": -98.098811,
    "sqft": 1024,
@@ -2163,6 +2427,7 @@
   {
    "address": "11 W EL CAMINO REAL, WIMBERLEY, TX  78676",
    "assessed": 381390,
+   "class": "A",
    "deed_date": "2026-03-06",
    "extras": {
     "exterior": "B-C",
@@ -2171,6 +2436,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.018482,
    "lon": -98.118194,
    "sqft": 1235,
@@ -2181,6 +2447,7 @@
   {
    "address": "19 COUNTRY LN, WIMBERLEY, TX  78676",
    "assessed": 729500,
+   "class": "A",
    "deed_date": "2026-03-05",
    "extras": {
     "exterior": "S",
@@ -2189,6 +2456,7 @@
     "heat_ac": "CAH",
     "roof": "H-T"
    },
+   "homestead": true,
    "lat": 30.026031,
    "lon": -98.132891,
    "sqft": 3867,
@@ -2200,6 +2468,7 @@
    "acres": 7.202,
    "address": "250 LONE MAN OVERLOOK, WIMBERLEY, TX  78676",
    "assessed": 620428,
+   "class": "A",
    "deed_date": "2026-03-05",
    "extras": {
     "exterior": "C-S",
@@ -2207,6 +2476,7 @@
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.004077,
    "lon": -98.020196,
    "sqft": 2010,
@@ -2218,6 +2488,7 @@
    "acres": 2.45,
    "address": "201 OAK FOREST CV, BUDA, TX  78610",
    "assessed": 829413,
+   "class": "A",
    "deed_date": "2026-03-04",
    "extras": {
     "exterior": "S",
@@ -2226,6 +2497,7 @@
     "heat_ac": "1CAH",
     "roof": "H-T"
    },
+   "homestead": true,
    "lat": 29.987068,
    "lon": -98.067663,
    "sqft": 3584,
@@ -2236,6 +2508,7 @@
   {
    "address": "33 DEER RIDGE RD, WIMBERLEY, TX  78676",
    "assessed": 448804,
+   "class": "A",
    "deed_date": "2026-03-04",
    "extras": {
     "bedrooms": "4.000000",
@@ -2244,6 +2517,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.030653,
    "lon": -98.135358,
    "sqft": 2104,
@@ -2255,8 +2529,10 @@
    "acres": 0.389,
    "address": "10 PEACE PIPE, WIMBERLEY, TX  78676",
    "assessed": 781140,
+   "class": "A",
    "deed_date": "2026-03-04",
    "extras": {},
+   "homestead": false,
    "lat": 30.022618,
    "lon": -98.142792,
    "sqft": 4067,
@@ -2267,8 +2543,10 @@
   {
    "address": "238 BLANCO DR, WIMBERLEY, TX  78676",
    "assessed": 668420,
+   "class": "A",
    "deed_date": "2026-03-03",
    "extras": {},
+   "homestead": false,
    "lat": 29.989745,
    "lon": -98.081927,
    "sqft": 1666,
@@ -2280,12 +2558,14 @@
    "acres": 2.49,
    "address": "235 SMITH CREEK RD, WIMBERLEY, TX  78676",
    "assessed": 549376,
+   "class": "A",
    "deed_date": "2026-02-27",
    "extras": {
     "exterior": "W",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.015595,
    "lon": -98.068165,
    "sqft": 1040,
@@ -2297,8 +2577,10 @@
    "acres": 0.525,
    "address": "54 WAR BONNET, WIMBERLEY, TX  78676",
    "assessed": 512040,
+   "class": "A",
    "deed_date": "2026-02-27",
    "extras": {},
+   "homestead": false,
    "lat": 30.019731,
    "lon": -98.140091,
    "sqft": 2368,
@@ -2310,6 +2592,7 @@
    "acres": 1.444,
    "address": "304 HIGH PLAINS DR, DRIPPING SPRINGS, TX  78620",
    "assessed": 803090,
+   "class": "A",
    "deed_date": "2026-02-26",
    "extras": {
     "bedrooms": "4.000000",
@@ -2318,6 +2601,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.972749,
    "lon": -98.129001,
    "sqft": 3359,
@@ -2328,6 +2612,7 @@
   {
    "address": "37 PLEASANT VALLEY RD, WIMBERLEY, TX  78676",
    "assessed": 330000,
+   "class": "A",
    "deed_date": "2026-02-26",
    "extras": {
     "exterior": "R",
@@ -2336,6 +2621,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.03145,
    "lon": -98.127081,
    "sqft": 1354,
@@ -2347,8 +2633,10 @@
    "acres": 2.57,
    "address": "1300 FLITE ACRES RD, WIMBERLEY, TX  78676",
    "assessed": 877052,
+   "class": "E",
    "deed_date": "2026-02-24",
    "extras": {},
+   "homestead": true,
    "lat": 29.984894,
    "lon": -98.073115,
    "sqft": 1280,
@@ -2358,6 +2646,7 @@
   {
    "address": "1020 RIVER RD, WIMBERLEY, TX  78676",
    "assessed": 1059320,
+   "class": "A",
    "deed_date": "2026-02-24",
    "extras": {
     "exterior": "W",
@@ -2365,6 +2654,7 @@
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.987529,
    "lon": -98.106914,
    "sqft": 2901,
@@ -2375,8 +2665,10 @@
    "acres": 7.31,
    "address": "135 NORTH RD, WIMBERLEY, TX  78676",
    "assessed": 222398,
+   "class": "A",
    "deed_date": "2026-02-24",
    "extras": {},
+   "homestead": true,
    "lat": 30.001006,
    "lon": -98.228176,
    "sqft": 1216,
@@ -2388,10 +2680,12 @@
    "acres": 3.0,
    "address": "412 RANCHO GRANDE DR, WIMBERLEY, TX  78676",
    "assessed": 1173000,
+   "class": "A",
    "deed_date": "2026-02-20",
    "extras": {
     "bedrooms": "3.000000"
    },
+   "homestead": true,
    "lat": 30.019908,
    "lon": -98.046399,
    "sqft": 2985,
@@ -2402,6 +2696,7 @@
   {
    "address": "60 WIDE CANYON CT, WIMBERLEY, TX  78676",
    "assessed": 745830,
+   "class": "A",
    "deed_date": "2026-02-20",
    "extras": {
     "exterior": "R-C",
@@ -2410,6 +2705,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.044068,
    "lon": -98.140867,
    "sqft": 2230,
@@ -2421,6 +2717,7 @@
    "acres": 5.601,
    "address": "170 SPOKE LN, WIMBERLEY, TX  78676",
    "assessed": 600060,
+   "class": "D1",
    "deed_date": "2026-02-19",
    "extras": {
     "exterior": "S",
@@ -2429,6 +2726,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.983525,
    "lon": -98.075002,
    "sqft": 2238,
@@ -2439,6 +2737,7 @@
   {
    "address": "20 RANCH VIEW TRL, WIMBERLEY, TX  78676",
    "assessed": 352541,
+   "class": "A",
    "deed_date": "2026-02-19",
    "extras": {
     "exterior": "R",
@@ -2446,6 +2745,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.02923,
    "lon": -98.141587,
    "sqft": 1329,
@@ -2456,6 +2756,7 @@
   {
    "address": "13 OLD MINE CT, WIMBERLEY, TX  78676",
    "assessed": 449960,
+   "class": "A",
    "deed_date": "2026-02-19",
    "extras": {
     "exterior": "B, W",
@@ -2464,6 +2765,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.037296,
    "lon": -98.143653,
    "sqft": 1611,
@@ -2474,6 +2776,7 @@
   {
    "address": "4 REDWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 519800,
+   "class": "A",
    "deed_date": "2026-02-18",
    "extras": {
     "exterior": "B-C",
@@ -2482,6 +2785,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.039454,
    "lon": -98.151243,
    "sqft": 1900,
@@ -2492,8 +2796,10 @@
   {
    "address": "22 PEACE PIPE, WIMBERLEY, TX  78676",
    "assessed": 718710,
+   "class": "A",
    "deed_date": "2026-02-18",
    "extras": {},
+   "homestead": false,
    "lat": 30.02098,
    "lon": -98.142795,
    "sqft": 3527,
@@ -2505,8 +2811,10 @@
    "acres": 11.058,
    "address": "1451 SKYLINE RIDGE LOOKOUT, WIMBERLEY, TX  78676",
    "assessed": 408802,
+   "class": "E",
    "deed_date": "2026-02-17",
    "extras": {},
+   "homestead": true,
    "lat": 30.032485,
    "lon": -98.070641,
    "sqft": 1680,
@@ -2517,12 +2825,14 @@
   {
    "address": "157 AUGUSTA DR, WIMBERLEY, TX  78676",
    "assessed": 541600,
+   "class": "A",
    "deed_date": "2026-02-17",
    "extras": {
     "foundation": "S",
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.034265,
    "lon": -98.116281,
    "sqft": 2155,
@@ -2534,6 +2844,7 @@
    "acres": 5.206,
    "address": "3301 WAYSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 775000,
+   "class": "A",
    "deed_date": "2026-02-13",
    "extras": {
     "exterior": "W",
@@ -2541,6 +2852,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.97941,
    "lon": -98.162074,
    "sqft": 2354,
@@ -2551,6 +2863,7 @@
   {
    "address": "1 EL CAMINO REAL, WIMBERLEY, TX  78676",
    "assessed": 355508,
+   "class": "A",
    "deed_date": "2026-02-13",
    "extras": {
     "exterior": "B, C-B",
@@ -2559,6 +2872,7 @@
     "heat_ac": "CAH",
     "roof": "H-M"
    },
+   "homestead": false,
    "lat": 30.026634,
    "lon": -98.146454,
    "sqft": 1556,
@@ -2569,6 +2883,7 @@
   {
    "address": "28 DEER RIDGE RD, WIMBERLEY, TX  78676",
    "assessed": 344020,
+   "class": "A",
    "deed_date": "2026-02-13",
    "extras": {
     "bedrooms": "3.000000",
@@ -2576,6 +2891,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.031059,
    "lon": -98.135839,
    "sqft": 1470,
@@ -2587,6 +2903,7 @@
    "acres": 1.53,
    "address": "415 HONEYCOMB CIR, DRIFTWOOD, TX  78619",
    "assessed": 671642,
+   "class": "A",
    "deed_date": "2026-02-13",
    "extras": {
     "exterior": "R",
@@ -2595,6 +2912,7 @@
     "heat_ac": "1CAH",
     "roof": "G-T"
    },
+   "homestead": true,
    "lat": 30.055015,
    "lon": -97.994221,
    "sqft": 2205,
@@ -2606,11 +2924,13 @@
    "acres": 3.68,
    "address": "187 GRANDE SIERRA LN, DRIFTWOOD, TX  78619",
    "assessed": 340430,
+   "class": "A",
    "deed_date": "2026-02-13",
    "extras": {
     "exterior": "C-S",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.0536,
    "lon": -97.993092,
    "sqft": 280,
@@ -2622,6 +2942,7 @@
    "acres": 5.0,
    "address": "295 TORO PASS, WIMBERLEY, TX  78676",
    "assessed": 914150,
+   "class": "D1",
    "deed_date": "2026-02-13",
    "extras": {
     "exterior": "B",
@@ -2629,6 +2950,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.02538,
    "lon": -98.179328,
    "sqft": 2712,
@@ -2639,12 +2961,14 @@
   {
    "address": "107 AUGUSTA LN, WIMBERLEY TX",
    "assessed": 530920,
+   "class": "A",
    "deed_date": "2026-02-11",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.032244,
    "lon": -98.112184,
    "sqft": 2432,
@@ -2656,8 +2980,10 @@
    "acres": 4.53,
    "address": "1070 LONESOME TRL, DRIFTWOOD, TX  78619",
    "assessed": 660000,
+   "class": "A",
    "deed_date": "2026-02-10",
    "extras": {},
+   "homestead": false,
    "lat": 30.056459,
    "lon": -98.026708,
    "sqft": 1850,
@@ -2669,8 +2995,10 @@
    "acres": 7.01,
    "address": "700 CYPRESS CREEK LN, WIMBERLEY TX",
    "assessed": 864000,
+   "class": "A",
    "deed_date": "2026-02-10",
    "extras": {},
+   "homestead": false,
    "lat": 30.015162,
    "lon": -98.114793,
    "sqft": 570,
@@ -2681,8 +3009,10 @@
    "acres": 1.05,
    "address": "400 CYPRESS CREEK LN, WIMBERLEY, TX  78676",
    "assessed": 401597,
+   "class": "A",
    "deed_date": "2026-02-06",
    "extras": {},
+   "homestead": false,
    "lat": 30.010067,
    "lon": -98.109876,
    "sqft": 2724,
@@ -2694,8 +3024,10 @@
    "acres": 11.93,
    "address": "1003 LONESOME TRL, DRIFTWOOD, TX  78619",
    "assessed": 944930,
+   "class": "A",
    "deed_date": "2026-02-05",
    "extras": {},
+   "homestead": true,
    "lat": 30.059864,
    "lon": -98.028234,
    "sqft": 1568,
@@ -2706,6 +3038,7 @@
   {
    "address": "45 LONG BOW LN, WIMBERLEY, TX  78676",
    "assessed": 530070,
+   "class": "A",
    "deed_date": "2026-02-05",
    "extras": {
     "exterior": "W, S",
@@ -2714,6 +3047,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.035059,
    "lon": -98.147106,
    "sqft": 2466,
@@ -2725,6 +3059,7 @@
    "acres": 3.02,
    "address": "227 COVERED BRIDGE WAY, DRIFTWOOD, TX  78619",
    "assessed": 1174941,
+   "class": "A",
    "deed_date": "2026-02-03",
    "extras": {
     "exterior": "R",
@@ -2732,6 +3067,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.090518,
    "lon": -98.044978,
    "sqft": 3129,
@@ -2743,10 +3079,12 @@
    "acres": 3.48,
    "address": "300 CYPRESS CREEK LN, WIMBERELY TX",
    "assessed": 633689,
+   "class": "A",
    "deed_date": "2026-01-29",
    "extras": {
     "bedrooms": "3.000000"
    },
+   "homestead": true,
    "lat": 30.010755,
    "lon": -98.106618,
    "sqft": 1846,
@@ -2758,6 +3096,7 @@
    "acres": 2.0,
    "address": "770 SADDLERIDGE DR, WIMBERLEY, TX  78676",
    "assessed": 664010,
+   "class": "A",
    "deed_date": "2026-01-29",
    "extras": {
     "exterior": "C-S",
@@ -2765,6 +3104,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 29.95815,
    "lon": -98.072057,
    "sqft": 2005,
@@ -2776,8 +3116,10 @@
    "acres": 3.81,
    "address": "450 OAKWOOD LOOP, SAN MARCOS, TX  78666",
    "assessed": 383995,
+   "class": "A",
    "deed_date": "2026-01-28",
    "extras": {},
+   "homestead": true,
    "lat": 29.93297,
    "lon": -98.06227,
    "sqft": 1459,
@@ -2788,6 +3130,7 @@
    "acres": 10.0,
    "address": "635 SADDLERIDGE DR, WIMBERLEY, TX  78676",
    "assessed": 877886,
+   "class": "A",
    "deed_date": "2026-01-28",
    "extras": {
     "exterior": "R",
@@ -2795,6 +3138,7 @@
     "foundation": "S",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 29.9528,
    "lon": -98.077829,
    "sqft": 2179,
@@ -2806,6 +3150,7 @@
    "acres": 8.57,
    "address": "101 FISCHER COVE DR, WIMBERLEY, TX  78676",
    "assessed": 1127230,
+   "class": "A",
    "deed_date": "2026-01-27",
    "extras": {
     "bedrooms": "5.000000",
@@ -2815,6 +3160,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.007228,
    "lon": -98.173675,
    "sqft": 3233,
@@ -2825,6 +3171,7 @@
   {
    "address": "26 WOODCREEK DR, WIMBERLEY, TX  78676",
    "assessed": 468670,
+   "class": "A",
    "deed_date": "2026-01-26",
    "extras": {
     "exterior": "B",
@@ -2833,6 +3180,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.026042,
    "lon": -98.10659,
    "sqft": 2086,
@@ -2843,8 +3191,10 @@
   {
    "address": "111 WAGON WHEEL CIR, WIMBERLEY, TX  78676",
    "assessed": 278666,
+   "class": "A",
    "deed_date": "2026-01-23",
    "extras": {},
+   "homestead": true,
    "lat": 29.971445,
    "lon": -98.133624,
    "sqft": 864,
@@ -2856,6 +3206,7 @@
    "acres": 5.302,
    "address": "2601 RIVER RD, WIMBERLEY, TX  78676",
    "assessed": 2475000,
+   "class": "A",
    "deed_date": "2026-01-23",
    "extras": {
     "exterior": "R-S",
@@ -2863,6 +3214,7 @@
     "foundation": "S",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 29.970648,
    "lon": -98.126534,
    "sqft": 7114,
@@ -2873,6 +3225,7 @@
   {
    "address": "40 DEER RIDGE, WIMBERLEY, TX  78676",
    "assessed": 304620,
+   "class": "A",
    "deed_date": "2026-01-22",
    "extras": {
     "exterior": "C-S",
@@ -2880,6 +3233,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.031156,
    "lon": -98.136264,
    "sqft": 1308,
@@ -2890,6 +3244,7 @@
   {
    "address": "38 DEER RIDGE DR, WIMBERLEY, TX  78676",
    "assessed": 314060,
+   "class": "A",
    "deed_date": "2026-01-22",
    "extras": {
     "exterior": "C-S",
@@ -2897,6 +3252,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.031216,
    "lon": -98.136229,
    "sqft": 1364,
@@ -2907,6 +3263,7 @@
   {
    "address": "62 WHISPERING VALLEY DR, WIMBERLEY, TX  78676",
    "assessed": 454600,
+   "class": "A",
    "deed_date": "2026-01-19",
    "extras": {
     "exterior": "S",
@@ -2914,6 +3271,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.033021,
    "lon": -98.144315,
    "sqft": 2194,
@@ -2925,12 +3283,14 @@
    "acres": 0.505,
    "address": "140 DONNA DR, WIMBERLEY, TX  78676",
    "assessed": 483153,
+   "class": "A",
    "deed_date": "2026-01-16",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.003289,
    "lon": -98.116963,
    "sqft": 2021,
@@ -2941,12 +3301,14 @@
   {
    "address": "24 CHAMPIONS CIR, WIMBERLEY, TX  78676",
    "assessed": 325910,
+   "class": "A",
    "deed_date": "2026-01-16",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.024681,
    "lon": -98.10255,
    "sqft": 1209,
@@ -2957,12 +3319,14 @@
   {
    "address": "84 CHAMPIONS CIR, WIMBERLEY, TX  78676",
    "assessed": 254420,
+   "class": "A",
    "deed_date": "2026-01-16",
    "extras": {
     "exterior": "W",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.021813,
    "lon": -98.107516,
    "sqft": 1087,
@@ -2973,6 +3337,7 @@
   {
    "address": "190 SHADY BLUFF, WIMBERLEY, TX  78676",
    "assessed": 424547,
+   "class": "A",
    "deed_date": "2026-01-16",
    "extras": {
     "exterior": "S",
@@ -2980,6 +3345,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.031984,
    "lon": -98.131668,
    "sqft": 1434,
@@ -2991,6 +3357,7 @@
    "acres": 1.02,
    "address": "200 SONGBIRD LN, WIMBERLEY, TX  78676",
    "assessed": 713610,
+   "class": "A",
    "deed_date": "2026-01-15",
    "extras": {
     "bedrooms": "3.000000",
@@ -3000,6 +3367,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.988522,
    "lon": -98.083442,
    "sqft": 1900,
@@ -3010,8 +3378,10 @@
   {
    "address": "138 AUGUSTA DR, WIMBERLEY, TX  78676",
    "assessed": 836090,
+   "class": "A",
    "deed_date": "2026-01-15",
    "extras": {},
+   "homestead": true,
    "lat": 30.033859,
    "lon": -98.114215,
    "sqft": 2674,
@@ -3022,12 +3392,14 @@
   {
    "address": "50 PALMER LN, WIMBERLEY, TX  78676",
    "assessed": 514540,
+   "class": "A",
    "deed_date": "2026-01-15",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "M-C"
    },
+   "homestead": true,
    "lat": 30.022997,
    "lon": -98.105815,
    "sqft": 2405,
@@ -3039,8 +3411,10 @@
    "acres": 6.04,
    "address": "191 FLAT CREEK TRL, WIMBERLEY, TX  78676",
    "assessed": 918170,
+   "class": "D1",
    "deed_date": "2026-01-15",
    "extras": {},
+   "homestead": false,
    "lat": 30.038975,
    "lon": -98.172371,
    "sqft": 3240,
@@ -3052,11 +3426,13 @@
    "acres": 1.757,
    "address": "1946 BACKBONE RIDGE, SAN MARCOS, TX  78666",
    "assessed": 2078860,
+   "class": "A",
    "deed_date": "2026-01-13",
    "extras": {
     "fireplace": "4FP",
     "foundation": "S"
    },
+   "homestead": false,
    "lat": 29.952161,
    "lon": -98.107651,
    "sqft": 5346,
@@ -3068,6 +3444,7 @@
    "acres": 3.0,
    "address": "510 RANCHO GRANDE DR, WIMBERLEY, TX  78676",
    "assessed": 893860,
+   "class": "A",
    "deed_date": "2026-01-13",
    "extras": {
     "exterior": "R",
@@ -3075,6 +3452,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.022208,
    "lon": -98.049423,
    "sqft": 2457,
@@ -3085,6 +3463,7 @@
   {
    "address": "70 SPRUCEWOOD, WIMBERLEY, TX  78676",
    "assessed": 421510,
+   "class": "A",
    "deed_date": "2026-01-12",
    "extras": {
     "exterior": "C-S",
@@ -3093,6 +3472,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.035791,
    "lon": -98.153026,
    "sqft": 1868,
@@ -3104,6 +3484,7 @@
    "acres": 20.406,
    "address": "4100 FISCHER STORE RD, WIMBERLEY, TX  78676",
    "assessed": 3351920,
+   "class": "D1",
    "deed_date": "2026-01-12",
    "extras": {
     "bedrooms": "8.000000",
@@ -3113,6 +3494,7 @@
     "heat_ac": "CAH",
     "roof": "H-T"
    },
+   "homestead": false,
    "lat": 30.005061,
    "lon": -98.205645,
    "sqft": 3411,
@@ -3124,8 +3506,10 @@
    "acres": 5.13,
    "address": "300 CALICHE RD, WIMBERLEY, TX  78676",
    "assessed": 405411,
+   "class": "E",
    "deed_date": "2026-01-07",
    "extras": {},
+   "homestead": true,
    "lat": 30.031754,
    "lon": -98.093337,
    "sqft": 1624,
@@ -3137,8 +3521,10 @@
    "acres": 3.385,
    "address": "28 COUNTRY OAKS DR, BUDA, TX  78610",
    "assessed": 650550,
+   "class": "A",
    "deed_date": "2026-01-06",
    "extras": {},
+   "homestead": false,
    "lat": 30.025522,
    "lon": -98.133941,
    "sqft": 2186,
@@ -3149,12 +3535,14 @@
   {
    "address": "12 CHAMPIONS CIR, WIMBERLEY, TX  78676",
    "assessed": 380220,
+   "class": "A",
    "deed_date": "2026-01-06",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.025806,
    "lon": -98.102288,
    "sqft": 1470,
@@ -3165,6 +3553,7 @@
   {
    "address": "182 AUGUSTA DR, WIMBERLEY, TX  78676",
    "assessed": 601210,
+   "class": "A",
    "deed_date": "2026-01-06",
    "extras": {
     "exterior": "R, C-S",
@@ -3173,6 +3562,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.033888,
    "lon": -98.119025,
    "sqft": 1906,
@@ -3183,12 +3573,14 @@
   {
    "address": "106 CHAPARRAL RD, SAN MARCOS, TX  78666",
    "assessed": 272820,
+   "class": "A",
    "deed_date": "2026-01-05",
    "extras": {
     "exterior": "B, W",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.973949,
    "lon": -98.133482,
    "sqft": 2012,
@@ -3199,12 +3591,14 @@
   {
    "address": "171 RHODES LN, WIMBERLEY, TX  78676",
    "assessed": 232884,
+   "class": "F1",
    "deed_date": "2026-01-05",
    "extras": {
     "exterior": "W",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.001207,
    "lon": -98.106048,
    "sqft": 1976,
@@ -3215,6 +3609,7 @@
   {
    "address": "27 FALLBROOK CIR, WIMBERLEY, TX  78676",
    "assessed": 329140,
+   "class": "A",
    "deed_date": "2025-12-31",
    "extras": {
     "exterior": "S",
@@ -3222,6 +3617,7 @@
     "heat_ac": "1CAH",
     "roof": "F-C"
    },
+   "homestead": false,
    "lat": 30.02114,
    "lon": -98.108791,
    "sqft": 1633,
@@ -3233,6 +3629,7 @@
    "acres": 5.0,
    "address": "2101 LONE MAN MOUNTAIN RD, WIMBERLEY, TX  78676",
    "assessed": 629047,
+   "class": "A",
    "deed_date": "2025-12-31",
    "extras": {
     "exterior": "R-W",
@@ -3240,6 +3637,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.060888,
    "lon": -98.067702,
    "sqft": 2464,
@@ -3250,6 +3648,7 @@
   {
    "address": "115 SKY MEADOWS CIR, SAN MARCOS, TX  78666",
    "assessed": 336551,
+   "class": "A",
    "deed_date": "2025-12-31",
    "extras": {
     "exterior": "S, R, B, C-S",
@@ -3257,6 +3656,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.035324,
    "lon": -98.087741,
    "sqft": 2186,
@@ -3268,6 +3668,7 @@
    "acres": 0.441,
    "address": "3 BROOKMEADOW DR, UNIT #B, WIMBERLEY, TX  78676",
    "assessed": 429392,
+   "class": "A",
    "deed_date": "2025-12-31",
    "extras": {
     "exterior": "R, C-S",
@@ -3275,6 +3676,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.032155,
    "lon": -98.102467,
    "sqft": 1352,
@@ -3286,6 +3688,7 @@
    "acres": 14.763,
    "address": "2220 PUMP STATION RD, WIMBERLEY, TX  78676",
    "assessed": 273780,
+   "class": "D1",
    "deed_date": "2025-12-30",
    "extras": {
     "bedrooms": "2.000000",
@@ -3294,6 +3697,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.081326,
    "lon": -98.196252,
    "sqft": 896,
@@ -3304,6 +3708,7 @@
   {
    "address": "333 BLUE OAK BLVD, SAN MARCOS, TX  78666",
    "assessed": 365720,
+   "class": "A",
    "deed_date": "2025-12-30",
    "extras": {
     "bedrooms": "4.000000",
@@ -3312,6 +3717,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.000857,
    "lon": -98.090259,
    "sqft": 2033,
@@ -3323,8 +3729,10 @@
    "acres": 5.41,
    "address": "131 SECRET SPRINGS RD, WIMBERLEY, TX  78676",
    "assessed": 544060,
+   "class": "A",
    "deed_date": "2025-12-29",
    "extras": {},
+   "homestead": false,
    "lat": 30.073203,
    "lon": -98.137309,
    "sqft": 432,
@@ -3336,8 +3744,10 @@
    "acres": 6.55,
    "address": "761 DAYS END RD, WIMBERLEY, TX  78676",
    "assessed": 569650,
+   "class": "A",
    "deed_date": "2025-12-29",
    "extras": {},
+   "homestead": true,
    "lat": 30.041921,
    "lon": -98.231542,
    "sqft": 2152,
@@ -3349,8 +3759,10 @@
    "acres": 10.21,
    "address": "2653 FLITE ACRES RD, WIMBERLEY, TX  78676",
    "assessed": 333540,
+   "class": "D1",
    "deed_date": "2025-12-23",
    "extras": {},
+   "homestead": false,
    "lat": 29.990466,
    "lon": -98.051502,
    "sqft": 1092,
@@ -3360,6 +3772,7 @@
   {
    "address": "59 DOOLITTLE DR, WIMBERLEY, TX  78676",
    "assessed": 407000,
+   "class": "A",
    "deed_date": "2025-12-22",
    "extras": {
     "exterior": "R",
@@ -3367,6 +3780,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.030639,
    "lon": -98.11748,
    "sqft": 1641,
@@ -3378,8 +3792,10 @@
    "acres": 2.7,
    "address": "361 ROLLING HILLS, WIMBERLEY, TX  78676",
    "assessed": 302823,
+   "class": "A",
    "deed_date": "2025-12-19",
    "extras": {},
+   "homestead": false,
    "lat": 30.078618,
    "lon": -98.20003,
    "sqft": 1875,
@@ -3391,12 +3807,14 @@
    "acres": 3.77,
    "address": "2 SCUDDER LN, WIMBERLEY, TX  78676",
    "assessed": 717595,
+   "class": "E",
    "deed_date": "2025-12-19",
    "extras": {
     "exterior": "R-W",
     "foundation": "P-B",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.013612,
    "lon": -98.10754,
    "sqft": 1224,
@@ -3407,12 +3825,14 @@
    "acres": 0.3,
    "address": "200 TIMBERLINE RD, DRIPPING SPRINGS, TX  78620",
    "assessed": 236920,
+   "class": "A",
    "deed_date": "2025-12-19",
    "extras": {
     "exterior": "W",
     "foundation": "P-B",
     "roof": "H-M"
    },
+   "homestead": false,
    "lat": 30.053665,
    "lon": -98.177717,
    "sqft": 1148,
@@ -3424,6 +3844,7 @@
    "acres": 4.57,
    "address": "1100 GREEN ACRES, WIMBERLEY, TX  78676",
    "assessed": 826900,
+   "class": "A",
    "deed_date": "2025-12-19",
    "extras": {
     "exterior": "B",
@@ -3431,6 +3852,7 @@
     "foundation": "S",
     "heat_ac": "2CAH"
    },
+   "homestead": true,
    "lat": 29.990078,
    "lon": -98.113074,
    "sqft": 3204,
@@ -3441,6 +3863,7 @@
   {
    "address": "6 SADDLE ROCK RDG, WIMBERLEY, TX  78676",
    "assessed": 360740,
+   "class": "A",
    "deed_date": "2025-12-19",
    "extras": {
     "bedrooms": "3.000000",
@@ -3449,6 +3872,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.027833,
    "lon": -98.131862,
    "sqft": 1640,
@@ -3459,6 +3883,7 @@
   {
    "address": "183 AUGUSTA DR, WIMBERLEY, TX  78676",
    "assessed": 496880,
+   "class": "A",
    "deed_date": "2025-12-18",
    "extras": {
     "exterior": "R-C",
@@ -3467,6 +3892,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.03426,
    "lon": -98.11891,
    "sqft": 2046,
@@ -3477,6 +3903,7 @@
   {
    "address": "20 WIDE CANYON, WIMBERLEY, TX  78676",
    "assessed": 377150,
+   "class": "A",
    "deed_date": "2025-12-18",
    "extras": {
     "exterior": "R-C",
@@ -3485,6 +3912,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.04493,
    "lon": -98.145891,
    "sqft": 1628,
@@ -3496,6 +3924,7 @@
    "acres": 10.104,
    "address": "111 CIRCLE DR, WIMBERLEY, TX  78676",
    "assessed": 777510,
+   "class": "A",
    "deed_date": "2025-12-18",
    "extras": {
     "exterior": "R",
@@ -3504,6 +3933,7 @@
     "heat_ac": "1CAH",
     "roof": "G-T"
    },
+   "homestead": false,
    "lat": 30.048166,
    "lon": -98.21639,
    "sqft": 2049,
@@ -3513,6 +3943,7 @@
   {
    "address": "37 RIDGEWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 343827,
+   "class": "A",
    "deed_date": "2025-12-17",
    "extras": {
     "exterior": "C-S",
@@ -3520,6 +3951,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.037304,
    "lon": -98.149087,
    "sqft": 1775,
@@ -3531,6 +3963,7 @@
    "acres": 3.88,
    "address": "3101 LONGHORN TRL, WIMBERLEY, TX  78676",
    "assessed": 903626,
+   "class": "E",
    "deed_date": "2025-12-16",
    "extras": {
     "exterior": "C-S",
@@ -3538,6 +3971,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.089049,
    "lon": -98.205644,
    "sqft": 2848,
@@ -3548,12 +3982,14 @@
   {
    "address": "92 WOODCREEK DR, WIMBERLEY, TX  78676",
    "assessed": 437740,
+   "class": "A",
    "deed_date": "2025-12-16",
    "extras": {
     "exterior": "B",
     "foundation": "S",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.022462,
    "lon": -98.114553,
    "sqft": 1818,
@@ -3564,6 +4000,7 @@
   {
    "address": "5 CEDAR VALLEY CT, WIMBERLEY, TX  78676",
    "assessed": 402950,
+   "class": "A",
    "deed_date": "2025-12-16",
    "extras": {
     "exterior": "R, C-S",
@@ -3571,6 +4008,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.04446,
    "lon": -98.145238,
    "sqft": 1551,
@@ -3581,6 +4019,7 @@
   {
    "address": "25 RANCH VIEW TRL, WIMBERLEY, TX  78676",
    "assessed": 321540,
+   "class": "A",
    "deed_date": "2025-12-15",
    "extras": {
     "bedrooms": "3.000000",
@@ -3590,6 +4029,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.029211,
    "lon": -98.142243,
    "sqft": 1664,
@@ -3600,6 +4040,7 @@
   {
    "address": "3 WOODLARK WAY, WIMBERLEY, TX  78676",
    "assessed": 377770,
+   "class": "A",
    "deed_date": "2025-12-12",
    "extras": {
     "exterior": "R-C",
@@ -3608,6 +4049,7 @@
     "heat_ac": "CAH",
     "roof": "H-M"
    },
+   "homestead": true,
    "lat": 30.026192,
    "lon": -98.133643,
    "sqft": 1628,
@@ -3618,6 +4060,7 @@
   {
    "address": "76 SADDLE ROCK RIDGE, WIMBERLEY, TX  78676",
    "assessed": 507520,
+   "class": "A",
    "deed_date": "2025-12-12",
    "extras": {
     "exterior": "R, C-S",
@@ -3625,6 +4068,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.028662,
    "lon": -98.139625,
    "sqft": 2077,
@@ -3636,8 +4080,10 @@
    "acres": 0.751,
    "address": "201 MOCKINGBIRD LN, KYLE, TX  78640",
    "assessed": 177870,
+   "class": "A",
    "deed_date": "2025-12-11",
    "extras": {},
+   "homestead": false,
    "lat": 29.990445,
    "lon": -98.057633,
    "sqft": 1008,
@@ -3648,8 +4094,10 @@
    "acres": 0.336,
    "address": "15601 RR 12, WIMBERLEY, TX  78676",
    "assessed": 326334,
+   "class": "A",
    "deed_date": "2025-12-11",
    "extras": {},
+   "homestead": true,
    "lat": 30.019916,
    "lon": -98.10293,
    "sqft": 1456,
@@ -3661,8 +4109,10 @@
    "acres": 0.354,
    "address": "55 WAR BONNET, WIMBERLEY, TX  78676",
    "assessed": 631380,
+   "class": "A",
    "deed_date": "2025-12-11",
    "extras": {},
+   "homestead": false,
    "lat": 30.02008,
    "lon": -98.139882,
    "sqft": 3436,
@@ -3674,8 +4124,10 @@
    "acres": 5.48,
    "address": "307 VALLEY RIDGE RD, WIMBERLEY, TX  78676",
    "assessed": 762720,
+   "class": "A",
    "deed_date": "2025-12-10",
    "extras": {},
+   "homestead": false,
    "lat": 30.052167,
    "lon": -98.17346,
    "sqft": 1930,
@@ -3687,6 +4139,7 @@
    "acres": 0.501,
    "address": "421 CINDI CIR, WIMBERLEY, TX  78676",
    "assessed": 399036,
+   "class": "A",
    "deed_date": "2025-12-09",
    "extras": {
     "exterior": "R-C",
@@ -3695,6 +4148,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.002397,
    "lon": -98.118877,
    "sqft": 1510,
@@ -3705,8 +4159,10 @@
   {
    "address": "7 BROOKSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 658880,
+   "class": "A",
    "deed_date": "2025-12-09",
    "extras": {},
+   "homestead": true,
    "lat": 30.030415,
    "lon": -98.109645,
    "sqft": 2310,
@@ -3717,6 +4173,7 @@
   {
    "address": "66 BROOKHOLLOW, WIMBERLEY, TX  78676",
    "assessed": 647580,
+   "class": "A",
    "deed_date": "2025-12-09",
    "extras": {
     "exterior": "R",
@@ -3725,6 +4182,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.030072,
    "lon": -98.115218,
    "sqft": 2811,
@@ -3735,12 +4193,14 @@
   {
    "address": "31 BROOKHOLLOW DR, WIMBERLEY, TX  78676",
    "assessed": 400510,
+   "class": "A",
    "deed_date": "2025-12-09",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.027522,
    "lon": -98.112554,
    "sqft": 1789,
@@ -3752,6 +4212,7 @@
    "acres": 1.7,
    "address": "216 MILL RACE LN, WIMBERLEY, TX  78676",
    "assessed": 1159500,
+   "class": "E",
    "deed_date": "2025-12-08",
    "extras": {
     "exterior": "L",
@@ -3760,6 +4221,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 29.998022,
    "lon": -98.094685,
    "sqft": 3636,
@@ -3770,6 +4232,7 @@
   {
    "address": "28 WESTWOOD LN, WIMBERLEY, TX  78676",
    "assessed": 296620,
+   "class": "A",
    "deed_date": "2025-12-08",
    "extras": {
     "exterior": "R",
@@ -3778,6 +4241,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.028567,
    "lon": -98.109668,
    "sqft": 1478,
@@ -3789,8 +4253,10 @@
    "acres": 4.39,
    "address": "10 PECOS DR, WIMBERLEY, TX  78676",
    "assessed": 333194,
+   "class": "A",
    "deed_date": "2025-12-08",
    "extras": {},
+   "homestead": true,
    "lat": 30.018642,
    "lon": -98.125699,
    "sqft": 1288,
@@ -3802,11 +4268,13 @@
    "acres": 5.49,
    "address": "701 DAYS END RD, WIMBERLEY, TX  78676",
    "assessed": 626588,
+   "class": "A",
    "deed_date": "2025-12-05",
    "extras": {
     "foundation": "S",
     "heat_ac": "1CAH"
    },
+   "homestead": false,
    "lat": 30.042816,
    "lon": -98.231468,
    "sqft": 1375,
@@ -3817,6 +4285,7 @@
   {
    "address": "10 OLD SHAWNEE TRL, WIMBERLEY, TX  78676",
    "assessed": 419744,
+   "class": "A",
    "deed_date": "2025-12-05",
    "extras": {
     "exterior": "R",
@@ -3824,6 +4293,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.020454,
    "lon": -98.123823,
    "sqft": 2860,
@@ -3835,8 +4305,10 @@
    "acres": 1.13,
    "address": "101 SUNRISE DR, KYLE, TX  78640",
    "assessed": 111130,
+   "class": "A",
    "deed_date": "2025-12-04",
    "extras": {},
+   "homestead": false,
    "lat": 29.979366,
    "lon": -98.077558,
    "sqft": 1872,
@@ -3847,8 +4319,10 @@
    "acres": 28.5,
    "address": "670 RED HAWK RD, WIMBERLEY, TX  78676",
    "assessed": 742270,
+   "class": "D1",
    "deed_date": "2025-12-03",
    "extras": {},
+   "homestead": false,
    "lat": 29.999438,
    "lon": -98.045568,
    "sqft": 1080,
@@ -3859,6 +4333,7 @@
   {
    "address": "21 FALLBROOK CIR, WIMBERLEY, TX  78676",
    "assessed": 311230,
+   "class": "A",
    "deed_date": "2025-12-03",
    "extras": {
     "exterior": "W",
@@ -3866,6 +4341,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.020685,
    "lon": -98.109416,
    "sqft": 1306,
@@ -3877,6 +4353,7 @@
    "acres": 1.637,
    "address": "1070 BOX CANYON RD, WIMBERLEY, TX  78676",
    "assessed": 539560,
+   "class": "E",
    "deed_date": "2025-12-03",
    "extras": {
     "exterior": "S, W",
@@ -3884,6 +4361,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.002642,
    "lon": -98.069788,
    "sqft": 3264,
@@ -3894,6 +4372,7 @@
   {
    "address": "7 WOODVIEW CT, WIMBERLEY, TX  78676",
    "assessed": 382850,
+   "class": "A",
    "deed_date": "2025-12-03",
    "extras": {
     "exterior": "R-C",
@@ -3902,6 +4381,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.020452,
    "lon": -98.107846,
    "sqft": 1656,
@@ -3912,8 +4392,10 @@
   {
    "address": "430 BLUE HERON, WIMBERLEY, TX  78676",
    "assessed": 492149,
+   "class": "A",
    "deed_date": "2025-12-02",
    "extras": {},
+   "homestead": false,
    "lat": 29.992191,
    "lon": -98.095649,
    "sqft": 765,
@@ -3924,8 +4406,10 @@
   {
    "address": "444 BLUE HERON, WIMBERLEY, TX  78676",
    "assessed": 906391,
+   "class": "A",
    "deed_date": "2025-12-02",
    "extras": {},
+   "homestead": true,
    "lat": 29.99224,
    "lon": -98.095398,
    "sqft": 2206,
@@ -3937,8 +4421,10 @@
    "acres": 6.48,
    "address": "300 VALLEY RIDGE RD, WIMBERLEY, TX  78676",
    "assessed": 556862,
+   "class": "A",
    "deed_date": "2025-12-02",
    "extras": {},
+   "homestead": true,
    "lat": 30.033452,
    "lon": -98.219592,
    "sqft": 2071,
@@ -3950,8 +4436,10 @@
    "acres": 2.6,
    "address": "511 DEER LAKE RD, WIMBERLEY, TX  78676",
    "assessed": 1294940,
+   "class": "A",
    "deed_date": "2025-12-01",
    "extras": {},
+   "homestead": true,
    "lat": 30.034369,
    "lon": -98.051034,
    "sqft": 2340,
@@ -3962,6 +4450,7 @@
   {
    "address": "9 FLAMING CLIFF RD, WIMBERLEY, TX  78676",
    "assessed": 416240,
+   "class": "A",
    "deed_date": "2025-12-01",
    "extras": {
     "bedrooms": "3.000000",
@@ -3970,6 +4459,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.031393,
    "lon": -98.144258,
    "sqft": 1517,
@@ -3981,6 +4471,7 @@
    "acres": 4.789,
    "address": "221 THOMAS OAKS DR, WIMBERLEY, TX  78676",
    "assessed": 550619,
+   "class": "A",
    "deed_date": "2025-11-28",
    "extras": {
     "exterior": "12",
@@ -3989,6 +4480,7 @@
     "heat_ac": "01",
     "roof": "01-01-07"
    },
+   "homestead": true,
    "lat": 29.976607,
    "lon": -98.158992,
    "sqft": 1944,
@@ -3999,6 +4491,7 @@
   {
    "address": "4 LA TOYA TRL, WIMBERLEY, TX  78676",
    "assessed": 644330,
+   "class": "A",
    "deed_date": "2025-11-26",
    "extras": {
     "bedrooms": "3.000000",
@@ -4007,6 +4500,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.012165,
    "lon": -98.116817,
    "sqft": 1972,
@@ -4018,6 +4512,7 @@
    "acres": 2.8,
    "address": "780 WAYSIDE DR, WIMBERLEY, TX  78676",
    "assessed": 728070,
+   "class": "A",
    "deed_date": "2025-11-26",
    "extras": {
     "exterior": "W",
@@ -4026,6 +4521,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 29.98382,
    "lon": -98.123481,
    "sqft": 1740,
@@ -4037,6 +4533,7 @@
    "acres": 5.333,
    "address": "250 BRUNSON LN, WIMBERLEY, TX  78676",
    "assessed": 841980,
+   "class": "A",
    "deed_date": "2025-11-25",
    "extras": {
     "exterior": "R",
@@ -4045,6 +4542,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.066089,
    "lon": -98.078086,
    "sqft": 2415,
@@ -4056,6 +4554,7 @@
    "acres": 1.38,
    "address": "243 EMERALD POINT CV, DRIFTWOOD, TX  78619",
    "assessed": 1402970,
+   "class": "A",
    "deed_date": "2025-11-25",
    "extras": {
     "bedrooms": "4.000000",
@@ -4065,6 +4564,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.08425,
    "lon": -98.041884,
    "sqft": 3453,
@@ -4076,6 +4576,7 @@
    "acres": 1.995,
    "address": "310 MILL RACE LN, WIMBERLEY, TX  78676",
    "assessed": 1484520,
+   "class": "A",
    "deed_date": "2025-11-24",
    "extras": {
     "exterior": "L",
@@ -4084,6 +4585,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 29.998979,
    "lon": -98.093514,
    "sqft": 1366,
@@ -4095,6 +4597,7 @@
    "acres": 6.0,
    "address": "112 RANCHO GRANDE DR, WIMBERLEY, TX  78676",
    "assessed": 887312,
+   "class": "A",
    "deed_date": "2025-11-24",
    "extras": {
     "exterior": "R",
@@ -4103,6 +4606,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.017259,
    "lon": -98.046367,
    "sqft": 2285,
@@ -4114,8 +4618,10 @@
    "acres": 6.937,
    "address": "580 WOODCREEK RANCH RD, WIMBERLEY, TX  78676",
    "assessed": 1063390,
+   "class": "A",
    "deed_date": "2025-11-24",
    "extras": {},
+   "homestead": true,
    "lat": 30.006622,
    "lon": -98.05549,
    "sqft": 1094,
@@ -4127,10 +4633,12 @@
    "acres": 5.2,
    "address": "440 TORO PASS, WIMBERLEY, TX  78676",
    "assessed": 1355100,
+   "class": "A",
    "deed_date": "2025-11-24",
    "extras": {
     "foundation": "S"
    },
+   "homestead": true,
    "lat": 30.025224,
    "lon": -98.181686,
    "sqft": 2970,
@@ -4142,6 +4650,7 @@
    "acres": 23.58,
    "address": "782 EMMA ELLIS WAY, WIMBERLEY, TX  78676",
    "assessed": 1428410,
+   "class": "D1",
    "deed_date": "2025-11-24",
    "extras": {
     "bedrooms": "3.000000",
@@ -4149,6 +4658,7 @@
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.028884,
    "lon": -98.192109,
    "sqft": 4153,
@@ -4159,6 +4669,7 @@
   {
    "address": "70 BROOKHOLLOW DR, WIMBERLEY, TX  78676",
    "assessed": 632290,
+   "class": "A",
    "deed_date": "2025-11-21",
    "extras": {
     "exterior": "R, C-S",
@@ -4166,6 +4677,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.030425,
    "lon": -98.11544,
    "sqft": 2104,
@@ -4177,6 +4689,7 @@
    "acres": 5.32,
    "address": "765 ROLLING OAKS DR, DRIFTWOOD, TX  78619",
    "assessed": 561172,
+   "class": "A",
    "deed_date": "2025-11-20",
    "extras": {
     "exterior": "W",
@@ -4185,6 +4698,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.053771,
    "lon": -98.021326,
    "sqft": 1849,
@@ -4195,6 +4709,7 @@
   {
    "address": "21 PAR VIEW DR, WIMBERLEY, TX  78676",
    "assessed": 487490,
+   "class": "A",
    "deed_date": "2025-11-19",
    "extras": {
     "bedrooms": "3.000000",
@@ -4203,6 +4718,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.024973,
    "lon": -98.10419,
    "sqft": 1911,
@@ -4214,6 +4730,7 @@
    "acres": 50.97,
    "address": "1785 BACKBONE RDG, SAN MARCOS, TX  78666",
    "assessed": 1228410,
+   "class": "A",
    "deed_date": "2025-11-18",
    "extras": {
     "exterior": "S",
@@ -4221,6 +4738,7 @@
     "heat_ac": "1CAH",
     "roof": "F-M"
    },
+   "homestead": false,
    "lat": 29.949304,
    "lon": -98.113339,
    "sqft": 3743,
@@ -4231,12 +4749,14 @@
   {
    "address": "10 GREEN GLADE, WIMBERLEY, TX  78676",
    "assessed": 227502,
+   "class": "A",
    "deed_date": "2025-11-18",
    "extras": {
     "exterior": "R, C-S",
     "foundation": "S",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.034344,
    "lon": -98.1333,
    "sqft": 1123,
@@ -4247,6 +4767,7 @@
   {
    "address": "30 QUIET MEADOW, WIMBERLEY, TX  78676",
    "assessed": 252581,
+   "class": "A",
    "deed_date": "2025-11-18",
    "extras": {
     "exterior": "R, C-S",
@@ -4254,6 +4775,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": false,
    "lat": 30.032775,
    "lon": -98.136123,
    "sqft": 1198,
@@ -4264,6 +4786,7 @@
   {
    "address": "86 CHAMPIONS CIR, WIMBERLEY TX",
    "assessed": 331012,
+   "class": "A",
    "deed_date": "2025-11-18",
    "extras": {
     "exterior": "R",
@@ -4272,6 +4795,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.021826,
    "lon": -98.107749,
    "sqft": 1726,
@@ -4282,6 +4806,7 @@
   {
    "address": "34 DEER RIDGE RD, WIMBERLEY, TX  78676",
    "assessed": 225720,
+   "class": "A",
    "deed_date": "2025-11-18",
    "extras": {
     "exterior": "C-S",
@@ -4289,6 +4814,7 @@
     "heat_ac": "2CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.031336,
    "lon": -98.13617,
    "sqft": 1320,
@@ -4300,6 +4826,7 @@
    "acres": 6.54,
    "address": "6028 MUSTANG VALLEY TRL, WIMBERLEY, TX  78676",
    "assessed": 499980,
+   "class": "D1",
    "deed_date": "2025-11-18",
    "extras": {
     "bedrooms": "3.000000",
@@ -4308,6 +4835,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.020701,
    "lon": -98.180667,
    "sqft": 1632,
@@ -4318,6 +4846,7 @@
   {
    "address": "126 AUGUSTA LN, WIMBERLEY, TX  78676",
    "assessed": 388090,
+   "class": "A",
    "deed_date": "2025-11-17",
    "extras": {
     "bedrooms": "3.000000",
@@ -4325,6 +4854,7 @@
     "foundation": "S",
     "roof": "G-T"
    },
+   "homestead": true,
    "lat": 30.030835,
    "lon": -98.113499,
    "sqft": 1939,
@@ -4335,6 +4865,7 @@
   {
    "address": "72 SADDLE ROCK RIDGE, WIMBERLEY, TX  78676",
    "assessed": 347050,
+   "class": "A",
    "deed_date": "2025-11-17",
    "extras": {
     "exterior": "B",
@@ -4342,6 +4873,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.029016,
    "lon": -98.139222,
    "sqft": 1493,
@@ -4353,8 +4885,10 @@
    "acres": 1.206,
    "address": "255 G W HASCHKE LN, WIMBERLEY, TX  78676",
    "assessed": 972148,
+   "class": "A",
    "deed_date": "2025-11-17",
    "extras": {},
+   "homestead": true,
    "lat": 29.998843,
    "lon": -98.200095,
    "sqft": 2504,
@@ -4365,6 +4899,7 @@
   {
    "address": "25 DOOLITTLE DR, WIMBERLEY TX",
    "assessed": 591880,
+   "class": "A",
    "deed_date": "2025-11-17",
    "extras": {
     "bedrooms": "3.000000",
@@ -4374,6 +4909,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.027817,
    "lon": -98.115685,
    "sqft": 2433,
@@ -4384,6 +4920,7 @@
   {
    "address": "8 MEMORY LN, WIMBERLEY, TX  78676",
    "assessed": 549500,
+   "class": "A",
    "deed_date": "2025-11-14",
    "extras": {
     "bedrooms": "4.000000",
@@ -4393,6 +4930,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.045839,
    "lon": -98.147009,
    "sqft": 2264,
@@ -4403,6 +4941,7 @@
   {
    "address": "9 MIMOSA LN, WIMBERLEY, TX  78676",
    "assessed": 500000,
+   "class": "A",
    "deed_date": "2025-11-14",
    "extras": {
     "exterior": "S",
@@ -4410,6 +4949,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.038265,
    "lon": -98.135999,
    "sqft": 1826,
@@ -4421,6 +4961,7 @@
    "acres": 4.949,
    "address": "1031 WATER PARK RD, WIMBERLEY, TX  78676",
    "assessed": 840794,
+   "class": "D1",
    "deed_date": "2025-11-13",
    "extras": {
     "exterior": "R",
@@ -4428,6 +4969,7 @@
     "heat_ac": "2CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.008898,
    "lon": -98.013291,
    "sqft": 3045,
@@ -4439,6 +4981,7 @@
    "acres": 10.0,
    "address": "501 SANDY POINT RD, WIMBERLEY, TX  78666",
    "assessed": 1009000,
+   "class": "A",
    "deed_date": "2025-11-13",
    "extras": {
     "exterior": "R",
@@ -4447,6 +4990,7 @@
     "heat_ac": "2CAH",
     "roof": "O"
    },
+   "homestead": false,
    "lat": 30.049658,
    "lon": -98.21184,
    "sqft": 3573,
@@ -4457,8 +5001,10 @@
   {
    "address": "135 CAMPFIRE CIR, WIMBERLEY, TX  78676",
    "assessed": 75048,
+   "class": "A",
    "deed_date": "2025-11-13",
    "extras": {},
+   "homestead": false,
    "lat": 29.973683,
    "lon": -98.132243,
    "sqft": 1056,
@@ -4469,6 +5015,7 @@
    "acres": 1.591,
    "address": "503 G W HASCHKE, WIMBERLEY, TX  78676",
    "assessed": 360170,
+   "class": "A",
    "deed_date": "2025-11-13",
    "extras": {
     "bedrooms": "1.000000",
@@ -4477,6 +5024,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.996873,
    "lon": -98.1984,
    "sqft": 894,
@@ -4488,6 +5036,7 @@
    "acres": 112.64,
    "address": "986 HEATON HOLLOW RD, WIMBERLEY, TX  78676",
    "assessed": 1838040,
+   "class": "A",
    "deed_date": "2025-11-13",
    "extras": {
     "exterior": "S",
@@ -4495,6 +5044,7 @@
     "foundation": "S",
     "roof": "H-T"
    },
+   "homestead": false,
    "lat": 29.992026,
    "lon": -98.140702,
    "sqft": 6656,
@@ -4506,8 +5056,10 @@
    "acres": 4.02,
    "address": "1001 G W HASCHKE LN, WIMBERLEY, TX  78676",
    "assessed": 722168,
+   "class": "E",
    "deed_date": "2025-11-12",
    "extras": {},
+   "homestead": true,
    "lat": 29.99024,
    "lon": -98.197451,
    "sqft": 2322,
@@ -4519,6 +5071,7 @@
    "acres": 1.51,
    "address": "456 HONEYCOMB CIR, DRIFTWOOD, TX  78619",
    "assessed": 983270,
+   "class": "A",
    "deed_date": "2025-11-12",
    "extras": {
     "exterior": "S",
@@ -4526,6 +5079,7 @@
     "foundation": "S",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.055879,
    "lon": -97.993964,
    "sqft": 2417,
@@ -4537,8 +5091,10 @@
    "acres": 150.0,
    "address": "1790 MT SHARP RD, WIMBERLEY, TX  78676",
    "assessed": 347310,
+   "class": "D1",
    "deed_date": "2025-11-11",
    "extras": {},
+   "homestead": false,
    "lat": 30.042068,
    "lon": -98.124605,
    "sqft": 3290,
@@ -4548,8 +5104,10 @@
   {
    "address": "1 VILLA MEADOW, WIMBERLEY, TX  78676",
    "assessed": 318091,
+   "class": "A",
    "deed_date": "2025-11-10",
    "extras": {},
+   "homestead": true,
    "lat": 30.031676,
    "lon": -98.102697,
    "sqft": 1501,
@@ -4561,6 +5119,7 @@
    "acres": 5.0,
    "address": "653 SADDLERIDGE DR, WIMBERLEY, TX  78676",
    "assessed": 996500,
+   "class": "A",
    "deed_date": "2025-11-10",
    "extras": {
     "exterior": "S",
@@ -4568,6 +5127,7 @@
     "foundation": "S",
     "roof": "G-T"
    },
+   "homestead": true,
    "lat": 29.954495,
    "lon": -98.078899,
    "sqft": 3596,
@@ -4579,6 +5139,7 @@
    "acres": 26.75,
    "address": "620 CANYON GAP, WIMBERLEY, TX  78676",
    "assessed": 1239010,
+   "class": "D1",
    "deed_date": "2025-11-07",
    "extras": {
     "exterior": "R",
@@ -4586,6 +5147,7 @@
     "foundation": "S",
     "roof": "O"
    },
+   "homestead": true,
    "lat": 29.950112,
    "lon": -98.06173,
    "sqft": 4382,
@@ -4596,6 +5158,7 @@
   {
    "address": "2 BROOKHOLLOW DR, WIMBERLEY TX",
    "assessed": 482225,
+   "class": "A",
    "deed_date": "2025-11-07",
    "extras": {
     "exterior": "R, W",
@@ -4603,6 +5166,7 @@
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.025188,
    "lon": -98.109838,
    "sqft": 2247,
@@ -4614,8 +5178,10 @@
    "acres": 5.15,
    "address": "300 CAMINO ASHLEY, WIMBERLEY, TX  78676",
    "assessed": 162292,
+   "class": "A",
    "deed_date": "2025-11-05",
    "extras": {},
+   "homestead": true,
    "lat": 30.032005,
    "lon": -98.034574,
    "sqft": 400,
@@ -4625,6 +5191,7 @@
   {
    "address": "5 HICKORY CT, WIMBERLEY, TX  78676",
    "assessed": 441050,
+   "class": "A",
    "deed_date": "2025-11-05",
    "extras": {
     "exterior": "S",
@@ -4632,6 +5199,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.038741,
    "lon": -98.131629,
    "sqft": 1837,
@@ -4642,8 +5210,10 @@
   {
    "address": "7 HARMONY LN, WIMBERLEY, TX  78676",
    "assessed": 575340,
+   "class": "A",
    "deed_date": "2025-11-04",
    "extras": {},
+   "homestead": false,
    "lat": 30.045851,
    "lon": -98.146291,
    "sqft": 2885,
@@ -4655,8 +5225,10 @@
    "acres": 0.371,
    "address": "30 PEACE PIPE, WIMBERLEY, TX  78676",
    "assessed": 781140,
+   "class": "A",
    "deed_date": "2025-11-04",
    "extras": {},
+   "homestead": false,
    "lat": 30.020353,
    "lon": -98.142775,
    "sqft": 4067,
@@ -4667,6 +5239,7 @@
   {
    "address": "11 FALLBROOK, WIMBERLEY, TX  78676",
    "assessed": 276390,
+   "class": "A",
    "deed_date": "2025-11-03",
    "extras": {
     "exterior": "R-C",
@@ -4674,6 +5247,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.020863,
    "lon": -98.110476,
    "sqft": 1246,
@@ -4684,6 +5258,7 @@
   {
    "address": "108 AUGUSTA LN, WIMBERLEY, TX  78676",
    "assessed": 517060,
+   "class": "A",
    "deed_date": "2025-11-01",
    "extras": {
     "bedrooms": "3.000000",
@@ -4693,6 +5268,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.032524,
    "lon": -98.112586,
    "sqft": 3271,
@@ -4704,8 +5280,10 @@
    "acres": 1.0,
    "address": "306 E SUMMIT DR, WIMBERLEY, TX  78676",
    "assessed": 610640,
+   "class": "E",
    "deed_date": "2025-10-31",
    "extras": {},
+   "homestead": true,
    "lat": 29.996914,
    "lon": -98.051047,
    "sqft": 2821,
@@ -4716,12 +5294,14 @@
    "acres": 6.15,
    "address": "350 WINDING TRL, WIMBERLEY, TX  78676",
    "assessed": 521050,
+   "class": "D1",
    "deed_date": "2025-10-31",
    "extras": {
     "exterior": "C-S, R",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.013545,
    "lon": -98.017212,
    "sqft": 1828,
@@ -4733,8 +5313,10 @@
    "acres": 16.0,
    "address": "810 SANDY POINT RD, WIMBERLEY, TX  78676",
    "assessed": 766920,
+   "class": "A",
    "deed_date": "2025-10-30",
    "extras": {},
+   "homestead": false,
    "lat": 30.050725,
    "lon": -98.217547,
    "sqft": 1890,
@@ -4745,6 +5327,7 @@
    "acres": 25.17,
    "address": "100 THE FALLS, WIMBERLEY, TX  78676",
    "assessed": 2214450,
+   "class": "E",
    "deed_date": "2025-10-30",
    "extras": {
     "bedrooms": "3.000000",
@@ -4754,6 +5337,7 @@
     "heat_ac": "CAH",
     "roof": "H-T"
    },
+   "homestead": true,
    "lat": 29.959896,
    "lon": -98.104499,
    "sqft": 3130,
@@ -4765,8 +5349,10 @@
    "acres": 1.96,
    "address": "234 CAMPOLINA LN, DRIFTWOOD, TX  78619",
    "assessed": 1022242,
+   "class": "A",
    "deed_date": "2025-10-30",
    "extras": {},
+   "homestead": true,
    "lat": 30.079214,
    "lon": -98.041148,
    "sqft": 3224,
@@ -4778,8 +5364,10 @@
    "acres": 0.846,
    "address": "150 ABNER ROSS RD, WIMBERLEY, TX  78676",
    "assessed": 133890,
+   "class": "E",
    "deed_date": "2025-10-29",
    "extras": {},
+   "homestead": false,
    "lat": 30.033037,
    "lon": -98.125137,
    "sqft": 456,
@@ -4789,6 +5377,7 @@
   {
    "address": "105 AUGUSTA DR, WIMBERLEY, TX  78676",
    "assessed": 424160,
+   "class": "A",
    "deed_date": "2025-10-29",
    "extras": {
     "bedrooms": "3.000000",
@@ -4798,6 +5387,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.034367,
    "lon": -98.110526,
    "sqft": 1687,
@@ -4809,8 +5399,10 @@
    "acres": 0.355,
    "address": "3 DEERFIELD DR, UNIT #3, WIMBERLEY, TX  78676",
    "assessed": 251184,
+   "class": "A",
    "deed_date": "2025-10-29",
    "extras": {},
+   "homestead": false,
    "lat": 30.027759,
    "lon": -98.101753,
    "sqft": 1027,
@@ -4821,6 +5413,7 @@
   {
    "address": "52 LONG BOW LN, WIMBERLEY, TX  78676",
    "assessed": 464336,
+   "class": "A",
    "deed_date": "2025-10-28",
    "extras": {
     "bedrooms": "4.000000",
@@ -4830,6 +5423,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.035246,
    "lon": -98.147921,
    "sqft": 1802,
@@ -4841,8 +5435,10 @@
    "acres": 0.626,
    "address": "50 WAR BONNET, WIMBERLEY, TX  78676",
    "assessed": 505840,
+   "class": "A",
    "deed_date": "2025-10-28",
    "extras": {},
+   "homestead": false,
    "lat": 30.019641,
    "lon": -98.140752,
    "sqft": 2360,
@@ -4854,8 +5450,10 @@
    "acres": 9.153,
    "address": "2301 DAYS END RD, WIMBERLEY, TX  78676",
    "assessed": 629329,
+   "class": "A",
    "deed_date": "2025-10-27",
    "extras": {},
+   "homestead": true,
    "lat": 30.024442,
    "lon": -98.23077,
    "sqft": 1146,
@@ -4867,8 +5465,10 @@
    "acres": 5.77,
    "address": "401 BUCKSKIN PASS, DRIFTWOOD, TX  78619",
    "assessed": 135068,
+   "class": "A",
    "deed_date": "2025-10-27",
    "extras": {},
+   "homestead": true,
    "lat": 30.060338,
    "lon": -98.015096,
    "sqft": 952,
@@ -4880,6 +5480,7 @@
    "acres": 1.63,
    "address": "308 CANNA LILY CIR, DRIFTWOOD, TX  78619",
    "assessed": 651914,
+   "class": "A",
    "deed_date": "2025-10-24",
    "extras": {
     "exterior": "R, S",
@@ -4888,6 +5489,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.062984,
    "lon": -98.007135,
    "sqft": 2444,
@@ -4898,8 +5500,10 @@
   {
    "address": "210 OVERLOOK CT, WIMBERLEY TX",
    "assessed": 461208,
+   "class": "A",
    "deed_date": "2025-10-24",
    "extras": {},
+   "homestead": false,
    "lat": 30.02265,
    "lon": -98.104119,
    "sqft": 1745,
@@ -4910,8 +5514,10 @@
   {
    "address": "128 CAMPFIRE CIR, WIMBERLEY, TX  78676",
    "assessed": 177302,
+   "class": "A",
    "deed_date": "2025-10-23",
    "extras": {},
+   "homestead": true,
    "lat": 29.974545,
    "lon": -98.132453,
    "sqft": 1848,
@@ -4923,6 +5529,7 @@
    "acres": 9.559,
    "address": "1533 JOHN KNOX RD, WIMBERLEY, TX  78676",
    "assessed": 1376799,
+   "class": "E",
    "deed_date": "2025-10-23",
    "extras": {
     "exterior": "R",
@@ -4930,6 +5537,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.968842,
    "lon": -98.196147,
    "sqft": 2374,
@@ -4941,6 +5549,7 @@
    "acres": 1.6,
    "address": "105 WINN WOOD RD, WIMBERLEY, TX  78676",
    "assessed": 493690,
+   "class": "A",
    "deed_date": "2025-10-23",
    "extras": {
     "exterior": "03-12",
@@ -4949,6 +5558,7 @@
     "heat_ac": "01",
     "roof": "04-02"
    },
+   "homestead": false,
    "lat": 29.974906,
    "lon": -98.096463,
    "sqft": 1584,
@@ -4959,6 +5569,7 @@
   {
    "address": "127 AUGUSTA, WIMBERLEY, TX  78676",
    "assessed": 537840,
+   "class": "A",
    "deed_date": "2025-10-22",
    "extras": {
     "exterior": "R, C-S",
@@ -4967,6 +5578,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.034228,
    "lon": -98.112951,
    "sqft": 2229,
@@ -4977,6 +5589,7 @@
   {
    "address": "2 SQUAW CIR, WIMBERLEY, TX  78676",
    "assessed": 432403,
+   "class": "A",
    "deed_date": "2025-10-22",
    "extras": {
     "exterior": "R",
@@ -4985,6 +5598,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.01951,
    "lon": -98.141665,
    "sqft": 1954,
@@ -4996,8 +5610,10 @@
    "acres": 8.741,
    "address": "251 GOLD RUSH CIR, WIMBERLEY, TX  78676",
    "assessed": 660176,
+   "class": "E",
    "deed_date": "2025-10-21",
    "extras": {},
+   "homestead": true,
    "lat": 30.062203,
    "lon": -98.113174,
    "sqft": 1288,
@@ -5009,6 +5625,7 @@
    "acres": 2.0,
    "address": "900 DRY CYPRESS RANCH RD, WIMBERLEY, TX  78676",
    "assessed": 534689,
+   "class": "A",
    "deed_date": "2025-10-21",
    "extras": {
     "exterior": "C-S",
@@ -5017,6 +5634,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.05592,
    "lon": -98.152153,
    "sqft": 2260,
@@ -5027,6 +5645,7 @@
   {
    "address": "6 STEPPING STONE CT, WIMBERLEY, TX  78676",
    "assessed": 441740,
+   "class": "A",
    "deed_date": "2025-10-21",
    "extras": {
     "exterior": "R, C-S",
@@ -5035,6 +5654,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.032147,
    "lon": -98.145002,
    "sqft": 1796,
@@ -5046,6 +5666,7 @@
    "acres": 181.96,
    "address": "657 PACKER RD, WIMBERLEY, TX  78676",
    "assessed": 1476240,
+   "class": "D1",
    "deed_date": "2025-10-21",
    "extras": {
     "exterior": "R",
@@ -5054,6 +5675,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.010861,
    "lon": -98.149566,
    "sqft": 3376,
@@ -5064,6 +5686,7 @@
   {
    "address": "165 AUGUSTA DR, WIMBERLEY, TX  78676",
    "assessed": 492490,
+   "class": "A",
    "deed_date": "2025-10-20",
    "extras": {
     "bedrooms": "3.000000",
@@ -5073,6 +5696,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.034229,
    "lon": -98.117153,
    "sqft": 1744,
@@ -5083,6 +5707,7 @@
   {
    "address": "45 SADDLE ROCK RIDGE, WIMBERLEY, TX  78676",
    "assessed": 572065,
+   "class": "A",
    "deed_date": "2025-10-16",
    "extras": {
     "exterior": "R",
@@ -5090,6 +5715,7 @@
     "heat_ac": "2CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.029358,
    "lon": -98.136431,
    "sqft": 2528,
@@ -5100,6 +5726,7 @@
   {
    "address": "13 SERENADE CIR, WIMBERLEY, TX  78676",
    "assessed": 430590,
+   "class": "A",
    "deed_date": "2025-10-16",
    "extras": {
     "exterior": "R-C",
@@ -5108,6 +5735,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.047623,
    "lon": -98.146778,
    "sqft": 1779,
@@ -5119,6 +5747,7 @@
    "acres": 5.02,
    "address": "131 CAMINO DERECHO, WIMBERLEY, TX  78676",
    "assessed": 1517580,
+   "class": "A",
    "deed_date": "2025-10-15",
    "extras": {
     "exterior": "R-S",
@@ -5126,6 +5755,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.022496,
    "lon": -98.026823,
    "sqft": 4476,
@@ -5137,6 +5767,7 @@
    "acres": 2.3,
    "address": "817 WOODCREEK RANCH, WIMBERLEY, TX  78676",
    "assessed": 779030,
+   "class": "A",
    "deed_date": "2025-10-14",
    "extras": {
     "bedrooms": "3.000000",
@@ -5146,6 +5777,7 @@
     "heat_ac": "2CAH",
     "roof": "H-T"
    },
+   "homestead": false,
    "lat": 30.00533,
    "lon": -98.053371,
    "sqft": 2614,
@@ -5156,8 +5788,10 @@
   {
    "address": "23 CYPRESS PT, WIMBERLEY, TX  78676",
    "assessed": 557796,
+   "class": "A",
    "deed_date": "2025-10-13",
    "extras": {},
+   "homestead": false,
    "lat": 30.023586,
    "lon": -98.115806,
    "sqft": 2207,
@@ -5168,6 +5802,7 @@
    "acres": 3.0,
    "address": "101 ARROWHEAD PASS, WIMBERLEY, TX  78676",
    "assessed": 636850,
+   "class": "A",
    "deed_date": "2025-10-13",
    "extras": {
     "bedrooms": "3.000000",
@@ -5177,6 +5812,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.951733,
    "lon": -98.071506,
    "sqft": 2090,
@@ -5188,6 +5824,7 @@
    "acres": 5.85,
    "address": "561 CARNEY LN, WIMBERLEY, TX  78676",
    "assessed": 795010,
+   "class": "A",
    "deed_date": "2025-10-09",
    "extras": {
     "exterior": "R-W",
@@ -5196,6 +5833,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 29.997893,
    "lon": -98.114476,
    "sqft": 2656,
@@ -5206,12 +5844,14 @@
   {
    "address": "1908 FLITE ACRES RD, WIMBERLEY, TX  78676",
    "assessed": 891387,
+   "class": "A",
    "deed_date": "2025-10-08",
    "extras": {
     "exterior": "R, C-S",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.985859,
    "lon": -98.063659,
    "sqft": 1804,
@@ -5222,8 +5862,10 @@
    "acres": 0.81,
    "address": "135 MALONE DR, WIMBERLEY, TX  78676",
    "assessed": 499551,
+   "class": "A",
    "deed_date": "2025-10-08",
    "extras": {},
+   "homestead": true,
    "lat": 29.995698,
    "lon": -98.087888,
    "sqft": 1730,
@@ -5235,12 +5877,14 @@
    "acres": 5.0,
    "address": "215 RAINDROP, WIMBERLEY, TX  78676",
    "assessed": 464370,
+   "class": "A",
    "deed_date": "2025-10-07",
    "extras": {
     "fireplace": "1",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.090367,
    "lon": -98.075475,
    "sqft": 3366,
@@ -5251,6 +5895,7 @@
   {
    "address": "6 EL RAY, WIMBERLEY, TX  78676",
    "assessed": 291852,
+   "class": "A",
    "deed_date": "2025-10-07",
    "extras": {
     "exterior": "R-W",
@@ -5258,6 +5903,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.00595,
    "lon": -98.107475,
    "sqft": 1395,
@@ -5268,6 +5914,7 @@
   {
    "address": "55 RIDGEWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 431998,
+   "class": "A",
    "deed_date": "2025-10-07",
    "extras": {
     "exterior": "R-C",
@@ -5276,6 +5923,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.038177,
    "lon": -98.150473,
    "sqft": 1853,
@@ -5287,6 +5935,7 @@
    "acres": 2.0,
    "address": "842 SADDLERIDGE DR, WIMBERLEY, TX  78676",
    "assessed": 689800,
+   "class": "A",
    "deed_date": "2025-10-07",
    "extras": {
     "exterior": "R, C-S",
@@ -5294,6 +5943,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.958657,
    "lon": -98.068532,
    "sqft": 2805,
@@ -5305,6 +5955,7 @@
    "acres": 5.0,
    "address": "100 ARROWHEAD PASS, WIMBERLEY, TX  78676",
    "assessed": 854960,
+   "class": "A",
    "deed_date": "2025-10-06",
    "extras": {
     "exterior": "R",
@@ -5313,6 +5964,7 @@
     "heat_ac": "2CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.951177,
    "lon": -98.070491,
    "sqft": 2418,
@@ -5324,8 +5976,10 @@
    "acres": 5.427,
    "address": "151 WINDMILL CV, WIMBERLEY, TX  78676",
    "assessed": 750500,
+   "class": "D1",
    "deed_date": "2025-10-04",
    "extras": {},
+   "homestead": false,
    "lat": 30.019399,
    "lon": -98.02145,
    "sqft": 1790,
@@ -5337,8 +5991,10 @@
    "acres": 3.784,
    "address": "10703 RR 12, WIMBERLEY, TX  78676",
    "assessed": 793440,
+   "class": "F1",
    "deed_date": "2025-10-02",
    "extras": {},
+   "homestead": false,
    "lat": 29.960998,
    "lon": -98.098837,
    "sqft": 2520,
@@ -5349,8 +6005,10 @@
   {
    "address": "1114 HIGH MESA, WIMBERLEY, TX  78676",
    "assessed": 80964,
+   "class": "A",
    "deed_date": "2025-10-01",
    "extras": {},
+   "homestead": true,
    "lat": 29.972657,
    "lon": -98.134697,
    "sqft": 980,
@@ -5361,6 +6019,7 @@
    "acres": 3.435,
    "address": "110 WINDY RIDGE LN, WIMBERLEY, TX  78676",
    "assessed": 440282,
+   "class": "A",
    "deed_date": "2025-10-01",
    "extras": {
     "exterior": "R-W",
@@ -5369,6 +6028,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.979577,
    "lon": -98.198289,
    "sqft": 1217,
@@ -5380,8 +6040,10 @@
    "acres": 10.316,
    "address": "3650 WAYSIDE RD, WIMBERLEY, TX  78676",
    "assessed": 878000,
+   "class": "E",
    "deed_date": "2025-10-01",
    "extras": {},
+   "homestead": true,
    "lat": 29.980889,
    "lon": -98.164949,
    "sqft": 1350,
@@ -5392,8 +6054,10 @@
   {
    "address": "1116 HIGH MESA DR, WIMBERLEY, TX  78676",
    "assessed": 124560,
+   "class": "A",
    "deed_date": "2025-10-01",
    "extras": {},
+   "homestead": false,
    "lat": 29.972488,
    "lon": -98.134683,
    "sqft": 640,
@@ -5405,8 +6069,10 @@
    "acres": 0.46,
    "address": "410 HUB DR, WIMBERLEY, TX  78676",
    "assessed": 401590,
+   "class": "A",
    "deed_date": "2025-10-01",
    "extras": {},
+   "homestead": true,
    "lat": 29.987443,
    "lon": -98.077483,
    "sqft": 1635,
@@ -5418,6 +6084,7 @@
    "acres": 2.65,
    "address": "600 SKYLINE RIDGE LOOKOUT, WIMBERLEY, TX  78676",
    "assessed": 759839,
+   "class": "A",
    "deed_date": "2025-10-01",
    "extras": {
     "exterior": "R",
@@ -5426,6 +6093,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.036196,
    "lon": -98.082011,
    "sqft": 2385,
@@ -5437,6 +6105,7 @@
    "acres": 1.47,
    "address": "1051 CR 1492, WIMBERLEY, TX  78676",
    "assessed": 525861,
+   "class": "A",
    "deed_date": "2025-09-30",
    "extras": {
     "bedrooms": "3.000000",
@@ -5445,6 +6114,7 @@
     "foundation": "S",
     "roof": "G-T"
    },
+   "homestead": true,
    "lat": 29.978591,
    "lon": -98.100203,
    "sqft": 1664,
@@ -5455,12 +6125,14 @@
    "acres": 5.0,
    "address": "840 THOMPSON RANCH RD, WIMBERLEY, TX  78676",
    "assessed": 713130,
+   "class": "A",
    "deed_date": "2025-09-30",
    "extras": {
     "exterior": "W",
     "foundation": "P-B",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 29.99141,
    "lon": -98.153236,
    "sqft": 1300,
@@ -5471,6 +6143,7 @@
   {
    "address": "6 SENISA ST, WIMBERLEY, TX  78676",
    "assessed": 495154,
+   "class": "A",
    "deed_date": "2025-09-30",
    "extras": {
     "exterior": "B",
@@ -5478,6 +6151,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.03588,
    "lon": -98.131967,
    "sqft": 3624,
@@ -5489,6 +6163,7 @@
    "acres": 0.47,
    "address": "275 STONEY CREEK, WIMBERLEY, TX  78676",
    "assessed": 219550,
+   "class": "E",
    "deed_date": "2025-09-29",
    "extras": {
     "exterior": "M",
@@ -5496,6 +6171,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 29.978809,
    "lon": -98.095659,
    "sqft": 1012,
@@ -5507,12 +6183,14 @@
    "acres": 5.322,
    "address": "438 TRAIL RIDGE, WIMBERLEY, TX  78676",
    "assessed": 655860,
+   "class": "A",
    "deed_date": "2025-09-26",
    "extras": {
     "exterior": "R-B",
     "foundation": "S",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.009752,
    "lon": -98.015549,
    "sqft": 3012,
@@ -5524,8 +6202,10 @@
    "acres": 11.8,
    "address": "3701 RIVER RD, WIMBERLEY, TX  78676",
    "assessed": 1052060,
+   "class": "E",
    "deed_date": "2025-09-26",
    "extras": {},
+   "homestead": false,
    "lat": 29.972546,
    "lon": -98.139284,
    "sqft": 1600,
@@ -5537,6 +6217,7 @@
    "acres": 4.0,
    "address": "520 RANCHO GRANDE DR, WIMBERLEY, TX  78676",
    "assessed": 1283957,
+   "class": "A",
    "deed_date": "2025-09-25",
    "extras": {
     "exterior": "R",
@@ -5544,6 +6225,7 @@
     "heat_ac": "2CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.020862,
    "lon": -98.049668,
    "sqft": 3018,
@@ -5555,6 +6237,7 @@
    "acres": 5.01,
    "address": "300 THOMAS OAKS DR, WIMBERLEY, TX  78676",
    "assessed": 974693,
+   "class": "A",
    "deed_date": "2025-09-23",
    "extras": {
     "exterior": "L",
@@ -5562,6 +6245,7 @@
     "heat_ac": "2CAH",
     "roof": "H-M"
    },
+   "homestead": false,
    "lat": 29.977786,
    "lon": -98.160988,
    "sqft": 1800,
@@ -5573,6 +6257,7 @@
    "acres": 0.981,
    "address": "223 MOUNTAIN CREST DR, WIMBERLEY, TX  78676",
    "assessed": 616136,
+   "class": "A",
    "deed_date": "2025-09-22",
    "extras": {
     "exterior": "R-C",
@@ -5581,6 +6266,7 @@
     "heat_ac": "2CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.034905,
    "lon": -98.104183,
    "sqft": 2184,
@@ -5592,6 +6278,7 @@
    "acres": 1.58,
    "address": "500 MOSS ROSE LN, DRIFTWOOD, TX  78619",
    "assessed": 691715,
+   "class": "A",
    "deed_date": "2025-09-22",
    "extras": {
     "exterior": "S, R",
@@ -5600,6 +6287,7 @@
     "heat_ac": "1CAH",
     "roof": "S-M"
    },
+   "homestead": true,
    "lat": 30.058737,
    "lon": -97.9963,
    "sqft": 2707,
@@ -5610,6 +6298,7 @@
   {
    "address": "29 CREEKSIDE, WIMBERLEY, TX  78676",
    "assessed": 424193,
+   "class": "A",
    "deed_date": "2025-09-19",
    "extras": {
     "exterior": "R",
@@ -5617,6 +6306,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.034998,
    "lon": -98.143007,
    "sqft": 1820,
@@ -5627,12 +6317,14 @@
   {
    "address": "14 PAR VIEW DR, WIMBERLEY, TX  78676",
    "assessed": 430200,
+   "class": "A",
    "deed_date": "2025-09-18",
    "extras": {
     "exterior": "R-W",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.025409,
    "lon": -98.103615,
    "sqft": 1938,
@@ -5644,6 +6336,7 @@
    "acres": 3.466,
    "address": "1000 SKYLINE RIDGE LOOKOUT, WIMBERLEY, TX  78676",
    "assessed": 1266335,
+   "class": "A",
    "deed_date": "2025-09-18",
    "extras": {
     "exterior": "S, R, W",
@@ -5652,6 +6345,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.038147,
    "lon": -98.090142,
    "sqft": 1772,
@@ -5663,12 +6357,14 @@
    "acres": 0.84,
    "address": "2170 HILLTOP DR, WIMBERLEY, TX",
    "assessed": 577114,
+   "class": "E",
    "deed_date": "2025-09-16",
    "extras": {
     "exterior": "S",
     "foundation": "S",
     "roof": "H-M"
    },
+   "homestead": true,
    "lat": 29.981177,
    "lon": -98.08546,
    "sqft": 2270,
@@ -5680,8 +6376,10 @@
    "acres": 10.0,
    "address": "1508 OAKWOOD LOOP, SAN MARCOS, TX  78666",
    "assessed": 588104,
+   "class": "A",
    "deed_date": "2025-09-15",
    "extras": {},
+   "homestead": true,
    "lat": 29.947254,
    "lon": -98.07091,
    "sqft": 1881,
@@ -5692,6 +6390,7 @@
    "acres": 10.0,
    "address": "4671 FISCHER STORE RD, WIMBERLEY, TX  78676",
    "assessed": 1387170,
+   "class": "A",
    "deed_date": "2025-09-15",
    "extras": {
     "exterior": "R",
@@ -5700,6 +6399,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.003444,
    "lon": -98.212715,
    "sqft": 2601,
@@ -5710,6 +6410,7 @@
   {
    "address": "11 ARROW POINT CIR, WIMBERLEY, TX  78676",
    "assessed": 462530,
+   "class": "A",
    "deed_date": "2025-09-13",
    "extras": {
     "exterior": "C-S",
@@ -5718,6 +6419,7 @@
     "heat_ac": "2CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.033439,
    "lon": -98.147709,
    "sqft": 1685,
@@ -5729,6 +6431,7 @@
    "acres": 3.5,
    "address": "38 LA BUENA VISTA, WIMBERLEY, TX  78676",
    "assessed": 718648,
+   "class": "E",
    "deed_date": "2025-09-12",
    "extras": {
     "exterior": "B",
@@ -5736,6 +6439,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.008913,
    "lon": -98.114972,
    "sqft": 2518,
@@ -5746,6 +6450,7 @@
    "acres": 1.01,
    "address": "601 MOUNTAIN VIEW, SAN MARCOS TX",
    "assessed": 402150,
+   "class": "A",
    "deed_date": "2025-09-12",
    "extras": {
     "bedrooms": "3.000000",
@@ -5755,6 +6460,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.035,
    "lon": -98.11122,
    "sqft": 1714,
@@ -5766,8 +6472,10 @@
    "acres": 0.38,
    "address": "20 PEACE PIPE, WIMBERLEY, TX  78676",
    "assessed": 706850,
+   "class": "A",
    "deed_date": "2025-09-11",
    "extras": {},
+   "homestead": true,
    "lat": 30.021246,
    "lon": -98.142784,
    "sqft": 2704,
@@ -5778,12 +6486,14 @@
   {
    "address": "30 PAR VIEW DR, WIMBERLEY, TX  78676",
    "assessed": 303660,
+   "class": "A",
    "deed_date": "2025-09-09",
    "extras": {
     "exterior": "R-W",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.024309,
    "lon": -98.103723,
    "sqft": 1547,
@@ -5795,12 +6505,14 @@
    "acres": 0.93,
    "address": "225 CEDAR SPRINGS DR, WIMBERLEY, TX  78676",
    "assessed": 243970,
+   "class": "A",
    "deed_date": "2025-09-08",
    "extras": {
     "exterior": "W-C",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 29.978273,
    "lon": -98.098209,
    "sqft": 1120,
@@ -5812,8 +6524,10 @@
    "acres": 4.43,
    "address": "111 SHADE RD, WIMBERLEY, TX  78676",
    "assessed": 1564260,
+   "class": "A",
    "deed_date": "2025-09-08",
    "extras": {},
+   "homestead": false,
    "lat": 29.977974,
    "lon": -98.105859,
    "sqft": 3680,
@@ -5824,12 +6538,14 @@
   {
    "address": "35 DEER RIDGE RD, WIMBERLEY, TX  78676",
    "assessed": 406637,
+   "class": "A",
    "deed_date": "2025-09-08",
    "extras": {
     "exterior": "B-W",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.030559,
    "lon": -98.135611,
    "sqft": 1964,
@@ -5841,6 +6557,7 @@
    "acres": 5.747,
    "address": "1150 WINDMILL RUN, WIMBERLEY, TX  78676",
    "assessed": 932630,
+   "class": "D1",
    "deed_date": "2025-09-05",
    "extras": {
     "exterior": "R, R-C",
@@ -5849,6 +6566,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.021993,
    "lon": -98.013867,
    "sqft": 3231,
@@ -5860,6 +6578,7 @@
    "acres": 5.0,
    "address": "680 SADDLERIDGE DR, WIMBERLEY, TX  78676",
    "assessed": 1030946,
+   "class": "A",
    "deed_date": "2025-09-04",
    "extras": {
     "bedrooms": "4.000000",
@@ -5869,6 +6588,7 @@
     "heat_ac": "1CAH",
     "roof": "H-M"
    },
+   "homestead": true,
    "lat": 29.956287,
    "lon": -98.075001,
    "sqft": 4739,
@@ -5880,6 +6600,7 @@
    "acres": 46.542,
    "address": "1900 BACKBONE RIDGE, SAN MARCOS, TX  78666",
    "assessed": 1170070,
+   "class": "D1",
    "deed_date": "2025-09-03",
    "extras": {
     "exterior": "R-W",
@@ -5888,6 +6609,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 29.951462,
    "lon": -98.107696,
    "sqft": 4289,
@@ -5899,6 +6621,7 @@
    "acres": 5.01,
    "address": "110 CAMINO DERECHO, WIMBERLEY, TX  78676",
    "assessed": 614950,
+   "class": "A",
    "deed_date": "2025-09-03",
    "extras": {
     "exterior": "C-S",
@@ -5907,6 +6630,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.020899,
    "lon": -98.028643,
    "sqft": 1964,
@@ -5918,6 +6642,7 @@
    "acres": 2.943,
    "address": "622 SKYLINE RIDGE LOOKOUT, WIMBERLEY, TX  78676",
    "assessed": 762440,
+   "class": "A",
    "deed_date": "2025-09-03",
    "extras": {
     "bedrooms": "3.000000",
@@ -5925,6 +6650,7 @@
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.036213,
    "lon": -98.081345,
    "sqft": 2571,
@@ -5935,6 +6661,7 @@
   {
    "address": "19 TANGLEWOOD TRL, WIMBERLEY, TX  78676",
    "assessed": 628020,
+   "class": "A",
    "deed_date": "2025-09-02",
    "extras": {
     "exterior": "R, C-S",
@@ -5943,6 +6670,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.03769,
    "lon": -98.153274,
    "sqft": 2553,
@@ -5954,12 +6682,14 @@
    "acres": 8.536,
    "address": "1124 RIVER MOUNTAIN RD, WIMBERLEY, TX  78676",
    "assessed": 731992,
+   "class": "A",
    "deed_date": "2025-09-02",
    "extras": {
     "exterior": "R-C",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.013428,
    "lon": -98.026007,
    "sqft": 2862,
@@ -5971,12 +6701,14 @@
    "acres": 1.0,
    "address": "101 LEDGEROCK RD, WIMBERLEY, TX  78676",
    "assessed": 522319,
+   "class": "A",
    "deed_date": "2025-09-01",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.03786,
    "lon": -98.179411,
    "sqft": 2378,
@@ -5987,6 +6719,7 @@
   {
    "address": "46 LA TOYA TRL, WIMBERLEY, TX  78676",
    "assessed": 516080,
+   "class": "A",
    "deed_date": "2025-08-29",
    "extras": {
     "exterior": "R",
@@ -5995,6 +6728,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.010669,
    "lon": -98.114975,
    "sqft": 1919,
@@ -6006,8 +6740,10 @@
    "acres": 13.55,
    "address": "171 WOLF CREEK PASS, WIMBERLEY, TX  78676",
    "assessed": 796953,
+   "class": "A",
    "deed_date": "2025-08-29",
    "extras": {},
+   "homestead": true,
    "lat": 30.060615,
    "lon": -98.047598,
    "sqft": 1566,
@@ -6019,6 +6755,7 @@
    "acres": 2.0,
    "address": "471 SANDY POINT RD, WIMBERLEY, TX  78676",
    "assessed": 424070,
+   "class": "A",
    "deed_date": "2025-08-29",
    "extras": {
     "exterior": "W",
@@ -6026,6 +6763,7 @@
     "heat_ac": "CAH",
     "roof": "M-C"
    },
+   "homestead": true,
    "lat": 30.048807,
    "lon": -98.211571,
    "sqft": 2479,
@@ -6037,8 +6775,10 @@
    "acres": 1.09,
    "address": "19 BROOKMEADOW DR, WIMBERLEY, TX  78676",
    "assessed": 477460,
+   "class": "A",
    "deed_date": "2025-08-28",
    "extras": {},
+   "homestead": true,
    "lat": 30.03018,
    "lon": -98.104748,
    "sqft": 1886,
@@ -6050,12 +6790,14 @@
    "acres": 2.05,
    "address": "838 COVERED BRIDGE DR, DRIFTWOOD, TX  78619",
    "assessed": 1361520,
+   "class": "A",
    "deed_date": "2025-08-28",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.087678,
    "lon": -98.042955,
    "sqft": 4200,
@@ -6066,6 +6808,7 @@
   {
    "address": "4 COUNTRY CT, WIMBERLEY, TX  78676",
    "assessed": 498090,
+   "class": "A",
    "deed_date": "2025-08-28",
    "extras": {
     "bedrooms": "3.000000",
@@ -6075,6 +6818,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.032726,
    "lon": -98.118187,
    "sqft": 1828,
@@ -6086,6 +6830,7 @@
    "acres": 2.5,
    "address": "270 RAMBLING OAKS DR, WIMBERLEY, TX  78676",
    "assessed": 673354,
+   "class": "A",
    "deed_date": "2025-08-28",
    "extras": {
     "exterior": "C-S",
@@ -6093,6 +6838,7 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 29.972959,
    "lon": -98.161141,
    "sqft": 2150,
@@ -6103,6 +6849,7 @@
   {
    "address": "61 WOODCREEK DR, WIMBERLEY, TX  78676",
    "assessed": 496530,
+   "class": "A",
    "deed_date": "2025-08-26",
    "extras": {
     "exterior": "R-W",
@@ -6110,6 +6857,7 @@
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.02331,
    "lon": -98.110071,
    "sqft": 1801,
@@ -6121,8 +6869,10 @@
    "acres": 3.49,
    "address": "350 CLIMBING WAY, WIMBERLEY, TX  78676",
    "assessed": 591980,
+   "class": "A",
    "deed_date": "2025-08-26",
    "extras": {},
+   "homestead": true,
    "lat": 29.98107,
    "lon": -98.083541,
    "sqft": 1694,
@@ -6134,6 +6884,7 @@
    "acres": 1.54,
    "address": "156 CAROUSEL LN, DRIFTWOOD, TX  78619",
    "assessed": 1401410,
+   "class": "A",
    "deed_date": "2025-08-26",
    "extras": {
     "exterior": "B",
@@ -6141,6 +6892,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.076958,
    "lon": -98.043828,
    "sqft": 4265,
@@ -6151,8 +6903,10 @@
   {
    "address": "805 HIGH MESA DR, WIMBERLEY, TX  78676",
    "assessed": 175872,
+   "class": "A",
    "deed_date": "2025-08-25",
    "extras": {},
+   "homestead": false,
    "lat": 29.975338,
    "lon": -98.132274,
    "sqft": 1080,
@@ -6163,7 +6917,9 @@
   {
    "address": "15555 RR 12, WIMBERLEY, TX  78676",
    "assessed": 381850,
+   "class": "F1",
    "deed_date": "2025-08-22",
+   "homestead": false,
    "lat": 30.019184,
    "lon": -98.102882,
    "sqft": 507,
@@ -6174,8 +6930,10 @@
    "acres": 1.645,
    "address": "102 OLMITO DR, WIMBERLEY, TX  78676",
    "assessed": 789970,
+   "class": "A",
    "deed_date": "2025-08-22",
    "extras": {},
+   "homestead": false,
    "lat": 29.98623,
    "lon": -98.095544,
    "sqft": 2326,
@@ -6186,6 +6944,7 @@
   {
    "address": "8 ROCK HOLLOW CIR, WIMBERLEY, TX  78676",
    "assessed": 424100,
+   "class": "A",
    "deed_date": "2025-08-22",
    "extras": {
     "bedrooms": "3.000000",
@@ -6194,6 +6953,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.040511,
    "lon": -98.144887,
    "sqft": 1679,
@@ -6205,6 +6965,7 @@
    "acres": 4.96,
    "address": "501 BOX CANYON RD, WIMBERLEY, TX  78676",
    "assessed": 624117,
+   "class": "E",
    "deed_date": "2025-08-21",
    "extras": {
     "exterior": "C-S",
@@ -6212,6 +6973,7 @@
     "heat_ac": "1CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.007323,
    "lon": -98.07358,
    "sqft": 2674,
@@ -6222,12 +6984,14 @@
   {
    "address": "411 MILL ST, SAN MARCOS, TX  78666",
    "assessed": 299410,
+   "class": "A",
    "deed_date": "2025-08-19",
    "extras": {
     "exterior": "W",
     "foundation": "P-B",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.001708,
    "lon": -98.092566,
    "sqft": 1829,
@@ -6238,6 +7002,7 @@
    "acres": 2.422,
    "address": "13401 RR 12, WIMBERLEY, TX  78676",
    "assessed": 664433,
+   "class": "F1",
    "deed_date": "2025-08-18",
    "extras": {
     "exterior": "R",
@@ -6245,6 +7010,7 @@
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.994325,
    "lon": -98.091845,
    "sqft": 2621,
@@ -6256,12 +7022,14 @@
    "acres": 0.13,
    "address": "1984 HILLTOP DR, WIMBERLEY, TX  78676",
    "assessed": 465240,
+   "class": "A",
    "deed_date": "2025-08-18",
    "extras": {
     "exterior": "R-W",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.977258,
    "lon": -98.080675,
    "sqft": 1689,
@@ -6272,11 +7040,13 @@
    "acres": 6.88,
    "address": "700 TODO LN, DRIFTWOOD, TX  78619",
    "assessed": 280753,
+   "class": "A",
    "deed_date": "2025-08-18",
    "extras": {
     "exterior": "W",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.071716,
    "lon": -98.029792,
    "sqft": 1330,
@@ -6287,8 +7057,10 @@
    "acres": 7.733,
    "address": "250 RIVER ROCK RD, WIMBERLEY, TX  78676",
    "assessed": 2631931,
+   "class": "A",
    "deed_date": "2025-08-18",
    "extras": {},
+   "homestead": false,
    "lat": 29.999304,
    "lon": -98.197805,
    "sqft": 3698,
@@ -6299,6 +7071,7 @@
   {
    "address": "8 SPALDING CIR, WIMBERLEY, TX  78676",
    "assessed": 266905,
+   "class": "A",
    "deed_date": "2025-08-15",
    "extras": {
     "bedrooms": "2.000000",
@@ -6307,6 +7080,7 @@
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.023691,
    "lon": -98.108056,
    "sqft": 1200,
@@ -6318,6 +7092,7 @@
    "acres": 5.0,
    "address": "207 ROUND ROCK RD, WIMBERLEY, TX  78676",
    "assessed": 694584,
+   "class": "A",
    "deed_date": "2025-08-15",
    "extras": {
     "exterior": "B",
@@ -6325,6 +7100,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.041693,
    "lon": -98.176868,
    "sqft": 1970,
@@ -6336,6 +7112,7 @@
    "acres": 4.91,
    "address": "721 DEER RUN, WIMBERLEY, TX  78676",
    "assessed": 636859,
+   "class": "A",
    "deed_date": "2025-08-13",
    "extras": {
     "exterior": "R-W",
@@ -6344,6 +7121,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.973039,
    "lon": -98.186331,
    "sqft": 1516,
@@ -6354,6 +7132,7 @@
   {
    "address": "219 WOODCREEK DR, WIMBERLEY, TX  78676",
    "assessed": 342380,
+   "class": "A",
    "deed_date": "2025-08-13",
    "extras": {
     "bedrooms": "3.000000",
@@ -6362,6 +7141,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.017325,
    "lon": -98.120066,
    "sqft": 1140,
@@ -6373,8 +7153,10 @@
    "acres": 2.0,
    "address": "161 PANORAMA DR, WIMBERLEY, TX  78676",
    "assessed": 376840,
+   "class": "A",
    "deed_date": "2025-08-13",
    "extras": {},
+   "homestead": true,
    "lat": 29.95381,
    "lon": -98.088204,
    "sqft": 942,
@@ -6386,8 +7168,10 @@
    "acres": 0.9,
    "address": "1000 PUMP STATION RD, WIMBERLEY, TX  78676",
    "assessed": 454368,
+   "class": "E",
    "deed_date": "2025-08-12",
    "extras": {},
+   "homestead": false,
    "lat": 30.064778,
    "lon": -98.182012,
    "sqft": 2588,
@@ -6399,6 +7183,7 @@
    "acres": 5.196,
    "address": "301 CAMINO DE RANCHO ST, WIMBERLEY, TX  78676",
    "assessed": 648889,
+   "class": "A",
    "deed_date": "2025-08-12",
    "extras": {
     "exterior": "B",
@@ -6406,6 +7191,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.031871,
    "lon": -98.033335,
    "sqft": 2069,
@@ -6416,6 +7202,7 @@
   {
    "address": "5 QUIVER CT, WIMBERLEY, TX  78676",
    "assessed": 425473,
+   "class": "A",
    "deed_date": "2025-08-12",
    "extras": {
     "exterior": "C-S",
@@ -6424,6 +7211,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.035684,
    "lon": -98.147681,
    "sqft": 1661,
@@ -6434,6 +7222,7 @@
   {
    "address": "19 LAKEWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 491381,
+   "class": "A",
    "deed_date": "2025-08-12",
    "extras": {
     "exterior": "R",
@@ -6441,6 +7230,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.042058,
    "lon": -98.145055,
    "sqft": 2040,
@@ -6451,6 +7241,7 @@
   {
    "address": "3206 FLITE ACRES RD, WIMBERLEY, TX  78676",
    "assessed": 1246629,
+   "class": "A",
    "deed_date": "2025-08-11",
    "extras": {
     "exterior": "R",
@@ -6458,6 +7249,7 @@
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.98891,
    "lon": -98.046139,
    "sqft": 2982,
@@ -6469,6 +7261,7 @@
    "acres": 6.162,
    "address": "733 SKYLINE RIDGE LOOKOUT, WIMBERLEY, TX  78676",
    "assessed": 951841,
+   "class": "A",
    "deed_date": "2025-08-11",
    "extras": {
     "exterior": "R",
@@ -6476,6 +7269,7 @@
     "foundation": "S",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.035866,
    "lon": -98.078457,
    "sqft": 2273,
@@ -6486,6 +7280,7 @@
   {
    "address": "310 CANYON WREN DR, BUDA, TX  78610",
    "assessed": 529315,
+   "class": "A",
    "deed_date": "2025-08-08",
    "extras": {
     "bedrooms": "3.000000",
@@ -6495,6 +7290,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 29.949766,
    "lon": -98.070306,
    "sqft": 2080,
@@ -6505,6 +7301,7 @@
   {
    "address": "16 RAMBLING CREEK CIR, WIMBERLEY, TX  78676",
    "assessed": 412860,
+   "class": "A",
    "deed_date": "2025-08-08",
    "extras": {
     "exterior": "B",
@@ -6512,6 +7309,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.026486,
    "lon": -98.130079,
    "sqft": 1672,
@@ -6522,6 +7320,7 @@
   {
    "address": "67 WOODACRE DR, WIMBERLEY, TX  78676",
    "assessed": 371200,
+   "class": "A",
    "deed_date": "2025-08-08",
    "extras": {
     "exterior": "W",
@@ -6529,6 +7328,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.031384,
    "lon": -98.129383,
    "sqft": 1600,
@@ -6539,6 +7339,7 @@
   {
    "address": "409 HUB DR, WIMBERLEY, TX  78676",
    "assessed": 297785,
+   "class": "A",
    "deed_date": "2025-08-08",
    "extras": {
     "bedrooms": "2.000000",
@@ -6546,6 +7347,7 @@
     "foundation": "P-B",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.9869,
    "lon": -98.077969,
    "sqft": 1139,
@@ -6556,6 +7358,7 @@
   {
    "address": "246 WHISPERING VALLEY DR, WIMBERLEY, TX  78676",
    "assessed": 515930,
+   "class": "A",
    "deed_date": "2025-08-07",
    "extras": {
     "exterior": "R-C",
@@ -6564,6 +7367,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.033488,
    "lon": -98.142456,
    "sqft": 2007,
@@ -6574,12 +7378,14 @@
   {
    "address": "166 SHADY BLUFF DR, WIMBERLEY, TX  78676",
    "assessed": 381750,
+   "class": "A",
    "deed_date": "2025-08-06",
    "extras": {
     "exterior": "C-S",
     "foundation": "S",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.03238,
    "lon": -98.131122,
    "sqft": 1620,
@@ -6591,8 +7397,10 @@
    "acres": 2.5,
    "address": "550 LAME HOSS LN, WIMBERLEY, TX  78676",
    "assessed": 459980,
+   "class": "A",
    "deed_date": "2025-08-05",
    "extras": {},
+   "homestead": true,
    "lat": 30.066015,
    "lon": -98.00934,
    "sqft": 1368,
@@ -6604,11 +7412,13 @@
    "acres": 5.12,
    "address": "901 LITTLE RANCHES RD, WIMBERLEY, TX  78676",
    "assessed": 769727,
+   "class": "A",
    "deed_date": "2025-08-05",
    "extras": {
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.993755,
    "lon": -98.060431,
    "sqft": 1995,
@@ -6620,6 +7430,7 @@
    "acres": 1.89,
    "address": "1086 COVERED BRIDGE DR, DRIFTWOOD, TX  78619",
    "assessed": 1536070,
+   "class": "A",
    "deed_date": "2025-08-05",
    "extras": {
     "bedrooms": "4.000000",
@@ -6629,6 +7440,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.084124,
    "lon": -98.044772,
    "sqft": 3441,
@@ -6640,6 +7452,7 @@
    "acres": 1.0,
    "address": "202 FREEDOM DR, WIMBERLEY, TX  78676",
    "assessed": 226270,
+   "class": "A",
    "deed_date": "2025-08-04",
    "extras": {
     "exterior": "L",
@@ -6647,6 +7460,7 @@
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.977256,
    "lon": -98.105488,
    "sqft": 2167,
@@ -6657,6 +7471,7 @@
   {
    "address": "15 STONE CREEK, WIMBERLEY, TX  78676",
    "assessed": 318330,
+   "class": "A",
    "deed_date": "2025-08-01",
    "extras": {
     "bedrooms": "3.000000",
@@ -6664,6 +7479,7 @@
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.028797,
    "lon": -98.130286,
    "sqft": 1412,
@@ -6675,11 +7491,13 @@
    "acres": 0.097,
    "address": "104 SHADY LN, WIMBERLEY, TX  78676",
    "assessed": 799635,
+   "class": "A",
    "deed_date": "2025-08-01",
    "extras": {
     "foundation": "S",
     "heat_ac": "CAH"
    },
+   "homestead": true,
    "lat": 29.986214,
    "lon": -98.092223,
    "sqft": 2387,
@@ -6691,6 +7509,7 @@
    "acres": 1.4,
    "address": "101 WINN VALLEY DR, WIMBERLEY, TX  78676",
    "assessed": 577500,
+   "class": "A",
    "deed_date": "2025-07-31",
    "extras": {
     "bedrooms": "3.000000",
@@ -6698,6 +7517,7 @@
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.977467,
    "lon": -98.099999,
    "sqft": 2390,
@@ -6709,6 +7529,7 @@
    "acres": 5.333,
    "address": "1070 SAGEMONT DR, WIMBERLEY, TX  78676",
    "assessed": 571875,
+   "class": "A",
    "deed_date": "2025-07-31",
    "extras": {
     "exterior": "W",
@@ -6716,6 +7537,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.044847,
    "lon": -98.086005,
    "sqft": 810,
@@ -6726,6 +7548,7 @@
   {
    "address": "7 BROOKHOLLOW DR, WIMBERLEY, TX  78676",
    "assessed": 374890,
+   "class": "A",
    "deed_date": "2025-07-31",
    "extras": {
     "bedrooms": "3.000000",
@@ -6735,6 +7558,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.026217,
    "lon": -98.110039,
    "sqft": 1771,
@@ -6745,6 +7569,7 @@
   {
    "address": "25 INDIAN PRINCESS LN, WIMBERLEY, TX  78676",
    "assessed": 589960,
+   "class": "A",
    "deed_date": "2025-07-31",
    "extras": {
     "bedrooms": "4.000000",
@@ -6753,6 +7578,7 @@
     "foundation": "S",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.036523,
    "lon": -98.143993,
    "sqft": 2110,
@@ -6763,6 +7589,7 @@
   {
    "address": "10 LAKEWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 362390,
+   "class": "A",
    "deed_date": "2025-07-30",
    "extras": {
     "bedrooms": "3.000000",
@@ -6772,6 +7599,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": false,
    "lat": 30.041244,
    "lon": -98.145387,
    "sqft": 1445,
@@ -6782,12 +7610,14 @@
   {
    "address": "113 AUGUSTA DR, WIMBERLEY, TX  78676",
    "assessed": 423080,
+   "class": "A",
    "deed_date": "2025-07-30",
    "extras": {
     "exterior": "R",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.034185,
    "lon": -98.111413,
    "sqft": 1783,
@@ -6799,6 +7629,7 @@
    "acres": 10.1,
    "address": "1450 MT OLIVE SCHOOL RD, WIMBERLEY, TX  78676",
    "assessed": 488532,
+   "class": "D1",
    "deed_date": "2025-07-29",
    "extras": {
     "exterior": "R-C",
@@ -6806,6 +7637,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.087649,
    "lon": -98.138705,
    "sqft": 1922,
@@ -6817,6 +7649,7 @@
    "acres": 0.597,
    "address": "1401 MT OLIVE SCHOOL RD, WIMBERLEY, TX  78676",
    "assessed": 309670,
+   "class": "E",
    "deed_date": "2025-07-29",
    "extras": {
     "exterior": "L",
@@ -6825,6 +7658,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.032894,
    "lon": -98.122872,
    "sqft": 1380,
@@ -6836,8 +7670,10 @@
    "acres": 10.178,
    "address": "801 DEER RUN DR, WIMBERLEY, TX  78676",
    "assessed": 869675,
+   "class": "A",
    "deed_date": "2025-07-29",
    "extras": {},
+   "homestead": true,
    "lat": 29.972097,
    "lon": -98.185571,
    "sqft": 1795,
@@ -6849,12 +7685,14 @@
    "acres": 0.1,
    "address": "108 OVERLOOK CIR, WIMBERLEY, TX  78676",
    "assessed": 486192,
+   "class": "A",
    "deed_date": "2025-07-29",
    "extras": {
     "fireplace": "1",
     "foundation": "S",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.0228,
    "lon": -98.10323,
    "sqft": 1755,
@@ -6866,12 +7704,14 @@
    "acres": 3.0,
    "address": "100 MESA DR, WIMBERLEY, TX  78676",
    "assessed": 845780,
+   "class": "A",
    "deed_date": "2025-07-29",
    "extras": {
     "exterior": "S",
     "foundation": "S",
     "roof": "H-M"
    },
+   "homestead": false,
    "lat": 29.971399,
    "lon": -98.090412,
    "sqft": 2839,
@@ -6883,10 +7723,12 @@
    "acres": 36.22,
    "address": "1100 BUTTERCUP LN, WIMBERLEY, TX  78676",
    "assessed": 1454888,
+   "class": "D1",
    "deed_date": "2025-07-28",
    "extras": {
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.996983,
    "lon": -98.074016,
    "sqft": 4214,
@@ -6898,6 +7740,7 @@
    "acres": 1.0,
    "address": "4701 LONE MAN MOUNTAIN RD, WIMBERLEY, TX  78676",
    "assessed": 889221,
+   "class": "E",
    "deed_date": "2025-07-25",
    "extras": {
     "exterior": "R",
@@ -6905,6 +7748,7 @@
     "foundation": "S",
     "heat_ac": "CAH"
    },
+   "homestead": true,
    "lat": 30.055535,
    "lon": -98.040092,
    "sqft": 2792,
@@ -6915,6 +7759,7 @@
   {
    "address": "1 COCHISE CT, WIMBERLEY, TX  78676",
    "assessed": 493360,
+   "class": "A",
    "deed_date": "2025-07-25",
    "extras": {
     "bedrooms": "3.000000",
@@ -6924,6 +7769,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.044942,
    "lon": -98.148485,
    "sqft": 1843,
@@ -6934,10 +7780,12 @@
   {
    "address": "500 BUTTERCUP CIR, KYLE, TX  78640",
    "assessed": 512430,
+   "class": "A",
    "deed_date": "2025-07-24",
    "extras": {
     "bedrooms": "3.000000"
    },
+   "homestead": true,
    "lat": 29.99932,
    "lon": -98.073973,
    "sqft": 1937,
@@ -6949,12 +7797,14 @@
    "acres": 5.84,
    "address": "300 SUMMER HILLS DR, WIMBERLEY, TX  78676",
    "assessed": 790540,
+   "class": "A",
    "deed_date": "2025-07-24",
    "extras": {
     "exterior": "C-S",
     "heat_ac": "2CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 30.001894,
    "lon": -98.052871,
    "sqft": 2154,
@@ -6966,8 +7816,10 @@
    "acres": 10.0,
    "address": "1408 OAKWOOD LOOP, SAN MARCOS, TX  78666",
    "assessed": 697330,
+   "class": "A",
    "deed_date": "2025-07-23",
    "extras": {},
+   "homestead": false,
    "lat": 29.945033,
    "lon": -98.068388,
    "sqft": 1870,
@@ -6979,8 +7831,10 @@
    "acres": 9.212,
    "address": "1203 LOST RIVER RD, UNIT #B, SAN MARCOS, TX  78666",
    "assessed": 505930,
+   "class": "D1",
    "deed_date": "2025-07-23",
    "extras": {},
+   "homestead": false,
    "lat": 29.966224,
    "lon": -98.013233,
    "sqft": 2400,
@@ -6992,8 +7846,10 @@
    "acres": 2.0,
    "address": "325 RADER RANCH RD, WIMBERLEY, TX  78676",
    "assessed": 298350,
+   "class": "E",
    "deed_date": "2025-07-22",
    "extras": {},
+   "homestead": false,
    "lat": 30.001931,
    "lon": -98.12028,
    "sqft": 1484,
@@ -7004,8 +7860,10 @@
   {
    "address": "207 BLUE HOLE RD, WIMBERLEY, TX  78676",
    "assessed": 623700,
+   "class": "A",
    "deed_date": "2025-07-22",
    "extras": {},
+   "homestead": true,
    "lat": 30.000495,
    "lon": -98.091713,
    "sqft": 2886,
@@ -7016,12 +7874,14 @@
   {
    "address": "122 GOLF CREST DR, WIMBERLEY, TX  78676",
    "assessed": 413183,
+   "class": "A",
    "deed_date": "2025-07-22",
    "extras": {
     "bedrooms": "2.000000",
     "foundation": "S",
     "roof": "H-M"
    },
+   "homestead": true,
    "lat": 30.033241,
    "lon": -98.139045,
    "sqft": 1593,
@@ -7033,8 +7893,10 @@
    "acres": 1.0,
    "address": "12900 RR 12, WIMBERLEY, TX  78676",
    "assessed": 249280,
+   "class": "E",
    "deed_date": "2025-07-21",
    "extras": {},
+   "homestead": false,
    "lat": 29.986976,
    "lon": -98.087861,
    "sqft": 2328,
@@ -7046,12 +7908,14 @@
    "acres": 6.57,
    "address": "400 DAYS END RD, WIMBERLEY, TX  78676",
    "assessed": 326405,
+   "class": "A",
    "deed_date": "2025-07-21",
    "extras": {
     "foundation": "P-B",
     "heat_ac": "CAH",
     "roof": "H-M"
    },
+   "homestead": true,
    "lat": 30.046379,
    "lon": -98.234026,
    "sqft": 1450,
@@ -7063,8 +7927,10 @@
    "acres": 3.006,
    "address": "501 DEER LAKE RD, WIMBERLEY, TX  78676",
    "assessed": 703284,
+   "class": "A",
    "deed_date": "2025-07-21",
    "extras": {},
+   "homestead": false,
    "lat": 29.985699,
    "lon": -98.104628,
    "sqft": 1315,
@@ -7076,6 +7942,7 @@
    "acres": 1.0,
    "address": "500 DEER LAKE RD, WIMBERLEY, TX  78676",
    "assessed": 990000,
+   "class": "E",
    "deed_date": "2025-07-21",
    "extras": {
     "exterior": "R, W",
@@ -7084,6 +7951,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.98054,
    "lon": -98.184495,
    "sqft": 5803,
@@ -7094,8 +7962,10 @@
    "acres": 4.159,
    "address": "2500 RIVER RD, WIMBERLEY, TX  78676",
    "assessed": 1187790,
+   "class": "A",
    "deed_date": "2025-07-21",
    "extras": {},
+   "homestead": false,
    "lat": 29.972492,
    "lon": -98.124133,
    "sqft": 2272,
@@ -7106,6 +7976,7 @@
   {
    "address": "14 SPRINGWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 648910,
+   "class": "A",
    "deed_date": "2025-07-21",
    "extras": {
     "exterior": "R-C",
@@ -7114,6 +7985,7 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
+   "homestead": true,
    "lat": 30.042073,
    "lon": -98.146218,
    "sqft": 1965,
@@ -7125,6 +7997,7 @@
    "acres": 0.88,
    "address": "1403 MT SHARP RD, UNIT #C, WIMBERLEY, TX  78676",
    "assessed": 189388,
+   "class": "XV",
    "deed_date": "2025-07-18",
    "extras": {
     "exterior": "W",
@@ -7133,6 +8006,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.033189,
    "lon": -98.124277,
    "sqft": 1152,
@@ -7143,8 +8017,10 @@
    "acres": 2.77,
    "address": "322 RANCHO GRANDE DR, WIMBERLEY, TX  78676",
    "assessed": 701752,
+   "class": "A",
    "deed_date": "2025-07-18",
    "extras": {},
+   "homestead": true,
    "lat": 30.018956,
    "lon": -98.046677,
    "sqft": 1910,
@@ -7155,6 +8031,7 @@
   {
    "address": "1 WOODVIEW CT, WIMBERLEY, TX  78676",
    "assessed": 518815,
+   "class": "A",
    "deed_date": "2025-07-18",
    "extras": {
     "exterior": "R, S",
@@ -7163,6 +8040,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 30.020518,
    "lon": -98.108309,
    "sqft": 2075,
@@ -7173,8 +8051,10 @@
   {
    "address": "140 CAMPFIRE CIR, WIMBERLEY, TX  78676",
    "assessed": 115920,
+   "class": "A",
    "deed_date": "2025-07-17",
    "extras": {},
+   "homestead": false,
    "lat": 29.973286,
    "lon": -98.132255,
    "sqft": 980,
@@ -7185,6 +8065,7 @@
   {
    "address": "39 LA TOYA TRL, WIMBERLEY, TX  78676",
    "assessed": 753705,
+   "class": "A",
    "deed_date": "2025-07-17",
    "extras": {
     "exterior": "R",
@@ -7193,6 +8074,7 @@
     "heat_ac": "2CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.009712,
    "lon": -98.115328,
    "sqft": 3312,
@@ -7204,8 +8086,10 @@
    "acres": 0.08,
    "address": "102 OVERLOOK CIR, WIMBERLEY, TX  78676",
    "assessed": 404624,
+   "class": "A",
    "deed_date": "2025-07-17",
    "extras": {},
+   "homestead": true,
    "lat": 30.022506,
    "lon": -98.103313,
    "sqft": 1875,
@@ -7216,6 +8100,7 @@
   {
    "address": "64 SPRUCEWOOD DR, WIMBERLEY, TX  78676",
    "assessed": 532494,
+   "class": "A",
    "deed_date": "2025-07-17",
    "extras": {
     "bedrooms": "4.000000",
@@ -7224,6 +8109,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.036094,
    "lon": -98.152597,
    "sqft": 2109,
@@ -7235,11 +8121,13 @@
    "acres": 5.69,
    "address": "130 SMITH CREEK RD, WIMBERLEY, TX  78676",
    "assessed": 580500,
+   "class": "E",
    "deed_date": "2025-07-17",
    "extras": {
     "foundation": "S",
     "roof": "G-M"
    },
+   "homestead": false,
    "lat": 30.015476,
    "lon": -98.070094,
    "sqft": 600,
@@ -7250,8 +8138,10 @@
   {
    "address": "401 DEER LAKE RD, WIMBERLEY, TX  78676",
    "assessed": 2116800,
+   "class": "A",
    "deed_date": "2025-07-16",
    "extras": {},
+   "homestead": false,
    "lat": 30.028022,
    "lon": -98.045396,
    "sqft": 2453,
@@ -7261,8 +8151,10 @@
   {
    "address": "18 DEER RIDGE, WIMBERLEY, TX  78676",
    "assessed": 249366,
+   "class": "A",
    "deed_date": "2025-07-16",
    "extras": {},
+   "homestead": true,
    "lat": 30.03091,
    "lon": -98.133452,
    "sqft": 1045,
@@ -7274,6 +8166,7 @@
    "acres": 3.61,
    "address": "725 COMANCHE WATERS RD, WIMBERLEY, TX  78676",
    "assessed": 1966033,
+   "class": "A",
    "deed_date": "2025-07-15",
    "extras": {
     "bedrooms": "4.000000",
@@ -7283,6 +8176,7 @@
     "heat_ac": "CAH",
     "roof": "G-T"
    },
+   "homestead": true,
    "lat": 30.033659,
    "lon": -98.059122,
    "sqft": 3780,
@@ -7294,6 +8188,7 @@
    "acres": 1.0,
    "address": "501 HIDDEN VALLEY RD, WIMBERLEY, TX  78676",
    "assessed": 864303,
+   "class": "A",
    "deed_date": "2025-07-14",
    "extras": {
     "exterior": "C-S, S-M",
@@ -7301,6 +8196,7 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
+   "homestead": true,
    "lat": 29.984023,
    "lon": -98.062959,
    "sqft": 1914,
@@ -7312,6 +8208,7 @@
    "acres": 1.596,
    "address": "206 HIGH PLAINS DR, DRIPPING SPRINGS, TX  78620",
    "assessed": 550000,
+   "class": "A",
    "deed_date": "2025-07-14",
    "extras": {
     "exterior": "S",
@@ -7320,6 +8217,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": false,
    "lat": 29.97193,
    "lon": -98.129041,
    "sqft": 3045,
@@ -7331,8 +8229,10 @@
    "acres": 2.033,
    "address": "401 SOUTHRIVER RD, WIMBERLEY, TX  78676",
    "assessed": 900000,
+   "class": "A",
    "deed_date": "2025-07-14",
    "extras": {},
+   "homestead": true,
    "lat": 29.989019,
    "lon": -98.095298,
    "sqft": 2868,
@@ -7343,6 +8243,7 @@
   {
    "address": "7 NO SUCH RD, WIMBERLEY, TX  78676",
    "assessed": 764073,
+   "class": "A",
    "deed_date": "2025-07-12",
    "extras": {
     "exterior": "W",
@@ -7351,6 +8252,7 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.018239,
    "lon": -98.123322,
    "sqft": 3168,
@@ -7361,6 +8263,7 @@
   {
    "address": "2 BASSWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 743050,
+   "class": "A",
    "deed_date": "2025-07-11",
    "extras": {
     "exterior": "B",
@@ -7368,6 +8271,7 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
+   "homestead": true,
    "lat": 30.042556,
    "lon": -98.14779,
    "sqft": 3401,
@@ -7378,6 +8282,7 @@
   {
    "address": "6 HICKORY CT, WIMBERLEY, TX  78676",
    "assessed": 607640,
+   "class": "A",
    "deed_date": "2025-07-11",
    "extras": {
     "exterior": "V",
@@ -7385,6 +8290,7 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
+   "homestead": true,
    "lat": 30.038634,
    "lon": -98.131456,
    "sqft": 2241,
@@ -7395,8 +8301,10 @@
   {
    "address": "254 BLANCO FLATS RUN, KYLE, TX  78640",
    "assessed": 551603,
+   "class": "O",
    "deed_date": "2025-07-11",
    "extras": {},
+   "homestead": false,
    "lat": 29.988122,
    "lon": -98.081055,
    "sqft": 2786,
@@ -7408,8 +8316,10 @@
    "acres": 1.0,
    "address": "131 FREEDOM DR, WIMBERLEY, TX  78676",
    "assessed": 504569,
+   "class": "A",
    "deed_date": "2025-07-09",
    "extras": {},
+   "homestead": true,
    "lat": 29.976353,
    "lon": -98.103395,
    "sqft": 1826,
@@ -7419,8 +8329,10 @@
   {
    "address": "9 BASSWOOD CIR, WIMBERLEY, TX  78676",
    "assessed": 475040,
+   "class": "A",
    "deed_date": "2025-07-09",
    "extras": {},
+   "homestead": true,
    "lat": 30.042742,
    "lon": -98.146934,
    "sqft": 2231,
