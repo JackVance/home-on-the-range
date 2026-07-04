@@ -645,7 +645,8 @@ function schoolHtml(sch) {
   }
   const badge = `<span style="display:inline-block; background:${GRADE_COLORS[g] || "#5a6b7a"};
     color:#fff; font-weight:700; border-radius:4px; padding:0 7px;">${g}</span>`;
-  const dg = x => x?.grade && x.grade !== "Not Rated" ? x.grade : "—";
+  const dg = x => x?.grade && x.grade !== "Not Rated"
+    ? `${x.grade}${x.score ? " " + x.score : ""}` : "—";
   return `<div style="font-size:12.5px; margin:4px 0;">
     ${badge} <b>${sch.score ?? ""}</b>
     · ach <b>${dg(sch.achievement)}</b>
