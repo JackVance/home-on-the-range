@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>home-finder — Austin school zones</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  /* The viewer renders committed JSON and does ZERO statistics (SPEC.md §7).
+     Everything below is display logic only. */
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 14px/1.45 system-ui, sans-serif; display: flex;
+         height: 100vh; color: #1a2733; }
+  #map { flex: 1; height: 100%; }
+  #panel { width: 380px; overflow-y: auto; border-left: 1px solid #d5dde3;
+           padding: 14px 16px; background: #fafbfc; }
+  h1 { font-size: 17px; margin: 0 0 2px; }
+  .sub { color: #5a6b7a; font-size: 12px; margin-bottom: 12px; }
+  .zone { border: 1px solid #d5dde3; border-radius: 8px; background: #fff;
+          padding: 10px 12px; margin-bottom: 12px; cursor: pointer; }
+  .zone:hover { border-color: #8aa5b8; }
+  .zone h2 { font-size: 15px; margin: 0; display: flex; align-items: center; gap: 7px; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  .meta { color: #5a6b7a; font-size: 12px; margin: 4px 0 6px; }
+  .badge { display: inline-block; font-size: 11px; padding: 1px 7px;
+           border-radius: 9px; margin-right: 5px; }
+  .warn { background: #fdf3d7; color: #7a5c00; border: 1px solid #eddfa8; }
+  .ok   { background: #e2f4e5; color: #1d6b2a; border: 1px solid #bfe3c6; }
+  .info { background: #e8eff5; color: #33566e; border: 1px solid #cfdde8; }
+  .stats td { padding: 2px 6px 2px 0; font-size: 13px; vertical-align: top; }
+  .stats .v { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .moe { color: #5a6b7a; font-size: 11.5px; }
+  .greyed { color: #98a6b1; }
+  .greyed .moe { color: #b3bec7; }
+  .res { font-size: 10.5px; color: #7a8b98; }
+  .links a { font-size: 12.5px; }
+  .pending { background: #f2f5f7; border: 1px dashed #b8c6d1; border-radius: 6px;
+             padding: 8px 10px; font-size: 12.5px; color: #4a5d6d; margin-top: 6px; }
+  .disclaimer { font-size: 11px; color: #7a8b98; border-top: 1px solid #d5dde3;
+                padding-top: 8px; margin-top: 6px; }
+  code { background: #eef2f5; padding: 0 4px; border-radius: 3px; font-size: 11px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="panel">
+  <h1>home-finder</h1>
+  <div class="sub">Austin-metro HS attendance zones · committed data only —
+    the viewer never fetches from external services</div>
+  <div id="zones"></div>
+  <div class="disclaimer">
+    Boundaries are snapshots — districts rezone. Verify with the district
+    before any purchase decision. Every number shows its uncertainty; greyed
+    values have CV &gt; 0.30. This tool never scrapes listings sites.
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const COLORS = ["#c0392b", "#1f618d", "#1d8348", "#7d3c98", "#b7950b"];
+const map = L.map("map").setView([30.4, -97.8], 11);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: '&copy; OpenStreetMap contributors', maxZoom: 19,
+}).addTo(map);
+
+async function maybeJson(url) {
+  try { const r = await fetch(url); return r.ok ? await r.json() : null; }
+  catch { return null; }
+}
+
+const fmtPct = (v) => v == null ? "—" : (v * 100).toFixed(1) + "%";
+const fmtMoePct = (m) => m == null ? "" : "±" + (m * 100).toFixed(1);
+
+// Pure display: value ± MOE, greyed when the committed CV exceeds 0.30,
+// with the committed resolution annotation. No math here beyond formatting.
+function statRow(label, s, asPct) {
+  if (!s) return "";
+  const grey = s.cv != null && s.cv > 0.30 ? " greyed" : "";
+  const val = s.display ?? (asPct ? fmtPct(s.value) : (s.value == null ? "—" : Math.round(s.value).toLocaleString()));
+  const moe = s.moe != null ? `<span class="moe">${asPct ? fmtMoePct(s.moe) : "±" + Math.round(s.moe).toLocaleString()}</span>` : "";
+  const res = s.resolution === "tract" ? `<div class="res">tract-level (${s.reason ?? "bg CV too high"})</div>` : "";
+  return `<tr class="${grey.trim()}"><td>${label}</td><td class="v">${val} ${moe}${res}</td></tr>`;
+}
+
+function demographicsHtml(d) {
+  if (!d) return `<div class="pending">Demographics pending — needs a (free)
+    Census API key: set <code>CENSUS_API_KEY</code>, then run
+    <code>fetch_census.py</code> + <code>join_zones.py</code>.</div>`;
+  const sh = d.race_ethnicity?.shares ?? {};
+  const med = d.income?.median_household_income;
+  const edu = d.education?.shares?.pct_bachelors_or_higher;
+  const coarse = d.coarse_geography
+    ? `<span class="badge warn">coarse geography — ${d.block_count} blocks</span>` : "";
+  return `${coarse}<table class="stats">
+    ${statRow("Median HH income", med, false)}
+    ${statRow("Hispanic", sh.pct_hispanic, true)}
+    ${statRow("Non-Hisp. White", sh.pct_nh_white, true)}
+    ${statRow("Non-Hisp. Black", sh.pct_nh_black, true)}
+    ${statRow("Non-Hisp. Asian", sh.pct_nh_asian, true)}
+    ${statRow("Bachelor's+", edu, true)}
+  </table>`;
+}
+
+(async () => {
+  const registry = await maybeJson("zones.json");
+  const layers = [];
+  let i = 0;
+  const panel = document.getElementById("zones");
+
+  for (const [name, z] of Object.entries(registry)) {
+    const color = COLORS[i++ % COLORS.length];
+    const fc = await maybeJson(`../data/boundaries/${name}.geojson`);
+    const meta = await maybeJson(`../data/boundaries/${name}.meta.json`);
+    const demo = await maybeJson(`../data/joined/${name}.demographics.json`);
+
+    let layer = null;
+    if (fc) {
+      layer = L.geoJSON(fc, { style: { color, weight: 2.5, fillOpacity: 0.08 } })
+        .bindTooltip(z.high_school).addTo(map);
+      layers.push(layer);
+    }
+
+    const verified = meta?.verified_by_human
+      ? `<span class="badge ok">human-verified</span>`
+      : `<span class="badge warn">not yet human-verified</span>`;
+    const fetched = meta?.fetched_at
+      ? `<span class="badge info">fetched ${meta.fetched_at.slice(0, 10)}</span>` : "";
+    const area = meta?.geodesic_area_km2 ? ` · ${meta.geodesic_area_km2} km²` : "";
+    const boundary = fc ? verified + fetched
+      : `<span class="badge warn">boundary pending (${z.boundary_source})</span>`;
+    const links = (z.listings_links ?? [])
+      .map(u => `<a href="${u}" target="_blank" rel="noopener">listings ↗</a>`).join(" · ");
+
+    const card = document.createElement("div");
+    card.className = "zone";
+    card.innerHTML = `
+      <h2><span class="swatch" style="background:${color}"></span>${z.high_school}</h2>
+      <div class="meta">${z.district} · ${meta?.district_effective_year ?? "?"}${area}</div>
+      <div>${boundary}</div>
+      ${demographicsHtml(demo)}
+      <div class="links">${links}</div>`;
+    if (layer) card.onclick = () => map.fitBounds(layer.getBounds().pad(0.1));
+    panel.appendChild(card);
+  }
+
+  if (layers.length) {
+    map.fitBounds(L.featureGroup(layers).getBounds().pad(0.08));
+  }
+})();
+</script>
+</body>
+</html>
