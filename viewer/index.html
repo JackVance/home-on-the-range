@@ -58,23 +58,53 @@
       <span id="dotmeta" class="moe"></span></label>
     <div id="dotlegend" style="display:none; margin-top:4px;"></div>
   </div>
-  <div id="cadcontrol" style="display:none; margin-bottom:12px; font-size:13px;">
+  <div id="cadcontrol" style="display:none; margin-bottom:8px; font-size:13px;">
     <label><input type="checkbox" id="cadtoggle"> Recent deed transfers
       <span class="moe" id="cadmeta"></span></label>
     <div class="moe" style="margin-top:2px;">CAD appraised values, NOT sale
       prices (TX non-disclosure). Pins follow zone visibility.</div>
-    <div id="cadfilters" style="display:none; margin-top:5px;">
+  </div>
+  <div style="margin-bottom:8px; font-size:13px;">
+    <input id="pininput" type="text" placeholder="drop pin: address or lat, lon"
+      style="width:250px; padding:2px 5px;">
+    <button id="pinbtn" style="cursor:pointer;">📍 pin</button>
+    <div class="moe" id="pinstatus"></div>
+  </div>
+  <details id="filterpanel" style="margin-bottom:12px; font-size:13px;">
+    <summary style="cursor:pointer; color:#33566e; font-weight:600;">Filters &amp; sort</summary>
+    <div style="border-left:3px solid #8aa5b8; padding-left:8px; margin:7px 0;">
+      <b style="font-size:11px; color:#33566e; letter-spacing:.05em;">ZONE CARDS</b><br>
+      sort by <select id="zonesort">
+        <option value="none" selected>—</option>
+        <option value="pop">population</option>
+        <option value="income">median HH income</option>
+        <option value="homeval">median home value</option>
+        <option value="hisp">% Hispanic</option>
+        <option value="white">% NH White</option>
+        <option value="black">% NH Black</option>
+        <option value="asian">% NH Asian</option>
+        <option value="ba">% Bachelor's+</option>
+      </select>
+      <select id="zonedir"><option value="desc" selected>▼ desc</option>
+        <option value="asc">▲ asc</option></select>
+    </div>
+    <div id="cadfilters" style="border-left:3px solid #af7ac5; padding-left:8px;">
+      <b style="font-size:11px; color:#7d3c98; letter-spacing:.05em;">DEED TRANSFERS</b><br>
       window <select id="cadwindow">
         <option value="365" selected>12 mo</option>
         <option value="182">6 mo</option>
         <option value="91">3 mo</option>
       </select>
-      · value $<input id="cadmin" type="number" placeholder="min" style="width:70px">
-      – $<input id="cadmax" type="number" placeholder="max" style="width:70px">
+      · value $<input id="cadmin" type="number" placeholder="min" style="width:64px">
+      – $<input id="cadmax" type="number" placeholder="max" style="width:64px">
+      <br>sqft <input id="cadsqmin" type="number" placeholder="min" style="width:56px">
+      – <input id="cadsqmax" type="number" placeholder="max" style="width:56px">
+      · acres <input id="cadacmin" type="number" step="0.1" placeholder="min" style="width:48px">
+      – <input id="cadacmax" type="number" step="0.1" placeholder="max" style="width:48px">
       <br><label><input type="checkbox" id="cadoutside"> include areas outside
         zones (full tri-county)</label>
     </div>
-  </div>
+  </details>
   <div id="zones"></div>
   <div class="disclaimer">
     Boundaries are snapshots — districts rezone. Verify with the district
@@ -283,10 +313,20 @@ const fmtVal = v => v == null ? "value n/a" : "$" + v.toLocaleString();
 function cadFilter() {
   const days = +document.getElementById("cadwindow").value;
   const since = new Date(Date.now() - days * 86400e3).toISOString().slice(0, 10);
-  const min = +document.getElementById("cadmin").value || 0;
-  const max = +document.getElementById("cadmax").value || Infinity;
+  const v = id => +document.getElementById(id).value || 0;
+  const vMax = id => +document.getElementById(id).value || Infinity;
+  const min = v("cadmin"), max = vMax("cadmax");
+  const sqMin = v("cadsqmin"), sqMax = vMax("cadsqmax");
+  const acMin = v("cadacmin"), acMax = vMax("cadacmax");
+  // A bound on a field excludes records missing that field (sqft ~93%,
+  // acres ~90% coverage); unset bounds pass everything.
+  const range = (val, lo, hi) =>
+    (lo === 0 && hi === Infinity) ? true
+    : (val != null && val >= lo && val <= hi);
   return t => (t.deed_date || "") >= since &&
-              (t.value == null ? min === 0 : (t.value >= min && t.value <= max));
+              range(t.value, min, max) &&
+              range(t.sqft, sqMin, sqMax) &&
+              range(t.acres, acMin, acMax);
 }
 
 function transferPopup(t) {
@@ -376,14 +416,15 @@ async function initCadControl() {
   document.getElementById("cadcontrol").style.display = "block";
   document.getElementById("cadtoggle").onchange = async (ev) => {
     cadOn = ev.target.checked;
-    document.getElementById("cadfilters").style.display = cadOn ? "block" : "none";
+    if (cadOn) document.getElementById("filterpanel").open = true;
     document.getElementById("cadmeta").textContent = cadOn ? "loading…" : "";
     await syncCad();
   };
   document.getElementById("cadwindow").onchange = refilterCad;
   document.getElementById("cadoutside").onchange = () => { if (cadOn) syncCad(); };
   let deb;
-  for (const id of ["cadmin", "cadmax"]) {
+  for (const id of ["cadmin", "cadmax", "cadsqmin", "cadsqmax",
+                    "cadacmin", "cadacmax"]) {
     document.getElementById(id).oninput = () => {
       clearTimeout(deb); deb = setTimeout(refilterCad, 400);
     };
@@ -394,6 +435,81 @@ initCadControl();
 function applyStyle(entry) {
   entry.layer.setStyle({ fillOpacity: shadeOn ? FILL : 0 });
 }
+
+// --- User pins: by address (Census Bureau geocoder, user-initiated) or
+// --- "lat, lon". Persisted in localStorage; popup shows containing zone.
+const pinsLayer = L.layerGroup().addTo(map);
+let userPins = JSON.parse(localStorage.getItem("userpins") || "[]");
+
+function renderPins() {
+  pinsLayer.clearLayers();
+  userPins.forEach((p, i) => {
+    const zone = zoneLayers.find(z => pip(p.lon, p.lat, z.geom));
+    L.marker([p.lat, p.lon]).addTo(pinsLayer).bindPopup(
+      `<b>${p.label}</b><br>` +
+      (zone ? `zone: ${zone.hs}` : "outside all registered zones") +
+      `<br><span class="moe">${p.lat.toFixed(5)}, ${p.lon.toFixed(5)}</span>` +
+      `<br><a href="#" data-pinrm="${i}">remove pin</a>`);
+  });
+  localStorage.setItem("userpins", JSON.stringify(userPins));
+}
+map.on("popupopen", (e) => {
+  const a = e.popup.getElement().querySelector("[data-pinrm]");
+  if (a) a.onclick = (ev) => {
+    ev.preventDefault();
+    userPins.splice(+a.dataset.pinrm, 1);
+    map.closePopup();
+    renderPins();
+  };
+});
+
+async function addPin(text) {
+  const status = document.getElementById("pinstatus");
+  const m = text.match(/^\s*(-?\d+\.?\d*)\s*,\s*(-?\d+\.?\d*)\s*$/);
+  if (m) {
+    let a = +m[1], b = +m[2];
+    if (a < 0 && b > 0) [a, b] = [b, a];   // accept lon,lat order too
+    userPins.push({ label: `${a.toFixed(5)}, ${b.toFixed(5)}`, lat: a, lon: b });
+  } else {
+    status.textContent = "geocoding…";
+    try {
+      // Nominatim (OSM): CORS-open, fine for occasional hand-entered lookups.
+      // Census geocoder would be preferred but blocks browser origins.
+      const url = "https://nominatim.openstreetmap.org/search?format=json&limit=1" +
+        "&countrycodes=us&viewbox=-98.3,30.9,-97.2,29.8&q=" +
+        encodeURIComponent(text);
+      const r = await (await fetch(url)).json();
+      const hit = r?.[0];
+      if (!hit) { status.textContent = "no match — try 'street, city, TX'"; return; }
+      userPins.push({ label: hit.display_name.split(",").slice(0, 3).join(","),
+                      lat: +hit.lat, lon: +hit.lon });
+    } catch { status.textContent = "geocoder unreachable"; return; }
+  }
+  status.textContent = "";
+  document.getElementById("pininput").value = "";
+  renderPins();
+  const p = userPins[userPins.length - 1];
+  map.setView([p.lat, p.lon], Math.max(map.getZoom(), 13));
+}
+document.getElementById("pinbtn").onclick = () =>
+  addPin(document.getElementById("pininput").value.trim());
+document.getElementById("pininput").onkeydown = (e) => {
+  if (e.key === "Enter") addPin(e.target.value.trim());
+};
+
+// --- Zone-card sorting: metrics captured at card build, reordered on demand.
+const cardsIndex = [];   // {card, metrics}
+function applySort() {
+  const key = document.getElementById("zonesort").value;
+  if (key === "none") return;
+  const dir = document.getElementById("zonedir").value === "asc" ? 1 : -1;
+  const panel = document.getElementById("zones");
+  [...cardsIndex]
+    .sort((a, b) => dir * ((a.metrics[key] ?? -Infinity) - (b.metrics[key] ?? -Infinity)))
+    .forEach(c => panel.appendChild(c.card));
+}
+document.getElementById("zonesort").onchange = applySort;
+document.getElementById("zonedir").onchange = applySort;
 
 // Committed transfer-rate windows (computed in fetch_cad.py, never here).
 // Row 1: 12/6/3-month rates as % of population. Row 2: raw counts.
@@ -436,7 +552,7 @@ function transfersHtml(cad) {
       const border = L.geoJSON(fc, { pane: "zoneborder", interactive: false,
         style: { color, weight: 2.5, fill: false } }).addTo(map);
       entry = { name, layer, border, color, visible: true,
-                geom: fc.features[0].geometry };
+                geom: fc.features[0].geometry, hs: z.high_school };
       zoneLayers.push(entry);
     }
 
@@ -511,7 +627,23 @@ function transfersHtml(cad) {
     card.querySelectorAll(".links a").forEach(a => a.onclick = ev => ev.stopPropagation());
     card.querySelectorAll("details").forEach(dt => dt.onclick = ev => ev.stopPropagation());
     panel.appendChild(card);
+
+    const sh_ = demo?.race_ethnicity?.shares ?? {};
+    cardsIndex.push({ card, metrics: {
+      pop: demo?.race_ethnicity?.counts?.["B03002_001"]?.value ?? null,
+      // Open-top-bracket medians (">$200,000") sort above any numeric value.
+      income: demo?.income?.median_household_income?.value ??
+        (demo?.income?.median_household_income?.flag === "median_in_open_top_bracket"
+          ? 200001 : null),
+      homeval: cad?.windows?.["12mo"]?.median_value ?? null,
+      hisp: sh_.pct_hispanic?.value ?? null,
+      white: sh_.pct_nh_white?.value ?? null,
+      black: sh_.pct_nh_black?.value ?? null,
+      asian: sh_.pct_nh_asian?.value ?? null,
+      ba: demo?.education?.shares?.pct_bachelors_or_higher?.value ?? null,
+    }});
   }
+  renderPins();   // pins can now resolve their containing zones
 
   if (zoneLayers.length) {
     map.fitBounds(L.featureGroup(zoneLayers.map(e => e.layer)).getBounds().pad(0.08));
