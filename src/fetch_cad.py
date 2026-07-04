@@ -448,6 +448,7 @@ def fetch_hays() -> list[dict]:
             mv = row.get("CurrMarketValue") or ""
             av = row.get("CurrAssessedValue") or ""
             sqft = row.get("SquareFootage") or ""
+            legal_ac = row.get("LegalAcres") or ""
             rec = {
                 "address": (row.get("Situs") or "").strip(),
                 "deed_date": deeds[pid],
@@ -455,6 +456,10 @@ def fetch_hays() -> list[dict]:
                 "assessed": int(float(av)) if av else None,
                 "value_kind": "market (Hays CAD)",
                 "sqft": int(float(sqft)) if sqft else None,
+                # LAND rows are often size-less for lot-method subdivisions;
+                # the deeded LegalAcres is the more complete source.
+                "acres": round(float(legal_ac), 3) if legal_ac and
+                         float(legal_ac) else None,
             }
             pid_to_rec[pid] = rec
             if key:
@@ -489,9 +494,15 @@ def fetch_hays() -> list[dict]:
             rec = pid_to_rec.get(row.get("PropertyID", ""))
             if not rec:
                 continue
-            acres = row.get("Acres") or ""
-            if acres:
-                rec["acres"] = round((rec.get("acres") or 0) + float(acres), 3)
+            # Fallback when PROPERTY.LegalAcres was empty: LAND Acres, or
+            # platted-lot SquareFeet converted.
+            if not rec.get("acres"):
+                acres = row.get("Acres") or ""
+                lot_sqft = row.get("SquareFeet") or ""
+                add = float(acres) if acres else \
+                      (float(lot_sqft) / 43560 if lot_sqft else 0)
+                if add:
+                    rec["acres"] = round(add, 3)
             if row.get("StateCode"):
                 rec.setdefault("class", row["StateCode"])
     # OWNER: homestead flag from the exemption list (HS code).
