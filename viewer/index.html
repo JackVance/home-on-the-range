@@ -336,7 +336,12 @@ function transfersHtml(cad) {
   if (!w) return "";
   const pct = x => x?.pct_of_population != null ? x.pct_of_population + "%" : "—";
   const cnt = x => (x?.count ?? 0).toLocaleString();
-  return `<table class="stats">
+  const med = w["12mo"]?.median_value;
+  const medRow = med == null ? "" :
+    `<tr><td>Median home value<br><span class="moe">transferred, 12 mo — CAD
+      appraisal, not price</span></td>
+      <td class="v">$${med.toLocaleString()}</td></tr>`;
+  return `<table class="stats">${medRow}
     <tr><td>Transfers, % of pop<br><span class="moe">12 / 6 / 3 mo</span></td>
       <td class="v">${pct(w["12mo"])} / ${pct(w["6mo"])} / ${pct(w["3mo"])}<br>
         <span class="moe">${cnt(w["12mo"])} / ${cnt(w["6mo"])} / ${cnt(w["3mo"])}</span>

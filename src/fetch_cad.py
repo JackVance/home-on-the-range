@@ -97,37 +97,63 @@ def fetch_williamson() -> list[dict]:
             deeds[pid] = dt
     print(f">> WCAD: {len(deeds)} properties transferred since {cut}", flush=True)
 
-    out: list[dict] = []
+    # Values come from the Property export dataset (the parcels dataset's
+    # value columns are published zeroed). Same rule as Hays: real (R-prefix)
+    # improved (improvement value > 0) property only.
+    WCAD_PROPERTY = "https://data.wcad.org/resource/ij43-xknu.json"
+    recs: dict[str, dict] = {}
+    skipped_type = 0
     ids = sorted(deeds)
     for i in range(0, len(ids), BATCH):
         chunk = ids[i:i + BATCH]
         in_list = ",".join(f"'{x}'" for x in chunk)
         q = urllib.parse.urlencode({
-            "$select": "propertyid,geometry,siteaddress,totprvtxto,"
-                       "lndvalue,cntassdval,resyrblt,resflrarea,usedscrp",
+            "$select": "propertyid,quickrefid,currmarketvalue,"
+                       "currimprovmentvalue,situs",
+            "$where": f"propertyid in({in_list})",
+            "$limit": BATCH,
+        })
+        for p in _get_json(f"{WCAD_PROPERTY}?{q}"):
+            if not (p.get("quickrefid") or "").startswith("R") or \
+               not float(p.get("currimprovmentvalue") or 0):
+                skipped_type += 1
+                continue
+            pid = p["propertyid"]
+            mv = p.get("currmarketvalue")
+            recs[pid] = {
+                "address": (p.get("situs") or "").strip(),
+                "deed_date": deeds.get(pid),
+                "value": int(float(mv)) if mv else None,
+                "value_kind": "market (WCAD)",
+            }
+        if (i // BATCH) % 40 == 0:
+            print(f">> WCAD values joined: {len(recs)}/{len(deeds)}", flush=True)
+    print(f">> WCAD: {len(recs)} improved-residential transfers "
+          f"({skipped_type} mobile/personal/unimproved skipped)", flush=True)
+
+    out: list[dict] = []
+    ids = sorted(recs)
+    for i in range(0, len(ids), BATCH):
+        chunk = ids[i:i + BATCH]
+        in_list = ",".join(f"'{x}'" for x in chunk)
+        q = urllib.parse.urlencode({
+            "$select": "propertyid,geometry,resyrblt,resflrarea",
             "$where": f"propertyid in({in_list})",
             "$limit": BATCH,
         })
         for p in _get_json(f"{WCAD_PARCELS}?{q}"):
             geom = p.get("geometry")
-            if not geom:
+            rec = recs.get(p.get("propertyid", ""))
+            if not geom or not rec:
                 continue
             c = shape(geom).centroid
-            # WCAD parcels dataset carries assessed value columns; use county
-            # assessed as the value signal (market column names vary by export).
-            val = p.get("cntassdval") or p.get("totprvtxto")
             out.append({
-                "lon": round(c.x, 6), "lat": round(c.y, 6),
-                "address": (p.get("siteaddress") or "").strip(),
-                "deed_date": deeds.get(p.get("propertyid", ""), None),
-                "value": int(float(val)) if val else None,
-                "value_kind": "assessed (WCAD)",
+                "lon": round(c.x, 6), "lat": round(c.y, 6), **rec,
                 "year_built": int(float(p["resyrblt"])) if p.get("resyrblt") else None,
                 "sqft": int(float(p["resflrarea"])) if p.get("resflrarea") else None,
-                "use": p.get("usedscrp"),
             })
-        if (i // BATCH) % 20 == 0:
-            print(f">> WCAD parcels joined: {len(out)}/{len(deeds)}", flush=True)
+        if (i // BATCH) % 40 == 0:
+            print(f">> WCAD geometry joined: {len(out)}/{len(recs)}", flush=True)
     return out
 
 
@@ -272,10 +298,18 @@ def fetch_hays() -> list[dict]:
 
     recs: dict[tuple, dict] = {}
     unmatched = 0
+    skipped_type = 0
     with open(_hays_table("property"), encoding="latin-1") as f:
         for row in csv.DictReader(f):
             pid = row["PropertyID"]
             if pid not in deeds:
+                continue
+            # Real, improved property only: QuickRefID prefix R = real (M =
+            # mobile home, P = personal), and SquareFootage>0 excludes vacant
+            # builder lots whose land-only values swamp growth-zone medians.
+            if not (row.get("QuickRefID") or "").startswith("R") or \
+               not float(row.get("SquareFootage") or 0):
+                skipped_type += 1
                 continue
             key = _addr_key(row.get("SitusStreetNumber"),
                             row.get("SitusStreetName"))
@@ -292,8 +326,9 @@ def fetch_hays() -> list[dict]:
                 recs[key] = rec
             else:
                 unmatched += 1
-    print(f">> Hays: {len(recs)} transfers to geolocate "
-          f"({unmatched} with unusable situs)", flush=True)
+    print(f">> Hays: {len(recs)} improved-residential transfers to geolocate "
+          f"({unmatched} unusable situs; {skipped_type} mobile/personal/"
+          f"unimproved skipped)", flush=True)
 
     # County-wide 911 address points (paginated).
     points: dict[tuple, tuple[float, float]] = {}
@@ -397,10 +432,18 @@ def main(counties: list[str] | None = None) -> int:
         windows = {}
         for label, days in (("3mo", 91), ("6mo", 182), ("12mo", 365)):
             since = (date.today() - timedelta(days=days)).isoformat()
-            n = sum(1 for t in transfers if (t.get("deed_date") or "") >= since)
+            in_window = [t for t in transfers
+                         if (t.get("deed_date") or "") >= since]
+            # Median CAD value of transferred homes — the honest "average
+            # home price" proxy (appraisal, not price; TX non-disclosure).
+            # WCAD + Hays are improved-residential at ingest; Travis includes
+            # all real property (roll lacks a cheap improved flag — caveat).
+            vals = sorted(t["value"] for t in in_window if t.get("value"))
+            median_value = vals[len(vals) // 2] if vals else None
             windows[label] = {
-                "count": n,
-                "pct_of_population": round(n / pop * 100, 2) if pop else None,
+                "count": len(in_window),
+                "pct_of_population": round(len(in_window) / pop * 100, 2) if pop else None,
+                "median_value": median_value,
             }
         payload = {
             "as_of": stamp,

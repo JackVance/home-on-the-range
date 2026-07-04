@@ -22,7 +22,7 @@ boundary_where    = "DisplayName='Vandegrift High School'"
 boundary_name_field = "DisplayName"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 125         # pinned from first fetch (geodesic 124.8 km²)
+expected_area_km2 = 125   # pinned to measured geodesic
 district_effective_year = "2024-25"   # app is labeled 24-25; LISD approved
                                       # 2026-27 rezoning Feb 2026 — recheck
 listings_links    = [
@@ -39,7 +39,7 @@ boundary_where    = "HIGH_NAME='WESTWOOD'"       # uppercase per probed schema
 boundary_name_field = "HIGH_NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 39          # pinned from first fetch (geodesic 39.2 km²)
+expected_area_km2 = 39   # pinned to measured geodesic
 district_effective_year = "2025-26?"  # service named _2526 but probed feature
                                       # says SCHL_YEAR=2024-25 — resolve at eyeball
 listings_links    = [
@@ -59,7 +59,7 @@ boundary_where    = "name='Westlake High School'"
 boundary_name_field = "name"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 40          # from the design debate's prior
+expected_area_km2 = 88   # pinned to measured geodesic
 district_effective_year = "2026-27"
 listings_links    = [
   "https://www.redfin.com/city/30818/TX/Austin/filter/school-name=westlake-high-school",
@@ -79,7 +79,7 @@ boundary_where    = "DisplayName='Cedar Park High School'"
 boundary_name_field = "DisplayName"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 100         # PROVISIONAL — pin from first geodesic print
+expected_area_km2 = 138   # pinned to measured geodesic
 district_effective_year = "2024-25"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=cedar-park-high-school"]
 
@@ -93,7 +93,7 @@ boundary_where    = "DisplayName='Vista Ridge High School'"
 boundary_name_field = "DisplayName"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 40          # PROVISIONAL
+expected_area_km2 = 38   # pinned to measured geodesic
 district_effective_year = "2024-25"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=vista-ridge-high-school"]
 
@@ -107,7 +107,7 @@ boundary_where    = "DisplayName='Leander High School'"
 boundary_name_field = "DisplayName"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 46          # pinned: gate tripped my 150 prior; geodesic 46.2
+expected_area_km2 = 46   # pinned to measured geodesic
 district_effective_year = "2024-25"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=leander-high-school"]
 
@@ -121,7 +121,7 @@ boundary_where    = "DisplayName='Rouse High School'"
 boundary_name_field = "DisplayName"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 40          # PROVISIONAL
+expected_area_km2 = 58   # pinned to measured geodesic
 district_effective_year = "2024-25"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=rouse-high-school"]
 
@@ -137,7 +137,7 @@ boundary_where    = "HIGH_NAME='ROUND ROCK'"
 boundary_name_field = "HIGH_NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 60          # PROVISIONAL
+expected_area_km2 = 46   # pinned to measured geodesic
 district_effective_year = "2025-26?"
 listings_links    = ["https://www.redfin.com/city/15723/TX/Round-Rock/filter/school-name=round-rock-high-school"]
 
@@ -151,7 +151,7 @@ boundary_where    = "HIGH_NAME='MCNEIL'"
 boundary_name_field = "HIGH_NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 40          # PROVISIONAL
+expected_area_km2 = 70   # pinned to measured geodesic
 district_effective_year = "2025-26?"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=mcneil-high-school"]
 
@@ -165,7 +165,7 @@ boundary_where    = "HIGH_NAME='CEDAR RIDGE'"
 boundary_name_field = "HIGH_NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 60          # PROVISIONAL
+expected_area_km2 = 38   # pinned to measured geodesic
 district_effective_year = "2025-26?"
 listings_links    = ["https://www.redfin.com/city/15723/TX/Round-Rock/filter/school-name=cedar-ridge-high-school"]
 
@@ -179,7 +179,7 @@ boundary_where    = "HIGH_NAME='STONY POINT'"
 boundary_name_field = "HIGH_NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 80          # PROVISIONAL
+expected_area_km2 = 61   # pinned to measured geodesic
 district_effective_year = "2025-26?"
 listings_links    = ["https://www.redfin.com/city/15723/TX/Round-Rock/filter/school-name=stony-point-high-school"]
 
@@ -196,7 +196,7 @@ boundary_where    = "GEOID='4826470'"     # unified school district, current vin
 boundary_name_field = "NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 150         # PROVISIONAL
+expected_area_km2 = 305   # pinned to measured geodesic
 district_effective_year = "current (single-HS district = district boundary)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=lake-travis-high-school"]
 
@@ -210,7 +210,7 @@ boundary_where    = "GEOID='4800008'"
 boundary_name_field = "NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 400         # PROVISIONAL — big rural district
+expected_area_km2 = 510   # pinned to measured geodesic
 district_effective_year = "current (single-HS district = district boundary)"
 listings_links    = ["https://www.redfin.com/city/5348/TX/Dripping-Springs/filter/school-name=dripping-springs-high-school"]
 
@@ -226,7 +226,7 @@ boundary_where    = "HIGH_DESC='Anderson HS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 60          # PROVISIONAL
+expected_area_km2 = 65   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=anderson-high-school"]
 
@@ -240,7 +240,7 @@ boundary_where    = "HIGH_DESC='Bowie HS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 100         # PROVISIONAL
+expected_area_km2 = 134   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=james-bowie-high-school"]
 
@@ -257,7 +257,7 @@ boundary_where    = "name='Georgetown High'"
 boundary_name_field = "name"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 200          # PROVISIONAL
+expected_area_km2 = 220   # pinned to measured geodesic
 district_effective_year = "2026-27"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=georgetown-hs"]
 
@@ -271,7 +271,7 @@ boundary_where    = "name='East View High'"
 boundary_name_field = "name"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 200          # PROVISIONAL
+expected_area_km2 = 236   # pinned to measured geodesic
 district_effective_year = "2026-27"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=east-view-hs"]
 
@@ -286,7 +286,7 @@ boundary_layer_title = "High Schools 2025-26"
 boundary_name_field = "HIGH_PLAN5"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 50          # PROVISIONAL
+expected_area_km2 = 26   # pinned to measured geodesic
 district_effective_year = "2025-26"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=hendrickson-hs"]
 
@@ -301,7 +301,7 @@ boundary_layer_title = "High Schools 2025-26"
 boundary_name_field = "HIGH_PLAN5"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 60          # PROVISIONAL
+expected_area_km2 = 103   # pinned to measured geodesic
 district_effective_year = "2025-26"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=weiss-hs"]
 
@@ -316,7 +316,7 @@ boundary_layer_title = "High Schools 2025-26"
 boundary_name_field = "HIGH_PLAN5"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 50          # PROVISIONAL
+expected_area_km2 = 30   # pinned to measured geodesic
 district_effective_year = "2025-26"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=pflugerville-hs"]
 
@@ -331,7 +331,7 @@ boundary_layer_title = "High Schools 2025-26"
 boundary_name_field = "HIGH_PLAN5"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 50          # PROVISIONAL
+expected_area_km2 = 39   # pinned to measured geodesic
 district_effective_year = "2025-26"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=connally-hs"]
 
@@ -345,7 +345,7 @@ boundary_where    = "GEOID='4824100'"
 boundary_name_field = "NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 150          # PROVISIONAL
+expected_area_km2 = 176   # pinned to measured geodesic
 district_effective_year = "current (single-HS district = district boundary)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=hutto-hs"]
 
@@ -359,7 +359,7 @@ boundary_where    = "GEOID='4826400'"
 boundary_name_field = "NAME"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 90          # PROVISIONAL
+expected_area_km2 = 90   # pinned to measured geodesic
 district_effective_year = "current (single-HS district = district boundary)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=lago-vista-hs"]
 
@@ -373,7 +373,7 @@ boundary_where    = "HIGH_DESC='Austin HS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 80          # PROVISIONAL
+expected_area_km2 = 101   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=austin-hs"]
 
@@ -387,7 +387,7 @@ boundary_where    = "HIGH_DESC='McCallum HS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 50          # PROVISIONAL
+expected_area_km2 = 58   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=mccallum-hs"]
 
@@ -401,7 +401,7 @@ boundary_where    = "HIGH_DESC='Akins HS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 60          # PROVISIONAL
+expected_area_km2 = 81   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=akins-hs"]
 
@@ -415,7 +415,7 @@ boundary_where    = "HIGH_DESC='Crockett ECHS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 40          # PROVISIONAL
+expected_area_km2 = 38   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=crockett-echs"]
 
@@ -429,7 +429,7 @@ boundary_where    = "HIGH_DESC='Eastside ECHS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 40          # PROVISIONAL
+expected_area_km2 = 24   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=eastside-echs"]
 
@@ -443,7 +443,7 @@ boundary_where    = "HIGH_DESC='LBJ ECHS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 60          # PROVISIONAL
+expected_area_km2 = 25   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=lbj-echs"]
 
@@ -457,7 +457,7 @@ boundary_where    = "HIGH_DESC='Navarro ECHS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 40          # PROVISIONAL
+expected_area_km2 = 19   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=navarro-echs"]
 
@@ -471,7 +471,7 @@ boundary_where    = "HIGH_DESC='Northeast ECHS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 60          # PROVISIONAL
+expected_area_km2 = 28   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=northeast-echs"]
 
@@ -485,6 +485,205 @@ boundary_where    = "HIGH_DESC='Travis ECHS'"
 boundary_name_field = "HIGH_DESC"
 boundary_has_name = true
 expected_features = 1
-expected_area_km2 = 50          # PROVISIONAL
+expected_area_km2 = 30   # pinned to measured geodesic
 district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
 listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=travis-echs"]
+
+# --- Added 2026-07-04: tri-county HS fill — TIGERweb singles, LHISD
+# --- (MyPlanWare 2026-27), Hays CISD (district's Google My Maps KML). ---
+
+[delvalle-delvalle]
+district          = "Del Valle ISD"
+high_school       = "Del Valle HS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4816620'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 443   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=del-valle-hs"]
+
+[manor-manor]
+district          = "Manor ISD"
+high_school       = "Manor HS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4828890'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 232   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary) — VERIFY: Manor New Tech is a magnet, not zoned"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=manor-hs"]
+
+[sanmarcos-sanmarcos]
+district          = "San Marcos CISD"
+high_school       = "San Marcos HS"
+counties          = ["48209"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4838970'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 478   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=san-marcos-hs"]
+
+[wimberley-wimberley]
+district          = "Wimberley ISD"
+high_school       = "Wimberley HS"
+counties          = ["48209"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4800009'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 350   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=wimberley-hs"]
+
+[taylor-taylor]
+district          = "Taylor ISD"
+high_school       = "Taylor HS"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4842280'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 200   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=taylor-hs"]
+
+[jarrell-jarrell]
+district          = "Jarrell ISD"
+high_school       = "Jarrell HS"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4824600'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 212   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=jarrell-hs"]
+
+[florence-florence]
+district          = "Florence ISD"
+high_school       = "Florence HS"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4819320'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 367   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=florence-hs"]
+
+[granger-granger]
+district          = "Granger ISD"
+high_school       = "Granger HS"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4821590'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 257   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=granger-hs"]
+
+[thrall-thrall]
+district          = "Thrall ISD"
+high_school       = "Thrall HS"
+counties          = ["48491"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4842660'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 387   # pinned to measured geodesic
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=thrall-hs"]
+
+[libertyhill-libertyhill]
+district          = "Liberty Hill ISD"
+high_school       = "Liberty Hill HS"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=ebcac291-c781-4696-b002-c96b3b197304"
+boundary_where    = "name='Liberty Hill High'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 216   # pinned to measured geodesic
+district_effective_year = "2026-27"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=liberty-hill-hs"]
+
+[libertyhill-legacy-ranch]
+district          = "Liberty Hill ISD"
+high_school       = "Legacy Ranch HS"
+counties          = ["48491"]
+boundary_source   = "myplanware_geojson"
+boundary_url      = "https://apps.myplanware.com/api/schoolsearch/data?kind=collection&clientId=64c78a13-a79a-427c-b4c3-f2f40e91ff42&collectionItemId=ebcac291-c781-4696-b002-c96b3b197304"
+boundary_where    = "name='Legacy Ranch High'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 70   # pinned to measured geodesic
+district_effective_year = "2026-27"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=legacy-ranch-hs"]
+
+[hayscisd-hays]
+district          = "Hays CISD"
+high_school       = "Hays HS"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Hays High School Zone'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 2   # discontiguous: main zone + small NE piece, eyeballed 2026-07-04
+expected_area_km2 = 186   # pinned to measured geodesic
+district_effective_year = "2024-25 map (verify vintage)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=hays-hs"]
+
+[hayscisd-lehman]
+district          = "Hays CISD"
+high_school       = "Lehman HS"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Lehman High School Zone'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 102   # pinned to measured geodesic
+district_effective_year = "2024-25 map (verify vintage)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=lehman-hs"]
+
+[hayscisd-johnson]
+district          = "Hays CISD"
+high_school       = "Johnson HS"
+counties          = ["48209"]
+boundary_source   = "google_mymaps_kml"
+boundary_url      = "https://www.google.com/maps/d/kml?mid=1sL-9kjFP69cxCbdggELeSl05aMPx2Q4&forcekml=1"
+boundary_where    = "name='Johnson High School Zone'"
+boundary_name_field = "name"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 275   # pinned to measured geodesic
+district_effective_year = "2024-25 map (verify vintage)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=johnson-hs"]

@@ -140,6 +140,51 @@ def query_webmap_embedded(url: str, layer_title: str, where: str) -> list[dict]:
     return out
 
 
+def query_kml(url: str, where: str) -> list[dict]:
+    """Google My Maps KML export (e.g. Hays CISD's official interactive map).
+    Extracts the Placemark(s) whose <name> matches `where` and converts their
+    polygons to GeoJSON features (KML coords are lon,lat[,alt] in WGS84)."""
+    import xml.etree.ElementTree as ET
+    ns = {"k": "http://www.opengis.net/kml/2.2"}
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            root = ET.fromstring(resp.read())
+    except urllib.error.HTTPError as e:
+        raise EndpointMoved(f"HTTP {e.code} from {url} — map may have been "
+                            f"unshared or the mid changed") from e
+    except urllib.error.URLError as e:
+        raise EndpointMoved(f"unreachable: {url} ({e.reason})") from e
+
+    field, value = _parse_where(where)   # field is always 'name' for KML
+    out: list[dict] = []
+    for pm in root.iter(f"{{{ns['k']}}}Placemark"):
+        name = (pm.findtext("k:name", "", ns) or "").strip()
+        if name != value:
+            continue
+        rings = []
+        for poly in pm.iter(f"{{{ns['k']}}}Polygon"):
+            for boundary in ("outerBoundaryIs", "innerBoundaryIs"):
+                for ring in poly.iter(f"{{{ns['k']}}}{boundary}"):
+                    coords = ring.findtext(".//k:coordinates", "", ns)
+                    pts = [[float(c) for c in triple.split(",")[:2]]
+                           for triple in coords.split()]
+                    if len(pts) >= 4:
+                        rings.append(pts)
+            if rings:
+                out.append({"type": "Feature", "properties": {field: name},
+                            "geometry": {"type": "Polygon",
+                                         "coordinates": rings}})
+                rings = []
+    if not out:
+        have = sorted({(p.findtext("k:name", "", ns) or "").strip()
+                       for p in root.iter(f"{{{ns['k']}}}Placemark")
+                       if p.find(".//k:Polygon", ns) is not None})
+        raise EmptyResult(f"no KML placemark named {value!r}; polygons "
+                          f"present: {have[:20]}")
+    return out
+
+
 def query_zone(url: str, where: str) -> list[dict]:
     params = urllib.parse.urlencode({
         "where": where, "outFields": "*", "outSR": 4326, "f": "geojson",
@@ -276,6 +321,9 @@ def fetch_zone(name: str, zone_cfg: dict) -> tuple[bool, str]:
         features = query_webmap_embedded(zone_cfg["boundary_url"],
                                          zone_cfg["boundary_layer_title"],
                                          zone_cfg["boundary_where"])
+    elif zone_cfg["boundary_source"] == "google_mymaps_kml":
+        features = query_kml(zone_cfg["boundary_url"],
+                             zone_cfg["boundary_where"])
     else:
         features = query_zone(zone_cfg["boundary_url"], zone_cfg["boundary_where"])
 
