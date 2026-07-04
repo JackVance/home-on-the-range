@@ -54,7 +54,16 @@ def match_campus(zone_key: str, hs: str, district: str,
     cands = [r for r in rows
              if norm(r.get("district_name")) == norm(district)
              and r.get("high_grade_cd") == "12"
-             and r.get("entity_cd") == "C"]
+             and r.get("entity_cd") == "C"
+             # Exclude alternative-standards/online campuses: without this,
+             # 'Travis ECHS' matched 'Travis County JJAEP' (caught by the
+             # audit's zone-contains-campus check).
+             and r.get("alt_standards") != "Yes"
+             and r.get("online_school") != "Yes"
+             # JJAEP/DAEP campuses carry alt_standards=No but are Special
+             # Assignment (Travis County JJAEP, 7 students, nearly hijacked
+             # the Travis ECHS zone).
+             and r.get("enrollment_type") != "Special Assignment School"]
     want = OVERRIDES.get(zone_key)
     if want:
         for r in cands:
@@ -67,10 +76,11 @@ def match_campus(zone_key: str, hs: str, district: str,
     hits = [r for r in cands if token in norm(r["name"]).split()]
     if len(hits) == 1:
         return hits[0]
-    # Disambiguate multi-hits by preferring the shortest name ("Austin HS"
-    # over "Austin Achieve..."), still requiring the token to lead.
+    # Disambiguate multi-hits by largest enrollment — the zoned comprehensive
+    # campus is always the big one (a name-length tie-break once picked a
+    # 7-student JJAEP over a 1,010-student ECHS).
     hits = [r for r in hits if norm(r["name"]).startswith(token)]
-    return min(hits, key=lambda r: len(r["name"])) if hits else None
+    return max(hits, key=lambda r: r.get("enrollment") or 0) if hits else None
 
 
 def grade(r: dict, g: str, s: str) -> dict:
@@ -113,6 +123,10 @@ def main() -> int:
             "growth": grade(r, "d2g", "d2s"),
             "closing_gaps": grade(r, "d3g", "d3s"),
             "enrollment": r.get("enrollment"),
+            # Campus coordinates power the audit's zone-contains-its-school
+            # check (the scalable replacement for per-zone eyeballing).
+            "latitude": r.get("latitude"),
+            "longitude": r.get("longitude"),
             "distinctions_earned": sum(1 for d in distinctions if d == "Y"),
             "report_url": (f"https://txschools.gov/?view=school&id={r['id']}"
                            f"&lng=en"),
