@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 429,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 31873,
  "transfers": [
   {
    "address": "2219 GARDEN AUSTIN 78702",
@@ -3436,5 +3437,19 @@
    "value": 3339111,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 429,
+   "pct_of_population": 1.35
+  },
+  "3mo": {
+   "count": 62,
+   "pct_of_population": 0.19
+  },
+  "6mo": {
+   "count": 182,
+   "pct_of_population": 0.57
+  }
+ }
 }

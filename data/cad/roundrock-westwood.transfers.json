@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 765,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 52603,
  "transfers": [
   {
    "address": "2504 DIJON DR, CEDAR PARK, TX  78613",
@@ -7012,5 +7013,19 @@
    "value": 677160,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 765,
+   "pct_of_population": 1.45
+  },
+  "3mo": {
+   "count": 155,
+   "pct_of_population": 0.29
+  },
+  "6mo": {
+   "count": 357,
+   "pct_of_population": 0.68
+  }
+ }
 }

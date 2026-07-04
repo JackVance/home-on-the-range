@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 1149,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 35238,
  "transfers": [
   {
    "address": "13625 COOMER PFLUGERVILLE 78660",
@@ -9223,5 +9224,19 @@
    "value": 706946,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 1149,
+   "pct_of_population": 3.26
+  },
+  "3mo": {
+   "count": 207,
+   "pct_of_population": 0.59
+  },
+  "6mo": {
+   "count": 533,
+   "pct_of_population": 1.51
+  }
+ }
 }

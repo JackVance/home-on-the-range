@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 514,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 39831,
  "transfers": [
   {
    "address": "11300 EAGLES GLEN AUSTIN 78732",
@@ -4116,5 +4117,19 @@
    "value": 1831216,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 514,
+   "pct_of_population": 1.29
+  },
+  "3mo": {
+   "count": 92,
+   "pct_of_population": 0.23
+  },
+  "6mo": {
+   "count": 246,
+   "pct_of_population": 0.62
+  }
+ }
 }

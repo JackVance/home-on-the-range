@@ -219,6 +219,129 @@ def fetch_travis() -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Hays — CSV export (no coordinates) + 911 address-point join
+# ---------------------------------------------------------------------------
+
+HAYS_INNER = ROOT / "data" / "census" / "hays-inner"
+HAYS_ADDRESS_POINTS = ("https://services5.arcgis.com/bVphnK8rPe5MHUSr/arcgis/"
+                       "rest/services/Address_Points/FeatureServer/0")
+DSISD_ENTITY = "SDS"   # Dripping Springs ISD taxing-entity code in Hays CAD
+
+
+def _addr_key(num: str, street: str) -> tuple[str, str] | None:
+    """Join key: (street number, first street-name token), normalized."""
+    num = (num or "").strip().lstrip("0")
+    tok = (street or "").strip().upper().split()
+    return (num, tok[0]) if num and tok else None
+
+
+def _hays_table(kind: str) -> Path:
+    """Locate an extracted export table by sniffing its header."""
+    for p in sorted(HAYS_INNER.glob("*.txt")):
+        with open(p, encoding="latin-1") as f:
+            header = f.readline()
+        if kind == "sales" and '"SaleDate","DeedDate"' in header:
+            return p
+        if kind == "property" and '"TaxingUnitList"' in header and '"Situs"' in header:
+            return p
+    raise FileNotFoundError(f"Hays {kind} table not found in {HAYS_INNER} — "
+                            f"download + extract the Hays CAD export first")
+
+
+def fetch_hays() -> list[dict]:
+    """DSISD transfers. Zone membership is EXACT (the SDS taxing entity IS the
+    district = the zone, single-HS district); pin locations come from an
+    address join against the county 911 address points (match rate printed —
+    unmatched transfers are counted but not pinned)."""
+    import csv
+    cut = cutoff_date().isoformat()
+
+    deeds: dict[str, str] = {}
+    with open(_hays_table("sales"), encoding="latin-1") as f:
+        for row in csv.DictReader(f):
+            raw = (row.get("DeedDate") or "").split()
+            if not raw:
+                continue
+            try:
+                d = datetime.strptime(raw[0], "%m/%d/%Y").date().isoformat()
+            except ValueError:
+                continue
+            pid = row["PropertyID"]
+            if d >= cut and d >= deeds.get(pid, ""):
+                deeds[pid] = d
+    print(f">> Hays: {len(deeds)} properties with deeds since {cut}", flush=True)
+
+    recs: dict[tuple, dict] = {}
+    unmatched = 0
+    with open(_hays_table("property"), encoding="latin-1") as f:
+        for row in csv.DictReader(f):
+            pid = row["PropertyID"]
+            if pid not in deeds:
+                continue
+            entities = (row.get("TaxingUnitList") or "").split(",")
+            if DSISD_ENTITY not in entities:
+                continue
+            key = _addr_key(row.get("SitusStreetNumber"),
+                            row.get("SitusStreetName"))
+            mv = row.get("CurrMarketValue") or ""
+            sqft = row.get("SquareFootage") or ""
+            rec = {
+                "address": (row.get("Situs") or "").strip(),
+                "deed_date": deeds[pid],
+                "value": int(float(mv)) if mv else None,
+                "value_kind": "market (Hays CAD)",
+                "sqft": int(float(sqft)) if sqft else None,
+            }
+            if key:
+                recs[key] = rec
+            else:
+                unmatched += 1
+    print(f">> Hays: {len(recs)} DSISD transfers to geolocate "
+          f"({unmatched} with unusable situs)", flush=True)
+
+    # 911 address points within the DSISD zone bbox.
+    zone_fc = json.loads((BOUNDARIES / "drippingsprings-drippingsprings.geojson")
+                         .read_text(encoding="utf-8"))
+    minx, miny, maxx, maxy = shape(zone_fc["features"][0]["geometry"]).bounds
+    points: dict[tuple, tuple[float, float]] = {}
+    offset = 0
+    while True:
+        params = urllib.parse.urlencode({
+            "where": "1=1", "outFields": "ADDR_NUM,FULL_NAME",
+            "geometry": f"{minx},{miny},{maxx},{maxy}",
+            "geometryType": "esriGeometryEnvelope", "inSR": 4326,
+            "spatialRel": "esriSpatialRelIntersects",
+            "returnGeometry": "true", "outSR": 4326,
+            "resultOffset": offset, "f": "geojson",
+        })
+        d = _get_json(f"{HAYS_ADDRESS_POINTS}/query?{params}")
+        feats = d.get("features", [])
+        for f in feats:
+            p = f.get("properties", {})
+            key = _addr_key(str(p.get("ADDR_NUM") or ""), p.get("FULL_NAME"))
+            if key and f.get("geometry"):
+                points.setdefault(key, tuple(f["geometry"]["coordinates"][:2]))
+        if len(feats) < 2000:
+            break
+        offset += len(feats)
+    print(f">> Hays: {len(points)} 911 address points in DSISD bbox", flush=True)
+
+    out = []
+    misses = 0
+    for key, rec in recs.items():
+        pt = points.get(key)
+        if pt is None:
+            misses += 1
+            continue
+        out.append({"lon": round(pt[0], 6), "lat": round(pt[1], 6), **rec})
+    total = len(recs)
+    if total:
+        print(f">> Hays: matched {len(out)}/{total} "
+              f"({len(out) / total:.0%}) transfers to address points", flush=True)
+    return out
+
+
+# ---------------------------------------------------------------------------
 # Zone assignment + output
 # ---------------------------------------------------------------------------
 
@@ -230,10 +353,11 @@ def main(counties: list[str] | None = None) -> int:
     """Fetches the named counties (default both); un-named counties reuse
     their cache from a prior run so a single-county re-run doesn't wipe the
     other county's transfers out of the per-zone artifacts."""
-    counties = counties or ["williamson", "travis"]
+    counties = counties or ["williamson", "travis", "hays"]
     all_transfers: list[dict] = []
     for county, fetch in (("williamson", fetch_williamson),
-                          ("travis", fetch_travis)):
+                          ("travis", fetch_travis),
+                          ("hays", fetch_hays)):
         cache = _county_cache(county)
         if county in counties:
             transfers = fetch()
@@ -262,8 +386,25 @@ def main(counties: list[str] | None = None) -> int:
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    joined_dir = ROOT / "data" / "joined"
     for name, transfers in per_zone.items():
         transfers.sort(key=lambda t: t.get("deed_date") or "", reverse=True)
+        # Transfer-rate windows vs ACS population — derived stats belong in
+        # the build step, committed, never computed in the viewer.
+        pop = None
+        demo_file = joined_dir / f"{name}.demographics.json"
+        if demo_file.exists():
+            demo = json.loads(demo_file.read_text(encoding="utf-8"))
+            pop = (demo.get("race_ethnicity", {}).get("counts", {})
+                   .get("B03002_001", {}).get("value"))
+        windows = {}
+        for label, days in (("3mo", 91), ("6mo", 182), ("12mo", 365)):
+            since = (date.today() - timedelta(days=days)).isoformat()
+            n = sum(1 for t in transfers if (t.get("deed_date") or "") >= since)
+            windows[label] = {
+                "count": n,
+                "pct_of_population": round(n / pop * 100, 2) if pop else None,
+            }
         payload = {
             "as_of": stamp,
             "months_back": MONTHS_BACK,
@@ -271,6 +412,8 @@ def main(counties: list[str] | None = None) -> int:
                            "values. NOT sale prices — Texas is a "
                            "non-disclosure state."),
             "count": len(transfers),
+            "population_acs": round(pop) if pop else None,
+            "windows": windows,
             "transfers": transfers,
         }
         (OUT_DIR / f"{name}.transfers.json").write_text(

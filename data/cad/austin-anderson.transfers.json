@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 949,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 85213,
  "transfers": [
   {
    "address": "8121 RAINTREE AUSTIN 78759",
@@ -7596,5 +7597,19 @@
    "value": 901527,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 949,
+   "pct_of_population": 1.11
+  },
+  "3mo": {
+   "count": 166,
+   "pct_of_population": 0.19
+  },
+  "6mo": {
+   "count": 476,
+   "pct_of_population": 0.56
+  }
+ }
 }

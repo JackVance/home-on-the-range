@@ -63,6 +63,15 @@
       <span class="moe" id="cadmeta"></span></label>
     <div class="moe" style="margin-top:2px;">CAD appraised values, NOT sale
       prices (TX non-disclosure). Pins follow zone visibility.</div>
+    <div id="cadfilters" style="display:none; margin-top:5px;">
+      window <select id="cadwindow">
+        <option value="365" selected>12 mo</option>
+        <option value="182">6 mo</option>
+        <option value="91">3 mo</option>
+      </select>
+      · value $<input id="cadmin" type="number" placeholder="min" style="width:70px">
+      – $<input id="cadmax" type="number" placeholder="max" style="width:70px">
+    </div>
   </div>
   <div id="zones"></div>
   <div class="disclaimer">
@@ -219,16 +228,24 @@ const FILL = 0.08;
 // committed values verbatim — value_kind says what the number is.
 const canvasRenderer = L.canvas({ padding: 0.4 });
 let cadOn = false;
-const cadGroups = {};    // name -> L.layerGroup (lazy)
+const cadData = {};      // name -> transfers payload (lazy)
+const cadGroups = {};    // name -> L.layerGroup built for the CURRENT filter
 const cadMissing = new Set();
 
 const fmtVal = v => v == null ? "value n/a" : "$" + v.toLocaleString();
 
-async function cadGroup(name) {
-  if (cadGroups[name] || cadMissing.has(name)) return cadGroups[name];
-  const d = await maybeJson(`../data/cad/${name}.transfers.json`);
-  if (!d) { cadMissing.add(name); return null; }
-  const group = L.layerGroup(d.transfers.map(t =>
+function cadFilter() {
+  const days = +document.getElementById("cadwindow").value;
+  const since = new Date(Date.now() - days * 86400e3).toISOString().slice(0, 10);
+  const min = +document.getElementById("cadmin").value || 0;
+  const max = +document.getElementById("cadmax").value || Infinity;
+  return t => (t.deed_date || "") >= since &&
+              (t.value == null ? min === 0 : (t.value >= min && t.value <= max));
+}
+
+function buildGroup(name) {
+  const keep = cadFilter();
+  return L.layerGroup(cadData[name].transfers.filter(keep).map(t =>
     L.circleMarker([t.lat, t.lon], {
       renderer: canvasRenderer, radius: 3.5, weight: 1,
       color: "#7d3c98", fillColor: "#af7ac5", fillOpacity: 0.8,
@@ -238,8 +255,17 @@ async function cadGroup(name) {
       `${fmtVal(t.value)} <span style="color:#777">(${t.value_kind})</span>` +
       (t.year_built ? `<br>built ${t.year_built}` : "") +
       (t.sqft ? ` · ${t.sqft.toLocaleString()} sqft` : ""))));
-  cadGroups[name] = group;
-  return group;
+}
+
+async function cadGroup(name) {
+  if (cadMissing.has(name)) return null;
+  if (!cadData[name]) {
+    const d = await maybeJson(`../data/cad/${name}.transfers.json`);
+    if (!d) { cadMissing.add(name); return null; }
+    cadData[name] = d;
+  }
+  if (!cadGroups[name]) cadGroups[name] = buildGroup(name);
+  return cadGroups[name];
 }
 
 async function syncCad() {
@@ -249,24 +275,58 @@ async function syncCad() {
     if (cadOn && e.visible) { if (!map.hasLayer(g)) g.addTo(map); }
     else if (map.hasLayer(g)) map.removeLayer(g);
   }
+  if (cadOn) {
+    const n = Object.entries(cadGroups)
+      .filter(([name]) => zoneLayers.find(e => e.name === name && e.visible))
+      .reduce((s, [, g]) => s + g.getLayers().length, 0);
+    document.getElementById("cadmeta").textContent = `${n.toLocaleString()} parcels shown`;
+  } else {
+    document.getElementById("cadmeta").textContent = "";
+  }
+}
+
+function refilterCad() {
+  // Rebuild groups under the new filter; syncCad swaps the map layers.
+  for (const name of Object.keys(cadGroups)) {
+    if (map.hasLayer(cadGroups[name])) map.removeLayer(cadGroups[name]);
+    delete cadGroups[name];
+  }
+  if (cadOn) syncCad();
 }
 
 async function initCadControl() {
   document.getElementById("cadcontrol").style.display = "block";
   document.getElementById("cadtoggle").onchange = async (ev) => {
     cadOn = ev.target.checked;
+    document.getElementById("cadfilters").style.display = cadOn ? "block" : "none";
     document.getElementById("cadmeta").textContent = cadOn ? "loading…" : "";
     await syncCad();
-    if (cadOn) {
-      const n = Object.values(cadGroups).reduce((s, g) => s + g.getLayers().length, 0);
-      document.getElementById("cadmeta").textContent = `${n.toLocaleString()} parcels`;
-    }
   };
+  document.getElementById("cadwindow").onchange = refilterCad;
+  let deb;
+  for (const id of ["cadmin", "cadmax"]) {
+    document.getElementById(id).oninput = () => {
+      clearTimeout(deb); deb = setTimeout(refilterCad, 400);
+    };
+  }
 }
 initCadControl();
 
 function applyStyle(entry) {
   entry.layer.setStyle({ fillOpacity: shadeOn ? FILL : 0 });
+}
+
+// Committed transfer-rate windows (computed in fetch_cad.py, never here).
+function transfersHtml(cad) {
+  const w = cad?.windows;
+  if (!w) return "";
+  const pct = x => x?.pct_of_population != null ? x.pct_of_population + "%" : "—";
+  const cnt = x => (x?.count ?? 0).toLocaleString();
+  return `<table class="stats"><tr><td>Deed transfers<br>
+      <span class="moe">3 / 6 / 12 mo, % of pop</span></td>
+    <td class="v">${cnt(w["3mo"])} / ${cnt(w["6mo"])} / ${cnt(w["12mo"])}<br>
+      <span class="moe">${pct(w["3mo"])} / ${pct(w["6mo"])} / ${pct(w["12mo"])}</span>
+    </td></tr></table>`;
 }
 
 (async () => {
@@ -279,6 +339,7 @@ function applyStyle(entry) {
     const fc = await maybeJson(`../data/boundaries/${name}.geojson`);
     const meta = await maybeJson(`../data/boundaries/${name}.meta.json`);
     const demo = await maybeJson(`../data/joined/${name}.demographics.json`);
+    const cad = await maybeJson(`../data/cad/${name}.transfers.json`);
 
     let entry = null;
     if (fc) {
@@ -319,21 +380,22 @@ function applyStyle(entry) {
       <div class="meta">${z.district} · ${meta?.district_effective_year ?? "?"}${area}</div>
       <div>${boundary}</div>
       ${demographicsHtml(demo)}
+      ${transfersHtml(cad)}
       <div class="links">${links}</div>`;
     if (entry) {
-      // Selecting a zone (card OR polygon) zooms to it and moves its card to
-      // the top of the list — most-recently-selected order for comparisons.
-      const select = () => {
+      // Selecting a zone highlights it and moves its card to the top —
+      // most-recently-selected order for comparisons. Card clicks also zoom;
+      // map clicks do NOT (you're already looking at the map).
+      const select = (zoom) => {
         document.querySelectorAll(".zone.selected")
           .forEach(el => el.classList.remove("selected"));
         card.classList.add("selected");
         panel.prepend(card);
-        panel.scrollIntoView({ block: "nearest" });
         document.getElementById("panel").scrollTop = 0;
-        map.fitBounds(entry.layer.getBounds().pad(0.1));
+        if (zoom) map.fitBounds(entry.layer.getBounds().pad(0.1));
       };
-      card.onclick = select;
-      entry.layer.on("click", select);
+      card.onclick = () => select(true);
+      entry.layer.on("click", () => select(false));
       const box = card.querySelector(".zonevis");
       box.onclick = (ev) => ev.stopPropagation();
       box.onchange = (ev) => {

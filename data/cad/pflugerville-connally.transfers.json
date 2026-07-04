@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 623,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 70734,
  "transfers": [
   {
    "address": "14716 LIPTON PFLUGERVILLE 78660",
@@ -4988,5 +4989,19 @@
    "value": 372573,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 623,
+   "pct_of_population": 0.88
+  },
+  "3mo": {
+   "count": 92,
+   "pct_of_population": 0.13
+  },
+  "6mo": {
+   "count": 289,
+   "pct_of_population": 0.41
+  }
+ }
 }

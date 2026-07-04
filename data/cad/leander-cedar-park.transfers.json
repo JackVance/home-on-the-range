@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 1215,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 46923,
  "transfers": [
   {
    "address": "1612 FALL CREEK DR, CEDAR PARK, TX  78613",
@@ -11509,5 +11510,19 @@
    "value": 977307,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 1215,
+   "pct_of_population": 2.59
+  },
+  "3mo": {
+   "count": 200,
+   "pct_of_population": 0.43
+  },
+  "6mo": {
+   "count": 516,
+   "pct_of_population": 1.1
+  }
+ }
 }

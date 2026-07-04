@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 612,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 61870,
  "transfers": [
   {
    "address": "3600 CATALINA 78741",
@@ -4900,5 +4901,19 @@
    "value": 288006,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 612,
+   "pct_of_population": 0.99
+  },
+  "3mo": {
+   "count": 85,
+   "pct_of_population": 0.14
+  },
+  "6mo": {
+   "count": 288,
+   "pct_of_population": 0.47
+  }
+ }
 }

@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 419,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 35222,
  "transfers": [
   {
    "address": "20108 GRAND BANKS 78660",
@@ -3356,5 +3357,19 @@
    "value": 353253,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 419,
+   "pct_of_population": 1.19
+  },
+  "3mo": {
+   "count": 58,
+   "pct_of_population": 0.16
+  },
+  "6mo": {
+   "count": 166,
+   "pct_of_population": 0.47
+  }
+ }
 }

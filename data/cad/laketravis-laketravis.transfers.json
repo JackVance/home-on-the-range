@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 2043,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 63817,
  "transfers": [
   {
    "address": "BLACKSMITH 78669",
@@ -16348,5 +16349,19 @@
    "value": 694970,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 2043,
+   "pct_of_population": 3.2
+  },
+  "3mo": {
+   "count": 300,
+   "pct_of_population": 0.47
+  },
+  "6mo": {
+   "count": 861,
+   "pct_of_population": 1.35
+  }
+ }
 }

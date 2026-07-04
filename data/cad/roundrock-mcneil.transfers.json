@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 1001,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 80806,
  "transfers": [
   {
    "address": "12604 BRIGHTSIDE ST, AUSTIN, TX  78729",
@@ -10475,5 +10476,19 @@
    "value_kind": "assessed (WCAD)",
    "year_built": 0
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 1001,
+   "pct_of_population": 1.24
+  },
+  "3mo": {
+   "count": 232,
+   "pct_of_population": 0.29
+  },
+  "6mo": {
+   "count": 491,
+   "pct_of_population": 0.61
+  }
+ }
 }

@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 725,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 36657,
  "transfers": [
   {
    "address": "13901 MARATHON RD, AUSTIN, TX  78717",
@@ -7979,5 +7980,19 @@
    "value_kind": "assessed (WCAD)",
    "year_built": 0
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 725,
+   "pct_of_population": 1.98
+  },
+  "3mo": {
+   "count": 161,
+   "pct_of_population": 0.44
+  },
+  "6mo": {
+   "count": 355,
+   "pct_of_population": 0.97
+  }
+ }
 }

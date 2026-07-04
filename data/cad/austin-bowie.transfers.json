@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
- "count": 1040,
+ "as_of": "2026-07-04T16:02:03+00:00",
+ "count": 1042,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 63130,
  "transfers": [
   {
    "address": "9301 HOPELAND AUSTIN 78749",
@@ -523,6 +524,15 @@
    "lon": -97.855313,
    "value": 1007678,
    "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "address": "11404 OAK BRANCH DR, AUSTIN, TX  78737",
+   "deed_date": "2026-05-04",
+   "lat": 30.215244,
+   "lon": -97.976264,
+   "sqft": 3158,
+   "value": 749050,
+   "value_kind": "market (Hays CAD)"
   },
   {
    "address": "6507 ABILENE AUSTIN 78749",
@@ -7541,6 +7551,15 @@
    "value_kind": "market (TCAD appraisal)"
   },
   {
+   "address": "11608 OAK BRANCH DR, AUSITN, TX  78737",
+   "deed_date": "2025-08-04",
+   "lat": 30.217446,
+   "lon": -97.979332,
+   "sqft": 2008,
+   "value": 700620,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
    "address": "11201 GORHAM GLEN 78739",
    "deed_date": "2025-08-02",
    "lat": 30.182332,
@@ -8324,5 +8343,19 @@
    "value": 1179092,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 1042,
+   "pct_of_population": 1.65
+  },
+  "3mo": {
+   "count": 178,
+   "pct_of_population": 0.28
+  },
+  "6mo": {
+   "count": 471,
+   "pct_of_population": 0.75
+  }
+ }
 }

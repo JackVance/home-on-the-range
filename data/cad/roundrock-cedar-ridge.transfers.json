@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 909,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 51919,
  "transfers": [
   {
    "address": "2101 JASMINE PATH, ROUND ROCK, TX  78664",
@@ -9976,5 +9977,19 @@
    "value_kind": "assessed (WCAD)",
    "year_built": 0
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 909,
+   "pct_of_population": 1.75
+  },
+  "3mo": {
+   "count": 201,
+   "pct_of_population": 0.39
+  },
+  "6mo": {
+   "count": 439,
+   "pct_of_population": 0.85
+  }
+ }
 }

@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 233,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 21803,
  "transfers": [
   {
    "address": "8203 COLONY LOOP 78724",
@@ -1868,5 +1869,19 @@
    "value": 372232,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 233,
+   "pct_of_population": 1.07
+  },
+  "3mo": {
+   "count": 46,
+   "pct_of_population": 0.21
+  },
+  "6mo": {
+   "count": 115,
+   "pct_of_population": 0.53
+  }
+ }
 }

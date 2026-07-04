@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 2416,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 55610,
  "transfers": [
   {
    "address": "126 BROWN ST, HUTTO, TX  78634",
@@ -26580,5 +26581,19 @@
    "value_kind": "assessed (WCAD)",
    "year_built": 0
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 2416,
+   "pct_of_population": 4.34
+  },
+  "3mo": {
+   "count": 631,
+   "pct_of_population": 1.13
+  },
+  "6mo": {
+   "count": 1271,
+   "pct_of_population": 2.29
+  }
+ }
 }

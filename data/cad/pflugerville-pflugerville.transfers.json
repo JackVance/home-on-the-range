@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 575,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 45300,
  "transfers": [
   {
    "address": "17508 LIMPIA CREEK 78664",
@@ -4613,5 +4614,19 @@
    "value": 351983,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 575,
+   "pct_of_population": 1.27
+  },
+  "3mo": {
+   "count": 90,
+   "pct_of_population": 0.2
+  },
+  "6mo": {
+   "count": 249,
+   "pct_of_population": 0.55
+  }
+ }
 }

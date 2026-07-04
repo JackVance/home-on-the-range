@@ -1,8 +1,9 @@
 {
- "as_of": "2026-07-04T15:36:55+00:00",
+ "as_of": "2026-07-04T16:02:03+00:00",
  "count": 1304,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "months_back": 12,
+ "population_acs": 118109,
  "transfers": [
   {
    "address": "707 CESAR CHAVEZ 78702",
@@ -10436,5 +10437,19 @@
    "value": 1638865,
    "value_kind": "market (TCAD appraisal)"
   }
- ]
+ ],
+ "windows": {
+  "12mo": {
+   "count": 1304,
+   "pct_of_population": 1.1
+  },
+  "3mo": {
+   "count": 243,
+   "pct_of_population": 0.21
+  },
+  "6mo": {
+   "count": 593,
+   "pct_of_population": 0.5
+  }
+ }
 }
