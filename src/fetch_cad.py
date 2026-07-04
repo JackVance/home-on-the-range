@@ -57,6 +57,9 @@ TCAD_FIELDS = {
     "appraised_val": (1916, 1930),
     "assessed_val":  (1946, 1960),
     "deed_dt":       (2034, 2058),
+    "hs_exempt":     (2609, 2609),
+    "imprv_state_cd": (2732, 2741),
+    "land_state_cd": (2742, 2751),
     "market_value":  (4214, 4227),
     "situs_num":     (4460, 4474),
 }
@@ -170,6 +173,32 @@ def fetch_williamson() -> list[dict]:
         if (i // BATCH) % 40 == 0:
             print(f">> WCAD segments joined: {i}/{len(ids)}", flush=True)
 
+    # Land dataset -> state class; Exemptions dataset -> homestead flag.
+    WCAD_LAND = "https://data.wcad.org/resource/2ckt-cqwj.json"
+    WCAD_EXEMPT = "https://data.wcad.org/resource/nbn7-h4pp.json"
+    for i in range(0, len(ids), BATCH):
+        chunk = ids[i:i + BATCH]
+        in_list = ",".join(f"'{x}'" for x in chunk)
+        q = urllib.parse.urlencode({
+            "$select": "propertyid,statecode",
+            "$where": f"propertyid in({in_list})", "$limit": BATCH * 4})
+        for s in _get_json(f"{WCAD_LAND}?{q}"):
+            rec = recs.get(s.get("propertyid", ""))
+            if rec and s.get("statecode"):
+                rec.setdefault("class", s["statecode"])
+        q2 = urllib.parse.urlencode({
+            "$select": "propertyid,exemptiontypedescription,exemptionstatuscode",
+            "$where": f"propertyid in({in_list})", "$limit": BATCH * 6})
+        for e in _get_json(f"{WCAD_EXEMPT}?{q2}"):
+            rec = recs.get(e.get("propertyid", ""))
+            if rec and e.get("exemptionstatuscode") == "A" and \
+               "homestead" in (e.get("exemptiontypedescription") or "").lower():
+                rec["homestead"] = True
+        if (i // BATCH) % 40 == 0:
+            print(f">> WCAD class/exemptions joined: {i}/{len(ids)}", flush=True)
+    for rec in recs.values():
+        rec.setdefault("homestead", False)
+
     from pyproj import Geod
     _geod = Geod(ellps="WGS84")
     out: list[dict] = []
@@ -261,6 +290,11 @@ def parse_tcad_roll() -> dict[str, dict]:
                 "acres": round(float(acres) / 1000, 3) if acres and
                          acres.replace(".", "").isdigit() and float(acres) else None,
                 "value_kind": "market (TCAD appraisal)",
+                # State property classification (A1 single-family, C1 vacant,
+                # F1 commercial...) and the homestead-exemption flag.
+                "class": _slice(raw, "imprv_state_cd") or
+                         _slice(raw, "land_state_cd") or None,
+                "homestead": _slice(raw, "hs_exempt").upper() in ("T", "Y", "1"),
                 "address": " ".join(x for x in (
                     _slice(raw, "situs_num"), _slice(raw, "situs_street"),
                     _slice(raw, "situs_city"), _slice(raw, "situs_zip")) if x),
@@ -365,6 +399,8 @@ def _hays_table(kind: str) -> Path:
             return p
         if kind == "land" and '"LandType"' in header and '"Acres"' in header:
             return p
+        if kind == "owner" and '"ExemptionList"' in header and '"OwnerName"' in header:
+            return p
     raise FileNotFoundError(f"Hays {kind} table not found in {HAYS_INNER} — "
                             f"download + extract the Hays CAD export first")
 
@@ -447,7 +483,7 @@ def fetch_hays() -> list[dict]:
                              ("ExtFinish", "exterior")):
                 if row.get(src):
                     extras.setdefault(dst, row[src])
-    # LAND: lot acres (summed across land segments).
+    # LAND: lot acres (summed) + state class.
     with open(_hays_table("land"), encoding="latin-1") as f:
         for row in csv.DictReader(f):
             rec = pid_to_rec.get(row.get("PropertyID", ""))
@@ -456,6 +492,18 @@ def fetch_hays() -> list[dict]:
             acres = row.get("Acres") or ""
             if acres:
                 rec["acres"] = round((rec.get("acres") or 0) + float(acres), 3)
+            if row.get("StateCode"):
+                rec.setdefault("class", row["StateCode"])
+    # OWNER: homestead flag from the exemption list (HS code).
+    with open(_hays_table("owner"), encoding="latin-1") as f:
+        for row in csv.DictReader(f):
+            rec = pid_to_rec.get(row.get("PropertyID", ""))
+            if rec is not None:
+                codes = (row.get("ExemptionList") or "").upper()
+                rec["homestead"] = rec.get("homestead", False) or \
+                    any(c.strip() == "HS" for c in codes.split(","))
+    for rec in pid_to_rec.values():
+        rec.setdefault("homestead", False)
 
     # County-wide 911 address points (paginated).
     points: dict[tuple, tuple[float, float]] = {}

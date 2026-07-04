@@ -235,9 +235,39 @@ async function initDotControl() {
 }
 initDotControl();
 
-const zoneLayers = [];   // {name, layer, visible}
+const zoneLayers = [];   // {name, layer, border, geom, select, visible}
 let shadeOn = true;
 const FILL = 0.08;
+
+// Point-in-polygon (even-odd ray cast) on GeoJSON geometry — zone selection
+// runs at MAP level so the transfer-pin canvas can never swallow zone clicks.
+function pipRing(lng, lat, ring) {
+  let inside = false;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    const [xi, yi] = ring[i], [xj, yj] = ring[j];
+    if (((yi > lat) !== (yj > lat)) &&
+        (lng < (xj - xi) * (lat - yi) / (yj - yi) + xi)) inside = !inside;
+  }
+  return inside;
+}
+function pip(lng, lat, geom) {
+  const polys = geom.type === "Polygon" ? [geom.coordinates]
+              : geom.type === "MultiPolygon" ? geom.coordinates : [];
+  for (const rings of polys) {
+    let hits = 0;
+    for (const ring of rings) if (pipRing(lng, lat, ring)) hits++;
+    if (hits % 2 === 1) return true;   // odd = inside outer, outside holes
+  }
+  return false;
+}
+map.on("click", (e) => {
+  for (const z of zoneLayers) {
+    if (z.visible && pip(e.latlng.lng, e.latlng.lat, z.geom)) {
+      z.select(false);   // select + card-to-top, no zoom (map click)
+      break;
+    }
+  }
+});
 
 // Recent deed transfers (data/cad/<zone>.transfers.json, committed snapshots).
 // Pins are grouped per zone and follow zone visibility. Viewer renders the
@@ -271,6 +301,11 @@ function transferPopup(t) {
   if (t.year_built) facts.push(`built ${t.year_built}`);
   if (t.acres) facts.push(`${t.acres} ac lot`);
   if (facts.length) lines.push(facts.join(" · "));
+  const flags = [];
+  if (t.class) flags.push(`class ${t.class}`);
+  if (t.homestead === true) flags.push(`<span style="color:#1d6b2a">✓ homesteaded</span>`);
+  else if (t.homestead === false) flags.push(`<span style="color:#7a5c00">not homesteaded</span>`);
+  if (flags.length) lines.push(`<span style="font-size:11.5px">${flags.join(" · ")}</span>`);
   const ex = t.extras || {};
   const exRows = Object.entries(ex)
     .map(([k, v]) => `${k.replace("_", "/")}: ${v}`).join("<br>");
@@ -400,7 +435,8 @@ function transfersHtml(cad) {
       // Border layer: drawn ABOVE pins, mouse-transparent.
       const border = L.geoJSON(fc, { pane: "zoneborder", interactive: false,
         style: { color, weight: 2.5, fill: false } }).addTo(map);
-      entry = { name, layer, border, visible: true };
+      entry = { name, layer, border, visible: true,
+                geom: fc.features[0].geometry };
       zoneLayers.push(entry);
     }
 
@@ -450,7 +486,7 @@ function transfersHtml(cad) {
         if (zoom) map.fitBounds(entry.layer.getBounds().pad(0.1));
       };
       card.onclick = () => select(true);
-      entry.layer.on("click", () => select(false));
+      entry.select = select;   // map-level pip click handler calls this
       const box = card.querySelector(".zonevis");
       box.onclick = (ev) => ev.stopPropagation();
       box.onchange = (ev) => {
