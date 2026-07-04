@@ -1,0 +1,17 @@
+# Bulky, fully reproducible inputs — regenerate with src/fetch_census.py.
+# (Committed artifacts live in data/boundaries/ and data/joined/ — the trust line.)
+data/census/
+
+# Spike raw probe payloads are throwaway evidence; FINDINGS.md is the record.
+spike/*.json
+spike/*.geojson
+spike/*.html
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS noise
+Thumbs.db
+.DS_Store
