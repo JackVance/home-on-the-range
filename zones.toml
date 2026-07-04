@@ -179,3 +179,64 @@ expected_features = 1
 expected_area_km2 = 80          # PROVISIONAL
 district_effective_year = "2025-26?"
 listings_links    = ["https://www.redfin.com/city/15723/TX/Round-Rock/filter/school-name=stony-point-high-school"]
+
+# --- Added 2026-07-03: single-HS districts via TIGERweb (the HS zone IS the ---
+# --- district boundary — Census-authoritative, anonymous, no district app). ---
+
+[laketravis-laketravis]
+district          = "Lake Travis ISD"
+high_school       = "Lake Travis HS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4826470'"     # unified school district, current vintage
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 150         # PROVISIONAL
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=lake-travis-high-school"]
+
+[drippingsprings-drippingsprings]
+district          = "Dripping Springs ISD"
+high_school       = "Dripping Springs HS"
+counties          = ["48209", "48453"]    # Hays (+ Travis edge)
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/0"
+boundary_where    = "GEOID='4800008'"
+boundary_name_field = "NAME"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 400         # PROVISIONAL — big rural district
+district_effective_year = "current (single-HS district = district boundary)"
+listings_links    = ["https://www.redfin.com/city/5348/TX/Dripping-Springs/filter/school-name=dripping-springs-high-school"]
+
+# --- AISD via the SY26-27 boundaries app's "Existing High School Boundaries" ---
+
+[austin-anderson]
+district          = "Austin ISD"
+high_school       = "Anderson HS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='Anderson HS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 60          # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=anderson-high-school"]
+
+[austin-bowie]
+district          = "Austin ISD"
+high_school       = "Bowie HS"
+counties          = ["48453"]
+boundary_source   = "arcgis_query_url"
+boundary_url      = "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/1"
+boundary_where    = "HIGH_DESC='Bowie HS'"
+boundary_name_field = "HIGH_DESC"
+boundary_has_name = true
+expected_features = 1
+expected_area_km2 = 100         # PROVISIONAL
+district_effective_year = "2025-26 (existing layer, SY26-27 planning app)"
+listings_links    = ["https://www.redfin.com/city/30818/TX/Austin/filter/school-name=james-bowie-high-school"]
