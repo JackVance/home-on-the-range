@@ -435,7 +435,7 @@ function transfersHtml(cad) {
       // Border layer: drawn ABOVE pins, mouse-transparent.
       const border = L.geoJSON(fc, { pane: "zoneborder", interactive: false,
         style: { color, weight: 2.5, fill: false } }).addTo(map);
-      entry = { name, layer, border, visible: true,
+      entry = { name, layer, border, color, visible: true,
                 geom: fc.features[0].geometry };
       zoneLayers.push(entry);
     }
@@ -483,6 +483,15 @@ function transfersHtml(cad) {
         card.classList.add("selected");
         panel.prepend(card);
         document.getElementById("panel").scrollTop = 0;
+        // Map highlight: previous selection back to its own color, this
+        // one bright light-blue and thicker, drawn on top of its pane.
+        if (window.selectedZone && window.selectedZone !== entry) {
+          window.selectedZone.border.setStyle(
+            { color: window.selectedZone.color, weight: 2.5 });
+        }
+        entry.border.setStyle({ color: "#26b8f2", weight: 5 });
+        entry.border.bringToFront();
+        window.selectedZone = entry;
         if (zoom) map.fitBounds(entry.layer.getBounds().pad(0.1));
       };
       card.onclick = () => select(true);
