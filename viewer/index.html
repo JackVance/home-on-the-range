@@ -19,6 +19,7 @@
   .zone { border: 1px solid #d5dde3; border-radius: 8px; background: #fff;
           padding: 10px 12px; margin-bottom: 12px; cursor: pointer; }
   .zone:hover { border-color: #8aa5b8; }
+  .zone.selected { border-color: #2c5f8a; box-shadow: 0 0 0 1px #2c5f8a; }
   .zone h2 { font-size: 15px; margin: 0; display: flex; align-items: center; gap: 7px; }
   .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
   .meta { color: #5a6b7a; font-size: 12px; margin: 4px 0 6px; }
@@ -122,7 +123,9 @@ function demographicsHtml(d) {
   const edu = d.education?.shares?.pct_bachelors_or_higher;
   const coarse = d.coarse_geography
     ? `<span class="badge warn">coarse geography — ${d.block_count} blocks</span>` : "";
+  const pop = d.race_ethnicity?.counts?.["B03002_001"];
   return `${coarse}<table class="stats">
+    ${statRow("Population (ACS)", pop, false)}
     ${statRow("Median HH income", med, false)}
     ${statRow("Hispanic", sh.pct_hispanic, true)}
     ${statRow("Non-Hisp. White", sh.pct_nh_white, true)}
@@ -142,13 +145,19 @@ const DotLayer = L.Layer.extend({
     this._canvas.style.pointerEvents = "none";
     map.getPanes().overlayPane.appendChild(this._canvas);
     map.on("moveend zoomend resize", this._redraw, this);
+    // The dots can't animate with the zoom transform — hide them for the
+    // duration of the animation instead of showing a stale stretch.
+    map.on("zoomstart", this._hide, this);
     this._redraw();
   },
   onRemove(map) {
     map.getPanes().overlayPane.removeChild(this._canvas);
     map.off("moveend zoomend resize", this._redraw, this);
+    map.off("zoomstart", this._hide, this);
   },
+  _hide() { this._canvas.style.display = "none"; },
   _redraw() {
+    this._canvas.style.display = "";
     const map = this._map, size = map.getSize();
     L.DomUtil.setPosition(this._canvas, map.containerPointToLayerPoint([0, 0]));
     this._canvas.width = size.x; this._canvas.height = size.y;
@@ -312,7 +321,19 @@ function applyStyle(entry) {
       ${demographicsHtml(demo)}
       <div class="links">${links}</div>`;
     if (entry) {
-      card.onclick = () => map.fitBounds(entry.layer.getBounds().pad(0.1));
+      // Selecting a zone (card OR polygon) zooms to it and moves its card to
+      // the top of the list — most-recently-selected order for comparisons.
+      const select = () => {
+        document.querySelectorAll(".zone.selected")
+          .forEach(el => el.classList.remove("selected"));
+        card.classList.add("selected");
+        panel.prepend(card);
+        panel.scrollIntoView({ block: "nearest" });
+        document.getElementById("panel").scrollTop = 0;
+        map.fitBounds(entry.layer.getBounds().pad(0.1));
+      };
+      card.onclick = select;
+      entry.layer.on("click", select);
       const box = card.querySelector(".zonevis");
       box.onclick = (ev) => ev.stopPropagation();
       box.onchange = (ev) => {
