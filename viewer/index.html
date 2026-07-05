@@ -58,6 +58,8 @@
   <div style="margin-bottom:8px; font-size:13px;">
     <label><input type="checkbox" id="shadetoggle" checked> Zone shading</label>
     &nbsp;·&nbsp;
+    <label><input type="checkbox" id="countytoggle" checked> County lines</label>
+    &nbsp;·&nbsp;
     <a href="#" id="allzones" style="font-size:12px;">show/hide all</a>
   </div>
   <div id="dotcontrol" style="display:none; margin-bottom:12px; font-size:13px;">
@@ -158,6 +160,11 @@ const COLORS = ["#c0392b", "#1f618d", "#1d8348", "#7d3c98", "#b7950b",
                 "#239b56", "#ca6f1e", "#7b241c", "#1a5276", "#6c3483",
                 "#0e6655", "#9a7d0a", "#515a5a", "#943126", "#21618c"];
 const map = L.map("map").setView([30.4, -97.8], 11);
+// If the user pans/zooms before the data finishes loading, the load-time
+// auto-fit must NOT yank the view out from under them.
+let userMovedMap = false;
+map.on("dragstart", () => { userMovedMap = true; });
+map.on("zoomstart", () => { userMovedMap = true; });
 
 // Basemaps — all free/keyless. "Light" is the least distracting under data.
 const BASEMAPS = {
@@ -182,6 +189,21 @@ map.createPane("cadpins").style.zIndex = 430;
 const borderPane = map.createPane("zoneborder");
 borderPane.style.zIndex = 450;
 borderPane.style.pointerEvents = "none";
+
+// County reference lines: black, above zone fills but below zone borders,
+// mouse-transparent so they never intercept zone/pin clicks.
+const countyPane = map.createPane("countylines");
+countyPane.style.zIndex = 420;
+countyPane.style.pointerEvents = "none";
+(async () => {
+  const fc = await maybeJson("../data/boundaries/_counties.geojson");
+  if (!fc) return;
+  const layer = L.geoJSON(fc, { pane: "countylines", interactive: false,
+    style: { color: "#000", weight: 1.5, opacity: 0.65, fill: false } });
+  const box = document.getElementById("countytoggle");
+  if (box.checked) layer.addTo(map);
+  box.onchange = () => box.checked ? layer.addTo(map) : map.removeLayer(layer);
+})();
 
 async function maybeJson(url) {
   try { const r = await fetch(url); return r.ok ? await r.json() : null; }
@@ -719,13 +741,22 @@ function transfersHtml(cad) {
   let i = 0;
   const panel = document.getElementById("zones");
 
-  for (const [name, z] of Object.entries(registry)) {
+  // Fetch every zone's files concurrently (sequential awaits took seconds
+  // across 336 zones x 5 files), then build cards in registry order.
+  const loaded = await Promise.all(Object.entries(registry).map(
+    async ([name, z]) => {
+      const [fc, meta, demo, cad, sch] = await Promise.all([
+        maybeJson(`../data/boundaries/${name}.geojson`),
+        maybeJson(`../data/boundaries/${name}.meta.json`),
+        maybeJson(`../data/joined/${name}.demographics.json`),
+        maybeJson(`../data/cad/${name}.transfers.json`),
+        maybeJson(`../data/schools/${name}.school.json`),
+      ]);
+      return { name, z, fc, meta, demo, cad, sch };
+    }));
+
+  for (const { name, z, fc, meta, demo, cad, sch } of loaded) {
     const color = COLORS[i++ % COLORS.length];
-    const fc = await maybeJson(`../data/boundaries/${name}.geojson`);
-    const meta = await maybeJson(`../data/boundaries/${name}.meta.json`);
-    const demo = await maybeJson(`../data/joined/${name}.demographics.json`);
-    const cad = await maybeJson(`../data/cad/${name}.transfers.json`);
-    const sch = await maybeJson(`../data/schools/${name}.school.json`);
 
     let entry = null;
     if (fc) {
@@ -840,8 +871,13 @@ function transfersHtml(cad) {
   }
   renderPins();   // pins can now resolve their containing zones
 
-  if (zoneLayers.length) {
-    map.fitBounds(L.featureGroup(zoneLayers.map(e => e.layer)).getBounds().pad(0.08));
+  // Fit only the zones of the ACTIVE level (all-levels bounds pull in the
+  // far edge districts), and never after the user has already moved the map.
+  const activeLayers = cardsIndex
+    .filter(c => c.entry && (c.level || "high") === curLevel)
+    .map(c => c.entry.layer);
+  if (activeLayers.length && !userMovedMap) {
+    map.fitBounds(L.featureGroup(activeLayers).getBounds().pad(0.08));
   }
   applyZoneFilters();   // apply the initial level (high) to the full registry
 
