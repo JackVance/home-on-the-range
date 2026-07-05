@@ -1,0 +1,103 @@
+{
+ "as_of": "2026-07-05T02:11:47+00:00",
+ "count": 5,
+ "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
+ "households_acs": 1577,
+ "months_back": 12,
+ "population_acs": 4938,
+ "transfers": [
+  {
+   "acres": 67.38,
+   "address": "12537 BALLERSTEDT 78621",
+   "assessed": 797052,
+   "class": "A1",
+   "deed_date": "2025-12-16",
+   "homestead": false,
+   "lat": 30.340396,
+   "lon": -97.46303,
+   "sqft": 2758,
+   "value": 797052,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2024
+  },
+  {
+   "acres": 2.639,
+   "address": "18036 MORROW",
+   "assessed": 533105,
+   "class": "A1",
+   "deed_date": "2025-10-02",
+   "homestead": false,
+   "lat": 30.321171,
+   "lon": -97.446513,
+   "sqft": 4218,
+   "value": 533105,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
+  },
+  {
+   "acres": 2.64,
+   "address": "18006 LITTIG 78621",
+   "assessed": 142945,
+   "class": "A1",
+   "deed_date": "2025-10-02",
+   "homestead": false,
+   "lat": 30.320305,
+   "lon": -97.448785,
+   "sqft": 786,
+   "value": 142945,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2024
+  },
+  {
+   "acres": 30.967,
+   "address": "11629 MAIZE ELGIN 78621",
+   "assessed": 549633,
+   "class": "E1",
+   "deed_date": "2025-08-15",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.317856,
+   "lon": -97.432953,
+   "sqft": 1300,
+   "value": 549633,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.64,
+   "address": "18016 MORROW",
+   "assessed": 84643,
+   "class": "C1",
+   "deed_date": "2025-08-12",
+   "homestead": false,
+   "lat": 30.321199,
+   "lon": -97.448034,
+   "value": 84643,
+   "value_kind": "market (TCAD appraisal)"
+  }
+ ],
+ "windows": {
+  "12mo": {
+   "count": 5,
+   "median_value": 533105,
+   "pct_of_households": 0.32,
+   "pct_of_population": 0.1
+  },
+  "3mo": {
+   "count": 0,
+   "median_value": null,
+   "pct_of_households": 0.0,
+   "pct_of_population": 0.0
+  },
+  "6mo": {
+   "count": 0,
+   "median_value": null,
+   "pct_of_households": 0.0,
+   "pct_of_population": 0.0
+  }
+ }
+}

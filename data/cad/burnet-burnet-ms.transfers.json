@@ -1,0 +1,188 @@
+{
+ "as_of": "2026-07-05T02:11:47+00:00",
+ "count": 10,
+ "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
+ "households_acs": 9943,
+ "months_back": 12,
+ "population_acs": 25506,
+ "transfers": [
+  {
+   "acres": 4.225,
+   "address": "1100 CR 221, FLORENCE, TX  76527",
+   "assessed": 360898,
+   "class": "E1",
+   "deed_date": "2026-05-19",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.837072,
+   "lon": -97.882112,
+   "sqft": 1188,
+   "value": 360898,
+   "value_kind": "market (WCAD)",
+   "year_built": 2015
+  },
+  {
+   "acres": 11.026,
+   "address": "5900 HWY 138, FLORENCE, TX  76527",
+   "assessed": 510989,
+   "class": "A5",
+   "deed_date": "2026-01-30",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.841065,
+   "lon": -97.894724,
+   "sqft": 1989,
+   "value": 510989,
+   "value_kind": "market (WCAD)",
+   "year_built": 2000
+  },
+  {
+   "acres": 56.444,
+   "address": "5050 CR 236, LIBERTY HILL, TX  78642",
+   "assessed": 50831,
+   "class": "D1",
+   "deed_date": "2026-01-29",
+   "homestead": false,
+   "lat": 30.773661,
+   "lon": -97.959543,
+   "value": 1195954,
+   "value_kind": "market (WCAD)"
+  },
+  {
+   "acres": 1.002,
+   "address": "5050 COUNTY ROAD 236, LIBERTY HILL, TX  78642",
+   "assessed": 223625,
+   "class": "E1",
+   "deed_date": "2026-01-29",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.769772,
+   "lon": -97.959196,
+   "sqft": 2091,
+   "value": 223625,
+   "value_kind": "market (WCAD)",
+   "year_built": 1981
+  },
+  {
+   "acres": 8.988,
+   "address": "5050 COUNTY ROAD 236, LIBERTY HILL, TX  78642",
+   "assessed": 6324,
+   "class": "D1",
+   "deed_date": "2026-01-29",
+   "homestead": false,
+   "lat": 30.770637,
+   "lon": -97.958705,
+   "value": 188821,
+   "value_kind": "market (WCAD)"
+  },
+  {
+   "acres": 1.789,
+   "address": "CR 208, FLORENCE, TX  76527",
+   "assessed": 119072,
+   "class": "E3",
+   "deed_date": "2026-01-09",
+   "homestead": false,
+   "lat": 30.808502,
+   "lon": -97.923654,
+   "value": 119072,
+   "value_kind": "market (WCAD)"
+  },
+  {
+   "acres": 0.505,
+   "address": "1555 CR 208, FLORENCE, TX  76527",
+   "assessed": 163349,
+   "class": "A2",
+   "deed_date": "2026-01-09",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.808184,
+   "lon": -97.922966,
+   "sqft": 2490,
+   "value": 369280,
+   "value_kind": "market (WCAD)",
+   "year_built": 1980
+  },
+  {
+   "acres": 1.279,
+   "address": "1555 COUNTY ROAD 208, FLORENCE, TX  76527",
+   "assessed": 87273,
+   "class": "C1",
+   "deed_date": "2026-01-09",
+   "homestead": false,
+   "lat": 30.808055,
+   "lon": -97.922889,
+   "value": 87273,
+   "value_kind": "market (WCAD)"
+  },
+  {
+   "acres": 9.981,
+   "address": "5945 HWY 138, FLORENCE, TX  76527",
+   "assessed": 293072,
+   "class": "E1",
+   "deed_date": "2025-12-11",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.836844,
+   "lon": -97.895421,
+   "sqft": 2472,
+   "value": 651047,
+   "value_kind": "market (WCAD)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.541,
+   "address": "535 BRNT CR 217, FLORENCE, TX  76527",
+   "assessed": 915230,
+   "class": "A1",
+   "deed_date": "2025-12-02",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.846051,
+   "lon": -97.894034,
+   "sqft": 3531,
+   "value": 915230,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  }
+ ],
+ "windows": {
+  "12mo": {
+   "count": 10,
+   "median_value": 369280,
+   "pct_of_households": 0.1,
+   "pct_of_population": 0.04
+  },
+  "3mo": {
+   "count": 1,
+   "median_value": 360898,
+   "pct_of_households": 0.01,
+   "pct_of_population": 0.0
+  },
+  "6mo": {
+   "count": 8,
+   "median_value": 360898,
+   "pct_of_households": 0.08,
+   "pct_of_population": 0.03
+  }
+ }
+}

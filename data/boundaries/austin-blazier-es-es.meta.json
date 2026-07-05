@@ -1,11 +1,11 @@
 {
- "boundary_where": "Campus='Blazier ES' AND NOT Campus LIKE 'Reassignment%'",
- "district_effective_year": "2025-26 (existing layer, SY26-27 planning app)",
- "fetched_at": "2026-07-04T23:12:30+00:00",
+ "boundary_where": "ELEM_DESC='Blazier ES'",
+ "district_effective_year": "2025-26 (district SY25-26 locator)",
+ "fetched_at": "2026-07-05T01:41:24+00:00",
  "geodesic_area_km2": 28.2,
  "known_rezoning": null,
  "source_type": "arcgis_query_url",
- "source_url": "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/Reassignments/FeatureServer/9",
+ "source_url": "https://services2.arcgis.com/5HXFPHsCivNoDso0/arcgis/rest/services/SY_25_26_School_Locator_App_WFL1/FeatureServer/0",
  "verified_against": null,
  "verified_by_human": false
 }
