@@ -65,6 +65,13 @@ ALLOWED_OUTSIDE = {
     "hayscisd-simon-ms":           "9.7 km — building sited outside own zone per district map, both years",
     "liberty-hill-louine-noble-es": "zone is the 2026-27 Saddleback-area assignment; "
                                     "current Louine Noble building sits elsewhere (renames 2027-28)",
+    # TEA coordinate errors (verified 2026-07-04): the TEA point for each of
+    # these campuses lands in a DIFFERENT district entirely, so it's the TEA
+    # lat/lon that's wrong, not the zone polygon.
+    "sanmarcos-de-zavala-es":      "TEA point (29.973, -97.997) is in Hays CISD; shared verbatim with Rodriguez Elem",
+    "sanmarcos-rodriguez-es":      "TEA point (29.973, -97.997) is in Hays CISD; shared verbatim with Dezavala Elem",
+    "delvalle-hornsby-dunlap-es":  "TEA point (30.475, -97.767) is in Round Rock ISD, 25 km from the campus",
+    "taylor-pasemann-es":          "TEA point (30.590, -97.305) is in Thrall ISD, not Taylor",
 }
 
 _geod = Geod(ellps="WGS84")
@@ -106,6 +113,13 @@ def check_overlaps(zones) -> int:
                 continue
             area = km2(ga.intersection(gb))
             if area > OVERLAP_SLIVER_KM2:
+                if (zones[a]["cfg"].get("grade_band")
+                        and zones[b]["cfg"].get("grade_band")
+                        and zones[a]["cfg"]["district"]
+                        == zones[b]["cfg"]["district"]):
+                    # Grade-banded campuses (e.g. PK-2 primary + 3-5 elem)
+                    # legitimately serve the same territory.
+                    continue
                 if frozenset({a, b}) in ALLOWED_OVERLAPS:
                     print(f"  known {a} ∩ {b} = {area:.3f} km² (adjudicated: "
                           f"hand-drawn source)")
@@ -202,7 +216,19 @@ def check_roster(zones) -> None:
             return "middle"
         if r.get("high_grade_cd") == "12":
             return "high"
-        return None
+        # campus_type is BLANK for many TEA rows (e.g. every Hutto MS/ES) —
+        # fall back to the grade span so those campuses aren't silently
+        # skipped. EE/PK/KG sort before "01" as strings, handled explicitly.
+        lo, hi = r.get("low_grade_cd") or "", r.get("high_grade_cd") or ""
+        if hi in ("", "EE", "PK", "KG"):
+            return "elementary" if hi else None
+        if not hi.isdigit():
+            return None
+        if int(hi) <= 6:
+            return "elementary"
+        if int(hi) <= 8 and lo.isdigit() and int(lo) >= 5:
+            return "middle"
+        return None   # 9th-grade centers etc. belong to the HS zone
     # Only audit levels for districts where we actually built that level
     # (sub-level sources exist for 8 districts so far).
     built = {(norm(z["cfg"]["district"]), z["level"]) for z in zones.values()}

@@ -40,6 +40,19 @@ OVERRIDES = {
     "austin-s-nchez-es-es": "Sanchez Elem",
     "pflugerville-spring-hill-elementary-es": "Springhill Elem",
     "libertyhill-legacy-ranch": "Legacy Ranch HS",
+    # K-12 / K-8 single-campus districts: the same campus serves the
+    # middle/elementary levels, and the level filter would exclude it.
+    "bartlett-bartlett-ms": "Bartlett Schools",
+    "bartlett-bartlett-es": "Bartlett Schools",
+    "granger-granger-ms": "Granger School",
+    "granger-granger-es": "Granger School",
+    "coupland-coupland-ms": "Coupland Elem",
+    # City GIS spells it "De Zavala"; TEA runs it together.
+    "sanmarcos-de-zavala-es": "Dezavala Elem",
+    # Grade-banded siblings share a name prefix; force the exact campus so
+    # both bands don't resolve to the larger sibling.
+    "elgin-middle-ms": "Elgin MS",
+    "lagovista-intermediate-es": "Lago Vista Int",
 }
 
 
@@ -75,11 +88,20 @@ def _base(name: str) -> str:
 
 def _level_filter(r: dict, level: str) -> bool:
     ct = r.get("campus_type") or ""
+    # campus_type is BLANK for many TEA rows (e.g. every Hutto MS/ES) — fall
+    # back to the grade span so those campuses stay matchable.
+    lo, hi = r.get("low_grade_cd") or "", r.get("high_grade_cd") or ""
     if level == "middle":
-        return "Middle" in ct or ct == "Junior High"
+        if "Middle" in ct or ct == "Junior High":
+            return True
+        return (not ct and hi.isdigit() and int(hi) <= 8
+                and lo.isdigit() and int(lo) >= 5)
     if level == "elementary":
-        return ct == "Elementary"
-    return r.get("high_grade_cd") == "12"   # high (default)
+        if ct == "Elementary":
+            return True
+        return (not ct and (hi in ("EE", "PK", "KG")
+                            or (hi.isdigit() and int(hi) <= 6)))
+    return hi == "12"   # high (default)
 
 
 def match_campus(zone_key: str, hs: str, district: str,

@@ -800,7 +800,7 @@ function transfersHtml(cad) {
       <h2><label style="cursor:pointer"><input type="checkbox" class="zonevis"
             ${entry ? "checked" : "disabled"}></label>
           <span class="swatch" style="background:${color}"></span>${z.high_school}</h2>
-      <div class="meta">${z.district} · ${meta?.district_effective_year ?? "?"}${area}</div>
+      <div class="meta">${z.district}${z.grade_band ? ` · grades ${z.grade_band}` : ""} · ${meta?.district_effective_year ?? "?"}${area}</div>
       <div>${boundary}</div>
       ${schoolHtml(sch)}
       ${demographicsHtml(demo)}
