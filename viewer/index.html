@@ -206,6 +206,13 @@ countyPane.style.pointerEvents = "none";
 })();
 
 async function maybeJson(url) {
+  // One retry: under load the browser/dev-server can abort requests, and a
+  // swallowed failure here silently drops a zone from the map.
+  try {
+    const r = await fetch(url);
+    if (r.ok) return await r.json();
+    if (r.status === 404) return null;
+  } catch {}
   try { const r = await fetch(url); return r.ok ? await r.json() : null; }
   catch { return null; }
 }
@@ -742,9 +749,17 @@ function transfersHtml(cad) {
   const panel = document.getElementById("zones");
 
   // Fetch every zone's files concurrently (sequential awaits took seconds
-  // across 336 zones x 5 files), then build cards in registry order.
-  const loaded = await Promise.all(Object.entries(registry).map(
-    async ([name, z]) => {
+  // across 400+ zones x 5 files) — but through a bounded pool: an unbounded
+  // Promise.all fires ~2000 simultaneous requests and the browser aborts
+  // some, silently dropping zones from the map.
+  const POOL = 24;
+  const entries = Object.entries(registry);
+  const loaded = new Array(entries.length);
+  let next = 0;
+  await Promise.all(Array.from({ length: POOL }, async () => {
+    while (next < entries.length) {
+      const i = next++;
+      const [name, z] = entries[i];
       const [fc, meta, demo, cad, sch] = await Promise.all([
         maybeJson(`../data/boundaries/${name}.geojson`),
         maybeJson(`../data/boundaries/${name}.meta.json`),
@@ -752,8 +767,9 @@ function transfersHtml(cad) {
         maybeJson(`../data/cad/${name}.transfers.json`),
         maybeJson(`../data/schools/${name}.school.json`),
       ]);
-      return { name, z, fc, meta, demo, cad, sch };
-    }));
+      loaded[i] = { name, z, fc, meta, demo, cad, sch };
+    }
+  }));
 
   for (const { name, z, fc, meta, demo, cad, sch } of loaded) {
     const color = COLORS[i++ % COLORS.length];
