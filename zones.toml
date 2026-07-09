@@ -6402,3 +6402,60 @@ boundary_has_name = true
 expected_features = 1
 expected_area_km2 = 762   # pinned to measured geodesic (= district)
 district_effective_year = "current (single campus at this level = district boundary)"
+
+[jarrell-jarrell-es]
+level             = "elementary"
+district          = "Jarrell ISD"
+high_school       = "Jarrell Elem"
+counties          = ["48491"]
+boundary_source   = "infofinder_json"
+district_geoid    = "4824600"
+boundary_url      = "https://infofinderi.com/ifi/ws/RedistrictRequest.asmx/GetSchool?clientId=JI2XK8KJUQH&schoolId=3"
+boundary_where    = "name='Jarrell Elem'"
+boundary_has_name = false
+expected_features = 1
+expected_area_km2 = 2   # pinned to measured geodesic
+district_effective_year = "2026-27 (only published InfoFinder client)"
+
+[jarrell-igo-es]
+level             = "elementary"
+district          = "Jarrell ISD"
+high_school       = "Igo Elem"
+counties          = ["48491"]
+boundary_source   = "infofinder_json"
+district_geoid    = "4824600"
+boundary_url      = "https://infofinderi.com/ifi/ws/RedistrictRequest.asmx/GetSchool?clientId=JI2XK8KJUQH&schoolId=4"
+boundary_where    = "name='Igo Elem'"
+boundary_has_name = false
+expected_features = 1
+expected_area_km2 = 19   # pinned to measured geodesic
+district_effective_year = "2026-27 (only published InfoFinder client)"
+
+[jarrell-double-creek-es]
+level             = "elementary"
+district          = "Jarrell ISD"
+high_school       = "Double Creek Elem"
+counties          = ["48491"]
+boundary_source   = "infofinder_json"
+district_geoid    = "4824600"
+boundary_url      = "https://infofinderi.com/ifi/ws/RedistrictRequest.asmx/GetSchool?clientId=JI2XK8KJUQH&schoolId=5"
+boundary_where    = "name='Double Creek Elem'"
+boundary_has_name = false
+expected_features = 1
+expected_area_km2 = 70   # pinned to measured geodesic
+district_effective_year = "2026-27 (only published InfoFinder client)"
+
+[jarrell-berry-creek-es]
+level             = "elementary"
+district          = "Jarrell ISD"
+high_school       = "Berry Creek Elem"
+counties          = ["48491"]
+boundary_source   = "infofinder_json"
+district_geoid    = "4824600"
+boundary_url      = "https://infofinderi.com/ifi/ws/RedistrictRequest.asmx/GetSchool?clientId=JI2XK8KJUQH&schoolId=13"
+boundary_where    = "name='Berry Creek Elem'"
+boundary_has_name = false
+expected_features = 1
+expected_area_km2 = 120   # pinned to measured geodesic
+district_effective_year = "2026-27 (only published InfoFinder client)"
+tea_note          = "new campus opening 2026-27; not yet in TEA accountability data"

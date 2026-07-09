@@ -87,6 +87,64 @@ def query_myplanware(url: str, where: str) -> list[dict]:
     return features
 
 
+def _decode_polyline(encoded: str, precision: float) -> list[list[float]]:
+    """Google encoded-polyline algorithm -> [[lon, lat], ...]."""
+    coords, index, lat, lng = [], 0, 0, 0
+    while index < len(encoded):
+        for which in (0, 1):
+            shift = result = 0
+            while True:
+                b = ord(encoded[index]) - 63
+                index += 1
+                result |= (b & 0x1F) << shift
+                shift += 5
+                if b < 0x20:
+                    break
+            delta = ~(result >> 1) if result & 1 else result >> 1
+            if which == 0:
+                lat += delta
+            else:
+                lng += delta
+        coords.append([lng * precision, lat * precision])
+    return coords
+
+
+def query_infofinder(url: str, where: str) -> list[dict]:
+    """Transfinder InfoFinder i GetSchool endpoint: anonymous JSON whose
+    `Polygons` are Google encoded polylines (Jarrell publishes at 1e-6
+    precision; decode adaptively since the vendor default is 1e-5). The
+    response carries no school name — `where` is the human label only."""
+    req = urllib.request.Request(url, headers={"User-Agent": "home-finder/0.1"})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            body = json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        raise EndpointMoved(f"HTTP {e.code} from {url} — clientId/schoolId "
+                            f"may have changed") from e
+    except urllib.error.URLError as e:
+        raise EndpointMoved(f"unreachable: {url} ({e.reason})") from e
+    polys = body.get("Polygons") or []
+    if not polys:
+        raise EmptyResult(f"no Polygons in GetSchool response for {where!r} "
+                          f"(district may have disabled boundaries)")
+    out: list[dict] = []
+    for enc in polys:
+        ring = None
+        for precision in (1e-5, 1e-6):
+            cand = _decode_polyline(enc, precision)
+            if all(-107 < x < -93 and 25 < y < 37 for x, y in cand):
+                ring = cand
+                break
+        if ring is None:
+            raise ReviewRequired(f"decoded polyline lands outside Texas at "
+                                 f"both precisions for {where!r}")
+        if ring[0] != ring[-1]:
+            ring.append(ring[0])
+        out.append({"type": "Feature", "properties": {},
+                    "geometry": {"type": "Polygon", "coordinates": [ring]}})
+    return out
+
+
 def query_webmap_embedded(url: str, layer_title: str, where: str) -> list[dict]:
     """ArcGIS webmap with geometry EMBEDDED in the webmap JSON (featureCollection
     layers with no hosted service — e.g. PFISD). Extracts esri-JSON polygons
@@ -378,6 +436,9 @@ def fetch_zone(name: str, zone_cfg: dict) -> tuple[bool, str]:
         features = query_kml(zone_cfg["boundary_url"],
                              zone_cfg["boundary_where"],
                              zone_cfg.get("boundary_kml_folder"))
+    elif zone_cfg["boundary_source"] == "infofinder_json":
+        features = query_infofinder(zone_cfg["boundary_url"],
+                                    zone_cfg["boundary_where"])
     else:
         features = query_zone(zone_cfg["boundary_url"], zone_cfg["boundary_where"])
 
