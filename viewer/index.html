@@ -122,6 +122,7 @@
         <option value="desc" selected>high = green</option>
         <option value="asc">low = green</option>
       </select>
+      <span id="colorbynote" class="moe"></span>
       <br><a href="#" id="addfilter" style="font-size:12px;">＋ add filter</a>
       <div id="zonefilters"></div>
     </div>
@@ -509,7 +510,9 @@ function applyStyle(entry) {
 function applyColorBy() {
   const key = document.getElementById("colorby").value;
   const dir = document.getElementById("colorbydir").value;
+  const note = document.getElementById("colorbynote");
   if (key === "none") {
+    note.textContent = "";
     for (const c of cardsIndex) {
       if (c.entry) c.entry.layer.setStyle(
         { fillColor: c.entry.color, fillOpacity: shadeOn ? FILL : 0 });
@@ -520,6 +523,15 @@ function applyColorBy() {
     .filter(c => c.entry && c.metrics[key] != null
                  && (c.level || "high") === curLevel)
     .sort((a, b) => a.metrics[key] - b.metrics[key]);
+  // Be honest when a metric doesn't exist at this level (CCMR/graduation
+  // are HS-only TEA measures) instead of silently painting all-grey.
+  const atLevel = cardsIndex.filter(
+    c => c.entry && (c.level || "high") === curLevel).length;
+  note.textContent = !ranked.length
+    ? `— no ${FILTER_COLS[key] ?? key} data at this level`
+    : ranked.length < atLevel
+      ? `${ranked.length}/${atLevel} zones have data; grey = none`
+      : "";
   ranked.forEach((c, i) => {
     let f = ranked.length > 1 ? i / (ranked.length - 1) : 1;  // 0 low .. 1 high
     if (dir === "asc") f = 1 - f;
