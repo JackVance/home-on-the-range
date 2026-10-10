@@ -1,11 +1,23 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 6,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 4,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 36868,
  "months_back": 12,
  "population_acs": 106582,
  "transfers": [
+  {
+   "acres": 100.1,
+   "address": "WOLF 78617",
+   "assessed": 500400,
+   "class": "E1",
+   "deed_date": "2026-08-12",
+   "homestead": false,
+   "lat": 30.153077,
+   "lon": -97.555066,
+   "value": 500400,
+   "value_kind": "market (TCAD appraisal)"
+  },
   {
    "acres": 1210.0,
    "address": "COUNTY LINE 78621",
@@ -24,7 +36,7 @@
    "assessed": 418417,
    "class": "A2",
    "deed_date": "2025-12-01",
-   "homestead": false,
+   "homestead": true,
    "lat": 30.139617,
    "lon": -97.569658,
    "sqft": 1530,
@@ -43,69 +55,24 @@
    "lon": -97.543362,
    "value": 25617990,
    "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 1.535,
-   "address": "194 HERITAGE MILL 78621",
-   "assessed": 262165,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "homestead": false,
-   "lat": 30.370793,
-   "lon": -97.3982,
-   "sqft": 1516,
-   "value": 262165,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2024
-  },
-  {
-   "acres": 110.1,
-   "address": "WOLF 78617",
-   "assessed": 539380,
-   "class": "E1",
-   "deed_date": "2025-08-11",
-   "homestead": false,
-   "lat": 30.150661,
-   "lon": -97.556584,
-   "value": 539380,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 133.23,
-   "address": "15219 COUNTY LINE ELGIN 78621",
-   "assessed": 172159,
-   "class": "E1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.384138,
-   "lon": -97.390189,
-   "sqft": 1556,
-   "value": 743275,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1971
   }
  ],
  "windows": {
   "12mo": {
-   "count": 6,
-   "median_value": 743275,
-   "pct_of_households": 0.02,
-   "pct_of_population": 0.01
+   "count": 4,
+   "median_value": 3630000,
+   "pct_of_households": 0.01,
+   "pct_of_population": 0.0
   },
   "3mo": {
-   "count": 0,
-   "median_value": null,
+   "count": 1,
+   "median_value": 500400,
    "pct_of_households": 0.0,
    "pct_of_population": 0.0
   },
   "6mo": {
    "count": 1,
-   "median_value": 3630000,
+   "median_value": 500400,
    "pct_of_households": 0.0,
    "pct_of_population": 0.0
   }

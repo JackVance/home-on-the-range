@@ -1,6 +1,6 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 62,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 67,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3123,
  "months_back": 12,
@@ -8,8 +8,176 @@
  "transfers": [
   {
    "acres": null,
+   "address": "401 SKYVIEW TER, KYLE, TX  78640",
+   "assessed": 128160,
+   "class": "A",
+   "deed_date": "2026-08-14",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.00213,
+   "lon": -97.815667,
+   "sqft": 1050,
+   "value": 128160,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": 2.15,
+   "address": "1601 BEBEE RD, KYLE, TX  78640",
+   "assessed": 141052,
+   "class": "A",
+   "deed_date": "2026-07-23",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.015308,
+   "lon": -97.836621,
+   "sqft": 1456,
+   "value": 226910,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": 6.0,
+   "address": "1701 BEBEE RD, KYLE, TX  78640",
+   "assessed": 720564,
+   "class": "A",
+   "deed_date": "2026-07-16",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.014649,
+   "lon": -97.835259,
+   "sqft": 2362,
+   "value": 873790,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1990
+  },
+  {
+   "acres": null,
+   "address": "308 NOTTINGHAM LOOP, KYLE, TX  78640",
+   "assessed": 295010,
+   "class": "A",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "R, C-S",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.01361,
+   "lon": -97.839633,
+   "sqft": 1969,
+   "value": 295010,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2012
+  },
+  {
+   "acres": null,
+   "address": "154 MARQUITOS DR, KYLE, TX  78640",
+   "assessed": 337104,
+   "class": "A",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "B-C",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.011523,
+   "lon": -97.835985,
+   "sqft": 2950,
+   "value": 337104,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.5,
+   "address": "162 SUNRISE DR, KYLE, TX  78640",
+   "assessed": 195800,
+   "class": "A",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "R",
+    "roof": "G-C"
+   },
+   "homestead": false,
+   "lat": 30.016978,
+   "lon": -97.826605,
+   "sqft": 1116,
+   "value": 195800,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": null,
+   "address": "351 COVENT DR, KYLE, TX  78640",
+   "assessed": 275990,
+   "class": "A",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "B",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "HG-C"
+   },
+   "homestead": false,
+   "lat": 30.009756,
+   "lon": -97.838535,
+   "sqft": 1612,
+   "value": 275990,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": null,
+   "address": "123 PADDINGTON DR, KYLE, TX  78640",
+   "assessed": 286620,
+   "class": "A",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "exterior": "B",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.010733,
+   "lon": -97.834619,
+   "sqft": 1772,
+   "value": 286620,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": null,
+   "address": "745 COVENT DR, KYLE, TX  78640",
+   "assessed": 282880,
+   "class": "A",
+   "deed_date": "2026-06-18",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.005567,
+   "lon": -97.836454,
+   "sqft": 1734,
+   "value": 282880,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2008
+  },
+  {
+   "acres": null,
+   "address": "109 GREENFIELD RD, KYLE, TX  78640",
+   "assessed": 80770,
+   "deed_date": "2026-06-12",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.007944,
+   "lon": -97.815441,
+   "sqft": 1232,
+   "value": 80770,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": null,
    "address": "418 NOTTINGHAM LOOP, KYLE, TX  78640",
-   "assessed": 254094,
+   "assessed": 245000,
    "class": "A",
    "deed_date": "2026-06-11",
    "extras": {
@@ -23,14 +191,14 @@
    "lat": 30.01361,
    "lon": -97.83896,
    "sqft": 1438,
-   "value": 254094,
+   "value": 245000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2010
   },
   {
    "acres": 0.165,
    "address": "200 FUCHSIA ST, KYLE, TX  78640",
-   "assessed": 487610,
+   "assessed": 461920,
    "class": "A",
    "deed_date": "2026-06-09",
    "extras": {
@@ -44,14 +212,14 @@
    "lat": 30.024111,
    "lon": -97.842083,
    "sqft": 3476,
-   "value": 487610,
+   "value": 461920,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
    "address": "399 PADDINGTON DR, KYLE, TX  78640",
-   "assessed": 358850,
+   "assessed": 288000,
    "class": "A",
    "deed_date": "2026-06-02",
    "extras": {
@@ -64,14 +232,29 @@
    "lat": 30.007795,
    "lon": -97.836853,
    "sqft": 2452,
-   "value": 358850,
+   "value": 288000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": null,
+   "address": "203 BALMOREHEA ST, KYLE, TX  78640",
+   "assessed": 271450,
+   "class": "O",
+   "deed_date": "2026-05-29",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.001391,
+   "lon": -97.834802,
+   "sqft": 1300,
+   "value": 271450,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "117 KEMAH DR, KYLE, TX  78640",
-   "assessed": 337406,
+   "assessed": 319765,
    "class": "A",
    "deed_date": "2026-05-28",
    "extras": {
@@ -84,14 +267,14 @@
    "lat": 30.01194,
    "lon": -97.840208,
    "sqft": 2551,
-   "value": 337406,
+   "value": 319765,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
    "acres": null,
    "address": "144 OXFORD DR, KYLE, TX  78640",
-   "assessed": 243785,
+   "assessed": 249410,
    "class": "A",
    "deed_date": "2026-05-22",
    "extras": {
@@ -104,14 +287,35 @@
    "lat": 30.011067,
    "lon": -97.835171,
    "sqft": 1464,
-   "value": 243785,
+   "value": 249410,
    "value_kind": "market (Hays CAD)",
    "year_built": 2003
   },
   {
    "acres": null,
+   "address": "195 AZURE CV, KYLE, TX  78640",
+   "assessed": 461920,
+   "class": "A",
+   "deed_date": "2026-05-21",
+   "extras": {
+    "bedrooms": "4.000000",
+    "exterior": "S, R-C",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": false,
+   "lat": 30.020138,
+   "lon": -97.844478,
+   "sqft": 3476,
+   "value": 461920,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": null,
    "address": "117 WATERLOO DR, KYLE, TX  78640",
-   "assessed": 337770,
+   "assessed": 313000,
    "class": "A",
    "deed_date": "2026-05-20",
    "extras": {
@@ -120,18 +324,18 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.006038,
    "lon": -97.836819,
    "sqft": 2322,
-   "value": 337770,
+   "value": 313000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2008
   },
   {
    "acres": 0.75,
    "address": "2001 GOFORTH RD, KYLE, TX  78640",
-   "assessed": 192375,
+   "assessed": 230850,
    "class": "A",
    "deed_date": "2026-05-12",
    "extras": {
@@ -143,14 +347,14 @@
    "lat": 30.001402,
    "lon": -97.832998,
    "sqft": 1276,
-   "value": 192375,
+   "value": 263100,
    "value_kind": "market (Hays CAD)",
    "year_built": 2003
   },
   {
    "acres": 3.85,
    "address": "1999 GOFORTH RD, KYLE, TX  78640",
-   "assessed": 305858,
+   "assessed": 367030,
    "class": "A",
    "deed_date": "2026-05-12",
    "extras": {},
@@ -158,13 +362,13 @@
    "lat": 30.001655,
    "lon": -97.83364,
    "sqft": 1260,
-   "value": 305858,
+   "value": 382230,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": null,
    "address": "3104 GOFORTH RD, KYLE, TX  78640",
-   "assessed": 176421,
+   "assessed": 192460,
    "class": "A",
    "deed_date": "2026-05-05",
    "extras": {
@@ -183,7 +387,7 @@
   {
    "acres": 5.8,
    "address": "3351 GOFORTH RD, KYLE, TX  78640",
-   "assessed": 416670,
+   "assessed": 387560,
    "class": "A",
    "deed_date": "2026-04-29",
    "extras": {},
@@ -191,14 +395,14 @@
    "lat": 30.009061,
    "lon": -97.817725,
    "sqft": 1848,
-   "value": 416670,
+   "value": 387560,
    "value_kind": "market (Hays CAD)",
-   "year_built": 1995
+   "year_built": 1973
   },
   {
    "acres": null,
    "address": "185 AZURE CV, KYLE, TX  78640",
-   "assessed": 389795,
+   "assessed": 344010,
    "class": "A",
    "deed_date": "2026-04-25",
    "extras": {
@@ -212,14 +416,14 @@
    "lat": 30.019958,
    "lon": -97.844425,
    "sqft": 2404,
-   "value": 389795,
+   "value": 344010,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": null,
    "address": "4500 GOFORTH RD, KYLE, TX  78640",
-   "assessed": 79480,
+   "assessed": 87428,
    "deed_date": "2026-04-15",
    "extras": {
     "exterior": "W",
@@ -230,14 +434,14 @@
    "lat": 30.018358,
    "lon": -97.807057,
    "sqft": 1044,
-   "value": 79480,
+   "value": 95380,
    "value_kind": "market (Hays CAD)",
    "year_built": 2000
   },
   {
    "acres": null,
    "address": "106 GREENFIELD RD, KYLE, TX  78640",
-   "assessed": 32899,
+   "assessed": 36189,
    "deed_date": "2026-04-13",
    "extras": {},
    "homestead": true,
@@ -250,28 +454,8 @@
   },
   {
    "acres": null,
-   "address": "123 PADDINGTON DR, KYLE, TX  78640",
-   "assessed": 308360,
-   "class": "A",
-   "deed_date": "2026-04-09",
-   "extras": {
-    "exterior": "B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.010733,
-   "lon": -97.834619,
-   "sqft": 1772,
-   "value": 308360,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": null,
    "address": "448 NOTTINGHAM LOOP, KYLE, TX  78640",
-   "assessed": 276570,
+   "assessed": 257480,
    "class": "A",
    "deed_date": "2026-04-06",
    "extras": {
@@ -284,14 +468,14 @@
    "lat": 30.013295,
    "lon": -97.839303,
    "sqft": 1376,
-   "value": 276570,
+   "value": 257480,
    "value_kind": "market (Hays CAD)",
    "year_built": 2011
   },
   {
    "acres": null,
    "address": "446 PADDINGTON DR, KYLE, TX  78640",
-   "assessed": 288000,
+   "assessed": 276010,
    "class": "A",
    "deed_date": "2026-04-02",
    "extras": {
@@ -300,18 +484,18 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.007616,
    "lon": -97.837668,
    "sqft": 1734,
-   "value": 288000,
+   "value": 276010,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": null,
    "address": "406 COVENT DR, KYLE, TX  78640",
-   "assessed": 304599,
+   "assessed": 291460,
    "class": "A",
    "deed_date": "2026-04-01",
    "extras": {
@@ -324,9 +508,39 @@
    "lat": 30.009549,
    "lon": -97.839516,
    "sqft": 1734,
-   "value": 304599,
+   "value": 291460,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
+  },
+  {
+   "acres": null,
+   "address": "265 BALMOREHEA ST, KYLE, TX  78640",
+   "assessed": 271450,
+   "class": "O",
+   "deed_date": "2026-03-30",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.002007,
+   "lon": -97.83555,
+   "sqft": 1300,
+   "value": 271450,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "171 PALESTINE TRL, KYLE, TX  78640",
+   "assessed": 271450,
+   "class": "O",
+   "deed_date": "2026-03-24",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.002217,
+   "lon": -97.836193,
+   "sqft": 1300,
+   "value": 271450,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
   },
   {
    "acres": null,
@@ -345,7 +559,7 @@
   {
    "acres": null,
    "address": "371 BLOOMSBURY DR, KYLE, TX  78640",
-   "assessed": 261450,
+   "assessed": 243760,
    "class": "A",
    "deed_date": "2026-03-10",
    "extras": {
@@ -358,14 +572,14 @@
    "lat": 30.011199,
    "lon": -97.839808,
    "sqft": 1509,
-   "value": 261450,
+   "value": 243760,
    "value_kind": "market (Hays CAD)",
    "year_built": 2009
   },
   {
    "acres": 0.146,
    "address": "126 EMERALD GREEN TRL, BUDA, TX  78610",
-   "assessed": 316060,
+   "assessed": 293220,
    "class": "A",
    "deed_date": "2026-03-07",
    "extras": {
@@ -379,14 +593,14 @@
    "lat": 30.015914,
    "lon": -97.843388,
    "sqft": 1625,
-   "value": 316060,
+   "value": 293220,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": 0.19,
    "address": "873 COVENT DR, KYLE, TX  78640",
-   "assessed": 296850,
+   "assessed": 275880,
    "class": "A",
    "deed_date": "2026-02-27",
    "extras": {
@@ -400,14 +614,29 @@
    "lat": 30.004732,
    "lon": -97.834388,
    "sqft": 1610,
-   "value": 296850,
+   "value": 275880,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
+   "address": "121 PALESTINE TRL, KYLE, TX  78640",
+   "assessed": 271450,
+   "class": "A",
+   "deed_date": "2026-02-20",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.001725,
+   "lon": -97.836743,
+   "sqft": 1300,
+   "value": 271450,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "349 BUCKINGHAM DR, KYLE, TX  78640",
-   "assessed": 258670,
+   "assessed": 251790,
    "class": "A",
    "deed_date": "2026-02-19",
    "extras": {
@@ -416,18 +645,63 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.010898,
    "lon": -97.838893,
    "sqft": 1348,
-   "value": 258670,
+   "value": 251790,
    "value_kind": "market (Hays CAD)",
    "year_built": 2009
   },
   {
    "acres": null,
+   "address": "111 PALESTINE TRL, KYLE, TX  78640",
+   "assessed": 368250,
+   "class": "A",
+   "deed_date": "2026-02-17",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.001634,
+   "lon": -97.836864,
+   "sqft": 2257,
+   "value": 375330,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "101 PALESTINE TRL, KYLE, TX  78640",
+   "assessed": 365270,
+   "class": "A",
+   "deed_date": "2026-02-17",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.00154,
+   "lon": -97.837011,
+   "sqft": 2166,
+   "value": 365270,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "265 TEXOMA ST, KYLE, TX  78640",
+   "assessed": 271450,
+   "class": "A",
+   "deed_date": "2026-02-16",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.000924,
+   "lon": -97.836848,
+   "sqft": 1300,
+   "value": 271450,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "405 BUCKINGHAM DR, KYLE, TX  78640",
-   "assessed": 340580,
+   "assessed": 315560,
    "class": "A",
    "deed_date": "2026-02-10",
    "extras": {
@@ -436,18 +710,18 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.010306,
    "lon": -97.839554,
    "sqft": 2322,
-   "value": 340580,
+   "value": 315560,
    "value_kind": "market (Hays CAD)",
    "year_built": 2009
   },
   {
    "acres": 0.2,
    "address": "521 WESTMINSTER DR, KYLE, TX  78640",
-   "assessed": 329290,
+   "assessed": 283793,
    "class": "A",
    "deed_date": "2026-02-09",
    "extras": {
@@ -461,14 +735,14 @@
    "lat": 30.003777,
    "lon": -97.835071,
    "sqft": 1917,
-   "value": 329290,
+   "value": 283793,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": 0.16,
    "address": "237 MOONLIT STREAM PASS, DRIPPING SPRINGS, TX  78620",
-   "assessed": 620000,
+   "assessed": 680280,
    "class": "A",
    "deed_date": "2026-02-06",
    "extras": {
@@ -478,18 +752,18 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.01821,
    "lon": -97.82947,
    "sqft": 2847,
-   "value": 620000,
+   "value": 680280,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": null,
    "address": "108 HOLLIS LN, KYLE, TX  78640",
-   "assessed": 274173,
+   "assessed": 278000,
    "class": "A",
    "deed_date": "2026-02-02",
    "extras": {
@@ -499,18 +773,18 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.012745,
    "lon": -97.841206,
    "sqft": 1610,
-   "value": 274173,
+   "value": 278000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
    "address": "230 SUNLIGHT BLVD, KYLE, TX  78640",
-   "assessed": 484580,
+   "assessed": 410000,
    "class": "A",
    "deed_date": "2026-01-30",
    "extras": {
@@ -523,14 +797,14 @@
    "lat": 30.020921,
    "lon": -97.842206,
    "sqft": 3031,
-   "value": 484580,
+   "value": 410000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": null,
    "address": "398 MARQUITOS DR, KYLE, TX  78640",
-   "assessed": 359600,
+   "assessed": 270000,
    "class": "A",
    "deed_date": "2026-01-29",
    "extras": {
@@ -543,14 +817,14 @@
    "lat": 30.009019,
    "lon": -97.838719,
    "sqft": 2452,
-   "value": 359600,
+   "value": 270000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 6.27,
    "address": "113 SUNRISE DR, KYLE, TX  78640",
-   "assessed": 233737,
+   "assessed": 257111,
    "class": "A",
    "deed_date": "2026-01-29",
    "extras": {
@@ -563,14 +837,14 @@
    "lat": 30.00841,
    "lon": -97.826101,
    "sqft": 1452,
-   "value": 510410,
+   "value": 466390,
    "value_kind": "market (Hays CAD)",
    "year_built": 1990
   },
   {
    "acres": null,
    "address": "352 WESTMINSTER DR, KYLE, TX  78640",
-   "assessed": 290000,
+   "assessed": 288630,
    "class": "A",
    "deed_date": "2026-01-29",
    "extras": {
@@ -584,14 +858,29 @@
    "lat": 30.006146,
    "lon": -97.834309,
    "sqft": 1797,
-   "value": 290000,
+   "value": 288630,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
+   "address": "224 BALMOREHEA ST, KYLE, TX  78640",
+   "assessed": 318090,
+   "class": "A",
+   "deed_date": "2026-01-15",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.001917,
+   "lon": -97.834719,
+   "sqft": 1785,
+   "value": 325170,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "186 AZURE CV, KYLE, TX  78640",
-   "assessed": 401850,
+   "assessed": 381930,
    "class": "A",
    "deed_date": "2025-12-30",
    "extras": {
@@ -601,18 +890,48 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.020443,
    "lon": -97.844262,
    "sqft": 2404,
-   "value": 401850,
+   "value": 381930,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": null,
+   "address": "260 BALMOREHEA ST, KYLE, TX  78640",
+   "assessed": 365270,
+   "class": "A",
+   "deed_date": "2025-12-29",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.002259,
+   "lon": -97.835186,
+   "sqft": 2166,
+   "value": 365270,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "142 PALO PINTO DR, KYLE, TX  78640",
+   "assessed": 321140,
+   "class": "A",
+   "deed_date": "2025-12-23",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.00041,
+   "lon": -97.835801,
+   "sqft": 1701,
+   "value": 321140,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "150 AUBURN ST, KYLE, TX  78640",
-   "assessed": 418466,
+   "assessed": 461920,
    "class": "A",
    "deed_date": "2025-12-22",
    "extras": {
@@ -622,18 +941,48 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.021651,
    "lon": -97.84314,
    "sqft": 3476,
-   "value": 446505,
+   "value": 461920,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
+   "address": "275 BALMOREHEA ST, KYLE, TX  78640",
+   "assessed": 299830,
+   "class": "A",
+   "deed_date": "2025-12-19",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.002111,
+   "lon": -97.835666,
+   "sqft": 1785,
+   "value": 299830,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "181 PALESTINE TRL, KYLE, TX  78640",
+   "assessed": 334481,
+   "class": "A",
+   "deed_date": "2025-12-15",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.002317,
+   "lon": -97.836083,
+   "sqft": 2166,
+   "value": 334481,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "243 MARQUITOS DR, KYLE, TX  78640",
-   "assessed": 298850,
+   "assessed": 277690,
    "class": "A",
    "deed_date": "2025-12-12",
    "extras": {
@@ -647,45 +996,69 @@
    "lat": 30.010328,
    "lon": -97.836644,
    "sqft": 1643,
-   "value": 298850,
+   "value": 277690,
    "value_kind": "market (Hays CAD)",
    "year_built": 2005
   },
   {
    "acres": null,
-   "address": "745 COVENT DR, KYLE, TX  78640",
-   "assessed": 304550,
+   "address": "242 TEXOMA ST, KYLE, TX  78640",
+   "assessed": 365270,
    "class": "A",
    "deed_date": "2025-12-05",
    "extras": {},
-   "homestead": true,
-   "lat": 30.005567,
-   "lon": -97.836454,
-   "sqft": 1734,
-   "value": 304550,
+   "homestead": false,
+   "lat": 30.000755,
+   "lon": -97.836288,
+   "sqft": 2166,
+   "value": 365270,
    "value_kind": "market (Hays CAD)",
-   "year_built": 2008
+   "year_built": 2025
   },
   {
    "acres": null,
-   "address": "195 AZURE CV, KYLE, TX  78640",
-   "assessed": 487610,
+   "address": "276 BALMOREHEA ST, KYLE, TX  78640",
+   "assessed": 375330,
    "class": "A",
    "deed_date": "2025-11-26",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "S, R-C",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
+   "extras": {},
    "homestead": false,
-   "lat": 30.020138,
-   "lon": -97.844478,
-   "sqft": 3476,
-   "value": 487610,
+   "lat": 30.002405,
+   "lon": -97.835351,
+   "sqft": 2257,
+   "value": 375330,
    "value_kind": "market (Hays CAD)",
-   "year_built": 2022
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "105 COUNTRY CAT LN, SAN MARCOS, TX  78666",
+   "assessed": 575340,
+   "class": "A",
+   "deed_date": "2025-11-21",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.010117,
+   "lon": -97.81584,
+   "sqft": 3106,
+   "value": 575340,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "255 BALMOREHEA ST, KYLE, TX  78640",
+   "assessed": 313950,
+   "class": "A",
+   "deed_date": "2025-11-20",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.001899,
+   "lon": -97.835421,
+   "sqft": 1679,
+   "value": 313950,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
   },
   {
    "acres": null,
@@ -704,7 +1077,7 @@
   {
    "acres": null,
    "address": "362 MARQUITOS DR, KYLE, TX  78640",
-   "assessed": 283080,
+   "assessed": 263390,
    "class": "A",
    "deed_date": "2025-11-03",
    "extras": {
@@ -717,14 +1090,14 @@
    "lat": 30.009354,
    "lon": -97.838325,
    "sqft": 1467,
-   "value": 283080,
+   "value": 263390,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 1.784,
    "address": "215 MOONLIT MEADOW PATH, KYLE, TX  78640",
-   "assessed": 349220,
+   "assessed": 402860,
    "class": "A",
    "deed_date": "2025-10-31",
    "extras": {
@@ -734,13 +1107,43 @@
    "lat": 30.018311,
    "lon": -97.83074,
    "sqft": 1344,
-   "value": 349220,
+   "value": 402860,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": null,
+   "address": "141 PALESTINE TRL, KYLE, TX  78640",
+   "assessed": 313950,
+   "class": "A",
+   "deed_date": "2025-10-31",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.001921,
+   "lon": -97.836525,
+   "sqft": 1679,
+   "value": 313950,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "161 PALESTINE TRL, KYLE, TX  78640",
+   "assessed": 325170,
+   "class": "A",
+   "deed_date": "2025-10-31",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.002117,
+   "lon": -97.836304,
+   "sqft": 1785,
+   "value": 325170,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "814 COVENT DR, KYLE, TX  78640",
-   "assessed": 364330,
+   "assessed": 322000,
    "class": "A",
    "deed_date": "2025-10-29",
    "extras": {
@@ -753,458 +1156,59 @@
    "lat": 30.004835,
    "lon": -97.835644,
    "sqft": 2452,
-   "value": 364330,
+   "value": 322000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": null,
-   "address": "172 BUCKINGHAM DR, KYLE, TX  78640",
-   "assessed": 324677,
+   "address": "128 PALO PINTO DR, KYLE, TX  78640",
+   "assessed": 385760,
    "class": "A",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "R, C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.013143,
-   "lon": -97.837027,
-   "sqft": 2452,
-   "value": 324677,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "806 DICKERSON, KYLE, TX  78640",
-   "assessed": 92214,
-   "class": "A",
-   "deed_date": "2025-10-03",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.012178,
-   "lon": -97.800416,
-   "sqft": 1216,
-   "value": 156600,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": null,
-   "address": "3126 GOFORTH RD, KYLE, TX  78640",
-   "assessed": 70000,
-   "class": "A",
-   "deed_date": "2025-10-01",
+   "deed_date": "2025-10-29",
    "extras": {},
    "homestead": false,
-   "lat": 30.001056,
-   "lon": -97.819266,
-   "sqft": 2216,
-   "value": 70000,
+   "lat": 30.00057,
+   "lon": -97.835657,
+   "sqft": 2356,
+   "value": 385760,
    "value_kind": "market (Hays CAD)",
-   "year_built": 1984
+   "year_built": 2025
   },
   {
    "acres": null,
-   "address": "401 NOTTINGHAM LOOP, KYLE, TX  78640",
-   "assessed": 317660,
+   "address": "254 TEXOMA ST, KYLE, TX  78640",
+   "assessed": 334110,
    "class": "A",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "C-S, R",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": false,
-   "lat": 30.013859,
-   "lon": -97.838502,
-   "sqft": 1969,
-   "value": 317660,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2010
-  },
-  {
-   "acres": 0.46,
-   "address": "3346 GOFORTH RD, KYLE, TX  78640",
-   "assessed": 156231,
-   "class": "A",
-   "deed_date": "2025-09-16",
+   "deed_date": "2025-10-28",
    "extras": {},
    "homestead": true,
-   "lat": 30.008413,
-   "lon": -97.816735,
-   "sqft": 1728,
-   "value": 248880,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": null,
-   "address": "486 NOTTINGHAM LOOP, KYLE, TX  78640",
-   "assessed": 254094,
-   "class": "A",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "R, C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.012907,
-   "lon": -97.839743,
-   "sqft": 1438,
-   "value": 254094,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": null,
-   "address": "360 WATERLOO DR, KYLE, TX  78640",
-   "assessed": 294790,
-   "class": "A",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "B, C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.008314,
-   "lon": -97.833808,
-   "sqft": 1610,
-   "value": 294790,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.165,
-   "address": "220 FUCHSIA ST, KYLE, TX  78640",
-   "assessed": 339835,
-   "class": "A",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "R, B, C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.024189,
-   "lon": -97.8424,
-   "sqft": 1964,
-   "value": 339835,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": null,
-   "address": "139 PEMBROKE CV, KYLE, TX  78640",
-   "assessed": 333088,
-   "class": "A",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.006769,
-   "lon": -97.83484,
-   "sqft": 2322,
-   "value": 333088,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": null,
-   "address": "233 DEVONSHIRE DR, KYLE, TX  78640",
-   "assessed": 317000,
-   "class": "A",
-   "deed_date": "2025-08-19",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.011671,
-   "lon": -97.834451,
-   "sqft": 2279,
-   "value": 317000,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": null,
-   "address": "155 PADDINGTON DR, KYLE, TX  78640",
-   "assessed": 296270,
-   "class": "A",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.010375,
-   "lon": -97.834086,
-   "sqft": 2774,
-   "value": 349430,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": null,
-   "address": "306 GREENFIELD RD, KYLE, TX  78640",
-   "assessed": 163984,
-   "class": "A",
-   "deed_date": "2025-08-18",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.002336,
-   "lon": -97.818304,
+   "lat": 30.00092,
+   "lon": -97.836359,
    "sqft": 1852,
-   "value": 250830,
+   "value": 334110,
    "value_kind": "market (Hays CAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": null,
-   "address": "260 NOTTINGHAM LOOP, KYLE, TX  78640",
-   "assessed": 314300,
-   "class": "A",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "R-C, S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.013122,
-   "lon": -97.840213,
-   "sqft": 1766,
-   "value": 314300,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": null,
-   "address": "3312 GOFORTH RD, KYLE, TX  78640",
-   "assessed": 171100,
-   "class": "A",
-   "deed_date": "2025-08-06",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.003881,
-   "lon": -97.81804,
-   "sqft": 1680,
-   "value": 171100,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": null,
-   "address": "105 JANZET DR, KYLE, TX  78640",
-   "assessed": 90845,
-   "class": "A",
-   "deed_date": "2025-08-05",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.015778,
-   "lon": -97.808503,
-   "sqft": 1160,
-   "value": 145300,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1977
-  },
-  {
-   "acres": 0.234,
-   "address": "101 CRIMSON LN, KYLE, TX  78640",
-   "assessed": 423140,
-   "class": "A",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R-B, C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 30.021164,
-   "lon": -97.844903,
-   "sqft": 2807,
-   "value": 423140,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.15,
-   "address": "400 WESTMINSTER DR, KYLE, TX  78640",
-   "assessed": 271380,
-   "class": "A",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "B, C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.005543,
-   "lon": -97.834646,
-   "sqft": 1358,
-   "value": 271380,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": null,
-   "address": "670 COVENT DR, KYLE, TX  78640",
-   "assessed": 300340,
-   "class": "A",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.006233,
-   "lon": -97.837478,
-   "sqft": 1829,
-   "value": 300340,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.18,
-   "address": "187 ANTELOPE PLAINS RD, BUDA, TX  78610",
-   "assessed": 302000,
-   "class": "A",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "C-S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.018542,
-   "lon": -97.845935,
-   "sqft": 1679,
-   "value": 302000,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 5.849,
-   "address": "3624 GOFORTH RD, KYLE, TX  78640",
-   "assessed": 493006,
-   "class": "A",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "C-S",
-    "foundation": "S",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.01292,
-   "lon": -97.811573,
-   "sqft": 1288,
-   "value": 670330,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 0.24,
-   "address": "118 BUCKINGHAM DR, KYLE, TX  78640",
-   "assessed": 321690,
-   "class": "A",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "C-S, B",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.013741,
-   "lon": -97.836392,
-   "sqft": 1961,
-   "value": 321690,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": null,
-   "address": "177 OXFORD DR, KYLE, TX  78640",
-   "assessed": 298948,
-   "class": "A",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "B-C",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": false,
-   "lat": 30.010452,
-   "lon": -97.8352,
-   "sqft": 1935,
-   "value": 298948,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": null,
-   "address": "222 PADDINGTON DR, KYLE, TX  78640",
-   "assessed": 443380,
-   "class": "A",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "B",
-    "fireplace": "1FP",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.009905,
-   "lon": -97.835161,
-   "sqft": 3153,
-   "value": 443380,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2004
+   "year_built": 2025
   }
  ],
  "windows": {
   "12mo": {
-   "count": 62,
-   "median_value": 305858,
-   "pct_of_households": 1.99,
-   "pct_of_population": 0.83
+   "count": 67,
+   "median_value": 293220,
+   "pct_of_households": 2.15,
+   "pct_of_population": 0.9
   },
   "3mo": {
-   "count": 14,
-   "median_value": 308360,
-   "pct_of_households": 0.45,
-   "pct_of_population": 0.19
+   "count": 3,
+   "median_value": 226910,
+   "pct_of_households": 0.1,
+   "pct_of_population": 0.04
   },
   "6mo": {
-   "count": 30,
-   "median_value": 305858,
-   "pct_of_households": 0.96,
-   "pct_of_population": 0.4
+   "count": 25,
+   "median_value": 282880,
+   "pct_of_households": 0.8,
+   "pct_of_population": 0.34
   }
  }
 }

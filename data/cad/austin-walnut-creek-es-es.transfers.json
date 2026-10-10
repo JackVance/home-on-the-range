@@ -1,15 +1,445 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 61,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 67,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2621,
  "months_back": 12,
  "population_acs": 7684,
  "transfers": [
   {
+   "acres": 8.724,
+   "address": "11108 GEORGIAN 78753",
+   "assessed": 862000,
+   "class": "F1",
+   "deed_date": "2026-09-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.377466,
+   "lon": -97.682759,
+   "sqft": 2584,
+   "value": 862000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 2.471,
+   "address": "500 GRADY 78753",
+   "assessed": 337842,
+   "class": "A1",
+   "deed_date": "2026-08-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.372616,
+   "lon": -97.681936,
+   "sqft": 1504,
+   "value": 337842,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1969
+  },
+  {
+   "acres": 2.981,
+   "address": "11400 OAKWOOD AUSTIN 78753",
+   "assessed": 359000,
+   "class": "A1",
+   "deed_date": "2026-08-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.379947,
+   "lon": -97.67939,
+   "sqft": 1860,
+   "value": 359000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1963
+  },
+  {
+   "acres": 1.521,
+   "address": "10405 GEORGIAN AUSTIN 78753",
+   "assessed": 368000,
+   "class": "A1",
+   "deed_date": "2026-08-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.36997,
+   "lon": -97.686775,
+   "sqft": 1770,
+   "value": 368000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 3.192,
+   "address": "11911 POLLYANNA AUSTIN 78753",
+   "assessed": 312122,
+   "class": "A1",
+   "deed_date": "2026-08-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.386353,
+   "lon": -97.674232,
+   "sqft": 1328,
+   "value": 312122,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1959
+  },
+  {
+   "acres": 2.796,
+   "address": "11309 HILLTOP AUSTIN 78753",
+   "assessed": 410947,
+   "class": "A1",
+   "deed_date": "2026-08-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.380328,
+   "lon": -97.680834,
+   "sqft": 1602,
+   "value": 410947,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1961
+  },
+  {
+   "acres": 3.301,
+   "address": "11704 INDIANHEAD AUSTIN 78753",
+   "assessed": 497462,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.384361,
+   "lon": -97.678779,
+   "sqft": 1718,
+   "value": 497462,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1961
+  },
+  {
+   "acres": 2.647,
+   "address": "704 JETTA 78753",
+   "assessed": 420990,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.388621,
+   "lon": -97.682341,
+   "sqft": 1597,
+   "value": 420990,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1968
+  },
+  {
+   "acres": 3.044,
+   "address": "10501 JEAN AUSTIN 78753",
+   "assessed": 264055,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.370775,
+   "lon": -97.684863,
+   "sqft": 1344,
+   "value": 264055,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1930
+  },
+  {
+   "acres": 2.189,
+   "address": "405 GRADY 78753",
+   "assessed": 296165,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.372156,
+   "lon": -97.682292,
+   "sqft": 1181,
+   "value": 296165,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1969
+  },
+  {
+   "acres": 10.55,
+   "address": "10108 INTERSTATE HY 35 78753",
+   "assessed": 2131625,
+   "class": "F1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.366071,
+   "lon": -97.684166,
+   "sqft": 23070,
+   "value": 2131625,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 1.408,
+   "address": "10104 DIAMONDBACK 78753",
+   "assessed": 4047,
+   "class": "C1",
+   "deed_date": "2026-07-06",
+   "homestead": false,
+   "lat": 30.366331,
+   "lon": -97.684188,
+   "value": 4047,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.694,
+   "address": "308 HOLLIDAY AUSTIN 78753",
+   "assessed": 331937,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.369387,
+   "lon": -97.685837,
+   "sqft": 1380,
+   "value": 331937,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 2.89,
+   "address": "11906 INDIANHEAD AUSTIN 78753",
+   "assessed": 407544,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.387106,
+   "lon": -97.676592,
+   "sqft": 1723,
+   "value": 407544,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1959
+  },
+  {
+   "acres": 2.706,
+   "address": "11502 OAKWOOD AUSTIN 78753",
+   "assessed": 416696,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.381175,
+   "lon": -97.678705,
+   "sqft": 1706,
+   "value": 416696,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1959
+  },
+  {
+   "acres": 1.987,
+   "address": "10507 GEORGIAN 78753",
+   "assessed": 204785,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.371787,
+   "lon": -97.68567,
+   "sqft": 1046,
+   "value": 204785,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
+  },
+  {
+   "acres": 1.845,
+   "address": "106 GRADY 78753",
+   "assessed": 192136,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.374214,
+   "lon": -97.685454,
+   "sqft": 816,
+   "value": 192136,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1960
+  },
+  {
+   "acres": 1.881,
+   "address": "104 GRADY 78753",
+   "assessed": 248166,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.374149,
+   "lon": -97.685313,
+   "sqft": 1410,
+   "value": 248166,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1950
+  },
+  {
+   "acres": 2.69,
+   "address": "11403 POLLYANNA AUSTIN 78753",
+   "assessed": 215000,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.379084,
+   "lon": -97.676307,
+   "sqft": 1400,
+   "value": 215000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1962
+  },
+  {
+   "acres": 2.79,
+   "address": "11303 OAKWOOD AUSTIN 78753",
+   "assessed": 483881,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.378844,
+   "lon": -97.679594,
+   "sqft": 2102,
+   "value": 483881,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1972
+  },
+  {
+   "acres": 3.566,
+   "address": "11502 HILLTOP AUSTIN 78753",
+   "assessed": 440165,
+   "class": "A1",
+   "deed_date": "2026-06-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.382229,
+   "lon": -97.680517,
+   "sqft": 1621,
+   "value": 440165,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1959
+  },
+  {
+   "acres": 2.733,
+   "address": "103 CADDO AUSTIN 78753",
+   "assessed": 411307,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.383449,
+   "lon": -97.678288,
+   "sqft": 1605,
+   "value": 411307,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1954
+  },
+  {
+   "acres": 2.67,
+   "address": "305 CADDO AUSTIN 78753",
+   "assessed": 437898,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.383923,
+   "lon": -97.681215,
+   "sqft": 2080,
+   "value": 437898,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1959
+  },
+  {
    "acres": 2.358,
    "address": "11904 CONANN AUSTIN 78753",
-   "assessed": 366843,
+   "assessed": 231582,
    "class": "A1",
    "deed_date": "2026-05-15",
    "extras": {
@@ -17,18 +447,18 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.390157,
    "lon": -97.682189,
    "sqft": 1542,
-   "value": 366843,
+   "value": 231582,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1972
   },
   {
    "acres": 3.294,
    "address": "11311 HUNTERS AUSTIN 78753",
-   "assessed": 429468,
+   "assessed": 340000,
    "class": "A1",
    "deed_date": "2026-05-06",
    "extras": {
@@ -36,11 +466,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.380995,
    "lon": -97.681662,
    "sqft": 1777,
-   "value": 429468,
+   "value": 340000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1961
   },
@@ -123,7 +553,7 @@
   {
    "acres": 2.291,
    "address": "11929 RENNALEE 78753",
-   "assessed": 432831,
+   "assessed": 412272,
    "class": "A1",
    "deed_date": "2026-04-07",
    "extras": {
@@ -135,7 +565,7 @@
    "lat": 30.388863,
    "lon": -97.679109,
    "sqft": 1874,
-   "value": 432831,
+   "value": 412272,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1971
   },
@@ -195,6 +625,25 @@
    "value": 508845,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1962
+  },
+  {
+   "acres": 3.077,
+   "address": "11810 OAKWOOD AUSTIN 78753",
+   "assessed": 371935,
+   "class": "A1",
+   "deed_date": "2026-03-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.38586,
+   "lon": -97.676941,
+   "sqft": 1272,
+   "value": 371935,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1955
   },
   {
    "acres": 2.322,
@@ -363,7 +812,7 @@
   {
    "acres": 1.616,
    "address": "10445 DOC HOLLIDAY 78753",
-   "assessed": 368680,
+   "assessed": 322484,
    "class": "B2",
    "deed_date": "2026-01-28",
    "extras": {
@@ -375,7 +824,7 @@
    "lat": 30.371209,
    "lon": -97.687751,
    "sqft": 1530,
-   "value": 368680,
+   "value": 322484,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1982
   },
@@ -401,7 +850,7 @@
   {
    "acres": 1.81,
    "address": "307 HOLLIDAY 78753",
-   "assessed": 368268,
+   "assessed": 323744,
    "class": "A1",
    "deed_date": "2026-01-05",
    "extras": {
@@ -413,7 +862,7 @@
    "lat": 30.369062,
    "lon": -97.686253,
    "sqft": 1384,
-   "value": 368268,
+   "value": 323744,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1982
   },
@@ -478,7 +927,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.381192,
    "lon": -97.677403,
    "sqft": 3024,
@@ -489,7 +938,7 @@
   {
    "acres": 2.117,
    "address": "11916 HORNSBY 78753",
-   "assessed": 400342,
+   "assessed": 350179,
    "class": "A1",
    "deed_date": "2025-12-01",
    "extras": {
@@ -501,7 +950,7 @@
    "lat": 30.388816,
    "lon": -97.679698,
    "sqft": 1573,
-   "value": 400342,
+   "value": 350179,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1970
   },
@@ -527,7 +976,7 @@
   {
    "acres": 2.763,
    "address": "11907 GLENDA AUSTIN 78753",
-   "assessed": 405335,
+   "assessed": 297000,
    "class": "A1",
    "deed_date": "2025-11-21",
    "extras": {
@@ -539,7 +988,7 @@
    "lat": 30.389902,
    "lon": -97.680501,
    "sqft": 1511,
-   "value": 405335,
+   "value": 297000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1972
   },
@@ -603,7 +1052,7 @@
   {
    "acres": 2.449,
    "address": "203 CADDO AUSTIN 78753",
-   "assessed": 596128,
+   "assessed": 572141,
    "class": "A1",
    "deed_date": "2025-11-12",
    "extras": {
@@ -615,7 +1064,7 @@
    "lat": 30.383795,
    "lon": -97.680124,
    "sqft": 2427,
-   "value": 596128,
+   "value": 572141,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1957
   },
@@ -639,6 +1088,25 @@
    "year_built": 1960
   },
   {
+   "acres": 15.309,
+   "address": "11907 RENNALEE AUSTIN 78753",
+   "assessed": 698709,
+   "class": "A1",
+   "deed_date": "2025-11-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.386708,
+   "lon": -97.67907,
+   "sqft": 1856,
+   "value": 698709,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
+  },
+  {
    "acres": 4.266,
    "address": "705 CADDO AUSTIN 78753",
    "assessed": 213531,
@@ -653,7 +1121,7 @@
   {
    "acres": 3.228,
    "address": "708 JETTA 78753",
-   "assessed": 486093,
+   "assessed": 457000,
    "class": "A1",
    "deed_date": "2025-10-30",
    "extras": {
@@ -665,7 +1133,7 @@
    "lat": 30.388497,
    "lon": -97.682876,
    "sqft": 2300,
-   "value": 486093,
+   "value": 457000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1968
   },
@@ -705,14 +1173,14 @@
   {
    "acres": 4.204,
    "address": "605 GRADY 78753",
-   "assessed": 151767,
+   "assessed": 132751,
    "class": "A2",
    "deed_date": "2025-10-26",
    "homestead": false,
    "lat": 30.375022,
    "lon": -97.688674,
    "sqft": 896,
-   "value": 151767,
+   "value": 132751,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -772,377 +1240,26 @@
    "value": 297735,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1982
-  },
-  {
-   "acres": 2.693,
-   "address": "10205 BROWNIE 78753",
-   "assessed": 638294,
-   "class": "B4",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.367074,
-   "lon": -97.68442,
-   "sqft": 3120,
-   "value": 638294,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 3.169,
-   "address": "11905 HORNSBY 78753",
-   "assessed": 537526,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.387522,
-   "lon": -97.679853,
-   "sqft": 2259,
-   "value": 537526,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1968
-  },
-  {
-   "acres": 2.566,
-   "address": "10603 JEAN AUSTIN 78753",
-   "assessed": 463029,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.371979,
-   "lon": -97.684181,
-   "sqft": 1981,
-   "value": 463029,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 2.126,
-   "address": "606 SCURRY 78753",
-   "assessed": 205779,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.383713,
-   "lon": -97.68417,
-   "sqft": 1387,
-   "value": 205779,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1957
-  },
-  {
-   "acres": 2.627,
-   "address": "10010 BROWNIE 78753",
-   "assessed": 610370,
-   "class": "B4",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.366037,
-   "lon": -97.685749,
-   "sqft": 3120,
-   "value": 610370,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 2.221,
-   "address": "10211 BROWNIE 78753",
-   "assessed": 626751,
-   "class": "B4",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.367634,
-   "lon": -97.684144,
-   "sqft": 3120,
-   "value": 626751,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 2.261,
-   "address": "503 HARDIN 78753",
-   "assessed": 631801,
-   "class": "B4",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.367937,
-   "lon": -97.684142,
-   "sqft": 3120,
-   "value": 631801,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 2.896,
-   "address": "10309 BROWNIE 78753",
-   "assessed": 635397,
-   "class": "B4",
-   "deed_date": "2025-09-10",
-   "homestead": false,
-   "lat": 30.368587,
-   "lon": -97.683292,
-   "sqft": 3120,
-   "value": 635397,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 1.661,
-   "address": "10440 DOC HOLLIDAY 78753",
-   "assessed": 331092,
-   "class": "B2",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.370657,
-   "lon": -97.687782,
-   "sqft": 1530,
-   "value": 331092,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 13.9,
-   "address": "12100 INTERSTATE HY 35 78753",
-   "assessed": 264836,
-   "class": "F1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.387982,
-   "lon": -97.674151,
-   "sqft": 1656,
-   "value": 264836,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1967
-  },
-  {
-   "acres": 2.68,
-   "address": "600 LITTLE OAK AUSTIN 78753",
-   "assessed": 462246,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.388872,
-   "lon": -97.68068,
-   "sqft": 2153,
-   "value": 462246,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1968
-  },
-  {
-   "acres": 5.546,
-   "address": "11305 TEDFORD 78753",
-   "assessed": 370958,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.381452,
-   "lon": -97.684143,
-   "sqft": 920,
-   "value": 370958,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1954
-  },
-  {
-   "acres": 2.145,
-   "address": "308 GARRETT 78753",
-   "assessed": 293480,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.36626,
-   "lon": -97.686852,
-   "sqft": 1148,
-   "value": 293480,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 1.392,
-   "address": "10424 DOC HOLLIDAY AUSTIN 78753",
-   "assessed": 292598,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.369974,
-   "lon": -97.686241,
-   "sqft": 1235,
-   "value": 292598,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 2.059,
-   "address": "204 PROVINES 78753",
-   "assessed": 110078,
-   "class": "A2",
-   "deed_date": "2025-08-02",
-   "homestead": false,
-   "lat": 30.37545,
-   "lon": -97.685688,
-   "sqft": 924,
-   "value": 110078,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 6.233,
-   "address": "11600 HORNSBY 78753",
-   "assessed": 262925,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.383548,
-   "lon": -97.682366,
-   "sqft": 1044,
-   "value": 262925,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1954
-  },
-  {
-   "acres": 2.388,
-   "address": "11501 HILLTOP AUSTIN 78753",
-   "assessed": 357000,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.381833,
-   "lon": -97.679934,
-   "sqft": 1623,
-   "value": 357000,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1956
-  },
-  {
-   "acres": 3.597,
-   "address": "11801 INDIANHEAD AUSTIN 78753",
-   "assessed": 375858,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.384807,
-   "lon": -97.678022,
-   "sqft": 1368,
-   "value": 375858,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1960
-  },
-  {
-   "acres": 3.346,
-   "address": "11401 HUNTERS AUSTIN 78753",
-   "assessed": 431899,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.381231,
-   "lon": -97.681561,
-   "sqft": 1680,
-   "value": 431899,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1961
   }
  ],
  "windows": {
   "12mo": {
-   "count": 61,
-   "median_value": 400342,
-   "pct_of_households": 2.33,
-   "pct_of_population": 0.79
+   "count": 67,
+   "median_value": 371935,
+   "pct_of_households": 2.56,
+   "pct_of_population": 0.87
   },
   "3mo": {
-   "count": 5,
-   "median_value": 366843,
-   "pct_of_households": 0.19,
-   "pct_of_population": 0.07
+   "count": 10,
+   "median_value": 368000,
+   "pct_of_households": 0.38,
+   "pct_of_population": 0.13
   },
   "6mo": {
-   "count": 21,
-   "median_value": 405663,
-   "pct_of_households": 0.8,
-   "pct_of_population": 0.27
+   "count": 27,
+   "median_value": 359000,
+   "pct_of_households": 1.03,
+   "pct_of_population": 0.35
   }
  }
 }

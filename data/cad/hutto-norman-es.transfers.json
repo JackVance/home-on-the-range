@@ -1,11 +1,68 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 154,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 103,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2435,
  "months_back": 12,
  "population_acs": 6779,
  "transfers": [
+  {
+   "acres": 0.223,
+   "address": "125 PALESTINE CV, HUTTO, TX  78634",
+   "assessed": 381927,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.516061,
+   "lon": -97.565545,
+   "sqft": 1472,
+   "value": 381927,
+   "value_kind": "market (WCAD)",
+   "year_built": 2013
+  },
+  {
+   "acres": 0.178,
+   "address": "605 HOLBROOKE ST, HUTTO, TX  78634",
+   "assessed": 347949,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.519759,
+   "lon": -97.561296,
+   "sqft": 990,
+   "value": 347949,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.217,
+   "address": "300 NUECES RIVER TRL, HUTTO, TX  78634",
+   "assessed": 298240,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.513868,
+   "lon": -97.563046,
+   "sqft": 1658,
+   "value": 298240,
+   "value_kind": "market (WCAD)",
+   "year_built": 2015
+  },
   {
    "acres": 0.155,
    "address": "309 ALTAMONT ST, HUTTO, TX  78634",
@@ -24,6 +81,25 @@
    "value": 318289,
    "value_kind": "market (WCAD)",
    "year_built": 2008
+  },
+  {
+   "acres": 0.165,
+   "address": "130 DENTON DR, HUTTO, TX  78634",
+   "assessed": 301568,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.51303,
+   "lon": -97.559978,
+   "sqft": 1462,
+   "value": 301568,
+   "value_kind": "market (WCAD)",
+   "year_built": 2017
   },
   {
    "acres": 0.137,
@@ -465,7 +541,7 @@
    "acres": 0.152,
    "address": "601 PALO BREA LOOP, HUTTO, TX  78634",
    "assessed": 331033,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-02",
    "extras": {
     "exterior": "HP",
@@ -541,7 +617,7 @@
    "acres": 0.279,
    "address": "103 PALO BREA LOOP, HUTTO, TX  78634",
    "assessed": 184111,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-19",
    "extras": {
     "foundation": "SLB",
@@ -635,7 +711,7 @@
    "acres": 0.282,
    "address": "105 PALO BREA LOOP, HUTTO, TX  78634",
    "assessed": 241247,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-09",
    "extras": {
     "foundation": "SLB",
@@ -672,7 +748,7 @@
    "acres": 0.126,
    "address": "611 PALO BREA LOOP, HUTTO, TX  78634",
    "assessed": 454755,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-26",
    "extras": {
     "exterior": "HP",
@@ -729,7 +805,7 @@
    "acres": 0.126,
    "address": "609 PALO BREA LOOP, HUTTO, TX  78634",
    "assessed": 415000,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-20",
    "extras": {
     "exterior": "HP",
@@ -862,7 +938,7 @@
    "acres": 0.119,
    "address": "606 PALO BREA LOOP, HUTTO, TX  78634",
    "assessed": 458603,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-05",
    "extras": {
     "foundation": "SLB",
@@ -1032,7 +1108,7 @@
    "acres": 0.119,
    "address": "612 PALO BREA LOOP, HUTTO, TX  78634",
    "assessed": 457899,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-09",
    "extras": {
     "exterior": "HP",
@@ -1050,7 +1126,7 @@
   {
    "acres": 0.24,
    "address": "104 TOBY TRL, HUTTO, TX  78634",
-   "assessed": 332383,
+   "assessed": 291407,
    "class": "A1",
    "deed_date": "2026-01-08",
    "extras": {
@@ -1062,7 +1138,7 @@
    "lat": 30.508685,
    "lon": -97.569875,
    "sqft": 1002,
-   "value": 332383,
+   "value": 291407,
    "value_kind": "market (WCAD)",
    "year_built": 2003
   },
@@ -1769,25 +1845,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.223,
-   "address": "125 PALESTINE CV, HUTTO, TX  78634",
-   "assessed": 381927,
-   "class": "A1",
-   "deed_date": "2025-10-23",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.516061,
-   "lon": -97.565545,
-   "sqft": 1472,
-   "value": 381927,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
    "acres": 0.207,
    "address": "224 FRIO RIVER TRL, HUTTO, TX  78634",
    "assessed": 296674,
@@ -1900,1051 +1957,26 @@
    "value": 426987,
    "value_kind": "market (WCAD)",
    "year_built": 2025
-  },
-  {
-   "acres": 0.151,
-   "address": "121 NAVIDAD RIVER DR, HUTTO, TX  78634",
-   "assessed": 297176,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.511827,
-   "lon": -97.560943,
-   "sqft": 1295,
-   "value": 297176,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.352,
-   "address": "1012 CRESTON CV, HUTTO, TX  78634",
-   "assessed": 385237,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.520536,
-   "lon": -97.560916,
-   "sqft": 1250,
-   "value": 385237,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.264,
-   "address": "605 LIARD RIVER RD, HUTTO, TX  78634",
-   "assessed": 334886,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.512084,
-   "lon": -97.559294,
-   "sqft": 2018,
-   "value": 334886,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.118,
-   "address": "629 PALO BREA LOOP, HUTTO, TX  78634",
-   "assessed": 429616,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.508224,
-   "lon": -97.569379,
-   "sqft": 1402,
-   "value": 429616,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.166,
-   "address": "205 CASSANDRA DR, HUTTO, TX  78634",
-   "assessed": 319402,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.508891,
-   "lon": -97.567342,
-   "sqft": 842,
-   "value": 319402,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.241,
-   "address": "214 LAKEMONT DR, HUTTO, TX  78634",
-   "assessed": 285792,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.513031,
-   "lon": -97.568727,
-   "sqft": 1448,
-   "value": 285792,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.184,
-   "address": "100 DICKINSON BAYOU CV, HUTTO, TX  78634",
-   "assessed": 314571,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.511232,
-   "lon": -97.562678,
-   "sqft": 1869,
-   "value": 314571,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.119,
-   "address": "105 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 400513,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.507474,
-   "lon": -97.568622,
-   "sqft": 1378,
-   "value": 400513,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "108 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 405398,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.507251,
-   "lon": -97.569207,
-   "sqft": 1394,
-   "value": 405398,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.15,
-   "address": "111 KRAUSE SPRINGS DR, HUTTO, TX  78634",
-   "assessed": 365941,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.505704,
-   "lon": -97.565843,
-   "sqft": 2000,
-   "value": 365941,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.107,
-   "address": "627 PALO BREA LOOP, HUTTO, TX  78634",
-   "assessed": 390793,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.508256,
-   "lon": -97.569515,
-   "sqft": 948,
-   "value": 390793,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.118,
-   "address": "633 PALO BREA LOOP, HUTTO, TX  78634",
-   "assessed": 429198,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.508188,
-   "lon": -97.569096,
-   "sqft": 1679,
-   "value": 429198,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.17,
-   "address": "608 LAKEMONT DR, HUTTO, TX  78634",
-   "assessed": 280849,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.514089,
-   "lon": -97.56424,
-   "sqft": 1355,
-   "value": 280849,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": 0.267,
-   "address": "103 TOWAN WAY, HUTTO, TX  78634",
-   "assessed": 284804,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.52203,
-   "lon": -97.56742,
-   "sqft": 1463,
-   "value": 284804,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.169,
-   "address": "604 CRESTON ST, HUTTO, TX  78634",
-   "assessed": 294302,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.517253,
-   "lon": -97.562643,
-   "sqft": 1588,
-   "value": 294302,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.119,
-   "address": "130 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 467036,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.505977,
-   "lon": -97.568701,
-   "sqft": 1324,
-   "value": 467036,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.164,
-   "address": "310 ALTAMONT ST, HUTTO, TX  78634",
-   "assessed": 299601,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.519659,
-   "lon": -97.564409,
-   "sqft": 1700,
-   "value": 299601,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.163,
-   "address": "115 SAN BERNARD TRL, HUTTO, TX  78634",
-   "assessed": 335299,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.509445,
-   "lon": -97.564545,
-   "sqft": 2026,
-   "value": 335299,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.187,
-   "address": "305 DANA DR, HUTTO, TX  78634",
-   "assessed": 290628,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.507187,
-   "lon": -97.57118,
-   "sqft": 1538,
-   "value": 290628,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.188,
-   "address": "224 LAKEMONT DR, HUTTO, TX  78634",
-   "assessed": 257836,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.513417,
-   "lon": -97.568849,
-   "sqft": 1012,
-   "value": 257836,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.184,
-   "address": "106 LAVACA LOOP, HUTTO, TX  78634",
-   "assessed": 341059,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.513249,
-   "lon": -97.564474,
-   "sqft": 798,
-   "value": 341059,
-   "value_kind": "market (WCAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": 0.146,
-   "address": "101 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 460570,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.507732,
-   "lon": -97.568572,
-   "sqft": 1686,
-   "value": 460570,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.15,
-   "address": "100 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 425385,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.507796,
-   "lon": -97.569107,
-   "sqft": 1480,
-   "value": 425385,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.137,
-   "address": "216 WATERGATE WAY, HUTTO, TX  78634",
-   "assessed": 269056,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.522744,
-   "lon": -97.56588,
-   "sqft": 1178,
-   "value": 269056,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.138,
-   "address": "114 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 457670,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.506875,
-   "lon": -97.569287,
-   "sqft": 1242,
-   "value": 457670,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.203,
-   "address": "103 KILLIAN LOOP, HUTTO, TX  78634",
-   "assessed": 303765,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.518941,
-   "lon": -97.561623,
-   "sqft": 1768,
-   "value": 303765,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.119,
-   "address": "112 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 460917,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.507006,
-   "lon": -97.569252,
-   "sqft": 1679,
-   "value": 460917,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.16,
-   "address": "237 BALDWIN ST, HUTTO, TX  78634",
-   "assessed": 276527,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.517488,
-   "lon": -97.563236,
-   "sqft": 1381,
-   "value": 276527,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.178,
-   "address": "126 SAINT MARYS DR, HUTTO, TX  78634",
-   "assessed": 284815,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.510873,
-   "lon": -97.566471,
-   "sqft": 1419,
-   "value": 284815,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.125,
-   "address": "731 PALO BREA LOOP, HUTTO, TX  78634",
-   "assessed": 424479,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.507057,
-   "lon": -97.567137,
-   "sqft": 1049,
-   "value": 424479,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.119,
-   "address": "106 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 461943,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.507414,
-   "lon": -97.569177,
-   "sqft": 1686,
-   "value": 461943,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.155,
-   "address": "107 DENTON DR, HUTTO, TX  78634",
-   "assessed": 365612,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.512835,
-   "lon": -97.56188,
-   "sqft": 1314,
-   "value": 365612,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.167,
-   "address": "310 COMAL RUN, HUTTO, TX  78634",
-   "assessed": 307882,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.515803,
-   "lon": -97.565116,
-   "sqft": 1734,
-   "value": 307882,
-   "value_kind": "market (WCAD)",
-   "year_built": 2010
-  },
-  {
-   "acres": 0.135,
-   "address": "303 ELM CREEK DR, HUTTO, TX  78634",
-   "assessed": 339110,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.50745,
-   "lon": -97.563825,
-   "sqft": 1517,
-   "value": 339110,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.158,
-   "address": "104 SAN BERNARD TRL, HUTTO, TX  78634",
-   "assessed": 325439,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.509083,
-   "lon": -97.565478,
-   "sqft": 1869,
-   "value": 325439,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.119,
-   "address": "123 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 410654,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.506535,
-   "lon": -97.568544,
-   "sqft": 1050,
-   "value": 410654,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.156,
-   "address": "116 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 454947,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.506728,
-   "lon": -97.569305,
-   "sqft": 1688,
-   "value": 454947,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "126 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 360789,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.506165,
-   "lon": -97.568887,
-   "sqft": 1368,
-   "value": 360789,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "107 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 457769,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.507351,
-   "lon": -97.568644,
-   "sqft": 1686,
-   "value": 457769,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "128 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 412675,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.506071,
-   "lon": -97.568794,
-   "sqft": 1023,
-   "value": 412675,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "134 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 400362,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.505789,
-   "lon": -97.568514,
-   "sqft": 1446,
-   "value": 400362,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.124,
-   "address": "727 PALO BREA LOOP, HUTTO, TX  78634",
-   "assessed": 390301,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.507302,
-   "lon": -97.567093,
-   "sqft": 1446,
-   "value": 390301,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.119,
-   "address": "110 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 458423,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.507128,
-   "lon": -97.569229,
-   "sqft": 1242,
-   "value": 458423,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.155,
-   "address": "130 NAVIDAD RIVER DR, HUTTO, TX  78634",
-   "assessed": 297176,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.512121,
-   "lon": -97.560053,
-   "sqft": 1295,
-   "value": 297176,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.155,
-   "address": "144 SULPHUR RIVER LOOP, HUTTO, TX  78634",
-   "assessed": 297488,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.511242,
-   "lon": -97.565102,
-   "sqft": 1736,
-   "value": 297488,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.162,
-   "address": "604 NUECES RIVER TRL, HUTTO, TX  78634",
-   "assessed": 309115,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.511235,
-   "lon": -97.563169,
-   "sqft": 1475,
-   "value": 309115,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.188,
-   "address": "118 BRISLECONE PASS, HUTTO, TX  78634",
-   "assessed": 458423,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.506576,
-   "lon": -97.569303,
-   "sqft": 1242,
-   "value": 458423,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.233,
-   "address": "400 ESTATE DR, HUTTO, TX  78634",
-   "assessed": 290632,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.508168,
-   "lon": -97.570902,
-   "sqft": 1538,
-   "value": 290632,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.233,
-   "address": "206 LAKEMONT DR, HUTTO, TX  78634",
-   "assessed": 301662,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.512384,
-   "lon": -97.56846,
-   "sqft": 1653,
-   "value": 301662,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.154,
-   "address": "109 DICKINSON BAYOU CV, HUTTO, TX  78634",
-   "assessed": 298770,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.511622,
-   "lon": -97.561899,
-   "sqft": 1295,
-   "value": 298770,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.155,
-   "address": "104 DICKINSON BAYOU CV, HUTTO, TX  78634",
-   "assessed": 300163,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.51118,
-   "lon": -97.562331,
-   "sqft": 1462,
-   "value": 300163,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.182,
-   "address": "702 COMAL RUN, HUTTO, TX  78634",
-   "assessed": 297176,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.511708,
-   "lon": -97.565874,
-   "sqft": 1295,
-   "value": 297176,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.194,
-   "address": "141 LEON RIVER LOOP, HUTTO, TX  78634",
-   "assessed": 297937,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.514787,
-   "lon": -97.559232,
-   "sqft": 647,
-   "value": 297937,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.163,
-   "address": "117 SAN BERNARD TRL, HUTTO, TX  78634",
-   "assessed": 331783,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.509417,
-   "lon": -97.564371,
-   "sqft": 1956,
-   "value": 331783,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
   }
  ],
  "windows": {
   "12mo": {
-   "count": 154,
-   "median_value": 328929,
-   "pct_of_households": 6.32,
-   "pct_of_population": 2.27
+   "count": 103,
+   "median_value": 325615,
+   "pct_of_households": 4.23,
+   "pct_of_population": 1.52
   },
   "3mo": {
-   "count": 22,
-   "median_value": 314287,
-   "pct_of_households": 0.9,
-   "pct_of_population": 0.32
+   "count": 0,
+   "median_value": null,
+   "pct_of_households": 0.0,
+   "pct_of_population": 0.0
   },
   "6mo": {
-   "count": 56,
-   "median_value": 322024,
-   "pct_of_households": 2.3,
-   "pct_of_population": 0.83
+   "count": 26,
+   "median_value": 314287,
+   "pct_of_households": 1.07,
+   "pct_of_population": 0.38
   }
  }
 }

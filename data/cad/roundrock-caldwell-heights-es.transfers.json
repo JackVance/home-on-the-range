@@ -1,11 +1,144 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 94,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 75,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 5185,
  "months_back": 12,
  "population_acs": 12080,
  "transfers": [
+  {
+   "acres": 0.189,
+   "address": "1307 TERRA ST, ROUND ROCK, TX  78665",
+   "assessed": 352441,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.560167,
+   "lon": -97.669013,
+   "sqft": 2229,
+   "value": 352441,
+   "value_kind": "market (WCAD)",
+   "year_built": 1998
+  },
+  {
+   "acres": 0.175,
+   "address": "1405 SHORT HORN CV, ROUND ROCK, TX  78665",
+   "assessed": 383871,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.555118,
+   "lon": -97.672499,
+   "sqft": 1579,
+   "value": 383871,
+   "value_kind": "market (WCAD)",
+   "year_built": 2012
+  },
+  {
+   "acres": 0.164,
+   "address": "1414 BULL HORN LOOP, ROUND ROCK, TX  78665",
+   "assessed": 361504,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.554313,
+   "lon": -97.67226,
+   "sqft": 2368,
+   "value": 361504,
+   "value_kind": "market (WCAD)",
+   "year_built": 2003
+  },
+  {
+   "acres": 0.06,
+   "address": "1001 ZODIAC LN #28, ROUND ROCK, TX  78665",
+   "assessed": 280598,
+   "class": "A8",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.560989,
+   "lon": -97.663493,
+   "sqft": 605,
+   "value": 280598,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
+  {
+   "acres": 0.156,
+   "address": "3627 HAWK RIDGE ST, ROUND ROCK, TX  78665",
+   "assessed": 362195,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.55628,
+   "lon": -97.667937,
+   "sqft": 1030,
+   "value": 362195,
+   "value_kind": "market (WCAD)",
+   "year_built": 2000
+  },
+  {
+   "acres": 0.198,
+   "address": "1312 PIGEON VIEW ST, ROUND ROCK, TX  78665",
+   "assessed": 339063,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.559827,
+   "lon": -97.667902,
+   "sqft": 1969,
+   "value": 339063,
+   "value_kind": "market (WCAD)",
+   "year_built": 1998
+  },
+  {
+   "acres": 0.142,
+   "address": "3708 JULIANAS WAY, ROUND ROCK, TX  78665",
+   "assessed": 307636,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.558841,
+   "lon": -97.669433,
+   "sqft": 1714,
+   "value": 307636,
+   "value_kind": "market (WCAD)",
+   "year_built": 1999
+  },
   {
    "acres": 0.158,
    "address": "3821 JULIANA'S WAY, ROUND ROCK, TX  78665",
@@ -28,7 +161,7 @@
   {
    "acres": 3.098,
    "address": "481 TEXAS AVE, ROUND ROCK, TX  78664",
-   "assessed": 5634273,
+   "assessed": 5301007,
    "class": "F1",
    "deed_date": "2026-06-15",
    "extras": {
@@ -40,7 +173,7 @@
    "lat": 30.531506,
    "lon": -97.678936,
    "sqft": 27148,
-   "value": 5634273,
+   "value": 5301007,
    "value_kind": "market (WCAD)",
    "year_built": 2020
   },
@@ -203,9 +336,9 @@
    "class": "A1",
    "deed_date": "2026-05-15",
    "extras": {
-    "exterior": "BV",
+    "exterior": "M",
     "foundation": "SLB",
-    "roof": "GBL"
+    "roof": "MX"
    },
    "homestead": false,
    "lat": 30.527801,
@@ -252,6 +385,25 @@
    "value": 288201,
    "value_kind": "market (WCAD)",
    "year_built": 1996
+  },
+  {
+   "acres": 0.065,
+   "address": "1001 ZODIAC LN #44, ROUND ROCK, TX  78665",
+   "assessed": 288289,
+   "class": "A8",
+   "deed_date": "2026-05-15",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.561632,
+   "lon": -97.663676,
+   "sqft": 619,
+   "value": 288289,
+   "value_kind": "market (WCAD)",
+   "year_built": 2015
   },
   {
    "acres": 0.169,
@@ -366,6 +518,25 @@
    "value": 509402,
    "value_kind": "market (WCAD)",
    "year_built": 1999
+  },
+  {
+   "acres": 0.182,
+   "address": "2005 HEATHWOOD CIR, ROUND ROCK, TX  78664",
+   "assessed": 258048,
+   "class": "A1",
+   "deed_date": "2026-04-28",
+   "extras": {
+    "exterior": "WB",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.52948,
+   "lon": -97.679128,
+   "sqft": 1436,
+   "value": 258048,
+   "value_kind": "market (WCAD)",
+   "year_built": 1980
   },
   {
    "acres": 0.165,
@@ -769,7 +940,7 @@
   {
    "acres": 0.168,
    "address": "1318 ASHLEY DR, ROUND ROCK, TX  78665",
-   "assessed": 356871,
+   "assessed": 356833,
    "class": "A1",
    "deed_date": "2026-01-28",
    "extras": {
@@ -781,7 +952,7 @@
    "lat": 30.560842,
    "lon": -97.668133,
    "sqft": 2487,
-   "value": 356871,
+   "value": 356833,
    "value_kind": "market (WCAD)",
    "year_built": 1995
   },
@@ -1258,558 +1429,26 @@
    "value": 293787,
    "value_kind": "market (WCAD)",
    "year_built": 1999
-  },
-  {
-   "acres": 0.155,
-   "address": "849 SATELLITE VW, ROUND ROCK, TX  78665",
-   "assessed": 372863,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.564454,
-   "lon": -97.667607,
-   "sqft": 1100,
-   "value": 372863,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.173,
-   "address": "3910 EAGLES NEST ST, ROUND ROCK, TX  78665",
-   "assessed": 296542,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.560785,
-   "lon": -97.666217,
-   "sqft": 1747,
-   "value": 296542,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.135,
-   "address": "3817 HALEY'S WAY, ROUND ROCK, TX  78665",
-   "assessed": 357406,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.560612,
-   "lon": -97.67105,
-   "sqft": 1815,
-   "value": 357406,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.179,
-   "address": "3819 JULIANA'S WAY, ROUND ROCK, TX  78665",
-   "assessed": 323218,
-   "class": "A1",
-   "deed_date": "2025-10-05",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.560044,
-   "lon": -97.671797,
-   "sqft": 1860,
-   "value": 323218,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.125,
-   "address": "3905 BONNIE LN, ROUND ROCK, TX  78665",
-   "assessed": 323271,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.564127,
-   "lon": -97.664858,
-   "sqft": 1822,
-   "value": 323271,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.197,
-   "address": "1315 PIGEON VIEW ST, ROUND ROCK, TX  78665",
-   "assessed": 374696,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.559691,
-   "lon": -97.667407,
-   "sqft": 2574,
-   "value": 374696,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.178,
-   "address": "1124 TERRA ST, ROUND ROCK, TX  78665",
-   "assessed": 349452,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.555748,
-   "lon": -97.67147,
-   "sqft": 2385,
-   "value": 349452,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.129,
-   "address": "3809 HALEY'S WAY, ROUND ROCK, TX  78665",
-   "assessed": 415033,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.560323,
-   "lon": -97.670512,
-   "sqft": 1271,
-   "value": 415033,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.173,
-   "address": "1411 PIGEON VIEW ST, ROUND ROCK, TX  78665",
-   "assessed": 330783,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.560934,
-   "lon": -97.666499,
-   "sqft": 1981,
-   "value": 330783,
-   "value_kind": "market (WCAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 0.146,
-   "address": "3928 BONNIE LN, ROUND ROCK, TX  78665",
-   "assessed": 508203,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.562193,
-   "lon": -97.664565,
-   "sqft": 2409,
-   "value": 508203,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.165,
-   "address": "2001 GREENHILL DR, ROUND ROCK, TX  78664",
-   "assessed": 217969,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.529218,
-   "lon": -97.679978,
-   "sqft": 1040,
-   "value": 217969,
-   "value_kind": "market (WCAD)",
-   "year_built": 1980
-  },
-  {
-   "acres": 3.021,
-   "address": "920 LUTHER PLACE, ROUND ROCK, TX  78665",
-   "assessed": 1214237,
-   "class": "XG",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.547785,
-   "lon": -97.680158,
-   "sqft": 3835,
-   "value": 1214237,
-   "value_kind": "market (WCAD)",
-   "year_built": 1971
-  },
-  {
-   "acres": 0.174,
-   "address": "1308 PIGEON VIEW ST, ROUND ROCK, TX  78665",
-   "assessed": 331543,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.559479,
-   "lon": -97.668157,
-   "sqft": 1863,
-   "value": 331543,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.456,
-   "address": "210 COMMERCE BLVD, ROUND ROCK, TX  78664",
-   "assessed": 1000000,
-   "class": "F1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "FL"
-   },
-   "homestead": false,
-   "lat": 30.532523,
-   "lon": -97.685658,
-   "sqft": 5400,
-   "value": 1000000,
-   "value_kind": "market (WCAD)",
-   "year_built": 1989
-  },
-  {
-   "acres": 0.047,
-   "address": "1001 ZODIAC LN #49, ROUND ROCK, TX  78665",
-   "assessed": 283443,
-   "class": "A8",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.561857,
-   "lon": -97.66326,
-   "sqft": 548,
-   "value": 283443,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.177,
-   "address": "1400 QUICKSILVER CIR, ROUND ROCK, TX  78665",
-   "assessed": 299653,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.563333,
-   "lon": -97.66961,
-   "sqft": 1662,
-   "value": 299653,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.155,
-   "address": "3923 EAGLES NEST ST, ROUND ROCK, TX  78665",
-   "assessed": 265982,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.562405,
-   "lon": -97.665908,
-   "sqft": 1367,
-   "value": 265982,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.185,
-   "address": "1401 ASHLEY DR, ROUND ROCK, TX  78665",
-   "assessed": 381328,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.56091,
-   "lon": -97.667486,
-   "sqft": 1064,
-   "value": 381328,
-   "value_kind": "market (WCAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 0.144,
-   "address": "3916 HALEYS WAY, ROUND ROCK, TX  78665",
-   "assessed": 349804,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.558183,
-   "lon": -97.672331,
-   "sqft": 868,
-   "value": 349804,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.162,
-   "address": "1902 CAMEO DR, ROUND ROCK, TX  78664",
-   "assessed": 265625,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.528071,
-   "lon": -97.682611,
-   "sqft": 1416,
-   "value": 265625,
-   "value_kind": "market (WCAD)",
-   "year_built": 1979
-  },
-  {
-   "acres": 0.063,
-   "address": "1001 ZODIAC LN #5, ROUND ROCK, TX  78665",
-   "assessed": 275098,
-   "class": "A8",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.56202,
-   "lon": -97.661725,
-   "sqft": 606,
-   "value": 275098,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.14,
-   "address": "3806 HALEYS WAY, ROUND ROCK, TX  78665",
-   "assessed": 341116,
-   "class": "A1",
-   "deed_date": "2025-08-03",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.560575,
-   "lon": -97.669966,
-   "sqft": 871,
-   "value": 341116,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.142,
-   "address": "3919 HALEY'S WAY, ROUND ROCK, TX  78665",
-   "assessed": 321333,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.557986,
-   "lon": -97.671779,
-   "sqft": 1900,
-   "value": 321333,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.058,
-   "address": "1001 ZODIAC LN #55, ROUND ROCK, TX  78665",
-   "assessed": 279566,
-   "class": "A8",
-   "deed_date": "2025-07-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.562093,
-   "lon": -97.662639,
-   "sqft": 606,
-   "value": 279566,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.167,
-   "address": "913 SATELLITE VIEW, ROUND ROCK, TX  78665",
-   "assessed": 319865,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.564808,
-   "lon": -97.666411,
-   "sqft": 2265,
-   "value": 319865,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.168,
-   "address": "3604 SHORT HORN LN, ROUND ROCK, TX  78665",
-   "assessed": 443785,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.554709,
-   "lon": -97.673042,
-   "sqft": 2067,
-   "value": 443785,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.204,
-   "address": "1914 CAMEO DR, ROUND ROCK, TX  78664",
-   "assessed": 200000,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.529132,
-   "lon": -97.682999,
-   "sqft": 1435,
-   "value": 200000,
-   "value_kind": "market (WCAD)",
-   "year_built": 1979
-  },
-  {
-   "acres": 0.186,
-   "address": "3701 EAGLES NEST ST, ROUND ROCK, TX  78665",
-   "assessed": 388686,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.55496,
-   "lon": -97.667194,
-   "sqft": 1221,
-   "value": 388686,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
   }
  ],
  "windows": {
   "12mo": {
-   "count": 94,
-   "median_value": 331543,
-   "pct_of_households": 1.81,
-   "pct_of_population": 0.78
+   "count": 75,
+   "median_value": 334879,
+   "pct_of_households": 1.45,
+   "pct_of_population": 0.62
   },
   "3mo": {
-   "count": 23,
-   "median_value": 334879,
-   "pct_of_households": 0.44,
-   "pct_of_population": 0.19
+   "count": 2,
+   "median_value": 383871,
+   "pct_of_households": 0.04,
+   "pct_of_population": 0.02
   },
   "6mo": {
-   "count": 46,
-   "median_value": 343848,
-   "pct_of_households": 0.89,
-   "pct_of_population": 0.38
+   "count": 31,
+   "median_value": 339063,
+   "pct_of_households": 0.6,
+   "pct_of_population": 0.26
   }
  }
 }

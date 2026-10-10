@@ -1,11 +1,505 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 59,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 71,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1603,
  "months_back": 12,
  "population_acs": 3945,
  "transfers": [
+  {
+   "acres": 1.215,
+   "address": "14425 LEMONGRASS PFLUGERVILLE 78660",
+   "assessed": 275438,
+   "class": "A1",
+   "deed_date": "2026-09-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.416987,
+   "lon": -97.634145,
+   "sqft": 1422,
+   "value": 275438,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 1.653,
+   "address": "1501 VANILLA BEAN PFLUGERVILLE 78660",
+   "assessed": 389833,
+   "class": "A1",
+   "deed_date": "2026-09-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.418673,
+   "lon": -97.634212,
+   "sqft": 2228,
+   "value": 389833,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.279,
+   "address": "14401 SPEARMINT TEA PFLUGERVILLE 78660",
+   "assessed": 316081,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.420189,
+   "lon": -97.637743,
+   "sqft": 1745,
+   "value": 316081,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.342,
+   "address": "437 SWEET LEAF 78660",
+   "assessed": 243156,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.422654,
+   "lon": -97.630562,
+   "sqft": 1167,
+   "value": 243156,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.377,
+   "address": "1116 TEAPOT PFLUGERVILLE 78660",
+   "assessed": 317033,
+   "class": "A1",
+   "deed_date": "2026-08-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.423069,
+   "lon": -97.640663,
+   "sqft": 1684,
+   "value": 317033,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.653,
+   "address": "1417 SWEET LEAF PFLUGERVILLE 78660",
+   "assessed": 323000,
+   "class": "A1",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.418013,
+   "lon": -97.634729,
+   "sqft": 1977,
+   "value": 323000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.349,
+   "address": "14921 LIPTON PFLUGERVILLE 78660",
+   "assessed": 270000,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.421859,
+   "lon": -97.630841,
+   "sqft": 1346,
+   "value": 270000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.136,
+   "address": "15316 LADY ELIZABETHS 78660",
+   "assessed": 332246,
+   "class": "A1",
+   "deed_date": "2026-08-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.427131,
+   "lon": -97.636308,
+   "sqft": 1909,
+   "value": 332246,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.316,
+   "address": "820 SWEET LEAF PFLUGERVILLE 78660",
+   "assessed": 295905,
+   "class": "A1",
+   "deed_date": "2026-08-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.423148,
+   "lon": -97.634824,
+   "sqft": 1745,
+   "value": 295905,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.39,
+   "address": "1000 GREY CASTLE PFLUGERVILLE 78660",
+   "assessed": 317165,
+   "class": "A1",
+   "deed_date": "2026-08-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.424117,
+   "lon": -97.641772,
+   "sqft": 1685,
+   "value": 317165,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.293,
+   "address": "1612 DARJEELING PFLUGERVILLE 78660",
+   "assessed": 320855,
+   "class": "A1",
+   "deed_date": "2026-08-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.424144,
+   "lon": -97.635876,
+   "sqft": 1684,
+   "value": 320855,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.944,
+   "address": "14917 SASSAFRAS PFLUGERVILLE 78660",
+   "assessed": 294748,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.427201,
+   "lon": -97.641962,
+   "sqft": 1422,
+   "value": 294748,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.418,
+   "address": "1520 DARJEELING 78660",
+   "assessed": 285900,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.423547,
+   "lon": -97.636274,
+   "sqft": 1684,
+   "value": 285900,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.373,
+   "address": "1009 PEPPERMINT 78660",
+   "assessed": 305000,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.427812,
+   "lon": -97.637882,
+   "sqft": 1753,
+   "value": 305000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.402,
+   "address": "1217 CORONATION 78660",
+   "assessed": 286619,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.42614,
+   "lon": -97.637664,
+   "sqft": 1590,
+   "value": 286619,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.069,
+   "address": "1008 GREY CASTLE PFLUGERVILLE 78660",
+   "assessed": 320361,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.424159,
+   "lon": -97.641433,
+   "sqft": 1684,
+   "value": 320361,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 4.942,
+   "address": "1422 ST CROIX 78660",
+   "assessed": 391610,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.423506,
+   "lon": -97.63001,
+   "sqft": 1841,
+   "value": 391610,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1996
+  },
+  {
+   "acres": 1.763,
+   "address": "1817 WHITTARD OF CHELSEA 78660",
+   "assessed": 340047,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.418347,
+   "lon": -97.631509,
+   "sqft": 1824,
+   "value": 340047,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.445,
+   "address": "1201 DARJEELING PFLUGERVILLE 78660",
+   "assessed": 308119,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.420824,
+   "lon": -97.639841,
+   "sqft": 1685,
+   "value": 308119,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 1.619,
+   "address": "1004 GREY CASTLE PFLUGERVILLE 78660",
+   "assessed": 330690,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.424128,
+   "lon": -97.641605,
+   "sqft": 1708,
+   "value": 330690,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.511,
+   "address": "14713 EARL GREY PFLUGERVILLE 78660",
+   "assessed": 300944,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.424591,
+   "lon": -97.642249,
+   "sqft": 2114,
+   "value": 300944,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 4.942,
+   "address": "1427 CRETE PFLUGERVILLE 78660",
+   "assessed": 351854,
+   "class": "A1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.423697,
+   "lon": -97.629387,
+   "sqft": 1436,
+   "value": 351854,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1996
+  },
+  {
+   "acres": 1.591,
+   "address": "14900 HYSON CROSSING PFLUGERVILLE 78660",
+   "assessed": 355594,
+   "class": "A1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.424341,
+   "lon": -97.63816,
+   "sqft": 1909,
+   "value": 355594,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.496,
+   "address": "216 SWEET LEAF PFLUGERVILLE 78660",
+   "assessed": 304157,
+   "class": "A1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.420807,
+   "lon": -97.631052,
+   "sqft": 1590,
+   "value": 304157,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.348,
+   "address": "15120 MANDARIN CROSSING 78660",
+   "assessed": 273876,
+   "class": "A1",
+   "deed_date": "2026-06-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.425916,
+   "lon": -97.63895,
+   "sqft": 1167,
+   "value": 273876,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.861,
+   "address": "1808 WHITTARD OF CHELSEA 78660",
+   "assessed": 303075,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.418424,
+   "lon": -97.63082,
+   "sqft": 1504,
+   "value": 303075,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
   {
    "acres": 1.26,
    "address": "14716 LIPTON PFLUGERVILLE 78660",
@@ -28,7 +522,7 @@
   {
    "acres": 1.561,
    "address": "705 SWEET LEAF 78660",
-   "assessed": 299889,
+   "assessed": 266571,
    "class": "A1",
    "deed_date": "2026-05-19",
    "extras": {
@@ -40,7 +534,7 @@
    "lat": 30.42421,
    "lon": -97.633789,
    "sqft": 1346,
-   "value": 299889,
+   "value": 266571,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2008
   },
@@ -104,7 +598,7 @@
   {
    "acres": 2.153,
    "address": "317 TUDOR HOUSE 78660",
-   "assessed": 291244,
+   "assessed": 261566,
    "class": "A1",
    "deed_date": "2026-05-07",
    "extras": {
@@ -116,7 +610,7 @@
    "lat": 30.427174,
    "lon": -97.641418,
    "sqft": 1346,
-   "value": 291244,
+   "value": 261566,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
   },
@@ -159,6 +653,25 @@
    "year_built": 2002
   },
   {
+   "acres": 1.72,
+   "address": "1412 SWEET LEAF 78660",
+   "assessed": 379942,
+   "class": "A1",
+   "deed_date": "2026-05-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.418492,
+   "lon": -97.63462,
+   "sqft": 2228,
+   "value": 379942,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
    "acres": 1.314,
    "address": "1228 SLEEPYTIME PFLUGERVILLE 78660",
    "assessed": 266755,
@@ -169,7 +682,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.419044,
    "lon": -97.637657,
    "sqft": 1167,
@@ -180,7 +693,7 @@
   {
    "acres": 2.747,
    "address": "1021 TUDOR HOUSE 78660",
-   "assessed": 323145,
+   "assessed": 307796,
    "class": "A1",
    "deed_date": "2026-04-29",
    "extras": {
@@ -192,13 +705,13 @@
    "lat": 30.420232,
    "lon": -97.640246,
    "sqft": 1685,
-   "value": 323145,
+   "value": 307796,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
   },
   {
    "acres": 11.3,
-   "address": "1001 WELLS BRANCH",
+   "address": "1001 WELLS BRANCH 78660",
    "assessed": 147668,
    "class": "C1",
    "deed_date": "2026-04-17",
@@ -209,28 +722,9 @@
    "value_kind": "market (TCAD appraisal)"
   },
   {
-   "acres": 1.39,
-   "address": "1000 GREY CASTLE PFLUGERVILLE 78660",
-   "assessed": 317165,
-   "class": "A1",
-   "deed_date": "2026-04-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.424117,
-   "lon": -97.641772,
-   "sqft": 1685,
-   "value": 317165,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
    "acres": 1.929,
    "address": "15016 SASSAFRAS 78660",
-   "assessed": 300200,
+   "assessed": 267000,
    "class": "A1",
    "deed_date": "2026-04-02",
    "extras": {
@@ -242,14 +736,14 @@
    "lat": 30.428359,
    "lon": -97.641909,
    "sqft": 1354,
-   "value": 300200,
+   "value": 267000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
   },
   {
    "acres": 1.188,
    "address": "15205 VALERIAN TEA 78660",
-   "assessed": 334963,
+   "assessed": 315700,
    "class": "A1",
    "deed_date": "2026-04-02",
    "extras": {
@@ -261,7 +755,7 @@
    "lat": 30.428628,
    "lon": -97.638187,
    "sqft": 1909,
-   "value": 334963,
+   "value": 315700,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -342,25 +836,6 @@
    "year_built": 2003
   },
   {
-   "acres": 1.619,
-   "address": "1004 GREY CASTLE PFLUGERVILLE 78660",
-   "assessed": 330690,
-   "class": "A1",
-   "deed_date": "2026-03-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.424128,
-   "lon": -97.641605,
-   "sqft": 1708,
-   "value": 330690,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
    "acres": 1.346,
    "address": "15216 MANDARIN CROSSING 78660",
    "assessed": 318275,
@@ -420,7 +895,7 @@
   {
    "acres": 1.653,
    "address": "1509 VANILLA BEAN PFLUGERVILLE 78660",
-   "assessed": 325920,
+   "assessed": 302000,
    "class": "A1",
    "deed_date": "2026-03-03",
    "extras": {
@@ -432,9 +907,28 @@
    "lat": 30.418514,
    "lon": -97.633879,
    "sqft": 1673,
-   "value": 325920,
+   "value": 302000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
+  },
+  {
+   "acres": 1.653,
+   "address": "1313 HONEY BLOSSOM 78660",
+   "assessed": 336684,
+   "class": "A1",
+   "deed_date": "2026-03-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.419751,
+   "lon": -97.636468,
+   "sqft": 2228,
+   "value": 336684,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
   },
   {
    "acres": 1.575,
@@ -591,7 +1085,7 @@
   {
    "acres": 1.261,
    "address": "921 SWEET LEAF 78660",
-   "assessed": 293096,
+   "assessed": 270000,
    "class": "A1",
    "deed_date": "2026-01-22",
    "extras": {
@@ -603,7 +1097,7 @@
    "lat": 30.422684,
    "lon": -97.635743,
    "sqft": 1346,
-   "value": 293096,
+   "value": 270000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -629,7 +1123,7 @@
   {
    "acres": 1.359,
    "address": "14508 SPEARMINT TEA 78660",
-   "assessed": 265553,
+   "assessed": 252939,
    "class": "A1",
    "deed_date": "2026-01-16",
    "extras": {
@@ -641,7 +1135,7 @@
    "lat": 30.420913,
    "lon": -97.638772,
    "sqft": 1167,
-   "value": 265553,
+   "value": 252939,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
   },
@@ -667,7 +1161,7 @@
   {
    "acres": 1.611,
    "address": "1808 DARJEELING 78660",
-   "assessed": 383992,
+   "assessed": 344863,
    "class": "A1",
    "deed_date": "2025-12-27",
    "extras": {
@@ -679,7 +1173,7 @@
    "lat": 30.425947,
    "lon": -97.634817,
    "sqft": 2482,
-   "value": 383992,
+   "value": 344863,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
   },
@@ -743,7 +1237,7 @@
   {
    "acres": 1.575,
    "address": "1421 TEA LEAF 78660",
-   "assessed": 300882,
+   "assessed": 267454,
    "class": "A1",
    "deed_date": "2025-11-04",
    "extras": {
@@ -755,14 +1249,14 @@
    "lat": 30.421315,
    "lon": -97.634205,
    "sqft": 1354,
-   "value": 300882,
+   "value": 267454,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
   {
    "acres": 2.421,
    "address": "1116 TUDOR HOUSE PFLUGERVILLE 78660",
-   "assessed": 337811,
+   "assessed": 321765,
    "class": "A1",
    "deed_date": "2025-10-27",
    "extras": {
@@ -774,7 +1268,7 @@
    "lat": 30.419312,
    "lon": -97.638951,
    "sqft": 2041,
-   "value": 337811,
+   "value": 321765,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
   },
@@ -838,7 +1332,7 @@
   {
    "acres": 1.782,
    "address": "13820 CEYLON TEA CIR 78660",
-   "assessed": 318135,
+   "assessed": 302512,
    "class": "A1",
    "deed_date": "2025-10-21",
    "extras": {
@@ -850,295 +1344,29 @@
    "lat": 30.418013,
    "lon": -97.639297,
    "sqft": 1708,
-   "value": 318135,
+   "value": 302512,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2002
-  },
-  {
-   "acres": 1.788,
-   "address": "916 ELDERBERRY TEA COVE 78660",
-   "assessed": 321953,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.426573,
-   "lon": -97.64175,
-   "sqft": 1745,
-   "value": 321953,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.197,
-   "address": "14321 HARCOURT HOUSE 78660",
-   "assessed": 340717,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.417124,
-   "lon": -97.636095,
-   "sqft": 2073,
-   "value": 340717,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 2.836,
-   "address": "14712 BRUNO 78660",
-   "assessed": 363996,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.419353,
-   "lon": -97.633737,
-   "sqft": 1977,
-   "value": 363996,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": 1.763,
-   "address": "14605 DREAMTIME 78660",
-   "assessed": 339637,
-   "class": "A1",
-   "deed_date": "2025-09-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.418345,
-   "lon": -97.631941,
-   "sqft": 1834,
-   "value": 339637,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": 1.478,
-   "address": "908 SALLY LUNN 78660",
-   "assessed": 279642,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.426025,
-   "lon": -97.642508,
-   "sqft": 1346,
-   "value": 279642,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 1.817,
-   "address": "400 TUDOR HOUSE 78660",
-   "assessed": 308385,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.426977,
-   "lon": -97.640752,
-   "sqft": 1590,
-   "value": 308385,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.381,
-   "address": "14305 HARCOURT HOUSE PFLUGERVILLE 78660",
-   "assessed": 307584,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.416681,
-   "lon": -97.63646,
-   "sqft": 1355,
-   "value": 307584,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 1.343,
-   "address": "641 SWEET LEAF PFLUGERVILLE 78660",
-   "assessed": 304916,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.424019,
-   "lon": -97.633408,
-   "sqft": 1355,
-   "value": 304916,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 1.232,
-   "address": "1713 LADY GREY 78660",
-   "assessed": 313857,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.426165,
-   "lon": -97.635137,
-   "sqft": 1736,
-   "value": 313857,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": 1.272,
-   "address": "821 SWEET LEAF PFLUGERVILLE 78660",
-   "assessed": 293160,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.423442,
-   "lon": -97.635259,
-   "sqft": 1346,
-   "value": 293160,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 1.665,
-   "address": "1917 GOLDEN SUNRISE PFLUGERVILLE 78660",
-   "assessed": 337400,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.420194,
-   "lon": -97.629745,
-   "sqft": 1649,
-   "value": 337400,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 4.816,
-   "address": "1505 ST CROIX 78660",
-   "assessed": 340634,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.422439,
-   "lon": -97.62919,
-   "sqft": 1250,
-   "value": 340634,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1996
-  },
-  {
-   "acres": 1.266,
-   "address": "1528 MORNING MIST PFLUGERVILLE 78660",
-   "assessed": 313356,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.422467,
-   "lon": -97.632139,
-   "sqft": 1590,
-   "value": 313356,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 2.584,
-   "address": "609 TUDOR HOUSE PFLUGERVILLE 78660",
-   "assessed": 313100,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.424266,
-   "lon": -97.640563,
-   "sqft": 1685,
-   "value": 313100,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
   }
  ],
  "windows": {
   "12mo": {
-   "count": 59,
-   "median_value": 316878,
-   "pct_of_households": 3.68,
-   "pct_of_population": 1.5
+   "count": 71,
+   "median_value": 309549,
+   "pct_of_households": 4.43,
+   "pct_of_population": 1.8
   },
   "3mo": {
-   "count": 12,
-   "median_value": 299889,
-   "pct_of_households": 0.75,
-   "pct_of_population": 0.3
+   "count": 15,
+   "median_value": 305000,
+   "pct_of_households": 0.94,
+   "pct_of_population": 0.38
   },
   "6mo": {
-   "count": 35,
-   "median_value": 309549,
-   "pct_of_households": 2.18,
-   "pct_of_population": 0.89
+   "count": 38,
+   "median_value": 307796,
+   "pct_of_households": 2.37,
+   "pct_of_population": 0.96
   }
  }
 }

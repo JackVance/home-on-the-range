@@ -1,11 +1,30 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 45,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 34,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 485,
  "months_back": 12,
  "population_acs": 1356,
  "transfers": [
+  {
+   "acres": 9.532,
+   "address": "318 WINDY HILL LN, COUPLAND, TX  78615",
+   "assessed": 674312,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "WD",
+    "foundation": "PB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.469936,
+   "lon": -97.364237,
+   "sqft": 1580,
+   "value": 674312,
+   "value_kind": "market (WCAD)",
+   "year_built": 1940
+  },
   {
    "acres": 1.79,
    "address": "3378 CR 466, ELGIN, TX  78621",
@@ -53,23 +72,16 @@
    "year_built": 1920
   },
   {
-   "acres": 0.237,
-   "address": "302 N AUSTIN ST, COUPLAND, TX  78615",
-   "assessed": 230828,
-   "class": "A1",
+   "acres": 0.064,
+   "address": "AUSTIN ST, COUPLAND, TX  78615",
+   "assessed": 19321,
+   "class": "A3",
    "deed_date": "2026-06-18",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
    "homestead": false,
-   "lat": 30.461018,
-   "lon": -97.392634,
-   "sqft": 1004,
-   "value": 230828,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
+   "lat": 30.461258,
+   "lon": -97.39235,
+   "value": 24670,
+   "value_kind": "market (WCAD)"
   },
   {
    "acres": 2.198,
@@ -194,6 +206,25 @@
    "year_built": 2020
   },
   {
+   "acres": 0.858,
+   "address": "3301 FM 1466, COUPLAND, TX  78615",
+   "assessed": 326536,
+   "class": "E1",
+   "deed_date": "2026-04-15",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.474396,
+   "lon": -97.346406,
+   "sqft": 2469,
+   "value": 326536,
+   "value_kind": "market (WCAD)",
+   "year_built": 2000
+  },
+  {
    "acres": 1.02,
    "address": "545 CR 461, COUPLAND, TX  78615",
    "assessed": 691766,
@@ -235,6 +266,18 @@
    "lon": -97.323,
    "value": 2960880,
    "value_kind": "market (WCAD)"
+  },
+  {
+   "acres": 150.0,
+   "address": "13201 PFLUGER BERKMAN 78615",
+   "assessed": 4748,
+   "class": "D1",
+   "deed_date": "2026-03-26",
+   "homestead": false,
+   "lat": 30.449469,
+   "lon": -97.450648,
+   "value": 675000,
+   "value_kind": "market (TCAD appraisal)"
   },
   {
    "acres": 2.279,
@@ -334,7 +377,7 @@
   {
    "acres": 0.227,
    "address": "115 HOXIE ST, COUPLAND, TX  78615",
-   "assessed": 44347,
+   "assessed": 72500,
    "class": "XU",
    "deed_date": "2026-01-21",
    "homestead": false,
@@ -470,6 +513,25 @@
    "year_built": 2016
   },
   {
+   "acres": 0.237,
+   "address": "302 N AUSTIN ST, COUPLAND, TX  78615",
+   "assessed": 230828,
+   "class": "A1",
+   "deed_date": "2025-11-10",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.461018,
+   "lon": -97.392634,
+   "sqft": 1004,
+   "value": 230828,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
    "acres": 0.181,
    "address": "101 HOXIE ST, COUPLAND, TX  78615",
    "assessed": 1049717,
@@ -506,281 +568,26 @@
    "value": 1406020,
    "value_kind": "market (WCAD)",
    "year_built": 1904
-  },
-  {
-   "acres": 13.961,
-   "address": "250 CR 458, COUPLAND, TX  78615",
-   "assessed": 774697,
-   "class": "E1",
-   "deed_date": "2025-10-05",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.452625,
-   "lon": -97.396992,
-   "sqft": 1590,
-   "value": 774697,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 108.661,
-   "address": "640 CR 407, TAYLOR, TX  76574",
-   "assessed": 455527,
-   "class": "D3",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.496262,
-   "lon": -97.410109,
-   "sqft": 2122,
-   "value": 2871717,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 10.723,
-   "address": "1450 CR 465, ELGIN, TX  78621",
-   "assessed": 421732,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.452412,
-   "lon": -97.334337,
-   "sqft": 6842,
-   "value": 421732,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 20.108,
-   "address": "COUNTY ROAD 484, ELGIN, TX  78621",
-   "assessed": 9932,
-   "class": "D1",
-   "deed_date": "2025-09-22",
-   "homestead": false,
-   "lat": 30.424882,
-   "lon": -97.317397,
-   "value": 446551,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 262.73,
-   "address": "17205 COUNTY LINE 78615",
-   "assessed": 45010,
-   "class": "D1",
-   "deed_date": "2025-09-12",
-   "homestead": false,
-   "lat": 30.415822,
-   "lon": -97.371858,
-   "value": 995983,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 2.587,
-   "address": "CR 491, ELGIN, TX  78621",
-   "assessed": 185000,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.410242,
-   "lon": -97.311277,
-   "sqft": 1568,
-   "value": 185000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 1.0,
-   "address": "Highway 95 S, COUPLAND, TX  78615",
-   "assessed": 240810,
-   "class": "E1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.439045,
-   "lon": -97.39299,
-   "sqft": 1912,
-   "value": 240810,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.463,
-   "address": "201 N AUSTIN ST, COUPLAND, TX  78615",
-   "assessed": 200290,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "AS",
-    "foundation": "PST",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.459989,
-   "lon": -97.39192,
-   "sqft": 1432,
-   "value": 200290,
-   "value_kind": "market (WCAD)",
-   "year_built": 1880
-  },
-  {
-   "acres": 10.943,
-   "address": "11410/11500 S HWY 95, COUPLAND, TX  78615",
-   "assessed": 1033849,
-   "class": "E1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.488254,
-   "lon": -97.404091,
-   "sqft": 5000,
-   "value": 1033849,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 2.005,
-   "address": "108 GRAN CIELO, ELGIN, TX  78621",
-   "assessed": 277847,
-   "class": "A5",
-   "deed_date": "2025-08-05",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.44203,
-   "lon": -97.319064,
-   "sqft": 1944,
-   "value": 277847,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 2.038,
-   "address": "215 CR 489 ELGIN, TX 78621",
-   "assessed": 296030,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.463344,
-   "lon": -97.358882,
-   "sqft": 1796,
-   "value": 296030,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 10.328,
-   "address": "3063 CR 484, COUPLAND, TX  78615",
-   "assessed": 209973,
-   "class": "E2",
-   "deed_date": "2025-07-24",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.425973,
-   "lon": -97.288336,
-   "sqft": 2048,
-   "value": 461168,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 1.258,
-   "address": "3101 CR 466 ELGIN, TX 78621",
-   "assessed": 108866,
-   "class": "E1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.448189,
-   "lon": -97.307083,
-   "sqft": 1295,
-   "value": 108866,
-   "value_kind": "market (WCAD)",
-   "year_built": 1950
-  },
-  {
-   "acres": 24.735,
-   "address": "1850 CR 455, COUPLAND, TX  78615",
-   "assessed": 806454,
-   "class": "E4",
-   "deed_date": "2025-07-15",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.505293,
-   "lon": -97.350587,
-   "sqft": 1368,
-   "value": 806454,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 23.673,
-   "address": "2145/2153 COUNTY ROAD 460, COUPLAND, TX  78615",
-   "assessed": 997585,
-   "class": "E4",
-   "deed_date": "2025-07-10",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.435963,
-   "lon": -97.360258,
-   "sqft": 3744,
-   "value": 997585,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
   }
  ],
  "windows": {
   "12mo": {
-   "count": 45,
-   "median_value": 421732,
-   "pct_of_households": 9.28,
-   "pct_of_population": 3.32
+   "count": 34,
+   "median_value": 412884,
+   "pct_of_households": 7.01,
+   "pct_of_population": 2.51
   },
   "3mo": {
-   "count": 12,
-   "median_value": 399736,
-   "pct_of_households": 2.47,
-   "pct_of_population": 0.88
+   "count": 0,
+   "median_value": null,
+   "pct_of_households": 0.0,
+   "pct_of_population": 0.0
   },
   "6mo": {
-   "count": 23,
-   "median_value": 399736,
-   "pct_of_households": 4.74,
-   "pct_of_population": 1.7
+   "count": 13,
+   "median_value": 349402,
+   "pct_of_households": 2.68,
+   "pct_of_population": 0.96
   }
  }
 }

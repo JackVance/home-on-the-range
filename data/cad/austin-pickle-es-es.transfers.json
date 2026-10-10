@@ -1,11 +1,303 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 32,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 41,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1558,
  "months_back": 12,
  "population_acs": 4603,
  "transfers": [
+  {
+   "acres": 1.88,
+   "address": "7303 CARVER 78752",
+   "assessed": 128406,
+   "class": "A1",
+   "deed_date": "2026-09-01",
+   "homestead": false,
+   "lat": 30.331929,
+   "lon": -97.698156,
+   "value": 128406,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.911,
+   "address": "7100 BETHUNE 78752",
+   "assessed": 128829,
+   "class": "C1",
+   "deed_date": "2026-09-01",
+   "homestead": false,
+   "lat": 30.329571,
+   "lon": -97.699045,
+   "value": 128829,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 2.565,
+   "address": "1204 ST JOHNS 78752",
+   "assessed": 487194,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "homestead": false,
+   "lat": 30.327932,
+   "lon": -97.693522,
+   "sqft": 3643,
+   "value": 487194,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.909,
+   "address": "7210 BENNETT 78752",
+   "assessed": 368000,
+   "class": "B2",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.331955,
+   "lon": -97.700269,
+   "sqft": 2002,
+   "value": 368000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1986
+  },
+  {
+   "acres": 1.904,
+   "address": "7212 BENNETT 78752",
+   "assessed": 279467,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.332076,
+   "lon": -97.700192,
+   "sqft": 1727,
+   "value": 279467,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1958
+  },
+  {
+   "acres": 1.883,
+   "address": "7308 BENNETT 78752",
+   "assessed": 213044,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.333068,
+   "lon": -97.699567,
+   "sqft": 826,
+   "value": 213044,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1939
+  },
+  {
+   "acres": 1.88,
+   "address": "7307 CARVER 78752",
+   "assessed": 360377,
+   "class": "B2",
+   "deed_date": "2026-08-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.332169,
+   "lon": -97.698004,
+   "sqft": 1721,
+   "value": 360377,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.937,
+   "address": "7408 BETHUNE 78752",
+   "assessed": 222748,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.333159,
+   "lon": -97.696777,
+   "sqft": 832,
+   "value": 222748,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1940
+  },
+  {
+   "acres": 1.866,
+   "address": "7313 CARVER 78752",
+   "assessed": 349466,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.332531,
+   "lon": -97.697775,
+   "sqft": 1350,
+   "value": 349466,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1940
+  },
+  {
+   "acres": null,
+   "address": "6901 INTERSTATE HY 35 78752",
+   "assessed": 16578000,
+   "class": "F1",
+   "deed_date": "2026-07-01",
+   "homestead": false,
+   "lat": 30.330001,
+   "lon": -97.704525,
+   "sqft": 115311,
+   "value": 16578000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2018
+  },
+  {
+   "acres": 2.213,
+   "address": "6920 PROVIDENCE AUSTIN 78752",
+   "assessed": 240000,
+   "class": "A1",
+   "deed_date": "2026-06-15",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.328095,
+   "lon": -97.698609,
+   "sqft": 952,
+   "value": 240000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1940
+  },
+  {
+   "acres": 1.862,
+   "address": "7307 BENNETT AUSTIN 78752",
+   "assessed": 229829,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.33267,
+   "lon": -97.699038,
+   "sqft": 839,
+   "value": 229829,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1969
+  },
+  {
+   "acres": 1.827,
+   "address": "7300 BLESSING AUSTIN 78752",
+   "assessed": 319162,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.330085,
+   "lon": -97.694607,
+   "sqft": 1271,
+   "value": 319162,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.884,
+   "address": "6917 BETHUNE 78752",
+   "assessed": 128459,
+   "class": "C1",
+   "deed_date": "2026-05-21",
+   "homestead": false,
+   "lat": 30.328046,
+   "lon": -97.699228,
+   "value": 128459,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.886,
+   "address": "6915 BETHUNE AUSTIN 78752",
+   "assessed": 309707,
+   "class": "A1",
+   "deed_date": "2026-05-21",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.327923,
+   "lon": -97.699301,
+   "sqft": 1291,
+   "value": 309707,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1950
+  },
+  {
+   "acres": 1.899,
+   "address": "6918 BETHUNE 78752",
+   "assessed": 402611,
+   "class": "B2",
+   "deed_date": "2026-05-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.328453,
+   "lon": -97.699753,
+   "sqft": 1602,
+   "value": 402611,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 1.942,
+   "address": "7201 MEADOR 78752",
+   "assessed": 381207,
+   "class": "B2",
+   "deed_date": "2026-05-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.329079,
+   "lon": -97.695856,
+   "sqft": 2232,
+   "value": 381207,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1973
+  },
   {
    "acres": 1.92,
    "address": "7209 BETHUNE AUSTIN 78752",
@@ -17,7 +309,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.330554,
    "lon": -97.697645,
    "sqft": 1290,
@@ -43,6 +335,25 @@
    "value": 267014,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1940
+  },
+  {
+   "acres": 1.894,
+   "address": "7007 BENNETT AUSTIN 78752",
+   "assessed": 284636,
+   "class": "A1",
+   "deed_date": "2026-04-17",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.329919,
+   "lon": -97.700776,
+   "sqft": 1218,
+   "value": 284636,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1975
   },
   {
    "acres": 1.872,
@@ -97,7 +408,7 @@
   {
    "acres": 1.801,
    "address": "7215 BLESSING AUSTIN 78752",
-   "assessed": 494698,
+   "assessed": 452000,
    "class": "A1",
    "deed_date": "2026-04-06",
    "extras": {
@@ -109,28 +420,9 @@
    "lat": 30.329413,
    "lon": -97.694279,
    "sqft": 2061,
-   "value": 494698,
+   "value": 452000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2015
-  },
-  {
-   "acres": 2.533,
-   "address": "6920 BETHUNE 78752",
-   "assessed": 837374,
-   "class": "A1",
-   "deed_date": "2026-03-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.328593,
-   "lon": -97.699663,
-   "sqft": 2664,
-   "value": 837374,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1970
   },
   {
    "acres": 1.962,
@@ -150,6 +442,25 @@
    "value": 463332,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1982
+  },
+  {
+   "acres": 2.533,
+   "address": "6920 BETHUNE 78752",
+   "assessed": 837374,
+   "class": "A1",
+   "deed_date": "2026-03-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.328593,
+   "lon": -97.699663,
+   "sqft": 2664,
+   "value": 837374,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
   },
   {
    "acres": 1.937,
@@ -192,7 +503,7 @@
   {
    "acres": 2.051,
    "address": "1307 RADCLIFF AUSTIN 78752",
-   "assessed": 487992,
+   "assessed": 462372,
    "class": "B2",
    "deed_date": "2026-02-18",
    "extras": {
@@ -204,14 +515,14 @@
    "lat": 30.327229,
    "lon": -97.692481,
    "sqft": 2468,
-   "value": 487992,
+   "value": 462372,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1966
   },
   {
    "acres": 1.86,
    "address": "6919 CARVER 78752",
-   "assessed": 195547,
+   "assessed": 147393,
    "class": "A1",
    "deed_date": "2026-02-12",
    "extras": {
@@ -223,14 +534,14 @@
    "lat": 30.328671,
    "lon": -97.700209,
    "sqft": 512,
-   "value": 195547,
+   "value": 147393,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1935
   },
   {
    "acres": 1.866,
    "address": "6917 CARVER AUSTIN 78752",
-   "assessed": 276349,
+   "assessed": 170533,
    "class": "A1",
    "deed_date": "2026-02-12",
    "extras": {
@@ -242,14 +553,14 @@
    "lat": 30.32855,
    "lon": -97.700284,
    "sqft": 1404,
-   "value": 276349,
+   "value": 170533,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1940
   },
   {
    "acres": 1.879,
    "address": "7610 BLESSING 78752",
-   "assessed": 387589,
+   "assessed": 340807,
    "class": "B2",
    "deed_date": "2025-12-23",
    "extras": {
@@ -261,7 +572,7 @@
    "lat": 30.33402,
    "lon": -97.692126,
    "sqft": 1578,
-   "value": 387589,
+   "value": 340807,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1985
   },
@@ -276,7 +587,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.331319,
    "lon": -97.695217,
    "sqft": 1247,
@@ -287,7 +598,7 @@
   {
    "acres": 28.339,
    "address": "7619 INTERSTATE HY 35 78752",
-   "assessed": 9482360,
+   "assessed": 9250000,
    "class": "F1",
    "deed_date": "2025-12-13",
    "extras": {
@@ -299,7 +610,7 @@
    "lat": 30.336984,
    "lon": -97.699683,
    "sqft": 53376,
-   "value": 9482360,
+   "value": 9250000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1987
   },
@@ -344,7 +655,7 @@
   {
    "acres": 3.187,
    "address": "7411 CARVER AUSTIN 78752",
-   "assessed": 249724,
+   "assessed": 236613,
    "class": "A1",
    "deed_date": "2025-11-20",
    "extras": {
@@ -356,7 +667,7 @@
    "lat": 30.333536,
    "lon": -97.697124,
    "sqft": 1446,
-   "value": 249724,
+   "value": 236613,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1940
   },
@@ -399,18 +710,6 @@
    "year_built": 2008
   },
   {
-   "acres": 1.88,
-   "address": "7303 CARVER 78752",
-   "assessed": 128406,
-   "class": "A1",
-   "deed_date": "2025-10-29",
-   "homestead": false,
-   "lat": 30.331929,
-   "lon": -97.698156,
-   "value": 128406,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
    "acres": 1.865,
    "address": "7102 CARVER AUSTIN 78752",
    "assessed": 264103,
@@ -430,21 +729,9 @@
    "year_built": 2001
   },
   {
-   "acres": 1.911,
-   "address": "7100 BETHUNE 78752",
-   "assessed": 128829,
-   "class": "C1",
-   "deed_date": "2025-10-28",
-   "homestead": false,
-   "lat": 30.329571,
-   "lon": -97.699045,
-   "value": 128829,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
    "acres": 4.115,
    "address": "6919 PROVIDENCE AUSTIN 78752",
-   "assessed": 406233,
+   "assessed": 357201,
    "class": "A1",
    "deed_date": "2025-10-20",
    "extras": {
@@ -456,162 +743,29 @@
    "lat": 30.327751,
    "lon": -97.698052,
    "sqft": 1605,
-   "value": 406233,
+   "value": 357201,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1987
-  },
-  {
-   "acres": 2.508,
-   "address": "1204 RADCLIFF 78752",
-   "assessed": 543816,
-   "class": "B2",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.328702,
-   "lon": -97.693041,
-   "sqft": 2510,
-   "value": 543816,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1969
-  },
-  {
-   "acres": 1.878,
-   "address": "1304 FAIRBANKS 78752",
-   "assessed": 621160,
-   "class": "B2",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "BUILT-UP",
-    "roof_style": "FLAT"
-   },
-   "homestead": false,
-   "lat": 30.32832,
-   "lon": -97.691782,
-   "sqft": 2566,
-   "value": 621160,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1967
-  },
-  {
-   "acres": 1.939,
-   "address": "6907 BENNETT AUSTIN 78752",
-   "assessed": 196222,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.328445,
-   "lon": -97.701712,
-   "sqft": 1020,
-   "value": 196222,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1950
-  },
-  {
-   "acres": 1.851,
-   "address": "7609 BETHUNE AUSTIN 78752",
-   "assessed": 282691,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.335129,
-   "lon": -97.694754,
-   "sqft": 1272,
-   "value": 282691,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1950
-  },
-  {
-   "acres": 1.858,
-   "address": "7215 BENNETT 78752",
-   "assessed": 777044,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "BUILT-UP",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.331912,
-   "lon": -97.699518,
-   "sqft": 2278,
-   "value": 777044,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1953
-  },
-  {
-   "acres": 1.878,
-   "address": "6911 BLESSING 78752",
-   "assessed": 345642,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.326209,
-   "lon": -97.696318,
-   "sqft": 1788,
-   "value": 345642,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1940
-  },
-  {
-   "acres": 2.066,
-   "address": "1205 FAIRBANKS 78752",
-   "assessed": 402147,
-   "class": "B2",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.328996,
-   "lon": -97.692853,
-   "sqft": 1800,
-   "value": 402147,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1967
   }
  ],
  "windows": {
   "12mo": {
-   "count": 32,
-   "median_value": 303218,
-   "pct_of_households": 2.05,
-   "pct_of_population": 0.7
+   "count": 41,
+   "median_value": 296036,
+   "pct_of_households": 2.63,
+   "pct_of_population": 0.89
   },
   "3mo": {
-   "count": 4,
-   "median_value": 268077,
-   "pct_of_households": 0.26,
-   "pct_of_population": 0.09
+   "count": 8,
+   "median_value": 279467,
+   "pct_of_households": 0.51,
+   "pct_of_population": 0.17
   },
   "6mo": {
-   "count": 13,
-   "median_value": 276349,
-   "pct_of_households": 0.83,
-   "pct_of_population": 0.28
+   "count": 21,
+   "median_value": 284636,
+   "pct_of_households": 1.35,
+   "pct_of_population": 0.46
   }
  }
 }

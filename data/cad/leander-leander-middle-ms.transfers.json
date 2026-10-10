@@ -1,11 +1,852 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 751,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 568,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 10259,
  "months_back": 12,
  "population_acs": 28564,
  "transfers": [
+  {
+   "acres": 35.2,
+   "address": "15403 APPLE SPRINGS 78641",
+   "assessed": 287232,
+   "class": "C1",
+   "deed_date": "2026-08-14",
+   "homestead": false,
+   "lat": 30.565041,
+   "lon": -97.899782,
+   "value": 287232,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 38.2,
+   "address": "APPLE SPRINGS 78641",
+   "assessed": 307892,
+   "class": "C1",
+   "deed_date": "2026-08-10",
+   "homestead": false,
+   "lat": 30.561773,
+   "lon": -97.89583,
+   "value": 307892,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 21.0,
+   "address": "APPLE SPRINGS 78641",
+   "assessed": 181300,
+   "class": "C1",
+   "deed_date": "2026-08-07",
+   "homestead": false,
+   "lat": 30.561215,
+   "lon": -97.895868,
+   "value": 181300,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 0.166,
+   "address": "609 LOS ROBLES RD, LEANDER, TX  78641",
+   "assessed": 304526,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.585076,
+   "lon": -97.867217,
+   "sqft": 1550,
+   "value": 304526,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
+  {
+   "acres": 0.356,
+   "address": "420 HERNANDOS LOOP, LEANDER, TX  78641",
+   "assessed": 365655,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.550952,
+   "lon": -97.844179,
+   "sqft": 2097,
+   "value": 365655,
+   "value_kind": "market (WCAD)",
+   "year_built": 1986
+  },
+  {
+   "acres": 40.0,
+   "address": "HONEYCOMB 78641",
+   "assessed": 376000,
+   "class": "C1",
+   "deed_date": "2026-07-16",
+   "homestead": false,
+   "lat": 30.570928,
+   "lon": -97.938755,
+   "value": 376000,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 0.177,
+   "address": "305 EDGEWOOD CV, LEANDER, TX  78641",
+   "assessed": 341226,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.571765,
+   "lon": -97.880671,
+   "sqft": 1140,
+   "value": 341226,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
+  {
+   "acres": 0.186,
+   "address": "812 HONEYSUCKLE DR, LEANDER, TX  78641",
+   "assessed": 258822,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.560614,
+   "lon": -97.857957,
+   "sqft": 1244,
+   "value": 258822,
+   "value_kind": "market (WCAD)",
+   "year_built": 1997
+  },
+  {
+   "acres": 0.166,
+   "address": "410 OLMOS DR, LEANDER, TX  78641",
+   "assessed": 451035,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.565101,
+   "lon": -97.872764,
+   "sqft": 2840,
+   "value": 451035,
+   "value_kind": "market (WCAD)",
+   "year_built": 2007
+  },
+  {
+   "acres": 30.98,
+   "address": "NAMELESS 78641",
+   "assessed": 1690777,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "homestead": true,
+   "lat": 30.564071,
+   "lon": -97.913108,
+   "sqft": 6875,
+   "value": 1690777,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2023
+  },
+  {
+   "acres": 0.192,
+   "address": "916 MOON GLOW DR, LEANDER, TX  78641",
+   "assessed": 287943,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "exterior": "BW",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.563281,
+   "lon": -97.858237,
+   "sqft": 1254,
+   "value": 287943,
+   "value_kind": "market (WCAD)",
+   "year_built": 1999
+  },
+  {
+   "acres": 0.301,
+   "address": "716 NORTHERN TRL, LEANDER, TX  78641",
+   "assessed": 279776,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.56618,
+   "lon": -97.86091,
+   "sqft": 1122,
+   "value": 279776,
+   "value_kind": "market (WCAD)",
+   "year_built": 1996
+  },
+  {
+   "acres": 0.132,
+   "address": "616 LOMA CEDRO BND, LEANDER, TX  78641",
+   "assessed": 397322,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.565048,
+   "lon": -97.870833,
+   "sqft": 2351,
+   "value": 397322,
+   "value_kind": "market (WCAD)",
+   "year_built": 2015
+  },
+  {
+   "acres": 0.139,
+   "address": "420 MOUNTAIN SKY BND, LEANDER, TX  78641",
+   "assessed": 494006,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.564514,
+   "lon": -97.88185,
+   "sqft": 2431,
+   "value": 494006,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.406,
+   "address": "1906 LONDONDERRY DR, LEANDER, TX  78641",
+   "assessed": 483829,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.552701,
+   "lon": -97.848818,
+   "sqft": 2410,
+   "value": 483829,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
+  {
+   "acres": 0.165,
+   "address": "1113 BURGESS DR, LEANDER, TX  78641",
+   "assessed": 292758,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.58706,
+   "lon": -97.874076,
+   "sqft": 1368,
+   "value": 292758,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.18,
+   "address": "502 CHAPARRAL DR, LEANDER, TX  78641",
+   "assessed": 362980,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.564305,
+   "lon": -97.873155,
+   "sqft": 2067,
+   "value": 362980,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.166,
+   "address": "229 SANGIOVESE ST, LEANDER, TX  78641",
+   "assessed": 474057,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.569595,
+   "lon": -97.87358,
+   "sqft": 2356,
+   "value": 474057,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
+  {
+   "acres": 0.283,
+   "address": "1804 BURR PKWY, LEANDER, TX  78641",
+   "assessed": 750052,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.552363,
+   "lon": -97.872272,
+   "sqft": 2158,
+   "value": 750052,
+   "value_kind": "market (WCAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": 0.157,
+   "address": "1613 UHLAND DR, LEANDER, TX  78641",
+   "assessed": 516456,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.551791,
+   "lon": -97.864689,
+   "sqft": 1349,
+   "value": 516456,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 0.308,
+   "address": "502 TYRONE DR, LEANDER, TX  78641",
+   "assessed": 373532,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "WB",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.554993,
+   "lon": -97.849431,
+   "sqft": 1625,
+   "value": 373532,
+   "value_kind": "market (WCAD)",
+   "year_built": 1985
+  },
+  {
+   "acres": 0.164,
+   "address": "407 RED HAWK DR, LEANDER, TX  78641",
+   "assessed": 394469,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.564083,
+   "lon": -97.875897,
+   "sqft": 2494,
+   "value": 394469,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.142,
+   "address": "524 LONGHORN CAVERN RD, LEANDER, TX  78641",
+   "assessed": 398256,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.586219,
+   "lon": -97.864015,
+   "sqft": 2175,
+   "value": 398256,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
+  {
+   "acres": 0.091,
+   "address": "316 E BROADE ST, LEANDER, TX  78641",
+   "assessed": 299085,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.581592,
+   "lon": -97.849815,
+   "sqft": 1537,
+   "value": 299085,
+   "value_kind": "market (WCAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 0.141,
+   "address": "1317 AQUILLA DR, LEANDER, TX  78641",
+   "assessed": 442165,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.586106,
+   "lon": -97.89133,
+   "sqft": 1849,
+   "value": 442165,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
+  },
+  {
+   "acres": 0.213,
+   "address": "1809 BENT OAK CV, LEANDER, TX  78641",
+   "assessed": 314895,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.551239,
+   "lon": -97.858559,
+   "sqft": 1700,
+   "value": 314895,
+   "value_kind": "market (WCAD)",
+   "year_built": 1995
+  },
+  {
+   "acres": 0.17,
+   "address": "107 S TREASURE OAKS DR, LEANDER, TX  78641",
+   "assessed": 310834,
+   "class": "A1",
+   "deed_date": "2026-07-03",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.575942,
+   "lon": -97.858908,
+   "sqft": 1710,
+   "value": 310834,
+   "value_kind": "market (WCAD)",
+   "year_built": 2003
+  },
+  {
+   "acres": 0.207,
+   "address": "1606 CANDLELIGHT DR, LEANDER, TX  78641",
+   "assessed": 340128,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.572292,
+   "lon": -97.875649,
+   "sqft": 1152,
+   "value": 340128,
+   "value_kind": "market (WCAD)",
+   "year_built": 2001
+  },
+  {
+   "acres": 0.161,
+   "address": "624 JOPPA RD, LEANDER, TX  78641",
+   "assessed": 357528,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.58451,
+   "lon": -97.860365,
+   "sqft": 1650,
+   "value": 357528,
+   "value_kind": "market (WCAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": 0.253,
+   "address": "1808 BURR PKWY, LEANDER, TX  78641",
+   "assessed": 634980,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.552184,
+   "lon": -97.872455,
+   "sqft": 2943,
+   "value": 634980,
+   "value_kind": "market (WCAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": 0.169,
+   "address": "800 NORTH CREEK BLVD, LEANDER, TX  78641",
+   "assessed": 295103,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "ST",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.581212,
+   "lon": -97.868368,
+   "sqft": 1295,
+   "value": 295103,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
+  {
+   "acres": 0.164,
+   "address": "710 ENCANTO DR, LEANDER, TX  78641",
+   "assessed": 326286,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.581648,
+   "lon": -97.871147,
+   "sqft": 821,
+   "value": 326286,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 0.166,
+   "address": "1407 WATERFALL AVE, LEANDER, TX  78641",
+   "assessed": 322450,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.581651,
+   "lon": -97.877452,
+   "sqft": 908,
+   "value": 322450,
+   "value_kind": "market (WCAD)",
+   "year_built": 2001
+  },
+  {
+   "acres": 0.166,
+   "address": "708 PAMPAS RICAS DR, LEANDER, TX  78641",
+   "assessed": 317150,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.58177,
+   "lon": -97.870212,
+   "sqft": 1654,
+   "value": 317150,
+   "value_kind": "market (WCAD)",
+   "year_built": 2003
+  },
+  {
+   "acres": 0.206,
+   "address": "210 CAROL AVE, LEANDER, TX  78641",
+   "assessed": 310872,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.572759,
+   "lon": -97.864293,
+   "sqft": 1816,
+   "value": 310872,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 0.22,
+   "address": "1724 STINNETT DR, LEANDER, TX  78641",
+   "assessed": 477748,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.55759,
+   "lon": -97.873891,
+   "sqft": 2480,
+   "value": 477748,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 3.653,
+   "address": "1841 CRYSTAL FALLS PKWY, LEANDER, TX  78641",
+   "assessed": 12398300,
+   "class": "F1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "STC, STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.546015,
+   "lon": -97.86602,
+   "sqft": 48168,
+   "value": 12398300,
+   "value_kind": "market (WCAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": 0.18,
+   "address": "1236 CORNITH LN, LEANDER, TX  78641",
+   "assessed": 455708,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.555682,
+   "lon": -97.868415,
+   "sqft": 2463,
+   "value": 455708,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 0.075,
+   "address": "373 BLUE OASIS LN, LEANDER, TX  78641",
+   "assessed": 326469,
+   "class": "A8",
+   "deed_date": "2026-06-27",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.574239,
+   "lon": -97.878045,
+   "sqft": 778,
+   "value": 326469,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.115,
+   "address": "612 PALMILLA ST, LEANDER, TX  78641",
+   "assessed": 365313,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.587662,
+   "lon": -97.865882,
+   "sqft": 1691,
+   "value": 365313,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
+  {
+   "acres": 0.177,
+   "address": "425 CANADIAN SPRINGS DR, LEANDER, TX  78641",
+   "assessed": 313303,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.587754,
+   "lon": -97.862921,
+   "sqft": 1400,
+   "value": 313303,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 0.174,
+   "address": "1241 BACKCOUNTRY DR, LEANDER, TX  78641",
+   "assessed": 392250,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.557452,
+   "lon": -97.866333,
+   "sqft": 1944,
+   "value": 392250,
+   "value_kind": "market (WCAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 150.4,
+   "address": "15008 APPLE SPRINGS LEANDER 78641",
+   "assessed": 1428347,
+   "class": "E1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.562452,
+   "lon": -97.903568,
+   "sqft": 5596,
+   "value": 1428347,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 0.136,
+   "address": "208 TULUM TER, LEANDER, TX  78641",
+   "assessed": 314667,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.596579,
+   "lon": -97.861843,
+   "sqft": 1586,
+   "value": 314667,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 0.13,
+   "address": "608 EMMA ROSE TRL, LEANDER, TX  78641",
+   "assessed": 275810,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.567676,
+   "lon": -97.862553,
+   "sqft": 1222,
+   "value": 275810,
+   "value_kind": "market (WCAD)",
+   "year_built": 2007
+  },
+  {
+   "acres": 0.163,
+   "address": "1509 STINNETT LN, LEANDER, TX  78641",
+   "assessed": 533155,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.558982,
+   "lon": -97.870802,
+   "sqft": 1424,
+   "value": 533155,
+   "value_kind": "market (WCAD)",
+   "year_built": 2019
+  },
   {
    "acres": 0.187,
    "address": "1804 PASEO VERDE DR, LEANDER, TX  78641",
@@ -24,6 +865,44 @@
    "value": 343734,
    "value_kind": "market (WCAD)",
    "year_built": 2013
+  },
+  {
+   "acres": 0.226,
+   "address": "1549 HUMBLE LIVE DR, LEANDER, TX  78641",
+   "assessed": 805523,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.550072,
+   "lon": -97.871121,
+   "sqft": 2278,
+   "value": 805523,
+   "value_kind": "market (WCAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": 0.138,
+   "address": "1612 BOVINA DR, LEANDER, TX  78641",
+   "assessed": 416441,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.551534,
+   "lon": -97.865664,
+   "sqft": 1958,
+   "value": 416441,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
   },
   {
    "acres": 0.172,
@@ -645,6 +1524,25 @@
    "year_built": 2021
   },
   {
+   "acres": 2.993,
+   "address": "220 MESA RDG, LEANDER, TX  78641",
+   "assessed": 419180,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.570345,
+   "lon": -97.922835,
+   "sqft": 1703,
+   "value": 419180,
+   "value_kind": "market (WCAD)",
+   "year_built": 1973
+  },
+  {
    "acres": 0.268,
    "address": "2017 HAWKES CV, LEANDER, TX  78641",
    "assessed": 554553,
@@ -681,6 +1579,25 @@
    "value": 384031,
    "value_kind": "market (WCAD)",
    "year_built": 2021
+  },
+  {
+   "acres": 0.165,
+   "address": "306 KATHERINE WAY, LEANDER, TX  78641",
+   "assessed": 316966,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.571758,
+   "lon": -97.864969,
+   "sqft": 1803,
+   "value": 316966,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
   },
   {
    "acres": 0.156,
@@ -731,7 +1648,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.58651,
    "lon": -97.866578,
    "sqft": 676,
@@ -983,6 +1900,25 @@
    "year_built": 1970
   },
   {
+   "acres": 3.856,
+   "address": "203 MESA RDG, LEANDER, TX  78641",
+   "assessed": 479794,
+   "class": "A1",
+   "deed_date": "2026-05-19",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.568384,
+   "lon": -97.922162,
+   "sqft": 2060,
+   "value": 479794,
+   "value_kind": "market (WCAD)",
+   "year_built": 1980
+  },
+  {
    "acres": 0.163,
    "address": "1908 GRASSLAND DR, LEANDER, TX  78641",
    "assessed": 274787,
@@ -1000,6 +1936,25 @@
    "value": 274787,
    "value_kind": "market (WCAD)",
    "year_built": 2002
+  },
+  {
+   "acres": 0.165,
+   "address": "1637 AMARONE DR, LEANDER, TX  78641",
+   "assessed": 478860,
+   "class": "A1",
+   "deed_date": "2026-05-18",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.568602,
+   "lon": -97.875727,
+   "sqft": 2373,
+   "value": 478860,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
   },
   {
    "acres": 0.091,
@@ -1062,7 +2017,7 @@
    "acres": 0.112,
    "address": "1340 HARTLEY DR, LEANDER, TX  78641",
    "assessed": 365557,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-15",
    "extras": {
     "exterior": "STC",
@@ -1154,6 +2109,25 @@
    "year_built": 2025
   },
   {
+   "acres": 0.148,
+   "address": "633 SCHEFER ST, LEANDER, TX  78641",
+   "assessed": 394346,
+   "class": "A1",
+   "deed_date": "2026-05-13",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.583626,
+   "lon": -97.864913,
+   "sqft": 1920,
+   "value": 394346,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
+  {
    "acres": 0.064,
    "address": "376 BLUE OASIS LN, LEANDER, TX  78641",
    "assessed": 329880,
@@ -1175,7 +2149,7 @@
   {
    "acres": 0.285,
    "address": "232 CAMILLE ST, LEANDER, TX  78641",
-   "assessed": 711495,
+   "assessed": 677469,
    "class": "O1",
    "deed_date": "2026-05-13",
    "extras": {
@@ -1187,7 +2161,7 @@
    "lat": 30.567985,
    "lon": -97.880039,
    "sqft": 2642,
-   "value": 711495,
+   "value": 677469,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -1202,7 +2176,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.568454,
    "lon": -97.88092,
    "sqft": 2330,
@@ -1268,6 +2242,44 @@
    "year_built": 1997
   },
   {
+   "acres": 0.354,
+   "address": "506 TABLEROCK CIR, LEANDER, TX  78641",
+   "assessed": 458196,
+   "class": "B2",
+   "deed_date": "2026-05-11",
+   "extras": {
+    "exterior": "ST",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.570043,
+   "lon": -97.857799,
+   "sqft": 2301,
+   "value": 472108,
+   "value_kind": "market (WCAD)",
+   "year_built": 2000
+  },
+  {
+   "acres": 0.132,
+   "address": "525 CEREZO DR, LEANDER, TX  78641",
+   "assessed": 349235,
+   "class": "A1",
+   "deed_date": "2026-05-11",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.5652,
+   "lon": -97.872407,
+   "sqft": 1924,
+   "value": 349235,
+   "value_kind": "market (WCAD)",
+   "year_built": 2013
+  },
+  {
    "acres": 0.109,
    "address": "1400 WEATHERFORD LN, LEANDER, TX  78641",
    "assessed": 378773,
@@ -1327,7 +2339,7 @@
   {
    "acres": 0.3,
    "address": "1903 LONDONDERRY DR, LEANDER, TX  78641",
-   "assessed": 318339,
+   "assessed": 327879,
    "class": "A1",
    "deed_date": "2026-05-08",
    "extras": {
@@ -1339,7 +2351,7 @@
    "lat": 30.552767,
    "lon": -97.849482,
    "sqft": 1353,
-   "value": 318339,
+   "value": 327879,
    "value_kind": "market (WCAD)",
    "year_built": 1985
   },
@@ -1477,25 +2489,6 @@
    "year_built": 2019
   },
   {
-   "acres": 0.139,
-   "address": "420 MOUNTAIN SKY BND, LEANDER, TX  78641",
-   "assessed": 494006,
-   "class": "A1",
-   "deed_date": "2026-05-07",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.564514,
-   "lon": -97.88185,
-   "sqft": 2431,
-   "value": 494006,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
    "acres": 0.144,
    "address": "2009 OWASSO DR, LEANDER, TX  78641",
    "assessed": 419556,
@@ -1517,13 +2510,13 @@
   {
    "acres": 40.0,
    "address": "21924 NAMELESS 78641",
-   "assessed": 376000,
+   "assessed": 344824,
    "class": "C1",
    "deed_date": "2026-05-07",
    "homestead": false,
    "lat": 30.58185,
    "lon": -97.92732,
-   "value": 376000,
+   "value": 344824,
    "value_kind": "market (TCAD appraisal)"
   },
   {
@@ -1651,7 +2644,7 @@
     "foundation": "SLB",
     "roof": "GBL"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.552993,
    "lon": -97.846035,
    "sqft": 1279,
@@ -1864,7 +2857,7 @@
    "year_built": 2025
   },
   {
-   "acres": 0.179,
+   "acres": 0.156,
    "address": "1807 PARKWOOD DR, LEANDER, TX  78641",
    "assessed": 268702,
    "class": "A1",
@@ -1874,9 +2867,9 @@
     "foundation": "SLB",
     "roof": "HP"
    },
-   "homestead": false,
-   "lat": 30.551168,
-   "lon": -97.860683,
+   "homestead": true,
+   "lat": 30.551155,
+   "lon": -97.86067,
    "sqft": 612,
    "value": 268702,
    "value_kind": "market (WCAD)",
@@ -1976,6 +2969,25 @@
    "value": 385551,
    "value_kind": "market (WCAD)",
    "year_built": 2014
+  },
+  {
+   "acres": null,
+   "address": "518 MESA OAKS 78641",
+   "assessed": 1105029,
+   "class": "A1",
+   "deed_date": "2026-04-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.568098,
+   "lon": -97.927609,
+   "sqft": 3101,
+   "value": 1105029,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2018
   },
   {
    "acres": 0.322,
@@ -2121,7 +3133,7 @@
    "acres": 0.159,
    "address": "2309 SPOKANE DR, LEANDER, TX  78641",
    "assessed": 171750,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-24",
    "extras": {
     "exterior": "BRICK",
@@ -2479,7 +3491,7 @@
    "year_built": 2025
   },
   {
-   "acres": 0.245,
+   "acres": 0.234,
    "address": "837 EAGLES WAY, LEANDER, TX  78641",
    "assessed": 285876,
    "class": "A1",
@@ -2490,8 +3502,8 @@
     "roof": "GBL"
    },
    "homestead": true,
-   "lat": 30.565861,
-   "lon": -97.861891,
+   "lat": 30.565794,
+   "lon": -97.862001,
    "sqft": 1124,
    "value": 285876,
    "value_kind": "market (WCAD)",
@@ -2850,7 +3862,7 @@
   {
    "acres": 0.163,
    "address": "228 SANGIOVESE ST, LEANDER, TX  78641",
-   "assessed": 439639,
+   "assessed": 428289,
    "class": "A1",
    "deed_date": "2026-03-31",
    "extras": {
@@ -2862,7 +3874,7 @@
    "lat": 30.569758,
    "lon": -97.873076,
    "sqft": 2080,
-   "value": 439639,
+   "value": 428289,
    "value_kind": "market (WCAD)",
    "year_built": 2016
   },
@@ -2870,7 +3882,7 @@
    "acres": 0.13,
    "address": "748 BOISE DR, LEANDER, TX  78641",
    "assessed": 439659,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-31",
    "extras": {
     "exterior": "BRICK",
@@ -2927,7 +3939,7 @@
    "acres": 0.168,
    "address": "1944 LAZY ACRES ST, LEANDER, TX  78641",
    "assessed": 485508,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-30",
    "extras": {
     "exterior": "BRICK",
@@ -3117,7 +4129,7 @@
    "acres": 0.13,
    "address": "800 BOISE DR, LEANDER, TX  78641",
    "assessed": 470694,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
     "exterior": "BRICK",
@@ -3169,7 +4181,7 @@
   {
    "acres": 0.165,
    "address": "1725 SAUTERNE DR, LEANDER, TX  78641",
-   "assessed": 742740,
+   "assessed": 725164,
    "class": "O1",
    "deed_date": "2026-03-24",
    "extras": {
@@ -3181,7 +4193,7 @@
    "lat": 30.569695,
    "lon": -97.878883,
    "sqft": 2501,
-   "value": 742740,
+   "value": 725164,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -3196,7 +4208,7 @@
     "foundation": "SLB",
     "roof": "HP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.553127,
    "lon": -97.850726,
    "sqft": 1189,
@@ -3353,7 +4365,7 @@
    "acres": 0.136,
    "address": "808 BOISE DR, LEANDER, TX  78641",
    "assessed": 392695,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-18",
    "extras": {
     "exterior": "WS",
@@ -3454,7 +4466,7 @@
   {
    "acres": 0.102,
    "address": "202 BRUSHY ST, LEANDER, TX  78641",
-   "assessed": 202849,
+   "assessed": 188087,
    "class": "F1",
    "deed_date": "2026-03-16",
    "extras": {
@@ -3466,7 +4478,7 @@
    "lat": 30.579635,
    "lon": -97.854214,
    "sqft": 660,
-   "value": 202849,
+   "value": 188087,
    "value_kind": "market (WCAD)",
    "year_built": 1988
   },
@@ -3512,7 +4524,7 @@
    "acres": 0.135,
    "address": "804 BOISE DR, LEANDER, TX  78641",
    "assessed": 450014,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-16",
    "extras": {
     "exterior": "BRICK",
@@ -3530,7 +4542,7 @@
   {
    "acres": 0.166,
    "address": "1940 LAZY ACRES ST, LEANDER, TX  78641",
-   "assessed": 494193,
+   "assessed": 467430,
    "class": "O1",
    "deed_date": "2026-03-16",
    "extras": {
@@ -3542,14 +4554,14 @@
    "lat": 30.561036,
    "lon": -97.879252,
    "sqft": 1709,
-   "value": 494193,
+   "value": 467430,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
   {
    "acres": 0.199,
    "address": "105 WILLIS ST, LEANDER, TX  78641",
-   "assessed": 790062,
+   "assessed": 716323,
    "class": "F1",
    "deed_date": "2026-03-16",
    "extras": {
@@ -3561,7 +4573,7 @@
    "lat": 30.579562,
    "lon": -97.85408,
    "sqft": 3656,
-   "value": 801441,
+   "value": 716323,
    "value_kind": "market (WCAD)",
    "year_built": 1972
   },
@@ -3683,7 +4695,7 @@
    "acres": 0.111,
    "address": "1400 HARTLEY DR, LEANDER, TX  78641",
    "assessed": 424409,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-12",
    "extras": {
     "exterior": "BRICK",
@@ -3751,7 +4763,7 @@
    "acres": 0.159,
    "address": "1916 CROOKED CREEK ST, LEANDER, TX  78641",
    "assessed": 450764,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-11",
    "extras": {
     "exterior": "BRICK",
@@ -3898,7 +4910,7 @@
   {
    "acres": 0.165,
    "address": "2101 SOUTHCREEK DR, LEANDER, TX  78641",
-   "assessed": 490629,
+   "assessed": 490320,
    "class": "A1",
    "deed_date": "2026-03-04",
    "extras": {
@@ -3910,7 +4922,7 @@
    "lat": 30.573837,
    "lon": -97.884007,
    "sqft": 2167,
-   "value": 490629,
+   "value": 490320,
    "value_kind": "market (WCAD)",
    "year_built": 2015
   },
@@ -3953,7 +4965,7 @@
    "year_built": 2006
   },
   {
-   "acres": 0.252,
+   "acres": 0.249,
    "address": "1401 DEEPWOODS TRL, LEANDER, TX  78641",
    "assessed": 307845,
    "class": "A1",
@@ -3964,8 +4976,8 @@
     "roof": "HP"
    },
    "homestead": true,
-   "lat": 30.55036,
-   "lon": -97.86059,
+   "lat": 30.550357,
+   "lon": -97.86058,
    "sqft": 812,
    "value": 307845,
    "value_kind": "market (WCAD)",
@@ -4126,8 +5138,8 @@
   {
    "acres": 0.111,
    "address": "1348 HARTLEY DR, LEANDER, TX  78641",
-   "assessed": 421979,
-   "class": "O1",
+   "assessed": 362080,
+   "class": "A1",
    "deed_date": "2026-03-02",
    "extras": {
     "exterior": "BRICK",
@@ -4138,7 +5150,7 @@
    "lat": 30.583735,
    "lon": -97.87778,
    "sqft": 1880,
-   "value": 421979,
+   "value": 362080,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -4313,7 +5325,7 @@
    "acres": 0.178,
    "address": "1913 CROOKED CREEK ST, LEANDER, TX  78641",
    "assessed": 488337,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-27",
    "extras": {
     "exterior": "BRICK",
@@ -4350,7 +5362,7 @@
   {
    "acres": 0.176,
    "address": "912 MISTY BLUFF WAY, LEANDER, TX  78641",
-   "assessed": 538908,
+   "assessed": 517092,
    "class": "A1",
    "deed_date": "2026-02-26",
    "extras": {
@@ -4362,7 +5374,7 @@
    "lat": 30.581175,
    "lon": -97.885699,
    "sqft": 2410,
-   "value": 538908,
+   "value": 517092,
    "value_kind": "market (WCAD)",
    "year_built": 2024
   },
@@ -4426,7 +5438,7 @@
   {
    "acres": 0.172,
    "address": "512 LANDING LN, LEANDER, TX  78641",
-   "assessed": 495552,
+   "assessed": 472337,
    "class": "A1",
    "deed_date": "2026-02-25",
    "extras": {
@@ -4438,7 +5450,7 @@
    "lat": 30.575161,
    "lon": -97.886311,
    "sqft": 2205,
-   "value": 495552,
+   "value": 472337,
    "value_kind": "market (WCAD)",
    "year_built": 2021
   },
@@ -4777,7 +5789,7 @@
    "acres": 0.158,
    "address": "1920 CROOKED CREEK ST, LEANDER, TX  78641",
    "assessed": 431187,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-18",
    "extras": {
     "exterior": "BRICK",
@@ -4872,7 +5884,7 @@
    "acres": 0.148,
    "address": "2009 LAZY ACRES ST, LEANDER, TX  78641",
    "assessed": 470000,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-16",
    "extras": {
     "exterior": "BRICK",
@@ -5099,7 +6111,7 @@
   {
    "acres": 43.16,
    "address": "22651 NAMELESS LEANDER 78641",
-   "assessed": 755703,
+   "assessed": 700000,
    "class": "A1",
    "deed_date": "2026-02-11",
    "extras": {
@@ -5111,7 +6123,7 @@
    "lat": 30.57043,
    "lon": -97.94169,
    "sqft": 2866,
-   "value": 755703,
+   "value": 700000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
   },
@@ -5173,6 +6185,25 @@
    "year_built": 2016
   },
   {
+   "acres": null,
+   "address": "4141 CRYSTAL MESA 78641",
+   "assessed": 1024512,
+   "class": "A1",
+   "deed_date": "2026-02-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.561064,
+   "lon": -97.916985,
+   "sqft": 3640,
+   "value": 1024512,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2020
+  },
+  {
    "acres": 0.208,
    "address": "821 PAPER DAISY PATH, LEANDER, TX  78641",
    "assessed": 479709,
@@ -5194,7 +6225,7 @@
   {
    "acres": 0.155,
    "address": "1921 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 118800,
+   "assessed": 490512,
    "class": "A1",
    "deed_date": "2026-02-09",
    "extras": {
@@ -5206,7 +6237,7 @@
    "lat": 30.565399,
    "lon": -97.88028,
    "sqft": 2431,
-   "value": 492088,
+   "value": 490512,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -5327,7 +6358,7 @@
   {
    "acres": 0.163,
    "address": "1917 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 118800,
+   "assessed": 472866,
    "class": "O1",
    "deed_date": "2026-02-04",
    "extras": {
@@ -5347,7 +6378,7 @@
    "acres": 0.203,
    "address": "509 PRAIRIE WIND DR, LEANDER, TX  78641",
    "assessed": 531389,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-04",
    "extras": {
     "exterior": "BRICK",
@@ -5573,7 +6604,7 @@
   {
    "acres": 0.166,
    "address": "604 CAMINO ALTO DR, LEANDER, TX  78641",
-   "assessed": 291292,
+   "assessed": 244492,
    "class": "A1",
    "deed_date": "2026-01-28",
    "extras": {
@@ -5585,7 +6616,7 @@
    "lat": 30.585553,
    "lon": -97.866809,
    "sqft": 1258,
-   "value": 291292,
+   "value": 244492,
    "value_kind": "market (WCAD)",
    "year_built": 2002
   },
@@ -5630,7 +6661,7 @@
   {
    "acres": 0.146,
    "address": "1933 LAZY ACRES ST, LEANDER, TX  78641",
-   "assessed": 420281,
+   "assessed": 371831,
    "class": "A1",
    "deed_date": "2026-01-28",
    "extras": {
@@ -5642,7 +6673,7 @@
    "lat": 30.561562,
    "lon": -97.879266,
    "sqft": 1839,
-   "value": 420281,
+   "value": 371831,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -5856,7 +6887,7 @@
    "year_built": 2025
   },
   {
-   "acres": 0.258,
+   "acres": 0.252,
    "address": "1302 MULEDEER RUN, LEANDER, TX  78641",
    "assessed": 551360,
    "class": "A1",
@@ -5867,8 +6898,8 @@
     "roof": "HP"
    },
    "homestead": true,
-   "lat": 30.549373,
-   "lon": -97.859294,
+   "lat": 30.549379,
+   "lon": -97.859272,
    "sqft": 2017,
    "value": 551360,
    "value_kind": "market (WCAD)",
@@ -6008,7 +7039,7 @@
    "year_built": 2024
   },
   {
-   "acres": 0.192,
+   "acres": 0.194,
    "address": "1800 COLUMBINE LN, LEANDER, TX  78641",
    "assessed": 344825,
    "class": "A1",
@@ -6019,8 +7050,8 @@
     "roof": "HP"
    },
    "homestead": false,
-   "lat": 30.550446,
-   "lon": -97.861938,
+   "lat": 30.550448,
+   "lon": -97.861936,
    "sqft": 1514,
    "value": 344825,
    "value_kind": "market (WCAD)",
@@ -6845,7 +7876,7 @@
   {
    "acres": 76.5,
    "address": "15100 HEDDER LEANDER 78641",
-   "assessed": 812963,
+   "assessed": 400000,
    "class": "A1",
    "deed_date": "2025-12-23",
    "extras": {
@@ -6857,7 +7888,7 @@
    "lat": 30.558605,
    "lon": -97.898489,
    "sqft": 2523,
-   "value": 812963,
+   "value": 400000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1994
   },
@@ -7318,7 +8349,7 @@
   {
    "acres": 0.165,
    "address": "704 CLEAR SPRING LN, LEANDER, TX  78641",
-   "assessed": 438569,
+   "assessed": 412001,
    "class": "A1",
    "deed_date": "2025-12-11",
    "extras": {},
@@ -7326,7 +8357,7 @@
    "lat": 30.577501,
    "lon": -97.881546,
    "sqft": 1853,
-   "value": 438569,
+   "value": 412001,
    "value_kind": "market (WCAD)",
    "year_built": 2020
   },
@@ -7755,7 +8786,7 @@
   {
    "acres": 60.3,
    "address": "15301 HERO WAY WEST 78641",
-   "assessed": 750080,
+   "assessed": 656695,
    "class": "A1",
    "deed_date": "2025-12-04",
    "extras": {
@@ -7766,7 +8797,7 @@
    "lat": 30.577422,
    "lon": -97.923051,
    "sqft": 2001,
-   "value": 750080,
+   "value": 656695,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1987
   },
@@ -7906,7 +8937,7 @@
   {
    "acres": 0.189,
    "address": "1105 MADRONE TRL, LEANDER, TX  78641",
-   "assessed": 338879,
+   "assessed": 316479,
    "class": "A1",
    "deed_date": "2025-11-26",
    "extras": {
@@ -7918,7 +8949,7 @@
    "lat": 30.55245,
    "lon": -97.857614,
    "sqft": 1419,
-   "value": 338879,
+   "value": 316479,
    "value_kind": "market (WCAD)",
    "year_built": 1997
   },
@@ -9038,7 +10069,7 @@
   {
    "acres": 3.838,
    "address": "1280 S BAGDAD RD, LEANDER, TX  78641",
-   "assessed": 2224189,
+   "assessed": 1500000,
    "class": "F1",
    "deed_date": "2025-11-03",
    "extras": {
@@ -9050,7 +10081,7 @@
    "lat": 30.558018,
    "lon": -97.859266,
    "sqft": 1004,
-   "value": 2224189,
+   "value": 1500000,
    "value_kind": "market (WCAD)",
    "year_built": 1950
   },
@@ -9061,9 +10092,9 @@
    "class": "XV",
    "deed_date": "2025-10-31",
    "extras": {
-    "exterior": "M",
+    "exterior": "WD",
     "foundation": "SLB",
-    "roof": "MX"
+    "roof": "GBL"
    },
    "homestead": false,
    "lat": 30.578247,
@@ -9095,7 +10126,7 @@
   {
    "acres": 0.105,
    "address": "1213 HAWK FEATHER TRL, LEANDER, TX  78641",
-   "assessed": 369727,
+   "assessed": 363072,
    "class": "A8",
    "deed_date": "2025-10-30",
    "extras": {
@@ -9107,7 +10138,7 @@
    "lat": 30.560306,
    "lon": -97.85472,
    "sqft": 878,
-   "value": 369727,
+   "value": 363072,
    "value_kind": "market (WCAD)",
    "year_built": 2018
   },
@@ -9378,25 +10409,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.164,
-   "address": "407 RED HAWK DR, LEANDER, TX  78641",
-   "assessed": 394469,
-   "class": "A1",
-   "deed_date": "2025-10-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.564083,
-   "lon": -97.875897,
-   "sqft": 2494,
-   "value": 394469,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
    "acres": 0.162,
    "address": "1508 PINOT NOIR ST, LEANDER, TX  78641",
    "assessed": 549224,
@@ -9622,4525 +10634,26 @@
    "value": 399324,
    "value_kind": "market (WCAD)",
    "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "904 HONEYSUCKLE DR, LEANDER, TX  78641",
-   "assessed": 339349,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.560218,
-   "lon": -97.859204,
-   "sqft": 1535,
-   "value": 339349,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.132,
-   "address": "245 TULUM TER, LEANDER, TX  78641",
-   "assessed": 399632,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.596592,
-   "lon": -97.86343,
-   "sqft": 1593,
-   "value": 399632,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.132,
-   "address": "1340 EAGLE RAY ST, LEANDER, TX  78641",
-   "assessed": 338871,
-   "class": "A1",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.595372,
-   "lon": -97.86267,
-   "sqft": 1698,
-   "value": 338871,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.244,
-   "address": "2125 COTTON FARM TRL, LEANDER, TX  78641",
-   "assessed": 630366,
-   "class": "A1",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.556314,
-   "lon": -97.879769,
-   "sqft": 3043,
-   "value": 630366,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.303,
-   "address": "1101 WINECUP CT, LEANDER, TX  78641",
-   "assessed": 312408,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.56123,
-   "lon": -97.859307,
-   "sqft": 909,
-   "value": 312408,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.223,
-   "address": "1828 BARANCO WAY, LEANDER, TX  78641",
-   "assessed": 356277,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.564704,
-   "lon": -97.876939,
-   "sqft": 2036,
-   "value": 356277,
-   "value_kind": "market (WCAD)",
-   "year_built": 2010
-  },
-  {
-   "acres": 0.143,
-   "address": "604 LONGHORN CAVERN RD, LEANDER, TX  78641",
-   "assessed": 418554,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.586016,
-   "lon": -97.864978,
-   "sqft": 2175,
-   "value": 418554,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.165,
-   "address": "332 CANADIAN SPRINGS DR, LEANDER, TX  78641",
-   "assessed": 338919,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.587768,
-   "lon": -97.86123,
-   "sqft": 1707,
-   "value": 338919,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.166,
-   "address": "1304 EAGLE RIDGE TRL, LEANDER, TX  78641",
-   "assessed": 385302,
-   "class": "A8",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.559062,
-   "lon": -97.855408,
-   "sqft": 1661,
-   "value": 385302,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.111,
-   "address": "1328 HARTLEY DR, LEANDER, TX  78641",
-   "assessed": 516752,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583924,
-   "lon": -97.877166,
-   "sqft": 1634,
-   "value": 516752,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.168,
-   "address": "1936 LAZY ACRES ST, LEANDER, TX  78641",
-   "assessed": 422039,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.561085,
-   "lon": -97.879102,
-   "sqft": 2057,
-   "value": 422039,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.18,
-   "address": "1812 CAMAY ST, LEANDER, TX  78641",
-   "assessed": 279058,
-   "class": "O1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.568057,
-   "lon": -97.879337,
-   "sqft": 2359,
-   "value": 279058,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "817 CHOYA TRL, LEANDER, TX  78641",
-   "assessed": 341594,
-   "class": "A8",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.559896,
-   "lon": -97.859158,
-   "sqft": 1726,
-   "value": 341594,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.132,
-   "address": "841 BEAVERTON DR, LEANDER, TX  78641",
-   "assessed": 438921,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.557979,
-   "lon": -97.88088,
-   "sqft": 1518,
-   "value": 438921,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.343,
-   "address": "1909 IRELAND DR, LEANDER, TX  78641",
-   "assessed": 347362,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.550285,
-   "lon": -97.852579,
-   "sqft": 1695,
-   "value": 347362,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.366,
-   "address": "607 COUNTY CORK LN, LEANDER, TX  78641",
-   "assessed": 370744,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.548423,
-   "lon": -97.849728,
-   "sqft": 1350,
-   "value": 370744,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.17,
-   "address": "720 NORTH CREEK BLVD, LEANDER, TX  78641",
-   "assessed": 345581,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.581268,
-   "lon": -97.868189,
-   "sqft": 1195,
-   "value": 345581,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.251,
-   "address": "201 KATHERINE WAY, LEANDER, TX  78641",
-   "assessed": 362478,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.572917,
-   "lon": -97.865999,
-   "sqft": 2192,
-   "value": 362478,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.18,
-   "address": "2009 RIM ROCK DR, LEANDER, TX  78641",
-   "assessed": 330447,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.571404,
-   "lon": -97.882282,
-   "sqft": 982,
-   "value": 330447,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.161,
-   "address": "624 JOPPA RD, LEANDER, TX  78641",
-   "assessed": 357528,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.58451,
-   "lon": -97.860365,
-   "sqft": 1650,
-   "value": 357528,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.141,
-   "address": "609 JOPPA RD, LEANDER, TX  78641",
-   "assessed": 417355,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584166,
-   "lon": -97.86103,
-   "sqft": 1873,
-   "value": 417355,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.165,
-   "address": "728 LANDING LN, LEANDER, TX  78641",
-   "assessed": 555659,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.578624,
-   "lon": -97.887617,
-   "sqft": 2514,
-   "value": 555659,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.169,
-   "address": "1520 PARKWOOD DR, LEANDER, TX  78641",
-   "assessed": 264900,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.554509,
-   "lon": -97.859435,
-   "sqft": 1293,
-   "value": 264900,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.215,
-   "address": "1107 VERBENA CT, LEANDER, TX  78641",
-   "assessed": 320980,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.560394,
-   "lon": -97.860042,
-   "sqft": 1660,
-   "value": 320980,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.087,
-   "address": "205 MICHAELIS DR, LEANDER, TX  78641",
-   "assessed": 299085,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.580984,
-   "lon": -97.850799,
-   "sqft": 1537,
-   "value": 299085,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.422,
-   "address": "908 GLASS DR, LEANDER, TX  78641",
-   "assessed": 271007,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "AS",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.565557,
-   "lon": -97.850219,
-   "sqft": 1056,
-   "value": 271007,
-   "value_kind": "market (WCAD)",
-   "year_built": 1970
-  },
-  {
-   "acres": 0.312,
-   "address": "2124 COTTON FARM TRL, LEANDER, TX  78641",
-   "assessed": 757105,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.555726,
-   "lon": -97.880218,
-   "sqft": 2302,
-   "value": 757105,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.165,
-   "address": "428 MOUNTAIN SKY BND, LEANDER, TX  78641",
-   "assessed": 507200,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.564243,
-   "lon": -97.881736,
-   "sqft": 2430,
-   "value": 507200,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.165,
-   "address": "925 OLD GARDEN RD, LEANDER, TX  78641",
-   "assessed": 669424,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.58122,
-   "lon": -97.888282,
-   "sqft": 2454,
-   "value": 669424,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.169,
-   "address": "920 OLD GARDEN RD, LEANDER, TX  78641",
-   "assessed": 598109,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.581222,
-   "lon": -97.887705,
-   "sqft": 1968,
-   "value": 598109,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "916 MISTY BLUFF WAY, LEANDER, TX  78641",
-   "assessed": 568837,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.581342,
-   "lon": -97.885768,
-   "sqft": 2651,
-   "value": 568837,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.44,
-   "address": "905 BONITA VERDE DR, LEANDER, TX  78641",
-   "assessed": 633058,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.55604,
-   "lon": -97.856129,
-   "sqft": 2118,
-   "value": 650732,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.231,
-   "address": "1601 MULEDEER RUN, LEANDER, TX  78641",
-   "assessed": 377577,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.548909,
-   "lon": -97.862476,
-   "sqft": 1899,
-   "value": 377577,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.184,
-   "address": "1221 BRENHAM LN, LEANDER, TX  78641",
-   "assessed": 538627,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.554853,
-   "lon": -97.872247,
-   "sqft": 1389,
-   "value": 538627,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.17,
-   "address": "929 LANDING LN, LEANDER, TX  78641",
-   "assessed": 585617,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.581102,
-   "lon": -97.889217,
-   "sqft": 1913,
-   "value": 585617,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.111,
-   "address": "1405 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 510904,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583316,
-   "lon": -97.878022,
-   "sqft": 1610,
-   "value": 510904,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.111,
-   "address": "1420 HARTLEY DR, LEANDER, TX  78641",
-   "assessed": 406603,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583509,
-   "lon": -97.878517,
-   "sqft": 1754,
-   "value": 406603,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.167,
-   "address": "2004 LAZY ACRES ST, LEANDER, TX  78641",
-   "assessed": 527513,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.560938,
-   "lon": -97.879553,
-   "sqft": 1842,
-   "value": 527513,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.151,
-   "address": "2114 COTTONTAIL DR, LEANDER, TX  78641",
-   "assessed": 348473,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.568544,
-   "lon": -97.883755,
-   "sqft": 1146,
-   "value": 348473,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.146,
-   "address": "1129 SWAN FLOWER ST, LEANDER, TX  78641",
-   "assessed": 318606,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.590218,
-   "lon": -97.867847,
-   "sqft": 1487,
-   "value": 318606,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.31,
-   "address": "2121 SPOKANE DR, LEANDER, TX  78641",
-   "assessed": 505582,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.560001,
-   "lon": -97.881265,
-   "sqft": 1945,
-   "value": 505582,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.172,
-   "address": "1800 SAUTERNE DR, LEANDER, TX  78641",
-   "assessed": 743055,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569092,
-   "lon": -97.879264,
-   "sqft": 2505,
-   "value": 743055,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.114,
-   "address": "1316 HARTLEY DR, LEANDER, TX  78641",
-   "assessed": 404028,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584041,
-   "lon": -97.876799,
-   "sqft": 1733,
-   "value": 404028,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.165,
-   "address": "1824 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 562281,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.56613,
-   "lon": -97.878791,
-   "sqft": 1652,
-   "value": 562281,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.158,
-   "address": "1848 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 492149,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.565814,
-   "lon": -97.879359,
-   "sqft": 1723,
-   "value": 492149,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.414,
-   "address": "807 LACY DR, LEANDER, TX  78641",
-   "assessed": 213198,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "AS",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.567274,
-   "lon": -97.850296,
-   "sqft": 1152,
-   "value": 213198,
-   "value_kind": "market (WCAD)",
-   "year_built": 1970
-  },
-  {
-   "acres": 0.087,
-   "address": "837 MICA LN, LEANDER, TX  78641",
-   "assessed": 297265,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.5651,
-   "lon": -97.861516,
-   "sqft": 803,
-   "value": 297265,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.171,
-   "address": "1510 CANDLELIGHT DR, LEANDER, TX  78641",
-   "assessed": 347011,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.572494,
-   "lon": -97.874867,
-   "sqft": 1128,
-   "value": 347011,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.164,
-   "address": "2017 WOODWAY DR, LEANDER, TX  78641",
-   "assessed": 346744,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.572634,
-   "lon": -97.883602,
-   "sqft": 948,
-   "value": 346744,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": 0.165,
-   "address": "1917 LAZY GROVE BND, LEANDER, TX  78641",
-   "assessed": 668520,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582019,
-   "lon": -97.886225,
-   "sqft": 2253,
-   "value": 668520,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.163,
-   "address": "1936 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 552163,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.564861,
-   "lon": -97.879846,
-   "sqft": 1982,
-   "value": 552163,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.748,
-   "address": "1304 EAGLES WAY, LEANDER, TX  78641",
-   "assessed": 255134,
-   "class": "A2",
-   "deed_date": "2025-09-25",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.562798,
-   "lon": -97.867729,
-   "sqft": 1512,
-   "value": 255134,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.194,
-   "address": "812 LANTANA DR, LEANDER, TX  78641",
-   "assessed": 312285,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.563254,
-   "lon": -97.86007,
-   "sqft": 1548,
-   "value": 312285,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.108,
-   "address": "1404 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 516751,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.582885,
-   "lon": -97.877845,
-   "sqft": 1620,
-   "value": 516751,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.173,
-   "address": "1604 RIO BRAVO LP, LEANDER, TX  78641",
-   "assessed": 282032,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.581575,
-   "lon": -97.878841,
-   "sqft": 1036,
-   "value": 282032,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.234,
-   "address": "1620 SNYDER TRL, LEANDER, TX  78641",
-   "assessed": 705969,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.552444,
-   "lon": -97.870264,
-   "sqft": 2313,
-   "value": 705969,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.122,
-   "address": "829 CORVALLIS DR, LEANDER, TX  78641",
-   "assessed": 502803,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.557763,
-   "lon": -97.882887,
-   "sqft": 1945,
-   "value": 502803,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.166,
-   "address": "1111 WHITLEY DR, LEANDER, TX  78641",
-   "assessed": 318244,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.587179,
-   "lon": -97.873155,
-   "sqft": 1682,
-   "value": 318244,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.137,
-   "address": "500 MISTFLOWER SPRINGS DR, LEANDER, TX  78641",
-   "assessed": 392903,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.59238,
-   "lon": -97.865562,
-   "sqft": 2184,
-   "value": 392903,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.227,
-   "address": "536 MIDDLE BROOK DR, LEANDER, TX  78641",
-   "assessed": 599773,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.589901,
-   "lon": -97.869661,
-   "sqft": 2192,
-   "value": 599773,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 40.73,
-   "address": "14612 HONEYCOMB 78641",
-   "assessed": 381673,
-   "class": "C1",
-   "deed_date": "2025-09-22",
-   "homestead": false,
-   "lat": 30.571542,
-   "lon": -97.938445,
-   "value": 381673,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 0.089,
-   "address": "830 EAGLES WAY, LEANDER, TX  78641",
-   "assessed": 252149,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.565516,
-   "lon": -97.861392,
-   "sqft": 1073,
-   "value": 252149,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.187,
-   "address": "405 RAN RD, LEANDER, TX  78641",
-   "assessed": 346990,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.571926,
-   "lon": -97.88606,
-   "sqft": 2350,
-   "value": 346990,
-   "value_kind": "market (WCAD)",
-   "year_built": 2010
-  },
-  {
-   "acres": 0.162,
-   "address": "917 RANCHERO RD, LEANDER, TX  78641",
-   "assessed": 344538,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.582628,
-   "lon": -97.872673,
-   "sqft": 884,
-   "value": 344538,
-   "value_kind": "market (WCAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": 0.111,
-   "address": "1417 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 405001,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583204,
-   "lon": -97.878391,
-   "sqft": 1733,
-   "value": 405001,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.158,
-   "address": "1852 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 434003,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.565704,
-   "lon": -97.879489,
-   "sqft": 2062,
-   "value": 434003,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.168,
-   "address": "601 RANCHERO RD, LEANDER, TX  78641",
-   "assessed": 312418,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.584553,
-   "lon": -97.866181,
-   "sqft": 1235,
-   "value": 312418,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.162,
-   "address": "232 MANDANA ST, LEANDER, TX  78641",
-   "assessed": 430141,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569328,
-   "lon": -97.873872,
-   "sqft": 2052,
-   "value": 430141,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.174,
-   "address": "1129 HEMLEN CV, LEANDER, TX  78641",
-   "assessed": 360237,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.555232,
-   "lon": -97.875359,
-   "sqft": 1560,
-   "value": 360237,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.129,
-   "address": "744 BEAVERTON DR, LEANDER, TX  78641",
-   "assessed": 413882,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.55965,
-   "lon": -97.881082,
-   "sqft": 836,
-   "value": 413882,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.063,
-   "address": "348 AQUA SPRINGS ALY, LEANDER, TX  78641",
-   "assessed": 362796,
-   "class": "A8",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.573677,
-   "lon": -97.878553,
-   "sqft": 991,
-   "value": 362796,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.166,
-   "address": "1801 BENT OAK CV, LEANDER, TX  78641",
-   "assessed": 323188,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.551814,
-   "lon": -97.858415,
-   "sqft": 990,
-   "value": 323188,
-   "value_kind": "market (WCAD)",
-   "year_built": 1987
-  },
-  {
-   "acres": 0.269,
-   "address": "1709 SNYDER TRL, LEANDER, TX  78641",
-   "assessed": 662470,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.552703,
-   "lon": -97.871379,
-   "sqft": 2924,
-   "value": 662470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.256,
-   "address": "1225 SAMPLEY LN, LEANDER, TX  78641",
-   "assessed": 454143,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.554497,
-   "lon": -97.872991,
-   "sqft": 2409,
-   "value": 454143,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.413,
-   "address": "1312 BACKCOUNTRY DR, LEANDER, TX  78641",
-   "assessed": 623424,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.556838,
-   "lon": -97.866281,
-   "sqft": 1399,
-   "value": 623424,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.169,
-   "address": "913 LANDING LN, LEANDER, TX  78641",
-   "assessed": 569971,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.580479,
-   "lon": -97.888958,
-   "sqft": 1914,
-   "value": 569971,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.167,
-   "address": "1406 RIO BRAVO LOOP, LEANDER, TX  78641",
-   "assessed": 295910,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.582025,
-   "lon": -97.877404,
-   "sqft": 1366,
-   "value": 295910,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.147,
-   "address": "2105 WOODWAY DR, LEANDER, TX  78641",
-   "assessed": 299994,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.572416,
-   "lon": -97.884298,
-   "sqft": 1664,
-   "value": 299994,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.127,
-   "address": "617 LONGHORN CAVERN RD, LEANDER, TX  78641",
-   "assessed": 447792,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.586387,
-   "lon": -97.865669,
-   "sqft": 1196,
-   "value": 447792,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.139,
-   "address": "1837 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 424053,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.566338,
-   "lon": -97.879417,
-   "sqft": 1860,
-   "value": 424053,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.164,
-   "address": "401 LANDING LN, LEANDER, TX  78641",
-   "assessed": 483738,
-   "class": "A1",
-   "deed_date": "2025-09-14",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.573302,
-   "lon": -97.886129,
-   "sqft": 2204,
-   "value": 483738,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.171,
-   "address": "510 SUNNY BROOK DR, LEANDER, TX  78641",
-   "assessed": 333801,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "SW",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.575099,
-   "lon": -97.8825,
-   "sqft": 1792,
-   "value": 333801,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.173,
-   "address": "808 NORTH CREEK BLVD, LEANDER, TX  78641",
-   "assessed": 319530,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.580986,
-   "lon": -97.869087,
-   "sqft": 1655,
-   "value": 319530,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.108,
-   "address": "1352 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 516752,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582961,
-   "lon": -97.8776,
-   "sqft": 1634,
-   "value": 516752,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.166,
-   "address": "613 LOS ROBLES RD, LEANDER, TX  78641",
-   "assessed": 332726,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.584966,
-   "lon": -97.867577,
-   "sqft": 1745,
-   "value": 332726,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.163,
-   "address": "916 WHITLEY DR, LEANDER, TX  78641",
-   "assessed": 312032,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.584716,
-   "lon": -97.871818,
-   "sqft": 2022,
-   "value": 312032,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.162,
-   "address": "803 RANCHERO RD, LEANDER, TX  78641",
-   "assessed": 290018,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.583585,
-   "lon": -97.869628,
-   "sqft": 1304,
-   "value": 290018,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.166,
-   "address": "1102 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 284637,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.583848,
-   "lon": -97.87501,
-   "sqft": 1380,
-   "value": 284637,
-   "value_kind": "market (WCAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": 0.112,
-   "address": "1413 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 509298,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583241,
-   "lon": -97.878268,
-   "sqft": 1746,
-   "value": 509298,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.214,
-   "address": "407 BENT WOOD DR, LEANDER, TX  78641",
-   "assessed": 241416,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.570508,
-   "lon": -97.862219,
-   "sqft": 976,
-   "value": 241416,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.184,
-   "address": "909 MIDDLE BROOK DR, LEANDER, TX  78641",
-   "assessed": 322097,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.588287,
-   "lon": -97.874978,
-   "sqft": 1105,
-   "value": 322097,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.319,
-   "address": "1803 MONTANA CT, LEANDER, TX  78641",
-   "assessed": 372159,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.564289,
-   "lon": -97.876504,
-   "sqft": 2007,
-   "value": 372159,
-   "value_kind": "market (WCAD)",
-   "year_built": 2010
-  },
-  {
-   "acres": 0.17,
-   "address": "300 BANNER AVE, LEANDER, TX  78641",
-   "assessed": 312264,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.573041,
-   "lon": -97.862424,
-   "sqft": 1722,
-   "value": 312264,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.218,
-   "address": "1541 BURR PKWY, LEANDER, TX  78641",
-   "assessed": 685169,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.553348,
-   "lon": -97.869036,
-   "sqft": 1977,
-   "value": 685169,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.179,
-   "address": "1501 RIO BRAVO LOOP, LEANDER, TX  78641",
-   "assessed": 266126,
-   "class": "A1",
-   "deed_date": "2025-09-07",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.582313,
-   "lon": -97.878113,
-   "sqft": 1112,
-   "value": 266126,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.134,
-   "address": "1812 STINNETT DR, LEANDER, TX  78641",
-   "assessed": 503547,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.557228,
-   "lon": -97.875046,
-   "sqft": 1584,
-   "value": 503547,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.223,
-   "address": "2224 DEVINE LAKE BND, LEANDER, TX  78641",
-   "assessed": 448969,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.58795,
-   "lon": -97.891471,
-   "sqft": 1849,
-   "value": 448969,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 40.0,
-   "address": "115 MESA OAKS LEANDER 78641",
-   "assessed": 767341,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.561581,
-   "lon": -97.918633,
-   "sqft": 2339,
-   "value": 767341,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1992
-  },
-  {
-   "acres": 0.211,
-   "address": "1116 BRENHAM LN, LEANDER, TX  78641",
-   "assessed": 522766,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.555978,
-   "lon": -97.871075,
-   "sqft": 1335,
-   "value": 522766,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.18,
-   "address": "2248 DEVINE LAKE BND, LEANDER, TX  78641",
-   "assessed": 447167,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.587932,
-   "lon": -97.890454,
-   "sqft": 1849,
-   "value": 447167,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.114,
-   "address": "340 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 280763,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.588498,
-   "lon": -97.863939,
-   "sqft": 1104,
-   "value": 280763,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.541,
-   "address": "1265 S HWY 183, LEANDER, TX  78641",
-   "assessed": 1143724,
-   "class": "F1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "SHD"
-   },
-   "homestead": false,
-   "lat": 30.562366,
-   "lon": -97.846558,
-   "sqft": 612,
-   "value": 1143724,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.271,
-   "address": "1805 SEQUOIA DR, LEANDER, TX  78641",
-   "assessed": 340719,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.550713,
-   "lon": -97.861627,
-   "sqft": 1518,
-   "value": 340719,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.169,
-   "address": "2004 MAPLEWOOD DR, LEANDER, TX  78641",
-   "assessed": 503218,
-   "class": "A1",
-   "deed_date": "2025-09-01",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.574434,
-   "lon": -97.883167,
-   "sqft": 1602,
-   "value": 503218,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.166,
-   "address": "205 SIL CV, LEANDER, TX  78641",
-   "assessed": 377944,
-   "class": "A1",
-   "deed_date": "2025-08-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.570448,
-   "lon": -97.880203,
-   "sqft": 1023,
-   "value": 377944,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.158,
-   "address": "510 CLEARCREEK DR, LEANDER, TX  78641",
-   "assessed": 276713,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.576474,
-   "lon": -97.878131,
-   "sqft": 1254,
-   "value": 276713,
-   "value_kind": "market (WCAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 0.252,
-   "address": "916 EAGLES WAY, LEANDER, TX  78641",
-   "assessed": 273830,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.564627,
-   "lon": -97.862852,
-   "sqft": 1110,
-   "value": 273830,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.154,
-   "address": "1003 BUTTERCUP CT, LEANDER, TX  78641",
-   "assessed": 308396,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.562441,
-   "lon": -97.85944,
-   "sqft": 1315,
-   "value": 308396,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.193,
-   "address": "301 NORTHERN TRL, LEANDER, TX  78641",
-   "assessed": 322492,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.572503,
-   "lon": -97.863834,
-   "sqft": 1911,
-   "value": 322492,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.209,
-   "address": "1609 GRAFORD ST, LEANDER, TX  78641",
-   "assessed": 822427,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.55136,
-   "lon": -97.869044,
-   "sqft": 2302,
-   "value": 860934,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.375,
-   "address": "1521 ASPINWALL CV, LEANDER, TX  78641",
-   "assessed": 362840,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.591275,
-   "lon": -97.885745,
-   "sqft": 2365,
-   "value": 362840,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.151,
-   "address": "2141 SPOKANE DR, LEANDER, TX  78641",
-   "assessed": 421263,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.559717,
-   "lon": -97.882061,
-   "sqft": 1405,
-   "value": 421263,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.136,
-   "address": "912 BEAVERTON DR, LEANDER, TX  78641",
-   "assessed": 465828,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.557491,
-   "lon": -97.88029,
-   "sqft": 1682,
-   "value": 465828,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.223,
-   "address": "2232 DEVINE LAKE BND, LEANDER, TX  78641",
-   "assessed": 350331,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.587845,
-   "lon": -97.891252,
-   "sqft": 1928,
-   "value": 350331,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.182,
-   "address": "1909 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 550938,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.565828,
-   "lon": -97.880103,
-   "sqft": 1982,
-   "value": 550938,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.196,
-   "address": "1840 WALNUT GROVE BND, LEANDER, TX  78641",
-   "assessed": 533952,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.565855,
-   "lon": -97.877718,
-   "sqft": 2832,
-   "value": 533952,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.137,
-   "address": "1813 WALNUT GROVE BND, LEANDER, TX  78641",
-   "assessed": 401203,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.566668,
-   "lon": -97.876952,
-   "sqft": 1865,
-   "value": 401203,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.165,
-   "address": "1103 BURGESS DR, LEANDER, TX  78641",
-   "assessed": 326482,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.586263,
-   "lon": -97.873823,
-   "sqft": 1140,
-   "value": 326482,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.165,
-   "address": "706 ESTANCIA WAY, LEANDER, TX  78641",
-   "assessed": 324239,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.58189,
-   "lon": -97.869281,
-   "sqft": 1681,
-   "value": 324239,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.28,
-   "address": "1901 PHANTOM HORSE, LEANDER, TX  78641",
-   "assessed": 526990,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.550203,
-   "lon": -97.85834,
-   "sqft": 2035,
-   "value": 526990,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.155,
-   "address": "908 BEAVERTON DR, LEANDER, TX  78641",
-   "assessed": 481491,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.557627,
-   "lon": -97.88026,
-   "sqft": 1733,
-   "value": 481491,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.138,
-   "address": "1828 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 490512,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.566049,
-   "lon": -97.878938,
-   "sqft": 2431,
-   "value": 490512,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.152,
-   "address": "545 OSPREY DR, LEANDER, TX  78641",
-   "assessed": 471330,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.561021,
-   "lon": -97.880455,
-   "sqft": 2283,
-   "value": 471330,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.196,
-   "address": "203 KATHERINE WAY, LEANDER, TX  78641",
-   "assessed": 323009,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.572783,
-   "lon": -97.865873,
-   "sqft": 2026,
-   "value": 323009,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.172,
-   "address": "508 LANDING LN, LEANDER, TX  78641",
-   "assessed": 557463,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.575002,
-   "lon": -97.886246,
-   "sqft": 2226,
-   "value": 557463,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.116,
-   "address": "845 BEAVERTON DR, LEANDER, TX  78641",
-   "assessed": 502803,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.557872,
-   "lon": -97.880828,
-   "sqft": 1945,
-   "value": 502803,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.165,
-   "address": "1832 CAMAY ST, LEANDER, TX  78641",
-   "assessed": 661987,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.5674,
-   "lon": -97.879941,
-   "sqft": 3059,
-   "value": 661987,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.38,
-   "address": "600 ERIN CIR, LEANDER, TX  78641",
-   "assessed": 285046,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.54665,
-   "lon": -97.846782,
-   "sqft": 1290,
-   "value": 285046,
-   "value_kind": "market (WCAD)",
-   "year_built": 1981
-  },
-  {
-   "acres": 0.146,
-   "address": "2003 WOODWAY DR, LEANDER, TX  78641",
-   "assessed": 343905,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.573019,
-   "lon": -97.882375,
-   "sqft": 917,
-   "value": 343905,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.065,
-   "address": "348 BLUE OASIS LN, LEANDER, TX  78641",
-   "assessed": 358831,
-   "class": "A8",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.573982,
-   "lon": -97.877202,
-   "sqft": 970,
-   "value": 358831,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.165,
-   "address": "1105 CANADIAN CV, LEANDER, TX  78641",
-   "assessed": 330632,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.565669,
-   "lon": -97.853454,
-   "sqft": 1741,
-   "value": 330632,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.176,
-   "address": "921 WOODDUCK TRL, LEANDER, TX  78641",
-   "assessed": 383902,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.564044,
-   "lon": -97.858242,
-   "sqft": 1439,
-   "value": 383902,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.214,
-   "address": "1831 GREENING WAY, LEANDER, TX  78641",
-   "assessed": 318685,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.550669,
-   "lon": -97.865295,
-   "sqft": 1467,
-   "value": 318685,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.18,
-   "address": "1601 RIO BRAVO LOOP, LEANDER, TX  78641",
-   "assessed": 307593,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.582089,
-   "lon": -97.878838,
-   "sqft": 1529,
-   "value": 307593,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.163,
-   "address": "2032 SAUTERNE DR, LEANDER, TX  78641",
-   "assessed": 571074,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.567508,
-   "lon": -97.883511,
-   "sqft": 2043,
-   "value": 571074,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.139,
-   "address": "512 CANADIAN SPRINGS DR, LEANDER, TX  78641",
-   "assessed": 333055,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.587069,
-   "lon": -97.864004,
-   "sqft": 1713,
-   "value": 333055,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.092,
-   "address": "233 QUEMADO DR, LEANDER, TX  78641",
-   "assessed": 298258,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.582017,
-   "lon": -97.850291,
-   "sqft": 936,
-   "value": 298258,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 1.012,
-   "address": "1204 FALCON OAKS DR, LEANDER, TX  78641",
-   "assessed": 274574,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "CB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.561745,
-   "lon": -97.865265,
-   "sqft": 1480,
-   "value": 281290,
-   "value_kind": "market (WCAD)",
-   "year_built": 1945
-  },
-  {
-   "acres": 0.17,
-   "address": "1824 CAMAY ST, LEANDER, TX  78641",
-   "assessed": 686475,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.56766,
-   "lon": -97.87971,
-   "sqft": 2927,
-   "value": 686475,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.079,
-   "address": "823 TOPAZ LN, LEANDER, TX  78641",
-   "assessed": 248620,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.564581,
-   "lon": -97.860518,
-   "sqft": 880,
-   "value": 248620,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.164,
-   "address": "1115 HENDERSON DR, LEANDER, TX  78641",
-   "assessed": 344600,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.58693,
-   "lon": -97.874991,
-   "sqft": 1216,
-   "value": 344600,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.14,
-   "address": "625 PALMILLA ST, LEANDER, TX  78641",
-   "assessed": 516371,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.587902,
-   "lon": -97.866484,
-   "sqft": 1656,
-   "value": 516371,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.139,
-   "address": "1821 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 434003,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.56656,
-   "lon": -97.879015,
-   "sqft": 2062,
-   "value": 434003,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.267,
-   "address": "206 JOES CV, LEANDER, TX  78641",
-   "assessed": 339854,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.571272,
-   "lon": -97.878078,
-   "sqft": 1152,
-   "value": 339854,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.158,
-   "address": "102 MESA DR, LEANDER, TX  78641",
-   "assessed": 310816,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.575651,
-   "lon": -97.86157,
-   "sqft": 1540,
-   "value": 310816,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.201,
-   "address": "1624 CRESSON TRL, LEANDER, TX  78641",
-   "assessed": 618312,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.549242,
-   "lon": -97.868858,
-   "sqft": 1674,
-   "value": 740215,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.329,
-   "address": "305 HERNANDOS LOOP, LEANDER, TX  78641",
-   "assessed": 284399,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.551519,
-   "lon": -97.84547,
-   "sqft": 1562,
-   "value": 284399,
-   "value_kind": "market (WCAD)",
-   "year_built": 1978
-  },
-  {
-   "acres": 0.167,
-   "address": "506 LAS COLINAS DR, LEANDER, TX  78641",
-   "assessed": 349973,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.563579,
-   "lon": -97.874091,
-   "sqft": 2085,
-   "value": 349973,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.268,
-   "address": "1609 LIONS DEN, LEANDER, TX  78641",
-   "assessed": 443486,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.547445,
-   "lon": -97.864286,
-   "sqft": 2314,
-   "value": 443486,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.138,
-   "address": "625 CARLY ANN LN, LEANDER, TX  78641",
-   "assessed": 436336,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.58391,
-   "lon": -97.864036,
-   "sqft": 1962,
-   "value": 436336,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.245,
-   "address": "1112 EULESS LN, LEANDER, TX  78641",
-   "assessed": 475757,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.5564,
-   "lon": -97.87306,
-   "sqft": 2480,
-   "value": 475757,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.141,
-   "address": "1317 AQUILLA DR, LEANDER, TX  78641",
-   "assessed": 442165,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.586106,
-   "lon": -97.89133,
-   "sqft": 1849,
-   "value": 442165,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.167,
-   "address": "1107 REMINGTON DR, LEANDER, TX  78641",
-   "assessed": 321236,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.587079,
-   "lon": -97.872168,
-   "sqft": 1663,
-   "value": 321236,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.087,
-   "address": "141 MICHAELIS DR, LEANDER, TX  78641",
-   "assessed": 297172,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.580673,
-   "lon": -97.85067,
-   "sqft": 1537,
-   "value": 297172,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.137,
-   "address": "1813 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 462233,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.566708,
-   "lon": -97.878748,
-   "sqft": 2236,
-   "value": 462233,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.165,
-   "address": "1812 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 533952,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.566308,
-   "lon": -97.87847,
-   "sqft": 2832,
-   "value": 533952,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.166,
-   "address": "317 GREENER DR, LEANDER, TX  78641",
-   "assessed": 301270,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.57394,
-   "lon": -97.876734,
-   "sqft": 1774,
-   "value": 301270,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.138,
-   "address": "1809 WALNUT GROVE BND, LEANDER, TX  78641",
-   "assessed": 457652,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.56673,
-   "lon": -97.876811,
-   "sqft": 2210,
-   "value": 457652,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.204,
-   "address": "1017 COULEE DR, LEANDER, TX  78641",
-   "assessed": 387227,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.58795,
-   "lon": -97.870496,
-   "sqft": 2098,
-   "value": 387227,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.192,
-   "address": "817 CLEAR SPRING LN, LEANDER, TX  78641",
-   "assessed": 549647,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.579016,
-   "lon": -97.882978,
-   "sqft": 2572,
-   "value": 549647,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.196,
-   "address": "2240 DEVINE LAKE BND, LEANDER, TX  78641",
-   "assessed": 396847,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.587859,
-   "lon": -97.890815,
-   "sqft": 2346,
-   "value": 396847,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.2,
-   "address": "1329 PICKEREL ST, LEANDER, TX  78641",
-   "assessed": 448748,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.587059,
-   "lon": -97.890724,
-   "sqft": 1849,
-   "value": 448748,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.159,
-   "address": "521 LANDING LN, LEANDER, TX  78641",
-   "assessed": 669402,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.575336,
-   "lon": -97.886951,
-   "sqft": 2233,
-   "value": 669402,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.285,
-   "address": "1801 WEST DR, LEANDER, TX  78641",
-   "assessed": 246305,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.555448,
-   "lon": -97.848246,
-   "sqft": 1104,
-   "value": 246305,
-   "value_kind": "market (WCAD)",
-   "year_built": 1978
-  },
-  {
-   "acres": 0.159,
-   "address": "506 CLEARCREEK DR, LEANDER, TX  78641",
-   "assessed": 272087,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.576165,
-   "lon": -97.878003,
-   "sqft": 1268,
-   "value": 272087,
-   "value_kind": "market (WCAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 0.264,
-   "address": "1533 CRESSON TRL, LEANDER, TX  78641",
-   "assessed": 668510,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.550631,
-   "lon": -97.868114,
-   "sqft": 2616,
-   "value": 668510,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.125,
-   "address": "561 JOHN MUIR TRL, LEANDER, TX  78641",
-   "assessed": 369318,
-   "class": "A8",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.559573,
-   "lon": -97.853731,
-   "sqft": 881,
-   "value": 369318,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.249,
-   "address": "2025 COTTON FARM TRL, LEANDER, TX  78641",
-   "assessed": 695671,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.555155,
-   "lon": -97.877795,
-   "sqft": 2999,
-   "value": 695671,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.157,
-   "address": "1804 WALNUT GROVE BND, LEANDER, TX  78641",
-   "assessed": 492675,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.566374,
-   "lon": -97.876409,
-   "sqft": 2415,
-   "value": 492675,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.138,
-   "address": "1825 WALNUT GROVE BND, LEANDER, TX  78641",
-   "assessed": 424162,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.566484,
-   "lon": -97.87738,
-   "sqft": 1860,
-   "value": 424162,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.153,
-   "address": "1211 DEEPWOODS TRL, LEANDER, TX  78641",
-   "assessed": 324436,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.550849,
-   "lon": -97.858863,
-   "sqft": 1365,
-   "value": 324436,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.166,
-   "address": "725 CLEAR SPRING LN, LEANDER, TX  78641",
-   "assessed": 563032,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.57812,
-   "lon": -97.882381,
-   "sqft": 2803,
-   "value": 563032,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.145,
-   "address": "2137 SPOKANE DR, LEANDER, TX  78641",
-   "assessed": 453930,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.559764,
-   "lon": -97.881922,
-   "sqft": 1515,
-   "value": 453930,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.797,
-   "address": "705 PEREGRINE WAY, LEANDER, TX  78641",
-   "assessed": 498455,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.563409,
-   "lon": -97.869921,
-   "sqft": 1520,
-   "value": 498455,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.326,
-   "address": "1520 ASPINWALL CV, LEANDER, TX  78641",
-   "assessed": 360394,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.591799,
-   "lon": -97.8852,
-   "sqft": 2365,
-   "value": 360394,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.138,
-   "address": "1936 GUNTERSVILLE BND, LEANDER, TX  78641",
-   "assessed": 413260,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.591908,
-   "lon": -97.891835,
-   "sqft": 1444,
-   "value": 413260,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 1.635,
-   "address": "801 LOS VISTA DR, LEANDER, TX  78641",
-   "assessed": 536793,
-   "class": "A2",
-   "deed_date": "2025-08-04",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.557763,
-   "lon": -97.855023,
-   "sqft": 1120,
-   "value": 536793,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.157,
-   "address": "209 ABRUZZI ST, LEANDER, TX  78641",
-   "assessed": 541976,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.567192,
-   "lon": -97.884484,
-   "sqft": 2764,
-   "value": 541976,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.197,
-   "address": "906 PECOS CV, LEANDER, TX  78641",
-   "assessed": 340020,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.581331,
-   "lon": -97.880201,
-   "sqft": 741,
-   "value": 340020,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.151,
-   "address": "1617 UHLAND DR, LEANDER, TX  78641",
-   "assessed": 398453,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.551843,
-   "lon": -97.86453,
-   "sqft": 2040,
-   "value": 398453,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.049,
-   "address": "605 W SOUTH ST #21, LEANDER, TX  78641",
-   "assessed": 610562,
-   "class": "A8",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.575884,
-   "lon": -97.863851,
-   "sqft": 1166,
-   "value": 610562,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.208,
-   "address": "2236 DEVINE LAKE BND, LEANDER, TX  78641",
-   "assessed": 449972,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.587826,
-   "lon": -97.891017,
-   "sqft": 1849,
-   "value": 449972,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.324,
-   "address": "2207 EMERALD ISLE DR, LEANDER, TX  78641",
-   "assessed": 341220,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.547193,
-   "lon": -97.847862,
-   "sqft": 1233,
-   "value": 341220,
-   "value_kind": "market (WCAD)",
-   "year_built": 1983
-  },
-  {
-   "acres": 0.179,
-   "address": "529 WHITNEY TRL, LEANDER, TX  78641",
-   "assessed": 334588,
-   "class": "A8",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.561299,
-   "lon": -97.854203,
-   "sqft": 1731,
-   "value": 334588,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.174,
-   "address": "2009 MARIANN DR, LEANDER, TX  78641",
-   "assessed": 678026,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.579477,
-   "lon": -97.887386,
-   "sqft": 2456,
-   "value": 678026,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.18,
-   "address": "1820 WINDY RIVER PATH, LEANDER, TX  78641",
-   "assessed": 652363,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.580498,
-   "lon": -97.885231,
-   "sqft": 2248,
-   "value": 652363,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.111,
-   "address": "1421 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 509320,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583166,
-   "lon": -97.878513,
-   "sqft": 1746,
-   "value": 509320,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.152,
-   "address": "1845 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 431186,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.566243,
-   "lon": -97.879599,
-   "sqft": 2062,
-   "value": 431186,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.194,
-   "address": "1303 TAMARAC TRL, LEANDER, TX  78641",
-   "assessed": 409124,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.55542,
-   "lon": -97.861757,
-   "sqft": 1573,
-   "value": 409124,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.115,
-   "address": "544 PALMILLA ST, LEANDER, TX  78641",
-   "assessed": 325776,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.588247,
-   "lon": -97.865224,
-   "sqft": 1620,
-   "value": 325776,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.111,
-   "address": "1337 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 472124,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583543,
-   "lon": -97.877286,
-   "sqft": 1546,
-   "value": 472124,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.136,
-   "address": "1012 SWAN FLOWER ST, LEANDER, TX  78641",
-   "assessed": 406251,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "WS",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.588692,
-   "lon": -97.867078,
-   "sqft": 2290,
-   "value": 406251,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.275,
-   "address": "605 STERLING RIDGE RD, LEANDER, TX  78641",
-   "assessed": 728103,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.576184,
-   "lon": -97.886711,
-   "sqft": 2249,
-   "value": 728103,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.076,
-   "address": "369 BLUE OASIS LN, LEANDER, TX  78641",
-   "assessed": 372213,
-   "class": "A8",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.574167,
-   "lon": -97.878014,
-   "sqft": 1138,
-   "value": 372213,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.216,
-   "address": "1408 PICKEREL ST, LEANDER, TX  78641",
-   "assessed": 452028,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.587627,
-   "lon": -97.890094,
-   "sqft": 1849,
-   "value": 452028,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.191,
-   "address": "204 CAMILLE ST, LEANDER, TX  78641",
-   "assessed": 602215,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.568787,
-   "lon": -97.880462,
-   "sqft": 2884,
-   "value": 602215,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.216,
-   "address": "1813 CAMAY ST, LEANDER, TX  78641",
-   "assessed": 695506,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.568438,
-   "lon": -97.879753,
-   "sqft": 3059,
-   "value": 695506,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.169,
-   "address": "1836 WALNUT GROVE BND, LEANDER, TX  78641",
-   "assessed": 507603,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.565904,
-   "lon": -97.877531,
-   "sqft": 2447,
-   "value": 507603,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.326,
-   "address": "1601 BEASLEY CV, LEANDER, TX  78641",
-   "assessed": 666939,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.550908,
-   "lon": -97.869287,
-   "sqft": 2673,
-   "value": 666939,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.124,
-   "address": "844 BEAVERTON DR, LEANDER, TX  78641",
-   "assessed": 437799,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.558048,
-   "lon": -97.880361,
-   "sqft": 1512,
-   "value": 437799,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.166,
-   "address": "1820 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 503070,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.566219,
-   "lon": -97.87863,
-   "sqft": 2430,
-   "value": 503070,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.166,
-   "address": "413 CHAPARRAL DR, LEANDER, TX  78641",
-   "assessed": 477011,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.564527,
-   "lon": -97.874091,
-   "sqft": 2996,
-   "value": 477011,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.187,
-   "address": "517 LOMA CEDRO BND, LEANDER, TX  78641",
-   "assessed": 578473,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.566191,
-   "lon": -97.871977,
-   "sqft": 2245,
-   "value": 578473,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.172,
-   "address": "1724 BOVINA DR, LEANDER, TX  78641",
-   "assessed": 517790,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.549101,
-   "lon": -97.865318,
-   "sqft": 1250,
-   "value": 517790,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.167,
-   "address": "703 MAPLECREEK DR, LEANDER, TX  78641",
-   "assessed": 292028,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.577616,
-   "lon": -97.88119,
-   "sqft": 1295,
-   "value": 292028,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.205,
-   "address": "1201 DRAKE CV, LEANDER, TX  78641",
-   "assessed": 410308,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.564,
-   "lon": -97.853415,
-   "sqft": 1597,
-   "value": 410308,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.17,
-   "address": "1020 LANDING LN, LEANDER, TX  78641",
-   "assessed": 535216,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582289,
-   "lon": -97.888895,
-   "sqft": 2410,
-   "value": 535216,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.139,
-   "address": "1817 WALNUT GROVE BND, LEANDER, TX  78641",
-   "assessed": 490298,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.566607,
-   "lon": -97.877095,
-   "sqft": 1732,
-   "value": 490298,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.295,
-   "address": "1809 DUBLIN DR, LEANDER, TX  78641",
-   "assessed": 298078,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "WS",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.551733,
-   "lon": -97.851785,
-   "sqft": 1364,
-   "value": 298078,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.153,
-   "address": "1809 CROOKED CREEK ST, LEANDER, TX  78641",
-   "assessed": 489279,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.566801,
-   "lon": -97.87863,
-   "sqft": 2409,
-   "value": 489279,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.118,
-   "address": "309 N US 183, LEANDER, TX  78641",
-   "assessed": 1103660,
-   "class": "F1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.581385,
-   "lon": -97.854378,
-   "sqft": 1968,
-   "value": 1103660,
-   "value_kind": "market (WCAD)",
-   "year_built": 1967
-  },
-  {
-   "acres": 0.19,
-   "address": "501 BATTLECREEK LN, LEANDER, TX  78641",
-   "assessed": 327602,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.575798,
-   "lon": -97.877455,
-   "sqft": 921,
-   "value": 327602,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.171,
-   "address": "506 MILLCREEK LN, LEANDER, TX  78641",
-   "assessed": 276233,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.575069,
-   "lon": -97.881503,
-   "sqft": 1243,
-   "value": 276233,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.222,
-   "address": "1005 BLUEBONNET CT, LEANDER, TX  78641",
-   "assessed": 281064,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.561573,
-   "lon": -97.861045,
-   "sqft": 1261,
-   "value": 281064,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.139,
-   "address": "1644 BOVINA DR, LEANDER, TX  78641",
-   "assessed": 500463,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.550655,
-   "lon": -97.865954,
-   "sqft": 1380,
-   "value": 500463,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.166,
-   "address": "728 CLEAR SPRING LN, LEANDER, TX  78641",
-   "assessed": 445533,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.578432,
-   "lon": -97.881936,
-   "sqft": 1898,
-   "value": 445533,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 12.08,
-   "address": "665 N BAGDAD RD, LEANDER, TX  78641",
-   "assessed": 52601578,
-   "class": "B1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.578734,
-   "lon": -97.874126,
-   "sqft": 238343,
-   "value": 52601578,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.203,
-   "address": "537 APPALACHIAN TRL, LEANDER, TX  78641",
-   "assessed": 313872,
-   "class": "A8",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.559293,
-   "lon": -97.85283,
-   "sqft": 1559,
-   "value": 313872,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.251,
-   "address": "1916 GRANDER LN, LEANDER, TX  78641",
-   "assessed": 618194,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.553643,
-   "lon": -97.875264,
-   "sqft": 2871,
-   "value": 618194,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.414,
-   "address": "2133 COTTON FARM TRL, LEANDER, TX  78641",
-   "assessed": 609247,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.556278,
-   "lon": -97.880399,
-   "sqft": 2864,
-   "value": 609247,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.124,
-   "address": "840 BEAVERTON DR, LEANDER, TX  78641",
-   "assessed": 389098,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.558164,
-   "lon": -97.88041,
-   "sqft": 1717,
-   "value": 389098,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.559,
-   "address": "1401 HIGH CHAPARRAL DR, LEANDER, TX  78641",
-   "assessed": 315141,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "PB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.559315,
-   "lon": -97.8515,
-   "sqft": 1165,
-   "value": 315141,
-   "value_kind": "market (WCAD)",
-   "year_built": 1960
-  },
-  {
-   "acres": 0.152,
-   "address": "328 EAGLE CANYON DR, LEANDER, TX  78641",
-   "assessed": 452334,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.566454,
-   "lon": -97.877835,
-   "sqft": 2196,
-   "value": 452334,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.165,
-   "address": "1004 BARCLAY DR, LEANDER, TX  78641",
-   "assessed": 320341,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.584744,
-   "lon": -97.874695,
-   "sqft": 1105,
-   "value": 320341,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.152,
-   "address": "1432 UHLAND DR, LEANDER, TX  78641",
-   "assessed": 410981,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.553107,
-   "lon": -97.866223,
-   "sqft": 2007,
-   "value": 410981,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.135,
-   "address": "1917 STINNETT DR, LEANDER, TX  78641",
-   "assessed": 373350,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.557208,
-   "lon": -97.876877,
-   "sqft": 1716,
-   "value": 373350,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.142,
-   "address": "632 DEERPATH ST, LEANDER, TX  78641",
-   "assessed": 487810,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.560725,
-   "lon": -97.883574,
-   "sqft": 1726,
-   "value": 487810,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.165,
-   "address": "609 RANCHERO RD, LEANDER, TX  78641",
-   "assessed": 248818,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.584328,
-   "lon": -97.866901,
-   "sqft": 1216,
-   "value": 248818,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.148,
-   "address": "211 RAN RD, LEANDER, TX  78641",
-   "assessed": 308787,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.569512,
-   "lon": -97.884848,
-   "sqft": 1752,
-   "value": 308787,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.164,
-   "address": "1705 SAUTERNE DR, LEANDER, TX  78641",
-   "assessed": 669110,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.56997,
-   "lon": -97.877984,
-   "sqft": 2145,
-   "value": 669110,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.14,
-   "address": "524 S BROOK DR, LEANDER, TX  78641",
-   "assessed": 339471,
-   "class": "A1",
-   "deed_date": "2025-07-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.585885,
-   "lon": -97.868486,
-   "sqft": 1858,
-   "value": 339471,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.297,
-   "address": "1229 BRENHAM LN, LEANDER, TX  78641",
-   "assessed": 466277,
-   "class": "A1",
-   "deed_date": "2025-07-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.554437,
-   "lon": -97.872116,
-   "sqft": 2447,
-   "value": 466277,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.111,
-   "address": "1333 SOUTH BROOK DR, LEANDER, TX  78641",
-   "assessed": 514808,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583581,
-   "lon": -97.877163,
-   "sqft": 1620,
-   "value": 514808,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 4.965,
-   "address": "13101 HERO WAY W, LEANDER, TX  78641",
-   "assessed": 3360635,
-   "class": "F1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.57004,
-   "lon": -97.888758,
-   "sqft": 12330,
-   "value": 3360635,
-   "value_kind": "market (WCAD)",
-   "year_built": 1938
-  },
-  {
-   "acres": 30.83,
-   "address": "1007 CR 290 78641",
-   "assessed": 2304321,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "homestead": false,
-   "lat": 30.56336,
-   "lon": -97.913691,
-   "sqft": 5370,
-   "value": 2304321,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.198,
-   "address": "1307 TAMARAC TRL, LEANDER, TX  78641",
-   "assessed": 301859,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.555349,
-   "lon": -97.862064,
-   "sqft": 1271,
-   "value": 301859,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.137,
-   "address": "417 EMMA ROSE TRL, LEANDER, TX  78641",
-   "assessed": 281755,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.569708,
-   "lon": -97.863916,
-   "sqft": 1548,
-   "value": 281755,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.132,
-   "address": "613 PEREGRINE WAY, LEANDER, TX  78641",
-   "assessed": 372123,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.565029,
-   "lon": -97.870435,
-   "sqft": 2074,
-   "value": 372123,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
   }
  ],
  "windows": {
   "12mo": {
-   "count": 751,
-   "median_value": 391165,
-   "pct_of_households": 7.32,
-   "pct_of_population": 2.63
+   "count": 568,
+   "median_value": 380322,
+   "pct_of_households": 5.54,
+   "pct_of_population": 1.99
   },
   "3mo": {
-   "count": 136,
-   "median_value": 358450,
-   "pct_of_households": 1.33,
-   "pct_of_population": 0.48
+   "count": 10,
+   "median_value": 341226,
+   "pct_of_households": 0.1,
+   "pct_of_population": 0.04
   },
   "6mo": {
-   "count": 337,
-   "median_value": 380322,
-   "pct_of_households": 3.28,
-   "pct_of_population": 1.18
+   "count": 188,
+   "median_value": 358450,
+   "pct_of_households": 1.83,
+   "pct_of_population": 0.66
   }
  }
 }

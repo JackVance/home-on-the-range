@@ -1,11 +1,391 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 37,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 50,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1653,
  "months_back": 12,
  "population_acs": 4700,
  "transfers": [
+  {
+   "acres": 1.527,
+   "address": "4809 BAYSIDE AUSTIN 78744",
+   "assessed": 324033,
+   "class": "A1",
+   "deed_date": "2026-08-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.199411,
+   "lon": -97.741257,
+   "sqft": 1638,
+   "value": 350816,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1977
+  },
+  {
+   "acres": 9.9,
+   "address": "5002 NUCKOLS CROSSING AUSTIN 78744",
+   "assessed": 1905116,
+   "class": "F1",
+   "deed_date": "2026-08-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.195439,
+   "lon": -97.73807,
+   "sqft": 9057,
+   "value": 1905116,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
+   "acres": 32.918,
+   "address": "2124 ST ELMO 78744",
+   "assessed": 12105203,
+   "class": "F1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.21008,
+   "lon": -97.745397,
+   "sqft": 75525,
+   "value": 12105203,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1981
+  },
+  {
+   "acres": 1.97,
+   "address": "4801 SCARSDALE AUSTIN 78744",
+   "assessed": 314376,
+   "class": "A1",
+   "deed_date": "2026-08-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.200899,
+   "lon": -97.743117,
+   "sqft": 1385,
+   "value": 314376,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1977
+  },
+  {
+   "acres": 1.586,
+   "address": "4605 CEDARGROVE AUSTIN 78744",
+   "assessed": 311929,
+   "class": "A1",
+   "deed_date": "2026-07-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.198744,
+   "lon": -97.742393,
+   "sqft": 1591,
+   "value": 324272,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1975
+  },
+  {
+   "acres": 1.632,
+   "address": "2102 DONAHUE AUSTIN 78744",
+   "assessed": 347826,
+   "class": "B2",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.202883,
+   "lon": -97.751413,
+   "sqft": 1980,
+   "value": 347826,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1981
+  },
+  {
+   "acres": 2.101,
+   "address": "2512 STASSNEY AUSTIN 78744",
+   "assessed": 294418,
+   "class": "A1",
+   "deed_date": "2026-07-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.194094,
+   "lon": -97.748311,
+   "sqft": 1086,
+   "value": 294418,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 1.656,
+   "address": "5301 VILLAGE AUSTIN 78744",
+   "assessed": 271278,
+   "class": "A1",
+   "deed_date": "2026-07-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.195799,
+   "lon": -97.746525,
+   "sqft": 945,
+   "value": 271278,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1973
+  },
+  {
+   "acres": 1.691,
+   "address": "5000 COFFEE CUP AUSTIN 78744",
+   "assessed": 384244,
+   "class": "B2",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.196719,
+   "lon": -97.741594,
+   "sqft": 2102,
+   "value": 384244,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.926,
+   "address": "5002 TABLE TOP 78744",
+   "assessed": 277353,
+   "class": "B2",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.196843,
+   "lon": -97.742424,
+   "sqft": 1738,
+   "value": 277353,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 2.283,
+   "address": "4903 MERRITT 78744",
+   "assessed": 509711,
+   "class": "B4",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.20313,
+   "lon": -97.752453,
+   "sqft": 3120,
+   "value": 509711,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 1.564,
+   "address": "2208 SORRET TREE 78744",
+   "assessed": 321463,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.198635,
+   "lon": -97.751651,
+   "sqft": 1543,
+   "value": 324713,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1971
+  },
+  {
+   "acres": 1.755,
+   "address": "2423 VILLAGE WALK AUSTIN 78744",
+   "assessed": 322560,
+   "class": "A1",
+   "deed_date": "2026-06-27",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.196305,
+   "lon": -97.747991,
+   "sqft": 1709,
+   "value": 322560,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 27.5,
+   "address": "4115 FREIDRICH 78744",
+   "assessed": 6157000,
+   "class": "F1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.213238,
+   "lon": -97.74646,
+   "sqft": 29976,
+   "value": 6157000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1981
+  },
+  {
+   "acres": 30.907,
+   "address": "4175 FREIDRICH 78744",
+   "assessed": 12800000,
+   "class": "F1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.212584,
+   "lon": -97.747424,
+   "sqft": 50016,
+   "value": 12800000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1981
+  },
+  {
+   "acres": 32.375,
+   "address": "2191 WOODWARD 78744",
+   "assessed": 14600000,
+   "class": "F1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.21219,
+   "lon": -97.746699,
+   "sqft": 55008,
+   "value": 14600000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1981
+  },
+  {
+   "acres": 35.53,
+   "address": "4150 FREIDRICH 78744",
+   "assessed": 9920000,
+   "class": "F1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.214555,
+   "lon": -97.747651,
+   "sqft": 46740,
+   "value": 9920000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
+   "acres": 2.331,
+   "address": "5003 MICHELLE 78744",
+   "assessed": 305536,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.198982,
+   "lon": -97.745658,
+   "sqft": 2074,
+   "value": 305536,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 1.774,
+   "address": "5541 PINE 78744",
+   "assessed": 368464,
+   "class": "A1",
+   "deed_date": "2026-05-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.194906,
+   "lon": -97.748498,
+   "sqft": 1425,
+   "value": 368464,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1975
+  },
+  {
+   "acres": 1.469,
+   "address": "4604 BUTTON BEND 78744",
+   "assessed": 277318,
+   "class": "A1",
+   "deed_date": "2026-05-19",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.201737,
+   "lon": -97.741512,
+   "sqft": 1165,
+   "value": 277318,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
   {
    "acres": 1.563,
    "address": "4616 FRANKLIN PARK 78744",
@@ -66,7 +446,7 @@
   {
    "acres": 18.592,
    "address": "4201 GREGG WARD AUSTIN 78744",
-   "assessed": 743930,
+   "assessed": 811560,
    "class": "A1",
    "deed_date": "2026-04-22",
    "extras": {
@@ -74,7 +454,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.205062,
    "lon": -97.735572,
    "sqft": 2161,
@@ -123,7 +503,7 @@
   {
    "acres": 1.71,
    "address": "5103 PLEASANT VALLEY 78741",
-   "assessed": 364373,
+   "assessed": 300000,
    "class": "B2",
    "deed_date": "2026-04-13",
    "extras": {
@@ -135,9 +515,28 @@
    "lat": 30.196519,
    "lon": -97.744165,
    "sqft": 1764,
-   "value": 364373,
+   "value": 300000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1983
+  },
+  {
+   "acres": 1.526,
+   "address": "2400 VILLAGE WALK 78744",
+   "assessed": 301263,
+   "class": "A1",
+   "deed_date": "2026-03-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.197733,
+   "lon": -97.746952,
+   "sqft": 1353,
+   "value": 301263,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1973
   },
   {
    "acres": 1.548,
@@ -161,7 +560,7 @@
   {
    "acres": 32.279,
    "address": "3900 COMMERCIAL CENTER 78744",
-   "assessed": 8642721,
+   "assessed": 7264000,
    "class": "F1",
    "deed_date": "2026-03-05",
    "extras": {
@@ -173,7 +572,7 @@
    "lat": 30.212966,
    "lon": -97.740829,
    "sqft": 67268,
-   "value": 8642721,
+   "value": 7264000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1991
   },
@@ -214,25 +613,6 @@
    "value": 144094,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1977
-  },
-  {
-   "acres": 1.586,
-   "address": "4605 CEDARGROVE AUSTIN 78744",
-   "assessed": 311929,
-   "class": "A1",
-   "deed_date": "2026-02-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.198744,
-   "lon": -97.742393,
-   "sqft": 1591,
-   "value": 324272,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1975
   },
   {
    "acres": 1.818,
@@ -345,8 +725,8 @@
   },
   {
    "acres": 1.888,
-   "address": "5101 PLEASANT VALLEY",
-   "assessed": 313006,
+   "address": "5101 PLEASANT VALLEY 78744",
+   "assessed": 289311,
    "class": "B2",
    "deed_date": "2026-01-05",
    "extras": {
@@ -358,14 +738,14 @@
    "lat": 30.196679,
    "lon": -97.744045,
    "sqft": 1722,
-   "value": 313006,
+   "value": 289311,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1983
   },
   {
    "acres": 2.009,
    "address": "4801 TERI 78744",
-   "assessed": 364377,
+   "assessed": 336794,
    "class": "B2",
    "deed_date": "2026-01-05",
    "extras": {
@@ -377,7 +757,7 @@
    "lat": 30.195265,
    "lon": -97.740975,
    "sqft": 2048,
-   "value": 364377,
+   "value": 336794,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1983
   },
@@ -403,7 +783,7 @@
   {
    "acres": 24.7,
    "address": "4143 GOVERNORS 78744",
-   "assessed": 13039752,
+   "assessed": 8460000,
    "class": "F1",
    "deed_date": "2025-12-30",
    "extras": {
@@ -415,7 +795,7 @@
    "lat": 30.213638,
    "lon": -97.749503,
    "sqft": 70152,
-   "value": 13039752,
+   "value": 8460000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1997
   },
@@ -443,7 +823,7 @@
    "address": "4204 GREGG WARD AUSTIN 78744",
    "assessed": 708321,
    "class": "A1",
-   "deed_date": "2025-12-11",
+   "deed_date": "2025-12-10",
    "extras": {
     "foundation": "SLAB",
     "roof": "COMPOSITIO",
@@ -556,159 +936,26 @@
    "value": 297242,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1980
-  },
-  {
-   "acres": 1.566,
-   "address": "4611 BUTTON BEND AUSTIN 78744",
-   "assessed": 273480,
-   "class": "A1",
-   "deed_date": "2025-09-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.200981,
-   "lon": -97.741019,
-   "sqft": 1007,
-   "value": 273480,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 1.543,
-   "address": "4807 PEWTER 78744",
-   "assessed": 455475,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.199074,
-   "lon": -97.740488,
-   "sqft": 1602,
-   "value": 455475,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 2.513,
-   "address": "2526 CHAPARRAL AUSTIN 78744",
-   "assessed": 199756,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.19481,
-   "lon": -97.746743,
-   "sqft": 1087,
-   "value": 199756,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
-  },
-  {
-   "acres": 2.331,
-   "address": "5003 MICHELLE 78744",
-   "assessed": 305536,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.198982,
-   "lon": -97.745658,
-   "sqft": 2074,
-   "value": 305536,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 1.658,
-   "address": "5547 PINE 78744",
-   "assessed": 294708,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.195106,
-   "lon": -97.748034,
-   "sqft": 1086,
-   "value": 294708,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 2.055,
-   "address": "5005 PLEASANT VALLEY",
-   "assessed": 341497,
-   "class": "B2",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.197794,
-   "lon": -97.74327,
-   "sqft": 2202,
-   "value": 341497,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 23.01,
-   "address": "4323 INTERSTATE HY 35 78744",
-   "assessed": 7263405,
-   "class": "F1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "BUILT-UP",
-    "roof_style": "FLAT"
-   },
-   "homestead": false,
-   "lat": 30.211615,
-   "lon": -97.752785,
-   "sqft": 54139,
-   "value": 7263405,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1973
   }
  ],
  "windows": {
   "12mo": {
-   "count": 37,
+   "count": 50,
    "median_value": 338058,
-   "pct_of_households": 2.24,
-   "pct_of_population": 0.79
+   "pct_of_households": 3.03,
+   "pct_of_population": 1.06
   },
   "3mo": {
-   "count": 7,
-   "median_value": 329994,
-   "pct_of_households": 0.42,
-   "pct_of_population": 0.15
+   "count": 10,
+   "median_value": 347826,
+   "pct_of_households": 0.61,
+   "pct_of_population": 0.21
   },
   "6mo": {
-   "count": 18,
+   "count": 27,
    "median_value": 329994,
-   "pct_of_households": 1.09,
-   "pct_of_population": 0.38
+   "pct_of_households": 1.63,
+   "pct_of_population": 0.57
   }
  }
 }

@@ -1,11 +1,664 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 70,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 88,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1716,
  "months_back": 12,
  "population_acs": 3679,
  "transfers": [
+  {
+   "acres": 0.979,
+   "address": "613 JOHANNA 78704",
+   "assessed": 1110000,
+   "class": "A1",
+   "deed_date": "2026-09-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.24578,
+   "lon": -97.758246,
+   "sqft": 1992,
+   "value": 1110000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.321,
+   "address": "904 ELIZABETH 78704",
+   "assessed": 532136,
+   "class": "A1",
+   "deed_date": "2026-09-04",
+   "homestead": false,
+   "lat": 30.252644,
+   "lon": -97.75815,
+   "value": 532136,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 2.454,
+   "address": "2208 3 78704",
+   "assessed": 926516,
+   "class": "A1",
+   "deed_date": "2026-09-03",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.244806,
+   "lon": -97.761382,
+   "sqft": 1779,
+   "value": 926516,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1938
+  },
+  {
+   "acres": 1.455,
+   "address": "1112 ANNIE 78704",
+   "assessed": 25456,
+   "class": "C1",
+   "deed_date": "2026-08-27",
+   "homestead": false,
+   "lat": 30.250205,
+   "lon": -97.763406,
+   "value": 25456,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 5.29,
+   "address": "6 78704",
+   "assessed": 3095000,
+   "class": "A1",
+   "deed_date": "2026-08-27",
+   "homestead": false,
+   "lat": 30.250554,
+   "lon": -97.763155,
+   "sqft": 4685,
+   "value": 3095000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2022
+  },
+  {
+   "acres": 1.777,
+   "address": "612 MARY AUSTIN 78704",
+   "assessed": 1103460,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.247176,
+   "lon": -97.757485,
+   "sqft": 2373,
+   "value": 1103460,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 1.354,
+   "address": "808 LIVE OAK AUSTIN 78704",
+   "assessed": 1500000,
+   "class": "A1",
+   "deed_date": "2026-08-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "OTHER"
+   },
+   "homestead": true,
+   "lat": 30.245838,
+   "lon": -97.761104,
+   "sqft": 2340,
+   "value": 1500000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2018
+  },
+  {
+   "acres": 1.364,
+   "address": "904 MONROE AUSTIN 78704",
+   "assessed": 988205,
+   "class": "A1",
+   "deed_date": "2026-08-13",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.251126,
+   "lon": -97.759103,
+   "sqft": 1981,
+   "value": 988205,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1940
+  },
+  {
+   "acres": 1.263,
+   "address": "907 COLUMBUS AUSTIN 78704",
+   "assessed": 1273707,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.254656,
+   "lon": -97.757135,
+   "sqft": 2510,
+   "value": 1273707,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1900
+  },
+  {
+   "acres": 1.792,
+   "address": "2208 2 78704",
+   "assessed": 1295761,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.244469,
+   "lon": -97.759744,
+   "sqft": 2552,
+   "value": 1444810,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1928
+  },
+  {
+   "acres": 2.689,
+   "address": "603 LIVE OAK 78704",
+   "assessed": 1756949,
+   "class": "C1",
+   "deed_date": "2026-07-23",
+   "homestead": false,
+   "lat": 30.244362,
+   "lon": -97.758219,
+   "value": 1756949,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.363,
+   "address": "601 LIVE OAK 78704",
+   "assessed": 890850,
+   "class": "C1",
+   "deed_date": "2026-07-23",
+   "homestead": false,
+   "lat": 30.244294,
+   "lon": -97.758012,
+   "value": 890850,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.508,
+   "address": "705 MONROE 78704",
+   "assessed": 2273606,
+   "class": "A1",
+   "deed_date": "2026-07-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.249739,
+   "lon": -97.756873,
+   "sqft": 2628,
+   "value": 2273606,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": 1.795,
+   "address": "805 MARY 78704",
+   "assessed": 1471222,
+   "class": "A1",
+   "deed_date": "2026-07-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.247313,
+   "lon": -97.759881,
+   "sqft": 2924,
+   "value": 1471222,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2011
+  },
+  {
+   "acres": 1.203,
+   "address": "1720 1 78704",
+   "assessed": 855497,
+   "class": "F1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.247694,
+   "lon": -97.755955,
+   "sqft": 1256,
+   "value": 855497,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1944
+  },
+  {
+   "acres": 1.748,
+   "address": "906 MARY 78704",
+   "assessed": 684000,
+   "class": "B1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.248314,
+   "lon": -97.761161,
+   "sqft": 3600,
+   "value": 684000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1938
+  },
+  {
+   "acres": 2.108,
+   "address": "915 ANNIE AUSTIN 78704",
+   "assessed": 1022968,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.248913,
+   "lon": -97.761522,
+   "sqft": 1374,
+   "value": 1022968,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1942
+  },
+  {
+   "acres": 1.942,
+   "address": "802 MARY AUSTIN 78704",
+   "assessed": 806779,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.247796,
+   "lon": -97.759384,
+   "sqft": 884,
+   "value": 806779,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1945
+  },
+  {
+   "acres": 1.364,
+   "address": "704 LIVE OAK 78704",
+   "assessed": 1365719,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.245279,
+   "lon": -97.759413,
+   "sqft": 2245,
+   "value": 1365719,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 1.328,
+   "address": "808 ELIZABETH AUSTIN 78704",
+   "assessed": 1027590,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.252125,
+   "lon": -97.757088,
+   "sqft": 2089,
+   "value": 1036524,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1925
+  },
+  {
+   "acres": 1.319,
+   "address": "702 ELIZABETH 78704",
+   "assessed": 2542905,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.251481,
+   "lon": -97.755769,
+   "sqft": 3828,
+   "value": 2542905,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2020
+  },
+  {
+   "acres": 1.809,
+   "address": "904 EBONY AUSTIN 78704",
+   "assessed": 952096,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.256896,
+   "lon": -97.755789,
+   "sqft": 1480,
+   "value": 952096,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1949
+  },
+  {
+   "acres": 1.778,
+   "address": "1718 5 78704",
+   "assessed": 1179059,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "homestead": false,
+   "lat": 30.249444,
+   "lon": -97.761753,
+   "sqft": 2416,
+   "value": 1179059,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2022
+  },
+  {
+   "acres": 1.303,
+   "address": "702 GIBSON 78704",
+   "assessed": 1347127,
+   "class": "A1",
+   "deed_date": "2026-06-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.252292,
+   "lon": -97.755254,
+   "sqft": 2371,
+   "value": 1347127,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2019
+  },
+  {
+   "acres": 1.29,
+   "address": "704 GIBSON AUSTIN 78704",
+   "assessed": 636169,
+   "class": "A1",
+   "deed_date": "2026-06-20",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.25235,
+   "lon": -97.755373,
+   "sqft": 795,
+   "value": 740455,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1922
+  },
+  {
+   "acres": 2.169,
+   "address": "801 POST OAK AUSTIN 78704",
+   "assessed": 1237124,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "FLAT"
+   },
+   "homestead": true,
+   "lat": 30.257126,
+   "lon": -97.754039,
+   "sqft": 1313,
+   "value": 1237124,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": 1.676,
+   "address": "1705 6 78704",
+   "assessed": 590342,
+   "class": "A1",
+   "deed_date": "2026-06-15",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.250215,
+   "lon": -97.761873,
+   "sqft": 1628,
+   "value": 590342,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1936
+  },
+  {
+   "acres": 1.263,
+   "address": "716 POST OAK 78704",
+   "assessed": 1750500,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.257448,
+   "lon": -97.753393,
+   "sqft": 3326,
+   "value": 1750500,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": 3.385,
+   "address": "517 BOULDIN 78704",
+   "assessed": 700703,
+   "class": "C1",
+   "deed_date": "2026-06-10",
+   "homestead": false,
+   "lat": 30.258576,
+   "lon": -97.753732,
+   "value": 700703,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 3.093,
+   "address": "712 MARY AUSTIN 78704",
+   "assessed": 1121477,
+   "class": "A1",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.247512,
+   "lon": -97.758586,
+   "sqft": 2236,
+   "value": 1121477,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1950
+  },
+  {
+   "acres": 1.507,
+   "address": "1201 BOULDIN AUSTIN 78704",
+   "assessed": 947650,
+   "class": "A1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.25358,
+   "lon": -97.756746,
+   "sqft": 1496,
+   "value": 1051651,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1941
+  },
+  {
+   "acres": 1.323,
+   "address": "804 GIBSON AUSTIN 78704",
+   "assessed": 1147999,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.252803,
+   "lon": -97.756316,
+   "sqft": 1856,
+   "value": 1205443,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1939
+  },
+  {
+   "acres": 1.525,
+   "address": "1606 3 78704",
+   "assessed": 1891195,
+   "class": "A1",
+   "deed_date": "2026-06-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "OTHER",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.249861,
+   "lon": -97.758411,
+   "sqft": 2550,
+   "value": 1891195,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 1.445,
+   "address": "815 COLUMBUS AUSTIN 78704",
+   "assessed": 1433362,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.254432,
+   "lon": -97.75632,
+   "sqft": 2497,
+   "value": 1433362,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": 2.714,
+   "address": "2005 3 78704",
+   "assessed": 919167,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.245876,
+   "lon": -97.759738,
+   "sqft": 1470,
+   "value": 919167,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1962
+  },
+  {
+   "acres": 1.36,
+   "address": "803 JAMES 78704",
+   "assessed": 2294396,
+   "class": "A1",
+   "deed_date": "2026-05-21",
+   "homestead": true,
+   "lat": 30.253166,
+   "lon": -97.756086,
+   "sqft": 3549,
+   "value": 2294396,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2021
+  },
+  {
+   "acres": 2.467,
+   "address": "609 MARY 78704",
+   "assessed": 1187383,
+   "class": "A1",
+   "deed_date": "2026-05-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.246511,
+   "lon": -97.757303,
+   "sqft": 2204,
+   "value": 1187383,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1945
+  },
   {
    "acres": 1.691,
    "address": "1101 6 78704",
@@ -45,12 +698,24 @@
    "year_built": 2023
   },
   {
+   "acres": 2.25,
+   "address": "2204 3 78704",
+   "assessed": 629639,
+   "class": "C1",
+   "deed_date": "2026-04-29",
+   "homestead": false,
+   "lat": 30.245041,
+   "lon": -97.761268,
+   "value": 629639,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
    "acres": 1.694,
    "address": "910 JOHANNA 78704",
    "assessed": 2264701,
    "class": "A1",
    "deed_date": "2026-04-28",
-   "homestead": false,
+   "homestead": true,
    "lat": 30.247473,
    "lon": -97.762035,
    "sqft": 2975,
@@ -76,6 +741,25 @@
    "value": 1352345,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
+  },
+  {
+   "acres": 2.102,
+   "address": "2209 3 78704",
+   "assessed": 869000,
+   "class": "A1",
+   "deed_date": "2026-04-20",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.244573,
+   "lon": -97.760649,
+   "sqft": 1944,
+   "value": 869000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1946
   },
   {
    "acres": 1.293,
@@ -111,9 +795,47 @@
    "lat": 30.247881,
    "lon": -97.755863,
    "sqft": 792,
-   "value": 713999,
+   "value": 621179,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1954
+  },
+  {
+   "acres": 1.681,
+   "address": "600 BOULDIN 78704",
+   "assessed": 770945,
+   "class": "B2",
+   "deed_date": "2026-04-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.258559,
+   "lon": -97.754369,
+   "sqft": 1675,
+   "value": 770945,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1962
+  },
+  {
+   "acres": 1.343,
+   "address": "906 ELIZABETH AUSTIN 78704",
+   "assessed": 763593,
+   "class": "A1",
+   "deed_date": "2026-04-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.252706,
+   "lon": -97.758278,
+   "sqft": 1120,
+   "value": 763593,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1935
   },
   {
    "acres": 1.306,
@@ -135,7 +857,7 @@
    "assessed": 1411325,
    "class": "A1",
    "deed_date": "2026-03-31",
-   "homestead": false,
+   "homestead": true,
    "lat": 30.254927,
    "lon": -97.757691,
    "sqft": 2659,
@@ -201,7 +923,7 @@
    "assessed": 975424,
    "class": "A1",
    "deed_date": "2026-03-18",
-   "homestead": false,
+   "homestead": true,
    "lat": 30.247412,
    "lon": -97.760195,
    "sqft": 1764,
@@ -277,7 +999,7 @@
     "roof": "METAL",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.243877,
    "lon": -97.761171,
    "sqft": 2696,
@@ -364,7 +1086,7 @@
   {
    "acres": 1.387,
    "address": "1005 JEWELL AUSTIN 78704",
-   "assessed": 1265693,
+   "assessed": 1249000,
    "class": "A1",
    "deed_date": "2026-02-03",
    "extras": {
@@ -376,7 +1098,7 @@
    "lat": 30.252079,
    "lon": -97.760281,
    "sqft": 2559,
-   "value": 1265693,
+   "value": 1249000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
   },
@@ -468,7 +1190,7 @@
   {
    "acres": 1.83,
    "address": "705 MARY AUSTIN 78704",
-   "assessed": 1385464,
+   "assessed": 1343900,
    "class": "A1",
    "deed_date": "2025-12-30",
    "extras": {
@@ -480,7 +1202,7 @@
    "lat": 30.246924,
    "lon": -97.758608,
    "sqft": 1980,
-   "value": 1385464,
+   "value": 1343900,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1927
   },
@@ -544,13 +1266,13 @@
   {
    "acres": 3.996,
    "address": "606 GIBSON 78704",
-   "assessed": 2678932,
+   "assessed": 2475000,
    "class": "F3",
    "deed_date": "2025-12-08",
    "homestead": false,
    "lat": 30.251921,
    "lon": -97.754475,
-   "value": 2678932,
+   "value": 2475000,
    "value_kind": "market (TCAD appraisal)"
   },
   {
@@ -616,25 +1338,6 @@
    "value_kind": "market (TCAD appraisal)"
   },
   {
-   "acres": 1.379,
-   "address": "1703 3 78704",
-   "assessed": 1063259,
-   "class": "A1",
-   "deed_date": "2025-12-05",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.248763,
-   "lon": -97.758089,
-   "sqft": 1744,
-   "value": 1063259,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1958
-  },
-  {
    "acres": null,
    "address": "701 ELIZABETH AUSTIN 78704",
    "assessed": 3962503,
@@ -645,7 +1348,7 @@
     "roof": "BUILT-UP",
     "roof_style": "FLAT"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.250893,
    "lon": -97.755972,
    "sqft": 3468,
@@ -656,7 +1359,7 @@
   {
    "acres": 1.353,
    "address": "902 LIVE OAK 78704",
-   "assessed": 1228737,
+   "assessed": 1130272,
    "class": "A1",
    "deed_date": "2025-11-25",
    "extras": {
@@ -668,7 +1371,7 @@
    "lat": 30.246118,
    "lon": -97.762106,
    "sqft": 2225,
-   "value": 1228737,
+   "value": 1130272,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2013
   },
@@ -683,7 +1386,7 @@
     "roof": "METAL",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.25158,
    "lon": -97.761303,
    "sqft": 2443,
@@ -694,7 +1397,7 @@
   {
    "acres": 1.354,
    "address": "1012 JOHANNA AUSTIN 78704",
-   "assessed": 1246671,
+   "assessed": 1087097,
    "class": "A1",
    "deed_date": "2025-11-12",
    "extras": {
@@ -706,9 +1409,28 @@
    "lat": 30.248056,
    "lon": -97.76343,
    "sqft": 1484,
-   "value": 1246671,
+   "value": 1087097,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1930
+  },
+  {
+   "acres": 2.425,
+   "address": "2210 3 78704",
+   "assessed": 1690000,
+   "class": "A1",
+   "deed_date": "2025-11-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.244683,
+   "lon": -97.761447,
+   "sqft": 2497,
+   "value": 1690000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2022
   },
   {
    "acres": 0.295,
@@ -763,7 +1485,7 @@
   {
    "acres": 3.099,
    "address": "603 BOULDIN 78704",
-   "assessed": 1254081,
+   "assessed": 1066847,
    "class": "A1",
    "deed_date": "2025-10-29",
    "extras": {
@@ -775,7 +1497,7 @@
    "lat": 30.2582,
    "lon": -97.753983,
    "sqft": 2122,
-   "value": 1254081,
+   "value": 1066847,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1947
   },
@@ -794,7 +1516,7 @@
   {
    "acres": 0.774,
    "address": "802 GIBSON AUSTIN 78704",
-   "assessed": 592695,
+   "assessed": 487500,
    "class": "A1",
    "deed_date": "2025-10-22",
    "extras": {
@@ -806,7 +1528,7 @@
    "lat": 30.252671,
    "lon": -97.75623,
    "sqft": 752,
-   "value": 592695,
+   "value": 487500,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1939
   },
@@ -828,424 +1550,26 @@
    "value": 651904,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1955
-  },
-  {
-   "acres": 1.418,
-   "address": "1713 5 78704",
-   "assessed": 740590,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.249612,
-   "lon": -97.760955,
-   "sqft": 820,
-   "value": 740590,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1935
-  },
-  {
-   "acres": 1.333,
-   "address": "902 ELIZABETH 78704",
-   "assessed": 1940843,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.252581,
-   "lon": -97.758022,
-   "sqft": 3130,
-   "value": 1940843,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2018
-  },
-  {
-   "acres": 1.322,
-   "address": "1304 BOULDIN 78704",
-   "assessed": 2152188,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.252519,
-   "lon": -97.757895,
-   "sqft": 3305,
-   "value": 2152188,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.992,
-   "address": "1606 2 78704",
-   "assessed": 845812,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.249359,
-   "lon": -97.756857,
-   "sqft": 1248,
-   "value": 845812,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1935
-  },
-  {
-   "acres": 2.4,
-   "address": "1700 3 78704",
-   "assessed": 1386500,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.249236,
-   "lon": -97.758558,
-   "sqft": 2494,
-   "value": 1386500,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1924
-  },
-  {
-   "acres": 1.536,
-   "address": "703 FLETCHER 78704",
-   "assessed": 2324898,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "homestead": false,
-   "lat": 30.24362,
-   "lon": -97.760587,
-   "sqft": 2630,
-   "value": 2324898,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2021
-  },
-  {
-   "acres": 1.3,
-   "address": "905 LIVE OAK AUSTIN 78704",
-   "assessed": 616960,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.245747,
-   "lon": -97.762545,
-   "sqft": 1268,
-   "value": 616960,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1963
-  },
-  {
-   "acres": 1.148,
-   "address": "913 CHRISTOPHER AUSTIN 78704",
-   "assessed": 1327703,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.255554,
-   "lon": -97.757273,
-   "sqft": 2352,
-   "value": 1327703,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1938
-  },
-  {
-   "acres": 1.509,
-   "address": "709 MONROE AUSTIN 78704",
-   "assessed": 757052,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.249831,
-   "lon": -97.757169,
-   "sqft": 3876,
-   "value": 757052,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1948
-  },
-  {
-   "acres": 1.148,
-   "address": "909 CHRISTOPHER AUSTIN 78704",
-   "assessed": 982160,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.25542,
-   "lon": -97.756998,
-   "sqft": 1694,
-   "value": 982160,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1936
-  },
-  {
-   "acres": 2.422,
-   "address": "1100 5 78704",
-   "assessed": 640428,
-   "class": "C1",
-   "deed_date": "2025-09-08",
-   "homestead": false,
-   "lat": 30.25524,
-   "lon": -97.758113,
-   "sqft": 3838,
-   "value": 640428,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.369,
-   "address": "1007 JEWELL AUSTIN 78704",
-   "assessed": 1294432,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.252146,
-   "lon": -97.76042,
-   "sqft": 2230,
-   "value": 1294432,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1952
-  },
-  {
-   "acres": 2.342,
-   "address": "1710 5 78704",
-   "assessed": 635418,
-   "class": "C1",
-   "deed_date": "2025-09-04",
-   "homestead": false,
-   "lat": 30.249913,
-   "lon": -97.761447,
-   "value": 635418,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 7.96,
-   "address": "801 BARTON SPRINGS 78704",
-   "assessed": 33280655,
-   "class": "F1",
-   "deed_date": "2025-08-27",
-   "homestead": false,
-   "lat": 30.258699,
-   "lon": -97.752743,
-   "sqft": 82276,
-   "value": 33280655,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2018
-  },
-  {
-   "acres": 1.333,
-   "address": "711 LIVE OAK 78704",
-   "assessed": 1204293,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.24496,
-   "lon": -97.760122,
-   "sqft": 2284,
-   "value": 1204293,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 1.354,
-   "address": "908 GIBSON AUSTIN 78704",
-   "assessed": 669972,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.253568,
-   "lon": -97.757898,
-   "sqft": 1056,
-   "value": 669972,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1940
-  },
-  {
-   "acres": 1.602,
-   "address": "910 DANIEL 78704",
-   "assessed": 1212614,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.259347,
-   "lon": -97.754899,
-   "sqft": 952,
-   "value": 1212614,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1948
-  },
-  {
-   "acres": 1.491,
-   "address": "1107 6 78704",
-   "assessed": 359227,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.254946,
-   "lon": -97.758757,
-   "sqft": 624,
-   "value": 406961,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1959
-  },
-  {
-   "acres": 1.3,
-   "address": "714 LIVE OAK AUSTIN 78704",
-   "assessed": 3086860,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "homestead": true,
-   "lat": 30.24544,
-   "lon": -97.76023,
-   "sqft": 2968,
-   "value": 3086860,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2021
-  },
-  {
-   "acres": 1.484,
-   "address": "1305 6TH AUSTIN 78704",
-   "assessed": 2747043,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "homestead": false,
-   "lat": 30.253477,
-   "lon": -97.759679,
-   "sqft": 3953,
-   "value": 2747043,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2024
-  },
-  {
-   "acres": 2.727,
-   "address": "2104 1 78704",
-   "assessed": 1783600,
-   "class": "F3",
-   "deed_date": "2025-08-01",
-   "homestead": false,
-   "lat": 30.244767,
-   "lon": -97.757797,
-   "value": 1783600,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 1.81,
-   "address": "700 GIBSON 78704",
-   "assessed": 1784735,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.252224,
-   "lon": -97.7551,
-   "sqft": 3128,
-   "value": 1784735,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 1.47,
-   "address": "1709 BOULDIN AUSTIN 78704",
-   "assessed": 831697,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.249105,
-   "lon": -97.759235,
-   "sqft": 944,
-   "value": 831697,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1938
   }
  ],
  "windows": {
   "12mo": {
-   "count": 70,
-   "median_value": 1228737,
-   "pct_of_households": 4.08,
-   "pct_of_population": 1.9
+   "count": 88,
+   "median_value": 1135551,
+   "pct_of_households": 5.13,
+   "pct_of_population": 2.39
   },
   "3mo": {
-   "count": 6,
-   "median_value": 1352345,
-   "pct_of_households": 0.35,
-   "pct_of_population": 0.16
+   "count": 18,
+   "median_value": 1103460,
+   "pct_of_households": 1.05,
+   "pct_of_population": 0.49
   },
   "6mo": {
-   "count": 25,
-   "median_value": 1406770,
-   "pct_of_households": 1.46,
-   "pct_of_population": 0.68
+   "count": 46,
+   "median_value": 1110000,
+   "pct_of_households": 2.68,
+   "pct_of_population": 1.25
   }
  }
 }

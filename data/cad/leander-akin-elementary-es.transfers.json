@@ -1,11 +1,543 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 304,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 239,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3125,
  "months_back": 12,
  "population_acs": 9303,
  "transfers": [
+  {
+   "acres": 0.165,
+   "address": "4319 SUMMERCREST LOOP S, ROUND ROCK, TX  78681",
+   "assessed": 431861,
+   "class": "A1",
+   "deed_date": "2026-07-12",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.545546,
+   "lon": -97.756898,
+   "sqft": 1788,
+   "value": 431861,
+   "value_kind": "market (WCAD)",
+   "year_built": 2000
+  },
+  {
+   "acres": 0.222,
+   "address": "2204 CAMINO ALEMEDA, CEDAR PARK, TX  78641",
+   "assessed": 774325,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.551476,
+   "lon": -97.787371,
+   "sqft": 2277,
+   "value": 774325,
+   "value_kind": "market (WCAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": 0.246,
+   "address": "3912 CREST LN, ROUND ROCK, TX  78681",
+   "assessed": 606085,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "STN, BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.561264,
+   "lon": -97.753292,
+   "sqft": 3107,
+   "value": 606085,
+   "value_kind": "market (WCAD)",
+   "year_built": 2007
+  },
+  {
+   "acres": 0.071,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #701, LEANDER, TX  78641",
+   "assessed": 905227,
+   "class": "F1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.548875,
+   "lon": -97.792676,
+   "sqft": 3104,
+   "value": 905227,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.071,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #702, LEANDER, TX  78641",
+   "assessed": 952945,
+   "class": "F1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549005,
+   "lon": -97.792728,
+   "sqft": 3104,
+   "value": 952945,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.024,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #703, LEANDER, TX  78641",
+   "assessed": 448577,
+   "class": "F1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.548919,
+   "lon": -97.792551,
+   "sqft": 1061,
+   "value": 448577,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.024,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #704, LEANDER, TX  78641",
+   "assessed": 362886,
+   "class": "F1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549038,
+   "lon": -97.792599,
+   "sqft": 1061,
+   "value": 362886,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.025,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #705, LEANDER, TX  78641",
+   "assessed": 361686,
+   "class": "F1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.548939,
+   "lon": -97.792482,
+   "sqft": 1057,
+   "value": 361686,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.025,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #706, LEANDER, TX  78641",
+   "assessed": 361498,
+   "class": "F1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549058,
+   "lon": -97.792529,
+   "sqft": 1057,
+   "value": 361498,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.174,
+   "address": "2210 MANADA TRL, LEANDER, TX  78641",
+   "assessed": 685480,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.550729,
+   "lon": -97.790704,
+   "sqft": 1854,
+   "value": 685480,
+   "value_kind": "market (WCAD)",
+   "year_built": 2013
+  },
+  {
+   "acres": 0.181,
+   "address": "3705 HELENA WAY, LEANDER, TX  78641",
+   "assessed": 381946,
+   "class": "O1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.570215,
+   "lon": -97.785267,
+   "sqft": 2600,
+   "value": 381946,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.183,
+   "address": "3709 HELENA WAY, LEANDER, TX  78641",
+   "assessed": 603850,
+   "class": "O1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.57027,
+   "lon": -97.785087,
+   "sqft": 2597,
+   "value": 603850,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.239,
+   "address": "4131 MASSEY WAY, ROUND ROCK, TX  78681",
+   "assessed": 580695,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.559152,
+   "lon": -97.753863,
+   "sqft": 1456,
+   "value": 580695,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.28,
+   "address": "3000 PASEO DE CHARROS, LEANDER, TX  78641",
+   "assessed": 745871,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.552317,
+   "lon": -97.791748,
+   "sqft": 2167,
+   "value": 745871,
+   "value_kind": "market (WCAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": 0.282,
+   "address": "3200 PRADERA CV, LEANDER, TX  78641",
+   "assessed": 726719,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.547867,
+   "lon": -97.784947,
+   "sqft": 2819,
+   "value": 726719,
+   "value_kind": "market (WCAD)",
+   "year_built": 2013
+  },
+  {
+   "acres": 0.186,
+   "address": "2336 LYLA LN, LEANDER, TX  78641",
+   "assessed": 476577,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.559978,
+   "lon": -97.800723,
+   "sqft": 2055,
+   "value": 476577,
+   "value_kind": "market (WCAD)",
+   "year_built": 2012
+  },
+  {
+   "acres": 0.035,
+   "address": "14300 RONALD REAGAN BLVD, UNIT #104, LEANDER, TX  78641",
+   "assessed": 492412,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549511,
+   "lon": -97.793427,
+   "sqft": 1509,
+   "value": 492412,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
+   "acres": 0.033,
+   "address": "14300 RONALD REAGAN BLVD, UNIT #105, LEANDER, TX  78641",
+   "assessed": 473552,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549454,
+   "lon": -97.793405,
+   "sqft": 1441,
+   "value": 473552,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
+   "acres": 0.03,
+   "address": "14300 RONALD REAGAN BLVD, UNIT #106, LEANDER, TX  78641",
+   "assessed": 427368,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.5494,
+   "lon": -97.793386,
+   "sqft": 1291,
+   "value": 427368,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
+   "acres": 0.023,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #707, LEANDER, TX  78641",
+   "assessed": 354727,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.54896,
+   "lon": -97.792414,
+   "sqft": 1042,
+   "value": 354727,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.023,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #708, LEANDER, TX  78641",
+   "assessed": 354110,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549079,
+   "lon": -97.792461,
+   "sqft": 1042,
+   "value": 354110,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.026,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #709, LEANDER, TX  78641",
+   "assessed": 381957,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.548974,
+   "lon": -97.792345,
+   "sqft": 1171,
+   "value": 381957,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.026,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #710, LEANDER, TX  78641",
+   "assessed": 387256,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549104,
+   "lon": -97.792396,
+   "sqft": 1171,
+   "value": 387256,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.028,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #711, LEANDER, TX  78641",
+   "assessed": 387256,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.548996,
+   "lon": -97.792273,
+   "sqft": 1171,
+   "value": 387256,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.028,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #712, LEANDER, TX  78641",
+   "assessed": 387256,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549126,
+   "lon": -97.792324,
+   "sqft": 1171,
+   "value": 387256,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.024,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #713, LEANDER, TX  78641",
+   "assessed": 359409,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549023,
+   "lon": -97.792204,
+   "sqft": 1042,
+   "value": 359409,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.024,
+   "address": "14300 RONALD W REAGAN BLVD, UNIT #714, LEANDER, TX  78641",
+   "assessed": 354110,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.549141,
+   "lon": -97.792251,
+   "sqft": 1042,
+   "value": 354110,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.165,
+   "address": "2013 BILLINGS WAY, LEANDER, TX  78641",
+   "assessed": 752714,
+   "class": "O1",
+   "deed_date": "2026-06-19",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.569471,
+   "lon": -97.785589,
+   "sqft": 2482,
+   "value": 752714,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
   {
    "acres": 0.19,
    "address": "2313 JAKE PICKLE PASS, LEANDER, TX  78641",
@@ -64,6 +596,25 @@
    "year_built": 2014
   },
   {
+   "acres": 0.159,
+   "address": "4021 PINE CONE WAY, LEANDER, TX  78641",
+   "assessed": 648984,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.564354,
+   "lon": -97.776902,
+   "sqft": 1922,
+   "value": 658047,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
    "acres": 4.208,
    "address": "2004 SPANISH OAK TRL, ROUND ROCK, TX  78681",
    "assessed": 1277549,
@@ -81,6 +632,25 @@
    "value": 1277549,
    "value_kind": "market (WCAD)",
    "year_built": 1978
+  },
+  {
+   "acres": 0.29,
+   "address": "3735 GALENA HILLS LOOP, ROUND ROCK, TX  78681",
+   "assessed": 454719,
+   "class": "A1",
+   "deed_date": "2026-06-08",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.547448,
+   "lon": -97.753941,
+   "sqft": 2102,
+   "value": 454719,
+   "value_kind": "market (WCAD)",
+   "year_built": 2001
   },
   {
    "acres": 0.165,
@@ -178,6 +748,25 @@
    "year_built": 1994
   },
   {
+   "acres": 0.204,
+   "address": "3229 PRENTISS LN, LEANDER, TX  78641",
+   "assessed": 666445,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.564696,
+   "lon": -97.790441,
+   "sqft": 2286,
+   "value": 666445,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
+  {
    "acres": 0.023,
    "address": "2410 GREAT OAKS DR, UNIT #401, ROUND ROCK, TX  78681",
    "assessed": 252555,
@@ -250,9 +839,28 @@
    "year_built": 2015
   },
   {
+   "acres": 0.193,
+   "address": "2132 GRAND LAKE PKWY, LEANDER, TX  78641",
+   "assessed": 371831,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.563354,
+   "lon": -97.810772,
+   "sqft": 1648,
+   "value": 371831,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
+  {
    "acres": 0.18,
    "address": "2529 LEONARDS PASS, LEANDER, TX  78641",
-   "assessed": 633119,
+   "assessed": 632484,
    "class": "A1",
    "deed_date": "2026-05-22",
    "extras": {
@@ -264,14 +872,14 @@
    "lat": 30.562113,
    "lon": -97.802341,
    "sqft": 2502,
-   "value": 633119,
+   "value": 632484,
    "value_kind": "market (WCAD)",
    "year_built": 2014
   },
   {
    "acres": 0.025,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #715, LEANDER, TX  78641",
-   "assessed": 360869,
+   "assessed": 353652,
    "class": "F1",
    "deed_date": "2026-05-22",
    "extras": {
@@ -283,14 +891,14 @@
    "lat": 30.549044,
    "lon": -97.792135,
    "sqft": 1057,
-   "value": 360869,
+   "value": 353652,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
   {
    "acres": 0.025,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #716, LEANDER, TX  78641",
-   "assessed": 361498,
+   "assessed": 354268,
    "class": "F1",
    "deed_date": "2026-05-22",
    "extras": {
@@ -302,14 +910,14 @@
    "lat": 30.549162,
    "lon": -97.792181,
    "sqft": 1057,
-   "value": 361498,
+   "value": 354268,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
   {
    "acres": 0.025,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #717, LEANDER, TX  78641",
-   "assessed": 362161,
+   "assessed": 354918,
    "class": "F1",
    "deed_date": "2026-05-22",
    "extras": {
@@ -321,14 +929,14 @@
    "lat": 30.549065,
    "lon": -97.792064,
    "sqft": 1059,
-   "value": 362161,
+   "value": 354918,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
   {
    "acres": 0.024,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #718, LEANDER, TX  78641",
-   "assessed": 362161,
+   "assessed": 354918,
    "class": "F1",
    "deed_date": "2026-05-22",
    "extras": {
@@ -340,14 +948,14 @@
    "lat": 30.549184,
    "lon": -97.792111,
    "sqft": 1059,
-   "value": 362161,
+   "value": 354918,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
   {
    "acres": 0.048,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #719, LEANDER, TX  78641",
-   "assessed": 649248,
+   "assessed": 636263,
    "class": "F1",
    "deed_date": "2026-05-22",
    "extras": {
@@ -359,14 +967,14 @@
    "lat": 30.549085,
    "lon": -97.791964,
    "sqft": 2037,
-   "value": 649248,
+   "value": 636263,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
   {
    "acres": 0.046,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #720, LEANDER, TX  78641",
-   "assessed": 626918,
+   "assessed": 614380,
    "class": "F1",
    "deed_date": "2026-05-22",
    "extras": {
@@ -378,7 +986,7 @@
    "lat": 30.549222,
    "lon": -97.792021,
    "sqft": 1967,
-   "value": 626918,
+   "value": 614380,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -491,6 +1099,25 @@
    "value": 416114,
    "value_kind": "market (WCAD)",
    "year_built": 1994
+  },
+  {
+   "acres": 0.175,
+   "address": "3908 SAPPHIRE LOOP, ROUND ROCK, TX  78681",
+   "assessed": 480787,
+   "class": "A1",
+   "deed_date": "2026-05-14",
+   "extras": {
+    "exterior": "BV, STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.562629,
+   "lon": -97.753105,
+   "sqft": 2358,
+   "value": 480787,
+   "value_kind": "market (WCAD)",
+   "year_built": 2007
   },
   {
    "acres": 0.199,
@@ -724,7 +1351,7 @@
    "acres": 0.169,
    "address": "3613 HELENA WAY, LEANDER, TX  78641",
    "assessed": 553456,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-29",
    "extras": {
     "exterior": "BRICK",
@@ -781,7 +1408,7 @@
    "acres": 0.194,
    "address": "3725 HELENA WAY, LEANDER, TX  78641",
    "assessed": 397948,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-24",
    "extras": {
     "exterior": "BRICK",
@@ -835,6 +1462,25 @@
    "year_built": 2022
   },
   {
+   "acres": 1.417,
+   "address": "2004 WALSH DR, ROUND ROCK, TX  78681",
+   "assessed": 646842,
+   "class": "A1",
+   "deed_date": "2026-04-19",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.530795,
+   "lon": -97.747793,
+   "sqft": 1956,
+   "value": 652584,
+   "value_kind": "market (WCAD)",
+   "year_built": 1984
+  },
+  {
    "acres": 0.197,
    "address": "1907 VALLE VERDE DR, LEANDER, TX  78641",
    "assessed": 635759,
@@ -852,6 +1498,25 @@
    "value": 635759,
    "value_kind": "market (WCAD)",
    "year_built": 2016
+  },
+  {
+   "acres": 0.173,
+   "address": "2311 MANADA TRL, LEANDER, TX  78641",
+   "assessed": 665204,
+   "class": "A1",
+   "deed_date": "2026-04-16",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.551527,
+   "lon": -97.791887,
+   "sqft": 3004,
+   "value": 665204,
+   "value_kind": "market (WCAD)",
+   "year_built": 2014
   },
   {
    "acres": 0.181,
@@ -1095,6 +1760,25 @@
    "value": 481398,
    "value_kind": "market (WCAD)",
    "year_built": 2025
+  },
+  {
+   "acres": 0.175,
+   "address": "3010 PALOMINOS PASS, LEANDER, TX  78641",
+   "assessed": 606264,
+   "class": "A1",
+   "deed_date": "2026-03-28",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.551842,
+   "lon": -97.790452,
+   "sqft": 2391,
+   "value": 606264,
+   "value_kind": "market (WCAD)",
+   "year_built": 2013
   },
   {
    "acres": 0.199,
@@ -1403,7 +2087,7 @@
   {
    "acres": 0.207,
    "address": "3503 NEWLAND PL, ROUND ROCK, TX  78681",
-   "assessed": 644558,
+   "assessed": 430000,
    "class": "A1",
    "deed_date": "2026-03-13",
    "extras": {
@@ -1415,7 +2099,7 @@
    "lat": 30.549524,
    "lon": -97.749573,
    "sqft": 1871,
-   "value": 644558,
+   "value": 430000,
    "value_kind": "market (WCAD)",
    "year_built": 1996
   },
@@ -1553,25 +2237,6 @@
    "year_built": 2012
   },
   {
-   "acres": 11.478,
-   "address": "2600 DEER TRAIL CI, ROUND ROCK, TX  78681",
-   "assessed": 1429834,
-   "class": "A1",
-   "deed_date": "2026-03-03",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.540564,
-   "lon": -97.743835,
-   "sqft": 3200,
-   "value": 1429834,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
    "acres": 0.299,
    "address": "4108 TWILIGHT CV, ROUND ROCK, TX  78681",
    "assessed": 598363,
@@ -1670,7 +2335,7 @@
    "acres": 0.185,
    "address": "3625 HELENA WAY, LEANDER, TX  78641",
    "assessed": 618127,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-26",
    "extras": {
     "exterior": "BRICK",
@@ -1696,7 +2361,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.569471,
    "lon": -97.785015,
    "sqft": 2632,
@@ -1783,7 +2448,7 @@
   {
    "acres": 0.205,
    "address": "3309 PRENTISS LN, LEANDER, TX  78641",
-   "assessed": 595592,
+   "assessed": 558317,
    "class": "A1",
    "deed_date": "2026-02-19",
    "extras": {
@@ -1795,7 +2460,7 @@
    "lat": 30.564862,
    "lon": -97.789902,
    "sqft": 1822,
-   "value": 595592,
+   "value": 558317,
    "value_kind": "market (WCAD)",
    "year_built": 2018
   },
@@ -1933,6 +2598,25 @@
    "year_built": 2017
   },
   {
+   "acres": 0.197,
+   "address": "2232 JAKE PICKLE PASS, LEANDER, TX  78641",
+   "assessed": 420263,
+   "class": "A1",
+   "deed_date": "2026-02-09",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.560604,
+   "lon": -97.802819,
+   "sqft": 2028,
+   "value": 420263,
+   "value_kind": "market (WCAD)",
+   "year_built": 2013
+  },
+  {
    "acres": 0.156,
    "address": "2520 ROARING RIVER TRL, LEANDER, TX  78641",
    "assessed": 582521,
@@ -1955,7 +2639,7 @@
    "acres": 0.166,
    "address": "2021 BILLINGS WAY, LEANDER, TX  78641",
    "assessed": 745631,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-06",
    "extras": {
     "exterior": "BRICK",
@@ -2714,7 +3398,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.568737,
    "lon": -97.785692,
    "sqft": 1933,
@@ -2782,7 +3466,7 @@
   {
    "acres": 0.386,
    "address": "2708 URSULA CT, LEANDER, TX  78641",
-   "assessed": 728285,
+   "assessed": 691563,
    "class": "A1",
    "deed_date": "2025-12-16",
    "extras": {
@@ -2794,7 +3478,7 @@
    "lat": 30.560697,
    "lon": -97.780244,
    "sqft": 2220,
-   "value": 728285,
+   "value": 691563,
    "value_kind": "market (WCAD)",
    "year_built": 2018
   },
@@ -2970,25 +3654,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.197,
-   "address": "2232 JAKE PICKLE PASS, LEANDER, TX  78641",
-   "assessed": 420263,
-   "class": "A1",
-   "deed_date": "2025-12-08",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.560604,
-   "lon": -97.802819,
-   "sqft": 2028,
-   "value": 420263,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
    "acres": 0.243,
    "address": "3808 TANGO CT, LEANDER, TX  78641",
    "assessed": 665987,
@@ -3162,7 +3827,7 @@
   {
    "acres": 0.022,
    "address": "2901 CABALLO RANCH BLVD, UNIT #6B, CEDAR PARK, TX  78641",
-   "assessed": 464709,
+   "assessed": 462838,
    "class": "F1",
    "deed_date": "2025-11-26",
    "extras": {
@@ -3174,14 +3839,14 @@
    "lat": 30.548187,
    "lon": -97.791211,
    "sqft": 1000,
-   "value": 464709,
+   "value": 462838,
    "value_kind": "market (WCAD)",
    "year_built": 2020
   },
   {
    "acres": 0.025,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #805, LEANDER, TX  78641",
-   "assessed": 387434,
+   "assessed": 379685,
    "class": "F1",
    "deed_date": "2025-11-26",
    "extras": {},
@@ -3189,14 +3854,14 @@
    "lat": 30.548465,
    "lon": -97.792296,
    "sqft": 1057,
-   "value": 387434,
+   "value": 379685,
    "value_kind": "market (WCAD)",
    "year_built": 2024
   },
   {
    "acres": 0.023,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #807, LEANDER, TX  78641",
-   "assessed": 387319,
+   "assessed": 379573,
    "class": "F1",
    "deed_date": "2025-11-26",
    "extras": {},
@@ -3204,14 +3869,14 @@
    "lat": 30.548486,
    "lon": -97.792228,
    "sqft": 1042,
-   "value": 387319,
+   "value": 379573,
    "value_kind": "market (WCAD)",
    "year_built": 2024
   },
   {
    "acres": 0.027,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #809, LEANDER, TX  78641",
-   "assessed": 423467,
+   "assessed": 414998,
    "class": "F1",
    "deed_date": "2025-11-26",
    "extras": {},
@@ -3219,14 +3884,14 @@
    "lat": 30.548502,
    "lon": -97.792158,
    "sqft": 1171,
-   "value": 423467,
+   "value": 414998,
    "value_kind": "market (WCAD)",
    "year_built": 2024
   },
   {
    "acres": 0.028,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #811, LEANDER, TX  78641",
-   "assessed": 423467,
+   "assessed": 414998,
    "class": "F1",
    "deed_date": "2025-11-26",
    "extras": {},
@@ -3234,14 +3899,14 @@
    "lat": 30.548524,
    "lon": -97.792085,
    "sqft": 1171,
-   "value": 423467,
+   "value": 414998,
    "value_kind": "market (WCAD)",
    "year_built": 2024
   },
   {
    "acres": 0.024,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #813, LEANDER, TX  78641",
-   "assessed": 387319,
+   "assessed": 379573,
    "class": "F1",
    "deed_date": "2025-11-26",
    "extras": {},
@@ -3249,14 +3914,14 @@
    "lat": 30.54855,
    "lon": -97.792017,
    "sqft": 1042,
-   "value": 387319,
+   "value": 379573,
    "value_kind": "market (WCAD)",
    "year_built": 2024
   },
   {
    "acres": 0.025,
    "address": "14300 RONALD W REAGAN BLVD, UNIT #815, LEANDER, TX  78641",
-   "assessed": 387434,
+   "assessed": 379685,
    "class": "F1",
    "deed_date": "2025-11-26",
    "extras": {},
@@ -3264,7 +3929,7 @@
    "lat": 30.548571,
    "lon": -97.791947,
    "sqft": 1057,
-   "value": 387434,
+   "value": 379685,
    "value_kind": "market (WCAD)",
    "year_built": 2024
   },
@@ -3279,7 +3944,7 @@
     "foundation": "SLB",
     "roof": "HP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.552417,
    "lon": -97.74914,
    "sqft": 1796,
@@ -3668,6 +4333,25 @@
    "year_built": 1998
   },
   {
+   "acres": 0.181,
+   "address": "1805 MANADA TRL, LEANDER, TX  78641",
+   "assessed": 605236,
+   "class": "A1",
+   "deed_date": "2025-10-29",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.546493,
+   "lon": -97.787001,
+   "sqft": 2499,
+   "value": 605236,
+   "value_kind": "market (WCAD)",
+   "year_built": 2010
+  },
+  {
    "acres": 0.172,
    "address": "1920 PECAN VALLEY DR, LEANDER, TX  78641",
    "assessed": 598153,
@@ -3814,1928 +4498,26 @@
    "value": 641835,
    "value_kind": "market (WCAD)",
    "year_built": 2012
-  },
-  {
-   "acres": 0.226,
-   "address": "3836 NEWLAND CT, ROUND ROCK, TX  78681",
-   "assessed": 691862,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.555038,
-   "lon": -97.748308,
-   "sqft": 1564,
-   "value": 691862,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.19,
-   "address": "4333 ROCK HILL RD, ROUND ROCK, TX  78681",
-   "assessed": 483894,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.551746,
-   "lon": -97.761109,
-   "sqft": 1222,
-   "value": 483894,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.206,
-   "address": "2009 LOLO LN, LEANDER, TX  78641",
-   "assessed": 683518,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.569911,
-   "lon": -97.784793,
-   "sqft": 1994,
-   "value": 683518,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.344,
-   "address": "4005 CALLABERO CV, ROUND ROCK, TX  78681",
-   "assessed": 556307,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.551527,
-   "lon": -97.757196,
-   "sqft": 1614,
-   "value": 556307,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.058,
-   "address": "3240 E WHITESTONE BLVD, UNIT #46, CEDAR PARK, TX  78613",
-   "assessed": 459358,
-   "class": "A8",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.534145,
-   "lon": -97.77728,
-   "sqft": 1132,
-   "value": 459358,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.192,
-   "address": "3217 ASH GLEN LN, ROUND ROCK, TX  78681",
-   "assessed": 505445,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.551805,
-   "lon": -97.758812,
-   "sqft": 2922,
-   "value": 505445,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.053,
-   "address": "3240 E WHITESTONE BLVD, UNIT #24, CEDAR PARK, TX  78613",
-   "assessed": 438548,
-   "class": "A8",
-   "deed_date": "2025-10-04",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.53476,
-   "lon": -97.775113,
-   "sqft": 1246,
-   "value": 438548,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.286,
-   "address": "3816 TANGO CT, LEANDER, TX  78641",
-   "assessed": 748427,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.560765,
-   "lon": -97.778421,
-   "sqft": 2261,
-   "value": 748427,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.174,
-   "address": "2009 MANADA TRL, LEANDER, TX  78641",
-   "assessed": 561586,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.547973,
-   "lon": -97.788707,
-   "sqft": 2006,
-   "value": 561586,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.029,
-   "address": "15301 RONALD W REAGAN BLVD, UNIT #1106, LEANDER, TX  78641",
-   "assessed": 361679,
-   "class": "F1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.560323,
-   "lon": -97.800249,
-   "sqft": 1261,
-   "value": 361679,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.165,
-   "address": "2020 SACO ST, LEANDER, TX  78641",
-   "assessed": 683608,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569049,
-   "lon": -97.78582,
-   "sqft": 1960,
-   "value": 683608,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.143,
-   "address": "2421 CHIMNEY ROCK RD, LEANDER, TX  78641",
-   "assessed": 340743,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.563137,
-   "lon": -97.804578,
-   "sqft": 1595,
-   "value": 340743,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.034,
-   "address": "3401 ROYAL VISTA BLVD, BLDG #B UNIT 102, ROUND ROCK, TX  78681",
-   "assessed": 528116,
-   "class": "F1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "STC, STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.546206,
-   "lon": -97.755814,
-   "sqft": 1474,
-   "value": 528116,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.22,
-   "address": "3116 MEDIA DR, LEANDER, TX  78641",
-   "assessed": 630375,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.551442,
-   "lon": -97.788369,
-   "sqft": 2578,
-   "value": 630375,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.139,
-   "address": "2116 BILLINGS WAY, LEANDER, TX  78641",
-   "assessed": 606323,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.568367,
-   "lon": -97.7845,
-   "sqft": 1714,
-   "value": 606323,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.194,
-   "address": "1007 RUSSWOOD CV, ROUND ROCK, TX  78681",
-   "assessed": 446866,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.549624,
-   "lon": -97.758619,
-   "sqft": 2092,
-   "value": 446866,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.235,
-   "address": "2020 ELAINA LOOP, LEANDER, TX  78641",
-   "assessed": 561616,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.564102,
-   "lon": -97.809738,
-   "sqft": 1845,
-   "value": 561616,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.166,
-   "address": "2016 SACO ST, LEANDER, TX  78641",
-   "assessed": 692426,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.569204,
-   "lon": -97.785884,
-   "sqft": 2030,
-   "value": 692426,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.167,
-   "address": "2024 SACO ST, LEANDER, TX  78641",
-   "assessed": 688747,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.568893,
-   "lon": -97.785756,
-   "sqft": 2030,
-   "value": 688747,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.154,
-   "address": "3609 HELENA WAY, LEANDER, TX  78641",
-   "assessed": 622856,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.56986,
-   "lon": -97.786534,
-   "sqft": 1714,
-   "value": 622856,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 2.917,
-   "address": "10948 E CRYSTAL FALLS PKWY, LEANDER, TX  78641",
-   "assessed": 3628587,
-   "class": "F1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "ML",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.568054,
-   "lon": -97.807372,
-   "sqft": 5520,
-   "value": 3628587,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.148,
-   "address": "2408 CHIMNEY ROCK RD, LEANDER, TX  78641",
-   "assessed": 455384,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.562525,
-   "lon": -97.80488,
-   "sqft": 2320,
-   "value": 455384,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.155,
-   "address": "2112 BILLINGS WAY, LEANDER, TX  78641",
-   "assessed": 688043,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.568487,
-   "lon": -97.784597,
-   "sqft": 2030,
-   "value": 688043,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 7.349,
-   "address": "2 ANDERSON CROSSING, CEDAR PARK, TX  78613",
-   "assessed": 2148974,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.53266,
-   "lon": -97.765754,
-   "sqft": 2923,
-   "value": 2148974,
-   "value_kind": "market (WCAD)",
-   "year_built": 1992
-  },
-  {
-   "acres": 0.138,
-   "address": "2521 LOST WOODS BND, LEANDER, TX  78641",
-   "assessed": 643432,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.563228,
-   "lon": -97.778855,
-   "sqft": 2058,
-   "value": 643432,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.165,
-   "address": "2012 SACO ST, LEANDER, TX  78641",
-   "assessed": 623111,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.569359,
-   "lon": -97.785948,
-   "sqft": 1714,
-   "value": 623111,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.169,
-   "address": "3513 ASHMERE LOOP, ROUND ROCK, TX  78681",
-   "assessed": 423620,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.552728,
-   "lon": -97.752506,
-   "sqft": 1379,
-   "value": 423620,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.212,
-   "address": "1904 CACTUS MOUND DR, LEANDER, TX  78641",
-   "assessed": 521091,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.56319,
-   "lon": -97.811527,
-   "sqft": 2714,
-   "value": 521091,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 4.329,
-   "address": "14050 W RONALD REAGAN BLVD, LEANDER, TX  78641",
-   "assessed": 3559237,
-   "class": "F1",
-   "deed_date": "2025-09-10",
-   "homestead": false,
-   "lat": 30.545127,
-   "lon": -97.791123,
-   "value": 3559237,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 0.138,
-   "address": "2017 LOLO LN, LEANDER, TX  78641",
-   "assessed": 696476,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569594,
-   "lon": -97.784661,
-   "sqft": 2070,
-   "value": 696476,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.189,
-   "address": "4079 HONEY BEAR LOOP, ROUND ROCK, TX  78681",
-   "assessed": 553271,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.554653,
-   "lon": -97.751449,
-   "sqft": 1568,
-   "value": 555630,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.174,
-   "address": "2210 MANADA TRL, LEANDER, TX  78641",
-   "assessed": 685480,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.550729,
-   "lon": -97.790704,
-   "sqft": 1854,
-   "value": 685480,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.201,
-   "address": "3103 MADISINA DR, LEANDER, TX  78641",
-   "assessed": 594885,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.545451,
-   "lon": -97.78593,
-   "sqft": 2267,
-   "value": 594885,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.228,
-   "address": "3504 ASHMERE LOOP, ROUND ROCK, TX  78681",
-   "assessed": 446729,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.552428,
-   "lon": -97.753137,
-   "sqft": 1069,
-   "value": 446729,
-   "value_kind": "market (WCAD)",
-   "year_built": 1992
-  },
-  {
-   "acres": 0.147,
-   "address": "3804 JULIAN LN, LEANDER, TX  78641",
-   "assessed": 628175,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.564945,
-   "lon": -97.781209,
-   "sqft": 1693,
-   "value": 628175,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.268,
-   "address": "2725 HUDSON LN, LEANDER, TX  78641",
-   "assessed": 754585,
-   "class": "A1",
-   "deed_date": "2025-08-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB"
-   },
-   "homestead": true,
-   "lat": 30.560099,
-   "lon": -97.779898,
-   "sqft": 2269,
-   "value": 754585,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.153,
-   "address": "4072 HONEY BEAR LOOP, ROUND ROCK, TX  78681",
-   "assessed": 638306,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.554031,
-   "lon": -97.751963,
-   "sqft": 1634,
-   "value": 638306,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.053,
-   "address": "3240 E WHITESTONE BLVD, UNIT #2, CEDAR PARK, TX  78613",
-   "assessed": 377555,
-   "class": "A8",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.535319,
-   "lon": -97.777897,
-   "sqft": 1048,
-   "value": 377555,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.217,
-   "address": "2532 BOWEN ST, LEANDER, TX  78641",
-   "assessed": 508484,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.556164,
-   "lon": -97.802321,
-   "sqft": 2088,
-   "value": 508484,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.15,
-   "address": "2433 ROARING RIVER TRL, LEANDER, TX  78641",
-   "assessed": 587319,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.565257,
-   "lon": -97.776125,
-   "sqft": 1705,
-   "value": 587319,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.032,
-   "address": "15205 RONALD W REAGAN BLVD, UNIT #700, LEANDER, TX  78641",
-   "assessed": 418439,
-   "class": "C1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "SHD"
-   },
-   "homestead": false,
-   "lat": 30.558713,
-   "lon": -97.79911,
-   "sqft": 1477,
-   "value": 418439,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.033,
-   "address": "15205 RONALD W REAGAN BLVD, UNIT #701, LEANDER, TX  78641",
-   "assessed": 442455,
-   "class": "F1",
-   "deed_date": "2025-08-29",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.558756,
-   "lon": -97.798964,
-   "sqft": 1573,
-   "value": 442455,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.043,
-   "address": "15205 RONALD W REAGAN BLVD, UNIT #702, LEANDER, TX  78641",
-   "assessed": 686124,
-   "class": "F1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "SHD"
-   },
-   "homestead": false,
-   "lat": 30.55867,
-   "lon": -97.799005,
-   "sqft": 1804,
-   "value": 686124,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.173,
-   "address": "4404 S SUMMERCREST LOOP, ROUND ROCK, TX  78681",
-   "assessed": 453755,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.545687,
-   "lon": -97.758286,
-   "sqft": 2531,
-   "value": 453755,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 1.371,
-   "address": "4401 SAM BASS RD, ROUND ROCK, TX  78681",
-   "assessed": 796063,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.535915,
-   "lon": -97.744977,
-   "sqft": 3538,
-   "value": 796063,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.136,
-   "address": "2021 LOLO LN, LEANDER, TX  78641",
-   "assessed": 616009,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569465,
-   "lon": -97.784607,
-   "sqft": 1705,
-   "value": 616009,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.218,
-   "address": "3114 MEDIA DR, LEANDER, TX  78641",
-   "assessed": 729179,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.551419,
-   "lon": -97.788594,
-   "sqft": 2965,
-   "value": 729179,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.207,
-   "address": "2008 SACO ST, LEANDER, TX  78641",
-   "assessed": 619370,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569534,
-   "lon": -97.786019,
-   "sqft": 2220,
-   "value": 619370,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.178,
-   "address": "2033 LOLO LN, LEANDER, TX  78641",
-   "assessed": 679366,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569057,
-   "lon": -97.784441,
-   "sqft": 2045,
-   "value": 679366,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.305,
-   "address": "4301 ROCK HILL RD, ROUND ROCK, TX  78681",
-   "assessed": 405485,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.550172,
-   "lon": -97.762536,
-   "sqft": 2367,
-   "value": 405485,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.148,
-   "address": "1908 GRANITE SPRINGS RD, LEANDER, TX  78641",
-   "assessed": 573992,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.565634,
-   "lon": -97.802943,
-   "sqft": 1488,
-   "value": 573992,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 2.456,
-   "address": "2007 MAYFIELD DR, ROUND ROCK, TX  78681",
-   "assessed": 885907,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB"
-   },
-   "homestead": true,
-   "lat": 30.53118,
-   "lon": -97.74963,
-   "sqft": 1136,
-   "value": 885907,
-   "value_kind": "market (WCAD)",
-   "year_built": 1980
-  },
-  {
-   "acres": 0.185,
-   "address": "3220 PRENTISS LN, LEANDER, TX  78641",
-   "assessed": 619350,
-   "class": "A1",
-   "deed_date": "2025-08-24",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.564069,
-   "lon": -97.790665,
-   "sqft": 2286,
-   "value": 619350,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.177,
-   "address": "4221 SUMMERCREST LOOP N, ROUND ROCK, TX  78681",
-   "assessed": 426753,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.547088,
-   "lon": -97.759386,
-   "sqft": 1788,
-   "value": 426753,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.137,
-   "address": "2029 LOLO LN, LEANDER, TX  78641",
-   "assessed": 616009,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569207,
-   "lon": -97.784501,
-   "sqft": 1705,
-   "value": 616009,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.206,
-   "address": "2009 BILLINGS WAY, LEANDER, TX  78641",
-   "assessed": 674117,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569645,
-   "lon": -97.785661,
-   "sqft": 1921,
-   "value": 674117,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.139,
-   "address": "2436 STEEL TIMBER TRL, LEANDER, TX  78641",
-   "assessed": 638211,
-   "class": "A1",
-   "deed_date": "2025-08-17",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.565049,
-   "lon": -97.776442,
-   "sqft": 2024,
-   "value": 638211,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.217,
-   "address": "2110 CAMINO ALEMEDA, CEDAR PARK, TX  78641",
-   "assessed": 719003,
-   "class": "A1",
-   "deed_date": "2025-08-16",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.550889,
-   "lon": -97.787334,
-   "sqft": 2662,
-   "value": 719003,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.137,
-   "address": "2025 LOLO LN, LEANDER, TX  78641",
-   "assessed": 692046,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569336,
-   "lon": -97.784555,
-   "sqft": 2070,
-   "value": 692046,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.189,
-   "address": "4329 ROCK HILL RD, ROUND ROCK, TX  78681",
-   "assessed": 437224,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.551635,
-   "lon": -97.761467,
-   "sqft": 2344,
-   "value": 437224,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.023,
-   "address": "2410 GREAT OAKS DR, UNIT #1001, ROUND ROCK, TX  78681",
-   "assessed": 260496,
-   "class": "A8",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.537247,
-   "lon": -97.742033,
-   "sqft": 695,
-   "value": 260496,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.024,
-   "address": "2410 GREAT OAKS DR, UNIT #1002, ROUND ROCK, TX  78681",
-   "assessed": 257577,
-   "class": "A8",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.537277,
-   "lon": -97.742112,
-   "sqft": 695,
-   "value": 257577,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.14,
-   "address": "2504 ERICANNA LN, LEANDER, TX  78641",
-   "assessed": 421811,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "BV, STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.562138,
-   "lon": -97.803415,
-   "sqft": 1910,
-   "value": 421811,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": 0.173,
-   "address": "1809 CACTUS MOUND DR, LEANDER, TX  78641",
-   "assessed": 479452,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.564078,
-   "lon": -97.81253,
-   "sqft": 2453,
-   "value": 479452,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.051,
-   "address": "3240 E WHITESTONE BLVD, UNIT #51, CEDAR PARK, TX  78613",
-   "assessed": 377555,
-   "class": "A8",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.534301,
-   "lon": -97.777919,
-   "sqft": 1048,
-   "value": 377555,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.15,
-   "address": "2124 BILLINGS WAY, LEANDER, TX  78641",
-   "assessed": 594735,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.568159,
-   "lon": -97.784289,
-   "sqft": 1941,
-   "value": 594735,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.163,
-   "address": "2105 BILLINGS WAY, LEANDER, TX  78641",
-   "assessed": 682069,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.568538,
-   "lon": -97.785204,
-   "sqft": 2030,
-   "value": 682069,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.154,
-   "address": "3705 DERBY TRL, ROUND ROCK, TX  78681",
-   "assessed": 460328,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.555305,
-   "lon": -97.750444,
-   "sqft": 2703,
-   "value": 460328,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.205,
-   "address": "3106 PASEO DE RANCHEROS, CEDAR PARK, TX  78641",
-   "assessed": 604765,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.550585,
-   "lon": -97.788305,
-   "sqft": 2385,
-   "value": 604765,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.295,
-   "address": "2302 PONDEROSA PASS, CEDAR PARK, TX  78641",
-   "assessed": 606409,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.554129,
-   "lon": -97.785722,
-   "sqft": 2300,
-   "value": 606409,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.144,
-   "address": "3613 WOLF POINT WAY, LEANDER, TX  78641",
-   "assessed": 616043,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.5678,
-   "lon": -97.784952,
-   "sqft": 1705,
-   "value": 616043,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.198,
-   "address": "3204 HERRERO PATH, LEANDER, TX  78641",
-   "assessed": 624055,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.546713,
-   "lon": -97.784747,
-   "sqft": 2593,
-   "value": 624055,
-   "value_kind": "market (WCAD)",
-   "year_built": 2010
-  },
-  {
-   "acres": 4.0,
-   "address": "2009 SPANISH OAK TRL, ROUND ROCK, TX  78681",
-   "assessed": 1224838,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.532397,
-   "lon": -97.758508,
-   "sqft": 2569,
-   "value": 1274937,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.022,
-   "address": "15141 RONALD W REAGAN BLVD, UNIT #507, LEANDER, TX  78641",
-   "assessed": 288450,
-   "class": "F1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.557318,
-   "lon": -97.798894,
-   "sqft": 976,
-   "value": 288450,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.194,
-   "address": "3609 WOLF POINT WAY, LEANDER, TX  78641",
-   "assessed": 657089,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.567659,
-   "lon": -97.785051,
-   "sqft": 1963,
-   "value": 657089,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.147,
-   "address": "2120 BILLINGS WAY, LEANDER, TX  78641",
-   "assessed": 686495,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.568255,
-   "lon": -97.784405,
-   "sqft": 2030,
-   "value": 686495,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.035,
-   "address": "15237 RONALD W REAGAN BLVD, UNIT #800, LEANDER, TX  78641",
-   "assessed": 370522,
-   "class": "F1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "SHD"
-   },
-   "homestead": false,
-   "lat": 30.559223,
-   "lon": -97.79931,
-   "sqft": 1289,
-   "value": 370522,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.037,
-   "address": "15237 RONALD W REAGAN BLVD, UNIT #801, LEANDER, TX  78641",
-   "assessed": 468607,
-   "class": "F1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "SHD"
-   },
-   "homestead": false,
-   "lat": 30.559263,
-   "lon": -97.799169,
-   "sqft": 1385,
-   "value": 468607,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.042,
-   "address": "15237 RONALD W REAGAN BLVD, UNIT #802, LEANDER, TX  78641",
-   "assessed": 691358,
-   "class": "F1",
-   "deed_date": "2025-07-30",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.559174,
-   "lon": -97.799211,
-   "sqft": 1817,
-   "value": 691358,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.24,
-   "address": "3705 LAUREL BAY LOOP, ROUND ROCK, TX  78681",
-   "assessed": 481629,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.552283,
-   "lon": -97.756413,
-   "sqft": 2159,
-   "value": 481629,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.172,
-   "address": "2325 MUZZIE LN, LEANDER, TX  78641",
-   "assessed": 375261,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.560294,
-   "lon": -97.805095,
-   "sqft": 1872,
-   "value": 375261,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.211,
-   "address": "2409 REPUBLIC TRAILS BLVD, LEANDER, TX  78641",
-   "assessed": 513692,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.558055,
-   "lon": -97.802493,
-   "sqft": 1264,
-   "value": 513692,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.19,
-   "address": "2108 BILLINGS WAY, LEANDER, TX  78641",
-   "assessed": 678295,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.568644,
-   "lon": -97.784676,
-   "sqft": 1960,
-   "value": 678295,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.43,
-   "address": "3804 TANGO CT, LEANDER, TX  78641",
-   "assessed": 735209,
-   "class": "A1",
-   "deed_date": "2025-07-27",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.56028,
-   "lon": -97.779077,
-   "sqft": 2263,
-   "value": 735209,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 1.495,
-   "address": "2012 VIVIAN DR, ROUND ROCK, TX  78681",
-   "assessed": 822207,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.529237,
-   "lon": -97.753849,
-   "sqft": 2207,
-   "value": 1113644,
-   "value_kind": "market (WCAD)",
-   "year_built": 1977
-  },
-  {
-   "acres": 0.033,
-   "address": "RONALD W REAGAN BLVD, UNIT #306, LEANDER, TX  78641",
-   "assessed": 404276,
-   "class": "F1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.558074,
-   "lon": -97.799165,
-   "sqft": 1430,
-   "value": 404276,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 1.001,
-   "address": "2549 DEER TRAIL CI, ROUND ROCK, TX  78681",
-   "assessed": 393414,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.540068,
-   "lon": -97.743059,
-   "sqft": 2251,
-   "value": 393414,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.208,
-   "address": "3505 GALENA HILLS LOOP, ROUND ROCK, TX  78681",
-   "assessed": 398551,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.548034,
-   "lon": -97.755579,
-   "sqft": 1227,
-   "value": 398551,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.208,
-   "address": "4231 SUMMERCREST LOOP N, ROUND ROCK, TX  78681",
-   "assessed": 433859,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.546291,
-   "lon": -97.758995,
-   "sqft": 2316,
-   "value": 433859,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.231,
-   "address": "3804 GALENA HILLS LOOP, ROUND ROCK, TX  78681",
-   "assessed": 574115,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.547169,
-   "lon": -97.755288,
-   "sqft": 1331,
-   "value": 574115,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.043,
-   "address": "3240 E WHITESTONE BLVD, UNIT #62, CEDAR PARK, TX  78613",
-   "assessed": 381094,
-   "class": "A8",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.534882,
-   "lon": -97.778943,
-   "sqft": 1055,
-   "value": 381094,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.145,
-   "address": "3936 KRISTEN CREEK LN, ROUND ROCK, TX  78681",
-   "assessed": 435169,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.55272,
-   "lon": -97.749462,
-   "sqft": 2113,
-   "value": 435169,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.137,
-   "address": "2424 STEEL TIMBER TRL, LEANDER, TX  78641",
-   "assessed": 598059,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.565381,
-   "lon": -97.776725,
-   "sqft": 2024,
-   "value": 598059,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.136,
-   "address": "2108 SACO ST, LEANDER, TX  78641",
-   "assessed": 615444,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.568158,
-   "lon": -97.78545,
-   "sqft": 1714,
-   "value": 615444,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.138,
-   "address": "3817 NEWLAND DR, ROUND ROCK, TX  78681",
-   "assessed": 467312,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.554286,
-   "lon": -97.748354,
-   "sqft": 1415,
-   "value": 467312,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.169,
-   "address": "4236 KINGSBURG DR, ROUND ROCK, TX  78681",
-   "assessed": 434029,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.549634,
-   "lon": -97.760721,
-   "sqft": 998,
-   "value": 434029,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 3.598,
-   "address": "1920 SPANISH OAK TRL, ROUND ROCK, TX  78681",
-   "assessed": 814910,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.529965,
-   "lon": -97.755616,
-   "sqft": 2400,
-   "value": 814910,
-   "value_kind": "market (WCAD)",
-   "year_built": 1984
-  },
-  {
-   "acres": 0.168,
-   "address": "3633 MINERAL DR, LEANDER, TX  78641",
-   "assessed": 496076,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.561197,
-   "lon": -97.782165,
-   "sqft": 2168,
-   "value": 496076,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.033,
-   "address": "RONALD W REAGAN BLVD, LEANDER, TX  78641",
-   "assessed": 404276,
-   "class": "F1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.558039,
-   "lon": -97.799283,
-   "sqft": 1430,
-   "value": 404276,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.19,
-   "address": "3714 DERBY TRL, ROUND ROCK, TX  78681",
-   "assessed": 510918,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.5559,
-   "lon": -97.750204,
-   "sqft": 2714,
-   "value": 510918,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 1.061,
-   "address": "105 STEVENS TRL, ROUND ROCK, TX  78681",
-   "assessed": 1076762,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "STN, STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.536639,
-   "lon": -97.751795,
-   "sqft": 3174,
-   "value": 1076762,
-   "value_kind": "market (WCAD)",
-   "year_built": 2011
   }
  ],
  "windows": {
   "12mo": {
-   "count": 304,
-   "median_value": 587054,
-   "pct_of_households": 9.73,
-   "pct_of_population": 3.27
+   "count": 239,
+   "median_value": 579187,
+   "pct_of_households": 7.65,
+   "pct_of_population": 2.57
   },
   "3mo": {
-   "count": 50,
-   "median_value": 555071,
-   "pct_of_households": 1.6,
-   "pct_of_population": 0.54
+   "count": 1,
+   "median_value": 431861,
+   "pct_of_households": 0.03,
+   "pct_of_population": 0.01
   },
   "6mo": {
-   "count": 130,
-   "median_value": 595592,
-   "pct_of_households": 4.16,
-   "pct_of_population": 1.4
+   "count": 81,
+   "median_value": 534242,
+   "pct_of_households": 2.59,
+   "pct_of_population": 0.87
   }
  }
 }

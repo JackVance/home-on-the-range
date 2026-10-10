@@ -1,11 +1,541 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 102,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 106,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 8267,
  "months_back": 12,
  "population_acs": 15721,
  "transfers": [
+  {
+   "acres": 1.377,
+   "address": "900 WATSON PFLUGERVILLE 78660",
+   "assessed": 291902,
+   "class": "A1",
+   "deed_date": "2026-09-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.429538,
+   "lon": -97.660898,
+   "sqft": 1605,
+   "value": 291902,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
+   "acres": 1.712,
+   "address": "13529 ANAROSA 78727",
+   "assessed": 494438,
+   "class": "A1",
+   "deed_date": "2026-09-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.431515,
+   "lon": -97.694358,
+   "sqft": 2173,
+   "value": 494438,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1996
+  },
+  {
+   "acres": 2.169,
+   "address": "14717 BESCOTT 78728",
+   "assessed": 491482,
+   "class": "A1",
+   "deed_date": "2026-08-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.441215,
+   "lon": -97.674335,
+   "sqft": 2579,
+   "value": 491482,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1995
+  },
+  {
+   "acres": 1.182,
+   "address": "1710 GAYLORD AUSTIN 78728",
+   "assessed": 378770,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.438603,
+   "lon": -97.675043,
+   "sqft": 1348,
+   "value": 378770,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": null,
+   "address": "905 OATMEAL 78660",
+   "assessed": 367067,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.430682,
+   "lon": -97.660593,
+   "sqft": 2486,
+   "value": 367067,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2012
+  },
+  {
+   "acres": 2.782,
+   "address": "15400 MARSHA 78728",
+   "assessed": 310096,
+   "class": "F5",
+   "deed_date": "2026-08-20",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.449725,
+   "lon": -97.668988,
+   "sqft": 1904,
+   "value": 521925,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
+  },
+  {
+   "acres": 1.958,
+   "address": "13625 CAMPESINA AUSTIN 78727",
+   "assessed": 467775,
+   "class": "A1",
+   "deed_date": "2026-08-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.431342,
+   "lon": -97.687212,
+   "sqft": 2015,
+   "value": 467775,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 2.103,
+   "address": "2010 CRYSTAL SHORE AUSTIN 78728",
+   "assessed": 437506,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.441271,
+   "lon": -97.678149,
+   "sqft": 1800,
+   "value": 437506,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 200.0,
+   "address": "1801 WELLS BRANCH 78728",
+   "assessed": 5227200,
+   "class": "B1",
+   "deed_date": "2026-08-04",
+   "homestead": false,
+   "lat": 30.433414,
+   "lon": -97.675129,
+   "value": 5227200,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 3.567,
+   "address": "DRAGLINE 78728",
+   "assessed": 160945,
+   "class": "F3",
+   "deed_date": "2026-08-03",
+   "homestead": false,
+   "lat": 30.432446,
+   "lon": -97.682039,
+   "value": 160945,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.87,
+   "address": "2012 MARGALENE 78728",
+   "assessed": 463826,
+   "class": "B2",
+   "deed_date": "2026-08-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.436439,
+   "lon": -97.681892,
+   "sqft": 2087,
+   "value": 463826,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
+   "acres": null,
+   "address": "14600 LAKE VICTOR PFLUGERVILLE 78660",
+   "assessed": 442770,
+   "class": "A1",
+   "deed_date": "2026-07-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.431827,
+   "lon": -97.663659,
+   "sqft": 2790,
+   "value": 442770,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2012
+  },
+  {
+   "acres": 1.377,
+   "address": "14401 NARUNA PFLUGERVILLE 78660",
+   "assessed": 343938,
+   "class": "A1",
+   "deed_date": "2026-07-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.427924,
+   "lon": -97.659591,
+   "sqft": 1879,
+   "value": 343938,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2010
+  },
+  {
+   "acres": 1.755,
+   "address": "2202 WARFIELD AUSTIN 78728",
+   "assessed": 432000,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.440384,
+   "lon": -97.68285,
+   "sqft": 2084,
+   "value": 432000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": null,
+   "address": "804 SAWBUCK DR 78660",
+   "assessed": 387337,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.433124,
+   "lon": -97.656606,
+   "sqft": 2101,
+   "value": 387337,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": 1.471,
+   "address": "13505 ANAROSA AUSTIN 78727",
+   "assessed": 496555,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.431255,
+   "lon": -97.693375,
+   "sqft": 2173,
+   "value": 496555,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1996
+  },
+  {
+   "acres": 5.831,
+   "address": "SCARLET 78728",
+   "assessed": 1042754,
+   "class": "F1",
+   "deed_date": "2026-07-06",
+   "homestead": false,
+   "lat": 30.454663,
+   "lon": -97.66905,
+   "sqft": 5664,
+   "value": 1042754,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2012
+  },
+  {
+   "acres": 2.84,
+   "address": "15705 BRENDA 78728",
+   "assessed": 316347,
+   "class": "F1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB"
+   },
+   "homestead": false,
+   "lat": 30.454957,
+   "lon": -97.669314,
+   "sqft": 1920,
+   "value": 316347,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2011
+  },
+  {
+   "acres": null,
+   "address": "1024 OATMEAL PFLUGERVILLE 78660",
+   "assessed": 531358,
+   "class": "A1",
+   "deed_date": "2026-07-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.432046,
+   "lon": -97.662279,
+   "sqft": 3467,
+   "value": 531358,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2012
+  },
+  {
+   "acres": 1.566,
+   "address": "2017 PLOVERVILLE AUSTIN 78728",
+   "assessed": 337165,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.443444,
+   "lon": -97.677125,
+   "sqft": 1395,
+   "value": 337165,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
+   "acres": 48.05,
+   "address": "1902 FLEISCHER 78728",
+   "assessed": 3477788,
+   "class": "F1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.446437,
+   "lon": -97.673816,
+   "sqft": 34580,
+   "value": 3477788,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 1.998,
+   "address": "14611 SANDY SIDE AUSTIN 78728",
+   "assessed": 419712,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.440564,
+   "lon": -97.676278,
+   "sqft": 1662,
+   "value": 419712,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": null,
+   "address": "14620 GOSHAWK DR 78660",
+   "assessed": 288000,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.432423,
+   "lon": -97.655897,
+   "sqft": 1352,
+   "value": 288000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": null,
+   "address": "14615 GOSHAWK PFLUGERVILLE 78660",
+   "assessed": 433522,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.43192,
+   "lon": -97.655849,
+   "sqft": 2496,
+   "value": 433522,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": 1.376,
+   "address": "2218 EQUESTRIAN 78727",
+   "assessed": 536540,
+   "class": "A1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.42952,
+   "lon": -97.691692,
+   "sqft": 2299,
+   "value": 536540,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 1.569,
+   "address": "2201 TAYLOR-SIMONETTI 78728",
+   "assessed": 367912,
+   "class": "A1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.440735,
+   "lon": -97.682124,
+   "sqft": 1308,
+   "value": 367912,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.977,
+   "address": "14928 ROSE PAVONIA 78728",
+   "assessed": 443459,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.444079,
+   "lon": -97.673384,
+   "sqft": 1918,
+   "value": 443459,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": null,
+   "address": "837 OATMEAL PFLUGERVILLE 78660",
+   "assessed": 342068,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.430386,
+   "lon": -97.659984,
+   "sqft": 1678,
+   "value": 342068,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2012
+  },
+  {
+   "acres": null,
+   "address": "1005 STRICKLING PFLUGERVILLE 78660",
+   "assessed": 408079,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.431781,
+   "lon": -97.660973,
+   "sqft": 2730,
+   "value": 408079,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
   {
    "acres": 1.917,
    "address": "1915 MARGALENE 78728",
@@ -36,6 +566,25 @@
    "lon": -97.654097,
    "value": 435600,
    "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.377,
+   "address": "825 WATSON PFLUGERVILLE 78660",
+   "assessed": 336800,
+   "class": "A1",
+   "deed_date": "2026-05-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.428861,
+   "lon": -97.660608,
+   "sqft": 1733,
+   "value": 336800,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
   },
   {
    "acres": 2.878,
@@ -223,7 +772,7 @@
   {
    "acres": null,
    "address": "14712 LAKE VICTOR PFLUGERVILLE 78660",
-   "assessed": 389610,
+   "assessed": 365000,
    "class": "A1",
    "deed_date": "2026-04-03",
    "extras": {
@@ -235,21 +784,21 @@
    "lat": 30.433189,
    "lon": -97.663514,
    "sqft": 1993,
-   "value": 389610,
+   "value": 365000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2014
   },
   {
    "acres": 9.05,
    "address": "13708 ANN 78728",
-   "assessed": 854794,
+   "assessed": 747688,
    "class": "A1",
    "deed_date": "2026-04-02",
    "homestead": false,
    "lat": 30.427044,
    "lon": -97.675419,
    "sqft": 3335,
-   "value": 854794,
+   "value": 747688,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2022
   },
@@ -275,7 +824,7 @@
   {
    "acres": 3.968,
    "address": "1824 FLEISCHER AUSTIN 78728",
-   "assessed": 249950,
+   "assessed": 238077,
    "class": "A1",
    "deed_date": "2026-03-30",
    "extras": {
@@ -283,18 +832,18 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.445302,
    "lon": -97.671364,
    "sqft": 1475,
-   "value": 249950,
+   "value": 238077,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1965
   },
   {
    "acres": 1.689,
    "address": "924 WATSON PFLUGERVILLE 78660",
-   "assessed": 345552,
+   "assessed": 310340,
    "class": "A1",
    "deed_date": "2026-03-27",
    "extras": {
@@ -306,14 +855,14 @@
    "lat": 30.429955,
    "lon": -97.66175,
    "sqft": 1733,
-   "value": 345552,
+   "value": 310340,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2010
   },
   {
    "acres": 1.591,
    "address": "2010 CERVIN AUSTIN 78728",
-   "assessed": 411085,
+   "assessed": 395000,
    "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
@@ -325,7 +874,7 @@
    "lat": 30.443153,
    "lon": -97.677107,
    "sqft": 1746,
-   "value": 417727,
+   "value": 395000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1985
   },
@@ -439,7 +988,7 @@
   {
    "acres": 1.733,
    "address": "2002 CERVIN AUSTIN 78728",
-   "assessed": 436723,
+   "assessed": 388718,
    "class": "A1",
    "deed_date": "2026-03-11",
    "extras": {
@@ -451,7 +1000,7 @@
    "lat": 30.443022,
    "lon": -97.676411,
    "sqft": 1790,
-   "value": 444402,
+   "value": 388718,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1985
   },
@@ -527,7 +1076,7 @@
   {
    "acres": 1.863,
    "address": "2012 CRYSTAL SHORE AUSTIN 78728",
-   "assessed": 377920,
+   "assessed": 342000,
    "class": "A1",
    "deed_date": "2026-02-23",
    "extras": {
@@ -539,14 +1088,14 @@
    "lat": 30.441123,
    "lon": -97.678275,
    "sqft": 1368,
-   "value": 377920,
+   "value": 342000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1984
   },
   {
    "acres": 1.698,
    "address": "913 MAHOMET PFLUGERVILLE 78660",
-   "assessed": 368985,
+   "assessed": 345000,
    "class": "A1",
    "deed_date": "2026-02-20",
    "extras": {
@@ -558,7 +1107,7 @@
    "lat": 30.428262,
    "lon": -97.661592,
    "sqft": 2044,
-   "value": 368985,
+   "value": 345000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2009
   },
@@ -584,7 +1133,7 @@
   {
    "acres": null,
    "address": "913 OATMEAL PFLUGERVILLE 78660",
-   "assessed": 339334,
+   "assessed": 301634,
    "class": "A1",
    "deed_date": "2026-02-12",
    "extras": {
@@ -592,11 +1141,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.430817,
    "lon": -97.66087,
    "sqft": 1678,
-   "value": 339334,
+   "value": 301634,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2012
   },
@@ -660,7 +1209,7 @@
   {
    "acres": 1.376,
    "address": "13517 CAMPESINA AUSTIN 78727",
-   "assessed": 522973,
+   "assessed": 450000,
    "class": "A1",
    "deed_date": "2026-01-30",
    "extras": {
@@ -672,7 +1221,7 @@
    "lat": 30.429667,
    "lon": -97.687459,
    "sqft": 2811,
-   "value": 522973,
+   "value": 450000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
   },
@@ -698,7 +1247,7 @@
   {
    "acres": 7.415,
    "address": "1708 HYDRO 78728",
-   "assessed": 1263384,
+   "assessed": 900000,
    "class": "F1",
    "deed_date": "2026-01-28",
    "extras": {
@@ -710,7 +1259,7 @@
    "lat": 30.429888,
    "lon": -97.678025,
    "sqft": 11630,
-   "value": 1345985,
+   "value": 900000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1970
   },
@@ -750,7 +1299,7 @@
   {
    "acres": 1.723,
    "address": "2202 TAYLOR-SIMONETTI 78728",
-   "assessed": 394247,
+   "assessed": 391000,
    "class": "A1",
    "deed_date": "2026-01-14",
    "extras": {
@@ -762,14 +1311,14 @@
    "lat": 30.441199,
    "lon": -97.682259,
    "sqft": 1800,
-   "value": 400124,
+   "value": 391000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1984
   },
   {
    "acres": 1.515,
    "address": "1813 PARRALENA 78728",
-   "assessed": 422533,
+   "assessed": 402463,
    "class": "A1",
    "deed_date": "2026-01-12",
    "extras": {
@@ -781,14 +1330,14 @@
    "lat": 30.443555,
    "lon": -97.672212,
    "sqft": 1921,
-   "value": 422533,
+   "value": 402463,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1998
   },
   {
    "acres": null,
    "address": "905 SCREECH OWL AUSTIN 78660",
-   "assessed": 472211,
+   "assessed": 424093,
    "class": "A1",
    "deed_date": "2026-01-12",
    "extras": {
@@ -800,14 +1349,14 @@
    "lat": 30.435048,
    "lon": -97.657188,
    "sqft": 2781,
-   "value": 472211,
+   "value": 424093,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2019
   },
   {
    "acres": 3.889,
    "address": "2114 DELVIN AUSTIN 78728",
-   "assessed": 500466,
+   "assessed": 476107,
    "class": "A1",
    "deed_date": "2026-01-04",
    "extras": {
@@ -819,14 +1368,14 @@
    "lat": 30.439647,
    "lon": -97.683482,
    "sqft": 1669,
-   "value": 553742,
+   "value": 476107,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1984
   },
   {
    "acres": null,
    "address": "14713 BEDSTRAW 78660",
-   "assessed": 443870,
+   "assessed": 405000,
    "class": "A1",
    "deed_date": "2026-01-02",
    "extras": {
@@ -838,14 +1387,14 @@
    "lat": 30.433192,
    "lon": -97.654746,
    "sqft": 2466,
-   "value": 443870,
+   "value": 405000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2018
   },
   {
    "acres": 2.157,
    "address": "1910 ALEX 78728",
-   "assessed": 475269,
+   "assessed": 460639,
    "class": "B2",
    "deed_date": "2026-01-01",
    "extras": {
@@ -857,14 +1406,14 @@
    "lat": 30.436077,
    "lon": -97.678825,
    "sqft": 2118,
-   "value": 475269,
+   "value": 460639,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
   {
    "acres": 1.766,
    "address": "2007 ALEX 78728",
-   "assessed": 470721,
+   "assessed": 456091,
    "class": "B2",
    "deed_date": "2026-01-01",
    "extras": {
@@ -876,7 +1425,7 @@
    "lat": 30.436238,
    "lon": -97.680754,
    "sqft": 2118,
-   "value": 470721,
+   "value": 456091,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
@@ -902,7 +1451,7 @@
   {
    "acres": 1.827,
    "address": "2001 ALEX 78728",
-   "assessed": 471427,
+   "assessed": 471407,
    "class": "B2",
    "deed_date": "2026-01-01",
    "extras": {
@@ -914,14 +1463,14 @@
    "lat": 30.436063,
    "lon": -97.6802,
    "sqft": 2118,
-   "value": 471427,
+   "value": 471407,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1993
   },
   {
    "acres": 1.745,
    "address": "2005 ALEX 78728",
-   "assessed": 456426,
+   "assessed": 455377,
    "class": "B2",
    "deed_date": "2026-01-01",
    "extras": {
@@ -933,7 +1482,7 @@
    "lat": 30.436183,
    "lon": -97.680573,
    "sqft": 1930,
-   "value": 456426,
+   "value": 455377,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
@@ -959,7 +1508,7 @@
   {
    "acres": 2.131,
    "address": "1912 ALEX 78728",
-   "assessed": 474969,
+   "assessed": 460339,
    "class": "B2",
    "deed_date": "2026-01-01",
    "extras": {
@@ -971,14 +1520,14 @@
    "lat": 30.436238,
    "lon": -97.678982,
    "sqft": 2118,
-   "value": 474969,
+   "value": 460339,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
   {
    "acres": 1.778,
    "address": "1917 ALEX 78728",
-   "assessed": 470852,
+   "assessed": 470832,
    "class": "B2",
    "deed_date": "2026-01-01",
    "extras": {
@@ -990,7 +1539,7 @@
    "lat": 30.436023,
    "lon": -97.679995,
    "sqft": 2118,
-   "value": 470852,
+   "value": 470832,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1993
   },
@@ -1005,7 +1554,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.445003,
    "lon": -97.674605,
    "sqft": 2085,
@@ -1016,7 +1565,7 @@
   {
    "acres": 1.814,
    "address": "1905 TERISU AUSTIN 78728",
-   "assessed": 386117,
+   "assessed": 370000,
    "class": "A1",
    "deed_date": "2025-12-29",
    "extras": {
@@ -1028,14 +1577,14 @@
    "lat": 30.438129,
    "lon": -97.679084,
    "sqft": 1280,
-   "value": 386117,
+   "value": 370000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1985
   },
   {
    "acres": 1.486,
    "address": "1620 GAYLORD AUSTIN 78728",
-   "assessed": 376368,
+   "assessed": 329209,
    "class": "A1",
    "deed_date": "2025-12-29",
    "extras": {
@@ -1047,7 +1596,7 @@
    "lat": 30.43929,
    "lon": -97.675519,
    "sqft": 1295,
-   "value": 376368,
+   "value": 329209,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1998
   },
@@ -1123,7 +1672,7 @@
   {
    "acres": 1.442,
    "address": "2108 EQUESTRIAN 78727",
-   "assessed": 537795,
+   "assessed": 462396,
    "class": "A1",
    "deed_date": "2025-11-28",
    "extras": {
@@ -1135,7 +1684,7 @@
    "lat": 30.429046,
    "lon": -97.689615,
    "sqft": 2319,
-   "value": 537795,
+   "value": 462396,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1998
   },
@@ -1154,7 +1703,7 @@
   {
    "acres": 1.493,
    "address": "14104 NARUNA PFLUGERVILLE 78660",
-   "assessed": 332425,
+   "assessed": 298551,
    "class": "A1",
    "deed_date": "2025-11-24",
    "extras": {
@@ -1166,7 +1715,7 @@
    "lat": 30.427879,
    "lon": -97.661842,
    "sqft": 1725,
-   "value": 332425,
+   "value": 298551,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -1243,8 +1792,8 @@
   },
   {
    "acres": 3.138,
-   "address": "15412 INTERSTATE HY 35",
-   "assessed": 451927,
+   "address": "15412 INTERSTATE HY 35 78728",
+   "assessed": 411254,
    "class": "F1",
    "deed_date": "2025-11-07",
    "extras": {
@@ -1256,7 +1805,7 @@
    "lat": 30.448694,
    "lon": -97.667544,
    "sqft": 2400,
-   "value": 451927,
+   "value": 411254,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
   },
@@ -1296,7 +1845,7 @@
   {
    "acres": 1.75,
    "address": "14116 NARUNA PFLUGERVILLE 78660",
-   "assessed": 392755,
+   "assessed": 352733,
    "class": "A1",
    "deed_date": "2025-11-04",
    "extras": {
@@ -1308,7 +1857,7 @@
    "lat": 30.427878,
    "lon": -97.66131,
    "sqft": 2528,
-   "value": 392755,
+   "value": 352733,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -1353,7 +1902,7 @@
   {
    "acres": 1.699,
    "address": "13401 CAPADOCIA 78727",
-   "assessed": 525167,
+   "assessed": 459364,
    "class": "A1",
    "deed_date": "2025-10-24",
    "extras": {
@@ -1365,7 +1914,7 @@
    "lat": 30.429658,
    "lon": -97.692674,
    "sqft": 2092,
-   "value": 525167,
+   "value": 459364,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
@@ -1387,485 +1936,26 @@
    "value": 333471,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1984
-  },
-  {
-   "acres": 1.87,
-   "address": "2012 MARGALENE 78728",
-   "assessed": 463826,
-   "class": "B2",
-   "deed_date": "2025-10-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.436439,
-   "lon": -97.681892,
-   "sqft": 2087,
-   "value": 463826,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.562,
-   "address": "2003 PLOVERVILLE AUSTIN 78728",
-   "assessed": 450905,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.443372,
-   "lon": -97.675894,
-   "sqft": 1830,
-   "value": 450905,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 41.562,
-   "address": "1301 WELLS BRANCH 78660",
-   "assessed": 3015580,
-   "class": "F1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.438722,
-   "lon": -97.662308,
-   "sqft": 10650,
-   "value": 3015580,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 36.232,
-   "address": "1814 HOWARD 78728",
-   "assessed": 2774807,
-   "class": "F1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.429533,
-   "lon": -97.680416,
-   "sqft": 10122,
-   "value": 2774807,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
-  },
-  {
-   "acres": 2.504,
-   "address": "1753 GAYLORD AUSTIN 78728",
-   "assessed": 496935,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.437568,
-   "lon": -97.675771,
-   "sqft": 2253,
-   "value": 496935,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": null,
-   "address": "706 SCREECH OWL AUSTIN 78660",
-   "assessed": 362721,
-   "class": "A1",
-   "deed_date": "2025-09-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.434441,
-   "lon": -97.655602,
-   "sqft": 1647,
-   "value": 362721,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2019
-  },
-  {
-   "acres": null,
-   "address": "933 OATMEAL PFLUGERVILLE 78660",
-   "assessed": 344749,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.431153,
-   "lon": -97.661562,
-   "sqft": 1678,
-   "value": 344749,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 1.089,
-   "address": "2200 MARGALENE 78728",
-   "assessed": 239950,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.437975,
-   "lon": -97.68391,
-   "sqft": 1171,
-   "value": 239950,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 2.803,
-   "address": "AVENUE I 78728",
-   "assessed": 120843,
-   "class": "F3",
-   "deed_date": "2025-09-02",
-   "homestead": false,
-   "lat": 30.43334,
-   "lon": -97.684146,
-   "value": 120843,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 2.514,
-   "address": "AVENUE I 78728",
-   "assessed": 85551,
-   "class": "F3",
-   "deed_date": "2025-09-02",
-   "homestead": false,
-   "lat": 30.433002,
-   "lon": -97.684365,
-   "value": 85551,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 7.543,
-   "address": "AVENUE I 78728",
-   "assessed": 287472,
-   "class": "F3",
-   "deed_date": "2025-09-02",
-   "homestead": false,
-   "lat": 30.432642,
-   "lon": -97.684599,
-   "value": 287472,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 5.028,
-   "address": "13730 AVENUE K AUSTIN 78728",
-   "assessed": 714938,
-   "class": "F1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.433066,
-   "lon": -97.683784,
-   "sqft": 4960,
-   "value": 714938,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 3.822,
-   "address": "13729 AVENUE K 78728",
-   "assessed": 110931,
-   "class": "F3",
-   "deed_date": "2025-09-02",
-   "homestead": false,
-   "lat": 30.432795,
-   "lon": -97.683237,
-   "value": 110931,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 2.514,
-   "address": "13726 AVENUE K 78728",
-   "assessed": 106039,
-   "class": "F3",
-   "deed_date": "2025-09-02",
-   "homestead": false,
-   "lat": 30.432798,
-   "lon": -97.683959,
-   "value": 106039,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 12.96,
-   "address": "13720 AVENUE K 78728",
-   "assessed": 4916185,
-   "class": "F1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.431918,
-   "lon": -97.684684,
-   "sqft": 12000,
-   "value": 4916185,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": null,
-   "address": "900 SOLITUDE PFLUGERVILLE 78660",
-   "assessed": 274622,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.434427,
-   "lon": -97.656797,
-   "sqft": 1352,
-   "value": 274622,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2018
-  },
-  {
-   "acres": 1.983,
-   "address": "2105 HAAS AUSTIN 78728",
-   "assessed": 444390,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.437995,
-   "lon": -97.682519,
-   "sqft": 2044,
-   "value": 444390,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.591,
-   "address": "14309 RICHARD WALKER 78728",
-   "assessed": 435395,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.436694,
-   "lon": -97.67692,
-   "sqft": 2060,
-   "value": 435395,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": null,
-   "address": "806 THRASHER GLADE 78660",
-   "assessed": 359883,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.432809,
-   "lon": -97.657391,
-   "sqft": 1647,
-   "value": 359883,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2017
-  },
-  {
-   "acres": 1.932,
-   "address": "1913 GAYLORD AUSTIN 78728",
-   "assessed": 483212,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.438459,
-   "lon": -97.678933,
-   "sqft": 2184,
-   "value": 483212,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.377,
-   "address": "804 WATSON PFLUGERVILLE 78660",
-   "assessed": 348098,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.428932,
-   "lon": -97.659652,
-   "sqft": 1756,
-   "value": 348098,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "14724 LAKE VICTOR PFLUGERVILLE 78660",
-   "assessed": 420887,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.43331,
-   "lon": -97.66297,
-   "sqft": 2486,
-   "value": 420887,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 4.268,
-   "address": "GINGER 78728",
-   "assessed": 1026567,
-   "class": "F1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.449364,
-   "lon": -97.667482,
-   "sqft": 6230,
-   "value": 1026567,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": null,
-   "address": "915 THRASHER GLADE AUSTIN 78660",
-   "assessed": 475809,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.433117,
-   "lon": -97.65867,
-   "sqft": 2883,
-   "value": 475809,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2017
-  },
-  {
-   "acres": 1.832,
-   "address": "1917 MARGALENE AUSTIN 78728",
-   "assessed": 429308,
-   "class": "B2",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.435376,
-   "lon": -97.680813,
-   "sqft": 1949,
-   "value": 429308,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 1.497,
-   "address": "837 WATSON PFLUGERVILLE 78660",
-   "assessed": 348484,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.429058,
-   "lon": -97.661031,
-   "sqft": 1759,
-   "value": 348484,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2009
   }
  ],
  "windows": {
   "12mo": {
-   "count": 102,
-   "median_value": 417727,
-   "pct_of_households": 1.23,
-   "pct_of_population": 0.65
+   "count": 106,
+   "median_value": 405000,
+   "pct_of_households": 1.28,
+   "pct_of_population": 0.67
   },
   "3mo": {
-   "count": 10,
-   "median_value": 418624,
-   "pct_of_households": 0.12,
-   "pct_of_population": 0.06
+   "count": 15,
+   "median_value": 437506,
+   "pct_of_households": 0.18,
+   "pct_of_population": 0.1
   },
   "6mo": {
-   "count": 44,
-   "median_value": 400124,
-   "pct_of_households": 0.53,
-   "pct_of_population": 0.28
+   "count": 40,
+   "median_value": 428537,
+   "pct_of_households": 0.48,
+   "pct_of_population": 0.25
   }
  }
 }

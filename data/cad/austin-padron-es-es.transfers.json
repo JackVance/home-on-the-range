@@ -1,11 +1,87 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 11,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 15,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2156,
  "months_back": 12,
  "population_acs": 4260,
  "transfers": [
+  {
+   "acres": 2.08,
+   "address": "9415 QUAIL MEADOW 78758",
+   "assessed": 430000,
+   "class": "B2",
+   "deed_date": "2026-09-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.369738,
+   "lon": -97.706953,
+   "sqft": 2307,
+   "value": 430000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1972
+  },
+  {
+   "acres": 3.626,
+   "address": "8901 GALEWOOD 78758",
+   "assessed": 830000,
+   "class": "B1",
+   "deed_date": "2026-08-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.365358,
+   "lon": -97.716108,
+   "sqft": 5088,
+   "value": 830000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1973
+  },
+  {
+   "acres": 1.874,
+   "address": "9424 HUNTERS TRACE 78758",
+   "assessed": 381000,
+   "class": "A1",
+   "deed_date": "2026-08-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.369911,
+   "lon": -97.708114,
+   "sqft": 1232,
+   "value": 381000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1972
+  },
+  {
+   "acres": 1.932,
+   "address": "1907 WEST 78758",
+   "assessed": 648590,
+   "class": "B4",
+   "deed_date": "2026-06-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.372127,
+   "lon": -97.717751,
+   "sqft": 4124,
+   "value": 648590,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
   {
    "acres": 1.957,
    "address": "9409 QUAIL MEADOW AUSTIN 78758",
@@ -78,7 +154,7 @@
   {
    "acres": 1.767,
    "address": "9403 HUNTERS TRACE 78758",
-   "assessed": 385728,
+   "assessed": 225000,
    "class": "A1",
    "deed_date": "2026-04-16",
    "extras": {
@@ -90,7 +166,7 @@
    "lat": 30.368763,
    "lon": -97.708564,
    "sqft": 1427,
-   "value": 385728,
+   "value": 225000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1971
   },
@@ -115,7 +191,7 @@
   },
   {
    "acres": 20.278,
-   "address": "1800 PAYTON GIN",
+   "address": "1800 PAYTON GIN 78758",
    "assessed": 1469373,
    "class": "F1",
    "deed_date": "2026-03-19",
@@ -206,20 +282,20 @@
  ],
  "windows": {
   "12mo": {
-   "count": 11,
+   "count": 15,
    "median_value": 469230,
-   "pct_of_households": 0.51,
-   "pct_of_population": 0.26
+   "pct_of_households": 0.7,
+   "pct_of_population": 0.35
   },
   "3mo": {
-   "count": 5,
-   "median_value": 453060,
-   "pct_of_households": 0.23,
-   "pct_of_population": 0.12
+   "count": 3,
+   "median_value": 430000,
+   "pct_of_households": 0.14,
+   "pct_of_population": 0.07
   },
   "6mo": {
    "count": 9,
-   "median_value": 1301200,
+   "median_value": 453060,
    "pct_of_households": 0.42,
    "pct_of_population": 0.21
   }

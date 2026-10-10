@@ -1,11 +1,125 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 116,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 81,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2762,
  "months_back": 12,
  "population_acs": 8746,
  "transfers": [
+  {
+   "acres": 0.138,
+   "address": "2506 BYFIELD DR, CEDAR PARK, TX  78613",
+   "assessed": 250902,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.539573,
+   "lon": -97.844945,
+   "sqft": 1441,
+   "value": 250902,
+   "value_kind": "market (WCAD)",
+   "year_built": 1999
+  },
+  {
+   "acres": 0.206,
+   "address": "623 COLUMBINE AVE, CEDAR PARK, TX  78613",
+   "assessed": 335369,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.534863,
+   "lon": -97.844628,
+   "sqft": 1686,
+   "value": 335369,
+   "value_kind": "market (WCAD)",
+   "year_built": 2001
+  },
+  {
+   "acres": 0.185,
+   "address": "2310 ZOA DR, CEDAR PARK, TX  78613",
+   "assessed": 509743,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.528888,
+   "lon": -97.869324,
+   "sqft": 2658,
+   "value": 509743,
+   "value_kind": "market (WCAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": 0.171,
+   "address": "1908 PAINT ROCK CV, CEDAR PARK, TX  78613",
+   "assessed": 486564,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.523462,
+   "lon": -97.869683,
+   "sqft": 1125,
+   "value": 486564,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.358,
+   "address": "206 APACHE TRL, LEANDER, TX  78641",
+   "assessed": 302467,
+   "class": "A1",
+   "deed_date": "2026-06-13",
+   "extras": {
+    "exterior": "WD",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.545499,
+   "lon": -97.843561,
+   "sqft": 1767,
+   "value": 302467,
+   "value_kind": "market (WCAD)",
+   "year_built": 1985
+  },
+  {
+   "acres": 0.462,
+   "address": "2400 AYES CT, CEDAR PARK, TX  78613",
+   "assessed": 338819,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.536441,
+   "lon": -97.845304,
+   "sqft": 1137,
+   "value": 338819,
+   "value_kind": "market (WCAD)",
+   "year_built": 1998
+  },
   {
    "acres": 0.141,
    "address": "2405 BYFIELD DR, CEDAR PARK, TX  78613",
@@ -24,6 +138,25 @@
    "value": 298182,
    "value_kind": "market (WCAD)",
    "year_built": 2000
+  },
+  {
+   "acres": 0.206,
+   "address": "619 COLUMBINE AVE, CEDAR PARK, TX  78613",
+   "assessed": 354335,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.535265,
+   "lon": -97.844632,
+   "sqft": 1861,
+   "value": 354335,
+   "value_kind": "market (WCAD)",
+   "year_built": 2001
   },
   {
    "acres": 0.134,
@@ -112,6 +245,25 @@
    "value": 308594,
    "value_kind": "market (WCAD)",
    "year_built": 2004
+  },
+  {
+   "acres": 0.303,
+   "address": "302 SIOUX TRL, LEANDER, TX  78641",
+   "assessed": 257600,
+   "class": "A1",
+   "deed_date": "2026-05-20",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.546216,
+   "lon": -97.844471,
+   "sqft": 1113,
+   "value": 257600,
+   "value_kind": "market (WCAD)",
+   "year_built": 1980
   },
   {
    "acres": 0.213,
@@ -579,7 +731,7 @@
   {
    "acres": 0.136,
    "address": "2418 GLEN FIELD DR, CEDAR PARK, TX  78613",
-   "assessed": 302628,
+   "assessed": 295676,
    "class": "A1",
    "deed_date": "2026-03-11",
    "extras": {
@@ -591,7 +743,7 @@
    "lat": 30.538649,
    "lon": -97.843614,
    "sqft": 980,
-   "value": 302628,
+   "value": 295676,
    "value_kind": "market (WCAD)",
    "year_built": 1999
   },
@@ -834,7 +986,7 @@
     "foundation": "SLB",
     "roof": "GBL"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.533114,
    "lon": -97.84039,
    "sqft": 1356,
@@ -1130,7 +1282,7 @@
     "foundation": "SLB",
     "roof": "GBL"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.540819,
    "lon": -97.840731,
    "sqft": 1370,
@@ -1194,25 +1346,6 @@
    "value": 383194,
    "value_kind": "market (WCAD)",
    "year_built": 2007
-  },
-  {
-   "acres": 0.138,
-   "address": "2506 BYFIELD DR, CEDAR PARK, TX  78613",
-   "assessed": 250902,
-   "class": "A1",
-   "deed_date": "2025-11-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.539573,
-   "lon": -97.844945,
-   "sqft": 1441,
-   "value": 250902,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
   },
   {
    "acres": 0.255,
@@ -1376,816 +1509,26 @@
    "value": 160552,
    "value_kind": "market (WCAD)",
    "year_built": 1998
-  },
-  {
-   "acres": 0.185,
-   "address": "2101 BARNETT DR, CEDAR PARK, TX  78613",
-   "assessed": 288146,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.526774,
-   "lon": -97.867463,
-   "sqft": 1740,
-   "value": 288146,
-   "value_kind": "market (WCAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 0.322,
-   "address": "1605 GOUDA CT, CEDAR PARK, TX  78613",
-   "assessed": 395701,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.528906,
-   "lon": -97.856149,
-   "sqft": 1776,
-   "value": 395701,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.02,
-   "address": "921 W NEW HOPE DR, UNIT #401, CEDAR PARK, TX  78613",
-   "assessed": 334831,
-   "class": "F1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "STN, STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.53067,
-   "lon": -97.846553,
-   "sqft": 880,
-   "value": 334831,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.144,
-   "address": "2608 GLEN FIELD DR, CEDAR PARK, TX  78613",
-   "assessed": 300571,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.541188,
-   "lon": -97.844605,
-   "sqft": 942,
-   "value": 300571,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.322,
-   "address": "300 SIOUX TRL, LEANDER, TX  78641",
-   "assessed": 518918,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.546302,
-   "lon": -97.844188,
-   "sqft": 2590,
-   "value": 518918,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.185,
-   "address": "2008 CLOVER LN, CEDAR PARK, TX  78613",
-   "assessed": 313747,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.532643,
-   "lon": -97.843386,
-   "sqft": 933,
-   "value": 313747,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.163,
-   "address": "1927 BARNETT DR, CEDAR PARK, TX  78613",
-   "assessed": 367963,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.524292,
-   "lon": -97.867785,
-   "sqft": 1763,
-   "value": 367963,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.282,
-   "address": "2503 CHEYENNE ST, LEANDER, TX  78641",
-   "assessed": 316623,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.543573,
-   "lon": -97.849775,
-   "sqft": 646,
-   "value": 316623,
-   "value_kind": "market (WCAD)",
-   "year_built": 1983
-  },
-  {
-   "acres": 0.127,
-   "address": "2208 DRUE LN, CEDAR PARK, TX  78613",
-   "assessed": 466849,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.533757,
-   "lon": -97.84825,
-   "sqft": 1196,
-   "value": 466849,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.264,
-   "address": "2607 BOIS DARC LN, CEDAR PARK, TX  78613",
-   "assessed": 200693,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "SW",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.541998,
-   "lon": -97.840901,
-   "sqft": 1724,
-   "value": 200693,
-   "value_kind": "market (WCAD)",
-   "year_built": 1983
-  },
-  {
-   "acres": 0.149,
-   "address": "2507 BYFIELD DR, CEDAR PARK, TX  78613",
-   "assessed": 306424,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.539552,
-   "lon": -97.845537,
-   "sqft": 1097,
-   "value": 306424,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.133,
-   "address": "2210 AMY LYNN LN, CEDAR PARK, TX  78613",
-   "assessed": 286929,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.531097,
-   "lon": -97.857436,
-   "sqft": 1520,
-   "value": 286929,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.037,
-   "address": "601 W NEW HOPE DR, UNIT #201, CEDAR PARK, TX  78613",
-   "assessed": 699078,
-   "class": "F1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.531363,
-   "lon": -97.842274,
-   "sqft": 1560,
-   "value": 699078,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.038,
-   "address": "601 W NEW HOPE DR, UNIT #202, CEDAR PARK, TX  78613",
-   "assessed": 751466,
-   "class": "F1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.531393,
-   "lon": -97.842199,
-   "sqft": 1688,
-   "value": 751466,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.033,
-   "address": "601 W NEW HOPE DR, UNIT #203, CEDAR PARK, TX  78613",
-   "assessed": 662300,
-   "class": "F1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.531406,
-   "lon": -97.84212,
-   "sqft": 1468,
-   "value": 662300,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.033,
-   "address": "601 W NEW HOPE DR, UNIT #204, CEDAR PARK, TX  78613",
-   "assessed": 662300,
-   "class": "F1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.531428,
-   "lon": -97.842045,
-   "sqft": 1468,
-   "value": 662300,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.038,
-   "address": "601 W NEW HOPE DR, UNIT #205, CEDAR PARK, TX  78613",
-   "assessed": 751466,
-   "class": "F1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.531461,
-   "lon": -97.841973,
-   "sqft": 1688,
-   "value": 751466,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.038,
-   "address": "601 W NEW HOPE DR, UNIT #206, CEDAR PARK, TX  78613",
-   "assessed": 752349,
-   "class": "F1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.531475,
-   "lon": -97.841893,
-   "sqft": 1690,
-   "value": 752349,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.326,
-   "address": "2606 CHEYENNE ST, LEANDER, TX  78641",
-   "assessed": 272037,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.542317,
-   "lon": -97.84864,
-   "sqft": 1419,
-   "value": 272037,
-   "value_kind": "market (WCAD)",
-   "year_built": 1983
-  },
-  {
-   "acres": 0.2,
-   "address": "608 COLUMBINE AVE, CEDAR PARK, TX  78613",
-   "assessed": 360780,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.535324,
-   "lon": -97.843591,
-   "sqft": 1310,
-   "value": 360780,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.153,
-   "address": "2301 ROMEO DR, CEDAR PARK, TX  78613",
-   "assessed": 374555,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.532131,
-   "lon": -97.853667,
-   "sqft": 1822,
-   "value": 374555,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.232,
-   "address": "2518 NIGHTSHADE DR, CEDAR PARK, TX  78613",
-   "assessed": 424248,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.523509,
-   "lon": -97.870819,
-   "sqft": 2077,
-   "value": 424248,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.021,
-   "address": "2251 BAGDAD RD, UNIT #201, CEDAR PARK, TX  78613",
-   "assessed": 398016,
-   "class": "F1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.534142,
-   "lon": -97.84711,
-   "sqft": 812,
-   "value": 398016,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.021,
-   "address": "BAGDAD RD, UNIT #201, CEDAR PARK, TX  78613",
-   "assessed": 398016,
-   "class": "F1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.534086,
-   "lon": -97.847088,
-   "sqft": 812,
-   "value": 398016,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.235,
-   "address": "2300 PEACH TREE LN, CEDAR PARK, TX  78613",
-   "assessed": 119209,
-   "class": "A2",
-   "deed_date": "2025-08-28",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.536897,
-   "lon": -97.839175,
-   "sqft": 924,
-   "value": 119209,
-   "value_kind": "market (WCAD)",
-   "year_built": 1975
-  },
-  {
-   "acres": 0.172,
-   "address": "2009 BARNETT DR, CEDAR PARK, TX  78613",
-   "assessed": 299913,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.525747,
-   "lon": -97.86759,
-   "sqft": 1342,
-   "value": 299913,
-   "value_kind": "market (WCAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 0.136,
-   "address": "2311 MCGREGOR LN, CEDAR PARK, TX  78613",
-   "assessed": 344402,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.53372,
-   "lon": -97.851336,
-   "sqft": 1481,
-   "value": 344402,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.159,
-   "address": "1614 HAWK DR, CEDAR PARK, TX  78613",
-   "assessed": 379990,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.532083,
-   "lon": -97.858311,
-   "sqft": 1762,
-   "value": 379990,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.17,
-   "address": "2305 GIDDENS DR, CEDAR PARK, TX  78613",
-   "assessed": 341920,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.527944,
-   "lon": -97.868556,
-   "sqft": 1841,
-   "value": 341920,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.29,
-   "address": "2102 BOIS DARC LN, CEDAR PARK, TX  78613",
-   "assessed": 174234,
-   "class": "A5",
-   "deed_date": "2025-08-18",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.535318,
-   "lon": -97.837232,
-   "sqft": 944,
-   "value": 174234,
-   "value_kind": "market (WCAD)",
-   "year_built": 1979
-  },
-  {
-   "acres": 0.177,
-   "address": "2114 WHEATON TRL, CEDAR PARK, TX  78613",
-   "assessed": 396469,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.525832,
-   "lon": -97.867968,
-   "sqft": 2347,
-   "value": 396469,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.13,
-   "address": "2217 BAKERS WAY, CEDAR PARK, TX  78613",
-   "assessed": 367696,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.531976,
-   "lon": -97.855491,
-   "sqft": 1669,
-   "value": 367696,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.156,
-   "address": "2313 NATALIE CV, CEDAR PARK, TX  78613",
-   "assessed": 422968,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.534219,
-   "lon": -97.850596,
-   "sqft": 1068,
-   "value": 422968,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.171,
-   "address": "2120 WHEATON TRL, CEDAR PARK, TX  78613",
-   "assessed": 386115,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.526351,
-   "lon": -97.867912,
-   "sqft": 2267,
-   "value": 386115,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.422,
-   "address": "2406 NAN LN, CEDAR PARK, TX  78613",
-   "assessed": 389117,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.529252,
-   "lon": -97.868587,
-   "sqft": 1984,
-   "value": 389117,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.152,
-   "address": "2410 ROMEO DR, CEDAR PARK, TX  78613",
-   "assessed": 356148,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.53274,
-   "lon": -97.855098,
-   "sqft": 1675,
-   "value": 356148,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.14,
-   "address": "2518 PRESERVE TRL, CEDAR PARK, TX  78613",
-   "assessed": 349758,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.52429,
-   "lon": -97.870173,
-   "sqft": 1678,
-   "value": 349758,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.179,
-   "address": "2019 E GANN HILL DR, CEDAR PARK, TX  78613",
-   "assessed": 340669,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.525654,
-   "lon": -97.865006,
-   "sqft": 1850,
-   "value": 340669,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.143,
-   "address": "2502 NIGHTSHADE DR, CEDAR PARK, TX  78613",
-   "assessed": 509372,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.523347,
-   "lon": -97.869369,
-   "sqft": 1408,
-   "value": 509372,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.432,
-   "address": "2500 BAGDAD RD S, LEANDER, TX  78641",
-   "assessed": 743917,
-   "class": "F1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.543653,
-   "lon": -97.850344,
-   "sqft": 1715,
-   "value": 743917,
-   "value_kind": "market (WCAD)",
-   "year_built": 1972
-  },
-  {
-   "acres": 0.153,
-   "address": "1911 CAP ROCK LN, CEDAR PARK, TX  78613",
-   "assessed": 393937,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.524449,
-   "lon": -97.87079,
-   "sqft": 2155,
-   "value": 393937,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.186,
-   "address": "2208 BARNETT DR, CEDAR PARK, TX  78613",
-   "assessed": 414649,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.528113,
-   "lon": -97.866631,
-   "sqft": 1161,
-   "value": 414649,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
   }
  ],
  "windows": {
   "12mo": {
-   "count": 116,
-   "median_value": 350199,
-   "pct_of_households": 4.2,
-   "pct_of_population": 1.33
+   "count": 81,
+   "median_value": 335369,
+   "pct_of_households": 2.93,
+   "pct_of_population": 0.93
   },
   "3mo": {
-   "count": 23,
-   "median_value": 334571,
-   "pct_of_households": 0.83,
-   "pct_of_population": 0.26
+   "count": 1,
+   "median_value": 250902,
+   "pct_of_households": 0.04,
+   "pct_of_population": 0.01
   },
   "6mo": {
-   "count": 50,
-   "median_value": 333726,
-   "pct_of_households": 1.81,
-   "pct_of_population": 0.57
+   "count": 29,
+   "median_value": 335369,
+   "pct_of_households": 1.05,
+   "pct_of_population": 0.33
   }
  }
 }

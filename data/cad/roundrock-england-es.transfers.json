@@ -1,11 +1,87 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 103,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 85,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3357,
  "months_back": 12,
  "population_acs": 9514,
  "transfers": [
+  {
+   "acres": 0.234,
+   "address": "15321 FERNHILL DR, AUSTIN, TX  78717",
+   "assessed": 795699,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "BV,ST",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.494559,
+   "lon": -97.762589,
+   "sqft": 1909,
+   "value": 795699,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.233,
+   "address": "10113 LAVON BND, AUSTIN, TX  78717",
+   "assessed": 1414081,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.500943,
+   "lon": -97.753404,
+   "sqft": 2977,
+   "value": 1414081,
+   "value_kind": "market (WCAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": 0.166,
+   "address": "15012 TERRA VERDE DR, AUSTIN, TX  78717",
+   "assessed": 644703,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.496191,
+   "lon": -97.773574,
+   "sqft": 1749,
+   "value": 644703,
+   "value_kind": "market (WCAD)",
+   "year_built": 2001
+  },
+  {
+   "acres": 0.185,
+   "address": "9728 MORGAN CREEK DR, AUSTIN, TX  78717",
+   "assessed": 735563,
+   "class": "A1",
+   "deed_date": "2026-06-19",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.494457,
+   "lon": -97.761309,
+   "sqft": 2081,
+   "value": 735563,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
   {
    "acres": 0.263,
    "address": "10000 LAVON BND, AUSTIN, TX  78717",
@@ -24,6 +100,44 @@
    "value": 1289038,
    "value_kind": "market (WCAD)",
    "year_built": 2017
+  },
+  {
+   "acres": 0.155,
+   "address": "15605 ROYAL DUBLIN DR, AUSTIN, TX  78717",
+   "assessed": 584464,
+   "class": "A1",
+   "deed_date": "2026-06-15",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.49592,
+   "lon": -97.760617,
+   "sqft": 2281,
+   "value": 584464,
+   "value_kind": "market (WCAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": 0.195,
+   "address": "9200 LAGUNA WOODS DR, AUSTIN, TX  78717",
+   "assessed": 722853,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.492672,
+   "lon": -97.764947,
+   "sqft": 1922,
+   "value": 722853,
+   "value_kind": "market (WCAD)",
+   "year_built": 2007
   },
   {
    "acres": 0.237,
@@ -70,7 +184,7 @@
     "foundation": "SLB",
     "roof": "HP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.486714,
    "lon": -97.766271,
    "sqft": 1973,
@@ -108,7 +222,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.497379,
    "lon": -97.754618,
    "sqft": 2004,
@@ -286,6 +400,25 @@
    "value": 746401,
    "value_kind": "market (WCAD)",
    "year_built": 1999
+  },
+  {
+   "acres": 0.183,
+   "address": "15212 FERNHILL DR, AUSTIN, TX  78717",
+   "assessed": 578811,
+   "class": "A1",
+   "deed_date": "2026-05-03",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.492583,
+   "lon": -97.762784,
+   "sqft": 2273,
+   "value": 578811,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
   },
   {
    "acres": 0.202,
@@ -762,6 +895,25 @@
    "year_built": 1998
   },
   {
+   "acres": 0.349,
+   "address": "9928 MORGAN CREEK DR, AUSTIN, TX  78717",
+   "assessed": 762357,
+   "class": "A1",
+   "deed_date": "2026-03-06",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.493097,
+   "lon": -97.765822,
+   "sqft": 3340,
+   "value": 762357,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
    "acres": 0.166,
    "address": "15720 EDENDERRY DR, AUSTIN, TX  78717",
    "assessed": 711144,
@@ -1099,7 +1251,7 @@
    "lat": 30.497019,
    "lon": -97.753296,
    "sqft": 3199,
-   "value": 1382440,
+   "value": 1382306,
    "value_kind": "market (WCAD)",
    "year_built": 2018
   },
@@ -1387,7 +1539,7 @@
   {
    "acres": 0.2,
    "address": "9432 CASTLE PINES DR, AUSTIN, TX  78717",
-   "assessed": 724332,
+   "assessed": 699472,
    "class": "A1",
    "deed_date": "2025-11-05",
    "extras": {
@@ -1399,7 +1551,7 @@
    "lat": 30.493622,
    "lon": -97.761228,
    "sqft": 1571,
-   "value": 724332,
+   "value": 699472,
    "value_kind": "market (WCAD)",
    "year_built": 2005
   },
@@ -1459,519 +1611,26 @@
    "value": 739168,
    "value_kind": "market (WCAD)",
    "year_built": 2002
-  },
-  {
-   "acres": 0.161,
-   "address": "9508 CASTLE PINES DR, AUSTIN, TX  78717",
-   "assessed": 600881,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.494241,
-   "lon": -97.76094,
-   "sqft": 2335,
-   "value": 600881,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.148,
-   "address": "15904 PEARSON BROTHERS DR, AUSTIN, TX  78717",
-   "assessed": 729007,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.500289,
-   "lon": -97.757066,
-   "sqft": 1735,
-   "value": 729007,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.225,
-   "address": "10111 IDA GROVE LN, AUSTIN, TX  78717",
-   "assessed": 1322498,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.50169,
-   "lon": -97.753983,
-   "sqft": 3001,
-   "value": 1333735,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.19,
-   "address": "15712 BELFIN DR, AUSTIN, TX  78717",
-   "assessed": 732169,
-   "class": "A1",
-   "deed_date": "2025-09-20",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.492825,
-   "lon": -97.763332,
-   "sqft": 1856,
-   "value": 732169,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.188,
-   "address": "9104 RATTLESNAKE TRL, AUSTIN, TX  78717",
-   "assessed": 1028540,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.501105,
-   "lon": -97.747849,
-   "sqft": 2384,
-   "value": 1154017,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.209,
-   "address": "14725 IRONDALE DR, AUSTIN, TX  78717",
-   "assessed": 500814,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.487009,
-   "lon": -97.764998,
-   "sqft": 2369,
-   "value": 500814,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.211,
-   "address": "15101 SAVANNAH HEIGHTS DR, AUSTIN, TX  78717",
-   "assessed": 601823,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.495287,
-   "lon": -97.771968,
-   "sqft": 2031,
-   "value": 601823,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.219,
-   "address": "10004 LAVON BND, AUSTIN, TX  78717",
-   "assessed": 1301928,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.500356,
-   "lon": -97.755116,
-   "sqft": 2998,
-   "value": 1314454,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.269,
-   "address": "10001 IVALENES HOPE DR, AUSTIN, TX  78717",
-   "assessed": 785092,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.499598,
-   "lon": -97.756078,
-   "sqft": 1316,
-   "value": 785092,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.212,
-   "address": "9508 BRIANS PATH, AUSTIN, TX  78717",
-   "assessed": 915185,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.495458,
-   "lon": -97.75621,
-   "sqft": 2202,
-   "value": 915185,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.177,
-   "address": "9200 SPADE CIR, AUSTIN, TX  78717",
-   "assessed": 543615,
-   "class": "A8",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.490262,
-   "lon": -97.753381,
-   "sqft": 1066,
-   "value": 543615,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.158,
-   "address": "14932 CORDERO DR, AUSTIN, TX  78717",
-   "assessed": 604962,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.491138,
-   "lon": -97.767485,
-   "sqft": 1615,
-   "value": 604962,
-   "value_kind": "market (WCAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 0.237,
-   "address": "15802 AXEHANDLE TRL, AUSTIN, TX  78717",
-   "assessed": 1135805,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.499183,
-   "lon": -97.754319,
-   "sqft": 3581,
-   "value": 1135805,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.185,
-   "address": "15508 FERNHILL DR, AUSTIN, TX  78717",
-   "assessed": 745933,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.496185,
-   "lon": -97.763094,
-   "sqft": 1919,
-   "value": 745933,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.198,
-   "address": "15416 WHISTLING STRAITS DR, AUSTIN, TX  78717",
-   "assessed": 735608,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.497266,
-   "lon": -97.765703,
-   "sqft": 1875,
-   "value": 735608,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.192,
-   "address": "10001 LACHLAN DR, AUSTIN, TX  78717",
-   "assessed": 803777,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.491784,
-   "lon": -97.76967,
-   "sqft": 1910,
-   "value": 803777,
-   "value_kind": "market (WCAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 0.119,
-   "address": "9305 MCKNIGHT LOOP, AUSTIN, TX  78717",
-   "assessed": 590445,
-   "class": "A8",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.487775,
-   "lon": -97.754676,
-   "sqft": 1131,
-   "value": 590445,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.22,
-   "address": "9301 KYLES STAKE RD, AUSTIN, TX  78717",
-   "assessed": 829420,
-   "class": "A1",
-   "deed_date": "2025-07-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.493729,
-   "lon": -97.754456,
-   "sqft": 1963,
-   "value": 829420,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.19,
-   "address": "9909 MATEO CV, AUSTIN, TX  78717",
-   "assessed": 703210,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.488596,
-   "lon": -97.770328,
-   "sqft": 2493,
-   "value": 703210,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.151,
-   "address": "14904 CORDERO DR, AUSTIN, TX  78717",
-   "assessed": 748672,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.490048,
-   "lon": -97.767072,
-   "sqft": 1641,
-   "value": 748672,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.231,
-   "address": "10021 MIRAGE CV, AUSTIN, TX  78717",
-   "assessed": 595964,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.48933,
-   "lon": -97.77115,
-   "sqft": 2303,
-   "value": 595964,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.146,
-   "address": "14932 THATCHER DR, AUSTIN, TX  78717",
-   "assessed": 617799,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.491961,
-   "lon": -97.768677,
-   "sqft": 2358,
-   "value": 617799,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.253,
-   "address": "9812 VALDERRAMA DR, AUSTIN, TX  78717",
-   "assessed": 699218,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.493849,
-   "lon": -97.767519,
-   "sqft": 2754,
-   "value": 699218,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.211,
-   "address": "16328 HORSE TRAP LN, AUSTIN, TX  78717",
-   "assessed": 1164396,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.503144,
-   "lon": -97.746491,
-   "sqft": 2421,
-   "value": 1229455,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.241,
-   "address": "15222 SISTERS CIR, AUSTIN, TX  78717",
-   "assessed": 753198,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.491582,
-   "lon": -97.754545,
-   "sqft": 2592,
-   "value": 753198,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.171,
-   "address": "15204 CALAVERAS DR, AUSTIN, TX  78717",
-   "assessed": 738303,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.496025,
-   "lon": -97.770461,
-   "sqft": 2196,
-   "value": 738303,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
   }
  ],
  "windows": {
   "12mo": {
-   "count": 103,
-   "median_value": 731482,
-   "pct_of_households": 3.07,
-   "pct_of_population": 1.08
+   "count": 85,
+   "median_value": 724041,
+   "pct_of_households": 2.53,
+   "pct_of_population": 0.89
   },
   "3mo": {
-   "count": 27,
-   "median_value": 739275,
-   "pct_of_households": 0.8,
-   "pct_of_population": 0.28
+   "count": 1,
+   "median_value": 795699,
+   "pct_of_households": 0.03,
+   "pct_of_population": 0.01
   },
   "6mo": {
-   "count": 52,
-   "median_value": 711144,
-   "pct_of_households": 1.55,
-   "pct_of_population": 0.55
+   "count": 32,
+   "median_value": 735563,
+   "pct_of_households": 0.95,
+   "pct_of_population": 0.34
   }
  }
 }

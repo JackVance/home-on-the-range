@@ -1,11 +1,87 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 284,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 199,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1902,
  "months_back": 12,
  "population_acs": 5680,
  "transfers": [
+  {
+   "acres": 1.012,
+   "address": "508 VALE POND SPUR, GEORGETOWN, TX  78633",
+   "assessed": 883732,
+   "class": "O1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.74511,
+   "lon": -97.84683,
+   "sqft": 3366,
+   "value": 883732,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 10.537,
+   "address": "7993 FM 487 W, FLORENCE, TX  76527",
+   "assessed": 331457,
+   "class": "D1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.839565,
+   "lon": -97.714693,
+   "sqft": 1080,
+   "value": 698917,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.176,
+   "address": "216 MEADOW BEAUTY LN, GEORGETOWN, TX  78633",
+   "assessed": 600332,
+   "class": "O1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.738232,
+   "lon": -97.82639,
+   "sqft": 2669,
+   "value": 600332,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.403,
+   "address": "101 STORY AVE, FLORENCE, TX  76527",
+   "assessed": 839364,
+   "class": "F1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "FL"
+   },
+   "homestead": false,
+   "lat": 30.84153,
+   "lon": -97.792152,
+   "sqft": 8700,
+   "value": 875000,
+   "value_kind": "market (WCAD)",
+   "year_built": 1910
+  },
   {
    "acres": 7.195,
    "address": "377 CR 220, FLORENCE, TX  76527",
@@ -67,7 +143,7 @@
    "acres": 0.149,
    "address": "138 ASH JUNIPER RD, GEORGETOWN, TX  78633",
    "assessed": 575890,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-06-02",
    "extras": {
     "exterior": "STC",
@@ -100,6 +176,25 @@
    "value": 165008,
    "value_kind": "market (WCAD)",
    "year_built": 2025
+  },
+  {
+   "acres": 3.155,
+   "address": "2887 COUNTY ROAD 255, GEORGETOWN, TX  78633",
+   "assessed": 805278,
+   "class": "O1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.738219,
+   "lon": -97.850226,
+   "sqft": 2607,
+   "value": 805278,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
   },
   {
    "acres": 11.25,
@@ -146,9 +241,9 @@
    "class": "A1",
    "deed_date": "2026-05-29",
    "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "FL"
+    "exterior": "ML",
+    "foundation": "SLB",
+    "roof": "GBL"
    },
    "homestead": true,
    "lat": 30.835854,
@@ -162,7 +257,7 @@
    "acres": 0.196,
    "address": "208 MEADOW BEAUTY LN, GEORGETOWN, TX  78633",
    "assessed": 630051,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-29",
    "extras": {
     "exterior": "BRICK",
@@ -197,29 +292,10 @@
    "year_built": 1940
   },
   {
-   "acres": 0.192,
-   "address": "162 ASH JUNIPER RD, GEORGETOWN, TX  78633",
-   "assessed": 554764,
-   "class": "O1",
-   "deed_date": "2026-05-27",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.737357,
-   "lon": -97.829386,
-   "sqft": 1927,
-   "value": 554764,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
    "acres": 0.186,
    "address": "109 MEADOW BEAUTY LN, GEORGETOWN, TX  78633",
    "assessed": 311091,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-26",
    "extras": {
     "exterior": "BRICK",
@@ -238,7 +314,7 @@
    "acres": 0.148,
    "address": "217 HORSEMINT LN, GEORGETOWN, TX  78633",
    "assessed": 580979,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-26",
    "extras": {
     "exterior": "STC",
@@ -401,7 +477,7 @@
   {
    "acres": 9.929,
    "address": "1881 CR 251, FLORENCE, TX  76527",
-   "assessed": 543028,
+   "assessed": 601134,
    "class": "E1",
    "deed_date": "2026-05-13",
    "extras": {
@@ -450,6 +526,18 @@
    "value": 514854,
    "value_kind": "market (WCAD)",
    "year_built": 1997
+  },
+  {
+   "acres": 48.557,
+   "address": "9530 N HWY 183, FLORENCE, TX  76527",
+   "assessed": 112785,
+   "class": "D1",
+   "deed_date": "2026-05-08",
+   "homestead": false,
+   "lat": 30.791699,
+   "lon": -97.877227,
+   "value": 1523259,
+   "value_kind": "market (WCAD)"
   },
   {
    "acres": 5.432,
@@ -504,7 +592,7 @@
    "acres": 0.181,
    "address": "209 CROWNBEARD ST, GEORGETOWN, TX  78633",
    "assessed": 617100,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-04",
    "extras": {
     "exterior": "BRICK",
@@ -560,13 +648,13 @@
   {
    "acres": 0.309,
    "address": "402 STORY AVE, FLORENCE, TX  76527",
-   "assessed": 74963,
+   "assessed": 74896,
    "class": "A3",
    "deed_date": "2026-05-01",
    "homestead": true,
    "lat": 30.838918,
    "lon": -97.791556,
-   "value": 74963,
+   "value": 74896,
    "value_kind": "market (WCAD)"
   },
   {
@@ -822,6 +910,25 @@
    "year_built": 1936
   },
   {
+   "acres": 0.288,
+   "address": "404 S LOVE AVE, FLORENCE, TX  76527",
+   "assessed": 137751,
+   "class": "A1",
+   "deed_date": "2026-04-20",
+   "extras": {
+    "exterior": "WD",
+    "foundation": "PB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.838907,
+   "lon": -97.790676,
+   "sqft": 1041,
+   "value": 137751,
+   "value_kind": "market (WCAD)",
+   "year_built": 1947
+  },
+  {
    "acres": 0.377,
    "address": "103 W ATKINSON ST, FLORENCE, TX  76527",
    "assessed": 197415,
@@ -844,7 +951,7 @@
    "acres": 0.149,
    "address": "118 ASH JUNIPER RD, GEORGETOWN, TX  78633",
    "assessed": 288987,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-17",
    "extras": {
     "exterior": "BRICK",
@@ -863,7 +970,7 @@
    "acres": 1.013,
    "address": "512 VALE POND SPUR, GEORGETOWN, TX  78633",
    "assessed": 505550,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-17",
    "extras": {
     "exterior": "M",
@@ -975,7 +1082,7 @@
   {
    "acres": 0.216,
    "address": "121 MEADOW BEAUTY LN, GEORGETOWN, TX  78633",
-   "assessed": 661764,
+   "assessed": 601764,
    "class": "O1",
    "deed_date": "2026-04-13",
    "extras": {
@@ -987,7 +1094,7 @@
    "lat": 30.736891,
    "lon": -97.82662,
    "sqft": 2095,
-   "value": 661764,
+   "value": 601764,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -1014,7 +1121,7 @@
    "acres": 0.149,
    "address": "112 GOLDEN SAGE AVE, GEORGETOWN, TX  78633",
    "assessed": 256384,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-07",
    "extras": {
     "foundation": "SLB",
@@ -1070,7 +1177,7 @@
    "acres": 0.137,
    "address": "140 BASKETFLOWER LN, GEORGETOWN, TX  78633",
    "assessed": 419900,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-27",
    "extras": {
     "exterior": "STC",
@@ -1177,7 +1284,7 @@
    "acres": 0.408,
    "address": "503 WATERSHIELD CV, GEORGETOWN, TX  78633",
    "assessed": 635319,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-20",
    "extras": {
     "exterior": "BRICK",
@@ -1211,7 +1318,7 @@
    "class": "A1",
    "deed_date": "2026-03-17",
    "extras": {
-    "exterior": "ML",
+    "exterior": "M",
     "foundation": "SLB",
     "roof": "MX"
    },
@@ -1405,7 +1512,7 @@
    "acres": 0.215,
    "address": "221 PURPLE MUHLY RD, GEORGETOWN, TX  78633",
    "assessed": 223363,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-05",
    "extras": {
     "exterior": "BRICK",
@@ -1477,7 +1584,7 @@
    "acres": 0.148,
    "address": "325 HORSEMINT LN, GEORGETOWN, TX  78633",
    "assessed": 422610,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-25",
    "extras": {
     "exterior": "BRICK",
@@ -1591,14 +1698,14 @@
    "acres": 0.134,
    "address": "224 WINGSTEM WAY, GEORGETOWN, TX  78633",
    "assessed": 399088,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-13",
    "extras": {
     "exterior": "BRICK",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.736359,
    "lon": -97.827931,
    "sqft": 1529,
@@ -1610,7 +1717,7 @@
    "acres": 0.147,
    "address": "213 COYOTE WILLOW WAY, GEORGETOWN, TX  78633",
    "assessed": 441429,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-13",
    "extras": {
     "exterior": "BRICK",
@@ -1629,7 +1736,7 @@
    "acres": 0.134,
    "address": "209 WINGSTEM WAY, GEORGETOWN, TX  78633",
    "assessed": 409229,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-12",
    "extras": {
     "exterior": "BRICK",
@@ -1648,7 +1755,7 @@
    "acres": 0.284,
    "address": "224 MEADOW BEAUTY LN, GEORGETOWN, TX  78633",
    "assessed": 624566,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-12",
    "extras": {
     "exterior": "BRICK",
@@ -1888,7 +1995,7 @@
    "acres": 0.17,
    "address": "220 MEADOW BEAUTY LN, GEORGETOWN, TX  78633",
    "assessed": 709776,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-30",
    "extras": {
     "exterior": "BRICK",
@@ -1919,7 +2026,7 @@
    "acres": 0.148,
    "address": "301 HORSEMINT LN, GEORGETOWN, TX  78633",
    "assessed": 419194,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-28",
    "extras": {
     "exterior": "BRICK",
@@ -1956,7 +2063,7 @@
   {
    "acres": 79.016,
    "address": "3220 CR 232, FLORENCE, TX  76527",
-   "assessed": 3630041,
+   "assessed": 3630040,
    "class": "F1",
    "deed_date": "2026-01-26",
    "extras": {
@@ -1968,7 +2075,7 @@
    "lat": 30.848596,
    "lon": -97.728516,
    "sqft": 8364,
-   "value": 3630041,
+   "value": 3630040,
    "value_kind": "market (WCAD)",
    "year_built": 1962
   },
@@ -2072,7 +2179,7 @@
     "exterior": "WD",
     "foundation": "PST"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.839999,
    "lon": -97.792957,
    "sqft": 907,
@@ -2094,6 +2201,21 @@
    "value": 359843,
    "value_kind": "market (WCAD)",
    "year_built": 1996
+  },
+  {
+   "acres": 1.279,
+   "address": "1200 CR 220, FLORENCE, TX  76527",
+   "assessed": 256081,
+   "class": "A5",
+   "deed_date": "2026-01-08",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.839894,
+   "lon": -97.838569,
+   "sqft": 1248,
+   "value": 256081,
+   "value_kind": "market (WCAD)",
+   "year_built": 1999
   },
   {
    "acres": 9.592,
@@ -2478,14 +2600,14 @@
    "acres": 3.256,
    "address": "FM 970, FLORENCE, TX  76527",
    "assessed": 627560,
-   "class": "E4",
+   "class": "E1",
    "deed_date": "2025-12-12",
    "extras": {
     "exterior": "M",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.792129,
    "lon": -97.862673,
    "sqft": 2552,
@@ -2768,7 +2890,7 @@
   {
    "acres": 19.959,
    "address": "531 CR 254, GEORGETOWN, TX  78633",
-   "assessed": 1599578,
+   "assessed": 1500928,
    "class": "E1",
    "deed_date": "2025-11-21",
    "extras": {
@@ -2780,7 +2902,7 @@
    "lat": 30.759426,
    "lon": -97.850383,
    "sqft": 5479,
-   "value": 2515497,
+   "value": 2416847,
    "value_kind": "market (WCAD)",
    "year_built": 2015
   },
@@ -3053,25 +3175,25 @@
   {
    "acres": 4.456,
    "address": "4001 CR 233, FLORENCE, TX  76527",
-   "assessed": 205621,
+   "assessed": 200143,
    "class": "E4",
    "deed_date": "2025-11-05",
    "homestead": false,
    "lat": 30.820445,
    "lon": -97.757278,
-   "value": 205621,
+   "value": 200143,
    "value_kind": "market (WCAD)"
   },
   {
    "acres": 0.997,
    "address": "4085 CR 233, FLORENCE, TX  76527",
-   "assessed": 33100,
+   "assessed": 31829,
    "class": "E1",
    "deed_date": "2025-11-05",
    "homestead": false,
    "lat": 30.820887,
    "lon": -97.758042,
-   "value": 33100,
+   "value": 31829,
    "value_kind": "market (WCAD)"
   },
   {
@@ -3432,1695 +3554,26 @@
    "value": 491456,
    "value_kind": "market (WCAD)",
    "year_built": 2025
-  },
-  {
-   "acres": 0.201,
-   "address": "224 CROWNBEARD ST, GEORGETOWN, TX  78633",
-   "assessed": 548710,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733123,
-   "lon": -97.825597,
-   "sqft": 2780,
-   "value": 548710,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.032,
-   "address": "504 VALE POND SPUR, GEORGETOWN, TX  78633",
-   "assessed": 755358,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.744788,
-   "lon": -97.846716,
-   "sqft": 2644,
-   "value": 755358,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.125,
-   "address": "108 HUNTERS PT, FLORENCE, TX  76527",
-   "assessed": 52330,
-   "class": "A3",
-   "deed_date": "2025-10-09",
-   "homestead": false,
-   "lat": 30.83854,
-   "lon": -97.794359,
-   "value": 52330,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 0.134,
-   "address": "213 WINGSTEM WAY, GEORGETOWN, TX  78633",
-   "assessed": 439811,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736543,
-   "lon": -97.828615,
-   "sqft": 1749,
-   "value": 439811,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.206,
-   "address": "618 WATERSHIELD CV, GEORGETOWN, TX  78633",
-   "assessed": 442948,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731365,
-   "lon": -97.823685,
-   "sqft": 1827,
-   "value": 442948,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "243 STAR RUSH TRL, GEORGETOWN, TX  78633",
-   "assessed": 610399,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734294,
-   "lon": -97.825929,
-   "sqft": 2347,
-   "value": 610399,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "212 WINGSTEM WAY, GEORGETOWN, TX  78633",
-   "assessed": 349038,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736709,
-   "lon": -97.828075,
-   "sqft": 1704,
-   "value": 349038,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.14,
-   "address": "336 HORSEMINT LN, GEORGETOWN, TX  78633",
-   "assessed": 431001,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737917,
-   "lon": -97.827249,
-   "sqft": 1578,
-   "value": 431001,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 54.825,
-   "address": "3450 FM 2843, FLORENCE, TX  76527",
-   "assessed": 1416108,
-   "class": "G3",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.880646,
-   "lon": -97.706059,
-   "sqft": 18284,
-   "value": 1416108,
-   "value_kind": "market (WCAD)",
-   "year_built": 1985
-  },
-  {
-   "acres": 0.134,
-   "address": "234 WINGSTEM WAY, GEORGETOWN, TX  78633",
-   "assessed": 363102,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736126,
-   "lon": -97.827835,
-   "sqft": 1888,
-   "value": 363102,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "129 PIPE CACTUS PASS, GEORGETOWN, TX  78633",
-   "assessed": 375777,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736595,
-   "lon": -97.827589,
-   "sqft": 1953,
-   "value": 375777,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.19,
-   "address": "506 CLOVE CURRENT CT, GEORGETOWN, TX  78633",
-   "assessed": 556105,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733181,
-   "lon": -97.827063,
-   "sqft": 1929,
-   "value": 556105,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "229 WINGSTEM WAY, GEORGETOWN, TX  78633",
-   "assessed": 425128,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736077,
-   "lon": -97.828423,
-   "sqft": 1689,
-   "value": 425128,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 5.758,
-   "address": "3901 FM 970, FLORENCE, TX  76527",
-   "assessed": 326123,
-   "class": "A2",
-   "deed_date": "2025-09-26",
-   "homestead": false,
-   "lat": 30.804713,
-   "lon": -97.83806,
-   "value": 326123,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 5.344,
-   "address": "11400 FM 487 W, FLORENCE, TX  76527",
-   "assessed": 618988,
-   "class": "E1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.846557,
-   "lon": -97.768608,
-   "sqft": 2791,
-   "value": 618988,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 23.462,
-   "address": "2481 CR 224, FLORENCE, TX  76527",
-   "assessed": 630709,
-   "class": "E1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.861618,
-   "lon": -97.859479,
-   "sqft": 2323,
-   "value": 630709,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 2.039,
-   "address": "638 STRADA LUCA, FLORENCE, TX  76527",
-   "assessed": 1199337,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.833679,
-   "lon": -97.728015,
-   "sqft": 2822,
-   "value": 1199337,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.156,
-   "address": "309 GOLDEN SAGE AVE, GEORGETOWN, TX  78633",
-   "assessed": 422919,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.733174,
-   "lon": -97.828088,
-   "sqft": 2081,
-   "value": 422919,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.178,
-   "address": "208 WINGSTEM WAY, GEORGETOWN, TX  78633",
-   "assessed": 407804,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736845,
-   "lon": -97.828129,
-   "sqft": 1892,
-   "value": 407804,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.14,
-   "address": "304 HORSEMINT LN, GEORGETOWN, TX  78633",
-   "assessed": 425128,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737572,
-   "lon": -97.828377,
-   "sqft": 1689,
-   "value": 425128,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.149,
-   "address": "205 GOLDEN SAGE AVE, GEORGETOWN, TX  78633",
-   "assessed": 445380,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.732504,
-   "lon": -97.827263,
-   "sqft": 1598,
-   "value": 445380,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.142,
-   "address": "217 COYOTE WILLOW WAY, GEORGETOWN, TX  78633",
-   "assessed": 359542,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.7376,
-   "lon": -97.827013,
-   "sqft": 1848,
-   "value": 359542,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.14,
-   "address": "308 HORSEMINT LN, GEORGETOWN, TX  78633",
-   "assessed": 439811,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737615,
-   "lon": -97.828236,
-   "sqft": 1749,
-   "value": 439811,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.14,
-   "address": "328 HORSEMINT LN, GEORGETOWN, TX  78633",
-   "assessed": 397846,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737831,
-   "lon": -97.827531,
-   "sqft": 1696,
-   "value": 397846,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.169,
-   "address": "300 HORSEMINT LN, GEORGETOWN, TX  78633",
-   "assessed": 372395,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737523,
-   "lon": -97.828531,
-   "sqft": 1888,
-   "value": 372395,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.174,
-   "address": "348 HORSEMINT LN, GEORGETOWN, TX  78633",
-   "assessed": 441429,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.738051,
-   "lon": -97.826808,
-   "sqft": 1776,
-   "value": 441429,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.292,
-   "address": "407 S PATTERSON AVE, FLORENCE, TX  76527",
-   "assessed": 88746,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "ALS",
-    "foundation": "PST",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.837767,
-   "lon": -97.79252,
-   "sqft": 912,
-   "value": 88746,
-   "value_kind": "market (WCAD)",
-   "year_built": 1960
-  },
-  {
-   "acres": 0.134,
-   "address": "113 COYOTE WILLOW WAY, GEORGETOWN, TX  78633",
-   "assessed": 351737,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.737315,
-   "lon": -97.827977,
-   "sqft": 1898,
-   "value": 351737,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.15,
-   "address": "203 ASH JUNIPER RD, GEORGETOWN, TX  78633",
-   "assessed": 449558,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737572,
-   "lon": -97.830083,
-   "sqft": 1618,
-   "value": 449558,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 9.073,
-   "address": "2601 CR 255, GEORGETOWN, TX  78633",
-   "assessed": 345097,
-   "class": "A2",
-   "deed_date": "2025-09-10",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.734828,
-   "lon": -97.849521,
-   "sqft": 1370,
-   "value": 345097,
-   "value_kind": "market (WCAD)",
-   "year_built": 1983
-  },
-  {
-   "acres": 10.974,
-   "address": "4535 CR 245, FLORENCE, TX  76527",
-   "assessed": 796859,
-   "class": "E1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.782571,
-   "lon": -97.794951,
-   "sqft": 1850,
-   "value": 796859,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.149,
-   "address": "130 ASH JUNIPER RD, GEORGETOWN, TX  78633",
-   "assessed": 493258,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736301,
-   "lon": -97.828954,
-   "sqft": 1851,
-   "value": 493258,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 4.965,
-   "address": "1239 COUNTY ROAD 250, GEORGETOWN, TX  78633",
-   "assessed": 383521,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.772283,
-   "lon": -97.844237,
-   "sqft": 1000,
-   "value": 383521,
-   "value_kind": "market (WCAD)",
-   "year_built": 1992
-  },
-  {
-   "acres": 4.914,
-   "address": "333 SUNSET ACRES LN, FLORENCE, TX  76527",
-   "assessed": 485958,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.790114,
-   "lon": -97.778548,
-   "sqft": 1059,
-   "value": 485958,
-   "value_kind": "market (WCAD)",
-   "year_built": 1981
-  },
-  {
-   "acres": 0.149,
-   "address": "150 ASH JUNIPER RD, GEORGETOWN, TX  78633",
-   "assessed": 481750,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736949,
-   "lon": -97.82922,
-   "sqft": 1855,
-   "value": 481750,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 11.302,
-   "address": "636 CR 236, FLORENCE, TX  76527",
-   "assessed": 58632,
-   "class": "D1",
-   "deed_date": "2025-09-07",
-   "homestead": false,
-   "lat": 30.795677,
-   "lon": -97.895748,
-   "value": 437157,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 5.12,
-   "address": "650 FARRIS RANCH RD, GEORGETOWN, TX  78633",
-   "assessed": 816900,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.736723,
-   "lon": -97.863535,
-   "sqft": 2105,
-   "value": 816900,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.149,
-   "address": "142 ASH JUNIPER RD, GEORGETOWN, TX  78633",
-   "assessed": 441844,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.73669,
-   "lon": -97.829114,
-   "sqft": 1899,
-   "value": 441844,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.107,
-   "address": "302 BREWSTER AVE, FLORENCE, TX  76527",
-   "assessed": 53195,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.838949,
-   "lon": -97.792476,
-   "sqft": 720,
-   "value": 53195,
-   "value_kind": "market (WCAD)",
-   "year_built": 1968
-  },
-  {
-   "acres": 1.01,
-   "address": "212 SADDLE SPRINGS DR, GEORGETOWN, TX  78633",
-   "assessed": 766875,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.744812,
-   "lon": -97.849281,
-   "sqft": 2632,
-   "value": 766875,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.313,
-   "address": "105 S PATTERSON AVE, FLORENCE, TX  76527",
-   "assessed": 160144,
-   "class": "F1",
-   "deed_date": "2025-09-03",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.840607,
-   "lon": -97.793487,
-   "sqft": 1936,
-   "value": 160144,
-   "value_kind": "market (WCAD)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.066,
-   "address": "1584 CR 220, FLORENCE, TX  76527",
-   "assessed": 132880,
-   "class": "A5",
-   "deed_date": "2025-09-02",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.839046,
-   "lon": -97.843019,
-   "sqft": 1568,
-   "value": 257106,
-   "value_kind": "market (WCAD)",
-   "year_built": 1985
-  },
-  {
-   "acres": 0.157,
-   "address": "149 GOLDEN SAGE AVE, GEORGETOWN, TX  78633",
-   "assessed": 573587,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.73211,
-   "lon": -97.826752,
-   "sqft": 2044,
-   "value": 573587,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.156,
-   "address": "148 GOLDEN SAGE AVE, GEORGETOWN, TX  78633",
-   "assessed": 423758,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.732402,
-   "lon": -97.826271,
-   "sqft": 2144,
-   "value": 423758,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.149,
-   "address": "137 ASH JUNIPER RD, GEORGETOWN, TX  78633",
-   "assessed": 429020,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736348,
-   "lon": -97.829581,
-   "sqft": 2374,
-   "value": 429020,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "137 PIPE CACTUS PASS, GEORGETOWN, TX  78633",
-   "assessed": 425275,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736828,
-   "lon": -97.827685,
-   "sqft": 1689,
-   "value": 425275,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.154,
-   "address": "501 VALE POND SPUR, GEORGETOWN, TX  78633",
-   "assessed": 843154,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.744099,
-   "lon": -97.847833,
-   "sqft": 3164,
-   "value": 843154,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 12.854,
-   "address": "CR 228, FLORENCE, TX  76527",
-   "assessed": 971,
-   "class": "D1",
-   "deed_date": "2025-08-28",
-   "homestead": false,
-   "lat": 30.864292,
-   "lon": -97.794618,
-   "value": 207386,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 0.202,
-   "address": "401 GOLDEN SAGE AVE, GEORGETOWN, TX  78633",
-   "assessed": 599501,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.734454,
-   "lon": -97.828799,
-   "sqft": 2382,
-   "value": 599501,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 265.542,
-   "address": "1230 CR 229, FLORENCE, TX  76527",
-   "assessed": 11504,
-   "class": "D3",
-   "deed_date": "2025-08-28",
-   "homestead": false,
-   "lat": 30.861762,
-   "lon": -97.772156,
-   "value": 4196871,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 1.006,
-   "address": "1230 CR 229, FLORENCE, TX  76527",
-   "assessed": 235555,
-   "class": "E1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.858158,
-   "lon": -97.775519,
-   "sqft": 1646,
-   "value": 235555,
-   "value_kind": "market (WCAD)",
-   "year_built": 1904
-  },
-  {
-   "acres": 139.721,
-   "address": "1750 CR 229, FLORENCE, TX  76527",
-   "assessed": 42300,
-   "class": "D3",
-   "deed_date": "2025-08-28",
-   "homestead": false,
-   "lat": 30.859027,
-   "lon": -97.778583,
-   "value": 2302465,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 0.318,
-   "address": "200 LOVE AVE, FLORENCE, TX  76527",
-   "assessed": 78330,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "ALS",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.843854,
-   "lon": -97.792248,
-   "sqft": 1206,
-   "value": 78330,
-   "value_kind": "market (WCAD)",
-   "year_built": 1890
-  },
-  {
-   "acres": 4.916,
-   "address": "650 CR 224, FLORENCE, TX  76527",
-   "assessed": 241000,
-   "class": "A2",
-   "deed_date": "2025-08-26",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.858796,
-   "lon": -97.840857,
-   "sqft": 1432,
-   "value": 377320,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.193,
-   "address": "505 GOLDEN SAGE AVE, GEORGETOWN, TX  78633",
-   "assessed": 441844,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.735502,
-   "lon": -97.828342,
-   "sqft": 1899,
-   "value": 441844,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.201,
-   "address": "259 STAR RUSH TRL, GEORGETOWN, TX  78633",
-   "assessed": 600685,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733808,
-   "lon": -97.825282,
-   "sqft": 2296,
-   "value": 600685,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.251,
-   "address": "430 CR 217, FLORENCE, TX  76527",
-   "assessed": 17303,
-   "class": "E3",
-   "deed_date": "2025-08-22",
-   "homestead": false,
-   "lat": 30.813504,
-   "lon": -97.862728,
-   "value": 17303,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 2.481,
-   "address": "8370 OLD 195, FLORENCE, TX  76527",
-   "assessed": 710853,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.778915,
-   "lon": -97.756089,
-   "sqft": 3031,
-   "value": 710853,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 18.191,
-   "address": "5601 HWY 138, FLORENCE, TX  76527",
-   "assessed": 182662,
-   "class": "E1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.838357,
-   "lon": -97.890933,
-   "sqft": 1272,
-   "value": 523932,
-   "value_kind": "market (WCAD)",
-   "year_built": 1930
-  },
-  {
-   "acres": 29.133,
-   "address": "430 CR 217, FLORENCE, TX  76527",
-   "assessed": 610346,
-   "class": "E4",
-   "deed_date": "2025-08-22",
-   "homestead": false,
-   "lat": 30.813918,
-   "lon": -97.864872,
-   "value": 610346,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 1.003,
-   "address": "430 CR 217, FLORENCE, TX  76527",
-   "assessed": 265128,
-   "class": "E1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.813658,
-   "lon": -97.86226,
-   "sqft": 1554,
-   "value": 265128,
-   "value_kind": "market (WCAD)",
-   "year_built": 1930
-  },
-  {
-   "acres": 0.178,
-   "address": "141 PIPE CACTUS PASS, GEORGETOWN, TX  78633",
-   "assessed": 373601,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736963,
-   "lon": -97.827742,
-   "sqft": 1912,
-   "value": 373601,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.263,
-   "address": "232 CROWNBEARD ST, GEORGETOWN, TX  78633",
-   "assessed": 665301,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733313,
-   "lon": -97.825214,
-   "sqft": 3080,
-   "value": 665301,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.411,
-   "address": "105 WEST AVE, FLORENCE, TX  76527",
-   "assessed": 218624,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "AS",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.841771,
-   "lon": -97.79619,
-   "sqft": 1589,
-   "value": 218624,
-   "value_kind": "market (WCAD)",
-   "year_built": 1963
-  },
-  {
-   "acres": 0.14,
-   "address": "340 HORSEMINT LN, GEORGETOWN, TX  78633",
-   "assessed": 425128,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737961,
-   "lon": -97.827108,
-   "sqft": 1689,
-   "value": 425128,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.149,
-   "address": "122 ASH JUNIPER RD, GEORGETOWN, TX  78633",
-   "assessed": 415410,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736042,
-   "lon": -97.828848,
-   "sqft": 2068,
-   "value": 415410,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "216 WINGSTEM WAY, GEORGETOWN, TX  78633",
-   "assessed": 374476,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736592,
-   "lon": -97.828027,
-   "sqft": 1912,
-   "value": 374476,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 10.019,
-   "address": "13000 RR 2338, GEORGETOWN, TX  78633",
-   "assessed": 620710,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "VS",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.770638,
-   "lon": -97.828811,
-   "sqft": 1920,
-   "value": 620710,
-   "value_kind": "market (WCAD)",
-   "year_built": 1940
-  },
-  {
-   "acres": 0.14,
-   "address": "316 HORSEMINT LN, GEORGETOWN, TX  78633",
-   "assessed": 432613,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737701,
-   "lon": -97.827954,
-   "sqft": 1674,
-   "value": 432613,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "117 COYOTE WILLOW WAY, GEORGETOWN, TX  78633",
-   "assessed": 421632,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737356,
-   "lon": -97.827842,
-   "sqft": 1853,
-   "value": 421632,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "117 WINGSTEM WAY, GEORGETOWN, TX  78633",
-   "assessed": 372395,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.73701,
-   "lon": -97.828806,
-   "sqft": 1888,
-   "value": 372395,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.213,
-   "address": "121 BASKETFLOWER LN, GEORGETOWN, TX  78633",
-   "assessed": 494377,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731302,
-   "lon": -97.824977,
-   "sqft": 2019,
-   "value": 494377,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.213,
-   "address": "510 WATERSHIELD CV, GEORGETOWN, TX  78633",
-   "assessed": 605114,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.732547,
-   "lon": -97.824081,
-   "sqft": 2364,
-   "value": 605114,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.134,
-   "address": "205 COYOTE WILLOW WAY, GEORGETOWN, TX  78633",
-   "assessed": 438078,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.73748,
-   "lon": -97.827437,
-   "sqft": 1773,
-   "value": 438078,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.736,
-   "address": "850 FM 970, FLORENCE, TX  76527",
-   "assessed": 385172,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.83081,
-   "lon": -97.804481,
-   "sqft": 2909,
-   "value": 385172,
-   "value_kind": "market (WCAD)",
-   "year_built": 1980
-  },
-  {
-   "acres": 0.169,
-   "address": "109 GOLDEN SAGE AVE, GEORGETOWN, TX  78633",
-   "assessed": 439379,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.730958,
-   "lon": -97.825812,
-   "sqft": 2241,
-   "value": 439379,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.625,
-   "address": "3771 Highway 138, FLORENCE, TX  76527",
-   "assessed": 268856,
-   "class": "A5",
-   "deed_date": "2025-07-31",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.841581,
-   "lon": -97.861835,
-   "sqft": 1344,
-   "value": 268856,
-   "value_kind": "market (WCAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.134,
-   "address": "201 COYOTE WILLOW WAY, GEORGETOWN, TX  78633",
-   "assessed": 375477,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737439,
-   "lon": -97.827572,
-   "sqft": 1911,
-   "value": 375477,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.14,
-   "address": "312 HORSEMINT LN, GEORGETOWN, TX  78633",
-   "assessed": 399249,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737658,
-   "lon": -97.828095,
-   "sqft": 1534,
-   "value": 399249,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.149,
-   "address": "154 ASH JUNIPER RD, GEORGETOWN, TX  78633",
-   "assessed": 480181,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737079,
-   "lon": -97.829273,
-   "sqft": 1973,
-   "value": 480181,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.226,
-   "address": "125 MEADOW BEAUTY LN, GEORGETOWN, TX  78633",
-   "assessed": 696987,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.73705,
-   "lon": -97.826674,
-   "sqft": 3263,
-   "value": 696987,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 13.408,
-   "address": "1370 CR 233, FLORENCE, TX  76527",
-   "assessed": 807855,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.825812,
-   "lon": -97.724472,
-   "sqft": 2645,
-   "value": 807855,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 7.534,
-   "address": "770 PECAN BRANCH, FLORENCE, TX  76527",
-   "assessed": 630840,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.780599,
-   "lon": -97.752327,
-   "sqft": 2972,
-   "value": 630840,
-   "value_kind": "market (WCAD)",
-   "year_built": 1982
-  },
-  {
-   "acres": 1.018,
-   "address": "516 VALE POND SPUR, GEORGETOWN, TX  78633",
-   "assessed": 725907,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.745787,
-   "lon": -97.847077,
-   "sqft": 2385,
-   "value": 725907,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.411,
-   "address": "205 BENEDICT AVE, FLORENCE, TX  76527",
-   "assessed": 147310,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.847589,
-   "lon": -97.792721,
-   "sqft": 1384,
-   "value": 147310,
-   "value_kind": "market (WCAD)",
-   "year_built": 1960
-  },
-  {
-   "acres": 15.721,
-   "address": "4500 CR 207, LIBERTY HILL, TX  78642",
-   "assessed": 547396,
-   "class": "E1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.767508,
-   "lon": -97.902157,
-   "sqft": 2223,
-   "value": 948503,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.188,
-   "address": "306 HOWELL ST, FLORENCE, TX  76527",
-   "assessed": 133378,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.84064,
-   "lon": -97.791369,
-   "sqft": 1100,
-   "value": 133378,
-   "value_kind": "market (WCAD)",
-   "year_built": 1935
-  },
-  {
-   "acres": 1.012,
-   "address": "508 VALE POND SPUR, GEORGETOWN, TX  78633",
-   "assessed": 883732,
-   "class": "O1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.74511,
-   "lon": -97.84683,
-   "sqft": 3366,
-   "value": 883732,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.149,
-   "address": "141 ASH JUNIPER RD, GEORGETOWN, TX  78633",
-   "assessed": 449558,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736478,
-   "lon": -97.829635,
-   "sqft": 1618,
-   "value": 449558,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "116 MEADOW BEAUTY LN, GEORGETOWN, TX  78633",
-   "assessed": 640990,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736765,
-   "lon": -97.825957,
-   "sqft": 2945,
-   "value": 640990,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.327,
-   "address": "107 W CASKEY ST, FLORENCE, TX  76527",
-   "assessed": 212338,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.846137,
-   "lon": -97.797346,
-   "sqft": 1856,
-   "value": 212338,
-   "value_kind": "market (WCAD)",
-   "year_built": 1973
-  },
-  {
-   "acres": 0.14,
-   "address": "209 COYOTE WILLOW WAY, GEORGETOWN, TX  78633",
-   "assessed": 371520,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737526,
-   "lon": -97.827301,
-   "sqft": 1888,
-   "value": 371520,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
   }
  ],
  "windows": {
   "12mo": {
-   "count": 284,
-   "median_value": 431001,
-   "pct_of_households": 14.93,
-   "pct_of_population": 5.0
+   "count": 199,
+   "median_value": 429112,
+   "pct_of_households": 10.46,
+   "pct_of_population": 3.5
   },
   "3mo": {
-   "count": 56,
-   "median_value": 371989,
-   "pct_of_households": 2.94,
-   "pct_of_population": 0.99
+   "count": 0,
+   "median_value": null,
+   "pct_of_households": 0.0,
+   "pct_of_population": 0.0
   },
   "6mo": {
-   "count": 116,
-   "median_value": 419194,
-   "pct_of_households": 6.1,
-   "pct_of_population": 2.04
+   "count": 61,
+   "median_value": 443860,
+   "pct_of_households": 3.21,
+   "pct_of_population": 1.07
   }
  }
 }

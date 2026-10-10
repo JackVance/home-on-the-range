@@ -1,11 +1,769 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 88,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 109,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3484,
  "months_back": 12,
  "population_acs": 6309,
  "transfers": [
+  {
+   "acres": 1.423,
+   "address": "1305 CHESTNUT AUSTIN 78702",
+   "assessed": 719356,
+   "class": "A1",
+   "deed_date": "2026-09-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.275846,
+   "lon": -97.716001,
+   "sqft": 1680,
+   "value": 719356,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.199,
+   "address": "3013 18 78702",
+   "assessed": 407412,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.280745,
+   "lon": -97.704222,
+   "sqft": 950,
+   "value": 407412,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1950
+  },
+  {
+   "acres": 0.818,
+   "address": "1801 CHESTNUT 78702",
+   "assessed": 265088,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.279455,
+   "lon": -97.71683,
+   "sqft": 468,
+   "value": 265088,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1951
+  },
+  {
+   "acres": 1.479,
+   "address": "1700 SANCHEZ 78702",
+   "assessed": 457521,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.280161,
+   "lon": -97.706832,
+   "sqft": 1175,
+   "value": 457521,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 0.907,
+   "address": "1307 CLIFFORD AUSTIN 78702",
+   "assessed": 1179286,
+   "class": "A1",
+   "deed_date": "2026-08-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.277525,
+   "lon": -97.706697,
+   "sqft": 2305,
+   "value": 1179286,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": 2.097,
+   "address": "2000 CEDAR AUSTIN 78722",
+   "assessed": 519465,
+   "class": "A1",
+   "deed_date": "2026-08-19",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.281898,
+   "lon": -97.71489,
+   "sqft": 1174,
+   "value": 519465,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1958
+  },
+  {
+   "acres": 1.214,
+   "address": "3017 16 78702",
+   "assessed": 825881,
+   "class": "A1",
+   "deed_date": "2026-08-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.279269,
+   "lon": -97.703625,
+   "sqft": 1804,
+   "value": 825881,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": 2.705,
+   "address": "2819 22 78722",
+   "assessed": 1570391,
+   "class": "A1",
+   "deed_date": "2026-08-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.283911,
+   "lon": -97.71058,
+   "sqft": 3978,
+   "value": 1570391,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2018
+  },
+  {
+   "acres": 1.451,
+   "address": "1908 21 78722",
+   "assessed": 632802,
+   "class": "A1",
+   "deed_date": "2026-08-11",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.282175,
+   "lon": -97.721159,
+   "sqft": 1799,
+   "value": 632802,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1935
+  },
+  {
+   "acres": 1.483,
+   "address": "1410 SINGLETON 78702",
+   "assessed": 366178,
+   "class": "A1",
+   "deed_date": "2026-08-05",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.277473,
+   "lon": -97.714866,
+   "sqft": 916,
+   "value": 366178,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1987
+  },
+  {
+   "acres": 1.483,
+   "address": "1708 SINGLETON 78702",
+   "assessed": 399906,
+   "class": "A1",
+   "deed_date": "2026-08-05",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.279278,
+   "lon": -97.715242,
+   "sqft": 1020,
+   "value": 399906,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1955
+  },
+  {
+   "acres": 1.136,
+   "address": "3009 18 1/2 78702",
+   "assessed": 297682,
+   "class": "A1",
+   "deed_date": "2026-08-05",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.281445,
+   "lon": -97.704693,
+   "sqft": 624,
+   "value": 297682,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1949
+  },
+  {
+   "acres": 0.718,
+   "address": "1403 POQUITO AUSTIN 78702",
+   "assessed": 378866,
+   "class": "A1",
+   "deed_date": "2026-08-04",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.276351,
+   "lon": -97.719259,
+   "sqft": 930,
+   "value": 378866,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1988
+  },
+  {
+   "acres": 1.199,
+   "address": "3020 16 78702",
+   "assessed": 371631,
+   "class": "A1",
+   "deed_date": "2026-08-04",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.279763,
+   "lon": -97.703438,
+   "sqft": 728,
+   "value": 371631,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1949
+  },
+  {
+   "acres": 1.199,
+   "address": "3011 18 78702",
+   "assessed": 366810,
+   "class": "A1",
+   "deed_date": "2026-08-04",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.280723,
+   "lon": -97.704364,
+   "sqft": 720,
+   "value": 366810,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1950
+  },
+  {
+   "acres": 2.637,
+   "address": "1708 17 78702",
+   "assessed": 472551,
+   "class": "B2",
+   "deed_date": "2026-08-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.277881,
+   "lon": -97.722031,
+   "sqft": 2032,
+   "value": 472551,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 1.146,
+   "address": "3106 12 78702",
+   "assessed": 147480,
+   "class": "C1",
+   "deed_date": "2026-07-31",
+   "homestead": false,
+   "lat": 30.27689,
+   "lon": -97.701814,
+   "value": 147480,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 0.797,
+   "address": "1306 CLIFFORD 78702",
+   "assessed": 923834,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.277396,
+   "lon": -97.706996,
+   "sqft": 2164,
+   "value": 923834,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": null,
+   "address": "2311 18 78702",
+   "assessed": 692318,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.279211,
+   "lon": -97.716132,
+   "sqft": 2024,
+   "value": 692318,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": null,
+   "address": "1920 12 78702",
+   "assessed": 1014000,
+   "class": "C1",
+   "deed_date": "2026-07-29",
+   "homestead": false,
+   "lat": 30.274178,
+   "lon": -97.719121,
+   "value": 1014000,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.791,
+   "address": "1307 CONCHO 78702",
+   "assessed": 430532,
+   "class": "B2",
+   "deed_date": "2026-07-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.274964,
+   "lon": -97.722919,
+   "sqft": 1181,
+   "value": 430532,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1959
+  },
+  {
+   "acres": 1.667,
+   "address": "1701 16 78702",
+   "assessed": 452131,
+   "class": "A1",
+   "deed_date": "2026-07-29",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.276269,
+   "lon": -97.722278,
+   "sqft": 1340,
+   "value": 452131,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1945
+  },
+  {
+   "acres": 1.607,
+   "address": "1611 13 78702",
+   "assessed": 565626,
+   "class": "A1",
+   "deed_date": "2026-07-29",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.274219,
+   "lon": -97.722291,
+   "sqft": 1512,
+   "value": 565626,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1936
+  },
+  {
+   "acres": 1.483,
+   "address": "2304 14 78702",
+   "assessed": 506002,
+   "class": "A1",
+   "deed_date": "2026-07-23",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.276896,
+   "lon": -97.715764,
+   "sqft": 830,
+   "value": 506002,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1946
+  },
+  {
+   "acres": 1.421,
+   "address": "2931 14 78702",
+   "assessed": 286960,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.277729,
+   "lon": -97.706266,
+   "sqft": 928,
+   "value": 286960,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1953
+  },
+  {
+   "acres": 0.964,
+   "address": "1702 MIRIAM AUSTIN 78702",
+   "assessed": 591846,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.279465,
+   "lon": -97.711406,
+   "sqft": 1525,
+   "value": 591846,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2011
+  },
+  {
+   "acres": 0.694,
+   "address": "1302 1/2 WALNUT 78702",
+   "assessed": 420346,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.276218,
+   "lon": -97.712724,
+   "sqft": 1161,
+   "value": 420346,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1944
+  },
+  {
+   "acres": 5.51,
+   "address": "2627 MANOR 78722",
+   "assessed": 1681000,
+   "class": "F1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.284756,
+   "lon": -97.714463,
+   "sqft": 11114,
+   "value": 1681000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1930
+  },
+  {
+   "acres": 1.276,
+   "address": "1804 WALNUT AUSTIN 78702",
+   "assessed": 1256680,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "homestead": true,
+   "lat": 30.280248,
+   "lon": -97.713467,
+   "sqft": 2670,
+   "value": 1256680,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2022
+  },
+  {
+   "acres": 2.617,
+   "address": "1907 21 78722",
+   "assessed": 643425,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.281682,
+   "lon": -97.721136,
+   "sqft": 1440,
+   "value": 643425,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1935
+  },
+  {
+   "acres": 1.824,
+   "address": "1910 MAPLE 78722",
+   "assessed": 763775,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.281537,
+   "lon": -97.71675,
+   "sqft": 1696,
+   "value": 763775,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1964
+  },
+  {
+   "acres": 2.667,
+   "address": "3118 12 78702",
+   "assessed": 1602267,
+   "class": "F1",
+   "deed_date": "2026-06-25",
+   "homestead": false,
+   "lat": 30.277034,
+   "lon": -97.700868,
+   "sqft": 1162,
+   "value": 1602267,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
+   "acres": 1.388,
+   "address": "1611 SINGLETON AUSTIN 78702",
+   "assessed": 410535,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.278528,
+   "lon": -97.714501,
+   "sqft": 918,
+   "value": 410535,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1938
+  },
+  {
+   "acres": 1.797,
+   "address": "2007 16 78702",
+   "assessed": 443966,
+   "class": "B2",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.276763,
+   "lon": -97.718835,
+   "sqft": 1200,
+   "value": 443966,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 2.725,
+   "address": "2813 22 78722",
+   "assessed": 708544,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.283838,
+   "lon": -97.711047,
+   "sqft": 1597,
+   "value": 708544,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1945
+  },
+  {
+   "acres": 2.284,
+   "address": "2714 22 78722",
+   "assessed": 670110,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.284323,
+   "lon": -97.712757,
+   "sqft": 1497,
+   "value": 670110,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1945
+  },
+  {
+   "acres": 1.388,
+   "address": "1411 CEDAR 78702",
+   "assessed": 256556,
+   "class": "C1",
+   "deed_date": "2026-06-10",
+   "homestead": false,
+   "lat": 30.277696,
+   "lon": -97.713372,
+   "value": 256556,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.483,
+   "address": "1605 MAPLE AUSTIN 78702",
+   "assessed": 841916,
+   "class": "A1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB"
+   },
+   "homestead": true,
+   "lat": 30.277944,
+   "lon": -97.715415,
+   "sqft": 1687,
+   "value": 937855,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2010
+  },
+  {
+   "acres": null,
+   "address": "12 78702",
+   "assessed": 867578,
+   "class": "A1",
+   "deed_date": "2026-06-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.275227,
+   "lon": -97.712004,
+   "sqft": 2333,
+   "value": 867578,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": null,
+   "address": "2602 13 78702",
+   "assessed": 771952,
+   "class": "A1",
+   "deed_date": "2026-06-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.276057,
+   "lon": -97.713012,
+   "sqft": 1886,
+   "value": 771952,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": null,
+   "address": "2102 17 78702",
+   "assessed": 536873,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.278303,
+   "lon": -97.71843,
+   "sqft": 1104,
+   "value": 538869,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1946
+  },
+  {
+   "acres": 9.0,
+   "address": "2907 M L KING JR 78702",
+   "assessed": 196010,
+   "class": "C1",
+   "deed_date": "2026-05-27",
+   "homestead": false,
+   "lat": 30.280654,
+   "lon": -97.708423,
+   "value": 196010,
+   "value_kind": "market (TCAD appraisal)"
+  },
   {
    "acres": 0.486,
    "address": "1206 CHESTNUT AUSTIN 78702",
@@ -26,6 +784,63 @@
    "year_built": 1940
   },
   {
+   "acres": 2.223,
+   "address": "1900 M L KING JR 78702",
+   "assessed": 1004266,
+   "class": "F1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.280124,
+   "lon": -97.721101,
+   "sqft": 1121,
+   "value": 1004266,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1960
+  },
+  {
+   "acres": 2.223,
+   "address": "1902 M L KING JR 78702",
+   "assessed": 916195,
+   "class": "F1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.280162,
+   "lon": -97.72089,
+   "sqft": 2484,
+   "value": 916195,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1960
+  },
+  {
+   "acres": 2.011,
+   "address": "1008 14 78702",
+   "assessed": 576429,
+   "class": "A1",
+   "deed_date": "2026-05-20",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.274763,
+   "lon": -97.728935,
+   "sqft": 1402,
+   "value": 700490,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1900
+  },
+  {
    "acres": 0.605,
    "address": "2107 13 78702",
    "assessed": 514336,
@@ -43,6 +858,25 @@
    "value": 514336,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
+  },
+  {
+   "acres": 1.421,
+   "address": "2947 ECKERT 78722",
+   "assessed": 473722,
+   "class": "A1",
+   "deed_date": "2026-05-15",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.283504,
+   "lon": -97.705135,
+   "sqft": 1341,
+   "value": 473722,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1948
   },
   {
    "acres": 0.811,
@@ -81,25 +915,6 @@
    "value": 429156,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1941
-  },
-  {
-   "acres": 0.964,
-   "address": "1702 MIRIAM AUSTIN 78702",
-   "assessed": 591846,
-   "class": "A1",
-   "deed_date": "2026-05-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.279465,
-   "lon": -97.711406,
-   "sqft": 1525,
-   "value": 591846,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2011
   },
   {
    "acres": 1.791,
@@ -219,7 +1034,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.28107,
    "lon": -97.716053,
    "sqft": 1534,
@@ -257,7 +1072,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.274742,
    "lon": -97.718519,
    "sqft": 1596,
@@ -268,7 +1083,7 @@
   {
    "acres": 2.5,
    "address": "1612 CLIFFORD 78702",
-   "assessed": 1320321,
+   "assessed": 1134816,
    "class": "A1",
    "deed_date": "2026-04-27",
    "extras": {
@@ -280,13 +1095,13 @@
    "lat": 30.279704,
    "lon": -97.707671,
    "sqft": 2565,
-   "value": 1320321,
+   "value": 1134816,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2018
   },
   {
    "acres": 0.695,
-   "address": "1210 COLETO AUSTIN",
+   "address": "1210 COLETO AUSTIN 78702",
    "assessed": 378254,
    "class": "A1",
    "deed_date": "2026-04-13",
@@ -306,7 +1121,7 @@
   {
    "acres": 1.9,
    "address": "2931 M L KING JR 78702",
-   "assessed": 907097,
+   "assessed": 801239,
    "class": "A1",
    "deed_date": "2026-04-10",
    "extras": {
@@ -318,7 +1133,7 @@
    "lat": 30.281902,
    "lon": -97.706169,
    "sqft": 2624,
-   "value": 907097,
+   "value": 801239,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -401,13 +1216,13 @@
   {
    "acres": 2.288,
    "address": "2021 MANOR 78722",
-   "assessed": 798140,
+   "assessed": 663000,
    "class": "F3",
    "deed_date": "2026-03-30",
    "homestead": false,
    "lat": 30.283813,
    "lon": -97.720276,
-   "value": 798140,
+   "value": 663000,
    "value_kind": "market (TCAD appraisal)"
   },
   {
@@ -625,7 +1440,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.284442,
    "lon": -97.706446,
    "sqft": 1300,
@@ -649,7 +1464,7 @@
   },
   {
    "acres": 1.496,
-   "address": "2205 COLETO",
+   "address": "2205 COLETO 78722",
    "assessed": 527676,
    "class": "A1",
    "deed_date": "2026-01-29",
@@ -781,6 +1596,25 @@
    "year_built": 1937
   },
   {
+   "acres": 1.95,
+   "address": "1010 15 78702",
+   "assessed": 1743432,
+   "class": "A1",
+   "deed_date": "2026-01-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.275635,
+   "lon": -97.728793,
+   "sqft": 4003,
+   "value": 1743432,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
    "acres": 1.483,
    "address": "1606 SINGLETON 78702",
    "assessed": 419137,
@@ -848,7 +1682,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "FLAT"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.282079,
    "lon": -97.721285,
    "sqft": 978,
@@ -867,7 +1701,7 @@
     "roof": "METAL",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.275024,
    "lon": -97.724018,
    "sqft": 2326,
@@ -985,25 +1819,6 @@
    "year_built": 1935
   },
   {
-   "acres": 2.617,
-   "address": "1907 21 78722",
-   "assessed": 643425,
-   "class": "A1",
-   "deed_date": "2025-11-19",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.281682,
-   "lon": -97.721136,
-   "sqft": 1440,
-   "value": 643425,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1935
-  },
-  {
    "acres": 0.862,
    "address": "1304 ALAMO 78702",
    "assessed": 564984,
@@ -1045,7 +1860,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.277341,
    "lon": -97.708159,
    "sqft": 480,
@@ -1083,7 +1898,7 @@
     "roof": "METAL",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.281859,
    "lon": -97.720267,
    "sqft": 1700,
@@ -1094,28 +1909,28 @@
   {
    "acres": 1.295,
    "address": "1305 WALNUT 78702",
-   "assessed": 980086,
+   "assessed": 936768,
    "class": "A1",
    "deed_date": "2025-10-28",
    "homestead": true,
    "lat": 30.276449,
    "lon": -97.712163,
    "sqft": 2290,
-   "value": 980086,
+   "value": 936768,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2024
   },
   {
    "acres": null,
    "address": "2004 22 78722",
-   "assessed": 1139079,
+   "assessed": 1001592,
    "class": "A1",
    "deed_date": "2025-10-28",
    "homestead": true,
    "lat": 30.283218,
    "lon": -97.720555,
    "sqft": 2245,
-   "value": 1139079,
+   "value": 1001592,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2021
   },
@@ -1149,7 +1964,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.281235,
    "lon": -97.716685,
    "sqft": 1902,
@@ -1175,467 +1990,26 @@
    "value": 709084,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1937
-  },
-  {
-   "acres": 1.331,
-   "address": "2108 12 78702",
-   "assessed": 379496,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.274465,
-   "lon": -97.717369,
-   "sqft": 576,
-   "value": 379496,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1946
-  },
-  {
-   "acres": null,
-   "address": "12 78702",
-   "assessed": 701266,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.27525,
-   "lon": -97.711853,
-   "sqft": 1648,
-   "value": 701266,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": 1.199,
-   "address": "3107 14 1/2 AUSTIN 78702",
-   "assessed": 796277,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.278721,
-   "lon": -97.702174,
-   "sqft": 1846,
-   "value": 796277,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 1.199,
-   "address": "3109 14 1/2 78702",
-   "assessed": 595000,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.278745,
-   "lon": -97.702032,
-   "sqft": 1176,
-   "value": 595000,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1950
-  },
-  {
-   "acres": 1.286,
-   "address": "1411 CLIFFORD 78702",
-   "assessed": 1003122,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "homestead": false,
-   "lat": 30.278686,
-   "lon": -97.706844,
-   "sqft": 2369,
-   "value": 1003122,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2022
-  },
-  {
-   "acres": 1.831,
-   "address": "2304 16 78702",
-   "assessed": 657722,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.277686,
-   "lon": -97.716127,
-   "sqft": 1458,
-   "value": 657722,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1940
-  },
-  {
-   "acres": 2.292,
-   "address": "2925 13 78702",
-   "assessed": 521878,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.276723,
-   "lon": -97.70634,
-   "sqft": 1260,
-   "value": 521878,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1925
-  },
-  {
-   "acres": 1.999,
-   "address": "1905 CHESTNUT 78702",
-   "assessed": 608459,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.281005,
-   "lon": -97.717103,
-   "sqft": 1584,
-   "value": 608459,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
-  },
-  {
-   "acres": 4.407,
-   "address": "1903 CHESTNUT AUSTIN 78722",
-   "assessed": 808276,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.280753,
-   "lon": -97.717045,
-   "sqft": 1606,
-   "value": 808276,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1968
-  },
-  {
-   "acres": 1.68,
-   "address": "2105 16 78702",
-   "assessed": 303218,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.276879,
-   "lon": -97.718023,
-   "sqft": 1613,
-   "value": 630389,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1935
-  },
-  {
-   "acres": 1.377,
-   "address": "907 15 78702",
-   "assessed": 722991,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.274974,
-   "lon": -97.730004,
-   "sqft": 1444,
-   "value": 722991,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1929
-  },
-  {
-   "acres": 1.331,
-   "address": "3100 16 78702",
-   "assessed": 404837,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.279862,
-   "lon": -97.702862,
-   "sqft": 1046,
-   "value": 404837,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1950
-  },
-  {
-   "acres": 1.887,
-   "address": "2206 18 78702",
-   "assessed": 530309,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.279468,
-   "lon": -97.717824,
-   "sqft": 1176,
-   "value": 530309,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1948
-  },
-  {
-   "acres": 1.298,
-   "address": "1203 CEDAR AUSTIN 78702",
-   "assessed": 624210,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.275209,
-   "lon": -97.712847,
-   "sqft": 1750,
-   "value": 624210,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 1.388,
-   "address": "1304 CEDAR AUSTIN",
-   "assessed": 636666,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.276228,
-   "lon": -97.713597,
-   "sqft": 1884,
-   "value": 636666,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1935
-  },
-  {
-   "acres": 1.483,
-   "address": "1706 SINGLETON 78702",
-   "assessed": 348495,
-   "class": "B2",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.27914,
-   "lon": -97.715216,
-   "sqft": 840,
-   "value": 348495,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1948
-  },
-  {
-   "acres": 1.364,
-   "address": "3001 13 78702",
-   "assessed": 1527441,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "homestead": false,
-   "lat": 30.277103,
-   "lon": -97.70433,
-   "sqft": 4165,
-   "value": 1527441,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.627,
-   "address": "2509 GIVENS 78722",
-   "assessed": 581848,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.281386,
-   "lon": -97.715077,
-   "sqft": 1282,
-   "value": 581848,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1958
-  },
-  {
-   "acres": 1.286,
-   "address": "1409 CLIFFORD 78702",
-   "assessed": 337908,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "BUILT-UP",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.278532,
-   "lon": -97.706814,
-   "sqft": 1076,
-   "value": 337908,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1955
-  },
-  {
-   "acres": 1.352,
-   "address": "2613 OAKLAWN AUSTIN 78722",
-   "assessed": 417441,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.283833,
-   "lon": -97.714108,
-   "sqft": 780,
-   "value": 417441,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1952
-  },
-  {
-   "acres": 1.388,
-   "address": "1605 CEDAR",
-   "assessed": 986520,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "homestead": true,
-   "lat": 30.278264,
-   "lon": -97.713483,
-   "sqft": 2336,
-   "value": 986520,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2023
-  },
-  {
-   "acres": 1.888,
-   "address": "2109 20 78722",
-   "assessed": 453504,
-   "class": "B2",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.280992,
-   "lon": -97.718608,
-   "sqft": 1358,
-   "value": 453504,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 1.02,
-   "address": "1813 CLIFFORD 78702",
-   "assessed": 699482,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.281678,
-   "lon": -97.707438,
-   "sqft": 1690,
-   "value": 699482,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": null,
-   "address": "1303 CEDAR AUSTIN 78702",
-   "assessed": 929166,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.276193,
-   "lon": -97.71306,
-   "sqft": 2685,
-   "value": 929166,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
   }
  ],
  "windows": {
   "12mo": {
-   "count": 88,
-   "median_value": 579813,
-   "pct_of_households": 2.53,
-   "pct_of_population": 1.39
+   "count": 109,
+   "median_value": 531224,
+   "pct_of_households": 3.13,
+   "pct_of_population": 1.73
   },
   "3mo": {
-   "count": 18,
-   "median_value": 587072,
-   "pct_of_households": 0.52,
-   "pct_of_population": 0.29
+   "count": 27,
+   "median_value": 457521,
+   "pct_of_households": 0.77,
+   "pct_of_population": 0.43
   },
   "6mo": {
-   "count": 41,
-   "median_value": 527676,
-   "pct_of_households": 1.18,
-   "pct_of_population": 0.65
+   "count": 61,
+   "median_value": 559003,
+   "pct_of_households": 1.75,
+   "pct_of_population": 0.97
   }
  }
 }

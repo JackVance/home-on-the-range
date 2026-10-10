@@ -1,15 +1,397 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 49,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 52,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2735,
  "months_back": 12,
  "population_acs": 7810,
  "transfers": [
   {
+   "acres": 1.662,
+   "address": "13800 SPRING HEATH 78660",
+   "assessed": 274811,
+   "class": "A1",
+   "deed_date": "2026-09-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.419736,
+   "lon": -97.658086,
+   "sqft": 1838,
+   "value": 274811,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.033,
+   "address": "13933 MARICELLA PFLUGERVILLE 78660",
+   "assessed": 288609,
+   "class": "A1",
+   "deed_date": "2026-08-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.415427,
+   "lon": -97.644798,
+   "sqft": 1604,
+   "value": 288609,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": 0.952,
+   "address": "13913 MERSEYSIDE PFLUGERVILLE 78660",
+   "assessed": 336109,
+   "class": "A1",
+   "deed_date": "2026-08-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.41676,
+   "lon": -97.64891,
+   "sqft": 1657,
+   "value": 336109,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
+  },
+  {
+   "acres": 1.211,
+   "address": "13827 SPRING HEATH PFLUGERVILLE 78660",
+   "assessed": 282299,
+   "class": "A1",
+   "deed_date": "2026-08-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.420492,
+   "lon": -97.656796,
+   "sqft": 1520,
+   "value": 282299,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": null,
+   "address": "407 LYNWOOD GOLD 78660",
+   "assessed": 445829,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.422549,
+   "lon": -97.652074,
+   "sqft": 2501,
+   "value": 445829,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2020
+  },
+  {
+   "acres": 1.32,
+   "address": "13802 LAMPTING PFLUGERVILLE 78660",
+   "assessed": 240312,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.418386,
+   "lon": -97.655527,
+   "sqft": 1202,
+   "value": 240312,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": null,
+   "address": "325 PARROT TULIP 78660",
+   "assessed": 395190,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.422023,
+   "lon": -97.653297,
+   "sqft": 2496,
+   "value": 395190,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2019
+  },
+  {
+   "acres": 30.749,
+   "address": "1100 HOWARD 78753",
+   "assessed": 8188000,
+   "class": "F1",
+   "deed_date": "2026-07-23",
+   "homestead": false,
+   "lat": 30.409884,
+   "lon": -97.647387,
+   "sqft": 35400,
+   "value": 8188000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2021
+  },
+  {
+   "acres": 35.657,
+   "address": "1104 HOWARD 78753",
+   "assessed": 9700000,
+   "class": "F1",
+   "deed_date": "2026-07-23",
+   "homestead": false,
+   "lat": 30.410665,
+   "lon": -97.646889,
+   "sqft": 51200,
+   "value": 9700000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 100.864,
+   "address": "1100 HOWARD 78753",
+   "assessed": 25035246,
+   "class": "F1",
+   "deed_date": "2026-07-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.412253,
+   "lon": -97.645849,
+   "sqft": 145931,
+   "value": 25035246,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 87.205,
+   "address": "1112 HOWARD 78753",
+   "assessed": 22300000,
+   "class": "F1",
+   "deed_date": "2026-07-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.411808,
+   "lon": -97.644626,
+   "sqft": 153000,
+   "value": 22300000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": null,
+   "address": "HOWARD 78660",
+   "assessed": 15000,
+   "class": "C1",
+   "deed_date": "2026-07-23",
+   "homestead": false,
+   "lat": 30.40942,
+   "lon": -97.646039,
+   "value": 15000,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 2.559,
+   "address": "13808 HARRIS RIDGE 78660",
+   "assessed": 502790,
+   "class": "B2",
+   "deed_date": "2026-07-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.414031,
+   "lon": -97.64636,
+   "sqft": 2719,
+   "value": 502790,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.894,
+   "address": "13813 CONNER DOWNS PFLUGERVILLE 78660",
+   "assessed": 250000,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.414349,
+   "lon": -97.646723,
+   "sqft": 1506,
+   "value": 250000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1991
+  },
+  {
+   "acres": 1.349,
+   "address": "13910 CAMBOURNE 78660",
+   "assessed": 271480,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.415943,
+   "lon": -97.648186,
+   "sqft": 1390,
+   "value": 271480,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
+  },
+  {
+   "acres": null,
+   "address": "14302 HONEY GEM 78660",
+   "assessed": 513600,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.423316,
+   "lon": -97.651676,
+   "sqft": 2945,
+   "value": 513600,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2020
+  },
+  {
+   "acres": 1.765,
+   "address": "13722 CAMBOURNE PFLUGERVILLE 78660",
+   "assessed": 254610,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.414452,
+   "lon": -97.649929,
+   "sqft": 1506,
+   "value": 254610,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1991
+  },
+  {
+   "acres": 2.448,
+   "address": "13704 LAMPTING PFLUGERVILLE 78660",
+   "assessed": 325972,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.4162,
+   "lon": -97.655132,
+   "sqft": 1634,
+   "value": 325972,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1996
+  },
+  {
+   "acres": 1.629,
+   "address": "13800 CAMBOURNE PFLUGERVILLE 78660",
+   "assessed": 296975,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.414604,
+   "lon": -97.649879,
+   "sqft": 1609,
+   "value": 296975,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1987
+  },
+  {
+   "acres": 1.377,
+   "address": "13717 GREINERT 78660",
+   "assessed": 280000,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.416522,
+   "lon": -97.654178,
+   "sqft": 1662,
+   "value": 280000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.377,
+   "address": "13719 GREINERT 78660",
+   "assessed": 275982,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.416635,
+   "lon": -97.654087,
+   "sqft": 1635,
+   "value": 275982,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1995
+  },
+  {
    "acres": 2.278,
    "address": "13718 CAMBOURNE 78660",
-   "assessed": 311860,
+   "assessed": 280000,
    "class": "A1",
    "deed_date": "2026-04-24",
    "extras": {
@@ -21,7 +403,7 @@
    "lat": 30.414148,
    "lon": -97.649989,
    "sqft": 1703,
-   "value": 311860,
+   "value": 280000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1991
   },
@@ -64,44 +446,6 @@
    "year_built": 1999
   },
   {
-   "acres": 1.765,
-   "address": "13722 CAMBOURNE PFLUGERVILLE 78660",
-   "assessed": 254610,
-   "class": "A1",
-   "deed_date": "2026-04-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.414452,
-   "lon": -97.649929,
-   "sqft": 1506,
-   "value": 254610,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1991
-  },
-  {
-   "acres": 1.658,
-   "address": "13903 LAMPTING PFLUGERVILLE 78660",
-   "assessed": 458318,
-   "class": "A1",
-   "deed_date": "2026-03-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.418993,
-   "lon": -97.654485,
-   "sqft": 3184,
-   "value": 464533,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
    "acres": null,
    "address": "13424 BAUHAUS PFLUFERVILLE 78660",
    "assessed": 347802,
@@ -123,7 +467,7 @@
   {
    "acres": 2.094,
    "address": "161 SEGOVIA 78660",
-   "assessed": 306433,
+   "assessed": 279000,
    "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
@@ -131,11 +475,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.41881,
    "lon": -97.657561,
    "sqft": 1520,
-   "value": 306433,
+   "value": 279000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1997
   },
@@ -188,7 +532,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.41381,
    "lon": -97.650879,
    "sqft": 1491,
@@ -199,7 +543,7 @@
   {
    "acres": null,
    "address": "1504 MAIER PFLUGERVILLE 78660",
-   "assessed": 400835,
+   "assessed": 390000,
    "class": "A1",
    "deed_date": "2026-02-20",
    "extras": {
@@ -211,14 +555,14 @@
    "lat": 30.409856,
    "lon": -97.637962,
    "sqft": 1988,
-   "value": 400835,
+   "value": 390000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2017
   },
   {
    "acres": null,
    "address": "1408 KLEE PFLUGERVILLE 78660",
-   "assessed": 462369,
+   "assessed": 440000,
    "class": "A1",
    "deed_date": "2026-02-13",
    "extras": {
@@ -230,7 +574,7 @@
    "lat": 30.409071,
    "lon": -97.641737,
    "sqft": 2718,
-   "value": 462369,
+   "value": 440000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2017
   },
@@ -312,25 +656,6 @@
   },
   {
    "acres": null,
-   "address": "14302 HONEY GEM 78660",
-   "assessed": 513600,
-   "class": "A1",
-   "deed_date": "2026-01-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.423316,
-   "lon": -97.651676,
-   "sqft": 2945,
-   "value": 513600,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2020
-  },
-  {
-   "acres": null,
    "address": "14116 FLAWLESS FLORA DR PFLUGERVILLE 78660",
    "assessed": 372471,
    "class": "A1",
@@ -359,7 +684,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.418997,
    "lon": -97.652834,
    "sqft": 1335,
@@ -370,14 +695,14 @@
   {
    "acres": null,
    "address": "611 LOGAN JAMES 78660",
-   "assessed": 364631,
+   "assessed": 327475,
    "class": "A1",
    "deed_date": "2025-12-15",
    "homestead": true,
    "lat": 30.423973,
    "lon": -97.646765,
    "sqft": 1549,
-   "value": 364631,
+   "value": 327475,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2023
   },
@@ -441,7 +766,7 @@
   {
    "acres": null,
    "address": "14217 PURPLE AZALEA DR 78660",
-   "assessed": 376723,
+   "assessed": 365000,
    "class": "A1",
    "deed_date": "2025-11-24",
    "extras": {
@@ -453,7 +778,7 @@
    "lat": 30.423433,
    "lon": -97.652905,
    "sqft": 1663,
-   "value": 376723,
+   "value": 365000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2020
   },
@@ -506,7 +831,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.415217,
    "lon": -97.650461,
    "sqft": 1421,
@@ -525,7 +850,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.423133,
    "lon": -97.658075,
    "sqft": 1200,
@@ -612,7 +937,7 @@
   {
    "acres": null,
    "address": "13629 BAUHAUS 78660",
-   "assessed": 454514,
+   "assessed": 408199,
    "class": "A1",
    "deed_date": "2025-10-21",
    "extras": {
@@ -624,7 +949,7 @@
    "lat": 30.408751,
    "lon": -97.639254,
    "sqft": 2806,
-   "value": 454514,
+   "value": 408199,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2016
   },
@@ -646,301 +971,26 @@
    "value": 351873,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2020
-  },
-  {
-   "acres": 1.316,
-   "address": "13620 MERSEYSIDE 78660",
-   "assessed": 275464,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.412738,
-   "lon": -97.650361,
-   "sqft": 1343,
-   "value": 275464,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.997,
-   "address": "13817 MERSEYSIDE PFLUGERVILLE 78660",
-   "assessed": 273999,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.415865,
-   "lon": -97.649468,
-   "sqft": 1314,
-   "value": 273999,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1992
-  },
-  {
-   "acres": null,
-   "address": "1404 ELBE 78660",
-   "assessed": 417079,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.40903,
-   "lon": -97.640104,
-   "sqft": 2403,
-   "value": 417079,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": 1.033,
-   "address": "13921 MARICELLA PFLUGERVILLE 78660",
-   "assessed": 314812,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.415103,
-   "lon": -97.645006,
-   "sqft": 1844,
-   "value": 314812,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": null,
-   "address": "13701 BAUHAUS 78660",
-   "assessed": 356199,
-   "class": "A1",
-   "deed_date": "2025-09-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.408772,
-   "lon": -97.639087,
-   "sqft": 1684,
-   "value": 356199,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": 1.456,
-   "address": "13904 GOLDEN FLAX PFLUGERVILLE 78660",
-   "assessed": 293511,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.421283,
-   "lon": -97.659283,
-   "sqft": 1260,
-   "value": 293511,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.316,
-   "address": "13626 MERSEYSIDE PFLUGERVILLE 78660",
-   "assessed": 328584,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.412899,
-   "lon": -97.650693,
-   "sqft": 1745,
-   "value": 328584,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": null,
-   "address": "14609 JEFFERSON CRAIG 78660",
-   "assessed": 331465,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "homestead": false,
-   "lat": 30.425677,
-   "lon": -97.64628,
-   "sqft": 1359,
-   "value": 331465,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2022
-  },
-  {
-   "acres": 1.326,
-   "address": "13805 SPRING HEATH 78660",
-   "assessed": 225084,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.419726,
-   "lon": -97.657371,
-   "sqft": 929,
-   "value": 225084,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.851,
-   "address": "13712 CAMBOURNE PFLUGERVILLE 78660",
-   "assessed": 328754,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.413813,
-   "lon": -97.649918,
-   "sqft": 1718,
-   "value": 328754,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1992
-  },
-  {
-   "acres": 1.188,
-   "address": "804 CRIEFF CROSS 78660",
-   "assessed": 278033,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.416558,
-   "lon": -97.648577,
-   "sqft": 1326,
-   "value": 278033,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1988
-  },
-  {
-   "acres": 1.229,
-   "address": "14014 MERSEYSIDE PFLUGERVILLE 78660",
-   "assessed": 256100,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.417996,
-   "lon": -97.648387,
-   "sqft": 1144,
-   "value": 256100,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1987
-  },
-  {
-   "acres": 0.935,
-   "address": "13903 LOTHIAN PFLUGERVILLE 78660",
-   "assessed": 315049,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.414849,
-   "lon": -97.647476,
-   "sqft": 1871,
-   "value": 315049,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1992
-  },
-  {
-   "acres": null,
-   "address": "13901 ZUHAUSE 78660",
-   "assessed": 450368,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "homestead": false,
-   "lat": 30.411527,
-   "lon": -97.642086,
-   "sqft": 2578,
-   "value": 450368,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2021
-  },
-  {
-   "acres": null,
-   "address": "13700 LUBECK 78660",
-   "assessed": 427175,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.410529,
-   "lon": -97.644393,
-   "sqft": 2322,
-   "value": 427175,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2021
   }
  ],
  "windows": {
   "12mo": {
-   "count": 49,
-   "median_value": 315049,
-   "pct_of_households": 1.79,
-   "pct_of_population": 0.63
+   "count": 52,
+   "median_value": 314168,
+   "pct_of_households": 1.9,
+   "pct_of_population": 0.67
   },
   "3mo": {
-   "count": 3,
-   "median_value": 309279,
-   "pct_of_households": 0.11,
-   "pct_of_population": 0.04
+   "count": 15,
+   "median_value": 336109,
+   "pct_of_households": 0.55,
+   "pct_of_population": 0.19
   },
   "6mo": {
-   "count": 17,
-   "median_value": 306433,
-   "pct_of_households": 0.62,
-   "pct_of_population": 0.22
+   "count": 23,
+   "median_value": 296975,
+   "pct_of_households": 0.84,
+   "pct_of_population": 0.29
   }
  }
 }

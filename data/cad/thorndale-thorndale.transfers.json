@@ -1,11 +1,23 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 8,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 5,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1266,
  "months_back": 12,
  "population_acs": 3110,
  "transfers": [
+  {
+   "acres": 37.786,
+   "address": "CR 426 THORNDALE, TX 76577",
+   "assessed": 12678,
+   "class": "D1",
+   "deed_date": "2026-06-02",
+   "homestead": false,
+   "lat": 30.616579,
+   "lon": -97.222477,
+   "value": 801869,
+   "value_kind": "market (WCAD)"
+  },
   {
    "acres": 27.506,
    "address": "1580 CR 439, THORNDALE, TX  76577",
@@ -74,82 +86,20 @@
    "value": 331131,
    "value_kind": "market (WCAD)",
    "year_built": 2022
-  },
-  {
-   "acres": 18.264,
-   "address": "600 926 PR, THRALL, TX  76578",
-   "assessed": 407336,
-   "class": "E4",
-   "deed_date": "2025-08-29",
-   "homestead": false,
-   "lat": 30.613699,
-   "lon": -97.23422,
-   "value": 407336,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 1.144,
-   "address": "600 PR 926, THRALL, TX  76578",
-   "assessed": 208617,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.61384,
-   "lon": -97.235806,
-   "sqft": 1596,
-   "value": 208617,
-   "value_kind": "market (WCAD)",
-   "year_built": 1975
-  },
-  {
-   "acres": 20.23,
-   "address": "1201 486 FM THORNDALE, TX 76577",
-   "assessed": 416659,
-   "class": "E1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "ML",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.509281,
-   "lon": -97.199818,
-   "sqft": 2226,
-   "value": 829089,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 38.223,
-   "address": "29851 US 79, THRALL, TX  76578",
-   "assessed": 15172,
-   "class": "D3",
-   "deed_date": "2025-07-10",
-   "homestead": false,
-   "lat": 30.611189,
-   "lon": -97.223711,
-   "value": 775413,
-   "value_kind": "market (WCAD)"
   }
  ],
  "windows": {
   "12mo": {
-   "count": 8,
-   "median_value": 775413,
-   "pct_of_households": 0.63,
-   "pct_of_population": 0.26
+   "count": 5,
+   "median_value": 801869,
+   "pct_of_households": 0.4,
+   "pct_of_population": 0.16
   },
   "3mo": {
-   "count": 1,
-   "median_value": 919834,
-   "pct_of_households": 0.08,
-   "pct_of_population": 0.03
+   "count": 0,
+   "median_value": null,
+   "pct_of_households": 0.0,
+   "pct_of_population": 0.0
   },
   "6mo": {
    "count": 2,

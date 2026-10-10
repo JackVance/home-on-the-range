@@ -1,11 +1,182 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 29,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 30,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3949,
  "months_back": 12,
  "population_acs": 9634,
  "transfers": [
+  {
+   "acres": 1.648,
+   "address": "4415 SILVERSTONE AUSTIN 78744",
+   "assessed": 345277,
+   "class": "A1",
+   "deed_date": "2026-08-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.175182,
+   "lon": -97.761121,
+   "sqft": 1566,
+   "value": 345277,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 2.827,
+   "address": "4413 PATSY AUSTIN 78744",
+   "assessed": 364088,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.176181,
+   "lon": -97.760185,
+   "sqft": 1684,
+   "value": 364088,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1995
+  },
+  {
+   "acres": 2.001,
+   "address": "7300 QUICKSILVER 78744",
+   "assessed": 270572,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.174071,
+   "lon": -97.757991,
+   "sqft": 1030,
+   "value": 270572,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
+   "acres": 1.421,
+   "address": "4704 BORAGE AUSTIN 78744",
+   "assessed": 214875,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.174563,
+   "lon": -97.75705,
+   "sqft": 880,
+   "value": 246586,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1981
+  },
+  {
+   "acres": 5.934,
+   "address": "2201 QUICKSILVER AUSTIN 78744",
+   "assessed": 244021,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.176926,
+   "lon": -97.76805,
+   "sqft": 1390,
+   "value": 303753,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1986
+  },
+  {
+   "acres": 11.35,
+   "address": "4500 WILLIAM CANNON 78744",
+   "assessed": 433650,
+   "class": "F1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.184175,
+   "lon": -97.754281,
+   "sqft": 4658,
+   "value": 433650,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 1.983,
+   "address": "4905 LAMBS 78744",
+   "assessed": 319476,
+   "class": "A1",
+   "deed_date": "2026-06-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.177996,
+   "lon": -97.751882,
+   "sqft": 1531,
+   "value": 319476,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
+   "acres": 1.469,
+   "address": "4616 BORAGE AUSTIN 78744",
+   "assessed": 274983,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.174695,
+   "lon": -97.75758,
+   "sqft": 1090,
+   "value": 274983,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
+   "acres": 1.49,
+   "address": "4403 QUICKSILVER AUSTIN 78744",
+   "assessed": 291632,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.174442,
+   "lon": -97.762948,
+   "sqft": 1213,
+   "value": 291632,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1994
+  },
   {
    "acres": 1.929,
    "address": "2403 LENDALL AUSTIN 78744",
@@ -43,25 +214,6 @@
    "value": 278065,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1982
-  },
-  {
-   "acres": 1.49,
-   "address": "4403 QUICKSILVER AUSTIN 78744",
-   "assessed": 291632,
-   "class": "A1",
-   "deed_date": "2026-05-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.174442,
-   "lon": -97.762948,
-   "sqft": 1213,
-   "value": 291632,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1994
   },
   {
    "acres": 1.776,
@@ -161,7 +313,7 @@
   {
    "acres": 0.294,
    "address": "6905 OLD POST AUSTIN 78744",
-   "assessed": 196416,
+   "assessed": 155000,
    "class": "A1",
    "deed_date": "2026-02-05",
    "extras": {
@@ -173,7 +325,7 @@
    "lat": 30.178305,
    "lon": -97.754168,
    "sqft": 1282,
-   "value": 196416,
+   "value": 155000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
   },
@@ -235,7 +387,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.178008,
    "lon": -97.769078,
    "sqft": 1211,
@@ -349,7 +501,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.177459,
    "lon": -97.764798,
    "sqft": 1620,
@@ -360,7 +512,7 @@
   {
    "acres": 3.864,
    "address": "7400 VINCA AUSTIN 78744",
-   "assessed": 349504,
+   "assessed": 308000,
    "class": "A1",
    "deed_date": "2025-10-25",
    "extras": {
@@ -372,7 +524,7 @@
    "lat": 30.174028,
    "lon": -97.759908,
    "sqft": 1370,
-   "value": 349504,
+   "value": 308000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1983
   },
@@ -398,157 +550,36 @@
   {
    "acres": 0.233,
    "address": "4905 MISTY SLOPE AUSTIN 78744",
-   "assessed": 168072,
+   "assessed": 150000,
    "class": "A1",
    "deed_date": "2025-10-15",
    "homestead": false,
    "lat": 30.17679,
    "lon": -97.753256,
    "sqft": 1008,
-   "value": 168072,
+   "value": 150000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1980
-  },
-  {
-   "acres": 0.233,
-   "address": "4921 MISTY SLOPE AUSTIN 78744",
-   "assessed": 168072,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "homestead": false,
-   "lat": 30.176397,
-   "lon": -97.753592,
-   "sqft": 1008,
-   "value": 168072,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1980
-  },
-  {
-   "acres": 2.403,
-   "address": "4815 TOURNUS AUSTIN 78744",
-   "assessed": 228181,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.179016,
-   "lon": -97.751533,
-   "sqft": 1454,
-   "value": 335755,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 4.385,
-   "address": "7302 QUICKSILVER 78744",
-   "assessed": 320488,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.17408,
-   "lon": -97.758319,
-   "sqft": 1084,
-   "value": 320488,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 0.171,
-   "address": "4813 YUCCA HILL 78744",
-   "assessed": 131152,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.177824,
-   "lon": -97.752881,
-   "sqft": 1511,
-   "value": 131152,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1975
-  },
-  {
-   "acres": 1.816,
-   "address": "2404 LENDALL 78744",
-   "assessed": 308794,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.178206,
-   "lon": -97.762196,
-   "sqft": 1316,
-   "value": 308794,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1997
-  },
-  {
-   "acres": 2.024,
-   "address": "6501 BRUSHY RIDGE 78744",
-   "assessed": 129157,
-   "class": "C1",
-   "deed_date": "2025-07-25",
-   "homestead": false,
-   "lat": 30.182307,
-   "lon": -97.750588,
-   "value": 129157,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 2.072,
-   "address": "2401 LENDALL AUSTIN 78744",
-   "assessed": 336858,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.177987,
-   "lon": -97.762909,
-   "sqft": 1285,
-   "value": 336858,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
   }
  ],
  "windows": {
   "12mo": {
-   "count": 29,
+   "count": 30,
    "median_value": 306750,
-   "pct_of_households": 0.73,
-   "pct_of_population": 0.3
+   "pct_of_households": 0.76,
+   "pct_of_population": 0.31
   },
   "3mo": {
    "count": 4,
-   "median_value": 297172,
+   "median_value": 345277,
    "pct_of_households": 0.1,
    "pct_of_population": 0.04
   },
   "6mo": {
-   "count": 11,
-   "median_value": 297172,
-   "pct_of_households": 0.28,
-   "pct_of_population": 0.11
+   "count": 12,
+   "median_value": 303753,
+   "pct_of_households": 0.3,
+   "pct_of_population": 0.12
   }
  }
 }

@@ -1,11 +1,675 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 702,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 484,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 4169,
  "months_back": 12,
  "population_acs": 8818,
  "transfers": [
+  {
+   "acres": 0.155,
+   "address": "512 ROCKPORT ST, GEORGETOWN, TX  78633",
+   "assessed": 337337,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.731006,
+   "lon": -97.687881,
+   "sqft": 1459,
+   "value": 337337,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 0.122,
+   "address": "201 ESSEX LN, GEORGETOWN, TX  78633",
+   "assessed": 242992,
+   "class": "A9",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.732299,
+   "lon": -97.711734,
+   "sqft": 1426,
+   "value": 242992,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.114,
+   "address": "250 KINGS ROW LN, JARRELL, TX  76537",
+   "assessed": 201478,
+   "class": "O1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.785568,
+   "lon": -97.643735,
+   "sqft": 811,
+   "value": 201478,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.162,
+   "address": "120 NOLAN DR, GEORGETOWN, TX  78633",
+   "assessed": 335657,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.719988,
+   "lon": -97.71541,
+   "sqft": 1654,
+   "value": 335657,
+   "value_kind": "market (WCAD)",
+   "year_built": 2000
+  },
+  {
+   "acres": 0.115,
+   "address": "257 BONHAM LOOP, GEORGETOWN, TX  78633",
+   "assessed": 254525,
+   "class": "A9",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.730112,
+   "lon": -97.71862,
+   "sqft": 1397,
+   "value": 254525,
+   "value_kind": "market (WCAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": 0.278,
+   "address": "292 WHISPERING WIND, GEORGETOWN, TX  78633",
+   "assessed": 311770,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.719454,
+   "lon": -97.710586,
+   "sqft": 1682,
+   "value": 311770,
+   "value_kind": "market (WCAD)",
+   "year_built": 1996
+  },
+  {
+   "acres": 0.255,
+   "address": "107 LYNN CV, GEORGETOWN, TX  78633",
+   "assessed": 372804,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.719266,
+   "lon": -97.715374,
+   "sqft": 1968,
+   "value": 372804,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
+  {
+   "acres": 0.117,
+   "address": "204 YOSEMITE RD, GEORGETOWN, TX  78633",
+   "assessed": 327230,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.727979,
+   "lon": -97.71396,
+   "sqft": 1756,
+   "value": 327230,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 0.143,
+   "address": "122 GRANITE PEAK CV, GEORGETOWN, TX  78633",
+   "assessed": 314518,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.733565,
+   "lon": -97.701978,
+   "sqft": 1397,
+   "value": 314518,
+   "value_kind": "market (WCAD)",
+   "year_built": 2007
+  },
+  {
+   "acres": 0.146,
+   "address": "203 LONGVIEW LN, GEORGETOWN, TX  78633",
+   "assessed": 408847,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.732178,
+   "lon": -97.692907,
+   "sqft": 1804,
+   "value": 408847,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 0.141,
+   "address": "203 WINTER DR, GEORGETOWN, TX  78633",
+   "assessed": 303563,
+   "class": "A1",
+   "deed_date": "2026-07-12",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.729467,
+   "lon": -97.715121,
+   "sqft": 1597,
+   "value": 303563,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 0.142,
+   "address": "120 MONTEREY OAK TRL, GEORGETOWN, TX  78628",
+   "assessed": 364600,
+   "class": "A1",
+   "deed_date": "2026-07-11",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.716955,
+   "lon": -97.673505,
+   "sqft": 1431,
+   "value": 364600,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 0.167,
+   "address": "110 RANIER LN, GEORGETOWN, TX  78633",
+   "assessed": 320714,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.725884,
+   "lon": -97.709483,
+   "sqft": 1774,
+   "value": 320714,
+   "value_kind": "market (WCAD)",
+   "year_built": 2003
+  },
+  {
+   "acres": 0.241,
+   "address": "313 CYPRESS SPRINGS WAY, GEORGETOWN, TX  78633",
+   "assessed": 673649,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.725354,
+   "lon": -97.697326,
+   "sqft": 2515,
+   "value": 673649,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 0.25,
+   "address": "216 TOVAS SECRET CV, GEORGETOWN, TX  78628",
+   "assessed": 690536,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.715211,
+   "lon": -97.670315,
+   "sqft": 2316,
+   "value": 690536,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 0.18,
+   "address": "516 SUNDANCE LN, GEORGETOWN, TX  78633",
+   "assessed": 337764,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.727067,
+   "lon": -97.708434,
+   "sqft": 1792,
+   "value": 337764,
+   "value_kind": "market (WCAD)",
+   "year_built": 2003
+  },
+  {
+   "acres": 0.122,
+   "address": "225 WINTER DR, GEORGETOWN, TX  78633",
+   "assessed": 296649,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.72974,
+   "lon": -97.713426,
+   "sqft": 1404,
+   "value": 296649,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.247,
+   "address": "109 CASCADA CV, GEORGETOWN, TX  78633",
+   "assessed": 833869,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.736361,
+   "lon": -97.712297,
+   "sqft": 3307,
+   "value": 833869,
+   "value_kind": "market (WCAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": 0.13,
+   "address": "512 TEXAS ANGEL WAY, JARRELL, TX  76537",
+   "assessed": 202944,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.783031,
+   "lon": -97.639534,
+   "sqft": 1276,
+   "value": 202944,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
+  },
+  {
+   "acres": 0.31,
+   "address": "144 CATTLE TRAIL WAY, GEORGETOWN, TX  78633",
+   "assessed": 319578,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.71467,
+   "lon": -97.710415,
+   "sqft": 1650,
+   "value": 319578,
+   "value_kind": "market (WCAD)",
+   "year_built": 1996
+  },
+  {
+   "acres": 0.246,
+   "address": "212 A/B SANDSTONE DR, JARRELL, TX  76537",
+   "assessed": 323286,
+   "class": "B2",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.806813,
+   "lon": -97.608055,
+   "sqft": 1880,
+   "value": 323286,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.121,
+   "address": "417 HOLIDAY CREEK LN, GEORGETOWN, TX  78633",
+   "assessed": 333930,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.732515,
+   "lon": -97.693042,
+   "sqft": 1604,
+   "value": 333930,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 0.172,
+   "address": "106 ELDERBERRY ST, GEORGETOWN, TX  78633",
+   "assessed": 350743,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.71982,
+   "lon": -97.711339,
+   "sqft": 1593,
+   "value": 350743,
+   "value_kind": "market (WCAD)",
+   "year_built": 1997
+  },
+  {
+   "acres": 0.212,
+   "address": "119 RUNNING WATER ST, GEORGETOWN, TX  78633",
+   "assessed": 379551,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.716077,
+   "lon": -97.7042,
+   "sqft": 1919,
+   "value": 379551,
+   "value_kind": "market (WCAD)",
+   "year_built": 1996
+  },
+  {
+   "acres": 0.198,
+   "address": "103 RUELLIA DR, GEORGETOWN, TX  78633",
+   "assessed": 332801,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.719019,
+   "lon": -97.71066,
+   "sqft": 1593,
+   "value": 332801,
+   "value_kind": "market (WCAD)",
+   "year_built": 1996
+  },
+  {
+   "acres": 0.146,
+   "address": "515 HEREFORD LN, GEORGETOWN, TX  78633",
+   "assessed": 335337,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.729441,
+   "lon": -97.690303,
+   "sqft": 1582,
+   "value": 335337,
+   "value_kind": "market (WCAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 0.133,
+   "address": "521 ROCKPORT ST, GEORGETOWN, TX  78633",
+   "assessed": 344235,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.73139,
+   "lon": -97.687439,
+   "sqft": 1488,
+   "value": 344235,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 2.168,
+   "address": "420 GREEN ACRES, GEORGETOWN, TX  78626",
+   "assessed": 487613,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "WD",
+    "foundation": "PB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.738602,
+   "lon": -97.62396,
+   "sqft": 1687,
+   "value": 487613,
+   "value_kind": "market (WCAD)",
+   "year_built": 1993
+  },
+  {
+   "acres": 0.095,
+   "address": "111 HAMPTON CIR, GEORGETOWN, TX  78633",
+   "assessed": 249681,
+   "class": "A9",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.730178,
+   "lon": -97.715235,
+   "sqft": 1426,
+   "value": 249681,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 0.364,
+   "address": "1016 DOG IRON ST, GEORGETOWN, TX  78633",
+   "assessed": 403292,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.727762,
+   "lon": -97.685809,
+   "sqft": 2228,
+   "value": 403292,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
+   "acres": 0.123,
+   "address": "504 HEREFORD LN, GEORGETOWN, TX  78633",
+   "assessed": 345007,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.728911,
+   "lon": -97.690951,
+   "sqft": 1490,
+   "value": 345007,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 0.133,
+   "address": "1112 CHAPOTE TER, GEORGETOWN, TX  78628",
+   "assessed": 315854,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.718193,
+   "lon": -97.675625,
+   "sqft": 1595,
+   "value": 315854,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 0.179,
+   "address": "813 PEACEFUL PSALMS PL, GEORGETOWN, TX  78633",
+   "assessed": 585241,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.745326,
+   "lon": -97.725074,
+   "sqft": 1831,
+   "value": 585241,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.254,
+   "address": "118 E/F SANDSTONE DR, JARRELL, TX  76537",
+   "assessed": 323286,
+   "class": "B2",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.807812,
+   "lon": -97.607545,
+   "sqft": 1880,
+   "value": 323286,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.146,
+   "address": "225 TRADINGHOUSE CREEK ST, GEORGETOWN, TX  78633",
+   "assessed": 423573,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.732773,
+   "lon": -97.697684,
+   "sqft": 1845,
+   "value": 423573,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
   {
    "acres": 13.145,
    "address": "500 FB SCHWERTNER RD, JARRELL, TX  76527",
@@ -38,6 +702,25 @@
    "year_built": 2018
   },
   {
+   "acres": 0.25,
+   "address": "256 TUGBOAT ANNIE WAY, JARRELL, TX  76537",
+   "assessed": 207766,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.78063,
+   "lon": -97.648301,
+   "sqft": 1421,
+   "value": 207766,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
+  },
+  {
    "acres": 2.005,
    "address": "6950 IH 35 N, JARRELL, TX  76537",
    "assessed": 1940000,
@@ -55,6 +738,25 @@
    "value": 1940000,
    "value_kind": "market (WCAD)",
    "year_built": 2001
+  },
+  {
+   "acres": 0.195,
+   "address": "201 GENTRY CREEK LN, GEORGETOWN, TX  78633",
+   "assessed": 497434,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.732819,
+   "lon": -97.696524,
+   "sqft": 2185,
+   "value": 497434,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
   },
   {
    "acres": 0.202,
@@ -86,7 +788,7 @@
     "foundation": "SLB",
     "roof": "GBL"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.716588,
    "lon": -97.710708,
    "sqft": 1915,
@@ -131,6 +833,44 @@
    "value": 110592,
    "value_kind": "market (WCAD)",
    "year_built": 2025
+  },
+  {
+   "acres": 0.236,
+   "address": "101 CREPE MYRTLE LN, GEORGETOWN, TX  78633",
+   "assessed": 428705,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.718378,
+   "lon": -97.713785,
+   "sqft": 2066,
+   "value": 428705,
+   "value_kind": "market (WCAD)",
+   "year_built": 1997
+  },
+  {
+   "acres": 0.232,
+   "address": "101 COLORADO RIVER RD, GEORGETOWN, TX  78633",
+   "assessed": 319318,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.723179,
+   "lon": -97.70627,
+   "sqft": 1570,
+   "value": 319318,
+   "value_kind": "market (WCAD)",
+   "year_built": 2003
   },
   {
    "acres": 0.214,
@@ -437,6 +1177,25 @@
    "year_built": 2011
   },
   {
+   "acres": 0.128,
+   "address": "224 WINTER DR, GEORGETOWN, TX  78633",
+   "assessed": 315658,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.729304,
+   "lon": -97.713278,
+   "sqft": 1755,
+   "value": 315658,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
+  },
+  {
    "acres": 0.135,
    "address": "218 BRIGHT LIGHT WAY, GEORGETOWN, TX  78633",
    "assessed": 213211,
@@ -551,23 +1310,42 @@
    "year_built": 2019
   },
   {
-   "acres": 0.119,
-   "address": "248 COAL DR, JARRELL, TX  76537",
-   "assessed": 245170,
+   "acres": 0.287,
+   "address": "208 TOVAS SECRET CV, GEORGETOWN, TX  78628",
+   "assessed": 691323,
+   "class": "A1",
+   "deed_date": "2026-05-20",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.715012,
+   "lon": -97.670954,
+   "sqft": 2218,
+   "value": 691323,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.217,
+   "address": "204 RANIER LN, GEORGETOWN, TX  78633",
+   "assessed": 297300,
    "class": "A1",
    "deed_date": "2026-05-18",
    "extras": {
-    "exterior": "STN",
+    "exterior": "STC",
     "foundation": "SLB",
     "roof": "HP"
    },
-   "homestead": false,
-   "lat": 30.802953,
-   "lon": -97.603912,
-   "sqft": 704,
-   "value": 245170,
+   "homestead": true,
+   "lat": 30.724629,
+   "lon": -97.709955,
+   "sqft": 1521,
+   "value": 297300,
    "value_kind": "market (WCAD)",
-   "year_built": 2010
+   "year_built": 2003
   },
   {
    "acres": 0.224,
@@ -684,6 +1462,25 @@
    "year_built": 2025
   },
   {
+   "acres": 0.181,
+   "address": "414 COLORADO RIVER RD, GEORGETOWN, TX  78633",
+   "assessed": 318712,
+   "class": "A1",
+   "deed_date": "2026-05-14",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.72233,
+   "lon": -97.702074,
+   "sqft": 1564,
+   "value": 318712,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
+  {
    "acres": 0.115,
    "address": "116 RANIER LN, GEORGETOWN, TX  78633",
    "assessed": 305599,
@@ -741,7 +1538,7 @@
    "year_built": 2006
   },
   {
-   "acres": 0.14,
+   "acres": 0.13,
    "address": "1509 DOG IRON ST, GEORGETOWN, TX  78633",
    "assessed": 224600,
    "class": "O1",
@@ -752,8 +1549,8 @@
     "roof": "MX"
    },
    "homestead": false,
-   "lat": 30.724934,
-   "lon": -97.689798,
+   "lat": 30.724935,
+   "lon": -97.689792,
    "sqft": 1754,
    "value": 224600,
    "value_kind": "market (WCAD)",
@@ -789,7 +1586,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.725332,
    "lon": -97.688961,
    "sqft": 1808,
@@ -874,6 +1671,25 @@
    "year_built": 2019
   },
   {
+   "acres": 0.138,
+   "address": "2405 WALKING Y RD, GEORGETOWN, TX  78633",
+   "assessed": 376193,
+   "class": "A1",
+   "deed_date": "2026-05-11",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.726682,
+   "lon": -97.688044,
+   "sqft": 1809,
+   "value": 376193,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
    "acres": 0.106,
    "address": "245 KINGS ROW LN, JARRELL, TX  76537",
    "assessed": 209082,
@@ -931,6 +1747,25 @@
    "year_built": 2008
   },
   {
+   "acres": 0.157,
+   "address": "501 THREE FEATHERS CT, GEORGETOWN, TX  78633",
+   "assessed": 361876,
+   "class": "A1",
+   "deed_date": "2026-05-08",
+   "extras": {
+    "exterior": "BW",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.72696,
+   "lon": -97.684704,
+   "sqft": 1654,
+   "value": 361876,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
    "acres": 1.001,
    "address": "404 TEN OAKS DR, GEORGETOWN, TX  78633",
    "assessed": 731035,
@@ -946,6 +1781,25 @@
    "lon": -97.705604,
    "sqft": 3050,
    "value": 731035,
+   "value_kind": "market (WCAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": 0.167,
+   "address": "105 NUECES TRL, GEORGETOWN, TX  78633",
+   "assessed": 477644,
+   "class": "A1",
+   "deed_date": "2026-05-07",
+   "extras": {
+    "exterior": "STC, STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.724262,
+   "lon": -97.704156,
+   "sqft": 2008,
+   "value": 477644,
    "value_kind": "market (WCAD)",
    "year_built": 2004
   },
@@ -1135,8 +1989,8 @@
   {
    "acres": 0.135,
    "address": "214 BRIGHT LIGHT WAY, GEORGETOWN, TX  78633",
-   "assessed": 239732,
-   "class": "O1",
+   "assessed": 224959,
+   "class": "A1",
    "deed_date": "2026-04-30",
    "extras": {
     "exterior": "M",
@@ -1147,7 +2001,7 @@
    "lat": 30.744585,
    "lon": -97.722478,
    "sqft": 1589,
-   "value": 239732,
+   "value": 224959,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -1528,7 +2382,7 @@
    "acres": 0.105,
    "address": "253 KINGS ROW LN, JARRELL, TX  76537",
    "assessed": 244470,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-20",
    "extras": {
     "exterior": "HP",
@@ -1718,7 +2572,7 @@
    "acres": 0.222,
    "address": "212 TELEGRAPH LN, GEORGETOWN, TX  78633",
    "assessed": 181373,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-15",
    "extras": {
     "exterior": "M",
@@ -1885,7 +2739,7 @@
    "acres": 0.171,
    "address": "1021 SMUDGE WAY, GEORGETOWN, TX  78633",
    "assessed": 358916,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-10",
    "extras": {
     "exterior": "BRICK",
@@ -2017,7 +2871,7 @@
   {
    "acres": 0.292,
    "address": "105 MOUNTAIN LAUREL WAY, GEORGETOWN, TX  78633",
-   "assessed": 383502,
+   "assessed": 326000,
    "class": "A1",
    "deed_date": "2026-04-08",
    "extras": {
@@ -2029,7 +2883,7 @@
    "lat": 30.720194,
    "lon": -97.70931,
    "sqft": 1915,
-   "value": 383502,
+   "value": 326000,
    "value_kind": "market (WCAD)",
    "year_built": 1997
   },
@@ -2063,7 +2917,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.730822,
    "lon": -97.687512,
    "sqft": 1488,
@@ -2253,7 +3107,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.724997,
    "lon": -97.681451,
    "sqft": 1802,
@@ -2417,7 +3271,7 @@
    "acres": 0.196,
    "address": "705 PEACEFUL PSALMS PL, GEORGETOWN, TX  78633",
    "assessed": 319275,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-26",
    "extras": {
     "exterior": "M",
@@ -2568,7 +3422,7 @@
   {
    "acres": 0.176,
    "address": "1008 DOG IRON ST, GEORGETOWN, TX  78633",
-   "assessed": 432669,
+   "assessed": 432658,
    "class": "A1",
    "deed_date": "2026-03-21",
    "extras": {
@@ -2580,7 +3434,7 @@
    "lat": 30.728177,
    "lon": -97.685815,
    "sqft": 1501,
-   "value": 432669,
+   "value": 432658,
    "value_kind": "market (WCAD)",
    "year_built": 2022
   },
@@ -2607,7 +3461,7 @@
    "acres": 0.143,
    "address": "2505 WALKING Y RD, GEORGETOWN, TX  78633",
    "assessed": 405995,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-20",
    "extras": {
     "exterior": "BRICK",
@@ -2626,7 +3480,7 @@
    "acres": 0.141,
    "address": "541 REDDING WAY, GEORGETOWN, TX  78633",
    "assessed": 173344,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-20",
    "extras": {
     "exterior": "BRICK",
@@ -2774,7 +3628,7 @@
    "acres": 0.227,
    "address": "116 SILVERBLUFF ST, GEORGETOWN, TX  78633",
    "assessed": 423995,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-17",
    "extras": {
     "exterior": "M",
@@ -2812,7 +3666,7 @@
    "acres": 0.128,
    "address": "1824 FANNIE RD, GEORGETOWN, TX  78633",
    "assessed": 286720,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-16",
    "extras": {
     "exterior": "BRICK",
@@ -3028,25 +3882,6 @@
    "value": 251843,
    "value_kind": "market (WCAD)",
    "year_built": 2004
-  },
-  {
-   "acres": 0.13,
-   "address": "512 TEXAS ANGEL WAY, JARRELL, TX  76537",
-   "assessed": 202944,
-   "class": "A1",
-   "deed_date": "2026-03-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.783031,
-   "lon": -97.639534,
-   "sqft": 1276,
-   "value": 202944,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
   },
   {
    "acres": 0.204,
@@ -3313,7 +4148,7 @@
   {
    "acres": 0.132,
    "address": "302 SUMMER RD, GEORGETOWN, TX  78633",
-   "assessed": 311430,
+   "assessed": 302161,
    "class": "A1",
    "deed_date": "2026-03-03",
    "extras": {
@@ -3325,9 +4160,24 @@
    "lat": 30.727416,
    "lon": -97.71373,
    "sqft": 1597,
-   "value": 311430,
+   "value": 302161,
    "value_kind": "market (WCAD)",
    "year_built": 2005
+  },
+  {
+   "acres": 10.024,
+   "address": "550 HUGH SMITH LN, JARRELL, TX  76537",
+   "assessed": 77976,
+   "class": "E5",
+   "deed_date": "2026-03-02",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.79953,
+   "lon": -97.607013,
+   "sqft": 2128,
+   "value": 474478,
+   "value_kind": "market (WCAD)",
+   "year_built": 1995
   },
   {
    "acres": 0.147,
@@ -3447,7 +4297,7 @@
    "acres": 0.138,
    "address": "1404 DOG IRON ST, GEORGETOWN, TX  78633",
    "assessed": 453109,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-27",
    "extras": {
     "exterior": "BRICK",
@@ -3466,7 +4316,7 @@
    "acres": 0.141,
    "address": "1313 DOG IRON ST, GEORGETOWN, TX  78633",
    "assessed": 404795,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-27",
    "extras": {
     "exterior": "BRICK",
@@ -3675,7 +4525,7 @@
    "acres": 0.13,
    "address": "218 KINGS ROW LN, JARRELL, TX  76537",
    "assessed": 163195,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-26",
    "extras": {
     "exterior": "HP",
@@ -3789,7 +4639,7 @@
    "acres": 0.106,
    "address": "265 KINGS ROW LN, JARRELL, TX  76537",
    "assessed": 227930,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-25",
    "extras": {
     "exterior": "HP",
@@ -3808,7 +4658,7 @@
    "acres": 0.115,
    "address": "201 KINGS ROW LN, JARRELL, TX  76537",
    "assessed": 158842,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-25",
    "extras": {
     "exterior": "HP",
@@ -3834,7 +4684,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.74088,
    "lon": -97.726596,
    "sqft": 2693,
@@ -3921,7 +4771,7 @@
    "acres": 0.115,
    "address": "213 KINGS ROW LN, JARRELL, TX  76537",
    "assessed": 157110,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-24",
    "extras": {
     "exterior": "HP",
@@ -3959,7 +4809,7 @@
    "acres": 0.189,
    "address": "2501 WALKING Y RD, GEORGETOWN, TX  78633",
    "assessed": 386454,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-23",
    "extras": {
     "exterior": "BRICK",
@@ -3978,7 +4828,7 @@
    "acres": 0.223,
    "address": "804 PEACEFUL PSALMS PL, GEORGETOWN, TX  78633",
    "assessed": 568927,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-20",
    "extras": {
     "exterior": "M",
@@ -4016,7 +4866,7 @@
    "acres": 141.435,
    "address": "250 CR 216, JARRELL, TX  76537",
    "assessed": 4020250,
-   "class": "D1",
+   "class": "E4",
    "deed_date": "2026-02-20",
    "homestead": false,
    "lat": 30.801935,
@@ -4120,6 +4970,25 @@
    "year_built": 2004
   },
   {
+   "acres": 0.105,
+   "address": "140 TEXAS ANGEL WAY, JARRELL, TX  76537",
+   "assessed": 177523,
+   "class": "A1",
+   "deed_date": "2026-02-17",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.783131,
+   "lon": -97.644491,
+   "sqft": 1225,
+   "value": 177523,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
    "acres": 0.274,
    "address": "106 TABLE ROCK LN, GEORGETOWN, TX  78633",
    "assessed": 659268,
@@ -4195,7 +5064,7 @@
    "acres": 0.147,
    "address": "1037 SIENNA BEAR RD, GEORGETOWN, TX  78633",
    "assessed": 398990,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-13",
    "extras": {
     "exterior": "BRICK",
@@ -4613,7 +5482,7 @@
    "acres": 0.135,
    "address": "108 ADLAI AVE, GEORGETOWN, TX  78633",
    "assessed": 489649,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-30",
    "extras": {
     "exterior": "M",
@@ -4822,7 +5691,7 @@
    "acres": 0.177,
    "address": "817 PEACEFUL PSALMS PL, GEORGETOWN, TX  78633",
    "assessed": 543774,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-26",
    "extras": {
     "exterior": "HP",
@@ -5005,7 +5874,7 @@
    "acres": 0.141,
    "address": "1057 SIENNA BEAR RD, GEORGETOWN, TX  78633",
    "assessed": 338450,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-21",
    "extras": {
     "exterior": "BRICK",
@@ -5139,7 +6008,7 @@
    "homestead": false,
    "lat": 30.754004,
    "lon": -97.626124,
-   "value": 4380276,
+   "value": 4239076,
    "value_kind": "market (WCAD)"
   },
   {
@@ -5485,25 +6354,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.255,
-   "address": "107 LYNN CV, GEORGETOWN, TX  78633",
-   "assessed": 372804,
-   "class": "A1",
-   "deed_date": "2025-12-22",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.719266,
-   "lon": -97.715374,
-   "sqft": 1968,
-   "value": 372804,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
    "acres": 0.192,
    "address": "405 PEACEFUL PSALMS PL, GEORGETOWN, TX  78633",
    "assessed": 568830,
@@ -5544,7 +6394,7 @@
   {
    "acres": 0.126,
    "address": "1012 YAUPON HOLLY DR, GEORGETOWN, TX  78628",
-   "assessed": 307985,
+   "assessed": 277209,
    "class": "A1",
    "deed_date": "2025-12-19",
    "extras": {
@@ -5556,7 +6406,7 @@
    "lat": 30.719721,
    "lon": -97.675583,
    "sqft": 1770,
-   "value": 307985,
+   "value": 277209,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -5639,7 +6489,7 @@
   {
    "acres": 0.144,
    "address": "532 HEREFORD LN, GEORGETOWN, TX  78633",
-   "assessed": 343037,
+   "assessed": 336929,
    "class": "A1",
    "deed_date": "2025-12-17",
    "extras": {
@@ -5651,7 +6501,7 @@
    "lat": 30.729386,
    "lon": -97.689065,
    "sqft": 1604,
-   "value": 343037,
+   "value": 336929,
    "value_kind": "market (WCAD)",
    "year_built": 2018
   },
@@ -5671,25 +6521,6 @@
    "lon": -97.64233,
    "sqft": 1606,
    "value": 227930,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "813 PEACEFUL PSALMS PL, GEORGETOWN, TX  78633",
-   "assessed": 585241,
-   "class": "A1",
-   "deed_date": "2025-12-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.745326,
-   "lon": -97.725074,
-   "sqft": 1831,
-   "value": 585241,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -5780,7 +6611,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.722676,
    "lon": -97.683727,
    "sqft": 1896,
@@ -6071,25 +6902,6 @@
    "value": 644781,
    "value_kind": "market (WCAD)",
    "year_built": 1985
-  },
-  {
-   "acres": 0.114,
-   "address": "250 KINGS ROW LN, JARRELL, TX  76537",
-   "assessed": 201478,
-   "class": "O1",
-   "deed_date": "2025-12-08",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.785568,
-   "lon": -97.643735,
-   "sqft": 811,
-   "value": 201478,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
   },
   {
    "acres": 0.113,
@@ -6474,7 +7286,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.785999,
    "lon": -97.644686,
    "sqft": 1421,
@@ -7072,7 +7884,7 @@
    "year_built": 2025
   },
   {
-   "acres": 0.205,
+   "acres": 0.204,
    "address": "605 PEACEFUL PSALMS PL, GEORGETOWN, TX  78633",
    "assessed": 602349,
    "class": "A1",
@@ -7083,8 +7895,8 @@
     "roof": "MX"
    },
    "homestead": true,
-   "lat": 30.742602,
-   "lon": -97.726483,
+   "lat": 30.742603,
+   "lon": -97.726482,
    "sqft": 2356,
    "value": 602349,
    "value_kind": "market (WCAD)",
@@ -7167,25 +7979,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.095,
-   "address": "111 HAMPTON CIR, GEORGETOWN, TX  78633",
-   "assessed": 249681,
-   "class": "A9",
-   "deed_date": "2025-11-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.730178,
-   "lon": -97.715235,
-   "sqft": 1426,
-   "value": 249681,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
    "acres": 0.222,
    "address": "224 TELEGRAPH LN, GEORGETOWN, TX  78633",
    "assessed": 682627,
@@ -7230,9 +8023,9 @@
    "class": "A1",
    "deed_date": "2025-11-10",
    "extras": {
-    "exterior": "M",
+    "exterior": "ST",
     "foundation": "SLB",
-    "roof": "MX"
+    "roof": "HP"
    },
    "homestead": true,
    "lat": 30.71997,
@@ -7652,7 +8445,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.785744,
    "lon": -97.641327,
    "sqft": 1500,
@@ -7792,25 +8585,6 @@
    "value": 745326,
    "value_kind": "market (WCAD)",
    "year_built": 2008
-  },
-  {
-   "acres": 0.145,
-   "address": "128 LIGNITE DR, JARRELL, TX  76537",
-   "assessed": 233462,
-   "class": "A1",
-   "deed_date": "2025-10-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.803333,
-   "lon": -97.606486,
-   "sqft": 1788,
-   "value": 233462,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
   },
   {
    "acres": 0.2,
@@ -8324,9 +9098,9 @@
    "class": "F1",
    "deed_date": "2025-10-15",
    "extras": {
-    "exterior": "BV, STN",
+    "exterior": "M",
     "foundation": "SLB",
-    "roof": "HP"
+    "roof": "MX"
    },
    "homestead": false,
    "lat": 30.803389,
@@ -8335,4926 +9109,26 @@
    "value": 3185677,
    "value_kind": "market (WCAD)",
    "year_built": 2007
-  },
-  {
-   "acres": 0.271,
-   "address": "614 RIO GRANDE LOOP, GEORGETOWN, TX  78633",
-   "assessed": 552019,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "STC,STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.724931,
-   "lon": -97.702027,
-   "sqft": 2750,
-   "value": 552019,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.176,
-   "address": "114 YELLOWSTONE RD, GEORGETOWN, TX  78633",
-   "assessed": 318760,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.7296,
-   "lon": -97.712104,
-   "sqft": 1570,
-   "value": 318760,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.106,
-   "address": "112 TUGBOAT ANNIE WAY, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.781056,
-   "lon": -97.646122,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.182,
-   "address": "302 KLONDIKE DR, GEORGETOWN, TX  78633",
-   "assessed": 315723,
-   "class": "A1",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722907,
-   "lon": -97.712279,
-   "sqft": 1570,
-   "value": 315723,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.185,
-   "address": "112 BRONZE CV, JARRELL, TX  76537",
-   "assessed": 209134,
-   "class": "A1",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.805361,
-   "lon": -97.603514,
-   "sqft": 1389,
-   "value": 209134,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.282,
-   "address": "104 FALCON ST, GEORGETOWN, TX  78633",
-   "assessed": 552820,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.714928,
-   "lon": -97.708756,
-   "sqft": 2635,
-   "value": 552820,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.144,
-   "address": "308 COPPER LN, JARRELL, TX  76537",
-   "assessed": 207264,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.804916,
-   "lon": -97.60231,
-   "sqft": 1203,
-   "value": 207264,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.122,
-   "address": "116 PAINT CREEK LN, GEORGETOWN, TX  78633",
-   "assessed": 339517,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733091,
-   "lon": -97.694202,
-   "sqft": 1484,
-   "value": 339517,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.171,
-   "address": "400 KNUTE ROCKNE WAY, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.785598,
-   "lon": -97.64058,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.124,
-   "address": "405 CROCKETT LOOP, GEORGETOWN, TX  78633",
-   "assessed": 288812,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.727114,
-   "lon": -97.717889,
-   "sqft": 1328,
-   "value": 288812,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.125,
-   "address": "206 ESSEX LN, GEORGETOWN, TX  78633",
-   "assessed": 247995,
-   "class": "A9",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731577,
-   "lon": -97.711482,
-   "sqft": 1426,
-   "value": 247995,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.226,
-   "address": "101 LOVERS CT, GEORGETOWN, TX  78633",
-   "assessed": 618524,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.74115,
-   "lon": -97.726115,
-   "sqft": 2356,
-   "value": 618524,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.143,
-   "address": "118 ESSEX LN, GEORGETOWN, TX  78633",
-   "assessed": 248689,
-   "class": "A9",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.731365,
-   "lon": -97.712457,
-   "sqft": 1397,
-   "value": 248689,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.141,
-   "address": "212 COMAL LN, GEORGETOWN, TX  78633",
-   "assessed": 344235,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.730383,
-   "lon": -97.688842,
-   "sqft": 1488,
-   "value": 344235,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.135,
-   "address": "108 DARK VICTORY RD, JARRELL, TX  76537",
-   "assessed": 232233,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786297,
-   "lon": -97.641751,
-   "sqft": 950,
-   "value": 232233,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.107,
-   "address": "116 DARK VICTORY RD, JARRELL, TX  76537",
-   "assessed": 177746,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786516,
-   "lon": -97.641849,
-   "sqft": 1200,
-   "value": 177746,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.124,
-   "address": "334 BRENHAM PASS, GEORGETOWN, TX  78633",
-   "assessed": 347394,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.728171,
-   "lon": -97.68948,
-   "sqft": 1488,
-   "value": 347394,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.131,
-   "address": "522 ROCKPORT ST, GEORGETOWN, TX  78633",
-   "assessed": 335311,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.730703,
-   "lon": -97.687274,
-   "sqft": 1582,
-   "value": 335311,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.197,
-   "address": "116 LUBBOCK DR, GEORGETOWN, TX  78633",
-   "assessed": 287744,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.72442,
-   "lon": -97.717295,
-   "sqft": 1270,
-   "value": 287744,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.123,
-   "address": "345 BRENHAM PASS, GEORGETOWN, TX  78633",
-   "assessed": 339702,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.729161,
-   "lon": -97.68854,
-   "sqft": 1604,
-   "value": 339702,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.122,
-   "address": "213 BONHAM LOOP, GEORGETOWN, TX  78633",
-   "assessed": 248643,
-   "class": "A9",
-   "deed_date": "2025-10-04",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.73039,
-   "lon": -97.721168,
-   "sqft": 1426,
-   "value": 248643,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.128,
-   "address": "3813 MESQUITE VALLEY RD, GEORGETOWN, TX  78628",
-   "assessed": 304485,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.720095,
-   "lon": -97.6764,
-   "sqft": 1595,
-   "value": 304485,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.14,
-   "address": "2001 FANNIE RD, GEORGETOWN, TX  78633",
-   "assessed": 365544,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.727009,
-   "lon": -97.680944,
-   "sqft": 1654,
-   "value": 365544,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.18,
-   "address": "202 SCURRY PASS, GEORGETOWN, TX  78633",
-   "assessed": 279791,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.720766,
-   "lon": -97.716376,
-   "sqft": 1248,
-   "value": 279791,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.155,
-   "address": "106 BASS ST, GEORGETOWN, TX  78633",
-   "assessed": 297183,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.716798,
-   "lon": -97.705667,
-   "sqft": 1350,
-   "value": 297183,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.211,
-   "address": "715 TEXAS DR, GEORGETOWN, TX  78633",
-   "assessed": 325073,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.724102,
-   "lon": -97.715502,
-   "sqft": 1570,
-   "value": 325073,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.172,
-   "address": "109 BASS ST, GEORGETOWN, TX  78633",
-   "assessed": 333726,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.716451,
-   "lon": -97.705206,
-   "sqft": 1593,
-   "value": 333726,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.221,
-   "address": "622 RIO GRANDE LOOP, GEORGETOWN, TX  78633",
-   "assessed": 512541,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "STC, STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.725155,
-   "lon": -97.702942,
-   "sqft": 2374,
-   "value": 512541,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.041,
-   "address": "501 BUENA VISTA DR, GEORGETOWN, TX  78633",
-   "assessed": 740865,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737895,
-   "lon": -97.709749,
-   "sqft": 3074,
-   "value": 740865,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.125,
-   "address": "104 BURT RAINEY LN, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.782921,
-   "lon": -97.638335,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.129,
-   "address": "617 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 235815,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.787003,
-   "lon": -97.645756,
-   "sqft": 950,
-   "value": 235815,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.107,
-   "address": "316 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 227930,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786572,
-   "lon": -97.643123,
-   "sqft": 1606,
-   "value": 227930,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.108,
-   "address": "328 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786456,
-   "lon": -97.64349,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.328,
-   "address": "610 RIO GRANDE LOOP, GEORGETOWN, TX  78633",
-   "assessed": 528380,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.724702,
-   "lon": -97.701627,
-   "sqft": 2374,
-   "value": 528380,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.12,
-   "address": "221 BONHAM LOOP, GEORGETOWN, TX  78633",
-   "assessed": 252491,
-   "class": "A9",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.730403,
-   "lon": -97.720715,
-   "sqft": 1426,
-   "value": 252491,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.205,
-   "address": "712 TEXAS DR, GEORGETOWN, TX  78633",
-   "assessed": 377641,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.723831,
-   "lon": -97.716017,
-   "sqft": 1968,
-   "value": 377641,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.171,
-   "address": "100 SILVER CV, JARRELL, TX  76537",
-   "assessed": 215343,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.80469,
-   "lon": -97.602699,
-   "sqft": 1341,
-   "value": 215343,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.196,
-   "address": "331 CYPRESS SPRINGS WAY, GEORGETOWN, TX  78633",
-   "assessed": 684776,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726898,
-   "lon": -97.696414,
-   "sqft": 2517,
-   "value": 684776,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.108,
-   "address": "308 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 227930,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.78665,
-   "lon": -97.642878,
-   "sqft": 1606,
-   "value": 227930,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.107,
-   "address": "333 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 244470,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786007,
-   "lon": -97.643416,
-   "sqft": 811,
-   "value": 244470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.106,
-   "address": "313 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 232233,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786196,
-   "lon": -97.642819,
-   "sqft": 950,
-   "value": 232233,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.107,
-   "address": "109 DARK VICTORY RD, JARRELL, TX  76537",
-   "assessed": 192197,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786211,
-   "lon": -97.642286,
-   "sqft": 1400,
-   "value": 192197,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.192,
-   "address": "100 TELEGRAPH LN, GEORGETOWN, TX  78633",
-   "assessed": 615636,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.739825,
-   "lon": -97.726246,
-   "sqft": 2368,
-   "value": 615636,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.189,
-   "address": "135 STETSON TRL, GEORGETOWN, TX  78633",
-   "assessed": 384878,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.718585,
-   "lon": -97.702553,
-   "sqft": 1924,
-   "value": 384878,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.256,
-   "address": "125 ELDERBERRY ST, GEORGETOWN, TX  78633",
-   "assessed": 316304,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.717106,
-   "lon": -97.711165,
-   "sqft": 1664,
-   "value": 316304,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.211,
-   "address": "713 TEXAS DR, GEORGETOWN, TX  78633",
-   "assessed": 463420,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.723887,
-   "lon": -97.715474,
-   "sqft": 2038,
-   "value": 463420,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.218,
-   "address": "100 TIMBER HITCH CT, GEORGETOWN, TX  78633",
-   "assessed": 511068,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.727314,
-   "lon": -97.704108,
-   "sqft": 2498,
-   "value": 511068,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.156,
-   "address": "1029 YAUPON HOLLY DR, GEORGETOWN, TX  78628",
-   "assessed": 316195,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.71999,
-   "lon": -97.675108,
-   "sqft": 1763,
-   "value": 316195,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.157,
-   "address": "2504 WALKING Y RD, GEORGETOWN, TX  78633",
-   "assessed": 453109,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725681,
-   "lon": -97.690217,
-   "sqft": 1885,
-   "value": 453109,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.104,
-   "address": "304 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 244470,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786687,
-   "lon": -97.642758,
-   "sqft": 811,
-   "value": 244470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.012,
-   "address": "140 SILVERADO DR, GEORGETOWN, TX  78633",
-   "assessed": 1036618,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.73293,
-   "lon": -97.715121,
-   "sqft": 4550,
-   "value": 1036618,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.198,
-   "address": "609 PEACEFUL PSALMS PL, GEORGETOWN, TX  78633",
-   "assessed": 678275,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.742766,
-   "lon": -97.726381,
-   "sqft": 2449,
-   "value": 678275,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.19,
-   "address": "146 OLD CHISHOLM TRL, GEORGETOWN, TX  78633",
-   "assessed": 392017,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.716318,
-   "lon": -97.715278,
-   "sqft": 1968,
-   "value": 392017,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.117,
-   "address": "117 ESSEX LN, GEORGETOWN, TX  78633",
-   "assessed": 247995,
-   "class": "A9",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.731336,
-   "lon": -97.713112,
-   "sqft": 1426,
-   "value": 247995,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.141,
-   "address": "1333 DOG IRON ST, GEORGETOWN, TX  78633",
-   "assessed": 398622,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725636,
-   "lon": -97.68832,
-   "sqft": 1991,
-   "value": 398622,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.23,
-   "address": "104 SILVERBLUFF ST, GEORGETOWN, TX  78633",
-   "assessed": 659136,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.7426,
-   "lon": -97.725661,
-   "sqft": 2614,
-   "value": 659136,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.178,
-   "address": "320 ENGINEERS PASS, JARRELL, TX  76537",
-   "assessed": 246319,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.806733,
-   "lon": -97.6042,
-   "sqft": 1920,
-   "value": 246319,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.142,
-   "address": "204 PAINT CREEK LN, GEORGETOWN, TX  78633",
-   "assessed": 334078,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734159,
-   "lon": -97.69378,
-   "sqft": 1472,
-   "value": 334078,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.106,
-   "address": "148 HELLCATS WAY, JARRELL, TX  76537",
-   "assessed": 232786,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.784506,
-   "lon": -97.64658,
-   "sqft": 950,
-   "value": 232786,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.14,
-   "address": "2005 FANNIE RD, GEORGETOWN, TX  78633",
-   "assessed": 424907,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.727122,
-   "lon": -97.68086,
-   "sqft": 1562,
-   "value": 424907,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.161,
-   "address": "282 WHISPERING WIND, GEORGETOWN, TX  78633",
-   "assessed": 285173,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.718921,
-   "lon": -97.709809,
-   "sqft": 1330,
-   "value": 285173,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.107,
-   "address": "204 BONHAM LOOP, GEORGETOWN, TX  78633",
-   "assessed": 252420,
-   "class": "A9",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.729028,
-   "lon": -97.721249,
-   "sqft": 1397,
-   "value": 252420,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.125,
-   "address": "419 FANNIN CT, GEORGETOWN, TX  78633",
-   "assessed": 352751,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.730563,
-   "lon": -97.690184,
-   "sqft": 1700,
-   "value": 352751,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.109,
-   "address": "340 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 244470,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786339,
-   "lon": -97.643858,
-   "sqft": 811,
-   "value": 244470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.15,
-   "address": "114 MOUNTAIN LAUREL WAY, GEORGETOWN, TX  78633",
-   "assessed": 303857,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.719175,
-   "lon": -97.708273,
-   "sqft": 1316,
-   "value": 303857,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.252,
-   "address": "405 DAWSON TRL, GEORGETOWN, TX  78633",
-   "assessed": 378980,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.723736,
-   "lon": -97.719384,
-   "sqft": 2048,
-   "value": 378980,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.178,
-   "address": "102 AMBERJACK CT, GEORGETOWN, TX  78633",
-   "assessed": 496682,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.727988,
-   "lon": -97.705144,
-   "sqft": 2254,
-   "value": 496682,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 1.08,
-   "address": "112 ROBLE ROJA DR, GEORGETOWN, TX  78633",
-   "assessed": 858053,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "ST, STC",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.736334,
-   "lon": -97.71392,
-   "sqft": 3491,
-   "value": 858053,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.132,
-   "address": "521 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 182507,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786372,
-   "lon": -97.64546,
-   "sqft": 1375,
-   "value": 182507,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.12,
-   "address": "506 SUNDANCE LN, GEORGETOWN, TX  78633",
-   "assessed": 303802,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.726613,
-   "lon": -97.709083,
-   "sqft": 1597,
-   "value": 303802,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.315,
-   "address": "105 BLANCO CV, GEORGETOWN, TX  78633",
-   "assessed": 507081,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "STC,STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.725031,
-   "lon": -97.707028,
-   "sqft": 2374,
-   "value": 507081,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.44,
-   "address": "102 RIO LEON CV, GEORGETOWN, TX  78633",
-   "assessed": 458518,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.723902,
-   "lon": -97.702283,
-   "sqft": 1994,
-   "value": 458518,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.214,
-   "address": "108 HUMMINGBIRD CV, GEORGETOWN, TX  78633",
-   "assessed": 325852,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.728432,
-   "lon": -97.716219,
-   "sqft": 1755,
-   "value": 325852,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.106,
-   "address": "317 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 244470,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786158,
-   "lon": -97.642938,
-   "sqft": 811,
-   "value": 244470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.14,
-   "address": "903 WHISPERING WIND DR, GEORGETOWN, TX  78633",
-   "assessed": 339000,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.725393,
-   "lon": -97.710989,
-   "sqft": 1660,
-   "value": 339000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.22,
-   "address": "216 TELEGRAPH LN, GEORGETOWN, TX  78633",
-   "assessed": 571631,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.741648,
-   "lon": -97.724325,
-   "sqft": 2188,
-   "value": 571631,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.287,
-   "address": "212 TOVAS SECRET CV, GEORGETOWN, TX  78628",
-   "assessed": 707656,
-   "class": "A1",
-   "deed_date": "2025-09-13",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.715114,
-   "lon": -97.670624,
-   "sqft": 2210,
-   "value": 707656,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.172,
-   "address": "401 SUNDANCE LN, GEORGETOWN, TX  78633",
-   "assessed": 278806,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.725499,
-   "lon": -97.710488,
-   "sqft": 1328,
-   "value": 278806,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.094,
-   "address": "127 NASSAU CIR, GEORGETOWN, TX  78633",
-   "assessed": 255087,
-   "class": "A9",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.729929,
-   "lon": -97.717065,
-   "sqft": 1426,
-   "value": 255087,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.139,
-   "address": "212 YUKON TER, GEORGETOWN, TX  78633",
-   "assessed": 375000,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.72862,
-   "lon": -97.711718,
-   "sqft": 2103,
-   "value": 375000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.191,
-   "address": "101 ENGINEERS PASS, JARRELL, TX  76537",
-   "assessed": 181515,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.803081,
-   "lon": -97.602402,
-   "sqft": 982,
-   "value": 181515,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 2.5,
-   "address": "358 ALSACE AVE, JARRELL, TX  76537",
-   "assessed": 1358000,
-   "class": "F1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "ML",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.793383,
-   "lon": -97.625764,
-   "sqft": 4683,
-   "value": 1358000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.16,
-   "address": "2456 WALKING Y RD, GEORGETOWN, TX  78633",
-   "assessed": 400140,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.72632,
-   "lon": -97.689938,
-   "sqft": 1974,
-   "value": 400140,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.326,
-   "address": "104 WALLER CT, GEORGETOWN, TX  78633",
-   "assessed": 364369,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.721729,
-   "lon": -97.71881,
-   "sqft": 1954,
-   "value": 364369,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.23,
-   "address": "207 RANIER LN, GEORGETOWN, TX  78633",
-   "assessed": 284874,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.724323,
-   "lon": -97.709577,
-   "sqft": 1328,
-   "value": 284874,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.145,
-   "address": "501 MILL POND PATH, GEORGETOWN, TX  78633",
-   "assessed": 314518,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.732831,
-   "lon": -97.70434,
-   "sqft": 1397,
-   "value": 314518,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.218,
-   "address": "140 TELEGRAPH LN, GEORGETOWN, TX  78633",
-   "assessed": 578551,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.740111,
-   "lon": -97.724158,
-   "sqft": 2262,
-   "value": 578551,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.167,
-   "address": "313 BRENHAM PASS, GEORGETOWN, TX  78633",
-   "assessed": 347901,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.728242,
-   "lon": -97.690514,
-   "sqft": 1604,
-   "value": 347901,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.216,
-   "address": "112 TELEGRAPH LN, GEORGETOWN, TX  78633",
-   "assessed": 670479,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.739628,
-   "lon": -97.72563,
-   "sqft": 2612,
-   "value": 670479,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.235,
-   "address": "106 GUADALUPE TRL, GEORGETOWN, TX  78633",
-   "assessed": 545148,
-   "class": "A1",
-   "deed_date": "2025-09-06",
-   "extras": {
-    "exterior": "STC,STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722585,
-   "lon": -97.703634,
-   "sqft": 2750,
-   "value": 545148,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.162,
-   "address": "559 ROCKPORT ST, GEORGETOWN, TX  78633",
-   "assessed": 354031,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.729438,
-   "lon": -97.686736,
-   "sqft": 1488,
-   "value": 354031,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.105,
-   "address": "1000 RANCHO DEL CIELO LOOP, JARRELL, TX  76537",
-   "assessed": 228746,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.782839,
-   "lon": -97.64699,
-   "sqft": 784,
-   "value": 228746,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.131,
-   "address": "629 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 177746,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.787411,
-   "lon": -97.645665,
-   "sqft": 1200,
-   "value": 177746,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.133,
-   "address": "605 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.78669,
-   "lon": -97.645594,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.193,
-   "address": "104 TELEGRAPH LN, GEORGETOWN, TX  78633",
-   "assessed": 702500,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.739761,
-   "lon": -97.726046,
-   "sqft": 2934,
-   "value": 702500,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 5.402,
-   "address": "852 CR 146, GEORGETOWN, TX  78633",
-   "assessed": 166778,
-   "class": "E1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.759617,
-   "lon": -97.649519,
-   "sqft": 1606,
-   "value": 418396,
-   "value_kind": "market (WCAD)",
-   "year_built": 1960
-  },
-  {
-   "acres": 0.155,
-   "address": "700 TEXAS DR, GEORGETOWN, TX  78633",
-   "assessed": 329000,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.722847,
-   "lon": -97.716419,
-   "sqft": 1626,
-   "value": 329000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.093,
-   "address": "336 PORTSMOUTH DR, GEORGETOWN, TX  78633",
-   "assessed": 248689,
-   "class": "A9",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.729691,
-   "lon": -97.717983,
-   "sqft": 1397,
-   "value": 248689,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.219,
-   "address": "125 YUKON TER, GEORGETOWN, TX  78633",
-   "assessed": 421012,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.729407,
-   "lon": -97.710102,
-   "sqft": 2103,
-   "value": 421012,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.167,
-   "address": "109 RUELLIA DR, GEORGETOWN, TX  78633",
-   "assessed": 313145,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.718704,
-   "lon": -97.710153,
-   "sqft": 1593,
-   "value": 313145,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 5.005,
-   "address": "398 ALSACE AVE, JARRELL, TX  76537",
-   "assessed": 2696647,
-   "class": "F1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "SHD"
-   },
-   "homestead": false,
-   "lat": 30.7941,
-   "lon": -97.626069,
-   "sqft": 1160,
-   "value": 3385193,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.161,
-   "address": "1017 SMUDGE WAY, GEORGETOWN, TX  78633",
-   "assessed": 373454,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725638,
-   "lon": -97.680199,
-   "sqft": 1800,
-   "value": 373454,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.191,
-   "address": "120 MOUNTAIN LAUREL WAY, GEORGETOWN, TX  78633",
-   "assessed": 376173,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.718766,
-   "lon": -97.707733,
-   "sqft": 1822,
-   "value": 376173,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.123,
-   "address": "276 BONHAM LOOP, GEORGETOWN, TX  78633",
-   "assessed": 251987,
-   "class": "A9",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.729578,
-   "lon": -97.719322,
-   "sqft": 1397,
-   "value": 251987,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.152,
-   "address": "2512 WALKING Y RD, GEORGETOWN, TX  78633",
-   "assessed": 382293,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725451,
-   "lon": -97.690045,
-   "sqft": 1835,
-   "value": 382293,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.15,
-   "address": "1001 AUTUMN SUE LN, GEORGETOWN, TX  78633",
-   "assessed": 427233,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.728006,
-   "lon": -97.680219,
-   "sqft": 1099,
-   "value": 427233,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.125,
-   "address": "113 TUGBOAT ANNIE WAY, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.780607,
-   "lon": -97.645938,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.108,
-   "address": "320 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786534,
-   "lon": -97.643245,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.109,
-   "address": "352 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786222,
-   "lon": -97.644228,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.11,
-   "address": "356 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 204291,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786183,
-   "lon": -97.644351,
-   "sqft": 1276,
-   "value": 204291,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.106,
-   "address": "337 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 177746,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.785969,
-   "lon": -97.643536,
-   "sqft": 1200,
-   "value": 177746,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.106,
-   "address": "325 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786082,
-   "lon": -97.643177,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.207,
-   "address": "258 WHISPERING WIND, GEORGETOWN, TX  78633",
-   "assessed": 280000,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.717536,
-   "lon": -97.707931,
-   "sqft": 1571,
-   "value": 280000,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.296,
-   "address": "138 CREPE MYRTLE LN, GEORGETOWN, TX  78633",
-   "assessed": 558563,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.716445,
-   "lon": -97.709635,
-   "sqft": 2635,
-   "value": 558563,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.11,
-   "address": "401 BONHAM LOOP, GEORGETOWN, TX  78633",
-   "assessed": 251446,
-   "class": "A9",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.728602,
-   "lon": -97.720115,
-   "sqft": 1397,
-   "value": 251446,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.244,
-   "address": "1801 DAVEE PL, GEORGETOWN, TX  78633",
-   "assessed": 377826,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.724902,
-   "lon": -97.680949,
-   "sqft": 1818,
-   "value": 377826,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.131,
-   "address": "509 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 200611,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786055,
-   "lon": -97.645325,
-   "sqft": 950,
-   "value": 200611,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.108,
-   "address": "312 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786611,
-   "lon": -97.643001,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.109,
-   "address": "113 DARK VICTORY RD, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786314,
-   "lon": -97.642331,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.135,
-   "address": "112 ADLAI AVE, GEORGETOWN, TX  78633",
-   "assessed": 444844,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.747997,
-   "lon": -97.723201,
-   "sqft": 2086,
-   "value": 444844,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.195,
-   "address": "518 TEXAS DR, GEORGETOWN, TX  78633",
-   "assessed": 333556,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.722025,
-   "lon": -97.717057,
-   "sqft": 1626,
-   "value": 333556,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.094,
-   "address": "231 BONHAM LOOP, GEORGETOWN, TX  78633",
-   "assessed": 248643,
-   "class": "A9",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.730457,
-   "lon": -97.720142,
-   "sqft": 1426,
-   "value": 248643,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.241,
-   "address": "315 CYPRESS SPRINGS WAY, GEORGETOWN, TX  78633",
-   "assessed": 738958,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725406,
-   "lon": -97.697065,
-   "sqft": 2515,
-   "value": 788197,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.108,
-   "address": "336 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 182773,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786378,
-   "lon": -97.643735,
-   "sqft": 1375,
-   "value": 182773,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.286,
-   "address": "100 MOUNTAIN LAUREL WAY, GEORGETOWN, TX  78633",
-   "assessed": 328866,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.719784,
-   "lon": -97.709653,
-   "sqft": 1579,
-   "value": 328866,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 1.052,
-   "address": "532 BUENA VISTA DR, GEORGETOWN, TX  78633",
-   "assessed": 845769,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "STN, STC",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.737696,
-   "lon": -97.713697,
-   "sqft": 3379,
-   "value": 845769,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.12,
-   "address": "125 TUGBOAT ANNIE WAY, JARRELL, TX  76537",
-   "assessed": 234126,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.780494,
-   "lon": -97.6463,
-   "sqft": 950,
-   "value": 234126,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.193,
-   "address": "222 DIAMOND POINT RD, GEORGETOWN, TX  78633",
-   "assessed": 732886,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.7404,
-   "lon": -97.729372,
-   "sqft": 2700,
-   "value": 732886,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.149,
-   "address": "515 MILL POND PATH, GEORGETOWN, TX  78633",
-   "assessed": 314518,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.732782,
-   "lon": -97.705249,
-   "sqft": 1397,
-   "value": 314518,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.142,
-   "address": "1017 DOG IRON ST, GEORGETOWN, TX  78633",
-   "assessed": 441359,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.728271,
-   "lon": -97.685227,
-   "sqft": 1698,
-   "value": 441359,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.229,
-   "address": "118 DIAMOND POINT RD, GEORGETOWN, TX  78633",
-   "assessed": 653720,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.741285,
-   "lon": -97.732179,
-   "sqft": 2352,
-   "value": 653720,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.209,
-   "address": "115 DIAMOND POINT RD, GEORGETOWN, TX  78633",
-   "assessed": 629240,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.741268,
-   "lon": -97.731564,
-   "sqft": 2202,
-   "value": 629240,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.109,
-   "address": "360 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786143,
-   "lon": -97.644474,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.105,
-   "address": "341 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.785931,
-   "lon": -97.643655,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.204,
-   "address": "123 CATTLE TRAIL WAY, GEORGETOWN, TX  78633",
-   "assessed": 402696,
-   "class": "A1",
-   "deed_date": "2025-08-24",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.715537,
-   "lon": -97.712149,
-   "sqft": 1855,
-   "value": 402696,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.195,
-   "address": "301 KLONDIKE DR, GEORGETOWN, TX  78633",
-   "assessed": 362455,
-   "class": "A1",
-   "deed_date": "2025-08-24",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722394,
-   "lon": -97.712374,
-   "sqft": 1666,
-   "value": 362455,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.076,
-   "address": "301 ESCONDIDO DR, GEORGETOWN, TX  78633",
-   "assessed": 780731,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733613,
-   "lon": -97.718404,
-   "sqft": 2478,
-   "value": 780731,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.172,
-   "address": "1900 FANNIE RD, GEORGETOWN, TX  78633",
-   "assessed": 365544,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726011,
-   "lon": -97.680854,
-   "sqft": 1654,
-   "value": 365544,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.155,
-   "address": "120 BURT RAINEY LN, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.783341,
-   "lon": -97.638568,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.108,
-   "address": "332 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786417,
-   "lon": -97.643613,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.253,
-   "address": "204 TELEGRAPH LN, GEORGETOWN, TX  78633",
-   "assessed": 584081,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.741123,
-   "lon": -97.723936,
-   "sqft": 2101,
-   "value": 584081,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.499,
-   "address": "300 CR 237, JARRELL, TX  76537",
-   "assessed": 150352,
-   "class": "E1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.778792,
-   "lon": -97.6266,
-   "sqft": 1552,
-   "value": 150352,
-   "value_kind": "market (WCAD)",
-   "year_built": 1915
-  },
-  {
-   "acres": 0.168,
-   "address": "283 WHISPERING WIND, GEORGETOWN, TX  78633",
-   "assessed": 313605,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.719301,
-   "lon": -97.709383,
-   "sqft": 1422,
-   "value": 313605,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.142,
-   "address": "103 SAN ANTONIO RD, GEORGETOWN, TX  78633",
-   "assessed": 347215,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.72321,
-   "lon": -97.705531,
-   "sqft": 1644,
-   "value": 347215,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.206,
-   "address": "711 RIO GRANDE LOOP, GEORGETOWN, TX  78633",
-   "assessed": 478316,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.724512,
-   "lon": -97.704613,
-   "sqft": 2254,
-   "value": 478316,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.149,
-   "address": "231 TRADINGHOUSE CREEK ST, GEORGETOWN, TX  78633",
-   "assessed": 419262,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733139,
-   "lon": -97.697407,
-   "sqft": 1845,
-   "value": 419262,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.173,
-   "address": "317 HOLIDAY CREEK LN, GEORGETOWN, TX  78633",
-   "assessed": 333365,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734321,
-   "lon": -97.692396,
-   "sqft": 1464,
-   "value": 333365,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.128,
-   "address": "206 BRENHAM PASS, GEORGETOWN, TX  78633",
-   "assessed": 362353,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.72946,
-   "lon": -97.691734,
-   "sqft": 1727,
-   "value": 362353,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.177,
-   "address": "1032 SIENNA BEAR RD, GEORGETOWN, TX  78633",
-   "assessed": 371700,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.725789,
-   "lon": -97.67982,
-   "sqft": 1731,
-   "value": 371700,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.289,
-   "address": "521 BILLOWING CLOUD CV, GEORGETOWN, TX  78633",
-   "assessed": 444519,
-   "class": "O1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.74626,
-   "lon": -97.723073,
-   "sqft": 2094,
-   "value": 444519,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.135,
-   "address": "312 BRIGHT LIGHT WAY, GEORGETOWN, TX  78633",
-   "assessed": 463525,
-   "class": "O1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.744983,
-   "lon": -97.721213,
-   "sqft": 2268,
-   "value": 463525,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.225,
-   "address": "107 ELDERBERRY CV, GEORGETOWN, TX  78633",
-   "assessed": 333122,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.718969,
-   "lon": -97.712392,
-   "sqft": 1643,
-   "value": 333122,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.168,
-   "address": "106 LUBBOCK DR, GEORGETOWN, TX  78633",
-   "assessed": 296050,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.723588,
-   "lon": -97.716917,
-   "sqft": 1328,
-   "value": 296050,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.139,
-   "address": "507 CROCKETT LOOP, GEORGETOWN, TX  78633",
-   "assessed": 322835,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726277,
-   "lon": -97.717783,
-   "sqft": 1783,
-   "value": 322835,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.158,
-   "address": "113 ENGINEERS PASS, JARRELL, TX  76537",
-   "assessed": 198134,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.803173,
-   "lon": -97.602936,
-   "sqft": 1107,
-   "value": 198134,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.138,
-   "address": "2441 WALKING Y RD, GEORGETOWN, TX  78633",
-   "assessed": 434937,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726086,
-   "lon": -97.689299,
-   "sqft": 1467,
-   "value": 434937,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.252,
-   "address": "103 WILD PLUM CIR, GEORGETOWN, TX  78633",
-   "assessed": 382071,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.719152,
-   "lon": -97.707069,
-   "sqft": 2053,
-   "value": 382071,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.229,
-   "address": "104 FALLS CIR, GEORGETOWN, TX  78633",
-   "assessed": 445541,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.723852,
-   "lon": -97.718814,
-   "sqft": 1994,
-   "value": 445541,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.147,
-   "address": "527 HEREFORD LN, GEORGETOWN, TX  78633",
-   "assessed": 352462,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.72972,
-   "lon": -97.689489,
-   "sqft": 1488,
-   "value": 352462,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.131,
-   "address": "1113 YAUPON HOLLY DR, GEORGETOWN, TX  78628",
-   "assessed": 320747,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.719408,
-   "lon": -97.674601,
-   "sqft": 1589,
-   "value": 320747,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.129,
-   "address": "1025 YAUPON HOLLY DR, GEORGETOWN, TX  78628",
-   "assessed": 320747,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.720069,
-   "lon": -97.675237,
-   "sqft": 1589,
-   "value": 320747,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.129,
-   "address": "1017 YAUPON HOLLY DR, GEORGETOWN, TX  78628",
-   "assessed": 320747,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.720213,
-   "lon": -97.67547,
-   "sqft": 1589,
-   "value": 320747,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.133,
-   "address": "613 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786901,
-   "lon": -97.645684,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.167,
-   "address": "131 NOLAN DR, GEORGETOWN, TX  78633",
-   "assessed": 317141,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.720315,
-   "lon": -97.714961,
-   "sqft": 1530,
-   "value": 317141,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.108,
-   "address": "345 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.785893,
-   "lon": -97.643775,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.182,
-   "address": "250 WHISPERING WIND, GEORGETOWN, TX  78633",
-   "assessed": 375847,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.716553,
-   "lon": -97.707716,
-   "sqft": 1904,
-   "value": 375847,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.206,
-   "address": "109 TIMBER HITCH CT, GEORGETOWN, TX  78633",
-   "assessed": 521453,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.728283,
-   "lon": -97.704186,
-   "sqft": 2378,
-   "value": 521453,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 1.222,
-   "address": "169 SILVERADO DR, GEORGETOWN, TX  78633",
-   "assessed": 932108,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731073,
-   "lon": -97.717173,
-   "sqft": 3265,
-   "value": 932108,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.193,
-   "address": "209 CYPRESS SPRINGS WAY, GEORGETOWN, TX  78633",
-   "assessed": 708096,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.727099,
-   "lon": -97.698687,
-   "sqft": 2590,
-   "value": 708096,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.15,
-   "address": "721 RANCHO DEL CIELO LOOP, JARRELL, TX  76537",
-   "assessed": 228746,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.784979,
-   "lon": -97.648388,
-   "sqft": 784,
-   "value": 228746,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.16,
-   "address": "2460 WALKING Y RD, GEORGETOWN, TX  78633",
-   "assessed": 438426,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726233,
-   "lon": -97.690078,
-   "sqft": 1501,
-   "value": 438426,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.133,
-   "address": "505 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 244470,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.785949,
-   "lon": -97.645281,
-   "sqft": 811,
-   "value": 244470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.117,
-   "address": "321 SUMMER RD, GEORGETOWN, TX  78633",
-   "assessed": 319489,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.728636,
-   "lon": -97.713216,
-   "sqft": 1755,
-   "value": 319489,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.209,
-   "address": "214 ROCKPORT ST, GEORGETOWN, TX  78633",
-   "assessed": 460362,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.73243,
-   "lon": -97.690383,
-   "sqft": 1994,
-   "value": 460362,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.193,
-   "address": "211 DIAMOND POINT RD, GEORGETOWN, TX  78633",
-   "assessed": 654732,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.740635,
-   "lon": -97.72991,
-   "sqft": 2352,
-   "value": 654732,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.11,
-   "address": "344 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 227930,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786299,
-   "lon": -97.643981,
-   "sqft": 1606,
-   "value": 227930,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.093,
-   "address": "113 HAMPTON CIR, GEORGETOWN, TX  78633",
-   "assessed": 251889,
-   "class": "A9",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.730136,
-   "lon": -97.715337,
-   "sqft": 1397,
-   "value": 251889,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.133,
-   "address": "153 MONTEREY OAK TRL, GEORGETOWN, TX  78628",
-   "assessed": 365237,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.716311,
-   "lon": -97.673995,
-   "sqft": 1431,
-   "value": 365237,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.159,
-   "address": "1900 DAVEE PL, GEORGETOWN, TX  78633",
-   "assessed": 373454,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.724748,
-   "lon": -97.680106,
-   "sqft": 1800,
-   "value": 373454,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.195,
-   "address": "207 GUADALUPE TRL, GEORGETOWN, TX  78633",
-   "assessed": 334701,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.723625,
-   "lon": -97.70196,
-   "sqft": 1626,
-   "value": 334701,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.105,
-   "address": "357 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.785778,
-   "lon": -97.644135,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.184,
-   "address": "101 SCURRY PASS, GEORGETOWN, TX  78633",
-   "assessed": 328693,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.7196,
-   "lon": -97.716554,
-   "sqft": 1568,
-   "value": 328693,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.138,
-   "address": "313 ESSEX LN, GEORGETOWN, TX  78633",
-   "assessed": 260261,
-   "class": "A9",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.732913,
-   "lon": -97.709723,
-   "sqft": 1426,
-   "value": 260261,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.144,
-   "address": "407 RIO GRANDE LOOP, GEORGETOWN, TX  78633",
-   "assessed": 350560,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.721724,
-   "lon": -97.702602,
-   "sqft": 1644,
-   "value": 350560,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.139,
-   "address": "2445 WALKING Y RD, GEORGETOWN, TX  78633",
-   "assessed": 460514,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.72602,
-   "lon": -97.689439,
-   "sqft": 1355,
-   "value": 460514,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.108,
-   "address": "324 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 235815,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786495,
-   "lon": -97.643368,
-   "sqft": 950,
-   "value": 235815,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.201,
-   "address": "121 MUIR CT, GEORGETOWN, TX  78633",
-   "assessed": 282772,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.72624,
-   "lon": -97.708435,
-   "sqft": 1328,
-   "value": 282772,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.134,
-   "address": "205 WINTER DR, GEORGETOWN, TX  78633",
-   "assessed": 321598,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.729541,
-   "lon": -97.714973,
-   "sqft": 1755,
-   "value": 321598,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.145,
-   "address": "403 TRADINGHOUSE CREEK ST, GEORGETOWN, TX  78633",
-   "assessed": 483657,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.73508,
-   "lon": -97.695262,
-   "sqft": 2052,
-   "value": 483657,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.132,
-   "address": "501 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 227930,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.785843,
-   "lon": -97.645234,
-   "sqft": 1606,
-   "value": 227930,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.223,
-   "address": "300 KLONDIKE DR, GEORGETOWN, TX  78633",
-   "assessed": 374548,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722838,
-   "lon": -97.712107,
-   "sqft": 2016,
-   "value": 374548,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.147,
-   "address": "115 CALHOUN LN, GEORGETOWN, TX  78633",
-   "assessed": 502233,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.732199,
-   "lon": -97.690675,
-   "sqft": 1868,
-   "value": 502233,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.144,
-   "address": "1820 FANNIE RD, GEORGETOWN, TX  78633",
-   "assessed": 377826,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725357,
-   "lon": -97.681178,
-   "sqft": 1818,
-   "value": 377826,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.219,
-   "address": "401 MONTLEY TRL, GEORGETOWN, TX  78633",
-   "assessed": 423940,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.722998,
-   "lon": -97.719026,
-   "sqft": 1970,
-   "value": 423940,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.166,
-   "address": "220 CROCKETT LOOP, GEORGETOWN, TX  78633",
-   "assessed": 316613,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726528,
-   "lon": -97.720035,
-   "sqft": 1597,
-   "value": 316613,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.855,
-   "address": "400 RANCHO DEL CIELO LOOP, JARRELL, TX  76537",
-   "assessed": 49578,
-   "class": "A7",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.785382,
-   "lon": -97.645295,
-   "sqft": 1160,
-   "value": 49578,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.116,
-   "address": "107 ESSEX LN, GEORGETOWN, TX  78633",
-   "assessed": 247995,
-   "class": "A9",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.730833,
-   "lon": -97.71287,
-   "sqft": 1426,
-   "value": 247995,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.999,
-   "address": "111 COUNTRY SIDE CT, GEORGETOWN, TX  78626",
-   "assessed": 149420,
-   "class": "A2",
-   "deed_date": "2025-07-31",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.729541,
-   "lon": -97.626139,
-   "sqft": 1876,
-   "value": 149420,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.195,
-   "address": "107 LLANO CV, GEORGETOWN, TX  78633",
-   "assessed": 470000,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "STC,STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.723877,
-   "lon": -97.705477,
-   "sqft": 2598,
-   "value": 470000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.162,
-   "address": "1105 YAUPON HOLLY DR, GEORGETOWN, TX  78628",
-   "assessed": 320747,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.719673,
-   "lon": -97.674705,
-   "sqft": 1589,
-   "value": 320747,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.193,
-   "address": "209 DIAMOND POINT RD, GEORGETOWN, TX  78633",
-   "assessed": 649567,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.740513,
-   "lon": -97.73007,
-   "sqft": 2356,
-   "value": 649567,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.13,
-   "address": "641 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.787528,
-   "lon": -97.64523,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.203,
-   "address": "621 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.787156,
-   "lon": -97.645867,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.133,
-   "address": "525 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 204291,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786478,
-   "lon": -97.645504,
-   "sqft": 1276,
-   "value": 204291,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.132,
-   "address": "517 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786266,
-   "lon": -97.645415,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.132,
-   "address": "513 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.78616,
-   "lon": -97.64537,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.142,
-   "address": "233 CROCKETT LOOP, GEORGETOWN, TX  78633",
-   "assessed": 326989,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726415,
-   "lon": -97.7208,
-   "sqft": 1784,
-   "value": 326989,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.106,
-   "address": "204 TUGBOAT ANNIE WAY, JARRELL, TX  76537",
-   "assessed": 207766,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.780837,
-   "lon": -97.64681,
-   "sqft": 1421,
-   "value": 207766,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 6.15,
-   "address": "950 CR 237, GEORGETOWN, TX  78633",
-   "assessed": 288954,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.779933,
-   "lon": -97.634448,
-   "sqft": 1995,
-   "value": 288954,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.158,
-   "address": "303 YUKON TER, GEORGETOWN, TX  78633",
-   "assessed": 362896,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.727762,
-   "lon": -97.712149,
-   "sqft": 1840,
-   "value": 362896,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.223,
-   "address": "108 PALO BLANCO CREEK LN, GEORGETOWN, TX  78633",
-   "assessed": 641672,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725277,
-   "lon": -97.698879,
-   "sqft": 2434,
-   "value": 641672,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.174,
-   "address": "1812 FANNIE RD, GEORGETOWN, TX  78633",
-   "assessed": 407610,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725085,
-   "lon": -97.681338,
-   "sqft": 2083,
-   "value": 407610,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.133,
-   "address": "601 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 244470,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786584,
-   "lon": -97.645549,
-   "sqft": 811,
-   "value": 244470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.145,
-   "address": "600 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 227930,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786711,
-   "lon": -97.644993,
-   "sqft": 1606,
-   "value": 227930,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.107,
-   "address": "361 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 182507,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.78574,
-   "lon": -97.644255,
-   "sqft": 1375,
-   "value": 182507,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.507,
-   "address": "400 CR 145, GEORGETOWN, TX  78626",
-   "assessed": 383775,
-   "class": "E1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.759042,
-   "lon": -97.611246,
-   "sqft": 1815,
-   "value": 383775,
-   "value_kind": "market (WCAD)",
-   "year_built": 1985
-  },
-  {
-   "acres": 0.14,
-   "address": "209 YUKON TER, GEORGETOWN, TX  78633",
-   "assessed": 374996,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.728362,
-   "lon": -97.711165,
-   "sqft": 1712,
-   "value": 374996,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.141,
-   "address": "116 GRANITE PEAK CV, GEORGETOWN, TX  78633",
-   "assessed": 314518,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.733448,
-   "lon": -97.702355,
-   "sqft": 1397,
-   "value": 314518,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.239,
-   "address": "103 CYPRESS SPRINGS WAY, GEORGETOWN, TX  78633",
-   "assessed": 657989,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.730399,
-   "lon": -97.697168,
-   "sqft": 2353,
-   "value": 657989,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.145,
-   "address": "202 ROCKPORT ST, GEORGETOWN, TX  78633",
-   "assessed": 424000,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.732945,
-   "lon": -97.691327,
-   "sqft": 1827,
-   "value": 424000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.111,
-   "address": "317 RANCHO DEL CIELO LOOP, JARRELL, TX  76537",
-   "assessed": 226590,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.783614,
-   "lon": -97.646329,
-   "sqft": 1606,
-   "value": 226590,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.108,
-   "address": "514 BONZO CT, JARRELL, TX  76537",
-   "assessed": 182558,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.781549,
-   "lon": -97.646394,
-   "sqft": 1375,
-   "value": 182558,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.273,
-   "address": "208 DIAMOND POINT RD, GEORGETOWN, TX  78633",
-   "assessed": 644635,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.739759,
-   "lon": -97.73084,
-   "sqft": 2244,
-   "value": 644635,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.105,
-   "address": "365 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 227930,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.785702,
-   "lon": -97.644376,
-   "sqft": 1606,
-   "value": 227930,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.118,
-   "address": "209 TUGBOAT ANNIE WAY, JARRELL, TX  76537",
-   "assessed": 163959,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.780381,
-   "lon": -97.64666,
-   "sqft": 1200,
-   "value": 163959,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.133,
-   "address": "609 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786796,
-   "lon": -97.645639,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.126,
-   "address": "604 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 232410,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786842,
-   "lon": -97.64505,
-   "sqft": 950,
-   "value": 232410,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.125,
-   "address": "608 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 244470,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.786964,
-   "lon": -97.645105,
-   "sqft": 811,
-   "value": 244470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.123,
-   "address": "211 PAINT CREEK LN, GEORGETOWN, TX  78633",
-   "assessed": 328656,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.734529,
-   "lon": -97.694431,
-   "sqft": 1455,
-   "value": 328656,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.182,
-   "address": "213 SWINGING H LN, GEORGETOWN, TX  78633",
-   "assessed": 398685,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.7267,
-   "lon": -97.687132,
-   "sqft": 1943,
-   "value": 398685,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.118,
-   "address": "519 BONZO CT, JARRELL, TX  76537",
-   "assessed": 182558,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.781436,
-   "lon": -97.647119,
-   "sqft": 1375,
-   "value": 182558,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.109,
-   "address": "348 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 165986,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.786261,
-   "lon": -97.644105,
-   "sqft": 1200,
-   "value": 165986,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.106,
-   "address": "369 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.785663,
-   "lon": -97.644495,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.106,
-   "address": "349 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 235815,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.785854,
-   "lon": -97.643895,
-   "sqft": 950,
-   "value": 235815,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.265,
-   "address": "105 STETSON CIR, GEORGETOWN, TX  78633",
-   "assessed": 370651,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.717894,
-   "lon": -97.704003,
-   "sqft": 1822,
-   "value": 370651,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.235,
-   "address": "113 YAUPON LN, GEORGETOWN, TX  78633",
-   "assessed": 464723,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.721525,
-   "lon": -97.707989,
-   "sqft": 2201,
-   "value": 464723,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.207,
-   "address": "721 TEXAS DR, GEORGETOWN, TX  78633",
-   "assessed": 425277,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.724718,
-   "lon": -97.715738,
-   "sqft": 2262,
-   "value": 425277,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.145,
-   "address": "373 COWPOKE DR, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.785617,
-   "lon": -97.644637,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.158,
-   "address": "400 SUNDANCE LN, GEORGETOWN, TX  78633",
-   "assessed": 292346,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.725595,
-   "lon": -97.70998,
-   "sqft": 1411,
-   "value": 292346,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.129,
-   "address": "1117 YAUPON HOLLY DR, GEORGETOWN, TX  78628",
-   "assessed": 293779,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.719289,
-   "lon": -97.674556,
-   "sqft": 1742,
-   "value": 293779,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.194,
-   "address": "202 DIAMOND POINT RD, GEORGETOWN, TX  78633",
-   "assessed": 670041,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.740072,
-   "lon": -97.731443,
-   "sqft": 2486,
-   "value": 670041,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.127,
-   "address": "637 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 227930,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.78748,
-   "lon": -97.645361,
-   "sqft": 1606,
-   "value": 227930,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "119 CROSBY ST, GEORGETOWN, TX  78633",
-   "assessed": 307577,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.722275,
-   "lon": -97.718146,
-   "sqft": 1230,
-   "value": 307577,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.232,
-   "address": "101 BASS ST, GEORGETOWN, TX  78633",
-   "assessed": 313955,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.716256,
-   "lon": -97.705987,
-   "sqft": 1442,
-   "value": 313955,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.303,
-   "address": "136 RUELLIA DR, GEORGETOWN, TX  78633",
-   "assessed": 465884,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.716487,
-   "lon": -97.708747,
-   "sqft": 2221,
-   "value": 465884,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.269,
-   "address": "320 RIO GRANDE LOOP, GEORGETOWN, TX  78633",
-   "assessed": 371139,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.721102,
-   "lon": -97.705096,
-   "sqft": 1666,
-   "value": 371139,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.142,
-   "address": "131 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.782754,
-   "lon": -97.642301,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.131,
-   "address": "120 TUGBOAT ANNIE WAY, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.780978,
-   "lon": -97.646377,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.121,
-   "address": "633 CATTLE QUEEN RD, JARRELL, TX  76537",
-   "assessed": 244470,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.787439,
-   "lon": -97.645491,
-   "sqft": 811,
-   "value": 244470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.155,
-   "address": "132 BURT RAINEY LN, JARRELL, TX  76537",
-   "assessed": 209100,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.783667,
-   "lon": -97.638706,
-   "sqft": 1421,
-   "value": 209100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.13,
-   "address": "200 TUGBOAT ANNIE WAY, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.780881,
-   "lon": -97.646676,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.139,
-   "address": "506 BONZO CT, JARRELL, TX  76537",
-   "assessed": 191037,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.781327,
-   "lon": -97.646355,
-   "sqft": 1500,
-   "value": 191037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 10.009,
-   "address": "701 CR 144, GEORGETOWN, TX  78626",
-   "assessed": 4753624,
-   "class": "F1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "ML",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.751786,
-   "lon": -97.623434,
-   "sqft": 20000,
-   "value": 4753624,
-   "value_kind": "market (WCAD)",
-   "year_built": 2010
-  },
-  {
-   "acres": 0.133,
-   "address": "508 CROCKETT LOOP, GEORGETOWN, TX  78633",
-   "assessed": 326819,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726078,
-   "lon": -97.718283,
-   "sqft": 1783,
-   "value": 326819,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.17,
-   "address": "210 TRADINGHOUSE CREEK ST, GEORGETOWN, TX  78633",
-   "assessed": 465005,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.73189,
-   "lon": -97.697564,
-   "sqft": 2065,
-   "value": 465005,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 1.01,
-   "address": "504 LR WILLIAMS LN, JARRELL, TX  76537",
-   "assessed": 1134600,
-   "class": "F1",
-   "deed_date": "2025-07-10",
-   "homestead": false,
-   "lat": 30.770572,
-   "lon": -97.61507,
-   "value": 1134600,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 0.131,
-   "address": "1033 SIENNA BEAR RD, GEORGETOWN, TX  78633",
-   "assessed": 373425,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.726243,
-   "lon": -97.679531,
-   "sqft": 1776,
-   "value": 373425,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.096,
-   "address": "115 HAMPTON CIR, GEORGETOWN, TX  78633",
-   "assessed": 240000,
-   "class": "A9",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.730093,
-   "lon": -97.71544,
-   "sqft": 1397,
-   "value": 240000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.236,
-   "address": "332 YUKON TER, GEORGETOWN, TX  78633",
-   "assessed": 363750,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.726043,
-   "lon": -97.713947,
-   "sqft": 1838,
-   "value": 363750,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
   }
  ],
  "windows": {
   "12mo": {
-   "count": 702,
-   "median_value": 334990,
-   "pct_of_households": 16.84,
-   "pct_of_population": 7.96
+   "count": 484,
+   "median_value": 344042,
+   "pct_of_households": 11.61,
+   "pct_of_population": 5.49
   },
   "3mo": {
-   "count": 107,
-   "median_value": 352462,
-   "pct_of_households": 2.57,
-   "pct_of_population": 1.21
+   "count": 12,
+   "median_value": 327230,
+   "pct_of_households": 0.29,
+   "pct_of_population": 0.14
   },
   "6mo": {
-   "count": 280,
-   "median_value": 337773,
-   "pct_of_households": 6.72,
-   "pct_of_population": 3.18
+   "count": 141,
+   "median_value": 337907,
+   "pct_of_households": 3.38,
+   "pct_of_population": 1.6
   }
  }
 }

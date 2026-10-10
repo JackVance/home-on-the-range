@@ -1,11 +1,317 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 49,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 46,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3627,
  "months_back": 12,
  "population_acs": 8156,
  "transfers": [
+  {
+   "acres": 1.719,
+   "address": "602 BLACKSON 78752",
+   "assessed": 251591,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.336372,
+   "lon": -97.704433,
+   "sqft": 832,
+   "value": 251591,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 10.328,
+   "address": "214 ANDERSON 78752",
+   "assessed": 1487000,
+   "class": "F1",
+   "deed_date": "2026-08-28",
+   "homestead": false,
+   "lat": 30.344026,
+   "lon": -97.703928,
+   "sqft": 7973,
+   "value": 1487000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 2.285,
+   "address": "102 CRESTLAND AUSTIN 78752",
+   "assessed": 389164,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.338187,
+   "lon": -97.70827,
+   "sqft": 1420,
+   "value": 389164,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1959
+  },
+  {
+   "acres": 2.134,
+   "address": "403 DELMAR AUSTIN 78752",
+   "assessed": 373852,
+   "class": "A1",
+   "deed_date": "2026-08-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.337643,
+   "lon": -97.705964,
+   "sqft": 1152,
+   "value": 373852,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 2.135,
+   "address": "301 DELMAR 78752",
+   "assessed": 206774,
+   "class": "B2",
+   "deed_date": "2026-07-31",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.338182,
+   "lon": -97.707072,
+   "sqft": 1536,
+   "value": 206774,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1950
+  },
+  {
+   "acres": 8.6,
+   "address": "715 POWELL 78753",
+   "assessed": 659200,
+   "class": "F1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.34986,
+   "lon": -97.708491,
+   "sqft": 4350,
+   "value": 659200,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1935
+  },
+  {
+   "acres": 2.634,
+   "address": "7503 LAMAR 78753",
+   "assessed": 800011,
+   "class": "F1",
+   "deed_date": "2026-07-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.342511,
+   "lon": -97.715596,
+   "sqft": 3999,
+   "value": 800011,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 1.574,
+   "address": "513 O DELL 78752",
+   "assessed": 345910,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "homestead": false,
+   "lat": 30.338217,
+   "lon": -97.713753,
+   "sqft": 3004,
+   "value": 345910,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2025
+  },
+  {
+   "acres": 2.88,
+   "address": "7523 MEADOWVIEW AUSTIN 78752",
+   "assessed": 381941,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.340893,
+   "lon": -97.709344,
+   "sqft": 1660,
+   "value": 381941,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1959
+  },
+  {
+   "acres": 2.097,
+   "address": "309 LOLA 78753",
+   "assessed": 297204,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.345389,
+   "lon": -97.701208,
+   "sqft": 1382,
+   "value": 297204,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1958
+  },
+  {
+   "acres": 1.736,
+   "address": "7702 NORTHCREST 78752",
+   "assessed": 286328,
+   "class": "B2",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.342028,
+   "lon": -97.707506,
+   "sqft": 1716,
+   "value": 286328,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1974
+  },
+  {
+   "acres": 1.946,
+   "address": "7600 NORTHCREST AUSTIN 78752",
+   "assessed": 445062,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.340853,
+   "lon": -97.708735,
+   "sqft": 1626,
+   "value": 445062,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": 2.372,
+   "address": "706 CRESTLAND AUSTIN 78752",
+   "assessed": 592406,
+   "class": "A1",
+   "deed_date": "2026-06-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": true,
+   "lat": 30.342164,
+   "lon": -97.715024,
+   "sqft": 1734,
+   "value": 592406,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1955
+  },
+  {
+   "acres": 2.116,
+   "address": "203 LOLA AUSTIN 78753",
+   "assessed": 309366,
+   "class": "A1",
+   "deed_date": "2026-06-05",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "BUILT-UP",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.346081,
+   "lon": -97.702643,
+   "sqft": 1451,
+   "value": 309366,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1958
+  },
+  {
+   "acres": 2.811,
+   "address": "7605 MEADOWVIEW AUSTIN 78752",
+   "assessed": 398266,
+   "class": "A1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.341459,
+   "lon": -97.708745,
+   "sqft": 1278,
+   "value": 398266,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1958
+  },
+  {
+   "acres": 12.71,
+   "address": "INTERSTATE HY 35 78753",
+   "assessed": 1660950,
+   "class": "C1",
+   "deed_date": "2026-06-02",
+   "homestead": false,
+   "lat": 30.341143,
+   "lon": -97.700759,
+   "value": 1660950,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.976,
+   "address": "7606 MEADOWVIEW AUSTIN 78752",
+   "assessed": 340801,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.341924,
+   "lon": -97.709135,
+   "sqft": 1128,
+   "value": 340801,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1959
+  },
   {
    "acres": 1.718,
    "address": "400 DELMAR 78752",
@@ -65,7 +371,7 @@
   {
    "acres": 2.255,
    "address": "7601 CRESTON AUSTIN 78752",
-   "assessed": 358457,
+   "assessed": 338200,
    "class": "A1",
    "deed_date": "2026-05-14",
    "extras": {
@@ -77,9 +383,28 @@
    "lat": 30.342044,
    "lon": -97.710981,
    "sqft": 1060,
-   "value": 358457,
+   "value": 338200,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1956
+  },
+  {
+   "acres": 2.051,
+   "address": "207 WHITE OAK AUSTIN 78753",
+   "assessed": 323330,
+   "class": "A1",
+   "deed_date": "2026-05-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.347391,
+   "lon": -97.70139,
+   "sqft": 1318,
+   "value": 323330,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1960
   },
   {
    "acres": 1.831,
@@ -103,7 +428,7 @@
   {
    "acres": 2.115,
    "address": "205 LOLA 78753",
-   "assessed": 410090,
+   "assessed": 368287,
    "class": "A1",
    "deed_date": "2026-04-30",
    "extras": {
@@ -115,7 +440,7 @@
    "lat": 30.345982,
    "lon": -97.702438,
    "sqft": 2020,
-   "value": 410090,
+   "value": 368287,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1957
   },
@@ -274,7 +599,7 @@
   {
    "acres": 2.498,
    "address": "7517 DELAFIELD 78752",
-   "assessed": 395574,
+   "assessed": 385000,
    "class": "A1",
    "deed_date": "2026-02-18",
    "extras": {
@@ -282,11 +607,11 @@
     "roof": "METAL",
     "roof_style": "GABLE"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.341004,
    "lon": -97.710699,
    "sqft": 1479,
-   "value": 395574,
+   "value": 385000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1954
   },
@@ -364,7 +689,7 @@
   {
    "acres": 1.761,
    "address": "508 DELMAR 78752",
-   "assessed": 326727,
+   "assessed": 288696,
    "class": "B2",
    "deed_date": "2025-12-18",
    "extras": {
@@ -376,7 +701,7 @@
    "lat": 30.337535,
    "lon": -97.70426,
    "sqft": 3192,
-   "value": 326727,
+   "value": 288696,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -457,25 +782,6 @@
    "year_built": 1952
   },
   {
-   "acres": 2.097,
-   "address": "309 LOLA 78753",
-   "assessed": 297204,
-   "class": "A1",
-   "deed_date": "2025-11-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.345389,
-   "lon": -97.701208,
-   "sqft": 1382,
-   "value": 297204,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1958
-  },
-  {
    "acres": 1.575,
    "address": "622 O DELL 78752",
    "assessed": 262275,
@@ -497,7 +803,7 @@
   {
    "acres": 2.278,
    "address": "7700 CRESTON AUSTIN 78752",
-   "assessed": 380152,
+   "assessed": 335902,
    "class": "A1",
    "deed_date": "2025-11-05",
    "extras": {
@@ -509,7 +815,7 @@
    "lat": 30.343207,
    "lon": -97.710607,
    "sqft": 1398,
-   "value": 380152,
+   "value": 335902,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1958
   },
@@ -530,404 +836,36 @@
   {
    "acres": 1.724,
    "address": "8207 SAM RAYBURN 78753",
-   "assessed": 1299200,
+   "assessed": 623751,
    "class": "B1",
    "deed_date": "2025-10-20",
    "homestead": false,
    "lat": 30.346568,
    "lon": -97.699546,
    "sqft": 4480,
-   "value": 1299200,
+   "value": 623751,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
-  },
-  {
-   "acres": 2.051,
-   "address": "207 WHITE OAK AUSTIN 78753",
-   "assessed": 339454,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.347391,
-   "lon": -97.70139,
-   "sqft": 1318,
-   "value": 339454,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1960
-  },
-  {
-   "acres": 1.545,
-   "address": "510 O DELL 78752",
-   "assessed": 288730,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.338618,
-   "lon": -97.713316,
-   "sqft": 357,
-   "value": 288730,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1948
-  },
-  {
-   "acres": 2.1,
-   "address": "7507 CARRIAGE AUSTIN 78752",
-   "assessed": 339706,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.3392,
-   "lon": -97.708203,
-   "sqft": 974,
-   "value": 339706,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1960
-  },
-  {
-   "acres": 1.2,
-   "address": "7202 MARCELL AUSTIN 78752",
-   "assessed": 248019,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.338761,
-   "lon": -97.715509,
-   "sqft": 792,
-   "value": 248019,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1951
-  },
-  {
-   "acres": 1.606,
-   "address": "624 O DELL 78752",
-   "assessed": 350598,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.339818,
-   "lon": -97.715898,
-   "sqft": 1496,
-   "value": 350598,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1946
-  },
-  {
-   "acres": 2.35,
-   "address": "7607 CRESTON 78752",
-   "assessed": 372265,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.342477,
-   "lon": -97.710537,
-   "sqft": 1260,
-   "value": 372265,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1956
-  },
-  {
-   "acres": 2.582,
-   "address": "405 OERTLI 78753",
-   "assessed": 272496,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.348699,
-   "lon": -97.698914,
-   "sqft": 1732,
-   "value": 272496,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1961
-  },
-  {
-   "acres": 2.823,
-   "address": "7707 EAST CREST 78752",
-   "assessed": 350707,
-   "class": "B2",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.341493,
-   "lon": -97.705516,
-   "sqft": 1716,
-   "value": 350707,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1974
-  },
-  {
-   "acres": 1.765,
-   "address": "616 BISSONET AUSTIN 78752",
-   "assessed": 493493,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.343255,
-   "lon": -97.713986,
-   "sqft": 1248,
-   "value": 493493,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1963
-  },
-  {
-   "acres": 30.077,
-   "address": "7700 CHEVY CHASE 78752",
-   "assessed": 5551320,
-   "class": "F1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "BUILT-UP",
-    "roof_style": "FLAT"
-   },
-   "homestead": false,
-   "lat": 30.341437,
-   "lon": -97.703705,
-   "sqft": 69620,
-   "value": 5551320,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1969
-  },
-  {
-   "acres": 27.133,
-   "address": "313 ANDERSON 78752",
-   "assessed": 5873803,
-   "class": "F1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "BUILT-UP",
-    "roof_style": "FLAT"
-   },
-   "homestead": false,
-   "lat": 30.342226,
-   "lon": -97.704501,
-   "sqft": 52368,
-   "value": 5873803,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1971
-  },
-  {
-   "acres": 37.857,
-   "address": "7600 CHEVY CHASE 78752",
-   "assessed": 5977746,
-   "class": "F1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "BUILT-UP",
-    "roof_style": "FLAT"
-   },
-   "homestead": false,
-   "lat": 30.341054,
-   "lon": -97.704573,
-   "sqft": 69620,
-   "value": 5977746,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1971
-  },
-  {
-   "acres": 22.758,
-   "address": "7616 INTERSTATE HY 35 78752",
-   "assessed": 2364687,
-   "class": "F3",
-   "deed_date": "2025-07-31",
-   "homestead": false,
-   "lat": 30.338717,
-   "lon": -97.702645,
-   "value": 2364687,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 33.338,
-   "address": "7715 CHEVY CHASE 78752",
-   "assessed": 2924478,
-   "class": "F1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "BUILT-UP",
-    "roof_style": "FLAT"
-   },
-   "homestead": false,
-   "lat": 30.339722,
-   "lon": -97.703374,
-   "sqft": 51396,
-   "value": 2924478,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1973
-  },
-  {
-   "acres": 22.339,
-   "address": "7745 CHEVY CHASE 78752",
-   "assessed": 4755878,
-   "class": "F1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "BUILT-UP",
-    "roof_style": "FLAT"
-   },
-   "homestead": false,
-   "lat": 30.3403,
-   "lon": -97.702759,
-   "sqft": 60242,
-   "value": 4755878,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1975
-  },
-  {
-   "acres": 1.574,
-   "address": "513 O DELL 78752",
-   "assessed": 391478,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "homestead": false,
-   "lat": 30.338217,
-   "lon": -97.713753,
-   "sqft": 3004,
-   "value": 391478,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.995,
-   "address": "7611 EAST CREST 78752",
-   "assessed": 342103,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.340313,
-   "lon": -97.706268,
-   "sqft": 1152,
-   "value": 342103,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1963
-  },
-  {
-   "acres": 2.082,
-   "address": "307 POWELL 78753",
-   "assessed": 273506,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.346098,
-   "lon": -97.70075,
-   "sqft": 864,
-   "value": 273506,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1959
-  },
-  {
-   "acres": 1.716,
-   "address": "8213 SAM RAYBURN 78753",
-   "assessed": 625392,
-   "class": "B4",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.346965,
-   "lon": -97.699299,
-   "sqft": 4060,
-   "value": 625392,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1971
-  },
-  {
-   "acres": 2.129,
-   "address": "8210 SAM RAYBURN 78753",
-   "assessed": 560154,
-   "class": "B4",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.347189,
-   "lon": -97.699891,
-   "sqft": 3382,
-   "value": 560154,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1971
   }
  ],
  "windows": {
   "12mo": {
-   "count": 49,
+   "count": 46,
    "median_value": 372606,
-   "pct_of_households": 1.35,
-   "pct_of_population": 0.6
+   "pct_of_households": 1.27,
+   "pct_of_population": 0.56
   },
   "3mo": {
-   "count": 7,
-   "median_value": 358457,
-   "pct_of_households": 0.19,
-   "pct_of_population": 0.09
+   "count": 9,
+   "median_value": 381941,
+   "pct_of_households": 0.25,
+   "pct_of_population": 0.11
   },
   "6mo": {
-   "count": 17,
-   "median_value": 372606,
-   "pct_of_households": 0.47,
-   "pct_of_population": 0.21
+   "count": 25,
+   "median_value": 368287,
+   "pct_of_households": 0.69,
+   "pct_of_population": 0.31
   }
  }
 }

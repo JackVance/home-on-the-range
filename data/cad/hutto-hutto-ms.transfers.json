@@ -1,11 +1,935 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 653,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 548,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 4592,
  "months_back": 12,
  "population_acs": 15278,
  "transfers": [
+  {
+   "acres": 0.151,
+   "address": "219 GREENS BAYOU TRL, HUTTO, TX  78634",
+   "assessed": 314965,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.575542,
+   "lon": -97.541977,
+   "sqft": 1469,
+   "value": 314965,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.172,
+   "address": "104 CHILDRESS ST, HUTTO, TX  78634",
+   "assessed": 368680,
+   "class": "O1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.573139,
+   "lon": -97.554894,
+   "sqft": 1652,
+   "value": 368680,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.52,
+   "address": "400 RIO GRANDE AVE, HUTTO, TX  78634",
+   "assessed": 434928,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.570259,
+   "lon": -97.537652,
+   "sqft": 1835,
+   "value": 459534,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
+  {
+   "acres": 0.189,
+   "address": "1106 IRINA CV, HUTTO, TX  78634",
+   "assessed": 320191,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.55642,
+   "lon": -97.536793,
+   "sqft": 1696,
+   "value": 320191,
+   "value_kind": "market (WCAD)",
+   "year_built": 2015
+  },
+  {
+   "acres": 0.124,
+   "address": "133 HOLMBY DR, HUTTO, TX  78634",
+   "assessed": 208019,
+   "class": "O1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.577988,
+   "lon": -97.535314,
+   "sqft": 1705,
+   "value": 208019,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.138,
+   "address": "202 PICO ST, HUTTO, TX  78634",
+   "assessed": 290314,
+   "class": "O1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.57737,
+   "lon": -97.535071,
+   "sqft": 1859,
+   "value": 290314,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.138,
+   "address": "204 PICO ST, HUTTO, TX  78634",
+   "assessed": 345555,
+   "class": "O1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.577417,
+   "lon": -97.534921,
+   "sqft": 2068,
+   "value": 345555,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.232,
+   "address": "407 W METCALFE ST, HUTTO, TX  78634",
+   "assessed": 373887,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "exterior": "STN, HP",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.545709,
+   "lon": -97.55084,
+   "sqft": 1204,
+   "value": 373887,
+   "value_kind": "market (WCAD)",
+   "year_built": 2008
+  },
+  {
+   "acres": 0.148,
+   "address": "212 SEAHOLM LN, HUTTO, TX  78634",
+   "assessed": 335834,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.554402,
+   "lon": -97.535942,
+   "sqft": 1936,
+   "value": 335834,
+   "value_kind": "market (WCAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 0.176,
+   "address": "913 ROCK DAISY TRL, HUTTO, TX  78634",
+   "assessed": 195646,
+   "class": "O1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.584318,
+   "lon": -97.523537,
+   "sqft": 2408,
+   "value": 195646,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.149,
+   "address": "212 ROYAL FERN RD, HUTTO, TX  78634",
+   "assessed": 375468,
+   "class": "O1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.583564,
+   "lon": -97.528031,
+   "sqft": 1767,
+   "value": 375468,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.189,
+   "address": "456 BRANDYWINE RD, HUTTO, TX  78634",
+   "assessed": 396376,
+   "class": "O1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.583474,
+   "lon": -97.526069,
+   "sqft": 1953,
+   "value": 396376,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
+  },
+  {
+   "acres": 0.198,
+   "address": "141 CLOVERTON CRESCENT, HUTTO, TX  78634",
+   "assessed": 580366,
+   "class": "O1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.583711,
+   "lon": -97.522769,
+   "sqft": 2151,
+   "value": 580366,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
+  },
+  {
+   "acres": 0.138,
+   "address": "111 HOLMBY DR, HUTTO, TX  78634",
+   "assessed": 405135,
+   "class": "O1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.579325,
+   "lon": -97.535878,
+   "sqft": 1699,
+   "value": 405135,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.19,
+   "address": "105 MAIN ST, HUTTO, TX  78634",
+   "assessed": 398333,
+   "class": "F1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "WD",
+    "foundation": "SLB"
+   },
+   "homestead": false,
+   "lat": 30.543383,
+   "lon": -97.548624,
+   "sqft": 2409,
+   "value": 398333,
+   "value_kind": "market (WCAD)",
+   "year_built": 1985
+  },
+  {
+   "acres": 0.167,
+   "address": "119 STELLAMAR DR, HUTTO, TX  78634",
+   "assessed": 363262,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "BW",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.554703,
+   "lon": -97.540547,
+   "sqft": 1639,
+   "value": 363262,
+   "value_kind": "market (WCAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 0.179,
+   "address": "145 PLANTAIN DR, HUTTO, TX  78634",
+   "assessed": 333398,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.568051,
+   "lon": -97.54007,
+   "sqft": 1870,
+   "value": 333398,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
+  {
+   "acres": 0.111,
+   "address": "124 MAPLE HEDGE RD, HUTTO, TX  78634",
+   "assessed": 166752,
+   "class": "O1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.587175,
+   "lon": -97.531054,
+   "sqft": 1666,
+   "value": 166752,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.497,
+   "address": "208 BLANCO DR, HUTTO, TX  78634",
+   "assessed": 480197,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.571368,
+   "lon": -97.535999,
+   "sqft": 2230,
+   "value": 494010,
+   "value_kind": "market (WCAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": 0.11,
+   "address": "521 BLOOMINGTON LOOP, HUTTO, TX  78634",
+   "assessed": 357788,
+   "class": "O1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.585211,
+   "lon": -97.530376,
+   "sqft": 1599,
+   "value": 357788,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.096,
+   "address": "1601 CR 394, HUTTO, TX  78634",
+   "assessed": 236106,
+   "class": "A5",
+   "deed_date": "2026-07-07",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.597948,
+   "lon": -97.509176,
+   "sqft": 1624,
+   "value": 265972,
+   "value_kind": "market (WCAD)",
+   "year_built": 1996
+  },
+  {
+   "acres": 0.181,
+   "address": "206 ALMQUIST ST, HUTTO, TX  78634",
+   "assessed": 299330,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.567503,
+   "lon": -97.547604,
+   "sqft": 931,
+   "value": 299330,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.18,
+   "address": "703 BLUEJACK WAY, HUTTO, TX  78634",
+   "assessed": 349964,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.566268,
+   "lon": -97.526613,
+   "sqft": 1919,
+   "value": 349964,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 0.149,
+   "address": "429 BRANDYWINE RD, HUTTO, TX  78634",
+   "assessed": 395413,
+   "class": "O1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.583415,
+   "lon": -97.527291,
+   "sqft": 1974,
+   "value": 395413,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.165,
+   "address": "1010 PEMBROKE CT, HUTTO, TX  78634",
+   "assessed": 299280,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "BW",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.551552,
+   "lon": -97.538487,
+   "sqft": 1469,
+   "value": 299280,
+   "value_kind": "market (WCAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 0.119,
+   "address": "1002 UNIVERSAL DR, HUTTO, TX  78634",
+   "assessed": 201204,
+   "class": "O1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.576229,
+   "lon": -97.536154,
+   "sqft": 1245,
+   "value": 201204,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.179,
+   "address": "1003 OTELLO WAY, HUTTO, TX  78634",
+   "assessed": 406519,
+   "class": "A1",
+   "deed_date": "2026-07-03",
+   "extras": {
+    "exterior": "WB",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.569526,
+   "lon": -97.522958,
+   "sqft": 2429,
+   "value": 406519,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 2.003,
+   "address": "266 COURTNEES WAY, GEORGETOWN, TX  78626",
+   "assessed": 653580,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.630044,
+   "lon": -97.556656,
+   "sqft": 2296,
+   "value": 653580,
+   "value_kind": "market (WCAD)",
+   "year_built": 2001
+  },
+  {
+   "acres": 0.19,
+   "address": "1011 PEMBROKE CT, HUTTO, TX  78634",
+   "assessed": 299280,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "BW",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.552147,
+   "lon": -97.538466,
+   "sqft": 1469,
+   "value": 299280,
+   "value_kind": "market (WCAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 0.175,
+   "address": "105 SOPHORA DR, HUTTO, TX  78634",
+   "assessed": 332789,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.566499,
+   "lon": -97.534603,
+   "sqft": 1861,
+   "value": 332789,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 0.19,
+   "address": "114 PRONGHORN ST, HUTTO, TX  78634",
+   "assessed": 310884,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.559708,
+   "lon": -97.56224,
+   "sqft": 748,
+   "value": 310884,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 5.102,
+   "address": "201 HERITAGE LOOP, HUTTO, TX  78634",
+   "assessed": 952629,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.624894,
+   "lon": -97.551072,
+   "sqft": 3706,
+   "value": 1404945,
+   "value_kind": "market (WCAD)",
+   "year_built": 2008
+  },
+  {
+   "acres": 0.521,
+   "address": "116 SAN JACINTO DR, HUTTO, TX  78634",
+   "assessed": 402720,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.56801,
+   "lon": -97.533929,
+   "sqft": 1846,
+   "value": 402720,
+   "value_kind": "market (WCAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": 0.182,
+   "address": "203 WEGSTROM ST, HUTTO, TX  78634",
+   "assessed": 247986,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BV,HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.563589,
+   "lon": -97.547852,
+   "sqft": 1339,
+   "value": 247986,
+   "value_kind": "market (WCAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": 0.519,
+   "address": "102 BOSQUE DR, HUTTO, TX  78634",
+   "assessed": 433921,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.571553,
+   "lon": -97.533685,
+   "sqft": 2002,
+   "value": 433921,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 0.186,
+   "address": "805 ROCK DAISY TRL, HUTTO, TX  78634",
+   "assessed": 257005,
+   "class": "O1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.584018,
+   "lon": -97.524872,
+   "sqft": 2372,
+   "value": 257005,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.167,
+   "address": "412 BRANDYWINE RD, HUTTO, TX  78634",
+   "assessed": 423750,
+   "class": "O1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.582744,
+   "lon": -97.527682,
+   "sqft": 1974,
+   "value": 423750,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.111,
+   "address": "120 ROCK DAISY TRL, HUTTO, TX  78634",
+   "assessed": 404118,
+   "class": "O1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.585713,
+   "lon": -97.53091,
+   "sqft": 1407,
+   "value": 404118,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.151,
+   "address": "138 HOLMBY DR, HUTTO, TX  78634",
+   "assessed": 208903,
+   "class": "O1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.577578,
+   "lon": -97.535734,
+   "sqft": 2027,
+   "value": 208903,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.124,
+   "address": "103 MANDEVILLE DR, HUTTO, TX  78634",
+   "assessed": 313833,
+   "class": "O1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.576041,
+   "lon": -97.535432,
+   "sqft": 1245,
+   "value": 313833,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.182,
+   "address": "105 BLUEJAY CV, HUTTO, TX  78634",
+   "assessed": 256279,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "WB",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.551177,
+   "lon": -97.53223,
+   "sqft": 1315,
+   "value": 256279,
+   "value_kind": "market (WCAD)",
+   "year_built": 1999
+  },
+  {
+   "acres": 0.149,
+   "address": "208 ROYAL FERN RD, HUTTO, TX  78634",
+   "assessed": 411654,
+   "class": "O1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.583517,
+   "lon": -97.528181,
+   "sqft": 2088,
+   "value": 411654,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.111,
+   "address": "104 MAPLE HEDGE RD, HUTTO, TX  78634",
+   "assessed": 344981,
+   "class": "O1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.586659,
+   "lon": -97.530836,
+   "sqft": 1217,
+   "value": 344981,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.134,
+   "address": "108 HOLMBY DR, HUTTO, TX  78634",
+   "assessed": 477799,
+   "class": "O1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.579411,
+   "lon": -97.536504,
+   "sqft": 1855,
+   "value": 477799,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.188,
+   "address": "506 WEST ST, HUTTO, TX  78634",
+   "assessed": 249602,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.546803,
+   "lon": -97.549847,
+   "sqft": 900,
+   "value": 249602,
+   "value_kind": "market (WCAD)",
+   "year_built": 1994
+  },
+  {
+   "acres": 0.215,
+   "address": "1009 VANDERSCILE RD, HUTTO, TX  78634",
+   "assessed": 444295,
+   "class": "O1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.572796,
+   "lon": -97.55515,
+   "sqft": 1929,
+   "value": 444295,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.11,
+   "address": "120 MAPLE HEDGE RD, HUTTO, TX  78634",
+   "assessed": 197457,
+   "class": "O1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.587072,
+   "lon": -97.531011,
+   "sqft": 1068,
+   "value": 197457,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.176,
+   "address": "110 N PASTURE CV, HUTTO, TX  78634",
+   "assessed": 459929,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.552897,
+   "lon": -97.564232,
+   "sqft": 1258,
+   "value": 459929,
+   "value_kind": "market (WCAD)",
+   "year_built": 2013
+  },
+  {
+   "acres": 0.157,
+   "address": "101 ROCK DAISY TRL, HUTTO, TX  78634",
+   "assessed": 321620,
+   "class": "O1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.585988,
+   "lon": -97.531719,
+   "sqft": 1636,
+   "value": 321620,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
   {
    "acres": 0.176,
    "address": "126 BROWN ST, HUTTO, TX  78634",
@@ -24,6 +948,101 @@
    "value": 278377,
    "value_kind": "market (WCAD)",
    "year_built": 2003
+  },
+  {
+   "acres": 0.189,
+   "address": "220 ADRIANA LN, HUTTO, TX  78634",
+   "assessed": 334633,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.55727,
+   "lon": -97.548782,
+   "sqft": 727,
+   "value": 334633,
+   "value_kind": "market (WCAD)",
+   "year_built": 2012
+  },
+  {
+   "acres": 0.145,
+   "address": "114 STINCHCOMB RD, HUTTO, TX  78634",
+   "assessed": 406755,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.573425,
+   "lon": -97.561594,
+   "sqft": 2409,
+   "value": 406755,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.111,
+   "address": "112 MAPLE HEDGE RD, HUTTO, TX  78634",
+   "assessed": 181089,
+   "class": "O1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.586865,
+   "lon": -97.530924,
+   "sqft": 1666,
+   "value": 181089,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.119,
+   "address": "1008 UNIVERSAL DR, HUTTO, TX  78634",
+   "assessed": 151583,
+   "class": "O1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.575881,
+   "lon": -97.536007,
+   "sqft": 1215,
+   "value": 151583,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.119,
+   "address": "1108 UNIVERSAL DR, HUTTO, TX  78634",
+   "assessed": 141445,
+   "class": "O1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.575067,
+   "lon": -97.535664,
+   "sqft": 1365,
+   "value": 141445,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
   },
   {
    "acres": 0.179,
@@ -45,6 +1064,63 @@
    "year_built": 2006
   },
   {
+   "acres": 0.163,
+   "address": "219 LIDELL ST, HUTTO, TX  78634",
+   "assessed": 300943,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.555002,
+   "lon": -97.550693,
+   "sqft": 1636,
+   "value": 300943,
+   "value_kind": "market (WCAD)",
+   "year_built": 2009
+  },
+  {
+   "acres": 0.143,
+   "address": "1002 AUSTIN BAYOU DR, HUTTO, TX  78634",
+   "assessed": 338690,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.576639,
+   "lon": -97.539308,
+   "sqft": 1821,
+   "value": 338690,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.179,
+   "address": "1020 FOGGIA CV, HUTTO, TX  78634",
+   "assessed": 418003,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.570749,
+   "lon": -97.528391,
+   "sqft": 2428,
+   "value": 418003,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
    "acres": 0.134,
    "address": "368 BRANDYWINE RD, HUTTO, TX  78634",
    "assessed": 128292,
@@ -55,13 +1131,51 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.582282,
    "lon": -97.529154,
    "sqft": 1380,
    "value": 128292,
    "value_kind": "market (WCAD)",
    "year_built": 2025
+  },
+  {
+   "acres": 0.138,
+   "address": "109 HOLMBY DR, HUTTO, TX  78634",
+   "assessed": 388921,
+   "class": "O1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.579454,
+   "lon": -97.535933,
+   "sqft": 2251,
+   "value": 388921,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.179,
+   "address": "107 MAIN ST, HUTTO, TX  78634",
+   "assessed": 115793,
+   "class": "F1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "WD",
+    "foundation": "PB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.543558,
+   "lon": -97.548646,
+   "sqft": 336,
+   "value": 115793,
+   "value_kind": "market (WCAD)",
+   "year_built": 1980
   },
   {
    "acres": 0.179,
@@ -185,7 +1299,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.555404,
    "lon": -97.546822,
    "sqft": 2027,
@@ -200,7 +1314,7 @@
    "class": "F1",
    "deed_date": "2026-06-15",
    "extras": {
-    "exterior": "ALS",
+    "exterior": "ML, M",
     "foundation": "SLB",
     "roof": "GBL"
    },
@@ -249,6 +1363,44 @@
    "value": 222249,
    "value_kind": "market (WCAD)",
    "year_built": 2025
+  },
+  {
+   "acres": 0.148,
+   "address": "339 LIBERTY ST, HUTTO, TX  78634",
+   "assessed": 286326,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.548099,
+   "lon": -97.554039,
+   "sqft": 750,
+   "value": 286326,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.204,
+   "address": "200 MONTEFORTE RD, HUTTO, TX  78634",
+   "assessed": 394411,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.569511,
+   "lon": -97.525081,
+   "sqft": 2182,
+   "value": 394411,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
   },
   {
    "acres": 0.186,
@@ -318,7 +1470,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.586705,
    "lon": -97.531431,
    "sqft": 1509,
@@ -393,7 +1545,7 @@
     "exterior": "WS",
     "foundation": "SLB"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.573113,
    "lon": -97.539185,
    "sqft": 1763,
@@ -936,14 +2088,14 @@
    "acres": 0.123,
    "address": "232 BRANDYWINE RD, HUTTO, TX  78634",
    "assessed": 400671,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-26",
    "extras": {
     "exterior": "BV",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.582869,
    "lon": -97.530884,
    "sqft": 1680,
@@ -985,6 +2137,25 @@
    "lon": -97.53521,
    "sqft": 1705,
    "value": 180655,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.139,
+   "address": "4003 WYNN RD, HUTTO, TX  78634",
+   "assessed": 408665,
+   "class": "A1",
+   "deed_date": "2026-05-23",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.573364,
+   "lon": -97.553316,
+   "sqft": 1605,
+   "value": 408665,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -1194,7 +2365,7 @@
    "acres": 0.12,
    "address": "204 BLOOMINGTON LOOP, HUTTO, TX  78634",
    "assessed": 180022,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-20",
    "extras": {
     "exterior": "BV",
@@ -1232,14 +2403,14 @@
    "acres": 0.139,
    "address": "205 MAKINAW RD, HUTTO, TX  78634",
    "assessed": 186883,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-19",
    "extras": {
     "exterior": "HP",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.573112,
    "lon": -97.555538,
    "sqft": 1652,
@@ -1270,7 +2441,7 @@
    "acres": 0.122,
    "address": "276 BLOOMINGTON LOOP, HUTTO, TX  78634",
    "assessed": 402779,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-18",
    "extras": {
     "exterior": "BV",
@@ -1289,7 +2460,7 @@
    "acres": 0.11,
    "address": "117 ROCK DAISY TRL, HUTTO, TX  78634",
    "assessed": 322483,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-15",
    "extras": {
     "exterior": "BV",
@@ -1327,7 +2498,7 @@
    "acres": 0.239,
    "address": "227 DIVISADERO DR, HUTTO, TX  78634",
    "assessed": 209224,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-15",
    "extras": {
     "exterior": "WS",
@@ -1397,6 +2568,25 @@
    "value": 494706,
    "value_kind": "market (WCAD)",
    "year_built": 2003
+  },
+  {
+   "acres": 0.182,
+   "address": "300 BEAR OAK ST, HUTTO, TX  78634",
+   "assessed": 374869,
+   "class": "A1",
+   "deed_date": "2026-05-14",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.567355,
+   "lon": -97.526528,
+   "sqft": 1968,
+   "value": 374869,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
   },
   {
    "acres": 0.157,
@@ -1474,6 +2664,25 @@
    "year_built": 2018
   },
   {
+   "acres": 0.18,
+   "address": "1012 OTELLO WAY, HUTTO, TX  78634",
+   "assessed": 330046,
+   "class": "A1",
+   "deed_date": "2026-05-13",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.570168,
+   "lon": -97.523933,
+   "sqft": 1545,
+   "value": 330046,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
    "acres": 0.549,
    "address": "100 BOSQUE DR, HUTTO, TX  78634",
    "assessed": 544174,
@@ -1491,6 +2700,25 @@
    "value": 544174,
    "value_kind": "market (WCAD)",
    "year_built": 2006
+  },
+  {
+   "acres": 0.144,
+   "address": "224 LAVACA RIVER LN, HUTTO, TX  78634",
+   "assessed": 319739,
+   "class": "A1",
+   "deed_date": "2026-05-12",
+   "extras": {
+    "exterior": "WS",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.573269,
+   "lon": -97.541226,
+   "sqft": 1612,
+   "value": 319739,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
   },
   {
    "acres": 0.468,
@@ -1572,7 +2800,7 @@
    "acres": 0.124,
    "address": "256 BLOOMINGTON LOOP, HUTTO, TX  78634",
    "assessed": 219359,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-08",
    "extras": {
     "exterior": "BV",
@@ -1591,7 +2819,7 @@
    "acres": 0.165,
    "address": "201 DIVISADERO DR, HUTTO, TX  78634",
    "assessed": 373160,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-08",
    "extras": {
     "exterior": "BW",
@@ -1720,6 +2948,25 @@
    "year_built": 2019
   },
   {
+   "acres": 0.511,
+   "address": "419 RIO GRANDE AVE, HUTTO, TX  78634",
+   "assessed": 435884,
+   "class": "A1",
+   "deed_date": "2026-05-04",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.570484,
+   "lon": -97.534148,
+   "sqft": 2053,
+   "value": 435884,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
+  {
    "acres": 0.178,
    "address": "208 HYLTIN ST, HUTTO, TX  78634",
    "assessed": 300951,
@@ -1826,6 +3073,25 @@
    "value_kind": "market (WCAD)"
   },
   {
+   "acres": 0.146,
+   "address": "300 METCALFE ST, HUTTO, TX  78634",
+   "assessed": 342092,
+   "class": "A1",
+   "deed_date": "2026-04-30",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.546476,
+   "lon": -97.549228,
+   "sqft": 1828,
+   "value": 344105,
+   "value_kind": "market (WCAD)",
+   "year_built": 2014
+  },
+  {
    "acres": 0.179,
    "address": "608 CAROL DR, HUTTO, TX  78634",
    "assessed": 330744,
@@ -1847,7 +3113,7 @@
   {
    "acres": 0.205,
    "address": "110 SOPHORA DR, HUTTO, TX  78634",
-   "assessed": 361976,
+   "assessed": 349400,
    "class": "A1",
    "deed_date": "2026-04-30",
    "extras": {
@@ -1859,7 +3125,7 @@
    "lat": 30.566806,
    "lon": -97.533979,
    "sqft": 2040,
-   "value": 361976,
+   "value": 349400,
    "value_kind": "market (WCAD)",
    "year_built": 2021
   },
@@ -1867,7 +3133,7 @@
    "acres": 0.214,
    "address": "208 CHILDRESS ST, HUTTO, TX  78634",
    "assessed": 343083,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-30",
    "extras": {
     "exterior": "HP",
@@ -1943,7 +3209,7 @@
    "acres": 0.23,
    "address": "91 FLOWERS AVE, HUTTO, TX  78634",
    "assessed": 173226,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-29",
    "extras": {
     "exterior": "HP",
@@ -2226,7 +3492,7 @@
    "acres": 0.124,
    "address": "124 HOLMBY DR, HUTTO, TX  78634",
    "assessed": 330150,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-24",
    "extras": {
     "exterior": "WS",
@@ -2245,7 +3511,7 @@
    "acres": 0.124,
    "address": "127 HOLMBY DR, HUTTO, TX  78634",
    "assessed": 372571,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-24",
    "extras": {
     "exterior": "WS",
@@ -2296,25 +3562,6 @@
    "value": 298918,
    "value_kind": "market (WCAD)",
    "year_built": 1999
-  },
-  {
-   "acres": 0.204,
-   "address": "200 MONTEFORTE RD, HUTTO, TX  78634",
-   "assessed": 394411,
-   "class": "A1",
-   "deed_date": "2026-04-23",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.569511,
-   "lon": -97.525081,
-   "sqft": 2182,
-   "value": 394411,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
   },
   {
    "acres": 0.144,
@@ -2411,7 +3658,7 @@
    "acres": 0.235,
    "address": "1011 VANDERSCILE RD, HUTTO, TX  78634",
    "assessed": 380833,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-20",
    "extras": {
     "exterior": "HP",
@@ -2542,7 +3789,7 @@
    "acres": 0.179,
    "address": "138 DIVISADERO DR, HUTTO, TX  78634",
    "assessed": 448354,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-16",
    "extras": {
     "foundation": "SLB",
@@ -2845,14 +4092,14 @@
    "acres": 0.196,
    "address": "308 SEPULVEDA ST, HUTTO, TX  78634",
    "assessed": 207381,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-03",
    "extras": {
     "exterior": "WS",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.573165,
    "lon": -97.534392,
    "sqft": 2119,
@@ -2864,7 +4111,7 @@
    "acres": 0.124,
    "address": "105 MANDEVILLE DR, HUTTO, TX  78634",
    "assessed": 286324,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-03",
    "extras": {
     "exterior": "WS",
@@ -2994,25 +4241,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.521,
-   "address": "116 SAN JACINTO DR, HUTTO, TX  78634",
-   "assessed": 402720,
-   "class": "A1",
-   "deed_date": "2026-03-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.56801,
-   "lon": -97.533929,
-   "sqft": 1846,
-   "value": 402720,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
    "acres": 0.143,
    "address": "123 WICHITA RIVER RD, HUTTO, TX  78634",
    "assessed": 330130,
@@ -3070,10 +4298,29 @@
    "year_built": 2025
   },
   {
+   "acres": 0.163,
+   "address": "120 DIVISADERO DR, HUTTO, TX  78634",
+   "assessed": 376866,
+   "class": "O1",
+   "deed_date": "2026-03-30",
+   "extras": {
+    "exterior": "BW",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.573075,
+   "lon": -97.530005,
+   "sqft": 1921,
+   "value": 376866,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
    "acres": 0.124,
    "address": "134 HOLMBY DR, HUTTO, TX  78634",
    "assessed": 410426,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-30",
    "extras": {
     "exterior": "WS",
@@ -3111,7 +4358,7 @@
    "acres": 0.138,
    "address": "110 HOLMBY DR, HUTTO, TX  78634",
    "assessed": 359494,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-30",
    "extras": {
     "exterior": "WS",
@@ -3187,7 +4434,7 @@
    "acres": 0.248,
    "address": "96 FLOWERS AVE, HUTTO, TX  78634",
    "assessed": 204863,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-27",
    "extras": {
     "exterior": "HP",
@@ -3225,7 +4472,7 @@
    "acres": 0.138,
    "address": "206 PICO ST, HUTTO, TX  78634",
    "assessed": 419975,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-27",
    "extras": {
     "foundation": "SLB",
@@ -3299,7 +4546,7 @@
   {
    "acres": 0.15,
    "address": "327 DURANGO DOWNS DR, HUTTO, TX  78634",
-   "assessed": 333433,
+   "assessed": 323508,
    "class": "A1",
    "deed_date": "2026-03-26",
    "extras": {
@@ -3311,7 +4558,7 @@
    "lat": 30.549109,
    "lon": -97.547656,
    "sqft": 1860,
-   "value": 333433,
+   "value": 323508,
    "value_kind": "market (WCAD)",
    "year_built": 2021
   },
@@ -3337,7 +4584,7 @@
   {
    "acres": 0.112,
    "address": "322 DURANGO DOWNS DR, HUTTO, TX  78634",
-   "assessed": 294575,
+   "assessed": 290767,
    "class": "A1",
    "deed_date": "2026-03-26",
    "extras": {
@@ -3349,14 +4596,14 @@
    "lat": 30.549528,
    "lon": -97.547246,
    "sqft": 1213,
-   "value": 294575,
+   "value": 290767,
    "value_kind": "market (WCAD)",
    "year_built": 2022
   },
   {
    "acres": 0.113,
    "address": "330 DURANGO DOWNS DR, HUTTO, TX  78634",
-   "assessed": 353632,
+   "assessed": 353205,
    "class": "A1",
    "deed_date": "2026-03-26",
    "extras": {
@@ -3368,14 +4615,14 @@
    "lat": 30.549607,
    "lon": -97.54781,
    "sqft": 1180,
-   "value": 353632,
+   "value": 353205,
    "value_kind": "market (WCAD)",
    "year_built": 2021
   },
   {
    "acres": 0.14,
    "address": "901 EAST ST, HUTTO, TX  78634",
-   "assessed": 353632,
+   "assessed": 353205,
    "class": "A1",
    "deed_date": "2026-03-26",
    "extras": {
@@ -3387,7 +4634,7 @@
    "lat": 30.55041,
    "lon": -97.548625,
    "sqft": 1180,
-   "value": 353632,
+   "value": 353205,
    "value_kind": "market (WCAD)",
    "year_built": 2021
   },
@@ -3433,7 +4680,7 @@
    "acres": 0.151,
    "address": "118 DIVISADERO DR, HUTTO, TX  78634",
    "assessed": 517990,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-26",
    "extras": {
     "exterior": "BW",
@@ -3528,7 +4775,7 @@
    "acres": 0.11,
    "address": "124 ROYAL FERN RD, HUTTO, TX  78634",
    "assessed": 203258,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
     "exterior": "BV",
@@ -3604,7 +4851,7 @@
    "acres": 0.173,
    "address": "136 DIVISADERO DR, HUTTO, TX  78634",
    "assessed": 515758,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-24",
    "extras": {
     "exterior": "BW",
@@ -3718,7 +4965,7 @@
    "acres": 0.299,
    "address": "145 DIVISADERO DR, HUTTO, TX  78634",
    "assessed": 519852,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-20",
    "extras": {
     "foundation": "SLB",
@@ -3810,7 +5057,7 @@
    "acres": 0.344,
    "address": "800 ROCK DAISY TRL, HUTTO, TX  78634",
    "assessed": 585430,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-16",
    "extras": {
     "exterior": "BV",
@@ -4148,44 +5395,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.163,
-   "address": "219 LIDELL ST, HUTTO, TX  78634",
-   "assessed": 300943,
-   "class": "A1",
-   "deed_date": "2026-03-04",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.555002,
-   "lon": -97.550693,
-   "sqft": 1636,
-   "value": 300943,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": 0.143,
-   "address": "1002 AUSTIN BAYOU DR, HUTTO, TX  78634",
-   "assessed": 338690,
-   "class": "A1",
-   "deed_date": "2026-03-04",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.576639,
-   "lon": -97.539308,
-   "sqft": 1821,
-   "value": 338690,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
    "acres": 0.175,
    "address": "401 CAROL DR, HUTTO, TX  78634",
    "assessed": 313413,
@@ -4341,7 +5550,7 @@
    "acres": 0.11,
    "address": "145 ZINNIA LN, HUTTO, TX  78634",
    "assessed": 393478,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-27",
    "extras": {
     "exterior": "BV",
@@ -4360,7 +5569,7 @@
    "acres": 0.111,
    "address": "132 ROYAL FERN RD, HUTTO, TX  78634",
    "assessed": 393478,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-27",
    "extras": {
     "exterior": "BV",
@@ -4607,7 +5816,7 @@
    "acres": 0.26,
    "address": "1013 VANDERSCILE RD, HUTTO, TX  78634",
    "assessed": 399091,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-24",
    "extras": {
     "exterior": "HP",
@@ -4739,7 +5948,7 @@
    "acres": 0.124,
    "address": "111 MANDEVILLE DR, HUTTO, TX  78634",
    "assessed": 300305,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-20",
    "extras": {
     "exterior": "WS",
@@ -4792,7 +6001,7 @@
    "acres": 0.175,
    "address": "134 DIVISADERO DR, HUTTO, TX  78634",
    "assessed": 430572,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-18",
    "extras": {
     "exterior": "BW",
@@ -4811,7 +6020,7 @@
    "acres": 0.214,
    "address": "132 DIVISADERO DR, HUTTO, TX  78634",
    "assessed": 519852,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-18",
    "extras": {
     "exterior": "BW",
@@ -4825,25 +6034,6 @@
    "value": 519852,
    "value_kind": "market (WCAD)",
    "year_built": 2025
-  },
-  {
-   "acres": 0.145,
-   "address": "114 STINCHCOMB RD, HUTTO, TX  78634",
-   "assessed": 406755,
-   "class": "A1",
-   "deed_date": "2026-02-17",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.573425,
-   "lon": -97.561594,
-   "sqft": 2409,
-   "value": 406755,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
   },
   {
    "acres": 0.197,
@@ -4924,7 +6114,7 @@
    "acres": 0.124,
    "address": "104 MANDEVILLE DR, HUTTO, TX  78634",
    "assessed": 384956,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-16",
    "extras": {
     "exterior": "BW",
@@ -4943,7 +6133,7 @@
    "acres": 0.124,
    "address": "116 MANDEVILLE DR, HUTTO, TX  78634",
    "assessed": 386076,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-16",
    "extras": {
     "exterior": "WS",
@@ -5000,7 +6190,7 @@
    "acres": 0.058,
    "address": "529 EMORY CROSSING BLVD, HUTTO, TX  78634",
    "assessed": 265331,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-13",
    "extras": {
     "exterior": "HP",
@@ -5379,7 +6569,7 @@
    "acres": 0.101,
    "address": "512 EMORY CROSSING BLVD, UNIT #197, HUTTO, TX  78634",
    "assessed": 332512,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-03",
    "extras": {
     "exterior": "HP",
@@ -5398,7 +6588,7 @@
    "acres": 0.123,
    "address": "204 BRANDYWINE RD, HUTTO, TX  78634",
    "assessed": 382327,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-03",
    "extras": {
     "exterior": "BV",
@@ -5493,7 +6683,7 @@
    "acres": 0.226,
    "address": "500 BLOOMINGTON LOOP, HUTTO, TX  78634",
    "assessed": 404202,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-30",
    "extras": {
     "exterior": "BV",
@@ -5588,7 +6778,7 @@
    "acres": 0.219,
    "address": "311 SEPULVEDA ST, HUTTO, TX  78634",
    "assessed": 389625,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-29",
    "extras": {
     "foundation": "SLB",
@@ -5662,7 +6852,7 @@
   {
    "acres": 0.178,
    "address": "124 HARLAN DR, HUTTO, TX  78634",
-   "assessed": 319640,
+   "assessed": 317839,
    "class": "A1",
    "deed_date": "2026-01-28",
    "extras": {
@@ -5674,7 +6864,7 @@
    "lat": 30.555217,
    "lon": -97.540877,
    "sqft": 1671,
-   "value": 319640,
+   "value": 317839,
    "value_kind": "market (WCAD)",
    "year_built": 2020
   },
@@ -6113,7 +7303,7 @@
   {
    "acres": 0.174,
    "address": "120 WEGSTROM ST, HUTTO, TX  78634",
-   "assessed": 284149,
+   "assessed": 268421,
    "class": "A1",
    "deed_date": "2026-01-13",
    "extras": {
@@ -6124,7 +7314,7 @@
    "lat": 30.56389,
    "lon": -97.546261,
    "sqft": 1979,
-   "value": 284149,
+   "value": 268421,
    "value_kind": "market (WCAD)",
    "year_built": 2004
   },
@@ -7650,7 +8840,7 @@
     "foundation": "SLB",
     "roof": "HP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.563517,
    "lon": -97.547287,
    "sqft": 907,
@@ -7869,7 +9059,7 @@
   {
    "acres": 0.232,
    "address": "329 ROYAL FERN RD, HUTTO, TX  78634",
-   "assessed": 407144,
+   "assessed": 402872,
    "class": "A1",
    "deed_date": "2025-11-25",
    "extras": {
@@ -7881,7 +9071,7 @@
    "lat": 30.584494,
    "lon": -97.527264,
    "sqft": 2088,
-   "value": 407144,
+   "value": 402872,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -8191,7 +9381,7 @@
   {
    "acres": 15.655,
    "address": "150 ALLIANCE BLVD, HUTTO, TX  78634",
-   "assessed": 20576467,
+   "assessed": 19959173,
    "class": "F1",
    "deed_date": "2025-11-18",
    "extras": {
@@ -8203,7 +9393,7 @@
    "lat": 30.542136,
    "lon": -97.565432,
    "sqft": 123472,
-   "value": 20576467,
+   "value": 19959173,
    "value_kind": "market (WCAD)",
    "year_built": 2023
   },
@@ -9153,3194 +10343,26 @@
    "value": 387867,
    "value_kind": "market (WCAD)",
    "year_built": 2025
-  },
-  {
-   "acres": 0.114,
-   "address": "115 OAKDALE MEADOWS LN, HUTTO, TX  78634",
-   "assessed": 305706,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.54994,
-   "lon": -97.547604,
-   "sqft": 1469,
-   "value": 305706,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.104,
-   "address": "105 BETSY RD, UNIT #202, HUTTO, TX  78634",
-   "assessed": 288592,
-   "class": "A8",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.571769,
-   "lon": -97.556801,
-   "sqft": 1311,
-   "value": 288592,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.252,
-   "address": "301 CREEKSIDE DR, HUTTO, TX  78634",
-   "assessed": 289607,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.549074,
-   "lon": -97.54337,
-   "sqft": 1465,
-   "value": 289607,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.142,
-   "address": "235 SWEETWATER CREEK LN, HUTTO, TX  78634",
-   "assessed": 311866,
-   "class": "A1",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.575118,
-   "lon": -97.53636,
-   "sqft": 1472,
-   "value": 311866,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.185,
-   "address": "212 HYLTIN ST, HUTTO, TX  78634",
-   "assessed": 380277,
-   "class": "A1",
-   "deed_date": "2025-10-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.549609,
-   "lon": -97.555409,
-   "sqft": 1224,
-   "value": 380277,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.186,
-   "address": "129 WALLIN FARMS DR, HUTTO, TX  78634",
-   "assessed": 316236,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.550075,
-   "lon": -97.564451,
-   "sqft": 1769,
-   "value": 316236,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.058,
-   "address": "525 EMORY CROSSING BLVD, HUTTO, TX  78634",
-   "assessed": 263165,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.572088,
-   "lon": -97.555707,
-   "sqft": 648,
-   "value": 263165,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.123,
-   "address": "215 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 376013,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583456,
-   "lon": -97.530534,
-   "sqft": 1381,
-   "value": 376013,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.249,
-   "address": "108 COTTONWOOD DR, HUTTO, TX  78634",
-   "assessed": 288598,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.54972,
-   "lon": -97.543989,
-   "sqft": 1229,
-   "value": 288598,
-   "value_kind": "market (WCAD)",
-   "year_built": 1987
-  },
-  {
-   "acres": 0.219,
-   "address": "321 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 474509,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.586744,
-   "lon": -97.528961,
-   "sqft": 2106,
-   "value": 474509,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.465,
-   "address": "812 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 638850,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.583322,
-   "lon": -97.524664,
-   "sqft": 2326,
-   "value": 638850,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "811 KATES WAY, HUTTO, TX  78634",
-   "assessed": 404211,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.557567,
-   "lon": -97.531944,
-   "sqft": 1943,
-   "value": 404211,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.156,
-   "address": "505 BLOOMINGTON LOOP, HUTTO, TX  78634",
-   "assessed": 409807,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.58508,
-   "lon": -97.530949,
-   "sqft": 1407,
-   "value": 409807,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.12,
-   "address": "124 ZINNIA LN, HUTTO, TX  78634",
-   "assessed": 374435,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.583878,
-   "lon": -97.530102,
-   "sqft": 1604,
-   "value": 374435,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.135,
-   "address": "1624 CR 394, HUTTO, TX  78634",
-   "assessed": 243910,
-   "class": "A5",
-   "deed_date": "2025-10-06",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.596325,
-   "lon": -97.508702,
-   "sqft": 2432,
-   "value": 243910,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.138,
-   "address": "4008 WYNN RD, HUTTO, TX  78634",
-   "assessed": 373141,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.572804,
-   "lon": -97.553642,
-   "sqft": 1908,
-   "value": 373141,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.173,
-   "address": "945 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 638561,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.583992,
-   "lon": -97.5224,
-   "sqft": 2387,
-   "value": 638561,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.172,
-   "address": "316 BROWN ST, HUTTO, TX  78634",
-   "assessed": 277188,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.567183,
-   "lon": -97.551926,
-   "sqft": 1650,
-   "value": 277188,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.11,
-   "address": "528 BLOOMINGTON LOOP, HUTTO, TX  78634",
-   "assessed": 312635,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584805,
-   "lon": -97.530088,
-   "sqft": 1509,
-   "value": 312635,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "132 ZINNIA LN, HUTTO, TX  78634",
-   "assessed": 313065,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583954,
-   "lon": -97.529863,
-   "sqft": 1509,
-   "value": 313065,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.18,
-   "address": "303 BLUEJACK WAY, HUTTO, TX  78634",
-   "assessed": 397873,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.567143,
-   "lon": -97.533432,
-   "sqft": 1470,
-   "value": 397873,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.138,
-   "address": "300 CRUMPTON WAY, HUTTO, TX  78634",
-   "assessed": 335601,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.572388,
-   "lon": -97.553161,
-   "sqft": 1509,
-   "value": 335601,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.136,
-   "address": "168 BLOOMINGTON LOOP, HUTTO, TX  78634",
-   "assessed": 370302,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.587964,
-   "lon": -97.531549,
-   "sqft": 1407,
-   "value": 370302,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.11,
-   "address": "224 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 383198,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.586015,
-   "lon": -97.529955,
-   "sqft": 1380,
-   "value": 383198,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.148,
-   "address": "212 SEAHOLM LN, HUTTO, TX  78634",
-   "assessed": 335834,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.554402,
-   "lon": -97.535942,
-   "sqft": 1936,
-   "value": 335834,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.211,
-   "address": "317 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 507909,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.586806,
-   "lon": -97.52921,
-   "sqft": 1693,
-   "value": 507909,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.15,
-   "address": "524 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 466848,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.585015,
-   "lon": -97.52778,
-   "sqft": 2142,
-   "value": 466848,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.124,
-   "address": "208 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 423775,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.58349,
-   "lon": -97.531146,
-   "sqft": 1380,
-   "value": 423775,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.123,
-   "address": "252 BLOOMINGTON LOOP, HUTTO, TX  78634",
-   "assessed": 370302,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.586961,
-   "lon": -97.532612,
-   "sqft": 1407,
-   "value": 370302,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.184,
-   "address": "200 CRUMPTON WAY, HUTTO, TX  78634",
-   "assessed": 425363,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.57194,
-   "lon": -97.554473,
-   "sqft": 1929,
-   "value": 425363,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "136 ZINNIA LN, HUTTO, TX  78634",
-   "assessed": 344981,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583991,
-   "lon": -97.529744,
-   "sqft": 1217,
-   "value": 344981,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.169,
-   "address": "102 QUAIL CIR, HUTTO, TX  78634",
-   "assessed": 247091,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.551812,
-   "lon": -97.534275,
-   "sqft": 1263,
-   "value": 247091,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.279,
-   "address": "1010 PAPAYA CV, HUTTO, TX  78634",
-   "assessed": 477820,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.567155,
-   "lon": -97.540743,
-   "sqft": 1815,
-   "value": 477820,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.15,
-   "address": "308 ROYAL FERN RD, HUTTO, TX  78634",
-   "assessed": 407144,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583704,
-   "lon": -97.527583,
-   "sqft": 2088,
-   "value": 407144,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 5.032,
-   "address": "139 COTTON ROWS LN, TAYLOR, TX  76574",
-   "assessed": 706883,
-   "class": "E1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.604715,
-   "lon": -97.498877,
-   "sqft": 2250,
-   "value": 706883,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.101,
-   "address": "532 EMORY CROSSING BLVD, UNIT #192, HUTTO, TX  78634",
-   "assessed": 292096,
-   "class": "A8",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.571577,
-   "lon": -97.555902,
-   "sqft": 1361,
-   "value": 292096,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.182,
-   "address": "209 FARLEY ST, HUTTO, TX  78634",
-   "assessed": 198374,
-   "class": "F1",
-   "deed_date": "2025-09-23",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.543667,
-   "lon": -97.548012,
-   "sqft": 5,
-   "value": 198374,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.165,
-   "address": "404 BLOOMINGTON LOOP, HUTTO, TX  78634",
-   "assessed": 404118,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584957,
-   "lon": -97.531763,
-   "sqft": 1407,
-   "value": 404118,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.522,
-   "address": "610 FM 1660 N, HUTTO, TX  78634",
-   "assessed": 336068,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.548931,
-   "lon": -97.544939,
-   "sqft": 1688,
-   "value": 336068,
-   "value_kind": "market (WCAD)",
-   "year_built": 1930
-  },
-  {
-   "acres": 0.249,
-   "address": "120 CLOVERTON CRESCENT, HUTTO, TX  78634",
-   "assessed": 603321,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582957,
-   "lon": -97.52352,
-   "sqft": 3126,
-   "value": 603321,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.122,
-   "address": "116 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 338353,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584006,
-   "lon": -97.531365,
-   "sqft": 1529,
-   "value": 338353,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.288,
-   "address": "212 CHICKASAW LN, HUTTO, TX  78634",
-   "assessed": 371070,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.565044,
-   "lon": -97.525227,
-   "sqft": 1865,
-   "value": 371070,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.111,
-   "address": "121 ZINNIA LN, HUTTO, TX  78634",
-   "assessed": 344981,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584321,
-   "lon": -97.530323,
-   "sqft": 1217,
-   "value": 344981,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.157,
-   "address": "206 QUARTON DR, HUTTO, TX  78634",
-   "assessed": 297404,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.55528,
-   "lon": -97.53755,
-   "sqft": 1462,
-   "value": 297404,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.201,
-   "address": "601 SASSAFRAS ST, HUTTO, TX  78634",
-   "assessed": 378100,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.563022,
-   "lon": -97.534263,
-   "sqft": 2298,
-   "value": 378100,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.165,
-   "address": "113 DIVISADERO DR, HUTTO, TX  78634",
-   "assessed": 392493,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.572501,
-   "lon": -97.530372,
-   "sqft": 2049,
-   "value": 392493,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.059,
-   "address": "501 EMORY CROSSING BLVD, HUTTO, TX  78634",
-   "assessed": 263165,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.572553,
-   "lon": -97.556469,
-   "sqft": 648,
-   "value": 263165,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.223,
-   "address": "113 DOODLE LN, UNIT #63, HUTTO, TX  78634",
-   "assessed": 294025,
-   "class": "A8",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.574359,
-   "lon": -97.557728,
-   "sqft": 1396,
-   "value": 294025,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.298,
-   "address": "112 CLOVERTON CRESCENT, HUTTO, TX  78634",
-   "assessed": 570853,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.58308,
-   "lon": -97.523991,
-   "sqft": 2837,
-   "value": 570853,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.11,
-   "address": "137 ZINNIA LN, HUTTO, TX  78634",
-   "assessed": 344981,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.584472,
-   "lon": -97.529846,
-   "sqft": 1217,
-   "value": 344981,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "714 CAROL DR, HUTTO, TX  78634",
-   "assessed": 399450,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.559931,
-   "lon": -97.533181,
-   "sqft": 1854,
-   "value": 399450,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.184,
-   "address": "124 DIVISADERO DR, HUTTO, TX  78634",
-   "assessed": 430572,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.573261,
-   "lon": -97.5304,
-   "sqft": 2443,
-   "value": 430572,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.181,
-   "address": "408 WILEY ST, HUTTO, TX  78634",
-   "assessed": 264687,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.564954,
-   "lon": -97.543628,
-   "sqft": 1480,
-   "value": 264687,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.18,
-   "address": "1207 TRICIA CV, HUTTO, TX  78634",
-   "assessed": 274383,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.556042,
-   "lon": -97.533566,
-   "sqft": 1328,
-   "value": 274383,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.057,
-   "address": "503 EMORY CROSSING BLVD, HUTTO, TX  78634",
-   "assessed": 254202,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.57252,
-   "lon": -97.556402,
-   "sqft": 636,
-   "value": 254202,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.125,
-   "address": "112 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 463212,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.58411,
-   "lon": -97.531408,
-   "sqft": 1206,
-   "value": 463212,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.228,
-   "address": "306 LIVE OAK ST W, HUTTO, TX  78634",
-   "assessed": 370558,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "CB",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.545698,
-   "lon": -97.549376,
-   "sqft": 2172,
-   "value": 370558,
-   "value_kind": "market (WCAD)",
-   "year_built": 1939
-  },
-  {
-   "acres": 0.047,
-   "address": "435 EMORY CROSSING BLVD, HUTTO, TX  78634",
-   "assessed": 336058,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.572866,
-   "lon": -97.558063,
-   "sqft": 777,
-   "value": 336058,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.103,
-   "address": "608 EMORY CROSSING BLVD, UNIT #186, HUTTO, TX  78634",
-   "assessed": 329562,
-   "class": "A8",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.570999,
-   "lon": -97.555455,
-   "sqft": 958,
-   "value": 329562,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.144,
-   "address": "125 BIG SANDY CREEK DR, HUTTO, TX  78634",
-   "assessed": 315029,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "WS",
-    "foundation": "SLB"
-   },
-   "homestead": false,
-   "lat": 30.572832,
-   "lon": -97.541143,
-   "sqft": 1553,
-   "value": 315029,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.145,
-   "address": "131 BIG SANDY CREEK DR, HUTTO, TX  78634",
-   "assessed": 338038,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "WS",
-    "foundation": "SLB"
-   },
-   "homestead": false,
-   "lat": 30.572899,
-   "lon": -97.540675,
-   "sqft": 1855,
-   "value": 338038,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.458,
-   "address": "804 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 584178,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583367,
-   "lon": -97.525153,
-   "sqft": 2974,
-   "value": 584178,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.111,
-   "address": "109 ZINNIA LN, HUTTO, TX  78634",
-   "assessed": 343403,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.584208,
-   "lon": -97.530682,
-   "sqft": 1217,
-   "value": 343403,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.177,
-   "address": "217 ADRIANA LN, HUTTO, TX  78634",
-   "assessed": 301344,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.557181,
-   "lon": -97.549347,
-   "sqft": 600,
-   "value": 301344,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.139,
-   "address": "4003 WYNN RD, HUTTO, TX  78634",
-   "assessed": 408665,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.573364,
-   "lon": -97.553316,
-   "sqft": 1605,
-   "value": 408665,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.14,
-   "address": "302 CRUMPTON WAY, HUTTO, TX  78634",
-   "assessed": 350339,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.572436,
-   "lon": -97.553003,
-   "sqft": 1670,
-   "value": 350339,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.11,
-   "address": "525 BLOOMINGTON LOOP, HUTTO, TX  78634",
-   "assessed": 470248,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.585249,
-   "lon": -97.530257,
-   "sqft": 1678,
-   "value": 470248,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 2.942,
-   "address": "115 MUSTANG DR, HUTTO, TX  78634",
-   "assessed": 815107,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.589384,
-   "lon": -97.522182,
-   "sqft": 1209,
-   "value": 815107,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.187,
-   "address": "326 BROWN ST, HUTTO, TX  78634",
-   "assessed": 276510,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.567301,
-   "lon": -97.552872,
-   "sqft": 1643,
-   "value": 276510,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.058,
-   "address": "507 EMORY CROSSING BLVD, HUTTO, TX  78634",
-   "assessed": 254202,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.572457,
-   "lon": -97.55627,
-   "sqft": 636,
-   "value": 254202,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.172,
-   "address": "1001 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 570853,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583691,
-   "lon": -97.522244,
-   "sqft": 2837,
-   "value": 570853,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.217,
-   "address": "412 BLOOMINGTON LOOP, HUTTO, TX  78634",
-   "assessed": 366007,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584725,
-   "lon": -97.531595,
-   "sqft": 1620,
-   "value": 366007,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.123,
-   "address": "120 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 404118,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.583903,
-   "lon": -97.531321,
-   "sqft": 1407,
-   "value": 404118,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.111,
-   "address": "355 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 306823,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582639,
-   "lon": -97.529714,
-   "sqft": 1381,
-   "value": 306823,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.33,
-   "address": "113 N PASTURE CV, HUTTO, TX  78634",
-   "assessed": 424903,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.552382,
-   "lon": -97.564621,
-   "sqft": 2062,
-   "value": 424903,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.166,
-   "address": "100 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 404118,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584457,
-   "lon": -97.531563,
-   "sqft": 1407,
-   "value": 404118,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "203 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 380001,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583811,
-   "lon": -97.53068,
-   "sqft": 1490,
-   "value": 380001,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "113 ROYAL FERN RD, HUTTO, TX  78634",
-   "assessed": 399398,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.583529,
-   "lon": -97.529819,
-   "sqft": 1620,
-   "value": 399398,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.109,
-   "address": "204 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 439130,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.585826,
-   "lon": -97.530552,
-   "sqft": 1518,
-   "value": 439130,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.15,
-   "address": "109 ROCHESTER LN, HUTTO, TX  78634",
-   "assessed": 300682,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.553538,
-   "lon": -97.542796,
-   "sqft": 1468,
-   "value": 300682,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.183,
-   "address": "1011 WALLIN FARMS CV, HUTTO, TX  78634",
-   "assessed": 386476,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.54664,
-   "lon": -97.565667,
-   "sqft": 2549,
-   "value": 386476,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": 0.154,
-   "address": "1004 SANDRA ANN WAY, HUTTO, TX  78634",
-   "assessed": 348604,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.569425,
-   "lon": -97.558655,
-   "sqft": 1656,
-   "value": 348604,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.178,
-   "address": "311 WESTFIELD ST, HUTTO, TX  78634",
-   "assessed": 390090,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.560394,
-   "lon": -97.554517,
-   "sqft": 2015,
-   "value": 390090,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.142,
-   "address": "613 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 411903,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584537,
-   "lon": -97.526365,
-   "sqft": 2088,
-   "value": 411903,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.183,
-   "address": "303 FLINN ST, HUTTO, TX  78634",
-   "assessed": 272684,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.565679,
-   "lon": -97.550825,
-   "sqft": 1464,
-   "value": 272684,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.197,
-   "address": "115 BIG CYPRESS BAYOU RD, HUTTO, TX  78634",
-   "assessed": 337156,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.576008,
-   "lon": -97.543946,
-   "sqft": 1837,
-   "value": 337156,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.207,
-   "address": "140 CLOVERTON CRESCENT, HUTTO, TX  78634",
-   "assessed": 587836,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.58326,
-   "lon": -97.522534,
-   "sqft": 2382,
-   "value": 587836,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.11,
-   "address": "200 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 362691,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.585788,
-   "lon": -97.53067,
-   "sqft": 1620,
-   "value": 362691,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.11,
-   "address": "149 ZINNIA LN, HUTTO, TX  78634",
-   "assessed": 327044,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584586,
-   "lon": -97.529488,
-   "sqft": 1713,
-   "value": 327044,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.119,
-   "address": "105 ROYAL FERN RD, HUTTO, TX  78634",
-   "assessed": 378277,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.583453,
-   "lon": -97.530058,
-   "sqft": 1505,
-   "value": 378277,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.161,
-   "address": "4002 WYNN RD, HUTTO, TX  78634",
-   "assessed": 420949,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.57322,
-   "lon": -97.553818,
-   "sqft": 1789,
-   "value": 420949,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.254,
-   "address": "116 CLOVERTON CRESCENT, HUTTO, TX  78634",
-   "assessed": 632630,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.583011,
-   "lon": -97.523749,
-   "sqft": 2387,
-   "value": 632630,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.125,
-   "address": "116 WATKINVILLE RD, UNIT #72, HUTTO, TX  78634",
-   "assessed": 304312,
-   "class": "A8",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.573167,
-   "lon": -97.558718,
-   "sqft": 775,
-   "value": 304312,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.123,
-   "address": "216 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 404118,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583283,
-   "lon": -97.531059,
-   "sqft": 1407,
-   "value": 404118,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.144,
-   "address": "617 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 551641,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584481,
-   "lon": -97.52622,
-   "sqft": 2785,
-   "value": 551641,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.178,
-   "address": "124 PHILLIPS ST, HUTTO, TX  78634",
-   "assessed": 258907,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.564779,
-   "lon": -97.546485,
-   "sqft": 1464,
-   "value": 258907,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.204,
-   "address": "715 GRAY FOX LOOP, HUTTO, TX  78634",
-   "assessed": 373283,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.564587,
-   "lon": -97.56246,
-   "sqft": 1383,
-   "value": 373283,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.181,
-   "address": "118 CRAFT ST, HUTTO, TX  78634",
-   "assessed": 319215,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB"
-   },
-   "homestead": true,
-   "lat": 30.5549,
-   "lon": -97.537876,
-   "sqft": 1677,
-   "value": 319215,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.206,
-   "address": "1005 RICKY CT, HUTTO, TX  78634",
-   "assessed": 405555,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.573921,
-   "lon": -97.554747,
-   "sqft": 1614,
-   "value": 405555,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.11,
-   "address": "108 MOUFLON RD, HUTTO, TX  78634",
-   "assessed": 273826,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.562,
-   "lon": -97.563495,
-   "sqft": 1390,
-   "value": 273826,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.173,
-   "address": "941 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 610084,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584144,
-   "lon": -97.522479,
-   "sqft": 2563,
-   "value": 610084,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.2,
-   "address": "157 PLANTAIN DR, HUTTO, TX  78634",
-   "assessed": 322138,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.567885,
-   "lon": -97.538919,
-   "sqft": 1890,
-   "value": 322138,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.129,
-   "address": "100 SEAHOLM LN, HUTTO, TX  78634",
-   "assessed": 297404,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.55319,
-   "lon": -97.536139,
-   "sqft": 1462,
-   "value": 297404,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.139,
-   "address": "3015 WYNN RD, HUTTO, TX  78634",
-   "assessed": 414775,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.573631,
-   "lon": -97.553429,
-   "sqft": 1602,
-   "value": 414775,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.177,
-   "address": "105 WIMBERLEY ST, HUTTO, TX  78634",
-   "assessed": 423641,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "STN, HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.550577,
-   "lon": -97.555536,
-   "sqft": 1211,
-   "value": 423641,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.119,
-   "address": "601 EMORY CROSSING BLVD, UNIT #181, HUTTO, TX  78634",
-   "assessed": 331539,
-   "class": "A8",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.57157,
-   "lon": -97.555191,
-   "sqft": 1306,
-   "value": 331539,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.172,
-   "address": "905 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 569985,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.58418,
-   "lon": -97.523885,
-   "sqft": 2831,
-   "value": 569985,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.216,
-   "address": "103 FAIRMEADOW DOWNS DR, HUTTO, TX  78634",
-   "assessed": 359296,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.553268,
-   "lon": -97.549128,
-   "sqft": 2202,
-   "value": 359296,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.179,
-   "address": "104 N PASTURE CV, HUTTO, TX  78634",
-   "assessed": 339381,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.552774,
-   "lon": -97.563655,
-   "sqft": 1987,
-   "value": 339381,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.119,
-   "address": "120 ZINNIA LN, HUTTO, TX  78634",
-   "assessed": 340969,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.58384,
-   "lon": -97.530222,
-   "sqft": 1128,
-   "value": 340969,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.18,
-   "address": "125 HOLLAND ST, HUTTO, TX  78634",
-   "assessed": 333621,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "BV, HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.550474,
-   "lon": -97.552806,
-   "sqft": 999,
-   "value": 333621,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.145,
-   "address": "324 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 351640,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582116,
-   "lon": -97.530613,
-   "sqft": 1310,
-   "value": 351640,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.108,
-   "address": "100 ROYAL FERN RD, HUTTO, TX  78634",
-   "assessed": 328034,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.582966,
-   "lon": -97.529986,
-   "sqft": 1725,
-   "value": 328034,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.183,
-   "address": "1212 RHONDA CV, HUTTO, TX  78634",
-   "assessed": 445062,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.556194,
-   "lon": -97.535087,
-   "sqft": 1662,
-   "value": 445062,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.28,
-   "address": "7004 MILANO RIVER RD, HUTTO, TX  78634",
-   "assessed": 551474,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.56908,
-   "lon": -97.525782,
-   "sqft": 2391,
-   "value": 551474,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.145,
-   "address": "529 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 524383,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.585137,
-   "lon": -97.527209,
-   "sqft": 1882,
-   "value": 524383,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.143,
-   "address": "605 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 507683,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.584627,
-   "lon": -97.526597,
-   "sqft": 1737,
-   "value": 507683,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.168,
-   "address": "420 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 469180,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582837,
-   "lon": -97.527383,
-   "sqft": 2106,
-   "value": 469180,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.123,
-   "address": "108 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 400860,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.584214,
-   "lon": -97.531451,
-   "sqft": 1310,
-   "value": 400860,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "403 WIMBERLEY ST, HUTTO, TX  78634",
-   "assessed": 380839,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.555089,
-   "lon": -97.554681,
-   "sqft": 1461,
-   "value": 380839,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.114,
-   "address": "516 BLOOMINGTON LOOP, HUTTO, TX  78634",
-   "assessed": 387398,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.584689,
-   "lon": -97.530447,
-   "sqft": 1512,
-   "value": 387398,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.139,
-   "address": "4007 WYNN RD, HUTTO, TX  78634",
-   "assessed": 420949,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.573096,
-   "lon": -97.553204,
-   "sqft": 1789,
-   "value": 420949,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.198,
-   "address": "3007 MILANO RIVER RD, HUTTO, TX  78634",
-   "assessed": 375077,
-   "class": "A1",
-   "deed_date": "2025-07-27",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569935,
-   "lon": -97.528705,
-   "sqft": 1944,
-   "value": 375077,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.171,
-   "address": "436 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 411903,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583022,
-   "lon": -97.526786,
-   "sqft": 2088,
-   "value": 411903,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.111,
-   "address": "367 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 346928,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582753,
-   "lon": -97.529356,
-   "sqft": 1518,
-   "value": 346928,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.181,
-   "address": "223 FLINN ST, HUTTO, TX  78634",
-   "assessed": 301056,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.56552,
-   "lon": -97.549494,
-   "sqft": 931,
-   "value": 301056,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.401,
-   "address": "108 CLOVERTON CRESCENT, HUTTO, TX  78634",
-   "assessed": 627817,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583173,
-   "lon": -97.524234,
-   "sqft": 2528,
-   "value": 627817,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.11,
-   "address": "609 REDFISH LN, HUTTO, TX  78634",
-   "assessed": 371473,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.562466,
-   "lon": -97.564675,
-   "sqft": 1141,
-   "value": 371473,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.453,
-   "address": "808 ROCK DAISY TRL, HUTTO, TX  78634",
-   "assessed": 555635,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583339,
-   "lon": -97.524912,
-   "sqft": 2799,
-   "value": 555635,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.149,
-   "address": "104 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 479061,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584325,
-   "lon": -97.531515,
-   "sqft": 1513,
-   "value": 479061,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.124,
-   "address": "312 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 385093,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582457,
-   "lon": -97.53071,
-   "sqft": 1518,
-   "value": 385093,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.146,
-   "address": "221 GREENS BAYOU TRL, HUTTO, TX  78634",
-   "assessed": 317204,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.575557,
-   "lon": -97.541818,
-   "sqft": 1761,
-   "value": 317204,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.227,
-   "address": "317 DOODLE LN, HUTTO, TX  78634",
-   "assessed": 420949,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.576344,
-   "lon": -97.556348,
-   "sqft": 1789,
-   "value": 420949,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.179,
-   "address": "102 CONTRADA GRACE LN, HUTTO, TX  78634",
-   "assessed": 370023,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.567696,
-   "lon": -97.527516,
-   "sqft": 1944,
-   "value": 370023,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.15,
-   "address": "409 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 407144,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.583182,
-   "lon": -97.528038,
-   "sqft": 2088,
-   "value": 407144,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.174,
-   "address": "814 KATES WAY, HUTTO, TX  78634",
-   "assessed": 325922,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.557799,
-   "lon": -97.531326,
-   "sqft": 1665,
-   "value": 325922,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.191,
-   "address": "219 HYLTIN ST, HUTTO, TX  78634",
-   "assessed": 342054,
-   "class": "A1",
-   "deed_date": "2025-07-19",
-   "extras": {
-    "exterior": "BV,STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.549328,
-   "lon": -97.556065,
-   "sqft": 2077,
-   "value": 342054,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.178,
-   "address": "1009 N ASH CV, HUTTO, TX  78634",
-   "assessed": 409847,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.54855,
-   "lon": -97.562834,
-   "sqft": 2509,
-   "value": 409847,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": 0.123,
-   "address": "90 BARTON CREEK LN, HUTTO, TX  78634",
-   "assessed": 287226,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.575969,
-   "lon": -97.544961,
-   "sqft": 1219,
-   "value": 287226,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.123,
-   "address": "220 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 401232,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.58318,
-   "lon": -97.531016,
-   "sqft": 1310,
-   "value": 401232,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 2.816,
-   "address": "3450 CR 101, TAYLOR, TX  76574",
-   "assessed": 205754,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.596394,
-   "lon": -97.503887,
-   "sqft": 1188,
-   "value": 205754,
-   "value_kind": "market (WCAD)",
-   "year_built": 1930
-  },
-  {
-   "acres": 0.139,
-   "address": "1012 MOOSE RD, HUTTO, TX  78634",
-   "assessed": 343221,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB"
-   },
-   "homestead": false,
-   "lat": 30.567772,
-   "lon": -97.559117,
-   "sqft": 1656,
-   "value": 343221,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.176,
-   "address": "1002 RICKY CT, HUTTO, TX  78634",
-   "assessed": 405283,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.573709,
-   "lon": -97.554348,
-   "sqft": 1602,
-   "value": 405283,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.109,
-   "address": "387 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 317399,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582943,
-   "lon": -97.52876,
-   "sqft": 1570,
-   "value": 317399,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 5.017,
-   "address": "2355 COUNTY ROAD 130, HUTTO, TX  78634",
-   "assessed": 672257,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.611174,
-   "lon": -97.558211,
-   "sqft": 2048,
-   "value": 672257,
-   "value_kind": "market (WCAD)",
-   "year_built": 1980
-  },
-  {
-   "acres": 0.166,
-   "address": "117 STELLAMAR DR, HUTTO, TX  78634",
-   "assessed": 341477,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.554555,
-   "lon": -97.540574,
-   "sqft": 2020,
-   "value": 341477,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.143,
-   "address": "205 BIG CYPRESS BAYOU RD, HUTTO, TX  78634",
-   "assessed": 351480,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.575991,
-   "lon": -97.543043,
-   "sqft": 2026,
-   "value": 351480,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 6.702,
-   "address": "135 GABRIEL MEADOWS DR, HUTTO, TX  78634",
-   "assessed": 707009,
-   "class": "E1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.622734,
-   "lon": -97.533363,
-   "sqft": 1629,
-   "value": 707009,
-   "value_kind": "market (WCAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": 0.179,
-   "address": "119 HOLMSTROM ST, HUTTO, TX  78634",
-   "assessed": 332035,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.549508,
-   "lon": -97.552025,
-   "sqft": 2007,
-   "value": 332035,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.176,
-   "address": "306 LIDELL ST, HUTTO, TX  78634",
-   "assessed": 328914,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.556384,
-   "lon": -97.549883,
-   "sqft": 892,
-   "value": 328914,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": 0.122,
-   "address": "300 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 353120,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582767,
-   "lon": -97.530841,
-   "sqft": 1599,
-   "value": 353120,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.315,
-   "address": "101 PARK, HUTTO, TX  78634",
-   "assessed": 643139,
-   "class": "XV",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.544036,
-   "lon": -97.542013,
-   "sqft": 1884,
-   "value": 643139,
-   "value_kind": "market (WCAD)",
-   "year_built": 1970
-  },
-  {
-   "acres": 0.179,
-   "address": "206 MONTEFORTE RD, HUTTO, TX  78634",
-   "assessed": 462501,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.569038,
-   "lon": -97.524872,
-   "sqft": 1805,
-   "value": 462501,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.142,
-   "address": "105 BEARTOOTH WAY, HUTTO, TX  78634",
-   "assessed": 419656,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.574724,
-   "lon": -97.555766,
-   "sqft": 1789,
-   "value": 419656,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.099,
-   "address": "540 EMORY CROSSING BLVD, UNIT #190, HUTTO, TX  78634",
-   "assessed": 329274,
-   "class": "A8",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.571395,
-   "lon": -97.555732,
-   "sqft": 958,
-   "value": 329274,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.184,
-   "address": "105 MOLLIE DR, HUTTO, TX  78634",
-   "assessed": 419069,
-   "class": "A1",
-   "deed_date": "2025-07-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.556058,
-   "lon": -97.53685,
-   "sqft": 1607,
-   "value": 419069,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.512,
-   "address": "106 SAN JACINTO DR, HUTTO, TX  78634",
-   "assessed": 393002,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.56807,
-   "lon": -97.536257,
-   "sqft": 1543,
-   "value": 393002,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.134,
-   "address": "510 W METCALFE ST, HUTTO, TX  78634",
-   "assessed": 269311,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.546176,
-   "lon": -97.551819,
-   "sqft": 750,
-   "value": 269311,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.178,
-   "address": "106 HYLTIN ST, HUTTO, TX  78634",
-   "assessed": 270000,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.549006,
-   "lon": -97.550996,
-   "sqft": 1609,
-   "value": 270000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.179,
-   "address": "204 ANDERSON ST, HUTTO, TX  78634",
-   "assessed": 278752,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.555321,
-   "lon": -97.555013,
-   "sqft": 1431,
-   "value": 278752,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.179,
-   "address": "130 FINLEY ST, HUTTO, TX  78634",
-   "assessed": 397713,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "SW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.559103,
-   "lon": -97.552882,
-   "sqft": 2201,
-   "value": 397713,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.166,
-   "address": "416 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 473588,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582791,
-   "lon": -97.527533,
-   "sqft": 2376,
-   "value": 473588,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.167,
-   "address": "428 BRANDYWINE RD, HUTTO, TX  78634",
-   "assessed": 474532,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.582931,
-   "lon": -97.527085,
-   "sqft": 2276,
-   "value": 474532,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.177,
-   "address": "110 RINEHARDT ST, HUTTO, TX  78634",
-   "assessed": 247764,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.562926,
-   "lon": -97.545444,
-   "sqft": 1456,
-   "value": 247764,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.14,
-   "address": "4001 WYNN RD, HUTTO, TX  78634",
-   "assessed": 373582,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.573497,
-   "lon": -97.553373,
-   "sqft": 1908,
-   "value": 373582,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.848,
-   "address": "201 COURTNEES WAY, GEORGETOWN, TX  78626",
-   "assessed": 690240,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.63006,
-   "lon": -97.562432,
-   "sqft": 2393,
-   "value": 690240,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.139,
-   "address": "4005 WYNN RD, HUTTO, TX  78634",
-   "assessed": 349644,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.57323,
-   "lon": -97.55326,
-   "sqft": 1662,
-   "value": 349644,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.107,
-   "address": "540 BLOOMINGTON LOOP, HUTTO, TX  78634",
-   "assessed": 312635,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.584915,
-   "lon": -97.529728,
-   "sqft": 1509,
-   "value": 312635,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
   }
  ],
  "windows": {
   "12mo": {
-   "count": 653,
-   "median_value": 359471,
-   "pct_of_households": 14.22,
-   "pct_of_population": 4.27
+   "count": 548,
+   "median_value": 353205,
+   "pct_of_households": 11.93,
+   "pct_of_population": 3.59
   },
   "3mo": {
-   "count": 145,
-   "median_value": 337172,
-   "pct_of_households": 3.16,
-   "pct_of_population": 0.95
+   "count": 16,
+   "median_value": 368680,
+   "pct_of_households": 0.35,
+   "pct_of_population": 0.1
   },
   "6mo": {
-   "count": 330,
-   "median_value": 350339,
-   "pct_of_households": 7.19,
-   "pct_of_population": 2.16
+   "count": 208,
+   "median_value": 338353,
+   "pct_of_households": 4.53,
+   "pct_of_population": 1.36
   }
  }
 }

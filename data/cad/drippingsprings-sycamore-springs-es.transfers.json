@@ -1,15 +1,456 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 164,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 143,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1763,
  "months_back": 12,
  "population_acs": 5730,
  "transfers": [
   {
+   "acres": 0.338,
+   "address": "140 STONEY POINT RD, AUSTIN, TX  78737",
+   "assessed": 850510,
+   "class": "A",
+   "deed_date": "2026-07-21",
+   "extras": {
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.175321,
+   "lon": -97.993336,
+   "sqft": 3219,
+   "value": 850510,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": 3.975,
+   "address": "1011 HIDDEN HILLS DR, DRIPPING SPRINGS, TX  78620",
+   "assessed": 708967,
+   "class": "A",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "exterior": "R",
+    "foundation": "S",
+    "roof": "G-C"
+   },
+   "homestead": true,
+   "lat": 30.202377,
+   "lon": -98.015435,
+   "sqft": 2501,
+   "value": 979700,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1981
+  },
+  {
+   "acres": 1.494,
+   "address": "13105 ROOSTER SPRINGS RD, AUSTIN, TX  78737",
+   "assessed": 920210,
+   "class": "E",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.203824,
+   "lon": -97.990546,
+   "sqft": 3489,
+   "value": 920210,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 2.157,
+   "address": "7 TALL OAKS TRL, AUSTIN, TX  78737",
+   "assessed": 741400,
+   "class": "A",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "R",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "G-M"
+   },
+   "homestead": true,
+   "lat": 30.212095,
+   "lon": -97.987587,
+   "sqft": 2299,
+   "value": 741400,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1988
+  },
+  {
    "acres": 0.337,
-   "address": "271 EGRET LN, AUSTIN, TX  78737",
-   "assessed": 935840,
+   "address": "224 ROCKY SPOT DR, AUSTIN, TX  78737",
+   "assessed": 768600,
+   "class": "A",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.175777,
+   "lon": -97.992728,
+   "sqft": 2958,
+   "value": 768600,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": null,
+   "address": "287 STONE RIVER DR, AUSTIN, TX  78737",
+   "assessed": 700580,
+   "class": "A",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "R",
+    "fireplace": "2",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.163853,
+   "lon": -97.997054,
+   "sqft": 2636,
+   "value": 700580,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": 3.623,
+   "address": "13231 ROOSTER SPRINGS RD, AUSTIN, TX  78737",
+   "assessed": 2628396,
+   "class": "E",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "bedrooms": "5.000000",
+    "exterior": "R",
+    "fireplace": "2",
+    "foundation": "S",
+    "heat_ac": "3CAH",
+    "roof": "G-M"
+   },
+   "homestead": false,
+   "lat": 30.201502,
+   "lon": -97.989546,
+   "sqft": 5174,
+   "value": 3568470,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1975
+  },
+  {
+   "acres": 1.579,
+   "address": "507 CLEAR CREEK LN, DRIPPING SPRINGS, TX  78620",
+   "assessed": 720000,
+   "class": "A",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "R",
+    "fireplace": "1FP",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.211867,
+   "lon": -98.047098,
+   "sqft": 2524,
+   "value": 720000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2000
+  },
+  {
+   "acres": 1.006,
+   "address": "200 COLONIAL AFFAIR, AUSTIN, TX  78737",
+   "assessed": 977746,
+   "class": "A",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "R",
+    "foundation": "S",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.202729,
+   "lon": -97.996835,
+   "sqft": 4248,
+   "value": 977746,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2002
+  },
+  {
+   "acres": 1.639,
+   "address": "301 SEA HERO PL, AUSTIN, TX  78737",
+   "assessed": 935222,
+   "class": "A",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "bedrooms": "4.000000",
+    "exterior": "R, B",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "2CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.210849,
+   "lon": -98.014466,
+   "sqft": 3141,
+   "value": 935222,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": 0.388,
+   "address": "1265 GRASSY FIELD RD, AUSTIN, TX  78737",
+   "assessed": 947570,
+   "class": "A",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "bedrooms": "4.000000",
+    "exterior": "B, S",
+    "foundation": "S",
+    "heat_ac": "CAH"
+   },
+   "homestead": true,
+   "lat": 30.167372,
+   "lon": -98.000601,
+   "sqft": 3639,
+   "value": 947570,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 1.518,
+   "address": "227 SMARTY JONES AVE, AUSTIN, TX  78737",
+   "assessed": 1384000,
+   "class": "A",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "R, S",
+    "foundation": "S",
+    "heat_ac": "3CAH",
+    "roof": "G-C"
+   },
+   "homestead": true,
+   "lat": 30.207182,
+   "lon": -98.014473,
+   "sqft": 5411,
+   "value": 1384000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": 68.6,
+   "address": "301 WILD ROSE DR, AUSTIN, TX  78737",
+   "assessed": 558974,
+   "class": "A",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "S",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.170076,
+   "lon": -97.987887,
+   "sqft": 3256,
+   "value": 558974,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2010
+  },
+  {
+   "acres": 1.93,
+   "address": "875 SPECTACULAR BID DR, AUSTIN, TX  78737",
+   "assessed": 1450530,
+   "class": "A",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "S, R",
+    "foundation": "S",
+    "heat_ac": "2CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.208039,
+   "lon": -98.010011,
+   "sqft": 5171,
+   "value": 1450530,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 1.052,
+   "address": "111 UNBRIDLED, AUSTIN, TX  78737",
+   "assessed": 1459220,
+   "class": "A",
+   "deed_date": "2026-06-19",
+   "extras": {
+    "exterior": "R",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "2CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.20158,
+   "lon": -97.997951,
+   "sqft": 3413,
+   "value": 1459220,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": 0.252,
+   "address": "146 DRY CREEK RD, AUSTIN, TX  78737",
+   "assessed": 630180,
+   "class": "A",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "exterior": "B",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.170328,
+   "lon": -97.99227,
+   "sqft": 2536,
+   "value": 630180,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.208,
+   "address": "3 LONG CREEK RD, AUSTIN, TX  78737",
+   "assessed": 1221393,
+   "class": "A",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "exterior": "R, S",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "2CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.217943,
+   "lon": -97.984437,
+   "sqft": 3701,
+   "value": 1221393,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2015
+  },
+  {
+   "acres": 0.353,
+   "address": "1709 GRASSY FIELD RD, AUSTIN, TX  78737",
+   "assessed": 804090,
+   "class": "A",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "exterior": "R",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.167336,
+   "lon": -97.994367,
+   "sqft": 3405,
+   "value": 804090,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2008
+  },
+  {
+   "acres": 1.515,
+   "address": "911 OAK MEADOW DR, DRIPPING SPRINGS, TX  78620",
+   "assessed": 675000,
+   "class": "A",
+   "deed_date": "2026-06-15",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.209535,
+   "lon": -98.039817,
+   "sqft": 2437,
+   "value": 675000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1994
+  },
+  {
+   "acres": 0.29,
+   "address": "1225 GRASSY FIELD RD, AUSTIN, TX  78737",
+   "assessed": 739855,
+   "class": "A",
+   "deed_date": "2026-06-12",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.166943,
+   "lon": -98.000059,
+   "sqft": 3229,
+   "value": 739855,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": 68.6,
+   "address": "937 WILD ROSE DR, AUSTIN, TX  78737",
+   "assessed": 537310,
+   "class": "A",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "exterior": "R, B, S",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.166819,
+   "lon": -97.986434,
+   "sqft": 2627,
+   "value": 537310,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": 0.376,
+   "address": "371 STONEY POINT RD, AUSTIN, TX  78737",
+   "assessed": 824690,
+   "class": "A",
+   "deed_date": "2026-06-09",
+   "extras": {
+    "exterior": "R, S",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.171875,
+   "lon": -97.993473,
+   "sqft": 3608,
+   "value": 824690,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2013
+  },
+  {
+   "acres": null,
+   "address": "499 STONE RIVER DR, AUSTIN, TX  78737",
+   "assessed": 746590,
    "class": "A",
    "deed_date": "2026-06-09",
    "extras": {
@@ -17,18 +458,58 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": false,
+   "homestead": true,
+   "lat": 30.164419,
+   "lon": -98.000428,
+   "sqft": 3060,
+   "value": 746590,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 0.337,
+   "address": "271 EGRET LN, AUSTIN, TX  78737",
+   "assessed": 883520,
+   "class": "A",
+   "deed_date": "2026-06-09",
+   "extras": {
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
    "lat": 30.166561,
    "lon": -98.005848,
    "sqft": 3641,
-   "value": 935840,
+   "value": 883520,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
+   "acres": 0.192,
+   "address": "385 WILD PECAN LOOP, BUDA, TX  78610",
+   "assessed": 404422,
+   "class": "A",
+   "deed_date": "2026-06-07",
+   "extras": {
+    "bedrooms": "4.000000",
+    "exterior": "R, S",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "HG-C"
+   },
+   "homestead": false,
+   "lat": 30.170209,
+   "lon": -97.986473,
+   "sqft": 2342,
+   "value": 404422,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2022
+  },
+  {
    "acres": 1.003,
    "address": "131 JOE HARPER CT, DRIPPING SPRINGS, TX  78620",
-   "assessed": 750836,
+   "assessed": 732720,
    "class": "A",
    "deed_date": "2026-06-05",
    "extras": {
@@ -43,14 +524,14 @@
    "lat": 30.184824,
    "lon": -98.012369,
    "sqft": 2544,
-   "value": 755090,
+   "value": 732720,
    "value_kind": "market (Hays CAD)",
    "year_built": 2004
   },
   {
    "acres": 0.457,
    "address": "153 MALLARD CV, AUSTIN, TX  78737",
-   "assessed": 843230,
+   "assessed": 857980,
    "class": "A",
    "deed_date": "2026-06-05",
    "extras": {
@@ -64,14 +545,14 @@
    "lat": 30.172987,
    "lon": -98.002422,
    "sqft": 4288,
-   "value": 843230,
+   "value": 857980,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": 1.015,
    "address": "1432 TOM SAWYER RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 866690,
+   "assessed": 837700,
    "class": "A",
    "deed_date": "2026-06-05",
    "extras": {
@@ -85,24 +566,64 @@
    "lat": 30.190268,
    "lon": -98.010168,
    "sqft": 3634,
-   "value": 866690,
+   "value": 837700,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 1.26,
    "address": "720 CIRCLE G RANCH RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 660000,
+   "assessed": 722860,
    "class": "E",
    "deed_date": "2026-06-04",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 30.226728,
    "lon": -98.030804,
    "sqft": 2710,
-   "value": 660000,
+   "value": 722860,
    "value_kind": "market (Hays CAD)",
    "year_built": 1988
+  },
+  {
+   "acres": 0.304,
+   "address": "316 WINECUP WAY, AUSTIN, TX  78737",
+   "assessed": 824390,
+   "class": "A",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "exterior": "B, R",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.173688,
+   "lon": -97.997109,
+   "sqft": 4278,
+   "value": 824390,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.158,
+   "address": "800 POLO CLUB DR, AUSTIN, TX  78737",
+   "assessed": 944000,
+   "class": "A",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "exterior": "R",
+    "foundation": "S",
+    "roof": "G-C"
+   },
+   "homestead": true,
+   "lat": 30.204789,
+   "lon": -97.998667,
+   "sqft": 4111,
+   "value": 944000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2002
   },
   {
    "acres": 68.6,
@@ -128,7 +649,7 @@
   {
    "acres": 1.03,
    "address": "122 CATFISH CV, DRIPPING SPRINGS, TX  78620",
-   "assessed": 649931,
+   "assessed": 689790,
    "class": "A",
    "deed_date": "2026-06-02",
    "extras": {
@@ -141,14 +662,14 @@
    "lat": 30.188114,
    "lon": -98.008092,
    "sqft": 2568,
-   "value": 649931,
+   "value": 689790,
    "value_kind": "market (Hays CAD)",
    "year_built": 2001
   },
   {
    "acres": 1.561,
    "address": "942 SPECTACULAR BID DR, AUSTIN, TX  78737",
-   "assessed": 1101610,
+   "assessed": 1067340,
    "class": "A",
    "deed_date": "2026-06-02",
    "extras": {
@@ -160,14 +681,14 @@
    "lat": 30.20884,
    "lon": -98.009212,
    "sqft": 3303,
-   "value": 1101610,
+   "value": 1067340,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": 1.525,
-   "address": "517 COTTONWOOD CREEK, DRIPPING SPRINGS, TX  78620",
-   "assessed": 725500,
+   "address": "517 COTTONWOOD CREEK DR, DRIPPING SPRINGS, TX  78620",
+   "assessed": 750000,
    "class": "A",
    "deed_date": "2026-05-29",
    "extras": {
@@ -181,14 +702,14 @@
    "lat": 30.213729,
    "lon": -98.024364,
    "sqft": 2226,
-   "value": 725500,
+   "value": 750000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2003
   },
   {
    "acres": 2.15,
    "address": "1007 HIDDEN HILLS DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 678845,
+   "assessed": 720240,
    "class": "A",
    "deed_date": "2026-05-27",
    "extras": {},
@@ -196,13 +717,13 @@
    "lat": 30.201077,
    "lon": -98.015312,
    "sqft": 1951,
-   "value": 764240,
+   "value": 720240,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 1.175,
    "address": "320 HERITAGE DR, AUSTIN, TX  78737",
-   "assessed": 733160,
+   "assessed": 704460,
    "class": "A",
    "deed_date": "2026-05-27",
    "extras": {
@@ -215,14 +736,14 @@
    "lat": 30.205003,
    "lon": -97.989038,
    "sqft": 2761,
-   "value": 733160,
+   "value": 704460,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
    "acres": 0.312,
    "address": "295 DESERT WILLOW WAY, AUSTIN, TX  78737",
-   "assessed": 736510,
+   "assessed": 677640,
    "class": "A",
    "deed_date": "2026-05-27",
    "extras": {
@@ -232,18 +753,18 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.169049,
    "lon": -98.004553,
    "sqft": 3295,
-   "value": 736510,
+   "value": 677640,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": 0.27,
    "address": "167 DRY CREEK RD, AUSTIN, TX  78737",
-   "assessed": 540210,
+   "assessed": 516418,
    "class": "A",
    "deed_date": "2026-05-27",
    "extras": {
@@ -257,14 +778,14 @@
    "lat": 30.170735,
    "lon": -97.991972,
    "sqft": 2536,
-   "value": 540210,
+   "value": 516418,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": 1.15,
    "address": "437 JULY JOHNSON DR, AUSTIN, TX  78737",
-   "assessed": 1116778,
+   "assessed": 1161480,
    "class": "A",
    "deed_date": "2026-05-22",
    "extras": {
@@ -277,14 +798,14 @@
    "lat": 30.165772,
    "lon": -98.001872,
    "sqft": 4030,
-   "value": 1116778,
+   "value": 1161480,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": 2.486,
    "address": "171 FERDINAND CT, AUSTIN, TX  78737",
-   "assessed": 1553745,
+   "assessed": 1505353,
    "class": "A",
    "deed_date": "2026-05-21",
    "extras": {
@@ -297,14 +818,14 @@
    "lat": 30.211781,
    "lon": -98.007009,
    "sqft": 6411,
-   "value": 1553745,
+   "value": 1505353,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": 1.94,
    "address": "13 CARRIAGE HOUSE LN, AUSTIN, TX  78737",
-   "assessed": 1060000,
+   "assessed": 981480,
    "class": "A",
    "deed_date": "2026-05-19",
    "extras": {
@@ -319,14 +840,14 @@
    "lat": 30.205727,
    "lon": -97.9925,
    "sqft": 3775,
-   "value": 1060000,
+   "value": 981480,
    "value_kind": "market (Hays CAD)",
    "year_built": 2002
   },
   {
    "acres": null,
    "address": "151 SWALLOWTAIL DR, AUSTIN, TX  78737",
-   "assessed": 678795,
+   "assessed": 668069,
    "class": "A",
    "deed_date": "2026-05-19",
    "extras": {
@@ -339,14 +860,14 @@
    "lat": 30.164607,
    "lon": -97.995095,
    "sqft": 3002,
-   "value": 678795,
+   "value": 668069,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": 3.806,
    "address": "33 LONG CREEK RD, AUSTIN, TX  78737",
-   "assessed": 1203476,
+   "assessed": 1188540,
    "class": "A",
    "deed_date": "2026-05-15",
    "extras": {
@@ -361,14 +882,14 @@
    "lat": 30.210608,
    "lon": -97.983892,
    "sqft": 3708,
-   "value": 1370250,
+   "value": 1188540,
    "value_kind": "market (Hays CAD)",
    "year_built": 1992
   },
   {
    "acres": 0.288,
    "address": "1589 COOL SPRING WAY, AUSTIN, TX  78737",
-   "assessed": 745260,
+   "assessed": 758180,
    "class": "A",
    "deed_date": "2026-05-14",
    "extras": {
@@ -378,38 +899,18 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.165888,
    "lon": -97.99513,
    "sqft": 3149,
-   "value": 745260,
+   "value": 758180,
    "value_kind": "market (Hays CAD)",
    "year_built": 2011
   },
   {
-   "acres": 1.607,
-   "address": "1021 WESTLAND RIDGE RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 696850,
-   "class": "A",
-   "deed_date": "2026-05-13",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": false,
-   "lat": 30.184084,
-   "lon": -98.021067,
-   "sqft": 2186,
-   "value": 696850,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2001
-  },
-  {
    "acres": 1.837,
    "address": "14039 TIMBERLINE TRL, AUSTIN, TX  78737",
-   "assessed": 780175,
+   "assessed": 816680,
    "class": "A",
    "deed_date": "2026-05-13",
    "extras": {
@@ -422,14 +923,34 @@
    "lat": 30.215951,
    "lon": -98.021765,
    "sqft": 3090,
-   "value": 849400,
+   "value": 816680,
    "value_kind": "market (Hays CAD)",
    "year_built": 1998
   },
   {
+   "acres": 1.607,
+   "address": "1021 WESTLAND RIDGE RD, DRIPPING SPRINGS, TX  78620",
+   "assessed": 612500,
+   "class": "A",
+   "deed_date": "2026-05-13",
+   "extras": {
+    "exterior": "R",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "HG-C"
+   },
+   "homestead": false,
+   "lat": 30.184084,
+   "lon": -98.021067,
+   "sqft": 2186,
+   "value": 612500,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2001
+  },
+  {
    "acres": null,
    "address": "117 STONE RIVER DR, AUSTIN, TX  78737",
-   "assessed": 723310,
+   "assessed": 714270,
    "class": "A",
    "deed_date": "2026-05-13",
    "extras": {},
@@ -437,14 +958,14 @@
    "lat": 30.163691,
    "lon": -97.994324,
    "sqft": 2912,
-   "value": 723310,
+   "value": 714270,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
    "acres": 0.264,
    "address": "260 SALTGRASS CV, AUSTIN, TX  78737",
-   "assessed": 898910,
+   "assessed": 860000,
    "class": "A",
    "deed_date": "2026-05-13",
    "extras": {
@@ -454,18 +975,18 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.175801,
    "lon": -97.988057,
    "sqft": 3434,
-   "value": 898910,
+   "value": 860000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": 1.965,
    "address": "201 CHARISMATIC PL, AUSTIN, TX  78737",
-   "assessed": 1469525,
+   "assessed": 1616478,
    "class": "A",
    "deed_date": "2026-05-12",
    "extras": {},
@@ -473,14 +994,14 @@
    "lat": 30.205012,
    "lon": -98.011248,
    "sqft": 4702,
-   "value": 1526679,
+   "value": 1626920,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
    "acres": 0.356,
    "address": "225 BRIGHT SKY DR, AUSTIN, TX  78737",
-   "assessed": 651790,
+   "assessed": 662960,
    "class": "A",
    "deed_date": "2026-05-12",
    "extras": {
@@ -492,33 +1013,33 @@
    "lat": 30.171999,
    "lon": -97.989511,
    "sqft": 2386,
-   "value": 651790,
+   "value": 662960,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": 10.25,
    "address": "12209 TRAUTWEIN RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 473260,
-   "class": "B2",
+   "assessed": 430120,
+   "class": "B",
    "deed_date": "2026-05-11",
    "extras": {
     "exterior": "W-C",
     "foundation": "S",
     "roof": "G-M"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.243792,
    "lon": -98.028312,
    "sqft": 3456,
-   "value": 968700,
+   "value": 883360,
    "value_kind": "market (Hays CAD)",
    "year_built": 2000
   },
   {
    "acres": 0.431,
    "address": "168 ROCKY SPOT DR, AUSTIN, TX  78737",
-   "assessed": 896310,
+   "assessed": 912060,
    "class": "A",
    "deed_date": "2026-05-11",
    "extras": {
@@ -530,14 +1051,34 @@
    "lat": 30.175726,
    "lon": -97.993321,
    "sqft": 3429,
-   "value": 896310,
+   "value": 912060,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
+   "acres": 2.076,
+   "address": "16 TALL OAKS TRL, AUSTIN, TX  78737",
+   "assessed": 820000,
+   "class": "A",
+   "deed_date": "2026-05-08",
+   "extras": {
+    "exterior": "R",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "O"
+   },
+   "homestead": true,
+   "lat": 30.215577,
+   "lon": -97.989774,
+   "sqft": 2727,
+   "value": 820000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2007
+  },
+  {
    "acres": 1.01,
    "address": "156 JULY JOHNSON DR, AUSTIN, TX  78737",
-   "assessed": 869500,
+   "assessed": 838810,
    "class": "A",
    "deed_date": "2026-05-08",
    "extras": {
@@ -550,14 +1091,14 @@
    "lat": 30.165217,
    "lon": -98.006441,
    "sqft": 3027,
-   "value": 869500,
+   "value": 838810,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 1.47,
    "address": "613 CANYON RIM DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 679701,
+   "assessed": 736480,
    "class": "A",
    "deed_date": "2026-05-07",
    "extras": {
@@ -566,18 +1107,18 @@
     "foundation": "S",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.215018,
    "lon": -98.045365,
    "sqft": 2314,
-   "value": 747860,
+   "value": 736480,
    "value_kind": "market (Hays CAD)",
    "year_built": 2004
   },
   {
    "acres": 1.524,
    "address": "328 BARBARO DR, AUSTIN, TX  78737",
-   "assessed": 1022766,
+   "assessed": 1081240,
    "class": "A",
    "deed_date": "2026-05-01",
    "extras": {
@@ -591,14 +1132,14 @@
    "lat": 30.207571,
    "lon": -98.008304,
    "sqft": 3055,
-   "value": 1022766,
+   "value": 1081240,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": 2.485,
    "address": "3 COACH HOUSE RD, AUSTIN, TX  78737",
-   "assessed": 779277,
+   "assessed": 846750,
    "class": "A",
    "deed_date": "2026-04-30",
    "extras": {
@@ -607,18 +1148,18 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.20806,
    "lon": -97.994993,
    "sqft": 3059,
-   "value": 889515,
+   "value": 846750,
    "value_kind": "market (Hays CAD)",
    "year_built": 1993
   },
   {
    "acres": 1.391,
    "address": "518 CLEAR CREEK LN, DRIPPING SPRINGS TX",
-   "assessed": 598411,
+   "assessed": 642980,
    "class": "A",
    "deed_date": "2026-04-30",
    "extras": {
@@ -632,14 +1173,14 @@
    "lat": 30.214082,
    "lon": -98.048802,
    "sqft": 2153,
-   "value": 649750,
+   "value": 642980,
    "value_kind": "market (Hays CAD)",
    "year_built": 1994
   },
   {
    "acres": 2.924,
    "address": "1041 HIDDEN HILLS DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 674057,
+   "assessed": 735335,
    "class": "A",
    "deed_date": "2026-04-30",
    "extras": {
@@ -653,14 +1194,14 @@
    "lat": 30.209826,
    "lon": -98.021599,
    "sqft": 2098,
-   "value": 865570,
+   "value": 812480,
    "value_kind": "market (Hays CAD)",
    "year_built": 1984
   },
   {
    "acres": 4.634,
    "address": "117 RACHELS CANYON DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 857773,
+   "assessed": 798762,
    "class": "A",
    "deed_date": "2026-04-29",
    "extras": {
@@ -674,14 +1215,14 @@
    "lat": 30.176869,
    "lon": -98.006857,
    "sqft": 3247,
-   "value": 976210,
+   "value": 798762,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
    "acres": 0.337,
    "address": "399 WHISPERING WIND WAY, AUSTIN, TX  78737",
-   "assessed": 722160,
+   "assessed": 734650,
    "class": "A",
    "deed_date": "2026-04-22",
    "extras": {
@@ -691,18 +1232,18 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.160478,
    "lon": -97.999663,
    "sqft": 2829,
-   "value": 722160,
+   "value": 734650,
    "value_kind": "market (Hays CAD)",
    "year_built": 2013
   },
   {
    "acres": 1.25,
    "address": "231 CALL DR, AUSTIN, TX  78737",
-   "assessed": 1242640,
+   "assessed": 1174880,
    "class": "A",
    "deed_date": "2026-04-20",
    "extras": {
@@ -715,14 +1256,14 @@
    "lat": 30.163761,
    "lon": -98.006734,
    "sqft": 4317,
-   "value": 1242640,
+   "value": 1174880,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 1.549,
    "address": "258 BIG BROWN DR, AUSTIN, TX  78737",
-   "assessed": 1145190,
+   "assessed": 1110600,
    "class": "A",
    "deed_date": "2026-04-17",
    "extras": {
@@ -735,14 +1276,14 @@
    "lat": 30.211078,
    "lon": -98.010221,
    "sqft": 3665,
-   "value": 1145190,
+   "value": 1110600,
    "value_kind": "market (Hays CAD)",
    "year_built": 2016
   },
   {
    "acres": 1.18,
    "address": "242 JULY JOHNSON DR, AUSTIN, TX  78737",
-   "assessed": 967030,
+   "assessed": 921760,
    "class": "A",
    "deed_date": "2026-04-17",
    "extras": {
@@ -754,14 +1295,14 @@
    "lat": 30.164949,
    "lon": -98.004947,
    "sqft": 3417,
-   "value": 967030,
+   "value": 921760,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": 1.116,
    "address": "115 HERITAGE DR, AUSTIN, TX  78737",
-   "assessed": 809640,
+   "assessed": 1052350,
    "class": "A",
    "deed_date": "2026-04-13",
    "extras": {},
@@ -769,14 +1310,14 @@
    "lat": 30.202521,
    "lon": -97.987877,
    "sqft": 4159,
-   "value": 809640,
+   "value": 1052350,
    "value_kind": "market (Hays CAD)",
    "year_built": 1996
   },
   {
    "acres": 0.334,
    "address": "299 STONEY POINT RD, AUSTIN, TX  78737",
-   "assessed": 711974,
+   "assessed": 729000,
    "class": "A",
    "deed_date": "2026-04-13",
    "extras": {
@@ -788,14 +1329,14 @@
    "lat": 30.172986,
    "lon": -97.99412,
    "sqft": 3381,
-   "value": 711974,
+   "value": 729000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": 1.506,
    "address": "110 RIVA RIDGE PL, AUSTIN, TX  78737",
-   "assessed": 1696420,
+   "assessed": 1651910,
    "class": "A",
    "deed_date": "2026-04-13",
    "extras": {
@@ -808,14 +1349,14 @@
    "lat": 30.211398,
    "lon": -98.011445,
    "sqft": 5301,
-   "value": 1696420,
+   "value": 1651910,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 1.049,
    "address": "229 HUCK FINN TRL, DRIPPING SPRINGS, TX  78620",
-   "assessed": 802130,
+   "assessed": 774370,
    "class": "A",
    "deed_date": "2026-04-08",
    "extras": {},
@@ -823,14 +1364,14 @@
    "lat": 30.1834,
    "lon": -98.005673,
    "sqft": 2881,
-   "value": 802130,
+   "value": 774370,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
    "acres": 2.22,
    "address": "1081 HIDDEN HILLS DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 782005,
+   "assessed": 789830,
    "class": "A",
    "deed_date": "2026-04-08",
    "extras": {
@@ -843,14 +1384,14 @@
    "lat": 30.206385,
    "lon": -98.027049,
    "sqft": 3175,
-   "value": 792722,
+   "value": 789830,
    "value_kind": "market (Hays CAD)",
    "year_built": 1984
   },
   {
    "acres": null,
    "address": "113 SWALLOWTAIL DR, AUSTIN, TX  78737",
-   "assessed": 646030,
+   "assessed": 677450,
    "class": "A",
    "deed_date": "2026-04-08",
    "extras": {
@@ -862,14 +1403,14 @@
    "lat": 30.164119,
    "lon": -97.995012,
    "sqft": 2651,
-   "value": 646030,
+   "value": 677450,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
    "acres": 1.553,
    "address": "281 COLONIAL AFFAIR, AUSTIN, TX  78737",
-   "assessed": 1094595,
+   "assessed": 1139156,
    "class": "A",
    "deed_date": "2026-04-07",
    "extras": {
@@ -883,14 +1424,14 @@
    "lat": 30.203471,
    "lon": -97.997965,
    "sqft": 3642,
-   "value": 1094595,
+   "value": 1139156,
    "value_kind": "market (Hays CAD)",
    "year_built": 2016
   },
   {
    "acres": 5.02,
    "address": "604 OAKWOOD DR, BUDA, TX  78610",
-   "assessed": 1251600,
+   "assessed": 1257030,
    "class": "A",
    "deed_date": "2026-04-06",
    "extras": {
@@ -905,14 +1446,14 @@
    "lat": 30.213933,
    "lon": -98.027366,
    "sqft": 3129,
-   "value": 1348473,
+   "value": 1257030,
    "value_kind": "market (Hays CAD)",
    "year_built": 1991
   },
   {
    "acres": 1.996,
    "address": "29 TALL OAKS TRL, AUSTIN, TX  78737",
-   "assessed": 747179,
+   "assessed": 729250,
    "class": "A",
    "deed_date": "2026-04-02",
    "extras": {
@@ -926,14 +1467,14 @@
    "lat": 30.219448,
    "lon": -97.988313,
    "sqft": 2694,
-   "value": 838520,
+   "value": 729250,
    "value_kind": "market (Hays CAD)",
    "year_built": 2010
   },
   {
    "acres": 5.134,
    "address": "14150 SAWYER RANCH RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 870513,
+   "assessed": 900770,
    "class": "A",
    "deed_date": "2026-04-02",
    "extras": {
@@ -947,46 +1488,31 @@
    "lat": 30.190131,
    "lon": -98.0018,
    "sqft": 3588,
-   "value": 1022990,
+   "value": 900770,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
-   "acres": 0.29,
-   "address": "1225 GRASSY FIELD RD, AUSTIN, TX  78737",
-   "assessed": 787940,
-   "class": "A",
-   "deed_date": "2026-04-02",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.166943,
-   "lon": -98.000059,
-   "sqft": 3229,
-   "value": 787940,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2017
-  },
-  {
    "acres": 1.86,
-   "address": "1024 HIDDEN HILLS DR, DRIPPING SPRINGS TX",
-   "assessed": 833340,
+   "address": "1024 HIDDEN HILLS DR, DRIPPING SPRINGS, TX  78620",
+   "assessed": 918280,
    "class": "A",
    "deed_date": "2026-04-01",
    "extras": {
     "bedrooms": "3.000000"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.206226,
    "lon": -98.01827,
    "sqft": 2710,
-   "value": 833340,
+   "value": 918280,
    "value_kind": "market (Hays CAD)",
    "year_built": 1989
   },
   {
    "acres": 1.505,
    "address": "1041 POLO CLUB DR, AUSTIN, TX  78737",
-   "assessed": 1104841,
+   "assessed": 1188700,
    "class": "A",
    "deed_date": "2026-03-30",
    "extras": {
@@ -1000,14 +1526,14 @@
    "lat": 30.20272,
    "lon": -98.000649,
    "sqft": 3449,
-   "value": 1222600,
+   "value": 1188700,
    "value_kind": "market (Hays CAD)",
    "year_built": 2003
   },
   {
    "acres": 0.281,
    "address": "158 BIG MEADOW RD, AUSTIN, TX  78737",
-   "assessed": 770000,
+   "assessed": 789080,
    "class": "A",
    "deed_date": "2026-03-25",
    "extras": {
@@ -1020,14 +1546,14 @@
    "lat": 30.165134,
    "lon": -97.994341,
    "sqft": 2984,
-   "value": 775580,
+   "value": 789080,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
    "address": "159 SHORT BUSH PASS, AUSTIN, TX  78737",
-   "assessed": 807640,
+   "assessed": 821720,
    "class": "A",
    "deed_date": "2026-03-25",
    "extras": {
@@ -1039,14 +1565,14 @@
    "lat": 30.16416,
    "lon": -97.997967,
    "sqft": 2939,
-   "value": 807640,
+   "value": 821720,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 1.606,
    "address": "1035 WESTLAND RIDGE, DRIPPING SPRINGS, TX  78620",
-   "assessed": 718840,
+   "assessed": 714380,
    "class": "A",
    "deed_date": "2026-03-24",
    "extras": {
@@ -1060,14 +1586,14 @@
    "lat": 30.180809,
    "lon": -98.020994,
    "sqft": 2306,
-   "value": 718840,
+   "value": 714380,
    "value_kind": "market (Hays CAD)",
    "year_built": 2001
   },
   {
    "acres": 68.6,
    "address": "803 WILD ROSE DR, AUSTIN, TX  78737",
-   "assessed": 536402,
+   "assessed": 570640,
    "class": "A",
    "deed_date": "2026-03-24",
    "extras": {
@@ -1081,14 +1607,14 @@
    "lat": 30.166767,
    "lon": -97.984199,
    "sqft": 2999,
-   "value": 536402,
+   "value": 570640,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": 1.323,
    "address": "201 JOE HARPER CT, DRIPPING SPRINGS, TX  78620",
-   "assessed": 1071071,
+   "assessed": 852000,
    "class": "A",
    "deed_date": "2026-03-20",
    "extras": {
@@ -1102,14 +1628,14 @@
    "lat": 30.184433,
    "lon": -98.013033,
    "sqft": 3089,
-   "value": 1071071,
+   "value": 852000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2013
   },
   {
    "acres": 0.271,
    "address": "280 SADDLEBACK RD, AUSTIN, TX  78737",
-   "assessed": 613230,
+   "assessed": 623680,
    "class": "A",
    "deed_date": "2026-03-19",
    "extras": {
@@ -1123,14 +1649,14 @@
    "lat": 30.173332,
    "lon": -97.998153,
    "sqft": 2739,
-   "value": 613230,
+   "value": 623680,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 0.289,
    "address": "167 DESERT WILLOW WAY, AUSTIN, TX  78737",
-   "assessed": 747770,
+   "assessed": 732000,
    "class": "A",
    "deed_date": "2026-03-19",
    "extras": {
@@ -1144,14 +1670,14 @@
    "lat": 30.168535,
    "lon": -98.002764,
    "sqft": 3378,
-   "value": 747770,
+   "value": 732000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": 0.332,
    "address": "303 ROCKY SPOT DR, AUSTIN, TX  78737",
-   "assessed": 873270,
+   "assessed": 888580,
    "class": "A",
    "deed_date": "2026-03-13",
    "extras": {
@@ -1161,18 +1687,18 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.175068,
    "lon": -97.991687,
    "sqft": 3327,
-   "value": 873270,
+   "value": 888580,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": 0.362,
    "address": "215 INDIAN GRASS CV, AUSTIN, TX  78737",
-   "assessed": 764810,
+   "assessed": 778100,
    "class": "A",
    "deed_date": "2026-03-13",
    "extras": {
@@ -1184,14 +1710,14 @@
    "lat": 30.166873,
    "lon": -98.002313,
    "sqft": 3006,
-   "value": 764810,
+   "value": 778100,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 68.6,
    "address": "630 WILD ROSE DR, AUSTIN, TX  78737",
-   "assessed": 493019,
+   "assessed": 532820,
    "class": "A",
    "deed_date": "2026-03-05",
    "extras": {
@@ -1205,7 +1731,7 @@
    "lat": 30.168785,
    "lon": -97.983697,
    "sqft": 2543,
-   "value": 493019,
+   "value": 532820,
    "value_kind": "market (Hays CAD)",
    "year_built": 2011
   },
@@ -1222,7 +1748,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.169128,
    "lon": -97.988137,
    "sqft": 2707,
@@ -1233,7 +1759,7 @@
   {
    "acres": 1.741,
    "address": "1031 WESTLAND RIDGE, DRIPPING SPRINGS, TX  78620",
-   "assessed": 747505,
+   "assessed": 721450,
    "class": "A",
    "deed_date": "2026-03-04",
    "extras": {
@@ -1243,18 +1769,18 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.18186,
    "lon": -98.02111,
    "sqft": 2542,
-   "value": 747505,
+   "value": 721450,
    "value_kind": "market (Hays CAD)",
    "year_built": 1999
   },
   {
    "acres": 2.551,
    "address": "11 TALL OAKS TRL, AUSTIN, TX  78737",
-   "assessed": 612993,
+   "assessed": 668719,
    "class": "A",
    "deed_date": "2026-03-03",
    "extras": {
@@ -1268,13 +1794,13 @@
    "lat": 30.213949,
    "lon": -97.988694,
    "sqft": 2070,
-   "value": 807340,
+   "value": 683540,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 0.328,
    "address": "386 SADDLEBACK RD, AUSTIN, TX  78737",
-   "assessed": 831814,
+   "assessed": 872520,
    "class": "A",
    "deed_date": "2026-03-03",
    "extras": {
@@ -1289,7 +1815,7 @@
    "lat": 30.174723,
    "lon": -97.999024,
    "sqft": 4705,
-   "value": 831814,
+   "value": 872520,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
@@ -1317,7 +1843,7 @@
   {
    "acres": 0.377,
    "address": "175 BLAZING STAR DR, AUSTIN, TX  78737",
-   "assessed": 859820,
+   "assessed": 750000,
    "class": "A",
    "deed_date": "2026-02-27",
    "extras": {
@@ -1330,14 +1856,14 @@
    "lat": 30.170696,
    "lon": -98.003901,
    "sqft": 4058,
-   "value": 859820,
+   "value": 750000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 1.157,
    "address": "404 ROY CREEK LN, DRIPPING SPRINGS, TX  78620",
-   "assessed": 663506,
+   "assessed": 729857,
    "class": "A",
    "deed_date": "2026-02-25",
    "extras": {
@@ -1351,14 +1877,14 @@
    "lat": 30.209864,
    "lon": -98.037344,
    "sqft": 2938,
-   "value": 725502,
+   "value": 805210,
    "value_kind": "market (Hays CAD)",
    "year_built": 1988
   },
   {
    "acres": 0.234,
    "address": "185 MOUNTAIN LAUREL WAY, AUSTIN, TX  78737",
-   "assessed": 572290,
+   "assessed": 530400,
    "class": "A",
    "deed_date": "2026-02-24",
    "extras": {
@@ -1368,18 +1894,18 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.172596,
    "lon": -97.996194,
    "sqft": 2524,
-   "value": 572290,
+   "value": 530400,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 2.0,
    "address": "3 HERITAGE OAKS DR, AUSTIN, TX  78737",
-   "assessed": 701611,
+   "assessed": 727280,
    "class": "A",
    "deed_date": "2026-02-20",
    "extras": {
@@ -1393,14 +1919,14 @@
    "lat": 30.205318,
    "lon": -97.986028,
    "sqft": 2965,
-   "value": 816460,
+   "value": 727280,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": 2.153,
    "address": "1316 GATO DEL SOL AVE, AUSTIN, TX  78737",
-   "assessed": 1317780,
+   "assessed": 1253670,
    "class": "A",
    "deed_date": "2026-02-20",
    "extras": {
@@ -1413,14 +1939,14 @@
    "lat": 30.21418,
    "lon": -98.00396,
    "sqft": 4016,
-   "value": 1317780,
+   "value": 1253670,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 2.04,
    "address": "16 LAUREL HILL, AUSTIN, TX  78737",
-   "assessed": 627641,
+   "assessed": 690405,
    "class": "A",
    "deed_date": "2026-02-12",
    "extras": {
@@ -1435,14 +1961,14 @@
    "lat": 30.21694,
    "lon": -97.987121,
    "sqft": 2376,
-   "value": 830140,
+   "value": 719810,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": 0.465,
    "address": "116 EGRET LN, AUSTIN, TX  78737",
-   "assessed": 884350,
+   "assessed": 899880,
    "class": "A",
    "deed_date": "2026-02-12",
    "extras": {
@@ -1454,14 +1980,14 @@
    "lat": 30.167727,
    "lon": -98.003974,
    "sqft": 3314,
-   "value": 884350,
+   "value": 899880,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 2.8,
    "address": "2 SENTINEL HILL, AUSTIN, TX  78737",
-   "assessed": 1004480,
+   "assessed": 639000,
    "class": "A",
    "deed_date": "2026-02-05",
    "extras": {
@@ -1470,18 +1996,18 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.210251,
    "lon": -97.991482,
    "sqft": 2966,
-   "value": 1004480,
+   "value": 639000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1980
   },
   {
    "acres": 1.765,
    "address": "252 SEA HERO PL, AUSTIN, TX  78737",
-   "assessed": 1250830,
+   "assessed": 1202200,
    "class": "A",
    "deed_date": "2026-02-03",
    "extras": {
@@ -1491,18 +2017,18 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.210179,
    "lon": -98.013756,
    "sqft": 4011,
-   "value": 1250830,
+   "value": 1202200,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 68.6,
    "address": "815 WILD ROSE DR, AUSTIN, TX  78737",
-   "assessed": 562710,
+   "assessed": 506439,
    "class": "A",
    "deed_date": "2026-01-30",
    "extras": {
@@ -1516,14 +2042,14 @@
    "lat": 30.166778,
    "lon": -97.984395,
    "sqft": 2543,
-   "value": 562710,
+   "value": 506439,
    "value_kind": "market (Hays CAD)",
    "year_built": 2013
   },
   {
    "acres": 1.16,
    "address": "571 POLO CLUB DR, AUSTIN, TX  78737",
-   "assessed": 1146380,
+   "assessed": 1132870,
    "class": "A",
    "deed_date": "2026-01-21",
    "extras": {
@@ -1536,14 +2062,14 @@
    "lat": 30.202746,
    "lon": -97.995758,
    "sqft": 3671,
-   "value": 1146380,
+   "value": 1132870,
    "value_kind": "market (Hays CAD)",
    "year_built": 2004
   },
   {
    "acres": 1.836,
    "address": "156 SEA HERO PL, AUSTIN, TX  78737",
-   "assessed": 1203880,
+   "assessed": 1152420,
    "class": "A",
    "deed_date": "2026-01-15",
    "extras": {
@@ -1553,18 +2079,18 @@
     "heat_ac": "2CAH",
     "roof": "HG-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.209879,
    "lon": -98.012622,
    "sqft": 3674,
-   "value": 1203880,
+   "value": 1152420,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": 1.377,
    "address": "602 BENDING OAK LN, DRIPPING SPRINGS, TX  78620",
-   "assessed": 616231,
+   "assessed": 667770,
    "class": "A",
    "deed_date": "2026-01-13",
    "extras": {
@@ -1578,29 +2104,29 @@
    "lat": 30.212835,
    "lon": -98.041448,
    "sqft": 2250,
-   "value": 673720,
+   "value": 667770,
    "value_kind": "market (Hays CAD)",
    "year_built": 2000
   },
   {
    "acres": 1.779,
    "address": "606 BLUE HILLS DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 843249,
+   "assessed": 1024580,
    "class": "A",
    "deed_date": "2026-01-12",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 30.214224,
    "lon": -98.033561,
    "sqft": 3558,
-   "value": 932850,
+   "value": 1024580,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": null,
    "address": "136 FIREFALL LN, AUSTIN, TX  78737",
-   "assessed": 743509,
+   "assessed": 710000,
    "class": "A",
    "deed_date": "2026-01-12",
    "extras": {
@@ -1614,14 +2140,14 @@
    "lat": 30.164653,
    "lon": -97.997283,
    "sqft": 2879,
-   "value": 761200,
+   "value": 710000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": 0.537,
    "address": "280 SALTGRASS CV, AUSTIN, TX  78737",
-   "assessed": 1037638,
+   "assessed": 1023397,
    "class": "A",
    "deed_date": "2026-01-12",
    "extras": {},
@@ -1629,14 +2155,14 @@
    "lat": 30.175914,
    "lon": -97.987656,
    "sqft": 4932,
-   "value": 1037638,
+   "value": 1023397,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 1.61,
    "address": "1035 CANYON VIEW RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 816500,
+   "assessed": 762280,
    "class": "A",
    "deed_date": "2026-01-06",
    "extras": {
@@ -1650,14 +2176,14 @@
    "lat": 30.18228,
    "lon": -98.015645,
    "sqft": 2157,
-   "value": 816500,
+   "value": 762280,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
    "acres": null,
    "address": "569 STONE RIVER DR, AUSTIN, TX  78737",
-   "assessed": 860420,
+   "assessed": 885440,
    "class": "A",
    "deed_date": "2026-01-02",
    "extras": {
@@ -1666,18 +2192,18 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.165464,
    "lon": -98.000482,
    "sqft": 3462,
-   "value": 860420,
+   "value": 885440,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": 3.125,
    "address": "1011 OAK MEADOW DR, DRIPPING SPRINGS TX",
-   "assessed": 985456,
+   "assessed": 1156580,
    "class": "A",
    "deed_date": "2025-12-30",
    "extras": {
@@ -1685,18 +2211,18 @@
     "foundation": "S",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.208869,
    "lon": -98.042891,
    "sqft": 3392,
-   "value": 1031454,
+   "value": 1156580,
    "value_kind": "market (Hays CAD)",
    "year_built": 1993
   },
   {
    "acres": null,
    "address": "306 SWALLOWTAIL DR, AUSTIN, TX  78737",
-   "assessed": 736110,
+   "assessed": 800250,
    "class": "A",
    "deed_date": "2025-12-30",
    "extras": {
@@ -1709,29 +2235,29 @@
    "lat": 30.165311,
    "lon": -97.99729,
    "sqft": 2861,
-   "value": 736110,
+   "value": 800250,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": 3.574,
    "address": "1305 PARK CV, DRIPPING SPRINGS, TX  78620",
-   "assessed": 1038070,
+   "assessed": 987770,
    "class": "A",
    "deed_date": "2025-12-22",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 30.16708,
    "lon": -98.013621,
    "sqft": 3637,
-   "value": 1038070,
+   "value": 987770,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
    "acres": 1.365,
    "address": "1209 OAK MEADOW DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 622275,
+   "assessed": 782660,
    "class": "A",
    "deed_date": "2025-12-22",
    "extras": {
@@ -1741,18 +2267,38 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.210811,
    "lon": -98.049465,
    "sqft": 2193,
-   "value": 622275,
+   "value": 782660,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
+   "acres": 1.375,
+   "address": "616 CANYON RIM DR, DRIPPING SPRINGS, TX  78620",
+   "assessed": 588000,
+   "class": "A",
+   "deed_date": "2025-12-16",
+   "extras": {
+    "exterior": "R",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.215633,
+   "lon": -98.046667,
+   "sqft": 2143,
+   "value": 588000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1992
+  },
+  {
    "acres": 2.31,
    "address": "1026 WINDMILL RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 1165510,
+   "assessed": 985544,
    "class": "A",
    "deed_date": "2025-12-16",
    "extras": {
@@ -1766,54 +2312,14 @@
    "lat": 30.204688,
    "lon": -98.023277,
    "sqft": 3866,
-   "value": 1165510,
+   "value": 985544,
    "value_kind": "market (Hays CAD)",
    "year_built": 1993
   },
   {
-   "acres": 1.375,
-   "address": "616 CANYON RIM DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 598818,
-   "class": "A",
-   "deed_date": "2025-12-16",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.215633,
-   "lon": -98.046667,
-   "sqft": 2143,
-   "value": 651857,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1992
-  },
-  {
-   "acres": 2.076,
-   "address": "16 TALL OAKS TRL, AUSTIN, TX  78737",
-   "assessed": 765186,
-   "class": "A",
-   "deed_date": "2025-12-15",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "O"
-   },
-   "homestead": true,
-   "lat": 30.215577,
-   "lon": -97.989774,
-   "sqft": 2727,
-   "value": 845870,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2007
-  },
-  {
    "acres": 1.634,
    "address": "14001 TIMBERLINE TRL, AUSTIN, TX  78737",
-   "assessed": 681293,
+   "assessed": 730800,
    "class": "A",
    "deed_date": "2025-12-12",
    "extras": {
@@ -1823,19 +2329,19 @@
     "heat_ac": "CAH",
     "roof": "G-M"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.217499,
    "lon": -98.023696,
    "sqft": 2314,
-   "value": 681293,
+   "value": 730800,
    "value_kind": "market (Hays CAD)",
    "year_built": 2000
   },
   {
    "acres": 10.47,
    "address": "749 CATTLE TRAIL DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 1707220,
-   "class": "A",
+   "assessed": 1578748,
+   "class": "D1",
    "deed_date": "2025-12-12",
    "extras": {
     "bedrooms": "5.000000",
@@ -1844,18 +2350,18 @@
     "heat_ac": "CAH",
     "roof": "G-M, F-BU"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.178116,
    "lon": -98.027035,
    "sqft": 5390,
-   "value": 2756030,
+   "value": 2368268,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": 2.534,
    "address": "1010 MEADOW RIDGE DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 500161,
+   "assessed": 675108,
    "class": "A",
    "deed_date": "2025-12-10",
    "extras": {},
@@ -1863,14 +2369,14 @@
    "lat": 30.171676,
    "lon": -98.009244,
    "sqft": 2350,
-   "value": 574610,
+   "value": 675108,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
    "acres": 1.03,
    "address": "159 CATFISH CV, DRIPPING SPRINGS, TX  78620",
-   "assessed": 728290,
+   "assessed": 610000,
    "class": "A",
    "deed_date": "2025-12-04",
    "extras": {
@@ -1885,14 +2391,14 @@
    "lat": 30.187784,
    "lon": -98.007394,
    "sqft": 2481,
-   "value": 728290,
+   "value": 610000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2008
   },
   {
    "acres": 2.12,
    "address": "13674 TRAUTWEIN RD, AUSTIN, TX  78737",
-   "assessed": 1067251,
+   "assessed": 1108780,
    "class": "A",
    "deed_date": "2025-12-03",
    "extras": {},
@@ -1900,14 +2406,14 @@
    "lat": 30.210115,
    "lon": -98.02077,
    "sqft": 4153,
-   "value": 1193760,
+   "value": 1108780,
    "value_kind": "market (Hays CAD)",
    "year_built": 2008
   },
   {
    "acres": null,
    "address": "437 STONE RIVER DR, AUSTIN, TX  78737",
-   "assessed": 796180,
+   "assessed": 810050,
    "class": "A",
    "deed_date": "2025-12-02",
    "extras": {
@@ -1919,14 +2425,14 @@
    "lat": 30.163713,
    "lon": -97.999599,
    "sqft": 2997,
-   "value": 796180,
+   "value": 810050,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": 2.16,
-   "address": "1052 HIDDEN HILLS DR, DRIPPING SPRINGS TX",
-   "assessed": 360000,
+   "address": "1052 HIDDEN HILLS DR, DRIPPING SPRINGS, TX  78620",
+   "assessed": 396000,
    "class": "A",
    "deed_date": "2025-12-01",
    "extras": {},
@@ -1934,14 +2440,14 @@
    "lat": 30.210806,
    "lon": -98.026591,
    "sqft": 1872,
-   "value": 360000,
+   "value": 647155,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": 1.0,
    "address": "163 OLD MILL DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 869470,
+   "assessed": 772119,
    "class": "A",
    "deed_date": "2025-11-21",
    "extras": {
@@ -1954,14 +2460,14 @@
    "lat": 30.186406,
    "lon": -98.001559,
    "sqft": 4106,
-   "value": 869470,
+   "value": 772119,
    "value_kind": "market (Hays CAD)",
    "year_built": 2001
   },
   {
    "acres": 0.299,
    "address": "278 ROCKY SPOT DR, AUSTIN, TX  78737",
-   "assessed": 864030,
+   "assessed": 879160,
    "class": "A",
    "deed_date": "2025-11-21",
    "extras": {
@@ -1975,14 +2481,14 @@
    "lat": 30.175041,
    "lon": -97.99222,
    "sqft": 3443,
-   "value": 864030,
+   "value": 879160,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
-   "acres": 3.289,
+   "acres": 1.78,
    "address": "601 COTTONWOOD CREEK DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 882195,
+   "assessed": 726560,
    "class": "A",
    "deed_date": "2025-11-20",
    "extras": {
@@ -1995,14 +2501,14 @@
    "lat": 30.214905,
    "lon": -98.025228,
    "sqft": 2763,
-   "value": 1036490,
+   "value": 726560,
    "value_kind": "market (Hays CAD)",
    "year_built": 1998
   },
   {
    "acres": 2.351,
    "address": "504 ROY CREEK LN, DRIPPING SPRINGS, TX  78620",
-   "assessed": 781228,
+   "assessed": 570000,
    "class": "A",
    "deed_date": "2025-11-14",
    "extras": {
@@ -2012,14 +2518,14 @@
    "lat": 30.212641,
    "lon": -98.038983,
    "sqft": 2532,
-   "value": 833000,
+   "value": 570000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
    "acres": 1.053,
    "address": "121 WHITE WASH WAY, DRIPPING SPRINGS, TX  78620",
-   "assessed": 766830,
+   "assessed": 670000,
    "class": "A",
    "deed_date": "2025-11-13",
    "extras": {
@@ -2033,14 +2539,14 @@
    "lat": 30.182794,
    "lon": -98.001913,
    "sqft": 2815,
-   "value": 766830,
+   "value": 670000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 1.666,
    "address": "13500 TRAUTWEIN RD, AUSTIN, TX  78737",
-   "assessed": 665166,
+   "assessed": 772810,
    "class": "A",
    "deed_date": "2025-11-08",
    "extras": {
@@ -2050,18 +2556,18 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.213928,
    "lon": -98.022412,
    "sqft": 2762,
-   "value": 718825,
+   "value": 772810,
    "value_kind": "market (Hays CAD)",
    "year_built": 1991
   },
   {
    "acres": 1.371,
    "address": "626 CANYON RIM DR, DRIPPING SPRINGS TX",
-   "assessed": 790944,
+   "assessed": 1009710,
    "class": "A",
    "deed_date": "2025-11-04",
    "extras": {
@@ -2071,18 +2577,18 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.217882,
    "lon": -98.04582,
    "sqft": 3039,
-   "value": 896810,
+   "value": 1009710,
    "value_kind": "market (Hays CAD)",
    "year_built": 1992
   },
   {
    "acres": 0.297,
    "address": "214 DESERT WILLOW WAY, AUSTIN, TX  78737",
-   "assessed": 763850,
+   "assessed": 778590,
    "class": "A",
    "deed_date": "2025-11-03",
    "extras": {
@@ -2096,14 +2602,14 @@
    "lat": 30.169281,
    "lon": -98.003147,
    "sqft": 3857,
-   "value": 763850,
+   "value": 778590,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": 2.9,
    "address": "1003 SUNDANCE RIDGE, DRIPPING SPRINGS, TX  78620",
-   "assessed": 841580,
+   "assessed": 798000,
    "class": "A",
    "deed_date": "2025-10-31",
    "extras": {
@@ -2117,14 +2623,14 @@
    "lat": 30.189148,
    "lon": -98.019605,
    "sqft": 2889,
-   "value": 875000,
+   "value": 798000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1992
   },
   {
    "acres": 1.804,
    "address": "17 LAUREL HILL DR, AUSTIN, TX  78737",
-   "assessed": 743765,
+   "assessed": 772710,
    "class": "A",
    "deed_date": "2025-10-30",
    "extras": {
@@ -2138,14 +2644,14 @@
    "lat": 30.215411,
    "lon": -97.986282,
    "sqft": 2562,
-   "value": 870940,
+   "value": 772710,
    "value_kind": "market (Hays CAD)",
    "year_built": 1997
   },
   {
    "acres": 1.244,
    "address": "1301 OAK MEADOWS DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 594209,
+   "assessed": 340000,
    "class": "A",
    "deed_date": "2025-10-28",
    "extras": {
@@ -2159,14 +2665,14 @@
    "lat": 30.211617,
    "lon": -98.051122,
    "sqft": 2475,
-   "value": 652260,
+   "value": 340000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2000
   },
   {
    "acres": 3.3,
    "address": "1011 WINDMILL RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 840332,
+   "assessed": 810000,
    "class": "A",
    "deed_date": "2025-10-24",
    "extras": {
@@ -2180,14 +2686,14 @@
    "lat": 30.200893,
    "lon": -98.024102,
    "sqft": 2024,
-   "value": 1037540,
+   "value": 810000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1994
   },
   {
    "acres": 1.377,
    "address": "713 OAKWOOD LN, DRIPPING SPRINGS, TX  78620",
-   "assessed": 765732,
+   "assessed": 1281890,
    "class": "A",
    "deed_date": "2025-10-23",
    "extras": {
@@ -2199,14 +2705,14 @@
    "lat": 30.212192,
    "lon": -98.032255,
    "sqft": 2197,
-   "value": 865130,
+   "value": 1281890,
    "value_kind": "market (Hays CAD)",
    "year_built": 1998
   },
   {
    "acres": 2.11,
    "address": "4006 SPANISH OAK LN, DRIPPING SPRINGS, TX  78620",
-   "assessed": 770506,
+   "assessed": 619000,
    "class": "A",
    "deed_date": "2025-10-22",
    "extras": {
@@ -2221,14 +2727,14 @@
    "lat": 30.199469,
    "lon": -98.015603,
    "sqft": 2368,
-   "value": 817840,
+   "value": 619000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": 0.541,
    "address": "125 STONEY POINT RD, AUSTIN, TX  78737",
-   "assessed": 760070,
+   "assessed": 911800,
    "class": "A",
    "deed_date": "2025-10-20",
    "extras": {
@@ -2238,18 +2744,18 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.175588,
    "lon": -97.993775,
    "sqft": 3168,
-   "value": 760070,
+   "value": 911800,
    "value_kind": "market (Hays CAD)",
    "year_built": 2011
   },
   {
    "acres": 0.382,
    "address": "371 DESERT WILLOW WAY, AUSTIN, TX  78737",
-   "assessed": 765040,
+   "assessed": 773358,
    "class": "A",
    "deed_date": "2025-10-20",
    "extras": {
@@ -2263,14 +2769,14 @@
    "lat": 30.168979,
    "lon": -98.005495,
    "sqft": 3405,
-   "value": 765040,
+   "value": 773358,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": 1.004,
    "address": "558 TOM SAWYER RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 691850,
+   "assessed": 761035,
    "class": "A",
    "deed_date": "2025-10-17",
    "extras": {
@@ -2285,14 +2791,14 @@
    "lat": 30.190532,
    "lon": -98.005431,
    "sqft": 3773,
-   "value": 691850,
+   "value": 856970,
    "value_kind": "market (Hays CAD)",
    "year_built": 2001
   },
   {
    "acres": 0.322,
    "address": "433 STONEY POINT RDG, AUSTIN, TX  78737",
-   "assessed": 738820,
+   "assessed": 715000,
    "class": "A",
    "deed_date": "2025-10-17",
    "extras": {
@@ -2306,14 +2812,14 @@
    "lat": 30.171988,
    "lon": -97.992207,
    "sqft": 3032,
-   "value": 738820,
+   "value": 715000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": 3.411,
    "address": "5 CARRIAGE HOUSE LN, AUSTIN, TX  78737",
-   "assessed": 1057417,
+   "assessed": 989204,
    "class": "A",
    "deed_date": "2025-10-16",
    "extras": {
@@ -2327,14 +2833,14 @@
    "lat": 30.205896,
    "lon": -97.989775,
    "sqft": 3709,
-   "value": 1257830,
+   "value": 989204,
    "value_kind": "market (Hays CAD)",
    "year_built": 1993
   },
   {
    "acres": 0.31,
    "address": "1059 GRASSY FIELD RD, AUSTIN, TX  78737",
-   "assessed": 704356,
+   "assessed": 738700,
    "class": "A",
    "deed_date": "2025-10-15",
    "extras": {
@@ -2348,968 +2854,29 @@
    "lat": 30.166534,
    "lon": -97.997304,
    "sqft": 2964,
-   "value": 704356,
+   "value": 738700,
    "value_kind": "market (Hays CAD)",
    "year_built": 2011
-  },
-  {
-   "acres": 10.02,
-   "address": "1010 WESTLAND RIDGE RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 335069,
-   "class": "A",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 30.186323,
-   "lon": -98.022923,
-   "sqft": 3240,
-   "value": 1237000,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 2.02,
-   "address": "1043 WINDMILL RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 812318,
-   "class": "A",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 30.206764,
-   "lon": -98.025361,
-   "sqft": 3044,
-   "value": 812318,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1984
-  },
-  {
-   "acres": 68.6,
-   "address": "125 WILLOW WALK CV, AUSTIN, TX  78737",
-   "assessed": 421373,
-   "class": "A",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.167113,
-   "lon": -97.987583,
-   "sqft": 1836,
-   "value": 421373,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 1.91,
-   "address": "1016 CANYON BEND DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 575363,
-   "class": "A",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 30.191022,
-   "lon": -98.024657,
-   "sqft": 1893,
-   "value": 596028,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 1.8,
-   "address": "2007 HIDDEN HILLS DR, DRIPPING SPRINGS TX",
-   "assessed": 681714,
-   "class": "A",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "B",
-    "foundation": "S",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 30.199231,
-   "lon": -98.027672,
-   "sqft": 2493,
-   "value": 776410,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1985
-  },
-  {
-   "acres": 2.3,
-   "address": "21 CARRIAGE HOUSE LN, AUSTIN, TX  78737",
-   "assessed": 722370,
-   "class": "A",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.205936,
-   "lon": -97.995242,
-   "sqft": 2166,
-   "value": 722370,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1979
-  },
-  {
-   "acres": 3.152,
-   "address": "401 ROY CREEK LN, DRIPPING SPRINGS, TX  78620",
-   "assessed": 1060648,
-   "class": "A",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "S",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.209537,
-   "lon": -98.035903,
-   "sqft": 2930,
-   "value": 1131263,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1992
-  },
-  {
-   "acres": 0.284,
-   "address": "329 WINECUP WAY, AUSTIN, TX  78737",
-   "assessed": 712390,
-   "class": "A",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "B, R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.173759,
-   "lon": -97.997683,
-   "sqft": 2843,
-   "value": 712390,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": null,
-   "address": "139 SANDPIPER CV, AUSTIN, TX  78737",
-   "assessed": 750981,
-   "class": "A",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.164543,
-   "lon": -97.9961,
-   "sqft": 3008,
-   "value": 768190,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 3.393,
-   "address": "300 PEMBERTON WAY, AUSTIN, TX  78737",
-   "assessed": 1530811,
-   "class": "A",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "bedrooms": "5.000000",
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.199615,
-   "lon": -97.993544,
-   "sqft": 4836,
-   "value": 1530811,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 2.01,
-   "address": "10 SCARLET RIDGE, AUSTIN, TX  78737",
-   "assessed": 1694710,
-   "class": "A",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.207808,
-   "lon": -98.001726,
-   "sqft": 4216,
-   "value": 1694710,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.272,
-   "address": "120 MOUNTAIN LAUREL WAY, AUSTIN, TX  78737",
-   "assessed": 623050,
-   "class": "A",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.171729,
-   "lon": -97.995641,
-   "sqft": 2777,
-   "value": 623050,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.371,
-   "address": "200 BRIGHT SKY DR, AUSTIN, TX  78737",
-   "assessed": 866660,
-   "class": "A",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 30.171683,
-   "lon": -97.989138,
-   "sqft": 3050,
-   "value": 866660,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 1.3,
-   "address": "1020 FOOTHILLS DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 597930,
-   "class": "A",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.178726,
-   "lon": -98.022938,
-   "sqft": 1771,
-   "value": 597930,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 1.469,
-   "address": "1028 CANYON VIEW RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 652740,
-   "class": "A",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "R-C",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.193427,
-   "lon": -98.024005,
-   "sqft": 1989,
-   "value": 652740,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 4.034,
-   "address": "42 LAUREL HILL, AUSTIN, TX  78737",
-   "assessed": 596968,
-   "class": "A",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.212456,
-   "lon": -97.993941,
-   "sqft": 2172,
-   "value": 1008880,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1980
-  },
-  {
-   "acres": 2.211,
-   "address": "2 LAUREL HILL, AUSTIN, TX  78737",
-   "assessed": 950557,
-   "class": "A",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "R, C",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.220932,
-   "lon": -97.98614,
-   "sqft": 3371,
-   "value": 1156630,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1980
-  },
-  {
-   "acres": 0.322,
-   "address": "250 OPEN SKY RD, AUSTIN, TX  78737",
-   "assessed": 1074580,
-   "class": "A",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.168184,
-   "lon": -98.003787,
-   "sqft": 5811,
-   "value": 1074580,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.374,
-   "address": "337 STONEY POINT RD, AUSTIN, TX  78737",
-   "assessed": 885376,
-   "class": "A",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "bedrooms": "5.000000",
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.172454,
-   "lon": -97.993897,
-   "sqft": 4971,
-   "value": 885376,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 1.01,
-   "address": "409 JULY JOHNSON DR, AUSTIN, TX  78737",
-   "assessed": 987430,
-   "class": "A",
-   "deed_date": "2025-09-03",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.165696,
-   "lon": -98.002356,
-   "sqft": 3181,
-   "value": 987430,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 68.6,
-   "address": "212 ELDERBERRY RD, AUSTIN, TX  78737",
-   "assessed": 578296,
-   "class": "A",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.168304,
-   "lon": -97.985551,
-   "sqft": 2911,
-   "value": 578296,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.261,
-   "address": "540 BIG MEADOW RD, AUSTIN, TX  78737",
-   "assessed": 607530,
-   "class": "A",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.16228,
-   "lon": -97.997366,
-   "sqft": 2550,
-   "value": 607530,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "110 SANDPIPER CV, AUSTIN, TX  78737",
-   "assessed": 696227,
-   "class": "A",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "bedrooms": "4.000000",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.164007,
-   "lon": -97.995831,
-   "sqft": 2829,
-   "value": 696227,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 1.615,
-   "address": "500 COTTONWOOD CREEK DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 583020,
-   "class": "A",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.211884,
-   "lon": -98.024841,
-   "sqft": 2024,
-   "value": 723500,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.503,
-   "address": "288 SMARTY JONES AVE, AUSTIN, TX  78737",
-   "assessed": 1097725,
-   "class": "A",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "S, B",
-    "foundation": "S",
-    "heat_ac": "1CAH"
-   },
-   "homestead": true,
-   "lat": 30.206217,
-   "lon": -98.014543,
-   "sqft": 3889,
-   "value": 1180510,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 4.73,
-   "address": "1013 HIDDEN HILLS DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 1026862,
-   "class": "A",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.203295,
-   "lon": -98.015518,
-   "sqft": 2286,
-   "value": 1261439,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1982
-  },
-  {
-   "acres": 0.359,
-   "address": "184 OPEN SKY RD, AUSTIN, TX  78737",
-   "assessed": 817930,
-   "class": "A",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.168,
-   "lon": -98.002903,
-   "sqft": 3405,
-   "value": 817930,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 1.836,
-   "address": "14029 TIMBERLINE TRL, AUSTIN, TX  78737",
-   "assessed": 956989,
-   "class": "A",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "bedrooms": "5.000000",
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "3CAH"
-   },
-   "homestead": true,
-   "lat": 30.217503,
-   "lon": -98.022546,
-   "sqft": 3473,
-   "value": 971163,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.187,
-   "address": "218 WILD PECAN LOOP, BUDA, TX  78610",
-   "assessed": 390029,
-   "class": "A",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "bedrooms": "5.000000",
-    "exterior": "B, C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.168932,
-   "lon": -97.988145,
-   "sqft": 1999,
-   "value": 390029,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 1.791,
-   "address": "28 LONG CREEK RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 547771,
-   "class": "A",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.210073,
-   "lon": -97.985853,
-   "sqft": 1925,
-   "value": 595360,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 1.399,
-   "address": "381 GATO DEL SOL AVE, AUSTIN, TX  78737",
-   "assessed": 970303,
-   "class": "A",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "R-B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.207314,
-   "lon": -98.012347,
-   "sqft": 3273,
-   "value": 970303,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 1.0,
-   "address": "269 CALL DR, AUSTIN, TX  78737",
-   "assessed": 837849,
-   "class": "A",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.163497,
-   "lon": -98.006232,
-   "sqft": 3414,
-   "value": 837849,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": null,
-   "address": "804 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 442194,
-   "class": "A",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "B-C",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.21954,
-   "lon": -98.030299,
-   "sqft": 2326,
-   "value": 442194,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 1.607,
-   "address": "1021 CANYON VIEW RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 650000,
-   "class": "A",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "B",
-    "fireplace": "1FP",
-    "foundation": "S",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.185438,
-   "lon": -98.015532,
-   "sqft": 2306,
-   "value": 650000,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 3.214,
-   "address": "1025 CANYON VIEW RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 813852,
-   "class": "A",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.184649,
-   "lon": -98.014901,
-   "sqft": 1670,
-   "value": 813852,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1992
-  },
-  {
-   "acres": 1.91,
-   "address": "1006 FOOTHILLS DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 1319040,
-   "class": "A",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.178111,
-   "lon": -98.018092,
-   "sqft": 3467,
-   "value": 1319040,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 1.061,
-   "address": "211 HERITAGE DR, AUSTIN, TX  78737",
-   "assessed": 769420,
-   "class": "A",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1FP",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.203407,
-   "lon": -97.989188,
-   "sqft": 3194,
-   "value": 769420,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.533,
-   "address": "675 SPECTACULAR BID DR, AUSTIN, TX  78737",
-   "assessed": 1048000,
-   "class": "A",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.204872,
-   "lon": -98.009762,
-   "sqft": 3140,
-   "value": 1048000,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.862,
-   "address": "128 BIG SKY CV, AUSTIN, TX  78737",
-   "assessed": 921980,
-   "class": "A",
-   "deed_date": "2025-08-01",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.175962,
-   "lon": -98.000778,
-   "sqft": 3446,
-   "value": 921980,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 68.6,
-   "address": "564 WILD ROSE DR, AUSTIN, TX  78737",
-   "assessed": 631920,
-   "class": "A",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "R-B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.169634,
-   "lon": -97.98369,
-   "sqft": 3358,
-   "value": 631920,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": 1.528,
-   "address": "155 RIVA RIDGE PL, AUSTIN, TX  78737",
-   "assessed": 1023730,
-   "class": "A",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R-S, B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "2CAH"
-   },
-   "homestead": true,
-   "lat": 30.211252,
-   "lon": -98.012162,
-   "sqft": 2885,
-   "value": 1023730,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": null,
-   "address": "487 STONE RIVER DR, AUSTIN, TX  78737",
-   "assessed": 763464,
-   "class": "A",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.164217,
-   "lon": -98.000352,
-   "sqft": 3060,
-   "value": 763464,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.259,
-   "address": "207 DRY CREEK RD, AUSTIN, TX  78737",
-   "assessed": 686820,
-   "class": "A",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.170437,
-   "lon": -97.991214,
-   "sqft": 2964,
-   "value": 686820,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 1.35,
-   "address": "192 CALL DR, AUSTIN, TX  78737",
-   "assessed": 980910,
-   "class": "A",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "B, R",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.163935,
-   "lon": -98.00746,
-   "sqft": 3181,
-   "value": 980910,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 1.524,
-   "address": "1005 WESTLAND RIDGE DR, DRIPPING SPRINGS, TX  78620",
-   "assessed": 544754,
-   "class": "A",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "bedrooms": "3.000000"
-   },
-   "homestead": true,
-   "lat": 30.188012,
-   "lon": -98.020617,
-   "sqft": 1895,
-   "value": 544754,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.0,
-   "address": "116 CALL DR, AUSTIN, TX  78737",
-   "assessed": 900057,
-   "class": "A",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "S, R",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.165104,
-   "lon": -98.007675,
-   "sqft": 3780,
-   "value": 900057,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
   }
  ],
  "windows": {
   "12mo": {
-   "count": 164,
-   "median_value": 816500,
-   "pct_of_households": 9.3,
-   "pct_of_population": 2.86
+   "count": 143,
+   "median_value": 798000,
+   "pct_of_households": 8.11,
+   "pct_of_population": 2.5
   },
   "3mo": {
-   "count": 41,
-   "median_value": 849400,
-   "pct_of_households": 2.33,
-   "pct_of_population": 0.72
+   "count": 2,
+   "median_value": 979700,
+   "pct_of_households": 0.11,
+   "pct_of_population": 0.03
   },
   "6mo": {
-   "count": 82,
-   "median_value": 830140,
-   "pct_of_households": 4.65,
-   "pct_of_population": 1.43
+   "count": 68,
+   "median_value": 824390,
+   "pct_of_households": 3.86,
+   "pct_of_population": 1.19
   }
  }
 }

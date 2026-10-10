@@ -1,11 +1,49 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 30,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 20,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1939,
  "months_back": 12,
  "population_acs": 4002,
  "transfers": [
+  {
+   "acres": 3.299,
+   "address": "108 DEEN AUSTIN 78753",
+   "assessed": 296175,
+   "class": "A1",
+   "deed_date": "2026-08-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.354398,
+   "lon": -97.698901,
+   "sqft": 1610,
+   "value": 296175,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1969
+  },
+  {
+   "acres": 2.507,
+   "address": "407 MIDDLE 78753",
+   "assessed": 239555,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.357753,
+   "lon": -97.692119,
+   "sqft": 832,
+   "value": 239555,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1950
+  },
   {
    "acres": 2.051,
    "address": "9301 GEORGIAN 78753",
@@ -19,9 +57,23 @@
    "value_kind": "market (TCAD appraisal)"
   },
   {
+   "acres": 1.568,
+   "address": "512 SAN JOSE 78753",
+   "assessed": 64525,
+   "class": "A2",
+   "deed_date": "2026-05-06",
+   "homestead": false,
+   "lat": 30.352953,
+   "lon": -97.703242,
+   "sqft": 600,
+   "value": 64525,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1969
+  },
+  {
    "acres": 1.956,
    "address": "9100 SHEPARD AUSTIN 78753",
-   "assessed": 299494,
+   "assessed": 310291,
    "class": "A1",
    "deed_date": "2026-04-29",
    "extras": {
@@ -29,7 +81,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.360357,
    "lon": -97.698125,
    "sqft": 1470,
@@ -168,7 +220,7 @@
   {
    "acres": 5.176,
    "address": "103 DEEN AUSTIN 78753",
-   "assessed": 297713,
+   "assessed": 265000,
    "class": "A1",
    "deed_date": "2026-02-19",
    "extras": {
@@ -180,7 +232,7 @@
    "lat": 30.353532,
    "lon": -97.699151,
    "sqft": 1699,
-   "value": 297713,
+   "value": 265000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1945
   },
@@ -275,7 +327,7 @@
   {
    "acres": 1.1,
    "address": "8816 GEORGIAN AUSTIN 78753",
-   "assessed": 353158,
+   "assessed": 334881,
    "class": "A1",
    "deed_date": "2025-10-28",
    "extras": {
@@ -287,13 +339,13 @@
    "lat": 30.35448,
    "lon": -97.697828,
    "sqft": 1422,
-   "value": 353158,
+   "value": 334881,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1947
   },
   {
    "acres": 18.76,
-   "address": "8827 LAMAR",
+   "address": "8827 LAMAR 78753",
    "assessed": 2050000,
    "class": "F1",
    "deed_date": "2025-10-26",
@@ -309,268 +361,26 @@
    "value": 2050000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1963
-  },
-  {
-   "acres": 1.911,
-   "address": "8801 LITTLE WALNUT AUSTIN 78753",
-   "assessed": 192708,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.353202,
-   "lon": -97.697897,
-   "sqft": 1094,
-   "value": 192708,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1949
-  },
-  {
-   "acres": 2.479,
-   "address": "406 MIDDLE 78753",
-   "assessed": 561726,
-   "class": "B2",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.358218,
-   "lon": -97.691816,
-   "sqft": 2521,
-   "value": 561726,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": 2.477,
-   "address": "408 MIDDLE 78753",
-   "assessed": 497640,
-   "class": "B2",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.35812,
-   "lon": -97.691614,
-   "sqft": 2268,
-   "value": 497640,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 2.509,
-   "address": "204 WALNUT 78753",
-   "assessed": 291875,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.350872,
-   "lon": -97.699514,
-   "sqft": 1155,
-   "value": 291875,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1962
-  },
-  {
-   "acres": 2.7,
-   "address": "105 FLORENCE 78753",
-   "assessed": 183621,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "METAL",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.35376,
-   "lon": -97.697239,
-   "sqft": 1128,
-   "value": 183621,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1953
-  },
-  {
-   "acres": 2.346,
-   "address": "502 OAKLEY 78753",
-   "assessed": 274733,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.356449,
-   "lon": -97.699139,
-   "sqft": 948,
-   "value": 274733,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1963
-  },
-  {
-   "acres": 2.945,
-   "address": "200 DEEN AUSTIN 78753",
-   "assessed": 297972,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.354526,
-   "lon": -97.699019,
-   "sqft": 1050,
-   "value": 297972,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1967
-  },
-  {
-   "acres": 2.711,
-   "address": "405 FAWNRIDGE AUSTIN 78753",
-   "assessed": 144270,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "foundation": "OTHER",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.357132,
-   "lon": -97.693035,
-   "sqft": 640,
-   "value": 144270,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1980
-  },
-  {
-   "acres": 3.267,
-   "address": "502 CAPITOL AUSTIN 78753",
-   "assessed": 452555,
-   "class": "B2",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.355225,
-   "lon": -97.693731,
-   "sqft": 1672,
-   "value": 452555,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 2.214,
-   "address": "401 PRIMROSE 78753",
-   "assessed": 133628,
-   "class": "A2",
-   "deed_date": "2025-07-31",
-   "homestead": false,
-   "lat": 30.350163,
-   "lon": -97.698267,
-   "sqft": 1440,
-   "value": 133628,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.849,
-   "address": "407 CAPITOL AUSTIN 78753",
-   "assessed": 327510,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.354899,
-   "lon": -97.694455,
-   "sqft": 1176,
-   "value": 327510,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1963
-  },
-  {
-   "acres": 1.966,
-   "address": "9104 GLENN 78753",
-   "assessed": 257696,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.360224,
-   "lon": -97.697088,
-   "sqft": 1123,
-   "value": 257696,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1966
-  },
-  {
-   "acres": 2.183,
-   "address": "9106 SLAYTON 78753",
-   "assessed": 330841,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.359682,
-   "lon": -97.695723,
-   "sqft": 1276,
-   "value": 330841,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1966
   }
  ],
  "windows": {
   "12mo": {
-   "count": 30,
-   "median_value": 275460,
-   "pct_of_households": 1.55,
-   "pct_of_population": 0.75
+   "count": 20,
+   "median_value": 265000,
+   "pct_of_households": 1.03,
+   "pct_of_population": 0.5
   },
   "3mo": {
-   "count": 5,
-   "median_value": 291127,
-   "pct_of_households": 0.26,
-   "pct_of_population": 0.12
+   "count": 1,
+   "median_value": 296175,
+   "pct_of_households": 0.05,
+   "pct_of_population": 0.02
   },
   "6mo": {
-   "count": 13,
-   "median_value": 274381,
-   "pct_of_households": 0.67,
-   "pct_of_population": 0.32
+   "count": 7,
+   "median_value": 239555,
+   "pct_of_households": 0.36,
+   "pct_of_population": 0.17
   }
  }
 }

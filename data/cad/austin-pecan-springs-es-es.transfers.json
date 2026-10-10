@@ -1,15 +1,808 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 71,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 100,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2888,
  "months_back": 12,
  "population_acs": 8020,
  "transfers": [
   {
+   "acres": 1.996,
+   "address": "4705 BROADHILL AUSTIN 78723",
+   "assessed": 333763,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.287748,
+   "lon": -97.675286,
+   "sqft": 1304,
+   "value": 333763,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
+  },
+  {
+   "acres": 3.097,
+   "address": "5202 BEECHMOOR 78723",
+   "assessed": 267451,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.295698,
+   "lon": -97.67777,
+   "sqft": 1354,
+   "value": 267451,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1966
+  },
+  {
+   "acres": 2.332,
+   "address": "4902 RUSSET HILL 78723",
+   "assessed": 514023,
+   "class": "A1",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.289457,
+   "lon": -97.672678,
+   "sqft": 1882,
+   "value": 514023,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1967
+  },
+  {
+   "acres": 1.848,
+   "address": "6257 MANOR 78723",
+   "assessed": 300000,
+   "class": "B2",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "MANSARD"
+   },
+   "homestead": false,
+   "lat": 30.307712,
+   "lon": -97.673583,
+   "sqft": 2036,
+   "value": 300000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1967
+  },
+  {
+   "acres": 1.982,
+   "address": "4808 BROADHILL AUSTIN 78723",
+   "assessed": 538000,
+   "class": "A1",
+   "deed_date": "2026-08-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.289597,
+   "lon": -97.674822,
+   "sqft": 2004,
+   "value": 538000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1971
+  },
+  {
+   "acres": 2.099,
+   "address": "4903 EASTDALE 78723",
+   "assessed": 249442,
+   "class": "A1",
+   "deed_date": "2026-08-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.287798,
+   "lon": -97.66933,
+   "sqft": 912,
+   "value": 249442,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1963
+  },
+  {
+   "acres": 27.6,
+   "address": "3509 ROGGE 78723",
+   "assessed": 2159454,
+   "class": "F1",
+   "deed_date": "2026-08-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.300631,
+   "lon": -97.674481,
+   "sqft": 25917,
+   "value": 2159454,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 2.15,
+   "address": "5504 CORDELL AUSTIN 78723",
+   "assessed": 383588,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.300298,
+   "lon": -97.679314,
+   "sqft": 1786,
+   "value": 383588,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1965
+  },
+  {
+   "acres": 2.349,
+   "address": "4702 HILLDALE AUSTIN 78723",
+   "assessed": 393011,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.287135,
+   "lon": -97.671668,
+   "sqft": 1372,
+   "value": 451737,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1964
+  },
+  {
+   "acres": 2.53,
+   "address": "5508 CHADWYCK AUSTIN 78723",
+   "assessed": 422100,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.29965,
+   "lon": -97.67536,
+   "sqft": 2080,
+   "value": 422100,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1967
+  },
+  {
+   "acres": 2.238,
+   "address": "6005 WALNUT HILLS AUSTIN 78723",
+   "assessed": 541102,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.306424,
+   "lon": -97.676095,
+   "sqft": 1914,
+   "value": 543279,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1964
+  },
+  {
+   "acres": 2.141,
+   "address": "4714 OLDFORT HILL AUSTIN 78723",
+   "assessed": 354806,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.288101,
+   "lon": -97.67462,
+   "sqft": 1577,
+   "value": 354806,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1968
+  },
+  {
+   "acres": 1.993,
+   "address": "5500 TIPTON 78723",
+   "assessed": 482653,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.29938,
+   "lon": -97.677352,
+   "sqft": 1690,
+   "value": 482653,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1967
+  },
+  {
+   "acres": 2.519,
+   "address": "4800 RUSSET HILL 78723",
+   "assessed": 213458,
+   "class": "C1",
+   "deed_date": "2026-07-08",
+   "homestead": false,
+   "lat": 30.288235,
+   "lon": -97.673426,
+   "sqft": 2285,
+   "value": 213458,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.082,
+   "address": "5332 KRUEGER AUSTIN 78723",
+   "assessed": 303685,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.291294,
+   "lon": -97.667648,
+   "sqft": 1420,
+   "value": 303685,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.141,
+   "address": "4813 BROADHILL 78723",
+   "assessed": 340390,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.289666,
+   "lon": -97.674111,
+   "sqft": 1678,
+   "value": 340390,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1971
+  },
+  {
+   "acres": 1.656,
+   "address": "5218 BASSWOOD 78723",
+   "assessed": 493747,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.295518,
+   "lon": -97.677553,
+   "sqft": 1393,
+   "value": 493747,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1966
+  },
+  {
+   "acres": 1.696,
+   "address": "5509 RAYBURN AUSTIN 78723",
+   "assessed": 316826,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.291619,
+   "lon": -97.667761,
+   "sqft": 1780,
+   "value": 316826,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.15,
+   "address": "5321 TOWER AUSTIN 78723",
+   "assessed": 309227,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.291598,
+   "lon": -97.668888,
+   "sqft": 918,
+   "value": 309227,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.727,
+   "address": "5501 CLAYMOOR 78723",
+   "assessed": 613291,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.299865,
+   "lon": -97.677986,
+   "sqft": 1996,
+   "value": 613291,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1966
+  },
+  {
+   "acres": 2.048,
+   "address": "4904 EASTDALE 78723",
+   "assessed": 401460,
+   "class": "A1",
+   "deed_date": "2026-06-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.288205,
+   "lon": -97.669775,
+   "sqft": 1628,
+   "value": 401460,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": 2.374,
+   "address": "4618 BUNDYHILL 78723",
+   "assessed": 211421,
+   "class": "C1",
+   "deed_date": "2026-06-12",
+   "homestead": false,
+   "lat": 30.288237,
+   "lon": -97.677799,
+   "value": 211421,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.082,
+   "address": "5340 KRUEGER AUSTIN 78723",
+   "assessed": 301636,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.29149,
+   "lon": -97.667521,
+   "sqft": 880,
+   "value": 301636,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.077,
+   "address": "4807 HILLDALE AUSTIN 78723",
+   "assessed": 304998,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.287788,
+   "lon": -97.670548,
+   "sqft": 1212,
+   "value": 304998,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1963
+  },
+  {
+   "acres": 3.487,
+   "address": "6103 CHERRYLAWN 78723",
+   "assessed": 525870,
+   "class": "A1",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.306591,
+   "lon": -97.675099,
+   "sqft": 2380,
+   "value": 525870,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1964
+  },
+  {
+   "acres": 2.126,
+   "address": "5808 GLOUCESTER AUSTIN 78723",
+   "assessed": 597598,
+   "class": "A1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.305397,
+   "lon": -97.678363,
+   "sqft": 1625,
+   "value": 597598,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1964
+  },
+  {
+   "acres": 1.639,
+   "address": "5210 GLADSTONE AUSTIN 78723",
+   "assessed": 598609,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.296231,
+   "lon": -97.678808,
+   "sqft": 1912,
+   "value": 598609,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1964
+  },
+  {
+   "acres": 2.002,
+   "address": "4803 BROADHILL AUSTIN 78723",
+   "assessed": 447220,
+   "class": "A1",
+   "deed_date": "2026-06-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.288775,
+   "lon": -97.674658,
+   "sqft": 1421,
+   "value": 447220,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1971
+  },
+  {
+   "acres": 1.689,
+   "address": "5305 BASSWOOD AUSTIN 78723",
+   "assessed": 501465,
+   "class": "A1",
+   "deed_date": "2026-06-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.296463,
+   "lon": -97.676364,
+   "sqft": 1866,
+   "value": 508516,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1966
+  },
+  {
+   "acres": 2.229,
+   "address": "4802 TANNEHILL AUSTIN 78723",
+   "assessed": 364693,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.286867,
+   "lon": -97.669423,
+   "sqft": 1890,
+   "value": 364693,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1964
+  },
+  {
+   "acres": 2.044,
+   "address": "5402 BASSWOOD AUSTIN 78723",
+   "assessed": 510400,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.297952,
+   "lon": -97.675982,
+   "sqft": 1559,
+   "value": 535178,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1967
+  },
+  {
+   "acres": 2.35,
+   "address": "6207 HYSIDE 78723",
+   "assessed": 593670,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.306885,
+   "lon": -97.671308,
+   "sqft": 1768,
+   "value": 593670,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
+  },
+  {
+   "acres": 2.038,
+   "address": "5105 MARYMOUNT 78723",
+   "assessed": 365030,
+   "class": "A1",
+   "deed_date": "2026-05-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.297532,
+   "lon": -97.683885,
+   "sqft": 1448,
+   "value": 365030,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1968
+  },
+  {
+   "acres": 2.152,
+   "address": "5103 MARYMOUNT 78723",
+   "assessed": 363862,
+   "class": "A1",
+   "deed_date": "2026-05-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.297356,
+   "lon": -97.683998,
+   "sqft": 1748,
+   "value": 363862,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1967
+  },
+  {
+   "acres": 2.52,
+   "address": "5600 M L KING JR 78721",
+   "assessed": 417174,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.286712,
+   "lon": -97.670019,
+   "sqft": 1839,
+   "value": 417174,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1973
+  },
+  {
+   "acres": 9.7,
+   "address": "5900 REICHER 78723",
+   "assessed": 194734,
+   "class": "C1",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.304466,
+   "lon": -97.676796,
+   "value": 194734,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 80.0,
+   "address": "5909 REICHER 78723",
+   "assessed": 15101728,
+   "class": "F1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "roof": "COMPOSITIO",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.304725,
+   "lon": -97.675191,
+   "sqft": 42475,
+   "value": 15101728,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 2.094,
+   "address": "3203 HYCREEK 78723",
+   "assessed": 126367,
+   "class": "C1",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.305566,
+   "lon": -97.674229,
+   "value": 126367,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 3.086,
+   "address": "6105 REICHER 78723",
+   "assessed": 139330,
+   "class": "C1",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.305659,
+   "lon": -97.674513,
+   "value": 139330,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 6.887,
+   "address": "5900 REICHER 78723",
+   "assessed": 464134,
+   "class": "F3",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.305229,
+   "lon": -97.67633,
+   "value": 464134,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 2.04,
+   "address": "3205 HYCREEK 78723",
+   "assessed": 125656,
+   "class": "C1",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.305455,
+   "lon": -97.67403,
+   "value": 125656,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 11.139,
+   "address": "5902 REICHER 78723",
+   "assessed": 208412,
+   "class": "C1",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.305855,
+   "lon": -97.675925,
+   "value": 208412,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 21.15,
+   "address": "6001 HYLAWN 78723",
+   "assessed": 300299,
+   "class": "C1",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.304659,
+   "lon": -97.673759,
+   "value": 300299,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.846,
+   "address": "6203 HYLAWN 78723",
+   "assessed": 525000,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.306823,
+   "lon": -97.672263,
+   "sqft": 1749,
+   "value": 525000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
+  },
+  {
+   "acres": 2.288,
+   "address": "3008 CEDARLAWN AUSTIN 78723",
+   "assessed": 425417,
+   "class": "A1",
+   "deed_date": "2026-05-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.306982,
+   "lon": -97.676417,
+   "sqft": 1701,
+   "value": 425417,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1963
+  },
+  {
    "acres": 1.868,
    "address": "5502 DARLINGTON AUSTIN 78723",
-   "assessed": 287517,
+   "assessed": 248731,
    "class": "A1",
    "deed_date": "2026-05-13",
    "extras": {
@@ -21,7 +814,7 @@
    "lat": 30.301683,
    "lon": -97.681489,
    "sqft": 924,
-   "value": 287517,
+   "value": 248731,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1962
   },
@@ -36,7 +829,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.290297,
    "lon": -97.675383,
    "sqft": 1866,
@@ -131,7 +924,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.297596,
    "lon": -97.680607,
    "sqft": 1545,
@@ -142,7 +935,7 @@
   {
    "acres": 1.72,
    "address": "5411 DARLINGTON 78723",
-   "assessed": 294654,
+   "assessed": 254905,
    "class": "A1",
    "deed_date": "2026-04-13",
    "extras": {
@@ -154,14 +947,14 @@
    "lat": 30.300487,
    "lon": -97.681074,
    "sqft": 924,
-   "value": 294654,
+   "value": 254905,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1962
   },
   {
    "acres": 1.807,
    "address": "5801 GLOUCESTER AUSTIN 78723",
-   "assessed": 550548,
+   "assessed": 552106,
    "class": "A1",
    "deed_date": "2026-04-08",
    "extras": {
@@ -169,7 +962,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.304466,
    "lon": -97.678173,
    "sqft": 1748,
@@ -232,7 +1025,7 @@
   {
    "acres": 2.496,
    "address": "3011 CEDARLAWN AUSTIN 78723",
-   "assessed": 439718,
+   "assessed": 230656,
    "class": "A1",
    "deed_date": "2026-03-29",
    "extras": {
@@ -240,11 +1033,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.30655,
    "lon": -97.676588,
    "sqft": 1722,
-   "value": 439718,
+   "value": 388000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1963
   },
@@ -259,7 +1052,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.296797,
    "lon": -97.680087,
    "sqft": 1081,
@@ -270,7 +1063,7 @@
   {
    "acres": 1.707,
    "address": "2904 SWEENEY 78723",
-   "assessed": 586802,
+   "assessed": 475000,
    "class": "B4",
    "deed_date": "2026-03-16",
    "extras": {
@@ -282,33 +1075,14 @@
    "lat": 30.306246,
    "lon": -97.679129,
    "sqft": 4060,
-   "value": 586802,
+   "value": 475000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1972
   },
   {
-   "acres": 2.35,
-   "address": "6207 HYSIDE 78723",
-   "assessed": 593670,
-   "class": "A1",
-   "deed_date": "2026-03-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.306885,
-   "lon": -97.671308,
-   "sqft": 1768,
-   "value": 593670,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1970
-  },
-  {
    "acres": 2.401,
    "address": "3407 NORWOOD HILL 78723",
-   "assessed": 541136,
+   "assessed": 475821,
    "class": "A1",
    "deed_date": "2026-03-13",
    "extras": {
@@ -320,7 +1094,7 @@
    "lat": 30.297371,
    "lon": -97.676354,
    "sqft": 1557,
-   "value": 541136,
+   "value": 475821,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1967
   },
@@ -354,7 +1128,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.296212,
    "lon": -97.677114,
    "sqft": 1316,
@@ -363,23 +1137,23 @@
    "year_built": 1966
   },
   {
-   "acres": 2.52,
-   "address": "5600 M L KING JR 78721",
-   "assessed": 417174,
+   "acres": 2.628,
+   "address": "3012 REXFORD AUSTIN 78723",
+   "assessed": 366518,
    "class": "A1",
-   "deed_date": "2026-03-06",
+   "deed_date": "2026-03-08",
    "extras": {
     "foundation": "SLAB",
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
-   "lat": 30.286712,
-   "lon": -97.670019,
-   "sqft": 1839,
-   "value": 417174,
+   "homestead": true,
+   "lat": 30.302625,
+   "lon": -97.678855,
+   "sqft": 1498,
+   "value": 366518,
    "value_kind": "market (TCAD appraisal)",
-   "year_built": 1973
+   "year_built": 1968
   },
   {
    "acres": 1.082,
@@ -392,7 +1166,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.290839,
    "lon": -97.667343,
    "sqft": 1506,
@@ -422,7 +1196,7 @@
   {
    "acres": 2.141,
    "address": "6103 HYSIDE 78723",
-   "assessed": 420939,
+   "assessed": 370132,
    "class": "B2",
    "deed_date": "2026-02-26",
    "extras": {
@@ -434,14 +1208,14 @@
    "lat": 30.306122,
    "lon": -97.67106,
    "sqft": 1776,
-   "value": 420939,
+   "value": 370132,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1971
   },
   {
    "acres": 2.061,
    "address": "4803 CARSONHILL AUSTIN 78723",
-   "assessed": 343231,
+   "assessed": 325211,
    "class": "A1",
    "deed_date": "2026-02-23",
    "extras": {
@@ -453,7 +1227,7 @@
    "lat": 30.289097,
    "lon": -97.675542,
    "sqft": 1829,
-   "value": 343231,
+   "value": 325211,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1972
   },
@@ -498,7 +1272,7 @@
   {
    "acres": 2.431,
    "address": "6213 HYSIDE 78723",
-   "assessed": 515904,
+   "assessed": 489118,
    "class": "A1",
    "deed_date": "2026-02-18",
    "extras": {
@@ -510,14 +1284,14 @@
    "lat": 30.307517,
    "lon": -97.671512,
    "sqft": 1481,
-   "value": 516219,
+   "value": 489118,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1967
   },
   {
    "acres": 2.052,
    "address": "6203 HYSIDE 78723",
-   "assessed": 366390,
+   "assessed": 322167,
    "class": "B2",
    "deed_date": "2026-02-13",
    "extras": {
@@ -529,7 +1303,7 @@
    "lat": 30.306493,
    "lon": -97.671182,
    "sqft": 2010,
-   "value": 366390,
+   "value": 322167,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1971
   },
@@ -544,7 +1318,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.304087,
    "lon": -97.680913,
    "sqft": 1080,
@@ -624,7 +1398,7 @@
   {
    "acres": 2.329,
    "address": "5409 RUSK 78723",
-   "assessed": 362909,
+   "assessed": 343856,
    "class": "A1",
    "deed_date": "2026-01-01",
    "extras": {
@@ -636,7 +1410,7 @@
    "lat": 30.292233,
    "lon": -97.667174,
    "sqft": 1754,
-   "value": 362909,
+   "value": 343856,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -738,7 +1512,7 @@
   {
    "acres": 3.461,
    "address": "4706 BUNDYHILL AUSTIN 78723",
-   "assessed": 341422,
+   "assessed": 300212,
    "class": "A1",
    "deed_date": "2025-12-19",
    "extras": {
@@ -750,7 +1524,7 @@
    "lat": 30.288921,
    "lon": -97.677848,
    "sqft": 1003,
-   "value": 341422,
+   "value": 300212,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1982
   },
@@ -805,25 +1579,6 @@
    "year_built": 1967
   },
   {
-   "acres": 1.663,
-   "address": "4806 CARSONHILL AUSTIN 78723",
-   "assessed": 429860,
-   "class": "A1",
-   "deed_date": "2025-12-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.289597,
-   "lon": -97.675812,
-   "sqft": 2167,
-   "value": 429860,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1973
-  },
-  {
    "acres": 2.083,
    "address": "4805 HILLDALE 78723",
    "assessed": 295267,
@@ -841,6 +1596,25 @@
    "value": 295267,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1963
+  },
+  {
+   "acres": 1.663,
+   "address": "4806 CARSONHILL AUSTIN 78723",
+   "assessed": 429860,
+   "class": "A1",
+   "deed_date": "2025-12-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.289597,
+   "lon": -97.675812,
+   "sqft": 2167,
+   "value": 429860,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1973
   },
   {
    "acres": 1.663,
@@ -900,21 +1674,9 @@
    "year_built": 1965
   },
   {
-   "acres": 2.374,
-   "address": "BUNDYHILL 78723",
-   "assessed": 211421,
-   "class": "C1",
-   "deed_date": "2025-11-12",
-   "homestead": false,
-   "lat": 30.288237,
-   "lon": -97.677799,
-   "value": 211421,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
    "acres": 1.058,
    "address": "5316 HUTCHINSON AUSTIN 78723",
-   "assessed": 323869,
+   "assessed": 284778,
    "class": "A1",
    "deed_date": "2025-11-12",
    "extras": {
@@ -926,7 +1688,7 @@
    "lat": 30.291266,
    "lon": -97.668688,
    "sqft": 1114,
-   "value": 323869,
+   "value": 284778,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -1026,28 +1788,9 @@
    "year_built": 1973
   },
   {
-   "acres": 1.639,
-   "address": "5210 GLADSTONE AUSTIN 78723",
-   "assessed": 598609,
-   "class": "A1",
-   "deed_date": "2025-10-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.296231,
-   "lon": -97.678808,
-   "sqft": 1912,
-   "value": 598609,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1964
-  },
-  {
    "acres": 2.071,
    "address": "4804 EASTDALE 78723",
-   "assessed": 291936,
+   "assessed": 256699,
    "class": "A1",
    "deed_date": "2025-10-23",
    "extras": {
@@ -1059,7 +1802,7 @@
    "lat": 30.287128,
    "lon": -97.670418,
    "sqft": 1468,
-   "value": 291936,
+   "value": 256699,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1963
   },
@@ -1081,273 +1824,26 @@
    "value": 330661,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1967
-  },
-  {
-   "acres": 1.804,
-   "address": "5403 CLAYMOOR 78723",
-   "assessed": 372958,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.298972,
-   "lon": -97.679564,
-   "sqft": 1440,
-   "value": 372958,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1965
-  },
-  {
-   "acres": 2.37,
-   "address": "4710 RUSSET HILL 78723",
-   "assessed": 319477,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.287873,
-   "lon": -97.673645,
-   "sqft": 1131,
-   "value": 319477,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1967
-  },
-  {
-   "acres": 2.393,
-   "address": "5602 CORDELL 78723",
-   "assessed": 384872,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.301399,
-   "lon": -97.679596,
-   "sqft": 1284,
-   "value": 384872,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1966
-  },
-  {
-   "acres": 2.726,
-   "address": "2900 PECAN SPRINGS AUSTIN 78723",
-   "assessed": 725405,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.301062,
-   "lon": -97.684639,
-   "sqft": 2116,
-   "value": 725405,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1957
-  },
-  {
-   "acres": 1.92,
-   "address": "5209 HALMARK AUSTIN 78723",
-   "assessed": 473091,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.295963,
-   "lon": -97.679121,
-   "sqft": 1514,
-   "value": 473091,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1966
-  },
-  {
-   "acres": 2.074,
-   "address": "5603 DARLINGTON AUSTIN 78723",
-   "assessed": 446680,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.302767,
-   "lon": -97.680469,
-   "sqft": 1110,
-   "value": 446680,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1962
-  },
-  {
-   "acres": 1.082,
-   "address": "5312 TOWER AUSTIN 78723",
-   "assessed": 355589,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.291582,
-   "lon": -97.669497,
-   "sqft": 1393,
-   "value": 355589,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 2.133,
-   "address": "4906 HILLDALE 78723",
-   "assessed": 398354,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.288808,
-   "lon": -97.67063,
-   "sqft": 1052,
-   "value": 398354,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1964
-  },
-  {
-   "acres": 2.589,
-   "address": "5501 BASSWOOD AUSTIN 78723",
-   "assessed": 424822,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.298294,
-   "lon": -97.675114,
-   "sqft": 1637,
-   "value": 424822,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1967
-  },
-  {
-   "acres": 2.66,
-   "address": "4614 BUNDYHILL AUSTIN 78723",
-   "assessed": 357721,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.28803,
-   "lon": -97.677781,
-   "sqft": 1491,
-   "value": 357721,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
-  },
-  {
-   "acres": 1.907,
-   "address": "4800 BUNDYHILL AUSTIN 78723",
-   "assessed": 317679,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.290009,
-   "lon": -97.676565,
-   "sqft": 1134,
-   "value": 317679,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1975
-  },
-  {
-   "acres": 2.194,
-   "address": "5507 GLOUCESTER 78723",
-   "assessed": 439201,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.301603,
-   "lon": -97.679944,
-   "sqft": 1104,
-   "value": 439201,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1964
-  },
-  {
-   "acres": 2.198,
-   "address": "6101 HYSIDE 78723",
-   "assessed": 224399,
-   "class": "B2",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.305941,
-   "lon": -97.670997,
-   "sqft": 2108,
-   "value": 224399,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1971
   }
  ],
  "windows": {
   "12mo": {
-   "count": 71,
-   "median_value": 384872,
-   "pct_of_households": 2.46,
-   "pct_of_population": 0.89
+   "count": 100,
+   "median_value": 371285,
+   "pct_of_households": 3.46,
+   "pct_of_population": 1.25
   },
   "3mo": {
-   "count": 8,
-   "median_value": 330044,
-   "pct_of_households": 0.28,
-   "pct_of_population": 0.1
+   "count": 11,
+   "median_value": 422100,
+   "pct_of_households": 0.38,
+   "pct_of_population": 0.14
   },
   "6mo": {
-   "count": 33,
-   "median_value": 371818,
-   "pct_of_households": 1.14,
-   "pct_of_population": 0.41
+   "count": 53,
+   "median_value": 364693,
+   "pct_of_households": 1.84,
+   "pct_of_population": 0.66
   }
  }
 }

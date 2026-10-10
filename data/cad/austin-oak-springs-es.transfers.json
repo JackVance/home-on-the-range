@@ -1,11 +1,234 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 17,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 24,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1159,
  "months_back": 12,
  "population_acs": 2415,
  "transfers": [
+  {
+   "acres": 1.523,
+   "address": "3003 GLEN RAE 78702",
+   "assessed": 381397,
+   "class": "A1",
+   "deed_date": "2026-09-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.266887,
+   "lon": -97.708954,
+   "sqft": 1408,
+   "value": 381397,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.348,
+   "address": "3006 GOVALLE AUSTIN 78702",
+   "assessed": 638288,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.266724,
+   "lon": -97.703555,
+   "sqft": 1810,
+   "value": 638288,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1945
+  },
+  {
+   "acres": 0.842,
+   "address": "1187 OAK GROVE 78702",
+   "assessed": 841226,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.274917,
+   "lon": -97.703205,
+   "sqft": 1915,
+   "value": 841226,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2019
+  },
+  {
+   "acres": 2.17,
+   "address": "1109 3/4 FIESTA AUSTIN 78702",
+   "assessed": 464495,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.266831,
+   "lon": -97.705001,
+   "sqft": 1292,
+   "value": 464495,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1952
+  },
+  {
+   "acres": 3.399,
+   "address": "3000 GLEN RAE AUSTIN 78702",
+   "assessed": 525575,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.267105,
+   "lon": -97.709494,
+   "sqft": 1952,
+   "value": 525575,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1955
+  },
+  {
+   "acres": 1.722,
+   "address": "2718 OAK SPRINGS 78702",
+   "assessed": 607009,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.272908,
+   "lon": -97.70383,
+   "sqft": 1320,
+   "value": 607009,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1951
+  },
+  {
+   "acres": 4.0,
+   "address": "2722 OAK SPRINGS AUSTIN 78702",
+   "assessed": 731723,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.272977,
+   "lon": -97.703424,
+   "sqft": 1584,
+   "value": 731723,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": null,
+   "address": "2608 SOL WILSON 78702",
+   "assessed": 396442,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.275324,
+   "lon": -97.705063,
+   "sqft": 989,
+   "value": 396442,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1947
+  },
+  {
+   "acres": 2.131,
+   "address": "1118 LINDEN 78702",
+   "assessed": 790339,
+   "class": "B2",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.267637,
+   "lon": -97.704214,
+   "sqft": 2405,
+   "value": 792000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 4.7,
+   "address": "1192 AIRPORT 78702",
+   "assessed": 2156461,
+   "class": "F1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.276085,
+   "lon": -97.700321,
+   "sqft": 4284,
+   "value": 2156461,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.582,
+   "address": "1106 FIESTA 78702",
+   "assessed": 762743,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "PIER AND B",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.266235,
+   "lon": -97.70581,
+   "sqft": 1992,
+   "value": 762743,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 1.562,
+   "address": "2907 KUHLMAN 78702",
+   "assessed": 1189512,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "homestead": false,
+   "lat": 30.266986,
+   "lon": -97.710048,
+   "sqft": 3210,
+   "value": 1189512,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2023
+  },
   {
    "acres": null,
    "address": "3124 FATHER JOE ZNOTAS 78702",
@@ -17,6 +240,25 @@
    "lon": -97.701274,
    "value": 10000,
    "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.722,
+   "address": "2720 OAK SPRINGS 78702",
+   "assessed": 525723,
+   "class": "A1",
+   "deed_date": "2026-04-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.272936,
+   "lon": -97.703675,
+   "sqft": 1444,
+   "value": 525723,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
   },
   {
    "acres": 1.919,
@@ -36,20 +278,6 @@
    "value": 520454,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1940
-  },
-  {
-   "acres": 1.562,
-   "address": "2907 KUHLMAN 78702",
-   "assessed": 1189512,
-   "class": "A1",
-   "deed_date": "2026-04-01",
-   "homestead": false,
-   "lat": 30.266986,
-   "lon": -97.710048,
-   "sqft": 3210,
-   "value": 1189512,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2023
   },
   {
    "acres": 1.045,
@@ -73,7 +301,7 @@
   {
    "acres": 1.636,
    "address": "1185 OAK GROVE 78702",
-   "assessed": 411524,
+   "assessed": 363499,
    "class": "A1",
    "deed_date": "2026-02-17",
    "extras": {
@@ -85,7 +313,7 @@
    "lat": 30.274893,
    "lon": -97.703041,
    "sqft": 990,
-   "value": 411524,
+   "value": 363499,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1954
   },
@@ -142,7 +370,7 @@
   {
    "acres": 1.598,
    "address": "809 NILE AUSTIN 78702",
-   "assessed": 411780,
+   "assessed": 363725,
    "class": "A1",
    "deed_date": "2025-12-23",
    "extras": {
@@ -154,7 +382,7 @@
    "lat": 30.26637,
    "lon": -97.711399,
    "sqft": 1156,
-   "value": 411780,
+   "value": 363725,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1993
   },
@@ -178,35 +406,16 @@
    "year_built": 2013
   },
   {
-   "acres": 4.7,
-   "address": "1192 AIRPORT 78702",
-   "assessed": 2512847,
-   "class": "F1",
-   "deed_date": "2025-11-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.276085,
-   "lon": -97.700321,
-   "sqft": 4284,
-   "value": 2512847,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
    "acres": 31.43,
    "address": "2406 ROSEWOOD 78702",
-   "assessed": 8079337,
+   "assessed": 7432990,
    "class": "F1",
    "deed_date": "2025-10-21",
    "homestead": false,
    "lat": 30.272466,
    "lon": -97.708948,
    "sqft": 43289,
-   "value": 8079337,
+   "value": 7432990,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
   },
@@ -228,92 +437,26 @@
    "value": 587494,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1970
-  },
-  {
-   "acres": 2.131,
-   "address": "1114 1/2 LINDEN 78702",
-   "assessed": 1404148,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.267375,
-   "lon": -97.704338,
-   "sqft": 4792,
-   "value": 1404148,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1939
-  },
-  {
-   "acres": 1.829,
-   "address": "1174 OAK GROVE 78702",
-   "assessed": 568535,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "foundation": "PIER AND B",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.274321,
-   "lon": -97.703014,
-   "sqft": 1386,
-   "value": 568535,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 1.501,
-   "address": "1004 WALTER 78702",
-   "assessed": 1513430,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "homestead": false,
-   "lat": 30.267732,
-   "lon": -97.712683,
-   "sqft": 3655,
-   "value": 1513430,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.894,
-   "address": "1181 PANDORA AUSTIN 78702",
-   "assessed": 319780,
-   "class": "A2",
-   "deed_date": "2025-07-09",
-   "homestead": false,
-   "lat": 30.274158,
-   "lon": -97.70544,
-   "sqft": 1294,
-   "value": 319780,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
   }
  ],
  "windows": {
   "12mo": {
-   "count": 17,
-   "median_value": 568535,
-   "pct_of_households": 1.47,
-   "pct_of_population": 0.7
+   "count": 24,
+   "median_value": 587494,
+   "pct_of_households": 2.07,
+   "pct_of_population": 0.99
   },
   "3mo": {
-   "count": 1,
-   "median_value": 10000,
-   "pct_of_households": 0.09,
-   "pct_of_population": 0.04
-  },
-  "6mo": {
    "count": 8,
-   "median_value": 483569,
+   "median_value": 607009,
    "pct_of_households": 0.69,
    "pct_of_population": 0.33
+  },
+  "6mo": {
+   "count": 13,
+   "median_value": 638288,
+   "pct_of_households": 1.12,
+   "pct_of_population": 0.54
   }
  }
 }

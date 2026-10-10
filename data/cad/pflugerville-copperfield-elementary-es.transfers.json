@@ -1,15 +1,661 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 77,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 84,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 5729,
  "months_back": 12,
  "population_acs": 12679,
  "transfers": [
   {
+   "acres": 1.86,
+   "address": "1400 BRIXHAM AUSTIN 78753",
+   "assessed": 239938,
+   "class": "A1",
+   "deed_date": "2026-09-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.385529,
+   "lon": -97.656592,
+   "sqft": 854,
+   "value": 239938,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": null,
+   "address": "1529 GAUTAMI AUSTIN 78753",
+   "assessed": 478817,
+   "class": "A1",
+   "deed_date": "2026-09-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.392967,
+   "lon": -97.648662,
+   "sqft": 2873,
+   "value": 478817,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 1.745,
+   "address": "12319 COPPERFIELD AUSTIN 78753",
+   "assessed": 429616,
+   "class": "A1",
+   "deed_date": "2026-08-19",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.394077,
+   "lon": -97.660791,
+   "sqft": 2731,
+   "value": 429616,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
+  },
+  {
+   "acres": 1.355,
+   "address": "12107 SHROPSHIRE 78753",
+   "assessed": 279308,
+   "class": "A1",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.385601,
+   "lon": -97.658558,
+   "sqft": 1118,
+   "value": 279308,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 1.836,
+   "address": "12340 SHROPSHIRE AUSTIN 78753",
+   "assessed": 293567,
+   "class": "A1",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.393419,
+   "lon": -97.655152,
+   "sqft": 1557,
+   "value": 293567,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1986
+  },
+  {
+   "acres": null,
+   "address": "1601 CONSTANTA AUSTIN 78753",
+   "assessed": 376160,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.392174,
+   "lon": -97.648738,
+   "sqft": 1647,
+   "value": 376160,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2018
+  },
+  {
+   "acres": 1.297,
+   "address": "905 WICKFIELD 78753",
+   "assessed": 246130,
+   "class": "A1",
+   "deed_date": "2026-08-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.385666,
+   "lon": -97.664311,
+   "sqft": 1366,
+   "value": 246130,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1986
+  },
+  {
+   "acres": 1.119,
+   "address": "12219 LITTLE FATIMA AUSTIN 78753",
+   "assessed": 283887,
+   "class": "A1",
+   "deed_date": "2026-08-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.389361,
+   "lon": -97.65461,
+   "sqft": 1084,
+   "value": 283887,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1986
+  },
+  {
+   "acres": 1.764,
+   "address": "918 PEGGOTTY AUSTIN 78753",
+   "assessed": 294886,
+   "class": "A1",
+   "deed_date": "2026-07-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.387799,
+   "lon": -97.664211,
+   "sqft": 1324,
+   "value": 294886,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
+   "acres": null,
+   "address": "805 WATERFALL 78753",
+   "assessed": 465981,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.391305,
+   "lon": -97.666454,
+   "sqft": 1886,
+   "value": 465981,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": 1.711,
+   "address": "11809 ROTHERHAM AUSTIN 78753",
+   "assessed": 333039,
+   "class": "A1",
+   "deed_date": "2026-07-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.378728,
+   "lon": -97.659589,
+   "sqft": 1118,
+   "value": 333039,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.453,
+   "address": "12108 CARNFORTH AUSTIN 78753",
+   "assessed": 288023,
+   "class": "A1",
+   "deed_date": "2026-07-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.384627,
+   "lon": -97.657074,
+   "sqft": 1080,
+   "value": 288023,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 1.475,
+   "address": "11907 TOBLER AUSTIN 78753",
+   "assessed": 340242,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.380822,
+   "lon": -97.66057,
+   "sqft": 1298,
+   "value": 340242,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.309,
+   "address": "12217 SHROPSHIRE AUSTIN 78753",
+   "assessed": 326186,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.388546,
+   "lon": -97.656616,
+   "sqft": 1487,
+   "value": 326186,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 1.402,
+   "address": "11837 SHROPSHIRE AUSTIN 78753",
+   "assessed": 279894,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.380074,
+   "lon": -97.66051,
+   "sqft": 1020,
+   "value": 279894,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.986,
+   "address": "12344 LITTLE EMILY 78753",
+   "assessed": 307127,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.39353,
+   "lon": -97.656284,
+   "sqft": 1240,
+   "value": 307127,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
+   "acres": 1.547,
+   "address": "12124 SHROPSHIRE AUSTIN 78753",
+   "assessed": 290865,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.387327,
+   "lon": -97.658075,
+   "sqft": 1405,
+   "value": 290865,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": null,
+   "address": "1521 GAUTAMI AUSTIN 78753",
+   "assessed": 364665,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.393096,
+   "lon": -97.648937,
+   "sqft": 1695,
+   "value": 364665,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": null,
+   "address": "1420 VERDANA AUSTIN 78753",
+   "assessed": 431894,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.394859,
+   "lon": -97.649108,
+   "sqft": 2466,
+   "value": 431894,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": 1.657,
+   "address": "12406 THOMPKINS 78753",
+   "assessed": 332754,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.394313,
+   "lon": -97.656006,
+   "sqft": 1459,
+   "value": 332754,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
+   "acres": 2.377,
+   "address": "12227 BRANSTON AUSTIN 78753",
+   "assessed": 340603,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.387183,
+   "lon": -97.655343,
+   "sqft": 1138,
+   "value": 340603,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 1.464,
+   "address": "12003 THOMPKINS AUSTIN 78753",
+   "assessed": 372888,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.383496,
+   "lon": -97.662375,
+   "sqft": 1375,
+   "value": 372888,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.849,
+   "address": "12502 FALLEN TOWER AUSTIN 78753",
+   "assessed": 414629,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.395747,
+   "lon": -97.65612,
+   "sqft": 2476,
+   "value": 414629,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": null,
+   "address": "1716 ARIAL 78753",
+   "assessed": 363244,
+   "class": "A1",
+   "deed_date": "2026-06-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.391269,
+   "lon": -97.647618,
+   "sqft": 1647,
+   "value": 363244,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 0.994,
+   "address": "12335 LITTLE EMILY AUSTIN 78753",
+   "assessed": 296954,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.392805,
+   "lon": -97.656923,
+   "sqft": 1351,
+   "value": 296954,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1987
+  },
+  {
+   "acres": 1.912,
+   "address": "12503 CHESTLE 78753",
+   "assessed": 327670,
+   "class": "A1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.395503,
+   "lon": -97.65669,
+   "sqft": 2085,
+   "value": 327670,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": 1.569,
+   "address": "11927 TOBLER AUSTIN 78753",
+   "assessed": 301128,
+   "class": "A1",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.379553,
+   "lon": -97.659796,
+   "sqft": 1236,
+   "value": 301128,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": null,
+   "address": "1705 ARIAL AUSTIN 78753",
+   "assessed": 367866,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.391068,
+   "lon": -97.648266,
+   "sqft": 1695,
+   "value": 367866,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": 58.7,
+   "address": "1200 YAGER 78753",
+   "assessed": 81823,
+   "class": "E1",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.391606,
+   "lon": -97.656805,
+   "value": 81823,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 5.5,
+   "address": "1101 YAGER 78753",
+   "assessed": 119790,
+   "class": "C1",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.390402,
+   "lon": -97.658971,
+   "value": 119790,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 21.0,
+   "address": "1107 YAGER 78753",
+   "assessed": 3663225,
+   "class": "F1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.389992,
+   "lon": -97.658726,
+   "sqft": 16937,
+   "value": 3663225,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
+   "acres": 30.966,
+   "address": "1112 YAGER 78753",
+   "assessed": 6545172,
+   "class": "F1",
+   "deed_date": "2026-05-26",
+   "homestead": false,
+   "lat": 30.391011,
+   "lon": -97.658117,
+   "sqft": 16832,
+   "value": 6545172,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
+   "acres": 1.306,
+   "address": "1008 BODGERS 78753",
+   "assessed": 306410,
+   "class": "A1",
+   "deed_date": "2026-05-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.386724,
+   "lon": -97.663181,
+   "sqft": 1324,
+   "value": 306410,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
+   "acres": 1.407,
+   "address": "12203 DONINGTON 78753",
+   "assessed": 350432,
+   "class": "A1",
+   "deed_date": "2026-05-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.38749,
+   "lon": -97.656284,
+   "sqft": 1865,
+   "value": 350432,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 1.356,
+   "address": "1307 BYERS 78753",
+   "assessed": 334650,
+   "class": "A1",
+   "deed_date": "2026-05-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.379751,
+   "lon": -97.661979,
+   "sqft": 1357,
+   "value": 348252,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
    "acres": 1.584,
    "address": "12058 TROTWOOD 78753",
-   "assessed": 333805,
+   "assessed": 322000,
    "class": "A1",
    "deed_date": "2026-05-01",
    "extras": {
@@ -21,7 +667,7 @@
    "lat": 30.385819,
    "lon": -97.665212,
    "sqft": 1138,
-   "value": 333805,
+   "value": 322000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1986
   },
@@ -55,7 +701,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.397724,
    "lon": -97.658245,
    "sqft": 1526,
@@ -64,30 +710,11 @@
    "year_built": 1999
   },
   {
-   "acres": 1.86,
-   "address": "1400 BRIXHAM AUSTIN 78753",
-   "assessed": 239938,
-   "class": "A1",
-   "deed_date": "2026-04-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.385529,
-   "lon": -97.656592,
-   "sqft": 854,
-   "value": 239938,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
    "acres": 1.09,
    "address": "12310 LITTLE FATIMA AUSTIN 78753",
    "assessed": 287646,
    "class": "A1",
-   "deed_date": "2026-04-21",
+   "deed_date": "2026-04-23",
    "extras": {
     "foundation": "SLAB",
     "roof": "COMPOSITIO",
@@ -100,6 +727,25 @@
    "value": 287646,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1986
+  },
+  {
+   "acres": 1.128,
+   "address": "12301 LITTLE EMILY AUSTIN 78753",
+   "assessed": 262722,
+   "class": "A1",
+   "deed_date": "2026-04-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.391749,
+   "lon": -97.658372,
+   "sqft": 1023,
+   "value": 262722,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
   },
   {
    "acres": 1.669,
@@ -131,7 +777,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.386842,
    "lon": -97.663799,
    "sqft": 1422,
@@ -199,7 +845,7 @@
   {
    "acres": 1.353,
    "address": "12332 YARMONT 78753",
-   "assessed": 328598,
+   "assessed": 310000,
    "class": "A1",
    "deed_date": "2026-04-02",
    "extras": {
@@ -211,7 +857,7 @@
    "lat": 30.392769,
    "lon": -97.656101,
    "sqft": 1464,
-   "value": 328598,
+   "value": 310000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1986
   },
@@ -237,7 +883,7 @@
   {
    "acres": null,
    "address": "733 CLEAR STREAM 78753",
-   "assessed": 519190,
+   "assessed": 466285,
    "class": "A1",
    "deed_date": "2026-03-30",
    "extras": {
@@ -245,11 +891,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.389534,
    "lon": -97.666673,
    "sqft": 1886,
-   "value": 519190,
+   "value": 466285,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2013
   },
@@ -332,7 +978,7 @@
   {
    "acres": 1.895,
    "address": "12414 COPPERFIELD AUSTIN 78753",
-   "assessed": 379434,
+   "assessed": 340770,
    "class": "A1",
    "deed_date": "2026-03-12",
    "extras": {
@@ -344,7 +990,7 @@
    "lat": 30.396179,
    "lon": -97.658123,
    "sqft": 2191,
-   "value": 379434,
+   "value": 340770,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1996
   },
@@ -397,51 +1043,13 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.383273,
    "lon": -97.659759,
    "sqft": 1052,
    "value": 273515,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1983
-  },
-  {
-   "acres": 1.407,
-   "address": "12203 DONINGTON 78753",
-   "assessed": 350432,
-   "class": "A1",
-   "deed_date": "2026-03-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.38749,
-   "lon": -97.656284,
-   "sqft": 1865,
-   "value": 350432,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 1.986,
-   "address": "12344 LITTLE EMILY 78753",
-   "assessed": 307127,
-   "class": "A1",
-   "deed_date": "2026-03-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.39353,
-   "lon": -97.656284,
-   "sqft": 1240,
-   "value": 307127,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
   },
   {
    "acres": 1.647,
@@ -484,7 +1092,7 @@
   {
    "acres": null,
    "address": "1505 ARIAL AUSTIN 78753",
-   "assessed": 414264,
+   "assessed": 397000,
    "class": "A1",
    "deed_date": "2026-02-26",
    "extras": {
@@ -496,7 +1104,7 @@
    "lat": 30.392074,
    "lon": -97.650333,
    "sqft": 2071,
-   "value": 414264,
+   "value": 397000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2016
   },
@@ -558,25 +1166,6 @@
    "year_built": 1995
   },
   {
-   "acres": 1.547,
-   "address": "12124 SHROPSHIRE AUSTIN 78753",
-   "assessed": 323867,
-   "class": "A1",
-   "deed_date": "2026-02-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.387327,
-   "lon": -97.658075,
-   "sqft": 1405,
-   "value": 323867,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
    "acres": 1.386,
    "address": "12336 LITTLE EMILY 78753",
    "assessed": 246532,
@@ -634,35 +1223,16 @@
    "year_built": 1982
   },
   {
-   "acres": 1.128,
-   "address": "12301 LITTLE EMILY AUSTIN 78753",
-   "assessed": 262722,
-   "class": "A1",
-   "deed_date": "2026-01-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.391749,
-   "lon": -97.658372,
-   "sqft": 1023,
-   "value": 262722,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1992
-  },
-  {
    "acres": 151.2,
    "address": "400 YAGER 78753",
-   "assessed": 16510166,
+   "assessed": 14100000,
    "class": "F1",
    "deed_date": "2026-01-28",
    "homestead": false,
    "lat": 30.397289,
    "lon": -97.665595,
    "sqft": 63479,
-   "value": 16510166,
+   "value": 14100000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2018
   },
@@ -745,7 +1315,7 @@
   {
    "acres": 1.304,
    "address": "12024 THOMPKINS 78753",
-   "assessed": 326447,
+   "assessed": 295500,
    "class": "A1",
    "deed_date": "2026-01-15",
    "extras": {
@@ -753,18 +1323,18 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.385195,
    "lon": -97.661985,
    "sqft": 1118,
-   "value": 326447,
+   "value": 295500,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1985
   },
   {
    "acres": 2.053,
    "address": "12341 LITTLE FATIMA 78753",
-   "assessed": 275820,
+   "assessed": 247714,
    "class": "A1",
    "deed_date": "2026-01-12",
    "extras": {
@@ -776,7 +1346,7 @@
    "lat": 30.392042,
    "lon": -97.65404,
    "sqft": 1019,
-   "value": 275820,
+   "value": 247714,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1993
   },
@@ -926,25 +1496,6 @@
    "year_built": 1999
   },
   {
-   "acres": 1.3,
-   "address": "1406 BYERS AUSTIN 78753",
-   "assessed": 273558,
-   "class": "A1",
-   "deed_date": "2025-10-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.378966,
-   "lon": -97.660968,
-   "sqft": 917,
-   "value": 273558,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
    "acres": 4.622,
    "address": "1400 THEODORA 78753",
    "assessed": 453406,
@@ -960,6 +1511,25 @@
    "lon": -97.66249,
    "sqft": 1798,
    "value": 453406,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.3,
+   "address": "1406 BYERS AUSTIN 78753",
+   "assessed": 273558,
+   "class": "A1",
+   "deed_date": "2025-10-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.378966,
+   "lon": -97.660968,
+   "sqft": 917,
+   "value": 273558,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1984
   },
@@ -985,7 +1555,7 @@
   {
    "acres": null,
    "address": "1721 VERDANA 78753",
-   "assessed": 440893,
+   "assessed": 395966,
    "class": "A1",
    "deed_date": "2025-10-16",
    "extras": {
@@ -997,483 +1567,27 @@
    "lat": 30.393029,
    "lon": -97.645837,
    "sqft": 2466,
-   "value": 440893,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": 2.052,
-   "address": "11708 ROTHERHAM AUSTIN 78753",
-   "assessed": 314694,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.377269,
-   "lon": -97.661488,
-   "sqft": 1422,
-   "value": 314694,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 1.936,
-   "address": "1423 ALMA AUSTIN 78753",
-   "assessed": 317779,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.380002,
-   "lon": -97.659056,
-   "sqft": 1309,
-   "value": 317779,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 1.658,
-   "address": "12336 SHROPSHIRE AUSTIN 78753",
-   "assessed": 407787,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.393118,
-   "lon": -97.655239,
-   "sqft": 2085,
-   "value": 407787,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 1.576,
-   "address": "12329 DONOVAN AUSTIN 78753",
-   "assessed": 435277,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.39478,
-   "lon": -97.662434,
-   "sqft": 2556,
-   "value": 435277,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1996
-  },
-  {
-   "acres": 1.155,
-   "address": "1200 GLEN SUMMER AUSTIN 78753",
-   "assessed": 276439,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.384476,
-   "lon": -97.661107,
-   "sqft": 1021,
-   "value": 276439,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.537,
-   "address": "12403 THOMPKINS AUSTIN 78753",
-   "assessed": 340810,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.393851,
-   "lon": -97.656257,
-   "sqft": 1660,
-   "value": 340810,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.596,
-   "address": "1405 ALMA AUSTIN 78753",
-   "assessed": 286010,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.381165,
-   "lon": -97.659676,
-   "sqft": 1099,
-   "value": 286010,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 2.171,
-   "address": "12144 TROTWOOD AUSTIN 78753",
-   "assessed": 311480,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.389727,
-   "lon": -97.661663,
-   "sqft": 1138,
-   "value": 311480,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": null,
-   "address": "1517 GAUTAMI AUSTIN 78753",
-   "assessed": 407216,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.393141,
-   "lon": -97.649085,
-   "sqft": 1967,
-   "value": 407216,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": null,
-   "address": "12429 KNOWELL AUSTIN 78753",
-   "assessed": 443133,
-   "class": "A1",
-   "deed_date": "2025-09-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.393245,
-   "lon": -97.647971,
-   "sqft": 2489,
-   "value": 443133,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2017
-  },
-  {
-   "acres": 1.61,
-   "address": "1115 BYERS AUSTIN 78753",
-   "assessed": 391643,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.382107,
-   "lon": -97.663689,
-   "sqft": 1816,
-   "value": 391643,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1994
-  },
-  {
-   "acres": 1.498,
-   "address": "12017 ROTHERHAM AUSTIN 78753",
-   "assessed": 339306,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.382269,
-   "lon": -97.656946,
-   "sqft": 1175,
-   "value": 339306,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 196.38,
-   "address": "12000 DESSAU 78754",
-   "assessed": 41144413,
-   "class": "B1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.380458,
-   "lon": -97.65504,
-   "sqft": 233808,
-   "value": 41144413,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 1.68,
-   "address": "12005 THOMPKINS AUSTIN 78753",
-   "assessed": 350288,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.383664,
-   "lon": -97.662334,
-   "sqft": 1498,
-   "value": 350288,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 1.301,
-   "address": "927 PEGGOTTY AUSTIN 78753",
-   "assessed": 338361,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.387178,
-   "lon": -97.663876,
-   "sqft": 1324,
-   "value": 338361,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.657,
-   "address": "12406 THOMPKINS 78753",
-   "assessed": 332754,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.394313,
-   "lon": -97.656006,
-   "sqft": 1459,
-   "value": 332754,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 1.688,
-   "address": "12008 ROTHERHAM AUSTIN 78753",
-   "assessed": 297030,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.381649,
-   "lon": -97.657674,
-   "sqft": 1124,
-   "value": 297030,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 1.373,
-   "address": "1306 BLAKENEY AUSTIN 78753",
-   "assessed": 313938,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.384958,
-   "lon": -97.65845,
-   "sqft": 1405,
-   "value": 313938,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 1.654,
-   "address": "11906 TOBLER 78753",
-   "assessed": 379247,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.381285,
-   "lon": -97.660377,
-   "sqft": 1872,
-   "value": 379247,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 1.488,
-   "address": "1318 DEUPREE 78753",
-   "assessed": 197806,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.378489,
-   "lon": -97.661718,
-   "sqft": 1040,
-   "value": 197806,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 1.6,
-   "address": "1125 BYERS 78753",
-   "assessed": 520427,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.38152,
-   "lon": -97.66358,
-   "sqft": 2623,
-   "value": 520427,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 1.761,
-   "address": "12400 THOMPKINS AUSTIN 78753",
-   "assessed": 376656,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.394379,
-   "lon": -97.656526,
-   "sqft": 2221,
-   "value": 376656,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": null,
-   "address": "12609 KNOWELL AUSTIN 78753",
-   "assessed": 345639,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.394241,
-   "lon": -97.647325,
-   "sqft": 1566,
-   "value": 345639,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": null,
-   "address": "1413 BERLIN AUSTIN 78753",
-   "assessed": 373306,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.395257,
-   "lon": -97.649187,
-   "sqft": 1753,
-   "value": 373306,
+   "value": 395966,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2015
   }
  ],
  "windows": {
   "12mo": {
-   "count": 77,
-   "median_value": 333805,
-   "pct_of_households": 1.34,
-   "pct_of_population": 0.61
+   "count": 84,
+   "median_value": 328016,
+   "pct_of_households": 1.47,
+   "pct_of_population": 0.66
   },
   "3mo": {
-   "count": 7,
-   "median_value": 310233,
-   "pct_of_households": 0.12,
-   "pct_of_population": 0.06
+   "count": 14,
+   "median_value": 326186,
+   "pct_of_households": 0.24,
+   "pct_of_population": 0.11
   },
   "6mo": {
    "count": 41,
-   "median_value": 323867,
+   "median_value": 326186,
    "pct_of_households": 0.72,
    "pct_of_population": 0.32
   }

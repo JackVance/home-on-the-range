@@ -1,11 +1,864 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 70,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 99,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2052,
  "months_back": 12,
  "population_acs": 6687,
  "transfers": [
+  {
+   "acres": 2.437,
+   "address": "1512 AUSTRINA AUSTIN 78732",
+   "assessed": 684619,
+   "class": "A1",
+   "deed_date": "2026-09-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.360938,
+   "lon": -97.907597,
+   "sqft": 3686,
+   "value": 684619,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 3.02,
+   "address": "1804 VAL VERDE 78732",
+   "assessed": 962653,
+   "class": "A1",
+   "deed_date": "2026-09-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.35847,
+   "lon": -97.904058,
+   "sqft": 4052,
+   "value": 962653,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.722,
+   "address": "2849 GRIMES RANCH AUSTIN 78732",
+   "assessed": 580908,
+   "class": "A1",
+   "deed_date": "2026-08-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.368708,
+   "lon": -97.898585,
+   "sqft": 2807,
+   "value": 580908,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 1.377,
+   "address": "12925 APPALOOSA CHASE 78732",
+   "assessed": 486652,
+   "class": "A1",
+   "deed_date": "2026-08-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.364055,
+   "lon": -97.905219,
+   "sqft": 1821,
+   "value": 486652,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.01,
+   "address": "2950 LANTANA RIDGE AUSTIN 78732",
+   "assessed": 580934,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.371624,
+   "lon": -97.900861,
+   "sqft": 2857,
+   "value": 580934,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 2.357,
+   "address": "2609 SHIRE RIDGE AUSTIN 78732",
+   "assessed": 927977,
+   "class": "A1",
+   "deed_date": "2026-08-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.369924,
+   "lon": -97.902587,
+   "sqft": 3704,
+   "value": 1001390,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 3.074,
+   "address": "2317 RIO MESA AUSTIN 78732",
+   "assessed": 931724,
+   "class": "A1",
+   "deed_date": "2026-08-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.361481,
+   "lon": -97.898988,
+   "sqft": 3476,
+   "value": 931724,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.172,
+   "address": "2429 SHIRE RIDGE AUSTIN 78732",
+   "assessed": 1050284,
+   "class": "A1",
+   "deed_date": "2026-08-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.368116,
+   "lon": -97.901391,
+   "sqft": 3919,
+   "value": 1050284,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.999,
+   "address": "700 HORSEBACK HOLLOW 78732",
+   "assessed": 1029867,
+   "class": "A1",
+   "deed_date": "2026-08-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "TILE",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.349972,
+   "lon": -97.903022,
+   "sqft": 4038,
+   "value": 1029867,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2011
+  },
+  {
+   "acres": 2.049,
+   "address": "12820 RUSH CREEK AUSTIN 78732",
+   "assessed": 597585,
+   "class": "A1",
+   "deed_date": "2026-08-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.354643,
+   "lon": -97.907442,
+   "sqft": 2783,
+   "value": 597585,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 2.544,
+   "address": "12908 LITTLE DIPPER AUSTIN 78732",
+   "assessed": 850535,
+   "class": "A1",
+   "deed_date": "2026-07-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.360552,
+   "lon": -97.90827,
+   "sqft": 3522,
+   "value": 850535,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.57,
+   "address": "13100 COUNTRY TRAILS AUSTIN 78732",
+   "assessed": 1050200,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.369468,
+   "lon": -97.906704,
+   "sqft": 3823,
+   "value": 1050200,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.008,
+   "address": "2508 LIPIZZAN AUSTIN 78732",
+   "assessed": 914126,
+   "class": "A1",
+   "deed_date": "2026-07-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.368788,
+   "lon": -97.903789,
+   "sqft": 3739,
+   "value": 1107663,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.351,
+   "address": "12701 APPALOOSA CHASE 78732",
+   "assessed": 489709,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.362013,
+   "lon": -97.902339,
+   "sqft": 2748,
+   "value": 489709,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.737,
+   "address": "808 HORSEBACK HOLLOW AUSTIN 78732",
+   "assessed": 1171290,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "TILE",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.351138,
+   "lon": -97.903703,
+   "sqft": 4225,
+   "value": 1171290,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
+   "acres": 1.69,
+   "address": "12600 LEE PARK 78732",
+   "assessed": 576313,
+   "class": "A1",
+   "deed_date": "2026-07-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO"
+   },
+   "homestead": false,
+   "lat": 30.367357,
+   "lon": -97.897649,
+   "sqft": 2475,
+   "value": 576313,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 5.11,
+   "address": "13236 COUNTRY TRAILS AUSTIN 78732",
+   "assessed": 1327623,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.371662,
+   "lon": -97.90669,
+   "sqft": 4318,
+   "value": 1448471,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 2.366,
+   "address": "2200 RIO MESA 78732",
+   "assessed": 766581,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.360687,
+   "lon": -97.900872,
+   "sqft": 3003,
+   "value": 766581,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.116,
+   "address": "2204 RIO MESA AUSTIN 78732",
+   "assessed": 786795,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.360828,
+   "lon": -97.900698,
+   "sqft": 3307,
+   "value": 786795,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.514,
+   "address": "2904 PERSIMMON VALLEY AUSTIN 78732",
+   "assessed": 580160,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.369645,
+   "lon": -97.897283,
+   "sqft": 3013,
+   "value": 580160,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 2.7,
+   "address": "13012 COUNTRY TRAILS AUSTIN 78732",
+   "assessed": 1073606,
+   "class": "A1",
+   "deed_date": "2026-07-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.368817,
+   "lon": -97.906582,
+   "sqft": 4483,
+   "value": 1073606,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 3.096,
+   "address": "12612 RUSH CREEK 78732",
+   "assessed": 759894,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.353294,
+   "lon": -97.905943,
+   "sqft": 2487,
+   "value": 759894,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.886,
+   "address": "2320 VIA CORDOVA AUSTIN 78732",
+   "assessed": 884712,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.361928,
+   "lon": -97.897942,
+   "sqft": 3782,
+   "value": 884712,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.812,
+   "address": "3105 GRIMES RANCH 78732",
+   "assessed": 471712,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.372047,
+   "lon": -97.893715,
+   "sqft": 1962,
+   "value": 471712,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 1.556,
+   "address": "2823 LANTANA RIDGE 78732",
+   "assessed": 565131,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.370284,
+   "lon": -97.897891,
+   "sqft": 2664,
+   "value": 565131,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 1.849,
+   "address": "2905 GRIMES RANCH AUSTIN 78732",
+   "assessed": 538003,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.368838,
+   "lon": -97.897454,
+   "sqft": 2220,
+   "value": 538003,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 2.724,
+   "address": "12708 LIPIZZAN AUSTIN 78732",
+   "assessed": 852186,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.367857,
+   "lon": -97.902915,
+   "sqft": 3641,
+   "value": 852186,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.68,
+   "address": "2325 GOLDEN GATE AUSTIN 78732",
+   "assessed": 603018,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO"
+   },
+   "homestead": true,
+   "lat": 30.366019,
+   "lon": -97.899151,
+   "sqft": 2799,
+   "value": 603018,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 3.859,
+   "address": "13017 BRIGHT SKY OVERLOOK AUSTIN 78732",
+   "assessed": 1192557,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.359525,
+   "lon": -97.909813,
+   "sqft": 3741,
+   "value": 1426168,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": 1.376,
+   "address": "13105 APPALOOSA CHASE 78732",
+   "assessed": 565434,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.365645,
+   "lon": -97.905473,
+   "sqft": 2416,
+   "value": 565434,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.31,
+   "address": "2509 GOLDEN GATE 78732",
+   "assessed": 570926,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.364961,
+   "lon": -97.898089,
+   "sqft": 2724,
+   "value": 570926,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": 1.597,
+   "address": "3012 CENTENNIAL OLYMPI PK 78732",
+   "assessed": 596541,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.368842,
+   "lon": -97.894911,
+   "sqft": 3042,
+   "value": 596541,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 3.416,
+   "address": "12309 CAPELLA AUSTIN 78732",
+   "assessed": 1202458,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.35692,
+   "lon": -97.90299,
+   "sqft": 4210,
+   "value": 1202458,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.067,
+   "address": "12501 BRIGHT SKY OVERLOOK AUSTIN 78732",
+   "assessed": 603604,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.353873,
+   "lon": -97.905249,
+   "sqft": 2870,
+   "value": 603604,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.584,
+   "address": "3113 PERSIMMON VALLEY AUSTIN 78732",
+   "assessed": 568046,
+   "class": "A1",
+   "deed_date": "2026-06-19",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.372533,
+   "lon": -97.896662,
+   "sqft": 2978,
+   "value": 568046,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 3.084,
+   "address": "13013 BRIGHT SKY OVERLOOK AUSTIN 78732",
+   "assessed": 1183234,
+   "class": "A1",
+   "deed_date": "2026-06-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.359304,
+   "lon": -97.909803,
+   "sqft": 3686,
+   "value": 1183234,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 3.1,
+   "address": "13501 COLETO CREEK AUSTIN 78732",
+   "assessed": 1158442,
+   "class": "A1",
+   "deed_date": "2026-06-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.371519,
+   "lon": -97.909038,
+   "sqft": 4569,
+   "value": 1158442,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 2.15,
+   "address": "12928 BLOOMFIELD HILLS AUSTIN 78732",
+   "assessed": 709011,
+   "class": "A1",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.367664,
+   "lon": -97.906694,
+   "sqft": 2999,
+   "value": 709011,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.797,
+   "address": "3124 BURKS 78732",
+   "assessed": 511132,
+   "class": "A1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.372348,
+   "lon": -97.895525,
+   "sqft": 1922,
+   "value": 511132,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 2.055,
+   "address": "12200 RAYO DE LUNA AUSTIN 78732",
+   "assessed": 637572,
+   "class": "A1",
+   "deed_date": "2026-06-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.359738,
+   "lon": -97.898793,
+   "sqft": 3077,
+   "value": 637572,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.654,
+   "address": "12825 RUSH CREEK 78732",
+   "assessed": 598196,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.355068,
+   "lon": -97.907744,
+   "sqft": 1946,
+   "value": 598196,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.087,
+   "address": "12510 BRIGHT SKY OVERLOOK AUSTIN 78732",
+   "assessed": 726064,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.354334,
+   "lon": -97.90574,
+   "sqft": 2990,
+   "value": 726064,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.954,
+   "address": "521 HORSEBACK HOLLOW 78732",
+   "assessed": 1086453,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "TILE",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.34889,
+   "lon": -97.902248,
+   "sqft": 4379,
+   "value": 1086453,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.722,
+   "address": "3145 BURKS 78732",
+   "assessed": 464600,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.373262,
+   "lon": -97.895098,
+   "sqft": 2360,
+   "value": 464600,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 4.034,
+   "address": "12612 CAPELLA AUSTIN 78732",
+   "assessed": 1131873,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.361735,
+   "lon": -97.905718,
+   "sqft": 3686,
+   "value": 1131873,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
   {
    "acres": 2.712,
    "address": "12709 PINTO CHASE AUSTIN 78732",
@@ -45,6 +898,25 @@
    "year_built": 2006
   },
   {
+   "acres": 2.97,
+   "address": "13308 BRIGHT SKY OVERLOOK AUSTIN 78732",
+   "assessed": 897985,
+   "class": "A1",
+   "deed_date": "2026-05-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.36345,
+   "lon": -97.909377,
+   "sqft": 3582,
+   "value": 897985,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
    "acres": 1.57,
    "address": "12200 CAPITOL SADDLERY AUSTIN 78732",
    "assessed": 747971,
@@ -60,6 +932,25 @@
    "lon": -97.90322,
    "sqft": 3191,
    "value": 747971,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 2.83,
+   "address": "12820 CAPELLA AUSTIN 78732",
+   "assessed": 838293,
+   "class": "A1",
+   "deed_date": "2026-05-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.363174,
+   "lon": -97.908955,
+   "sqft": 3806,
+   "value": 838293,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -100,6 +991,25 @@
    "value": 757039,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
+  },
+  {
+   "acres": 2.59,
+   "address": "12501 MEMORIAL PARK 78732",
+   "assessed": 616811,
+   "class": "A1",
+   "deed_date": "2026-05-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.367299,
+   "lon": -97.89663,
+   "sqft": 2539,
+   "value": 616811,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
   },
   {
    "acres": 1.377,
@@ -199,7 +1109,7 @@
   {
    "acres": 1.583,
    "address": "2900 LANTANA RIDGE AUSTIN 78732",
-   "assessed": 636667,
+   "assessed": 553646,
    "class": "A1",
    "deed_date": "2026-04-21",
    "extras": {
@@ -211,7 +1121,7 @@
    "lat": 30.371421,
    "lon": -97.899091,
    "sqft": 2911,
-   "value": 636667,
+   "value": 553646,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
   },
@@ -312,7 +1222,7 @@
   {
    "acres": 1.791,
    "address": "3226 GRIMES RANCH AUSTIN 78732",
-   "assessed": 542669,
+   "assessed": 473967,
    "class": "A1",
    "deed_date": "2026-03-22",
    "extras": {
@@ -324,14 +1234,14 @@
    "lat": 30.373637,
    "lon": -97.89386,
    "sqft": 2262,
-   "value": 542669,
+   "value": 473967,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1996
   },
   {
    "acres": 2.059,
    "address": "705 HORSEBACK HOLLOW 78732",
-   "assessed": 899495,
+   "assessed": 774000,
    "class": "A1",
    "deed_date": "2026-03-21",
    "extras": {
@@ -343,7 +1253,7 @@
    "lat": 30.350254,
    "lon": -97.902541,
    "sqft": 3212,
-   "value": 899495,
+   "value": 774000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -369,7 +1279,7 @@
   {
    "acres": 2.571,
    "address": "12712 CAPELLA AUSTIN 78732",
-   "assessed": 845664,
+   "assessed": 735389,
    "class": "A1",
    "deed_date": "2026-03-13",
    "extras": {
@@ -381,7 +1291,7 @@
    "lat": 30.36226,
    "lon": -97.907086,
    "sqft": 3522,
-   "value": 845664,
+   "value": 735389,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -415,7 +1325,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.369346,
    "lon": -97.895262,
    "sqft": 1826,
@@ -445,7 +1355,7 @@
   {
    "acres": 3.438,
    "address": "12812 CAPELLA AUSTIN 78732",
-   "assessed": 1117392,
+   "assessed": 993473,
    "class": "A1",
    "deed_date": "2026-02-25",
    "extras": {
@@ -457,7 +1367,7 @@
    "lat": 30.363147,
    "lon": -97.908443,
    "sqft": 3741,
-   "value": 1117392,
+   "value": 993473,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -472,7 +1382,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.372269,
    "lon": -97.908007,
    "sqft": 4117,
@@ -483,7 +1393,7 @@
   {
    "acres": 2.684,
    "address": "2600 SHIRE RIDGE AUSTIN 78732",
-   "assessed": 853203,
+   "assessed": 745188,
    "class": "A1",
    "deed_date": "2026-02-20",
    "extras": {
@@ -495,7 +1405,7 @@
    "lat": 30.369222,
    "lon": -97.902686,
    "sqft": 3700,
-   "value": 853203,
+   "value": 745188,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
   },
@@ -540,7 +1450,7 @@
   {
    "acres": 1.46,
    "address": "2317 GOLDEN GATE AUSTIN 78732",
-   "assessed": 592462,
+   "assessed": 517456,
    "class": "A1",
    "deed_date": "2026-02-06",
    "extras": {
@@ -551,7 +1461,7 @@
    "lat": 30.366159,
    "lon": -97.898817,
    "sqft": 2673,
-   "value": 592462,
+   "value": 517456,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -592,25 +1502,6 @@
    "value": 524063,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1996
-  },
-  {
-   "acres": 1.377,
-   "address": "12925 APPALOOSA CHASE 78732",
-   "assessed": 518608,
-   "class": "A1",
-   "deed_date": "2026-01-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.364055,
-   "lon": -97.905219,
-   "sqft": 1821,
-   "value": 518608,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
   },
   {
    "acres": 3.28,
@@ -680,7 +1571,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.367595,
    "lon": -97.89539,
    "sqft": 2575,
@@ -748,7 +1639,7 @@
   {
    "acres": 3.262,
    "address": "1913 MARIACHI 78732",
-   "assessed": 1143566,
+   "assessed": 1097000,
    "class": "A1",
    "deed_date": "2025-12-05",
    "extras": {
@@ -760,7 +1651,7 @@
    "lat": 30.35757,
    "lon": -97.900943,
    "sqft": 4376,
-   "value": 1143566,
+   "value": 1097000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
   },
@@ -784,9 +1675,9 @@
    "year_built": 2003
   },
   {
-   "acres": 2.013,
-   "address": "12201 RAYO DE LUNA 78732",
-   "assessed": 929062,
+   "acres": 1.832,
+   "address": "2809 GRIMES RANCH 78732",
+   "assessed": 500000,
    "class": "A1",
    "deed_date": "2025-12-01",
    "extras": {
@@ -794,11 +1685,30 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
+   "lat": 30.369372,
+   "lon": -97.900542,
+   "sqft": 2189,
+   "value": 500000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 2.013,
+   "address": "12201 RAYO DE LUNA 78732",
+   "assessed": 811443,
+   "class": "A1",
+   "deed_date": "2025-12-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
    "lat": 30.35927,
    "lon": -97.898963,
    "sqft": 4020,
-   "value": 929062,
+   "value": 811443,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
   },
@@ -843,7 +1753,7 @@
   {
    "acres": 3.11,
    "address": "13401 COUNTRY TRAILS AUSTIN 78732",
-   "assessed": 1143160,
+   "assessed": 1016384,
    "class": "A1",
    "deed_date": "2025-11-24",
    "extras": {
@@ -855,7 +1765,7 @@
    "lat": 30.373067,
    "lon": -97.908053,
    "sqft": 4348,
-   "value": 1143160,
+   "value": 1016384,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -927,7 +1837,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.370229,
    "lon": -97.899295,
    "sqft": 2083,
@@ -938,7 +1848,7 @@
   {
    "acres": 1.772,
    "address": "12716 RUSH CREEK 78732",
-   "assessed": 628784,
+   "assessed": 559052,
    "class": "A1",
    "deed_date": "2025-10-16",
    "extras": {
@@ -950,14 +1860,14 @@
    "lat": 30.35401,
    "lon": -97.907086,
    "sqft": 2204,
-   "value": 628784,
+   "value": 559052,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
   {
    "acres": 1.909,
    "address": "925 CAVALRY RIDE 78732",
-   "assessed": 742561,
+   "assessed": 660211,
    "class": "A1",
    "deed_date": "2025-10-16",
    "extras": {
@@ -969,390 +1879,29 @@
    "lat": 30.353777,
    "lon": -97.903713,
    "sqft": 3367,
-   "value": 742561,
+   "value": 660211,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
-  },
-  {
-   "acres": 2.25,
-   "address": "12821 CAPELLA 78732",
-   "assessed": 709653,
-   "class": "A1",
-   "deed_date": "2025-10-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.362589,
-   "lon": -97.909107,
-   "sqft": 2946,
-   "value": 709653,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 2.151,
-   "address": "205 HORSEBACK HOLLOW 78732",
-   "assessed": 908731,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "TILE",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.350845,
-   "lon": -97.90364,
-   "sqft": 3052,
-   "value": 908731,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2011
-  },
-  {
-   "acres": 2.18,
-   "address": "12717 LEE PARK AUSTIN 78732",
-   "assessed": 638022,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.367968,
-   "lon": -97.898807,
-   "sqft": 2912,
-   "value": 638022,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 2.36,
-   "address": "12900 BLOOMFIELD HILLS AUSTIN 78732",
-   "assessed": 814411,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.366577,
-   "lon": -97.905946,
-   "sqft": 3994,
-   "value": 814411,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 1.843,
-   "address": "12600 GRIMES RANCH AUSTIN 78732",
-   "assessed": 556024,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.373212,
-   "lon": -97.893844,
-   "sqft": 2402,
-   "value": 556024,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.377,
-   "address": "12909 APPALOOSA CHASE 78732",
-   "assessed": 564096,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.363603,
-   "lon": -97.904796,
-   "sqft": 2308,
-   "value": 564096,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 2.674,
-   "address": "1508 AUSTRALIS 78732",
-   "assessed": 804826,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.361409,
-   "lon": -97.909108,
-   "sqft": 3662,
-   "value": 804826,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 3.38,
-   "address": "12904 URSA MAJOR AUSTIN 78732",
-   "assessed": 955012,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.359502,
-   "lon": -97.908174,
-   "sqft": 3549,
-   "value": 955012,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 2.013,
-   "address": "12501 RUSH CREEK AUSTIN 78732",
-   "assessed": 721643,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.35214,
-   "lon": -97.904839,
-   "sqft": 3163,
-   "value": 721643,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": 2.152,
-   "address": "12901 MAJESTIC OAKS AUSTIN 78732",
-   "assessed": 613852,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.372653,
-   "lon": -97.899833,
-   "sqft": 2902,
-   "value": 613852,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 2.275,
-   "address": "12925 BRIGHT SKY OVERLOOK AUSTIN 78732",
-   "assessed": 825197,
-   "class": "A1",
-   "deed_date": "2025-09-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.358476,
-   "lon": -97.909626,
-   "sqft": 3554,
-   "value": 825197,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 2.089,
-   "address": "2716 RIO MESA AUSTIN 78732",
-   "assessed": 829749,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.360622,
-   "lon": -97.896806,
-   "sqft": 3627,
-   "value": 839662,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 2.57,
-   "address": "13401 COLETO CREEK AUSTIN 78732",
-   "assessed": 1251505,
-   "class": "A1",
-   "deed_date": "2025-08-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.370448,
-   "lon": -97.909537,
-   "sqft": 4553,
-   "value": 1251505,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 3.416,
-   "address": "12309 CAPELLA AUSTIN 78732",
-   "assessed": 1202458,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.35692,
-   "lon": -97.90299,
-   "sqft": 4210,
-   "value": 1202458,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 2.321,
-   "address": "300 HORSEBACK HOLLOW 78732",
-   "assessed": 766682,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "TILE",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.349699,
-   "lon": -97.903791,
-   "sqft": 3021,
-   "value": 766682,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2010
-  },
-  {
-   "acres": 1.771,
-   "address": "12816 TEXAS SAGE 78732",
-   "assessed": 636893,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.370144,
-   "lon": -97.89913,
-   "sqft": 3085,
-   "value": 636893,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 2.831,
-   "address": "13304 BRIGHT SKY OVERLOOK AUSTIN 78732",
-   "assessed": 923256,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.363259,
-   "lon": -97.90935,
-   "sqft": 3742,
-   "value": 923256,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 2.238,
-   "address": "12920 LITTLE DIPPER AUSTIN 78732",
-   "assessed": 753674,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.360469,
-   "lon": -97.909009,
-   "sqft": 3353,
-   "value": 753674,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 3.451,
-   "address": "1909 RIO MESA 78732",
-   "assessed": 1164115,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.358992,
-   "lon": -97.902575,
-   "sqft": 4328,
-   "value": 1164115,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
   }
  ],
  "windows": {
   "12mo": {
-   "count": 70,
-   "median_value": 753674,
-   "pct_of_households": 3.41,
-   "pct_of_population": 1.05
+   "count": 99,
+   "median_value": 722109,
+   "pct_of_households": 4.82,
+   "pct_of_population": 1.48
   },
   "3mo": {
-   "count": 13,
-   "median_value": 757039,
-   "pct_of_households": 0.63,
-   "pct_of_population": 0.19
+   "count": 21,
+   "median_value": 850535,
+   "pct_of_households": 1.02,
+   "pct_of_population": 0.31
   },
   "6mo": {
-   "count": 35,
-   "median_value": 747971,
-   "pct_of_households": 1.71,
-   "pct_of_population": 0.52
+   "count": 61,
+   "median_value": 757039,
+   "pct_of_households": 2.97,
+   "pct_of_population": 0.91
   }
  }
 }

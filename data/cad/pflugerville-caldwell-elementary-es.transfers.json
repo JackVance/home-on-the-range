@@ -1,29 +1,556 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 97,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 102,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3464,
  "months_back": 12,
  "population_acs": 8304,
  "transfers": [
   {
-   "acres": 1.515,
-   "address": "17508 LIMPIA CREEK 78664",
-   "assessed": 316092,
+   "acres": 2.238,
+   "address": "1705 CRANSTON ROUND ROCK 78664",
+   "assessed": 412630,
    "class": "A1",
-   "deed_date": "2026-06-10",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.468443,
+   "lon": -97.653255,
+   "sqft": 2515,
+   "value": 412630,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1995
+  },
+  {
+   "acres": 1.795,
+   "address": "16904 COPPERHEAD ROUND ROCK 78664",
+   "assessed": 344000,
+   "class": "A1",
+   "deed_date": "2026-08-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.463457,
+   "lon": -97.648872,
+   "sqft": 2377,
+   "value": 344000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1996
+  },
+  {
+   "acres": 2.178,
+   "address": "1700 PFLUGERVILLE 78664",
+   "assessed": 288668,
+   "class": "A1",
+   "deed_date": "2026-08-20",
    "extras": {
     "foundation": "SLAB",
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
    "homestead": false,
-   "lat": 30.475182,
-   "lon": -97.649,
-   "sqft": 1560,
-   "value": 316092,
+   "lat": 30.471836,
+   "lon": -97.650807,
+   "sqft": 1380,
+   "value": 288668,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
+  },
+  {
+   "acres": 20.915,
+   "address": "16021 INTERSTATE HY 35 78660",
+   "assessed": 2646221,
+   "class": "F1",
+   "deed_date": "2026-08-19",
+   "homestead": false,
+   "lat": 30.459653,
+   "lon": -97.665123,
+   "sqft": 5682,
+   "value": 2646221,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1977
+  },
+  {
+   "acres": 1.818,
+   "address": "16816 CRANSTON 78664",
+   "assessed": 405417,
+   "class": "A1",
+   "deed_date": "2026-08-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.464994,
+   "lon": -97.653334,
+   "sqft": 2614,
+   "value": 405417,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 2.16,
+   "address": "1706 CHEETAH 78664",
+   "assessed": 351162,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.469866,
+   "lon": -97.652906,
+   "sqft": 1712,
+   "value": 351162,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1994
+  },
+  {
+   "acres": 2.247,
+   "address": "17205 GUANA CAY ROUND ROCK 78664",
+   "assessed": 397542,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.46833,
+   "lon": -97.645703,
+   "sqft": 1744,
+   "value": 397542,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 2.622,
+   "address": "1645 JERUSALEM ROUND ROCK 78664",
+   "assessed": 433958,
+   "class": "A1",
+   "deed_date": "2026-08-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.464183,
+   "lon": -97.653945,
+   "sqft": 2109,
+   "value": 433958,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.807,
+   "address": "1704 PFLUGERVILLE 78664",
+   "assessed": 258914,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.471892,
+   "lon": -97.651141,
+   "sqft": 1299,
+   "value": 258914,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 2.318,
+   "address": "17105 JIGSAW PATHWAY 78664",
+   "assessed": 322626,
+   "class": "A1",
+   "deed_date": "2026-08-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.469058,
+   "lon": -97.651492,
+   "sqft": 1506,
+   "value": 322626,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": 1.653,
+   "address": "1506 SUZI 78660",
+   "assessed": 357394,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.45793,
+   "lon": -97.655775,
+   "sqft": 2078,
+   "value": 357394,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1994
+  },
+  {
+   "acres": 2.448,
+   "address": "1300 CORAL CAY ROUND ROCK 78664",
+   "assessed": 377285,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.46895,
+   "lon": -97.643682,
+   "sqft": 2046,
+   "value": 377285,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 1.672,
+   "address": "1806 BARILLA MOUNTAIN 78664",
+   "assessed": 384575,
+   "class": "A1",
+   "deed_date": "2026-07-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.473037,
+   "lon": -97.651993,
+   "sqft": 1711,
+   "value": 384575,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 13.376,
+   "address": "2000 PICADILLY 78664",
+   "assessed": 2556383,
+   "class": "F1",
+   "deed_date": "2026-07-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.467138,
+   "lon": -97.661716,
+   "sqft": 12250,
+   "value": 2556383,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.585,
+   "address": "17407 ORWELL 78664",
+   "assessed": 345672,
+   "class": "A1",
+   "deed_date": "2026-07-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.474962,
+   "lon": -97.652721,
+   "sqft": 1826,
+   "value": 345672,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 2.462,
+   "address": "16300 SUZI PFLUGERVILLE 78660",
+   "assessed": 366223,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.457212,
+   "lon": -97.657072,
+   "sqft": 2322,
+   "value": 366223,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1994
+  },
+  {
+   "acres": null,
+   "address": "18427 STEVIE RAY 78660",
+   "assessed": 329847,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.482673,
+   "lon": -97.636919,
+   "sqft": 1694,
+   "value": 329847,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2018
+  },
+  {
+   "acres": 2.312,
+   "address": "17124 COPPERHEAD 78664",
+   "assessed": 300027,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.469106,
+   "lon": -97.650833,
+   "sqft": 1836,
+   "value": 300027,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
+  },
+  {
+   "acres": 1.487,
+   "address": "17112 TORTOISE 78664",
+   "assessed": 365343,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.468588,
+   "lon": -97.649442,
+   "sqft": 1663,
+   "value": 365343,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": 1.515,
+   "address": "17600 LIMPIA CREEK 78664",
+   "assessed": 335683,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.475314,
+   "lon": -97.648915,
+   "sqft": 1826,
+   "value": 335683,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 2.557,
+   "address": "1911 PFLUGERVILLE 78664",
+   "assessed": 382194,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.472796,
+   "lon": -97.655225,
+   "sqft": 2046,
+   "value": 382194,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 2.196,
+   "address": "1737 JERUSALEM ROUND ROCK 78664",
+   "assessed": 399609,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.466384,
+   "lon": -97.655138,
+   "sqft": 1999,
+   "value": 399609,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": null,
+   "address": "18120 MORETO 78660",
+   "assessed": 386812,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.480625,
+   "lon": -97.640885,
+   "sqft": 2138,
+   "value": 386812,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2014
+  },
+  {
+   "acres": 1.446,
+   "address": "16905 COPPERHEAD 78664",
+   "assessed": 320401,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.46351,
+   "lon": -97.648359,
+   "sqft": 1630,
+   "value": 320401,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1996
+  },
+  {
+   "acres": 6.01,
+   "address": "16401 CENTRAL COMMERCE 78660",
+   "assessed": 1209242,
+   "class": "F1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.460609,
+   "lon": -97.659315,
+   "sqft": 6500,
+   "value": 1212083,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 23.253,
+   "address": "16809 RADHOLME ROUND ROCK 78664",
+   "assessed": 1799036,
+   "class": "F1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.468432,
+   "lon": -97.661151,
+   "sqft": 17000,
+   "value": 1799036,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 2.009,
+   "address": "1549 JERUSALEM 78664",
+   "assessed": 395271,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.464829,
+   "lon": -97.651167,
+   "sqft": 2614,
+   "value": 404449,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 1.586,
+   "address": "17301 VALENTINE 78664",
+   "assessed": 319717,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.473304,
+   "lon": -97.652764,
+   "sqft": 1599,
+   "value": 319717,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": null,
+   "address": "1510 AUTUMN 78652",
+   "assessed": 428293,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.482714,
+   "lon": -97.635908,
+   "sqft": 2313,
+   "value": 428293,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2018
   },
   {
    "acres": 2.927,
@@ -36,7 +563,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.474088,
    "lon": -97.644815,
    "sqft": 2086,
@@ -64,9 +591,66 @@
    "year_built": 2003
   },
   {
+   "acres": 10.0,
+   "address": "CENTURY 78660",
+   "assessed": 268400,
+   "class": "F3",
+   "deed_date": "2026-05-20",
+   "homestead": false,
+   "lat": 30.450153,
+   "lon": -97.664338,
+   "value": 268400,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 11.85,
+   "address": "1605 CENTURY 78660",
+   "assessed": 878665,
+   "class": "F1",
+   "deed_date": "2026-05-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.449576,
+   "lon": -97.663078,
+   "sqft": 6201,
+   "value": 878665,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1975
+  },
+  {
+   "acres": 9.67,
+   "address": "CENTURY 78660",
+   "assessed": 433092,
+   "class": "F1",
+   "deed_date": "2026-05-20",
+   "homestead": false,
+   "lat": 30.449769,
+   "lon": -97.663531,
+   "sqft": 1200,
+   "value": 493148,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1975
+  },
+  {
+   "acres": 10.0,
+   "address": "CENTURY 78660",
+   "assessed": 268400,
+   "class": "F3",
+   "deed_date": "2026-05-20",
+   "homestead": false,
+   "lat": 30.449967,
+   "lon": -97.663932,
+   "value": 268400,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
    "acres": 1.641,
    "address": "1725 JERUSALEM 78664",
-   "assessed": 346120,
+   "assessed": 329679,
    "class": "A1",
    "deed_date": "2026-05-19",
    "extras": {
@@ -78,7 +662,7 @@
    "lat": 30.465899,
    "lon": -97.654916,
    "sqft": 2014,
-   "value": 346120,
+   "value": 329679,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1998
   },
@@ -100,6 +684,25 @@
    "value": 498007,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2000
+  },
+  {
+   "acres": 1.968,
+   "address": "1314 CORAL CAY ROUND ROCK 78664",
+   "assessed": 390000,
+   "class": "A1",
+   "deed_date": "2026-05-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.468637,
+   "lon": -97.644212,
+   "sqft": 2125,
+   "value": 390000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
   },
   {
    "acres": 1.715,
@@ -161,7 +764,7 @@
   {
    "acres": 1.683,
    "address": "1706 HUECO MOUNTAIN 78664",
-   "assessed": 289903,
+   "assessed": 276133,
    "class": "A1",
    "deed_date": "2026-04-27",
    "extras": {
@@ -173,7 +776,7 @@
    "lat": 30.473264,
    "lon": -97.650789,
    "sqft": 1380,
-   "value": 289903,
+   "value": 276133,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
   },
@@ -218,7 +821,7 @@
   {
    "acres": 1.622,
    "address": "17300 ORWELL 78664",
-   "assessed": 343679,
+   "assessed": 327354,
    "class": "A1",
    "deed_date": "2026-04-24",
    "extras": {
@@ -230,7 +833,7 @@
    "lat": 30.473923,
    "lon": -97.654015,
    "sqft": 1826,
-   "value": 343679,
+   "value": 327354,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2002
   },
@@ -340,7 +943,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.459358,
    "lon": -97.656639,
    "sqft": 2015,
@@ -351,7 +954,7 @@
   {
    "acres": 1.435,
    "address": "1528 JERUSALEM ROUND ROCK 78664",
-   "assessed": 344623,
+   "assessed": 270000,
    "class": "A1",
    "deed_date": "2026-04-10",
    "extras": {
@@ -363,7 +966,7 @@
    "lat": 30.465529,
    "lon": -97.65176,
    "sqft": 2014,
-   "value": 344623,
+   "value": 270000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
   },
@@ -484,7 +1087,7 @@
   {
    "acres": 27.05,
    "address": "16211 CENTRAL COMMERCE 78660",
-   "assessed": 3265300,
+   "assessed": 2800000,
    "class": "F1",
    "deed_date": "2026-03-19",
    "extras": {
@@ -496,7 +1099,7 @@
    "lat": 30.458358,
    "lon": -97.659685,
    "sqft": 27500,
-   "value": 3265300,
+   "value": 2800000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2000
   },
@@ -625,7 +1228,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.47438,
    "lon": -97.654778,
    "sqft": 2310,
@@ -828,7 +1431,7 @@
   {
    "acres": null,
    "address": "1526 AUTUMN 78652",
-   "assessed": 431209,
+   "assessed": 374900,
    "class": "A1",
    "deed_date": "2026-01-23",
    "extras": {
@@ -840,7 +1443,7 @@
    "lat": 30.483316,
    "lon": -97.636107,
    "sqft": 2313,
-   "value": 431209,
+   "value": 374900,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2018
   },
@@ -942,7 +1545,7 @@
   {
    "acres": 1.546,
    "address": "16928 TORTOISE 78664",
-   "assessed": 364363,
+   "assessed": 333156,
    "class": "A1",
    "deed_date": "2026-01-08",
    "extras": {
@@ -954,7 +1557,7 @@
    "lat": 30.464246,
    "lon": -97.648136,
    "sqft": 1998,
-   "value": 364363,
+   "value": 333156,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1996
   },
@@ -999,7 +1602,7 @@
   {
    "acres": 1.888,
    "address": "17012 COPPERHEAD 78664",
-   "assessed": 415680,
+   "assessed": 373322,
    "class": "A1",
    "deed_date": "2025-12-27",
    "extras": {
@@ -1011,7 +1614,7 @@
    "lat": 30.465984,
    "lon": -97.649481,
    "sqft": 2605,
-   "value": 415680,
+   "value": 373322,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1996
   },
@@ -1030,7 +1633,7 @@
   {
    "acres": 1.959,
    "address": "1305 CORAL CAY 78664",
-   "assessed": 321649,
+   "assessed": 306371,
    "class": "A1",
    "deed_date": "2025-12-19",
    "extras": {
@@ -1042,7 +1645,7 @@
    "lat": 30.468364,
    "lon": -97.643563,
    "sqft": 1638,
-   "value": 321649,
+   "value": 306371,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
   },
@@ -1057,7 +1660,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.47513,
    "lon": -97.652179,
    "sqft": 1402,
@@ -1206,6 +1809,25 @@
    "year_built": 2014
   },
   {
+   "acres": 2.079,
+   "address": "17107 ZOLA ROUND ROCK 78664",
+   "assessed": 352755,
+   "class": "A1",
+   "deed_date": "2025-10-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.471224,
+   "lon": -97.656193,
+   "sqft": 2185,
+   "value": 352755,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
    "acres": 1.465,
    "address": "17502 SALT FLAT ROUND ROCK 78664",
    "assessed": 289105,
@@ -1227,7 +1849,7 @@
   {
    "acres": 1.578,
    "address": "17301 ORWELL 78664",
-   "assessed": 388500,
+   "assessed": 348912,
    "class": "A1",
    "deed_date": "2025-10-21",
    "extras": {
@@ -1239,7 +1861,7 @@
    "lat": 30.473706,
    "lon": -97.653531,
    "sqft": 2387,
-   "value": 388500,
+   "value": 348912,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2002
   },
@@ -1261,565 +1883,26 @@
    "value": 403050,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1994
-  },
-  {
-   "acres": 1.97,
-   "address": "16205 VIKI LYNN 78660",
-   "assessed": 400148,
-   "class": "A1",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.457447,
-   "lon": -97.657496,
-   "sqft": 2605,
-   "value": 400148,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1994
-  },
-  {
-   "acres": 2.819,
-   "address": "17313 GUANA CAY ROUND ROCK 78664",
-   "assessed": 395654,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.469792,
-   "lon": -97.644133,
-   "sqft": 2046,
-   "value": 395654,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 30.0,
-   "address": "15816 CENTRAL COMMERCE PFLUGERVILLE 78660",
-   "assessed": 400000,
-   "class": "C1",
-   "deed_date": "2025-10-08",
-   "homestead": false,
-   "lat": 30.451081,
-   "lon": -97.656255,
-   "value": 400000,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 1.436,
-   "address": "17410 TOYAHVILLE ROUND ROCK 78664",
-   "assessed": 292477,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.47369,
-   "lon": -97.649964,
-   "sqft": 1299,
-   "value": 292477,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 2.119,
-   "address": "1535 ARUSHA 78664",
-   "assessed": 369909,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.469136,
-   "lon": -97.648676,
-   "sqft": 1984,
-   "value": 369909,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 2.821,
-   "address": "1523 EMPEROR ROUND ROCK 78664",
-   "assessed": 386645,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.465414,
-   "lon": -97.650699,
-   "sqft": 1999,
-   "value": 386645,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1995
-  },
-  {
-   "acres": 1.54,
-   "address": "17300 ZOLA ROUND ROCK 78664",
-   "assessed": 345355,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.473576,
-   "lon": -97.655299,
-   "sqft": 1826,
-   "value": 345355,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.158,
-   "address": "2000 HUXLEY LN, ROUND ROCK, TX  78664",
-   "assessed": 334975,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.476306,
-   "lon": -97.653427,
-   "sqft": 1837,
-   "value": 334975,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 1.625,
-   "address": "1511 FREESTONE PFLUGERVILLE 78660",
-   "assessed": 352975,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.458814,
-   "lon": -97.654962,
-   "sqft": 1823,
-   "value": 352975,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1995
-  },
-  {
-   "acres": null,
-   "address": "18426 STEVIE RAY 78660",
-   "assessed": 374037,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.482539,
-   "lon": -97.637469,
-   "sqft": 1761,
-   "value": 374037,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2018
-  },
-  {
-   "acres": 16.414,
-   "address": "428 GRAND AVENUE PFLUGERVILLE 78660",
-   "assessed": 2695495,
-   "class": "F1",
-   "deed_date": "2025-09-05",
-   "homestead": false,
-   "lat": 30.466558,
-   "lon": -97.645081,
-   "sqft": 8000,
-   "value": 2695495,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2023
-  },
-  {
-   "acres": null,
-   "address": "18017 MORETO 78660",
-   "assessed": 339778,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.479626,
-   "lon": -97.640786,
-   "sqft": 1509,
-   "value": 339778,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": 1.722,
-   "address": "1521 JERUSALEM ROUND ROCK 78664",
-   "assessed": 374717,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.465803,
-   "lon": -97.65116,
-   "sqft": 2335,
-   "value": 374717,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 2.359,
-   "address": "16822 TORTOISE ROUND ROCK 78664",
-   "assessed": 395534,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.464515,
-   "lon": -97.650106,
-   "sqft": 2341,
-   "value": 395534,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1996
-  },
-  {
-   "acres": 2.554,
-   "address": "17304 ABACO HARBOUR 78664",
-   "assessed": 390500,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.469201,
-   "lon": -97.644268,
-   "sqft": 2185,
-   "value": 396050,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 4.7,
-   "address": "1812 CENTRAL COMMERCE 78664",
-   "assessed": 764962,
-   "class": "F1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.464975,
-   "lon": -97.657872,
-   "sqft": 4000,
-   "value": 764962,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": 2.073,
-   "address": "1416 MUDDY WATERS PFLUGERVILLE 78660",
-   "assessed": 390257,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.480426,
-   "lon": -97.638565,
-   "sqft": 2109,
-   "value": 390257,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 2.08,
-   "address": "16907 CRANSTON ROUND ROCK 78664",
-   "assessed": 420852,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.467472,
-   "lon": -97.653074,
-   "sqft": 2617,
-   "value": 420852,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1995
-  },
-  {
-   "acres": 1.438,
-   "address": "17003 JIGSAW PATHWAY ROUND ROCK 78664",
-   "assessed": 281887,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.467072,
-   "lon": -97.652096,
-   "sqft": 1205,
-   "value": 281887,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 1.838,
-   "address": "1600 VIKI LYNN PFLUGERVILLE 78660",
-   "assessed": 353849,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.458855,
-   "lon": -97.658311,
-   "sqft": 2026,
-   "value": 353849,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1994
-  },
-  {
-   "acres": 2.073,
-   "address": "1432 FABER PFLUGERVILLE 78660",
-   "assessed": 383535,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.479574,
-   "lon": -97.638519,
-   "sqft": 2170,
-   "value": 383535,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": null,
-   "address": "2721 BRIDEKIRK 78664",
-   "assessed": 353713,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.48231,
-   "lon": -97.634974,
-   "sqft": 1514,
-   "value": 353713,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2018
-  },
-  {
-   "acres": 2.088,
-   "address": "17511 MARFA LIGHTS ROUND ROCK 78664",
-   "assessed": 315575,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.473641,
-   "lon": -97.646026,
-   "sqft": 1560,
-   "value": 315575,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 2.839,
-   "address": "1405 FABER PFLUGERVILLE 78660",
-   "assessed": 411209,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.479004,
-   "lon": -97.637045,
-   "sqft": 2437,
-   "value": 411209,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": 1.916,
-   "address": "1616 SUZI 78660",
-   "assessed": 395451,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.459702,
-   "lon": -97.657479,
-   "sqft": 2560,
-   "value": 395451,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1994
-  },
-  {
-   "acres": 2.83,
-   "address": "1420 FABER PFLUGERVILLE 78660",
-   "assessed": 459635,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.47944,
-   "lon": -97.637826,
-   "sqft": 2888,
-   "value": 459635,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": null,
-   "address": "18708 MORETO 78660",
-   "assessed": 359316,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.480167,
-   "lon": -97.64176,
-   "sqft": 1743,
-   "value": 359316,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": 1.377,
-   "address": "1819 BARILLA MOUNTAIN 78664",
-   "assessed": 284862,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.472867,
-   "lon": -97.652771,
-   "sqft": 1264,
-   "value": 284862,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 5.651,
-   "address": "1403 BARBERGALE PFLUGERVILLE 78660",
-   "assessed": 326279,
-   "class": "B2",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.442479,
-   "lon": -97.661694,
-   "sqft": 1880,
-   "value": 326279,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1977
   }
  ],
  "windows": {
   "12mo": {
-   "count": 97,
-   "median_value": 355923,
-   "pct_of_households": 2.8,
-   "pct_of_population": 1.17
+   "count": 102,
+   "median_value": 353412,
+   "pct_of_households": 2.94,
+   "pct_of_population": 1.23
   },
   "3mo": {
-   "count": 21,
-   "median_value": 344623,
-   "pct_of_households": 0.61,
-   "pct_of_population": 0.25
+   "count": 17,
+   "median_value": 366223,
+   "pct_of_households": 0.49,
+   "pct_of_population": 0.2
   },
   "6mo": {
-   "count": 51,
-   "median_value": 351088,
-   "pct_of_households": 1.47,
-   "pct_of_population": 0.61
+   "count": 49,
+   "median_value": 360168,
+   "pct_of_households": 1.41,
+   "pct_of_population": 0.59
   }
  }
 }

@@ -1,11 +1,30 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 39,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 27,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1006,
  "months_back": 12,
  "population_acs": 2868,
  "transfers": [
+  {
+   "acres": 0.14,
+   "address": "207 E CLARK ST, BARTLETT, TX  76511",
+   "assessed": 193084,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.794706,
+   "lon": -97.426783,
+   "sqft": 1025,
+   "value": 261898,
+   "value_kind": "market (WCAD)",
+   "year_built": 1900
+  },
   {
    "acres": 10.473,
    "address": "2951 CR 360, BARTLETT, TX  76511",
@@ -135,7 +154,7 @@
   {
    "acres": 0.232,
    "address": "720 W SCOTT, BARTLETT, TX  76511",
-   "assessed": 54000,
+   "assessed": 196583,
    "class": "A5",
    "deed_date": "2026-02-27",
    "extras": {},
@@ -154,9 +173,9 @@
    "class": "A1",
    "deed_date": "2026-02-04",
    "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
    },
    "homestead": false,
    "lat": 30.795919,
@@ -233,7 +252,7 @@
   },
   {
    "acres": 0.241,
-   "address": "218 W AISNE ST, BARTLETT, TX  76511",
+   "address": "W AISNE ST, BARTLETT, TX  76511",
    "assessed": 45001,
    "class": "A1",
    "deed_date": "2025-12-16",
@@ -470,255 +489,26 @@
    "value": 244671,
    "value_kind": "market (WCAD)",
    "year_built": 1927
-  },
-  {
-   "acres": 6.118,
-   "address": "1845 W CR 352, BARTLETT, TX  76511",
-   "assessed": 170683,
-   "class": "A2",
-   "deed_date": "2025-10-07",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.750314,
-   "lon": -97.385625,
-   "sqft": 1536,
-   "value": 344311,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.18,
-   "address": "230 JACKSON ST W, BARTLETT, TX  76511",
-   "assessed": 134526,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.794379,
-   "lon": -97.431346,
-   "sqft": 900,
-   "value": 134526,
-   "value_kind": "market (WCAD)",
-   "year_built": 1965
-  },
-  {
-   "acres": 0.242,
-   "address": "340 EMMA S, BARTLETT, TX  76511",
-   "assessed": 248405,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.793525,
-   "lon": -97.430628,
-   "sqft": 1520,
-   "value": 248405,
-   "value_kind": "market (WCAD)",
-   "year_built": 1980
-  },
-  {
-   "acres": 0.517,
-   "address": "1408 CLARK ST, BARTLETT, TX  76511",
-   "assessed": 243522,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.800037,
-   "lon": -97.443898,
-   "sqft": 1672,
-   "value": 243522,
-   "value_kind": "market (WCAD)",
-   "year_built": 1959
-  },
-  {
-   "acres": 0.575,
-   "address": "1309 W BELL, BARTLETT, TX  76511",
-   "assessed": 275841,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.800195,
-   "lon": -97.442691,
-   "sqft": 1432,
-   "value": 275841,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.425,
-   "address": "1210 CLARK ST, BARTLETT, TX  76511",
-   "assessed": 175418,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "ML",
-    "foundation": "PST",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.799286,
-   "lon": -97.441215,
-   "sqft": 1056,
-   "value": 175418,
-   "value_kind": "market (WCAD)",
-   "year_built": 1952
-  },
-  {
-   "acres": 2.066,
-   "address": "501 DALTON ST S, BARTLETT, TX  76511",
-   "assessed": 1978567,
-   "class": "F1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "ML, STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.790439,
-   "lon": -97.428129,
-   "sqft": 9000,
-   "value": 1978567,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.457,
-   "address": "437 W ELM ST, BARTLETT, TX  76511",
-   "assessed": 146734,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.79347,
-   "lon": -97.434491,
-   "sqft": 1304,
-   "value": 146734,
-   "value_kind": "market (WCAD)",
-   "year_built": 1930
-  },
-  {
-   "acres": 0.106,
-   "address": "S EVIE ST, BARTLETT, TX  76511",
-   "assessed": 117856,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.793368,
-   "lon": -97.428179,
-   "sqft": 1522,
-   "value": 117856,
-   "value_kind": "market (WCAD)",
-   "year_built": 1940
-  },
-  {
-   "acres": 0.135,
-   "address": "243 S EVIE ST, BARTLETT, TX  76511",
-   "assessed": 100791,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.793304,
-   "lon": -97.427952,
-   "sqft": 1254,
-   "value": 100791,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.287,
-   "address": "411 SALT LAKE ST, BARTLETT, TX  76511",
-   "assessed": 55050,
-   "class": "A3",
-   "deed_date": "2025-08-20",
-   "homestead": false,
-   "lat": 30.791877,
-   "lon": -97.439903,
-   "value": 55050,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 0.341,
-   "address": "6861 E FM 487, BARTLETT, TX  76511",
-   "assessed": 83305,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.815254,
-   "lon": -97.512024,
-   "sqft": 1760,
-   "value": 83305,
-   "value_kind": "market (WCAD)",
-   "year_built": 1964
-  },
-  {
-   "acres": 46.179,
-   "address": "1800 CR 387, BARTLETT, TX  76511",
-   "assessed": 56453,
-   "class": "D3",
-   "deed_date": "2025-07-24",
-   "homestead": false,
-   "lat": 30.768185,
-   "lon": -97.437899,
-   "value": 1242914,
-   "value_kind": "market (WCAD)"
   }
  ],
  "windows": {
   "12mo": {
-   "count": 39,
-   "median_value": 196583,
-   "pct_of_households": 3.88,
-   "pct_of_population": 1.36
+   "count": 27,
+   "median_value": 213349,
+   "pct_of_households": 2.68,
+   "pct_of_population": 0.94
   },
   "3mo": {
-   "count": 3,
-   "median_value": 278025,
-   "pct_of_households": 0.3,
-   "pct_of_population": 0.1
+   "count": 0,
+   "median_value": null,
+   "pct_of_households": 0.0,
+   "pct_of_population": 0.0
   },
   "6mo": {
-   "count": 12,
-   "median_value": 119946,
-   "pct_of_households": 1.19,
-   "pct_of_population": 0.42
+   "count": 2,
+   "median_value": 647176,
+   "pct_of_households": 0.2,
+   "pct_of_population": 0.07
   }
  }
 }

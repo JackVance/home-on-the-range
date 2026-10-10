@@ -1,11 +1,1784 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 252,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 263,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 7190,
  "months_back": 12,
  "population_acs": 23241,
  "transfers": [
+  {
+   "acres": 1.056,
+   "address": "21402 DERBY DAY PFLUGERVILLE 78660",
+   "assessed": 248338,
+   "class": "A1",
+   "deed_date": "2026-09-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.499138,
+   "lon": -97.574962,
+   "sqft": 1114,
+   "value": 248338,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 3.015,
+   "address": "2809 MOVING WATER 78660",
+   "assessed": 560948,
+   "class": "A1",
+   "deed_date": "2026-09-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.475594,
+   "lon": -97.570504,
+   "sqft": 3611,
+   "value": 560948,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.067,
+   "address": "19620 CHEYENNE VALLEY 78660",
+   "assessed": 434294,
+   "class": "A1",
+   "deed_date": "2026-09-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.489536,
+   "lon": -97.606061,
+   "sqft": 2917,
+   "value": 434294,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": null,
+   "address": "21609 GALLUS PFLUGERVILLE 78660",
+   "assessed": 373198,
+   "class": "A1",
+   "deed_date": "2026-09-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.495466,
+   "lon": -97.573117,
+   "sqft": 1926,
+   "value": 373198,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": null,
+   "address": "3113 PASQUEFLOWER PFLUGERVILLE 78660",
+   "assessed": 595209,
+   "class": "A1",
+   "deed_date": "2026-09-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.459863,
+   "lon": -97.575052,
+   "sqft": 3518,
+   "value": 595209,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": null,
+   "address": "732 MANZANO 78660",
+   "assessed": 404447,
+   "class": "A1",
+   "deed_date": "2026-08-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.49052,
+   "lon": -97.597896,
+   "sqft": 2027,
+   "value": 404447,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2019
+  },
+  {
+   "acres": 2.053,
+   "address": "2520 LINVILLE RIDGE PFLUGERVILLE 78660",
+   "assessed": 396937,
+   "class": "A1",
+   "deed_date": "2026-08-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.476469,
+   "lon": -97.5756,
+   "sqft": 2299,
+   "value": 396937,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.675,
+   "address": "20728 KEARNEY HILL PFLUGERVILLE 78660",
+   "assessed": 468768,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.481369,
+   "lon": -97.573538,
+   "sqft": 3181,
+   "value": 468768,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.33,
+   "address": "205 BOONE VALLEY 78664",
+   "assessed": 363730,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.48981,
+   "lon": -97.608743,
+   "sqft": 2378,
+   "value": 363730,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": null,
+   "address": "3004 WINDY VANE PFLUGERVILLE 78660",
+   "assessed": 552269,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.490826,
+   "lon": -97.564773,
+   "sqft": 3110,
+   "value": 552269,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2014
+  },
+  {
+   "acres": 1.792,
+   "address": "20011 CANTERWOOD 78660",
+   "assessed": 344277,
+   "class": "A1",
+   "deed_date": "2026-08-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.479907,
+   "lon": -97.579665,
+   "sqft": 2540,
+   "value": 344277,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": null,
+   "address": "2612 ROUGH BERRY 78660",
+   "assessed": 338615,
+   "class": "A1",
+   "deed_date": "2026-08-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.459775,
+   "lon": -97.588403,
+   "sqft": 1544,
+   "value": 338615,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 2.816,
+   "address": "19913 DORNICK HILLS PFLUGERVILLE 78660",
+   "assessed": 492745,
+   "class": "A1",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.475752,
+   "lon": -97.573611,
+   "sqft": 3514,
+   "value": 492745,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.522,
+   "address": "19904 TREE SAP ROUND ROCK 78664",
+   "assessed": 361855,
+   "class": "A1",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.488899,
+   "lon": -97.601911,
+   "sqft": 1752,
+   "value": 361855,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2011
+  },
+  {
+   "acres": 1.455,
+   "address": "1506 ST LEGER 78660",
+   "assessed": 314048,
+   "class": "A1",
+   "deed_date": "2026-08-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.500291,
+   "lon": -97.577747,
+   "sqft": 1721,
+   "value": 314048,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 2.018,
+   "address": "2104 HERITAGE WELL PFLUGERVILLE 78660",
+   "assessed": 460958,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.469512,
+   "lon": -97.586662,
+   "sqft": 2614,
+   "value": 460958,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 4.334,
+   "address": "2102 CHINCHO PFLUGERVILLE 78660",
+   "assessed": 536370,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.47763,
+   "lon": -97.581485,
+   "sqft": 2963,
+   "value": 536370,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.434,
+   "address": "3437 WINDING SHORE 78660",
+   "assessed": 378347,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.482028,
+   "lon": -97.568718,
+   "sqft": 1950,
+   "value": 378347,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 13.299,
+   "address": "ROWE 78660",
+   "assessed": 132696,
+   "class": "C1",
+   "deed_date": "2026-08-13",
+   "homestead": false,
+   "lat": 30.483794,
+   "lon": -97.572174,
+   "value": 289651,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 2.082,
+   "address": "20609 KEARNEY HILL PFLUGERVILLE 78660",
+   "assessed": 382246,
+   "class": "A1",
+   "deed_date": "2026-08-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.482625,
+   "lon": -97.574256,
+   "sqft": 2078,
+   "value": 382246,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.865,
+   "address": "2102 HERITAGE WELL PFLUGERVILLE 78660",
+   "assessed": 481049,
+   "class": "A1",
+   "deed_date": "2026-08-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.469658,
+   "lon": -97.586793,
+   "sqft": 3469,
+   "value": 481049,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 2.784,
+   "address": "1904 QUANTICO 78660",
+   "assessed": 383640,
+   "class": "A1",
+   "deed_date": "2026-08-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.473737,
+   "lon": -97.586565,
+   "sqft": 2200,
+   "value": 383640,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.578,
+   "address": "2504 GRAND MISSION PFLUGERVILLE 78660",
+   "assessed": 309000,
+   "class": "A1",
+   "deed_date": "2026-08-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.461798,
+   "lon": -97.58456,
+   "sqft": 1816,
+   "value": 309000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.049,
+   "address": "1617 HARNESS RACE 78660",
+   "assessed": 308497,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.496444,
+   "lon": -97.577177,
+   "sqft": 1704,
+   "value": 308497,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 1.728,
+   "address": "2800 MISSION TEJAS PFLUGERVILLE 78660",
+   "assessed": 449323,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.478411,
+   "lon": -97.569072,
+   "sqft": 2696,
+   "value": 449323,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.417,
+   "address": "19803 MALLARD POND PFLUGERVILLE 78660",
+   "assessed": 583008,
+   "class": "A1",
+   "deed_date": "2026-08-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.47604,
+   "lon": -97.580225,
+   "sqft": 4042,
+   "value": 583008,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 50.8,
+   "address": "PANTHER 78660",
+   "assessed": 378968,
+   "class": "E1",
+   "deed_date": "2026-08-04",
+   "homestead": false,
+   "lat": 30.483953,
+   "lon": -97.58776,
+   "value": 378968,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.973,
+   "address": "2612 RAVENSBROOK PFLUGERVILLE 78660",
+   "assessed": 463152,
+   "class": "A1",
+   "deed_date": "2026-07-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.486291,
+   "lon": -97.568444,
+   "sqft": 3110,
+   "value": 463152,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": null,
+   "address": "20817 HUCKABEE 78660",
+   "assessed": 362153,
+   "class": "A1",
+   "deed_date": "2026-07-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.487103,
+   "lon": -97.573399,
+   "sqft": 2047,
+   "value": 362153,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2012
+  },
+  {
+   "acres": 2.06,
+   "address": "2204 TERRADYNE PFLUGERVILLE 78660",
+   "assessed": 385820,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.477797,
+   "lon": -97.579752,
+   "sqft": 1944,
+   "value": 385820,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1996
+  },
+  {
+   "acres": 2.524,
+   "address": "2301 HAIG POINT PFLUGERVILLE 78660",
+   "assessed": 389397,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.481791,
+   "lon": -97.575134,
+   "sqft": 2363,
+   "value": 389397,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.07,
+   "address": "409 BOONE VALLEY 78664",
+   "assessed": 347536,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.488136,
+   "lon": -97.607281,
+   "sqft": 2854,
+   "value": 347536,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.911,
+   "address": "20937 PRESTWICK HUTTO 78634",
+   "assessed": 401854,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.497908,
+   "lon": -97.586928,
+   "sqft": 2500,
+   "value": 401854,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2010
+  },
+  {
+   "acres": 1.688,
+   "address": "18708 GOLDDUST 78660",
+   "assessed": 442789,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.459338,
+   "lon": -97.583959,
+   "sqft": 2835,
+   "value": 442789,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 39.965,
+   "address": "ROWE 78660",
+   "assessed": 870440,
+   "class": "C1",
+   "deed_date": "2026-07-23",
+   "homestead": false,
+   "lat": 30.483536,
+   "lon": -97.570089,
+   "value": 870440,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": null,
+   "address": "2601 ROUGH BERRY PFLUGERVILLE 78660",
+   "assessed": 361712,
+   "class": "A1",
+   "deed_date": "2026-07-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.459194,
+   "lon": -97.588163,
+   "sqft": 1544,
+   "value": 361712,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": 2.4,
+   "address": "2400 DUNES PFLUGERVILLE 78660",
+   "assessed": 492868,
+   "class": "A1",
+   "deed_date": "2026-07-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.468606,
+   "lon": -97.583321,
+   "sqft": 3340,
+   "value": 492868,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": 2.298,
+   "address": "21008 HALLBROOK PFLUGERVILLE 78660",
+   "assessed": 439075,
+   "class": "A1",
+   "deed_date": "2026-07-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.477305,
+   "lon": -97.575698,
+   "sqft": 2555,
+   "value": 439075,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": null,
+   "address": "2925 WINDING SHORE PFLUGERVILLE 78660",
+   "assessed": 680768,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.473485,
+   "lon": -97.56904,
+   "sqft": 3681,
+   "value": 680768,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": null,
+   "address": "3020 MISTY SHORE PFLUGERVILLE 78660",
+   "assessed": 701571,
+   "class": "A1",
+   "deed_date": "2026-07-19",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.472332,
+   "lon": -97.567259,
+   "sqft": 4032,
+   "value": 701571,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": 1.056,
+   "address": "21218 DERBY DAY 78660",
+   "assessed": 255087,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.497237,
+   "lon": -97.575275,
+   "sqft": 1467,
+   "value": 255087,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.865,
+   "address": "2206 HAYFIELD PFLUGERVILLE 78660",
+   "assessed": 405187,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.47158,
+   "lon": -97.58393,
+   "sqft": 2085,
+   "value": 405187,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.812,
+   "address": "2300 HAIG POINT 78660",
+   "assessed": 419548,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.482253,
+   "lon": -97.575479,
+   "sqft": 2087,
+   "value": 419548,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.067,
+   "address": "19917 NEEDLE PINE ROUND ROCK 78664",
+   "assessed": 480507,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.4895,
+   "lon": -97.600394,
+   "sqft": 3363,
+   "value": 480507,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2010
+  },
+  {
+   "acres": null,
+   "address": "3017 OPEN PLAIN PFLUGERVILLE 78660",
+   "assessed": 453400,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.45908,
+   "lon": -97.577595,
+   "sqft": 2671,
+   "value": 453400,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": null,
+   "address": "19600 MAIDEN GRASS PFLUGERVILLE 78660",
+   "assessed": 425959,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.475687,
+   "lon": -97.586264,
+   "sqft": 2000,
+   "value": 425959,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": 1.242,
+   "address": "2000 STEEDS PFLUGERVILLE 78660",
+   "assessed": 275449,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.49176,
+   "lon": -97.573635,
+   "sqft": 1337,
+   "value": 275449,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1995
+  },
+  {
+   "acres": null,
+   "address": "716 SPECKLED ALDER PFLUGERVILLE 78660",
+   "assessed": 453650,
+   "class": "A1",
+   "deed_date": "2026-07-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.489866,
+   "lon": -97.598837,
+   "sqft": 2604,
+   "value": 453650,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 2.536,
+   "address": "20709 KEARNEY HILL PFLUGERVILLE 78660",
+   "assessed": 441951,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.482047,
+   "lon": -97.573555,
+   "sqft": 2364,
+   "value": 441951,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.402,
+   "address": "19017 WANDERING VINE PFLUGERVILLE 78660",
+   "assessed": 390000,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.463821,
+   "lon": -97.580255,
+   "sqft": 2170,
+   "value": 390000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 5.0,
+   "address": "ALGREG 78660",
+   "assessed": 90332,
+   "class": "F3",
+   "deed_date": "2026-07-09",
+   "homestead": false,
+   "lat": 30.481852,
+   "lon": -97.583395,
+   "value": 90332,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 5.0,
+   "address": "20101 F M RD 685 78660",
+   "assessed": 174240,
+   "class": "C1",
+   "deed_date": "2026-07-09",
+   "homestead": false,
+   "lat": 30.482985,
+   "lon": -97.584324,
+   "value": 174240,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 5.0,
+   "address": "20011 F M RD 685 78660",
+   "assessed": 174240,
+   "class": "C1",
+   "deed_date": "2026-07-09",
+   "homestead": false,
+   "lat": 30.482723,
+   "lon": -97.584491,
+   "value": 174240,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": null,
+   "address": "2900 WATERSON PFLUGERVILLE 78660",
+   "assessed": 510738,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.492525,
+   "lon": -97.565906,
+   "sqft": 3091,
+   "value": 510738,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 2.066,
+   "address": "1109 WHITEMOSS 78634",
+   "assessed": 494122,
+   "class": "A1",
+   "deed_date": "2026-07-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.496046,
+   "lon": -97.586571,
+   "sqft": 4016,
+   "value": 494122,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.392,
+   "address": "19913 SAN CHISOLM 78664",
+   "assessed": 355368,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.494717,
+   "lon": -97.602474,
+   "sqft": 2378,
+   "value": 355368,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.515,
+   "address": "2305 GAVIN PFLUGERVILLE 78660",
+   "assessed": 466018,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.486242,
+   "lon": -97.573456,
+   "sqft": 3357,
+   "value": 466018,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2010
+  },
+  {
+   "acres": 2.067,
+   "address": "19925 NEEDLE PINE ROUND ROCK 78664",
+   "assessed": 413060,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.489885,
+   "lon": -97.600404,
+   "sqft": 2340,
+   "value": 413060,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": null,
+   "address": "3225 PARK SPRINGS PFLUGERVILLE 78660",
+   "assessed": 610753,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.456753,
+   "lon": -97.57573,
+   "sqft": 3833,
+   "value": 610753,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2012
+  },
+  {
+   "acres": 1.865,
+   "address": "2306 HAYFIELD 78660",
+   "assessed": 450096,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.470446,
+   "lon": -97.583855,
+   "sqft": 2828,
+   "value": 450096,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.148,
+   "address": "19701 SAN CHISOLM 78664",
+   "assessed": 340509,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.49194,
+   "lon": -97.604824,
+   "sqft": 2030,
+   "value": 340509,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.578,
+   "address": "2604 GRAND MISSION PFLUGERVILLE 78660",
+   "assessed": 354679,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.461435,
+   "lon": -97.583794,
+   "sqft": 1880,
+   "value": 354679,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 5.6,
+   "address": "1346 AMISTAD 78664",
+   "assessed": 536393,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.499807,
+   "lon": -97.59254,
+   "sqft": 3207,
+   "value": 536393,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
+   "acres": 1.07,
+   "address": "1424 ST LEGER 78660",
+   "assessed": 308687,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.499858,
+   "lon": -97.578112,
+   "sqft": 1704,
+   "value": 308687,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": null,
+   "address": "1810 GREBE PFLUGERVILLE 78660",
+   "assessed": 355390,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.492527,
+   "lon": -97.573217,
+   "sqft": 1831,
+   "value": 355390,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": null,
+   "address": "21502 GREYLAG PFLUGERVILLE 78660",
+   "assessed": 490785,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.493938,
+   "lon": -97.574002,
+   "sqft": 2901,
+   "value": 490785,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": 1.43,
+   "address": "405 PASADERA ROUND ROCK 78664",
+   "assessed": 223184,
+   "class": "B4",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.498112,
+   "lon": -97.598595,
+   "sqft": 3706,
+   "value": 223184,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": 2.083,
+   "address": "19608 SAN CHISOLM ROUND ROCK 78664",
+   "assessed": 337600,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.490809,
+   "lon": -97.605565,
+   "sqft": 1643,
+   "value": 337600,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 9.521,
+   "address": "20020 FARM POND 78660",
+   "assessed": 902686,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.476752,
+   "lon": -97.57172,
+   "sqft": 4632,
+   "value": 914051,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": null,
+   "address": "3224 HONEY PEACH PFLUGERVILLE 78660",
+   "assessed": 473330,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.455305,
+   "lon": -97.576431,
+   "sqft": 2385,
+   "value": 473330,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": 1.954,
+   "address": "2612 WINDVIEW PFLUGERVILLE 78660",
+   "assessed": 441462,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.486992,
+   "lon": -97.567722,
+   "sqft": 2892,
+   "value": 441462,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": null,
+   "address": "21017 WINDMILL RIDGE PFLUGERVILLE 78660",
+   "assessed": 506277,
+   "class": "A1",
+   "deed_date": "2026-06-19",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.489043,
+   "lon": -97.566289,
+   "sqft": 3170,
+   "value": 506277,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": 3.669,
+   "address": "2215 HERITAGE WELL PFLUGERVILLE 78660",
+   "assessed": 428552,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.468239,
+   "lon": -97.585325,
+   "sqft": 2770,
+   "value": 428552,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": null,
+   "address": "3101 FRESH SPRING 78660",
+   "assessed": 447448,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.491013,
+   "lon": -97.56371,
+   "sqft": 2934,
+   "value": 447448,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2020
+  },
+  {
+   "acres": 2.284,
+   "address": "2300 VILLAGE VIEW PFLUGERVILLE 78660",
+   "assessed": 476362,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.466565,
+   "lon": -97.584529,
+   "sqft": 2897,
+   "value": 476362,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.791,
+   "address": "20804 WINDMILL RIDGE PFLUGERVILLE 78660",
+   "assessed": 411177,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.485454,
+   "lon": -97.567469,
+   "sqft": 2566,
+   "value": 411177,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": null,
+   "address": "3136 HONEY PEACH PFLUGERVILLE 78660",
+   "assessed": 445509,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.456151,
+   "lon": -97.577273,
+   "sqft": 2500,
+   "value": 445509,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": null,
+   "address": "728 COLTRANE PFLUGERVILLE 78660",
+   "assessed": 363448,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.491344,
+   "lon": -97.598204,
+   "sqft": 2055,
+   "value": 363448,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2018
+  },
+  {
+   "acres": null,
+   "address": "2621 AUBURN CHESTNUT PFLUGERVILLE 78660",
+   "assessed": 461307,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.460158,
+   "lon": -97.588639,
+   "sqft": 2751,
+   "value": 461307,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 1.808,
+   "address": "18821 GOLDDUST 78660",
+   "assessed": 355305,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.460544,
+   "lon": -97.58333,
+   "sqft": 2161,
+   "value": 355305,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": null,
+   "address": "1904 TRANQUILITY PFLUGERVILLE 78660",
+   "assessed": 363355,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.476294,
+   "lon": -97.58441,
+   "sqft": 1534,
+   "value": 363355,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2012
+  },
+  {
+   "acres": 1.97,
+   "address": "2312 SPEIDEL PFLUGERVILLE 78660",
+   "assessed": 438475,
+   "class": "A1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.478244,
+   "lon": -97.575824,
+   "sqft": 2390,
+   "value": 438475,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.567,
+   "address": "2813 PEDERNALES FALLS 78660",
+   "assessed": 324515,
+   "class": "A1",
+   "deed_date": "2026-06-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.477014,
+   "lon": -97.568321,
+   "sqft": 1556,
+   "value": 324515,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": null,
+   "address": "2901 MISTY SHORE 78660",
+   "assessed": 1180,
+   "class": "C1",
+   "deed_date": "2026-06-08",
+   "homestead": false,
+   "lat": 30.472833,
+   "lon": -97.570764,
+   "value": 1180,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.578,
+   "address": "3000 GRAND MISSION 78660",
+   "assessed": 321000,
+   "class": "A1",
+   "deed_date": "2026-06-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.459077,
+   "lon": -97.583165,
+   "sqft": 1814,
+   "value": 321000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2010
+  },
+  {
+   "acres": null,
+   "address": "1905 AVES PFLUGERVILLE 78660",
+   "assessed": 403361,
+   "class": "A1",
+   "deed_date": "2026-06-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.493563,
+   "lon": -97.571954,
+   "sqft": 2261,
+   "value": 403361,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": null,
+   "address": "2412 STONEPATH PFLUGERVILLE 78660",
+   "assessed": 415930,
+   "class": "A1",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.488262,
+   "lon": -97.571892,
+   "sqft": 2009,
+   "value": 415930,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2011
+  },
+  {
+   "acres": null,
+   "address": "18312 TURNING STREAM PFLUGERVILLE 78660",
+   "assessed": 472776,
+   "class": "A1",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.458588,
+   "lon": -97.588054,
+   "sqft": 2911,
+   "value": 472776,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2014
+  },
+  {
+   "acres": null,
+   "address": "18117 MONARCH BUTTERFLY 78660",
+   "assessed": 417167,
+   "class": "A1",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.456996,
+   "lon": -97.587609,
+   "sqft": 2381,
+   "value": 417167,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": 2.122,
+   "address": "517 CASTEBAR ROUND ROCK 78664",
+   "assessed": 341643,
+   "class": "A1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.491197,
+   "lon": -97.603059,
+   "sqft": 1900,
+   "value": 341643,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.772,
+   "address": "2417 PAUMA VALLEY PFLUGERVILLE 78660",
+   "assessed": 459074,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.479269,
+   "lon": -97.573902,
+   "sqft": 2519,
+   "value": 459074,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2010
+  },
+  {
+   "acres": 2.41,
+   "address": "19524 SAN CHISOLM 78664",
+   "assessed": 533702,
+   "class": "A1",
+   "deed_date": "2026-06-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.489844,
+   "lon": -97.605566,
+   "sqft": 5383,
+   "value": 533702,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": null,
+   "address": "2928 OPEN PLAIN 78660",
+   "assessed": 448284,
+   "class": "A1",
+   "deed_date": "2026-05-30",
+   "extras": {
+    "foundation": "SLAB"
+   },
+   "homestead": false,
+   "lat": 30.459536,
+   "lon": -97.578783,
+   "sqft": 2437,
+   "value": 448284,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2014
+  },
+  {
+   "acres": 1.681,
+   "address": "20005 CANTERWOOD PFLUGERVILLE 78660",
+   "assessed": 331085,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.479466,
+   "lon": -97.579357,
+   "sqft": 1806,
+   "value": 331085,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 2.089,
+   "address": "19608 VILAMOURA PFLUGERVILLE 78660",
+   "assessed": 433153,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.469482,
+   "lon": -97.571443,
+   "sqft": 2592,
+   "value": 433153,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.425,
+   "address": "19532 SEA ISLAND PFLUGERVILLE 78660",
+   "assessed": 557863,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.469925,
+   "lon": -97.575149,
+   "sqft": 2757,
+   "value": 557863,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
   {
    "acres": 3.918,
    "address": "20108 GRAND BANKS 78660",
@@ -93,7 +1866,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.457698,
    "lon": -97.582519,
    "sqft": 2959,
@@ -161,7 +1934,7 @@
   {
    "acres": 2.042,
    "address": "2425 VILLAGE VIEW 78660",
-   "assessed": 453034,
+   "assessed": 423000,
    "class": "A1",
    "deed_date": "2026-05-12",
    "extras": {
@@ -173,7 +1946,7 @@
    "lat": 30.464344,
    "lon": -97.584805,
    "sqft": 2370,
-   "value": 453034,
+   "value": 423000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2011
   },
@@ -218,7 +1991,7 @@
   {
    "acres": 1.768,
    "address": "19601 DRIFTING MEADOWS PFLUGERVILLE 78660",
-   "assessed": 479422,
+   "assessed": 430569,
    "class": "A1",
    "deed_date": "2026-05-08",
    "extras": {
@@ -230,9 +2003,28 @@
    "lat": 30.476057,
    "lon": -97.586519,
    "sqft": 2616,
-   "value": 479422,
+   "value": 430569,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2012
+  },
+  {
+   "acres": 50.3,
+   "address": "ROWE 78660",
+   "assessed": 388908,
+   "class": "A1",
+   "deed_date": "2026-05-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.486437,
+   "lon": -97.582832,
+   "sqft": 1818,
+   "value": 834115,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
   },
   {
    "acres": null,
@@ -290,6 +2082,25 @@
    "value": 265633,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1997
+  },
+  {
+   "acres": 1.768,
+   "address": "18937 WANDERING VINE 78660",
+   "assessed": 542772,
+   "class": "A1",
+   "deed_date": "2026-05-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.462663,
+   "lon": -97.580896,
+   "sqft": 3469,
+   "value": 542772,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
   },
   {
    "acres": null,
@@ -520,6 +2331,25 @@
    "year_built": 2012
   },
   {
+   "acres": null,
+   "address": "713 CARILLION 78660",
+   "assessed": 411588,
+   "class": "A1",
+   "deed_date": "2026-04-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.491728,
+   "lon": -97.59893,
+   "sqft": 2420,
+   "value": 411588,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
    "acres": 1.578,
    "address": "18632 WIND VALLEY PFLUGERVILLE 78660",
    "assessed": 345187,
@@ -549,7 +2379,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.488136,
    "lon": -97.604989,
    "sqft": 2340,
@@ -625,7 +2455,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.454489,
    "lon": -97.586423,
    "sqft": 2724,
@@ -644,7 +2474,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.498112,
    "lon": -97.575162,
    "sqft": 1474,
@@ -720,7 +2550,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.471838,
    "lon": -97.584473,
    "sqft": 2929,
@@ -746,6 +2576,25 @@
    "value": 412214,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2013
+  },
+  {
+   "acres": 2.514,
+   "address": "21120 SECRETARIAT RIDGE PFLUGERVILLE 78660",
+   "assessed": 297000,
+   "class": "A1",
+   "deed_date": "2026-03-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.49767,
+   "lon": -97.578355,
+   "sqft": 1474,
+   "value": 297000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
   },
   {
    "acres": 38.69,
@@ -800,7 +2649,7 @@
    "lat": 30.48859,
    "lon": -97.580735,
    "sqft": 3623,
-   "value": 1403377,
+   "value": 1000000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
   },
@@ -844,6 +2693,25 @@
   },
   {
    "acres": 1.771,
+   "address": "19709 DRIFTING MEADOWS PFLUGERVILLE 78660",
+   "assessed": 371331,
+   "class": "A1",
+   "deed_date": "2026-03-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.476628,
+   "lon": -97.585431,
+   "sqft": 1705,
+   "value": 371331,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
+   "acres": 1.771,
    "address": "2920 DUSTY CHISOLM 78660",
    "assessed": 483402,
    "class": "A1",
@@ -853,7 +2721,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.4608,
    "lon": -97.57792,
    "sqft": 2944,
@@ -883,13 +2751,13 @@
   {
    "acres": 27.3,
    "address": "18725 F M 685 78660",
-   "assessed": 594594,
+   "assessed": 576756,
    "class": "C1",
    "deed_date": "2026-03-16",
    "homestead": false,
    "lat": 30.465624,
    "lon": -97.592779,
-   "value": 594594,
+   "value": 576756,
    "value_kind": "market (TCAD appraisal)"
   },
   {
@@ -914,7 +2782,7 @@
   {
    "acres": null,
    "address": "18220 WIND VALLEY 78660",
-   "assessed": 579428,
+   "assessed": 522065,
    "class": "A1",
    "deed_date": "2026-03-14",
    "extras": {
@@ -926,7 +2794,7 @@
    "lat": 30.455499,
    "lon": -97.580149,
    "sqft": 2969,
-   "value": 579428,
+   "value": 522065,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2015
   },
@@ -960,7 +2828,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.497611,
    "lon": -97.573749,
    "sqft": 1474,
@@ -998,7 +2866,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.481189,
    "lon": -97.57932,
    "sqft": 2103,
@@ -1085,7 +2953,7 @@
   {
    "acres": null,
    "address": "21708 URRACA PFLUGERVILLE 78660",
-   "assessed": 461867,
+   "assessed": 429900,
    "class": "A1",
    "deed_date": "2026-02-23",
    "extras": {
@@ -1097,14 +2965,14 @@
    "lat": 30.496212,
    "lon": -97.5716,
    "sqft": 2969,
-   "value": 461867,
+   "value": 429900,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2018
   },
   {
    "acres": 1.964,
    "address": "1709 COPPER POINT PFLUGERVILLE 78660",
-   "assessed": 408391,
+   "assessed": 366833,
    "class": "A1",
    "deed_date": "2026-02-22",
    "extras": {
@@ -1116,7 +2984,7 @@
    "lat": 30.477754,
    "lon": -97.584228,
    "sqft": 1792,
-   "value": 408455,
+   "value": 366833,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2011
   },
@@ -1199,7 +3067,7 @@
   {
    "acres": null,
    "address": "18008 CRIMSON APPLE 78660",
-   "assessed": 421555,
+   "assessed": 401531,
    "class": "A1",
    "deed_date": "2026-02-12",
    "extras": {
@@ -1211,14 +3079,14 @@
    "lat": 30.453988,
    "lon": -97.587753,
    "sqft": 2236,
-   "value": 421555,
+   "value": 401531,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2015
   },
   {
    "acres": null,
    "address": "18317 FALCON POINTE PFLUGERVILLE 78660",
-   "assessed": 469634,
+   "assessed": 421778,
    "class": "A1",
    "deed_date": "2026-02-11",
    "extras": {
@@ -1230,7 +3098,7 @@
    "lat": 30.45771,
    "lon": -97.578057,
    "sqft": 2366,
-   "value": 469634,
+   "value": 421778,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2012
   },
@@ -1256,7 +3124,7 @@
   {
    "acres": 4.026,
    "address": "19712 SPOTTED OWL PFLUGERVILLE 78660",
-   "assessed": 623802,
+   "assessed": 554498,
    "class": "A1",
    "deed_date": "2026-02-09",
    "extras": {
@@ -1268,14 +3136,14 @@
    "lat": 30.476178,
    "lon": -97.58233,
    "sqft": 3700,
-   "value": 623802,
+   "value": 554498,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
   },
   {
    "acres": 3.193,
    "address": "2813 WINDING SHORE 78660",
-   "assessed": 543865,
+   "assessed": 490022,
    "class": "A1",
    "deed_date": "2026-02-06",
    "extras": {
@@ -1287,7 +3155,7 @@
    "lat": 30.474656,
    "lon": -97.57059,
    "sqft": 2757,
-   "value": 543865,
+   "value": 490022,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
   },
@@ -1332,7 +3200,7 @@
   {
    "acres": null,
    "address": "3120 HONEY PEACH 78660",
-   "assessed": 509485,
+   "assessed": 452881,
    "class": "A1",
    "deed_date": "2026-02-05",
    "extras": {
@@ -1344,7 +3212,7 @@
    "lat": 30.456707,
    "lon": -97.577621,
    "sqft": 3001,
-   "value": 509485,
+   "value": 452881,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2015
   },
@@ -1370,7 +3238,7 @@
   {
    "acres": 1.617,
    "address": "1701 SHIRE PFLUGERVILLE 78660",
-   "assessed": 300063,
+   "assessed": 290000,
    "class": "A1",
    "deed_date": "2026-02-02",
    "extras": {
@@ -1382,14 +3250,14 @@
    "lat": 30.493664,
    "lon": -97.576152,
    "sqft": 1474,
-   "value": 300063,
+   "value": 290000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1997
   },
   {
    "acres": null,
    "address": "714 COCONUT GROVE PFLUGERVILLE 78660",
-   "assessed": 329926,
+   "assessed": 298268,
    "class": "A1",
    "deed_date": "2026-02-02",
    "extras": {
@@ -1401,26 +3269,9 @@
    "lat": 30.489149,
    "lon": -97.598977,
    "sqft": 1515,
-   "value": 332110,
+   "value": 298268,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2018
-  },
-  {
-   "acres": null,
-   "address": "2928 OPEN PLAIN 78660",
-   "assessed": 448284,
-   "class": "A1",
-   "deed_date": "2026-01-31",
-   "extras": {
-    "foundation": "SLAB"
-   },
-   "homestead": false,
-   "lat": 30.459536,
-   "lon": -97.578783,
-   "sqft": 2437,
-   "value": 448284,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
   },
   {
    "acres": 1.475,
@@ -1527,7 +3378,7 @@
    "lat": 30.489352,
    "lon": -97.596025,
    "sqft": 1485,
-   "value": 389469,
+   "value": 361000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1985
   },
@@ -1551,28 +3402,9 @@
    "year_built": 1999
   },
   {
-   "acres": 1.771,
-   "address": "19709 DRIFTING MEADOWS PFLUGERVILLE 78660",
-   "assessed": 371331,
-   "class": "A1",
-   "deed_date": "2026-01-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.476628,
-   "lon": -97.585431,
-   "sqft": 1705,
-   "value": 371331,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2009
-  },
-  {
    "acres": 2.296,
    "address": "2401 SPEIDEL PFLUGERVILLE 78660",
-   "assessed": 486756,
+   "assessed": 440000,
    "class": "A1",
    "deed_date": "2026-01-20",
    "extras": {
@@ -1584,7 +3416,7 @@
    "lat": 30.477711,
    "lon": -97.575274,
    "sqft": 2757,
-   "value": 486756,
+   "value": 440000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
   },
@@ -1629,7 +3461,7 @@
   {
    "acres": null,
    "address": "20301 HIDDEN GULLY 78660",
-   "assessed": 446133,
+   "assessed": 400672,
    "class": "A1",
    "deed_date": "2026-01-15",
    "extras": {
@@ -1641,7 +3473,7 @@
    "lat": 30.492937,
    "lon": -97.597759,
    "sqft": 2766,
-   "value": 446133,
+   "value": 400672,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2016
   },
@@ -1667,7 +3499,7 @@
   {
    "acres": 1.406,
    "address": "20608 BELLERIVE 78660",
-   "assessed": 419221,
+   "assessed": 386200,
    "class": "A1",
    "deed_date": "2026-01-13",
    "extras": {
@@ -1679,14 +3511,33 @@
    "lat": 30.48212,
    "lon": -97.576009,
    "sqft": 2759,
-   "value": 419221,
+   "value": 386200,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
   },
   {
+   "acres": null,
+   "address": "21724 GALLUS 78660",
+   "assessed": 422696,
+   "class": "A1",
+   "deed_date": "2026-01-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.497013,
+   "lon": -97.573505,
+   "sqft": 2755,
+   "value": 422696,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
    "acres": 1.946,
    "address": "18608 WIND VALLEY PFLUGERVILLE 78660",
-   "assessed": 395869,
+   "assessed": 362559,
    "class": "A1",
    "deed_date": "2026-01-09",
    "extras": {
@@ -1698,7 +3549,7 @@
    "lat": 30.458555,
    "lon": -97.583051,
    "sqft": 1977,
-   "value": 403696,
+   "value": 362559,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2009
   },
@@ -1751,7 +3602,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.489957,
    "lon": -97.567211,
    "sqft": 3427,
@@ -1762,7 +3613,7 @@
   {
    "acres": null,
    "address": "20133 NAVARRE 78660",
-   "assessed": 406683,
+   "assessed": 345000,
    "class": "A1",
    "deed_date": "2026-01-07",
    "extras": {
@@ -1774,7 +3625,7 @@
    "lat": 30.491083,
    "lon": -97.597283,
    "sqft": 2252,
-   "value": 406683,
+   "value": 345000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2018
   },
@@ -1836,6 +3687,18 @@
    "year_built": 2004
   },
   {
+   "acres": 41.13,
+   "address": "4257 GATTIS SCHOOL 78664",
+   "assessed": 369279,
+   "class": "C1",
+   "deed_date": "2025-12-30",
+   "homestead": false,
+   "lat": 30.494902,
+   "lon": -97.594405,
+   "value": 369279,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
    "acres": 19.57,
    "address": "4257 GATTIS SCHOOL 78664",
    "assessed": 568441,
@@ -1855,21 +3718,9 @@
    "year_built": 1997
   },
   {
-   "acres": 41.13,
-   "address": "4257 GATTIS SCHOOL 78664",
-   "assessed": 369279,
-   "class": "C1",
-   "deed_date": "2025-12-30",
-   "homestead": false,
-   "lat": 30.494902,
-   "lon": -97.594405,
-   "value": 369279,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
    "acres": 2.36,
    "address": "3104 MISTY HEIGHTS PFLUGERVILLE 78660",
-   "assessed": 637864,
+   "assessed": 572866,
    "class": "A1",
    "deed_date": "2025-12-30",
    "extras": {
@@ -1881,14 +3732,14 @@
    "lat": 30.463036,
    "lon": -97.575908,
    "sqft": 4693,
-   "value": 637864,
+   "value": 572866,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
   {
    "acres": null,
    "address": "727 SPECKLED ALDER PFLUGERVILLE 78660",
-   "assessed": 323474,
+   "assessed": 290512,
    "class": "A1",
    "deed_date": "2025-12-30",
    "extras": {
@@ -1900,14 +3751,14 @@
    "lat": 30.48933,
    "lon": -97.598108,
    "sqft": 1515,
-   "value": 323474,
+   "value": 290512,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2017
   },
   {
    "acres": 2.4,
    "address": "19116 GANTON PFLUGERVILLE 78660",
-   "assessed": 427425,
+   "assessed": 426000,
    "class": "A1",
    "deed_date": "2025-12-26",
    "extras": {
@@ -1919,14 +3770,14 @@
    "lat": 30.467816,
    "lon": -97.582315,
    "sqft": 2647,
-   "value": 427425,
+   "value": 426000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1993
   },
   {
    "acres": 1.735,
    "address": "2221 SPEIDEL PFLUGERVILLE 78660",
-   "assessed": 359381,
+   "assessed": 355000,
    "class": "A1",
    "deed_date": "2025-12-23",
    "extras": {
@@ -1938,7 +3789,7 @@
    "lat": 30.479474,
    "lon": -97.578204,
    "sqft": 2127,
-   "value": 359381,
+   "value": 355000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2000
   },
@@ -1972,7 +3823,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.476472,
    "lon": -97.567971,
    "sqft": 2664,
@@ -2021,7 +3872,7 @@
   {
    "acres": 58.64,
    "address": "740 COUNTY RD 138 78634",
-   "assessed": 1099413,
+   "assessed": 1021000,
    "class": "E1",
    "deed_date": "2025-12-18",
    "extras": {
@@ -2033,7 +3884,7 @@
    "lat": 30.499269,
    "lon": -97.569419,
    "sqft": 2619,
-   "value": 1099413,
+   "value": 1021000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1975
   },
@@ -2147,7 +3998,7 @@
   {
    "acres": 1.818,
    "address": "19910 CANTERWOOD PFLUGERVILLE 78660",
-   "assessed": 443885,
+   "assessed": 408000,
    "class": "A1",
    "deed_date": "2025-12-12",
    "extras": {
@@ -2155,11 +4006,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.478634,
    "lon": -97.579301,
    "sqft": 2606,
-   "value": 443885,
+   "value": 408000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
   },
@@ -2242,7 +4093,7 @@
   {
    "acres": 2.296,
    "address": "18905 HILLTOP CANYON 78660",
-   "assessed": 634123,
+   "assessed": 581831,
    "class": "A1",
    "deed_date": "2025-12-04",
    "extras": {
@@ -2254,7 +4105,7 @@
    "lat": 30.461804,
    "lon": -97.578341,
    "sqft": 4693,
-   "value": 634123,
+   "value": 581831,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -2269,7 +4120,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.492103,
    "lon": -97.580254,
    "sqft": 1804,
@@ -2280,7 +4131,7 @@
   {
    "acres": 1.38,
    "address": "2801 KICKAPOO CAVERN PFLUGERVILLE 78660",
-   "assessed": 340714,
+   "assessed": 242750,
    "class": "A1",
    "deed_date": "2025-12-02",
    "extras": {
@@ -2292,7 +4143,7 @@
    "lat": 30.478994,
    "lon": -97.569374,
    "sqft": 1791,
-   "value": 340714,
+   "value": 242750,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
   },
@@ -2307,7 +4158,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.470741,
    "lon": -97.586326,
    "sqft": 2451,
@@ -2318,7 +4169,7 @@
   {
    "acres": 3.0,
    "address": "19101 GANTON 78660",
-   "assessed": 384187,
+   "assessed": 255000,
    "class": "A1",
    "deed_date": "2025-11-25",
    "extras": {
@@ -2330,7 +4181,7 @@
    "lat": 30.466811,
    "lon": -97.582412,
    "sqft": 2046,
-   "value": 384187,
+   "value": 255000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1993
   },
@@ -2356,7 +4207,7 @@
   {
    "acres": 1.993,
    "address": "2712 KICKAPOO CAVERN PFLUGERVILLE 78660",
-   "assessed": 462931,
+   "assessed": 447435,
    "class": "A1",
    "deed_date": "2025-11-25",
    "extras": {
@@ -2368,13 +4219,13 @@
    "lat": 30.48032,
    "lon": -97.569553,
    "sqft": 2390,
-   "value": 462931,
+   "value": 447435,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
   },
   {
    "acres": 53.8,
-   "address": "20100 PANTHER",
+   "address": "20100 PANTHER 78660",
    "assessed": 461471,
    "class": "A1",
    "deed_date": "2025-11-24",
@@ -2413,7 +4264,7 @@
   {
    "acres": null,
    "address": "21401 MERVEIL PFLUGERVILLE 78660",
-   "assessed": 572582,
+   "assessed": 515896,
    "class": "A1",
    "deed_date": "2025-11-24",
    "extras": {
@@ -2425,7 +4276,7 @@
    "lat": 30.492305,
    "lon": -97.564328,
    "sqft": 3369,
-   "value": 572582,
+   "value": 515896,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2017
   },
@@ -2440,7 +4291,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.493737,
    "lon": -97.601387,
    "sqft": 4088,
@@ -2470,7 +4321,7 @@
   {
    "acres": 3.141,
    "address": "19912 DORNICK HILLS PFLUGERVILLE 78660",
-   "assessed": 503336,
+   "assessed": 452046,
    "class": "A1",
    "deed_date": "2025-11-19",
    "extras": {
@@ -2478,18 +4329,18 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.475539,
    "lon": -97.574184,
    "sqft": 2757,
-   "value": 503336,
+   "value": 452046,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
   },
   {
    "acres": 1.867,
    "address": "3004 MISTY HEIGHTS PFLUGERVILLE 78660",
-   "assessed": 703002,
+   "assessed": 631366,
    "class": "A1",
    "deed_date": "2025-11-19",
    "extras": {
@@ -2501,7 +4352,7 @@
    "lat": 30.462647,
    "lon": -97.576671,
    "sqft": 4693,
-   "value": 703002,
+   "value": 631366,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2008
   },
@@ -2527,7 +4378,7 @@
   {
    "acres": 1.665,
    "address": "2712 PEDERNALES FALLS PFLUGERVILLE 78660",
-   "assessed": 448774,
+   "assessed": 435503,
    "class": "A1",
    "deed_date": "2025-11-18",
    "extras": {
@@ -2539,7 +4390,7 @@
    "lat": 30.4776,
    "lon": -97.56943,
    "sqft": 2841,
-   "value": 448774,
+   "value": 435503,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -2603,7 +4454,7 @@
   {
    "acres": 1.878,
    "address": "1400 ST LEGER 78660",
-   "assessed": 310980,
+   "assessed": 279291,
    "class": "A1",
    "deed_date": "2025-11-14",
    "extras": {
@@ -2615,7 +4466,7 @@
    "lat": 30.498489,
    "lon": -97.578431,
    "sqft": 1721,
-   "value": 310980,
+   "value": 279291,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2000
   },
@@ -2660,7 +4511,7 @@
   {
    "acres": 2.4,
    "address": "19200 GANTON PFLUGERVILLE 78660",
-   "assessed": 366136,
+   "assessed": 328827,
    "class": "A1",
    "deed_date": "2025-11-13",
    "extras": {
@@ -2668,11 +4519,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.467989,
    "lon": -97.582169,
    "sqft": 2026,
-   "value": 366136,
+   "value": 328827,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1998
   },
@@ -2905,25 +4756,6 @@
    "year_built": 2017
   },
   {
-   "acres": 2.298,
-   "address": "21008 HALLBROOK PFLUGERVILLE 78660",
-   "assessed": 439075,
-   "class": "A1",
-   "deed_date": "2025-10-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.477305,
-   "lon": -97.575698,
-   "sqft": 2555,
-   "value": 439075,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
    "acres": 50.3,
    "address": "21217 GREENRIDGE HUTTO 78634-5457",
    "assessed": 927353,
@@ -2945,7 +4777,7 @@
   {
    "acres": 2.56,
    "address": "2420 DAKOTA DUNES PFLUGERVILLE 78660",
-   "assessed": 505087,
+   "assessed": 479471,
    "class": "A1",
    "deed_date": "2025-10-22",
    "extras": {
@@ -2957,7 +4789,7 @@
    "lat": 30.477509,
    "lon": -97.573914,
    "sqft": 2815,
-   "value": 505087,
+   "value": 479471,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2008
   },
@@ -3002,7 +4834,7 @@
   {
    "acres": 2.288,
    "address": "4302 CISCO VALLEY 78664",
-   "assessed": 398794,
+   "assessed": 51243,
    "class": "A1",
    "deed_date": "2025-10-17",
    "extras": {
@@ -3010,7 +4842,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.493971,
    "lon": -97.606071,
    "sqft": 2606,
@@ -3021,7 +4853,7 @@
   {
    "acres": 2.239,
    "address": "21209 SECRETARIAT RIDGE PFLUGERVILLE 78660",
-   "assessed": 341315,
+   "assessed": 303395,
    "class": "A1",
    "deed_date": "2025-10-16",
    "extras": {
@@ -3033,14 +4865,14 @@
    "lat": 30.498155,
    "lon": -97.576855,
    "sqft": 1474,
-   "value": 341315,
+   "value": 303395,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
   },
   {
    "acres": 2.41,
    "address": "19328 VILAMOURA PFLUGERVILLE 78660",
-   "assessed": 478500,
+   "assessed": 453080,
    "class": "A1",
    "deed_date": "2025-10-16",
    "extras": {
@@ -3052,7 +4884,7 @@
    "lat": 30.465665,
    "lon": -97.5734,
    "sqft": 2801,
-   "value": 502864,
+   "value": 453080,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2009
   },
@@ -3093,1679 +4925,26 @@
    "value": 380591,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
-  },
-  {
-   "acres": 2.119,
-   "address": "19008 MARBLE GLEN 78660",
-   "assessed": 449813,
-   "class": "A1",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.462555,
-   "lon": -97.579967,
-   "sqft": 3068,
-   "value": 449813,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2011
-  },
-  {
-   "acres": 1.649,
-   "address": "2921 CANYON VALLEY PFLUGERVILLE 78660",
-   "assessed": 464779,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.458485,
-   "lon": -97.581365,
-   "sqft": 2887,
-   "value": 464779,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "3108 HONEY PEACH PFLUGERVILLE 78660",
-   "assessed": 411605,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.457032,
-   "lon": -97.578018,
-   "sqft": 2025,
-   "value": 411605,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": 1.91,
-   "address": "20724 MEAD PFLUGERVILLE 78660",
-   "assessed": 305477,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.485781,
-   "lon": -97.571645,
-   "sqft": 2694,
-   "value": 305477,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": null,
-   "address": "2512 ROUGH BERRY PFLUGERVILLE 78660",
-   "assessed": 444870,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.45869,
-   "lon": -97.589123,
-   "sqft": 2840,
-   "value": 444870,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": null,
-   "address": "2916 MISTY SHORE PFLUGERVILLE 78660",
-   "assessed": 576380,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.472547,
-   "lon": -97.56939,
-   "sqft": 2778,
-   "value": 576380,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 3.803,
-   "address": "2209 CALLAWAY GARDEN PFLUGERVILLE 78660",
-   "assessed": 513159,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.482892,
-   "lon": -97.577293,
-   "sqft": 3187,
-   "value": 513159,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": null,
-   "address": "21008 WINDMILL RIDGE PFLUGERVILLE 78660",
-   "assessed": 545917,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.488636,
-   "lon": -97.566903,
-   "sqft": 3403,
-   "value": 545917,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 1.606,
-   "address": "20336 FARM POND PFLUGERVILLE 78660",
-   "assessed": 336093,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.480157,
-   "lon": -97.570974,
-   "sqft": 1732,
-   "value": 336093,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 1.61,
-   "address": "2720 PEDERNALES FALLS PFLUGERVILLE 78660",
-   "assessed": 492730,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.477536,
-   "lon": -97.56907,
-   "sqft": 3349,
-   "value": 492730,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 2.117,
-   "address": "1701 COPPER POINT 78660",
-   "assessed": 415481,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.478069,
-   "lon": -97.584069,
-   "sqft": 1960,
-   "value": 415481,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2011
-  },
-  {
-   "acres": null,
-   "address": "18920 STILL POND PFLUGERVILLE 78660",
-   "assessed": 498696,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.460187,
-   "lon": -97.577779,
-   "sqft": 2626,
-   "value": 498696,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": 1.326,
-   "address": "1800 FAST FILLY 78660",
-   "assessed": 313694,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.49134,
-   "lon": -97.576056,
-   "sqft": 1685,
-   "value": 313694,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1995
-  },
-  {
-   "acres": 3.399,
-   "address": "19012 BOULDER CREST PFLUGERVILLE 78660",
-   "assessed": 656827,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.462318,
-   "lon": -97.577686,
-   "sqft": 4707,
-   "value": 656827,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 3.203,
-   "address": "19908 DAMRICH PFLUGERVILLE 78660",
-   "assessed": 632792,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.475789,
-   "lon": -97.573153,
-   "sqft": 3603,
-   "value": 632792,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": null,
-   "address": "21506 GREYLAG PFLUGERVILLE 78660",
-   "assessed": 561363,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.494374,
-   "lon": -97.573937,
-   "sqft": 3525,
-   "value": 561363,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": 1.056,
-   "address": "21322 BYERLY TURK 78660",
-   "assessed": 263033,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.499393,
-   "lon": -97.576347,
-   "sqft": 1217,
-   "value": 263033,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": 2.14,
-   "address": "520 BROWN JUNIPER 78660",
-   "assessed": 373518,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.489989,
-   "lon": -97.603047,
-   "sqft": 2013,
-   "value": 373518,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2010
-  },
-  {
-   "acres": 1.578,
-   "address": "18708 WIND VALLEY PFLUGERVILLE 78660",
-   "assessed": 394932,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.459763,
-   "lon": -97.582284,
-   "sqft": 2144,
-   "value": 394932,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 2.592,
-   "address": "2404 KAPALUA PFLUGERVILLE 78660",
-   "assessed": 441584,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.479118,
-   "lon": -97.57609,
-   "sqft": 2370,
-   "value": 441584,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": null,
-   "address": "20213 HIDDEN GULLY PFLUGERVILLE 78660",
-   "assessed": 410589,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.492704,
-   "lon": -97.597753,
-   "sqft": 2111,
-   "value": 410589,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": 199.6,
-   "address": "GREENRIDGE",
-   "assessed": 6617,
-   "class": "D1",
-   "deed_date": "2025-09-08",
-   "homestead": false,
-   "lat": 30.498804,
-   "lon": -97.571822,
-   "value": 1996000,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 2.456,
-   "address": "1117 WHITEMOSS 78634",
-   "assessed": 480133,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.496119,
-   "lon": -97.586093,
-   "sqft": 3630,
-   "value": 480133,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 1.039,
-   "address": "21212 DERBY DAY PFLUGERVILLE 78660",
-   "assessed": 248186,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.496912,
-   "lon": -97.575337,
-   "sqft": 1114,
-   "value": 248186,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1997
-  },
-  {
-   "acres": 2.356,
-   "address": "4410 CISCO VALLEY ROUND ROCK 78664",
-   "assessed": 465248,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.495883,
-   "lon": -97.604878,
-   "sqft": 3302,
-   "value": 465248,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 2.067,
-   "address": "19612 CHEYENNE VALLEY 78660",
-   "assessed": 433733,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.489522,
-   "lon": -97.606506,
-   "sqft": 2917,
-   "value": 433733,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 3.675,
-   "address": "2908 CAJUILES PFLUGERVILLE 78660",
-   "assessed": 492540,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.472791,
-   "lon": -97.571624,
-   "sqft": 2789,
-   "value": 492540,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 2.756,
-   "address": "2104 CHINCHO PFLUGERVILLE 78660",
-   "assessed": 542521,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.477441,
-   "lon": -97.581198,
-   "sqft": 3430,
-   "value": 542521,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 2.407,
-   "address": "2900 CAJUILES PFLUGERVILLE 78660",
-   "assessed": 375240,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.472457,
-   "lon": -97.571909,
-   "sqft": 1835,
-   "value": 375240,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 1.653,
-   "address": "3505 WINDING SHORE PFLUGERVILLE 78660",
-   "assessed": 376029,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.481896,
-   "lon": -97.569654,
-   "sqft": 1753,
-   "value": 376029,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.32,
-   "address": "21015 SECRETARIAT RIDGE 78660",
-   "assessed": 287943,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.495906,
-   "lon": -97.578333,
-   "sqft": 1377,
-   "value": 287943,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 2.061,
-   "address": "19907 KENNEMER PFLUGERVILLE 78660",
-   "assessed": 362828,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.477756,
-   "lon": -97.578159,
-   "sqft": 1868,
-   "value": 362828,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 2.293,
-   "address": "20300 WAYZATA PFLUGERVILLE 78660",
-   "assessed": 509138,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.482054,
-   "lon": -97.578311,
-   "sqft": 2745,
-   "value": 509138,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 2.067,
-   "address": "19913 NEEDLE PINE ROUND ROCK 78664",
-   "assessed": 372355,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.489308,
-   "lon": -97.600389,
-   "sqft": 1984,
-   "value": 372355,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2010
-  },
-  {
-   "acres": null,
-   "address": "18913 STILL POND PFLUGERVILLE 78660",
-   "assessed": 523218,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.459923,
-   "lon": -97.577217,
-   "sqft": 3269,
-   "value": 523218,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": null,
-   "address": "1902 AVES PFLUGERVILLE 78660",
-   "assessed": 429548,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.494099,
-   "lon": -97.572163,
-   "sqft": 2522,
-   "value": 429548,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": 2.8,
-   "address": "19112 MARBLE GLEN 78660",
-   "assessed": 594650,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.464162,
-   "lon": -97.579615,
-   "sqft": 3363,
-   "value": 594650,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2010
-  },
-  {
-   "acres": null,
-   "address": "21612 HINES PFLUGERVILLE 78660",
-   "assessed": 403188,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.494853,
-   "lon": -97.56692,
-   "sqft": 2003,
-   "value": 403188,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": 3.6,
-   "address": "19425 KENNEMER PFLUGERVILLE 78660",
-   "assessed": 460855,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.472088,
-   "lon": -97.582014,
-   "sqft": 2534,
-   "value": 460855,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 1.056,
-   "address": "21221 DERBY DAY PFLUGERVILLE 78660",
-   "assessed": 269023,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.497234,
-   "lon": -97.574699,
-   "sqft": 1283,
-   "value": 269023,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.32,
-   "address": "21017 SECRETARIAT RIDGE PFLUGERVILLE 78660",
-   "assessed": 301550,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.496042,
-   "lon": -97.578308,
-   "sqft": 1283,
-   "value": 301550,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 2.614,
-   "address": "19303 ANNA KATE PFLUGERVILLE 78660",
-   "assessed": 477974,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.470551,
-   "lon": -97.585191,
-   "sqft": 2828,
-   "value": 477974,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 2.279,
-   "address": "19501 SEA ISLAND PFLUGERVILLE 78660",
-   "assessed": 509633,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.468976,
-   "lon": -97.576675,
-   "sqft": 2757,
-   "value": 509633,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": null,
-   "address": "2917 WATERSON PFLUGERVILLE 78660",
-   "assessed": 523574,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.49199,
-   "lon": -97.565227,
-   "sqft": 3386,
-   "value": 523574,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": 2.164,
-   "address": "20733 WINDMILL RIDGE PFLUGERVILLE 78660",
-   "assessed": 373367,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.485011,
-   "lon": -97.566999,
-   "sqft": 2085,
-   "value": 373367,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": null,
-   "address": "18929 SHALLOW POND PFLUGERVILLE 78660",
-   "assessed": 521358,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.460082,
-   "lon": -97.576263,
-   "sqft": 3231,
-   "value": 521358,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 1.711,
-   "address": "1608 DARLEY ARABIAN 78660",
-   "assessed": 244300,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.497781,
-   "lon": -97.576738,
-   "sqft": 1704,
-   "value": 244300,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": null,
-   "address": "2905 EDWARDS PLATEAU PFLUGERVILLE 78660",
-   "assessed": 314510,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.45809,
-   "lon": -97.578517,
-   "sqft": 1534,
-   "value": 314510,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 2.503,
-   "address": "20420 KEARNEY HILL 78660",
-   "assessed": 452017,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.483385,
-   "lon": -97.575736,
-   "sqft": 2733,
-   "value": 452017,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 1.865,
-   "address": "2125 VILLAGE VIEW PFLUGERVILLE 78660",
-   "assessed": 447616,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.465726,
-   "lon": -97.583933,
-   "sqft": 2852,
-   "value": 447616,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.77,
-   "address": "19609 DRIFTING MEADOWS PFLUGERVILLE 78660",
-   "assessed": 509377,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.476309,
-   "lon": -97.58628,
-   "sqft": 2530,
-   "value": 509377,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2012
-  },
-  {
-   "acres": 2.536,
-   "address": "212 BOONE VALLEY ROUND ROCK 78664",
-   "assessed": 432213,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.489406,
-   "lon": -97.608071,
-   "sqft": 2917,
-   "value": 432213,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 2.109,
-   "address": "20312 BELLERIVE PFLUGERVILLE 78660",
-   "assessed": 432138,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.483186,
-   "lon": -97.578856,
-   "sqft": 2074,
-   "value": 432138,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 2.598,
-   "address": "20737 KEARNEY HILL PFLUGERVILLE 78660",
-   "assessed": 507272,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.48139,
-   "lon": -97.574368,
-   "sqft": 3181,
-   "value": 507272,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": null,
-   "address": "2705 SIXPENCE 78660",
-   "assessed": 412728,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.488699,
-   "lon": -97.567316,
-   "sqft": 2330,
-   "value": 412728,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2011
-  },
-  {
-   "acres": 1.653,
-   "address": "20613 KEARNEY HILL PFLUGERVILLE 78660",
-   "assessed": 436029,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.482611,
-   "lon": -97.574041,
-   "sqft": 2805,
-   "value": 436029,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 2.228,
-   "address": "525 BOONE VALLEY 78664",
-   "assessed": 515260,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.488143,
-   "lon": -97.604751,
-   "sqft": 4106,
-   "value": 515260,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": null,
-   "address": "2709 DILLON POND 78660",
-   "assessed": 431893,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.455114,
-   "lon": -97.586385,
-   "sqft": 2005,
-   "value": 431893,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": null,
-   "address": "21105 HUCKABEE 78660",
-   "assessed": 406050,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.489237,
-   "lon": -97.57302,
-   "sqft": 2455,
-   "value": 406050,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 45.57,
-   "address": "F M RD 685 78660",
-   "assessed": 992510,
-   "class": "C1",
-   "deed_date": "2025-07-30",
-   "homestead": false,
-   "lat": 30.477772,
-   "lon": -97.5871,
-   "value": 992510,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 1.461,
-   "address": "20501 FARM POND PFLUGERVILLE 78660",
-   "assessed": 355589,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.480699,
-   "lon": -97.568933,
-   "sqft": 1950,
-   "value": 355589,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 2.07,
-   "address": "401 BOONE VALLEY 78664",
-   "assessed": 558662,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.488122,
-   "lon": -97.607725,
-   "sqft": 4088,
-   "value": 558662,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 1.814,
-   "address": "2912 CANYON VALLEY 78660",
-   "assessed": 427853,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.458832,
-   "lon": -97.580618,
-   "sqft": 2564,
-   "value": 427853,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 1.578,
-   "address": "18808 WIND VALLEY PFLUGERVILLE 78660",
-   "assessed": 459249,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.460561,
-   "lon": -97.581784,
-   "sqft": 2964,
-   "value": 459249,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": null,
-   "address": "18420 BLUSH ROSE PFLUGERVILLE 78660",
-   "assessed": 459221,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.458219,
-   "lon": -97.590112,
-   "sqft": 2444,
-   "value": 459221,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": 2.767,
-   "address": "20700 WINDMILL RIDGE PFLUGERVILLE 78660",
-   "assessed": 454641,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.484468,
-   "lon": -97.568081,
-   "sqft": 2746,
-   "value": 454641,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 2.173,
-   "address": "709 BOONE VALLEY 78664",
-   "assessed": 468341,
-   "class": "A1",
-   "deed_date": "2025-07-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.48823,
-   "lon": -97.601914,
-   "sqft": 3141,
-   "value": 468341,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2011
-  },
-  {
-   "acres": 2.478,
-   "address": "1800 QUIET MEADOW 78660",
-   "assessed": 325453,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.477586,
-   "lon": -97.586348,
-   "sqft": 1717,
-   "value": 325453,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "2520 WEEPING BEECH PFLUGERVILLE 78660",
-   "assessed": 512640,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.453652,
-   "lon": -97.587718,
-   "sqft": 2770,
-   "value": 512640,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": null,
-   "address": "21009 HAVANT PFLUGERVILLE 78660",
-   "assessed": 417283,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.488552,
-   "lon": -97.568608,
-   "sqft": 2256,
-   "value": 417283,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2011
-  },
-  {
-   "acres": 2.066,
-   "address": "2407 SPEIDEL PFLUGERVILLE 78660",
-   "assessed": 558218,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.477812,
-   "lon": -97.574556,
-   "sqft": 3349,
-   "value": 558218,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 50.09,
-   "address": "4615 PRIEM 78660",
-   "assessed": 3410581,
-   "class": "F1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.492161,
-   "lon": -97.590846,
-   "sqft": 13875,
-   "value": 3410581,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 5.5,
-   "address": "1428 WINDCREST ROUND ROCK 78664",
-   "assessed": 494825,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.499865,
-   "lon": -97.594242,
-   "sqft": 2454,
-   "value": 494825,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": 2.193,
-   "address": "3113 MISTY HEIGHTS PFLUGERVILLE 78660",
-   "assessed": 644481,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.462221,
-   "lon": -97.575731,
-   "sqft": 4721,
-   "value": 644481,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 1.311,
-   "address": "21223 BYERLY TURK PFLUGERVILLE 78660",
-   "assessed": 293306,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.497877,
-   "lon": -97.575655,
-   "sqft": 1474,
-   "value": 293306,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": null,
-   "address": "2712 AUBURN CHESTNUT PFLUGERVILLE 78660",
-   "assessed": 404842,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.460895,
-   "lon": -97.588759,
-   "sqft": 2171,
-   "value": 404842,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": null,
-   "address": "4784 PRIEM 78660",
-   "assessed": 4828940,
-   "class": "F1",
-   "deed_date": "2025-07-18",
-   "homestead": false,
-   "lat": 30.494357,
-   "lon": -97.584839,
-   "sqft": 24253,
-   "value": 4828940,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2018
-  },
-  {
-   "acres": 2.133,
-   "address": "1704 BRANDON KELLER 78660",
-   "assessed": 426089,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.473162,
-   "lon": -97.589799,
-   "sqft": 2429,
-   "value": 426089,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 1.803,
-   "address": "2227 SPEIDEL PFLUGERVILLE 78660",
-   "assessed": 384646,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.478995,
-   "lon": -97.577937,
-   "sqft": 1868,
-   "value": 384646,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 1.377,
-   "address": "3321 WINDING SHORE PFLUGERVILLE 78660",
-   "assessed": 437591,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.481167,
-   "lon": -97.56635,
-   "sqft": 2729,
-   "value": 437591,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": null,
-   "address": "18104 MONARCH BUTTERFLY 78660",
-   "assessed": 449582,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.456393,
-   "lon": -97.587882,
-   "sqft": 2284,
-   "value": 449582,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": null,
-   "address": "3109 WINDY VANE 78660",
-   "assessed": 395593,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.490139,
-   "lon": -97.563507,
-   "sqft": 2018,
-   "value": 395593,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2021
-  },
-  {
-   "acres": 2.677,
-   "address": "2301 AMEN CORNER PFLUGERVILLE 78660",
-   "assessed": 460728,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.474381,
-   "lon": -97.58042,
-   "sqft": 2821,
-   "value": 460728,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 10.4,
-   "address": "20109 ALGREG PFLUGERVILLE 78660",
-   "assessed": 3124083,
-   "class": "F1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.482824,
-   "lon": -97.582793,
-   "sqft": 12500,
-   "value": 3124083,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 1.721,
-   "address": "19402 GALE MEADOW PFLUGERVILLE 78660",
-   "assessed": 434142,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.473694,
-   "lon": -97.587724,
-   "sqft": 2450,
-   "value": 434142,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": null,
-   "address": "21305 RESOURCE 78660",
-   "assessed": 563346,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.491574,
-   "lon": -97.563527,
-   "sqft": 3338,
-   "value": 563346,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": 2.234,
-   "address": "2233 VILLAGE VIEW PFLUGERVILLE 78660",
-   "assessed": 541806,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.466819,
-   "lon": -97.585025,
-   "sqft": 3203,
-   "value": 541806,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2010
-  },
-  {
-   "acres": null,
-   "address": "18601 DOUGLAS MAPLE PFLUGERVILLE 78660",
-   "assessed": 505180,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.455585,
-   "lon": -97.575571,
-   "sqft": 3349,
-   "value": 505180,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
   }
  ],
  "windows": {
   "12mo": {
-   "count": 252,
-   "median_value": 443885,
-   "pct_of_households": 3.5,
-   "pct_of_population": 1.08
+   "count": 263,
+   "median_value": 423134,
+   "pct_of_households": 3.66,
+   "pct_of_population": 1.13
   },
   "3mo": {
-   "count": 37,
-   "median_value": 423134,
-   "pct_of_households": 0.51,
-   "pct_of_population": 0.16
+   "count": 48,
+   "median_value": 405187,
+   "pct_of_households": 0.67,
+   "pct_of_population": 0.21
   },
   "6mo": {
-   "count": 92,
-   "median_value": 442185,
-   "pct_of_households": 1.28,
-   "pct_of_population": 0.4
+   "count": 135,
+   "median_value": 421453,
+   "pct_of_households": 1.88,
+   "pct_of_population": 0.58
   }
  }
 }

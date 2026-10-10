@@ -1,11 +1,752 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 118,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 125,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2842,
  "months_back": 12,
  "population_acs": 7030,
  "transfers": [
+  {
+   "acres": 1.709,
+   "address": "5812 MARCHMONT AUSTIN 78749",
+   "assessed": 606406,
+   "class": "A1",
+   "deed_date": "2026-08-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.211186,
+   "lon": -97.871028,
+   "sqft": 2219,
+   "value": 624000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 1.333,
+   "address": "8100 CHENO CORTINA 78749",
+   "assessed": 645056,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.219798,
+   "lon": -97.874547,
+   "sqft": 2570,
+   "value": 645056,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": 1.781,
+   "address": "7807 WHEEL RIM AUSTIN 78749",
+   "assessed": 630258,
+   "class": "A1",
+   "deed_date": "2026-08-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.219728,
+   "lon": -97.867688,
+   "sqft": 2554,
+   "value": 630258,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1989
+  },
+  {
+   "acres": 1.665,
+   "address": "5966 MESA VERDE 78749",
+   "assessed": 473391,
+   "class": "A1",
+   "deed_date": "2026-08-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.210102,
+   "lon": -97.875205,
+   "sqft": 1932,
+   "value": 473391,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.573,
+   "address": "6411 CLAIRMONT AUSTIN 78749",
+   "assessed": 467513,
+   "class": "A1",
+   "deed_date": "2026-08-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.216689,
+   "lon": -97.87757,
+   "sqft": 1838,
+   "value": 467513,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": 1.574,
+   "address": "6409 SALCON CLIFF AUSTIN 78749",
+   "assessed": 598262,
+   "class": "A1",
+   "deed_date": "2026-08-19",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.20807,
+   "lon": -97.882846,
+   "sqft": 2175,
+   "value": 598262,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 1.914,
+   "address": "6063 ABILENE AUSTIN 78749",
+   "assessed": 535913,
+   "class": "A1",
+   "deed_date": "2026-08-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.216395,
+   "lon": -97.871149,
+   "sqft": 2348,
+   "value": 535913,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.975,
+   "address": "5935 SALCON CLIFF AUSTIN 78749",
+   "assessed": 514364,
+   "class": "A1",
+   "deed_date": "2026-08-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.206301,
+   "lon": -97.875077,
+   "sqft": 1902,
+   "value": 514364,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 1.584,
+   "address": "6412 YORK BRIDGE CIR AUSTIN 78749",
+   "assessed": 558160,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.202663,
+   "lon": -97.872445,
+   "sqft": 2196,
+   "value": 558160,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.444,
+   "address": "7107 VIA DONO AUSTIN 78749",
+   "assessed": 689197,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.217001,
+   "lon": -97.886332,
+   "sqft": 2630,
+   "value": 689197,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.012,
+   "address": "6303 OASIS 78749",
+   "assessed": 628088,
+   "class": "A1",
+   "deed_date": "2026-08-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.220784,
+   "lon": -97.872388,
+   "sqft": 2984,
+   "value": 628088,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
+  },
+  {
+   "acres": 2.017,
+   "address": "5907 MARCHMONT 78749",
+   "assessed": 626116,
+   "class": "A1",
+   "deed_date": "2026-08-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.21169,
+   "lon": -97.871964,
+   "sqft": 2262,
+   "value": 626116,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 1.795,
+   "address": "5707 FITCHWOOD AUSTIN 78749",
+   "assessed": 556301,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.210177,
+   "lon": -97.869801,
+   "sqft": 2264,
+   "value": 556301,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 2.489,
+   "address": "8104 CUTLER RIDGE AUSTIN 78749",
+   "assessed": 545052,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.216446,
+   "lon": -97.869549,
+   "sqft": 2247,
+   "value": 545052,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1991
+  },
+  {
+   "acres": 1.578,
+   "address": "9309 MANIPARI AUSTIN 78749",
+   "assessed": 629558,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.202521,
+   "lon": -97.872895,
+   "sqft": 2069,
+   "value": 629558,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.854,
+   "address": "8928 LA SIESTA AUSTIN 78749",
+   "assessed": 661533,
+   "class": "A1",
+   "deed_date": "2026-07-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.21126,
+   "lon": -97.881697,
+   "sqft": 2436,
+   "value": 661533,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.374,
+   "address": "8117 CHENO CORTINA AUSTIN 78749",
+   "assessed": 460330,
+   "class": "A1",
+   "deed_date": "2026-07-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.218914,
+   "lon": -97.874172,
+   "sqft": 1441,
+   "value": 460330,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1995
+  },
+  {
+   "acres": 2.336,
+   "address": "8501 ABILENE 78749",
+   "assessed": 480082,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.214163,
+   "lon": -97.873991,
+   "sqft": 1772,
+   "value": 480082,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
+  },
+  {
+   "acres": 1.552,
+   "address": "5814 MARCHMONT AUSTIN 78749",
+   "assessed": 510383,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.211319,
+   "lon": -97.871151,
+   "sqft": 2060,
+   "value": 510383,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 1.594,
+   "address": "6214 SALCON CLIFF AUSTIN 78749",
+   "assessed": 681444,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.206736,
+   "lon": -97.881314,
+   "sqft": 3143,
+   "value": 681444,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 1.846,
+   "address": "9012 MEACHAM AUSTIN 78749",
+   "assessed": 522504,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.206584,
+   "lon": -97.874519,
+   "sqft": 1772,
+   "value": 522504,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 2.726,
+   "address": "6317 SALCON CLIFF 78749",
+   "assessed": 750872,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.206905,
+   "lon": -97.883004,
+   "sqft": 2330,
+   "value": 750872,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 2.066,
+   "address": "6301 YORK BRIDGE CIR AUSTIN 78749",
+   "assessed": 598695,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.203549,
+   "lon": -97.873724,
+   "sqft": 2177,
+   "value": 598695,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.507,
+   "address": "5736 LOMITA VERDE AUSTIN 78749",
+   "assessed": 608951,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.206723,
+   "lon": -97.871687,
+   "sqft": 2401,
+   "value": 608951,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.339,
+   "address": "9015 SOMMERLAND AUSTIN 78749",
+   "assessed": 492304,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.207435,
+   "lon": -97.876497,
+   "sqft": 1459,
+   "value": 492304,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 1.613,
+   "address": "8412 TYHURST AUSTIN 78749",
+   "assessed": 462308,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.212559,
+   "lon": -97.86811,
+   "sqft": 1652,
+   "value": 462308,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1994
+  },
+  {
+   "acres": 1.633,
+   "address": "5948 LOMITA VERDE AUSTIN 78749",
+   "assessed": 530992,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.208778,
+   "lon": -97.871684,
+   "sqft": 1892,
+   "value": 530992,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.728,
+   "address": "6542 CLAIRMONT AUSTIN 78749",
+   "assessed": 617470,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.21455,
+   "lon": -97.880897,
+   "sqft": 2568,
+   "value": 617470,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1995
+  },
+  {
+   "acres": 1.788,
+   "address": "8328 DOE MEADOW 78749",
+   "assessed": 620504,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.214816,
+   "lon": -97.870975,
+   "sqft": 2220,
+   "value": 620504,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
+  },
+  {
+   "acres": 1.627,
+   "address": "6500 CLAY ALLISON 78749",
+   "assessed": 680000,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.218511,
+   "lon": -97.876972,
+   "sqft": 2362,
+   "value": 680000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1995
+  },
+  {
+   "acres": 2.091,
+   "address": "6110 BLANCO RIVER AUSTIN 78749",
+   "assessed": 740924,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.216439,
+   "lon": -97.873014,
+   "sqft": 3456,
+   "value": 740924,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1989
+  },
+  {
+   "acres": 1.325,
+   "address": "6605 OASIS 78749",
+   "assessed": 621393,
+   "class": "A1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.220253,
+   "lon": -97.87484,
+   "sqft": 2504,
+   "value": 621393,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": 2.182,
+   "address": "6310 CLAIRMONT AUSTIN 78749",
+   "assessed": 519588,
+   "class": "A1",
+   "deed_date": "2026-06-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.215713,
+   "lon": -97.875821,
+   "sqft": 1915,
+   "value": 519588,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1993
+  },
+  {
+   "acres": 1.625,
+   "address": "8208 ISAAC PRYOR AUSTIN 78749",
+   "assessed": 651307,
+   "class": "A1",
+   "deed_date": "2026-06-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.217377,
+   "lon": -97.873188,
+   "sqft": 2648,
+   "value": 678444,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
+  },
+  {
+   "acres": 1.619,
+   "address": "5706 PECANWOOD 78749",
+   "assessed": 531864,
+   "class": "A1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.209219,
+   "lon": -97.870464,
+   "sqft": 1967,
+   "value": 531864,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.604,
+   "address": "6405 SALCON CLIFF 78749",
+   "assessed": 783980,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.207755,
+   "lon": -97.882967,
+   "sqft": 2934,
+   "value": 783980,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 1.795,
+   "address": "9413 LA PUENTE AUSTIN 78749",
+   "assessed": 616464,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.2073,
+   "lon": -97.883233,
+   "sqft": 2163,
+   "value": 616464,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 1.975,
+   "address": "5905 PECANWOOD AUSTIN 78749",
+   "assessed": 520522,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.210649,
+   "lon": -97.872383,
+   "sqft": 1815,
+   "value": 520522,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 1.746,
+   "address": "8909 LOMITA VERDE AUSTIN 78749",
+   "assessed": 534346,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.207307,
+   "lon": -97.871617,
+   "sqft": 1892,
+   "value": 534346,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
   {
    "acres": 2.783,
    "address": "8811 TIOMBE AUSTIN 78749",
@@ -131,7 +872,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.215995,
    "lon": -97.86826,
    "sqft": 2192,
@@ -256,7 +997,7 @@
   {
    "acres": 1.584,
    "address": "6420 YORK BRIDGE CIR 78749",
-   "assessed": 607686,
+   "assessed": 587000,
    "class": "A1",
    "deed_date": "2026-04-15",
    "extras": {
@@ -268,7 +1009,7 @@
    "lat": 30.202559,
    "lon": -97.872088,
    "sqft": 2196,
-   "value": 607686,
+   "value": 587000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
   },
@@ -313,7 +1054,7 @@
   {
    "acres": 1.958,
    "address": "9100 TAYLORCREST AUSTIN 78749",
-   "assessed": 666665,
+   "assessed": 639887,
    "class": "A1",
    "deed_date": "2026-04-13",
    "extras": {
@@ -325,7 +1066,7 @@
    "lat": 30.21017,
    "lon": -97.882565,
    "sqft": 2579,
-   "value": 714878,
+   "value": 639887,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
   },
@@ -370,7 +1111,7 @@
   {
    "acres": 1.651,
    "address": "6412 ABILENE AUSTIN 78749",
-   "assessed": 605502,
+   "assessed": 556154,
    "class": "A1",
    "deed_date": "2026-04-06",
    "extras": {
@@ -382,7 +1123,7 @@
    "lat": 30.215186,
    "lon": -97.878416,
    "sqft": 2111,
-   "value": 605502,
+   "value": 556154,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
@@ -427,7 +1168,7 @@
   {
    "acres": 1.815,
    "address": "9304 LA PUENTE 78749",
-   "assessed": 716091,
+   "assessed": 657730,
    "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
@@ -439,7 +1180,7 @@
    "lat": 30.208633,
    "lon": -97.884625,
    "sqft": 2219,
-   "value": 716091,
+   "value": 657730,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
   },
@@ -461,25 +1202,6 @@
    "value": 528184,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
-  },
-  {
-   "acres": 1.374,
-   "address": "8117 CHENO CORTINA AUSTIN 78749",
-   "assessed": 460330,
-   "class": "A1",
-   "deed_date": "2026-03-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.218914,
-   "lon": -97.874172,
-   "sqft": 1441,
-   "value": 460330,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1995
   },
   {
    "acres": 10.598,
@@ -522,7 +1244,7 @@
   {
    "acres": 2.009,
    "address": "6412 VIA CORRETO 78749",
-   "assessed": 874081,
+   "assessed": 852229,
    "class": "A1",
    "deed_date": "2026-03-08",
    "extras": {
@@ -534,7 +1256,7 @@
    "lat": 30.216372,
    "lon": -97.881647,
    "sqft": 3502,
-   "value": 874081,
+   "value": 852229,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
   },
@@ -579,7 +1301,7 @@
   {
    "acres": 1.591,
    "address": "5713 MAGEE AUSTIN 78749",
-   "assessed": 562984,
+   "assessed": 507298,
    "class": "A1",
    "deed_date": "2026-03-05",
    "extras": {
@@ -591,14 +1313,14 @@
    "lat": 30.211689,
    "lon": -97.869904,
    "sqft": 2045,
-   "value": 566750,
+   "value": 507298,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1997
   },
   {
    "acres": 1.885,
    "address": "8309 SIRINGO AUSTIN 78749",
-   "assessed": 486025,
+   "assessed": 473874,
    "class": "A1",
    "deed_date": "2026-03-04",
    "extras": {
@@ -606,18 +1328,18 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.218245,
    "lon": -97.878037,
    "sqft": 1615,
-   "value": 486025,
+   "value": 473874,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1994
   },
   {
    "acres": 2.958,
    "address": "8100 RICHARD KING 78749",
-   "assessed": 471660,
+   "assessed": 433220,
    "class": "A1",
    "deed_date": "2026-03-04",
    "extras": {
@@ -629,14 +1351,14 @@
    "lat": 30.218318,
    "lon": -97.873237,
    "sqft": 1522,
-   "value": 471660,
+   "value": 433220,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1991
   },
   {
    "acres": 2.194,
    "address": "6205 LA NARANJA 78749",
-   "assessed": 593277,
+   "assessed": 538820,
    "class": "A1",
    "deed_date": "2026-03-04",
    "extras": {
@@ -648,14 +1370,14 @@
    "lat": 30.214946,
    "lon": -97.874612,
    "sqft": 2096,
-   "value": 601966,
+   "value": 538820,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1991
   },
   {
    "acres": 2.643,
    "address": "7109 VIA CORRETO 78749",
-   "assessed": 1130969,
+   "assessed": 1102695,
    "class": "A1",
    "deed_date": "2026-02-27",
    "extras": {
@@ -667,7 +1389,7 @@
    "lat": 30.218039,
    "lon": -97.886001,
    "sqft": 4487,
-   "value": 1130969,
+   "value": 1102695,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -693,7 +1415,7 @@
   {
    "acres": 1.666,
    "address": "6213 LA NARANJA 78749",
-   "assessed": 524098,
+   "assessed": 469120,
    "class": "A1",
    "deed_date": "2026-02-24",
    "extras": {
@@ -705,7 +1427,7 @@
    "lat": 30.214398,
    "lon": -97.874924,
    "sqft": 1964,
-   "value": 524098,
+   "value": 469120,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1992
   },
@@ -777,7 +1499,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.21677,
    "lon": -97.878581,
    "sqft": 2029,
@@ -788,7 +1510,7 @@
   {
    "acres": 2.163,
    "address": "8405 GANTTCREST AUSTIN 78749",
-   "assessed": 627405,
+   "assessed": 597000,
    "class": "A1",
    "deed_date": "2026-02-10",
    "extras": {
@@ -800,14 +1522,14 @@
    "lat": 30.211565,
    "lon": -97.865884,
    "sqft": 2196,
-   "value": 636453,
+   "value": 597000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
   {
    "acres": 2.446,
    "address": "6101 SALCON CLIFF 78749",
-   "assessed": 847538,
+   "assessed": 738000,
    "class": "A1",
    "deed_date": "2026-02-06",
    "extras": {
@@ -819,14 +1541,14 @@
    "lat": 30.205445,
    "lon": -97.878871,
    "sqft": 2857,
-   "value": 847538,
+   "value": 738000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
   },
   {
    "acres": 2.296,
    "address": "7121 VIA DONO AUSTIN 78749",
-   "assessed": 982295,
+   "assessed": 902238,
    "class": "A1",
    "deed_date": "2026-02-06",
    "extras": {
@@ -838,14 +1560,14 @@
    "lat": 30.217253,
    "lon": -97.886756,
    "sqft": 3829,
-   "value": 982295,
+   "value": 902238,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
   {
    "acres": 2.101,
    "address": "7204 VIA CORRETO 78749",
-   "assessed": 898127,
+   "assessed": 824930,
    "class": "A1",
    "deed_date": "2026-02-05",
    "extras": {
@@ -857,14 +1579,33 @@
    "lat": 30.218587,
    "lon": -97.886958,
    "sqft": 3637,
-   "value": 898127,
+   "value": 824930,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
   {
+   "acres": 13.36,
+   "address": "8019 DARK VALLEY AUSTIN 78737",
+   "assessed": 937657,
+   "class": "A1",
+   "deed_date": "2026-02-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.222252,
+   "lon": -97.881941,
+   "sqft": 2785,
+   "value": 1089424,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
    "acres": 2.152,
    "address": "7212 VIA DONO AUSTIN 78749",
-   "assessed": 921228,
+   "assessed": 846148,
    "class": "A1",
    "deed_date": "2026-01-31",
    "extras": {
@@ -876,28 +1617,9 @@
    "lat": 30.217444,
    "lon": -97.887807,
    "sqft": 3777,
-   "value": 921228,
+   "value": 846148,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
-  },
-  {
-   "acres": 1.625,
-   "address": "8208 ISAAC PRYOR AUSTIN 78749",
-   "assessed": 651307,
-   "class": "A1",
-   "deed_date": "2026-01-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.217377,
-   "lon": -97.873188,
-   "sqft": 2648,
-   "value": 678444,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1992
   },
   {
    "acres": 1.324,
@@ -921,7 +1643,7 @@
   {
    "acres": 2.358,
    "address": "5730 TAYLORCREST 78749",
-   "assessed": 560004,
+   "assessed": 535000,
    "class": "A1",
    "deed_date": "2026-01-20",
    "extras": {
@@ -933,9 +1655,28 @@
    "lat": 30.207378,
    "lon": -97.872928,
    "sqft": 1902,
-   "value": 560004,
+   "value": 535000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2000
+  },
+  {
+   "acres": 2.127,
+   "address": "6205 YORK BRIDGE CIR AUSTIN 78749",
+   "assessed": 787887,
+   "class": "A1",
+   "deed_date": "2026-01-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.203921,
+   "lon": -97.874812,
+   "sqft": 2832,
+   "value": 787887,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
   },
   {
    "acres": 2.104,
@@ -976,9 +1717,28 @@
    "year_built": 1993
   },
   {
+   "acres": 1.815,
+   "address": "8000 CUTLER RIDGE AUSTIN 78749",
+   "assessed": 594352,
+   "class": "A1",
+   "deed_date": "2025-12-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.217579,
+   "lon": -97.86893,
+   "sqft": 2031,
+   "value": 594352,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1991
+  },
+  {
    "acres": 2.201,
    "address": "7201 VIA CORRETO AUSTIN 78749",
-   "assessed": 893070,
+   "assessed": 870743,
    "class": "A1",
    "deed_date": "2025-12-23",
    "extras": {
@@ -990,7 +1750,7 @@
    "lat": 30.218161,
    "lon": -97.886681,
    "sqft": 3559,
-   "value": 893070,
+   "value": 870743,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -1016,7 +1776,7 @@
   {
    "acres": 1.829,
    "address": "8502 ABILENE AUSTIN 78749",
-   "assessed": 548275,
+   "assessed": 486759,
    "class": "A1",
    "deed_date": "2025-12-12",
    "extras": {
@@ -1028,7 +1788,7 @@
    "lat": 30.214483,
    "lon": -97.874533,
    "sqft": 1501,
-   "value": 548275,
+   "value": 486759,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1990
   },
@@ -1043,7 +1803,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.209577,
    "lon": -97.865763,
    "sqft": 2067,
@@ -1062,7 +1822,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.208884,
    "lon": -97.874544,
    "sqft": 2387,
@@ -1081,7 +1841,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.212063,
    "lon": -97.869471,
    "sqft": 2211,
@@ -1111,7 +1871,7 @@
   {
    "acres": 1.335,
    "address": "5932 SALCON CLIFF AUSTIN 78749",
-   "assessed": 649252,
+   "assessed": 633000,
    "class": "A1",
    "deed_date": "2025-12-01",
    "extras": {
@@ -1123,7 +1883,7 @@
    "lat": 30.20668,
    "lon": -97.875497,
    "sqft": 2225,
-   "value": 649252,
+   "value": 633000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2000
   },
@@ -1187,7 +1947,7 @@
   {
    "acres": 1.559,
    "address": "6610 OASIS AUSTIN 78749",
-   "assessed": 620354,
+   "assessed": 557139,
    "class": "A1",
    "deed_date": "2025-11-17",
    "extras": {
@@ -1199,7 +1959,7 @@
    "lat": 30.219891,
    "lon": -97.875489,
    "sqft": 2508,
-   "value": 622432,
+   "value": 557139,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1993
   },
@@ -1263,7 +2023,7 @@
   {
    "acres": 1.622,
    "address": "6424 CLAY ALLISON AUSTIN 78749",
-   "assessed": 512155,
+   "assessed": 454691,
    "class": "A1",
    "deed_date": "2025-11-13",
    "extras": {
@@ -1271,11 +2031,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.218195,
    "lon": -97.876164,
    "sqft": 1823,
-   "value": 512155,
+   "value": 454691,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1994
   },
@@ -1290,7 +2050,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.20428,
    "lon": -97.870345,
    "sqft": 2102,
@@ -1301,7 +2061,7 @@
   {
    "acres": 1.87,
    "address": "5543 HITCHER 78749",
-   "assessed": 659364,
+   "assessed": 585383,
    "class": "A1",
    "deed_date": "2025-11-10",
    "extras": {
@@ -1313,7 +2073,7 @@
    "lat": 30.208025,
    "lon": -97.868378,
    "sqft": 2485,
-   "value": 659364,
+   "value": 585383,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
   },
@@ -1377,7 +2137,7 @@
   {
    "acres": 1.326,
    "address": "5824 LOMITA VERDE AUSTIN 78749",
-   "assessed": 628156,
+   "assessed": 627752,
    "class": "A1",
    "deed_date": "2025-11-06",
    "extras": {
@@ -1389,14 +2149,14 @@
    "lat": 30.207546,
    "lon": -97.872525,
    "sqft": 2387,
-   "value": 643848,
+   "value": 627752,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1998
   },
   {
    "acres": 1.691,
    "address": "6315 FARMDALE 78749",
-   "assessed": 578303,
+   "assessed": 531171,
    "class": "A1",
    "deed_date": "2025-11-05",
    "extras": {
@@ -1404,11 +2164,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.213939,
    "lon": -97.877683,
    "sqft": 2004,
-   "value": 578303,
+   "value": 531171,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1994
   },
@@ -1427,7 +2187,7 @@
    "lat": 30.22521,
    "lon": -97.888161,
    "sqft": 3728,
-   "value": 1321222,
+   "value": 1213542,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
   },
@@ -1442,7 +2202,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.217874,
    "lon": -97.868513,
    "sqft": 2240,
@@ -1453,7 +2213,7 @@
   {
    "acres": 14.37,
    "address": "8309 TWILIGHT TERRACE AUSTIN 78737",
-   "assessed": 1405425,
+   "assessed": 1237399,
    "class": "A1",
    "deed_date": "2025-10-31",
    "extras": {
@@ -1461,11 +2221,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.22231,
    "lon": -97.886465,
    "sqft": 3727,
-   "value": 1405425,
+   "value": 1257996,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
   },
@@ -1491,7 +2251,7 @@
   {
    "acres": 9.504,
    "address": "8609 DARK SHADOW AUSTIN 78749",
-   "assessed": 1315318,
+   "assessed": 1208120,
    "class": "A1",
    "deed_date": "2025-10-29",
    "extras": {
@@ -1503,14 +2263,14 @@
    "lat": 30.220181,
    "lon": -97.891878,
    "sqft": 3311,
-   "value": 1315318,
+   "value": 1208120,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
   },
   {
    "acres": 1.907,
    "address": "6524 TAYLORCREST 78749",
-   "assessed": 785093,
+   "assessed": 748507,
    "class": "A1",
    "deed_date": "2025-10-28",
    "extras": {
@@ -1522,7 +2282,7 @@
    "lat": 30.209716,
    "lon": -97.883915,
    "sqft": 2311,
-   "value": 785093,
+   "value": 748507,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
   },
@@ -1548,7 +2308,7 @@
   {
    "acres": 1.619,
    "address": "8106 GANTTCREST 78749",
-   "assessed": 624558,
+   "assessed": 573657,
    "class": "A1",
    "deed_date": "2025-10-22",
    "extras": {
@@ -1560,7 +2320,7 @@
    "lat": 30.214305,
    "lon": -97.864781,
    "sqft": 2210,
-   "value": 624558,
+   "value": 573657,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1993
   },
@@ -1620,653 +2380,26 @@
    "value": 537780,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1994
-  },
-  {
-   "acres": 4.134,
-   "address": "5304 MABRY 78749",
-   "assessed": 587784,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.20483,
-   "lon": -97.866784,
-   "sqft": 2102,
-   "value": 587784,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 2.013,
-   "address": "6018 ABILENE AUSTIN 78749",
-   "assessed": 677954,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.220085,
-   "lon": -97.868926,
-   "sqft": 2348,
-   "value": 677954,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 1.584,
-   "address": "9316 BAVARIA 78749",
-   "assessed": 645954,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.202578,
-   "lon": -97.874306,
-   "sqft": 2377,
-   "value": 645954,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.548,
-   "address": "7901 HENRY KINNEY AUSTIN 78749",
-   "assessed": 719756,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.220102,
-   "lon": -97.871029,
-   "sqft": 3292,
-   "value": 719756,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 1.327,
-   "address": "6429 CLAY ALLISON AUSTIN 78749",
-   "assessed": 517511,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.217819,
-   "lon": -97.87653,
-   "sqft": 1947,
-   "value": 517511,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1995
-  },
-  {
-   "acres": 1.951,
-   "address": "6050 ABILENE AUSTIN 78749",
-   "assessed": 558608,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.217617,
-   "lon": -97.871038,
-   "sqft": 2116,
-   "value": 558608,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 1.652,
-   "address": "8521 DUNSMERE 78749",
-   "assessed": 616892,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.215496,
-   "lon": -97.87864,
-   "sqft": 2296,
-   "value": 616892,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1997
-  },
-  {
-   "acres": 1.588,
-   "address": "8007 CUTLER RIDGE 78749",
-   "assessed": 480880,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.216915,
-   "lon": -97.868765,
-   "sqft": 1364,
-   "value": 480880,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1986
-  },
-  {
-   "acres": 1.844,
-   "address": "5334 TAMANGO 78749",
-   "assessed": 642434,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.20597,
-   "lon": -97.867285,
-   "sqft": 2209,
-   "value": 642434,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 2.205,
-   "address": "6022 ABILENE AUSTIN 78749",
-   "assessed": 710588,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.21969,
-   "lon": -97.869389,
-   "sqft": 3160,
-   "value": 710588,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 2.152,
-   "address": "6408 VIA CORRETO AUSTIN 78749",
-   "assessed": 900531,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.216196,
-   "lon": -97.881757,
-   "sqft": 3709,
-   "value": 900531,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": 1.518,
-   "address": "7910 SIRINGO AUSTIN 78749",
-   "assessed": 587952,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.222095,
-   "lon": -97.875893,
-   "sqft": 2384,
-   "value": 587952,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 2.163,
-   "address": "7826 WHEEL RIM 78749",
-   "assessed": 518634,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.21844,
-   "lon": -97.866569,
-   "sqft": 2266,
-   "value": 518634,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1992
-  },
-  {
-   "acres": 2.519,
-   "address": "6308 CLAIRMONT 78749",
-   "assessed": 657796,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.215506,
-   "lon": -97.875818,
-   "sqft": 2824,
-   "value": 657796,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 1.375,
-   "address": "8009 CHENO CORTINA 78749",
-   "assessed": 589546,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.219893,
-   "lon": -97.873999,
-   "sqft": 2369,
-   "value": 589546,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 1.371,
-   "address": "6401 ROTAN 78749",
-   "assessed": 532228,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.2199,
-   "lon": -97.876069,
-   "sqft": 1660,
-   "value": 532228,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 2.14,
-   "address": "6905 VIA CORRETO AUSTIN 78749",
-   "assessed": 846167,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.215562,
-   "lon": -97.88443,
-   "sqft": 3477,
-   "value": 846167,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": 2.161,
-   "address": "8901 LA SIESTA AUSTIN 78749",
-   "assessed": 670058,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.21169,
-   "lon": -97.880014,
-   "sqft": 2148,
-   "value": 670058,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 2.006,
-   "address": "6032 ABILENE AUSTIN 78749",
-   "assessed": 553730,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.219016,
-   "lon": -97.870127,
-   "sqft": 1974,
-   "value": 553730,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1992
-  },
-  {
-   "acres": 1.779,
-   "address": "9223 RIDGEWELL AUSTIN 78749",
-   "assessed": 543106,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.204325,
-   "lon": -97.874883,
-   "sqft": 1901,
-   "value": 543106,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 2.411,
-   "address": "7938 WHEEL RIM AUSTIN 78749",
-   "assessed": 680324,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.219188,
-   "lon": -97.868753,
-   "sqft": 3001,
-   "value": 680324,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1991
-  },
-  {
-   "acres": 10.97,
-   "address": "8008 DARK VALLEY AUSTIN 78737",
-   "assessed": 1212356,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.223257,
-   "lon": -97.881248,
-   "sqft": 3958,
-   "value": 1212356,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 10.158,
-   "address": "7509 TWILIGHT SHADOW AUSTIN 78749",
-   "assessed": 1437764,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.219467,
-   "lon": -97.893357,
-   "sqft": 4393,
-   "value": 1437764,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 2.883,
-   "address": "6307 CLAIRMONT AUSTIN 78749",
-   "assessed": 715852,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.215701,
-   "lon": -97.876386,
-   "sqft": 2651,
-   "value": 715852,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1997
-  },
-  {
-   "acres": 1.771,
-   "address": "6527 CLAIRMONT AUSTIN 78749",
-   "assessed": 590000,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.214859,
-   "lon": -97.880096,
-   "sqft": 2845,
-   "value": 590000,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.641,
-   "address": "9017 LANTANA AUSTIN 78749",
-   "assessed": 628848,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.209336,
-   "lon": -97.879523,
-   "sqft": 2173,
-   "value": 628848,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.623,
-   "address": "8004 BOUNTY 78749",
-   "assessed": 593954,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.217577,
-   "lon": -97.869955,
-   "sqft": 2321,
-   "value": 593954,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1991
-  },
-  {
-   "acres": 2.068,
-   "address": "6101 MESA GRANDE 78749",
-   "assessed": 667184,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.206438,
-   "lon": -97.879164,
-   "sqft": 2311,
-   "value": 667184,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 1.646,
-   "address": "5929 MESA VERDE 78749",
-   "assessed": 643848,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.210147,
-   "lon": -97.874199,
-   "sqft": 2387,
-   "value": 643848,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.816,
-   "address": "6041 ABILENE AUSTIN 78749",
-   "assessed": 519740,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.218044,
-   "lon": -97.870073,
-   "sqft": 1867,
-   "value": 519740,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 1.739,
-   "address": "5705 MARCHMONT AUSTIN 78749",
-   "assessed": 525958,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.209396,
-   "lon": -97.870138,
-   "sqft": 1818,
-   "value": 525958,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.997,
-   "address": "5405 HITCHER AUSTIN 78749",
-   "assessed": 666426,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.210805,
-   "lon": -97.865512,
-   "sqft": 2392,
-   "value": 666426,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 7.85,
-   "address": "8301 TWILIGHT TERRACE AUSTIN 78737",
-   "assessed": 1179092,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.222536,
-   "lon": -97.887356,
-   "sqft": 3334,
-   "value": 1179092,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
   }
  ],
  "windows": {
   "12mo": {
-   "count": 118,
-   "median_value": 624558,
-   "pct_of_households": 4.15,
-   "pct_of_population": 1.68
+   "count": 125,
+   "median_value": 608951,
+   "pct_of_households": 4.4,
+   "pct_of_population": 1.78
   },
   "3mo": {
-   "count": 17,
-   "median_value": 607686,
-   "pct_of_households": 0.6,
-   "pct_of_population": 0.24
+   "count": 21,
+   "median_value": 558160,
+   "pct_of_households": 0.74,
+   "pct_of_population": 0.3
   },
   "6mo": {
-   "count": 51,
-   "median_value": 607686,
-   "pct_of_households": 1.79,
-   "pct_of_population": 0.73
+   "count": 56,
+   "median_value": 598695,
+   "pct_of_households": 1.97,
+   "pct_of_population": 0.8
   }
  }
 }

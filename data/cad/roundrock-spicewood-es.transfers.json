@@ -1,11 +1,920 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 164,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 169,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3129,
  "months_back": 12,
  "population_acs": 8605,
  "transfers": [
+  {
+   "acres": 3.11,
+   "address": "11513 MEDALLION AUSTIN 78750",
+   "assessed": 606586,
+   "class": "A1",
+   "deed_date": "2026-09-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.443329,
+   "lon": -97.802283,
+   "sqft": 2606,
+   "value": 606586,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1996
+  },
+  {
+   "acres": 3.402,
+   "address": "10706 SPICEWOOD CLUB AUSTIN 78750",
+   "assessed": 708097,
+   "class": "A1",
+   "deed_date": "2026-09-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.434694,
+   "lon": -97.806619,
+   "sqft": 2324,
+   "value": 708097,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 2.846,
+   "address": "10416 WELLER AUSTIN 78750",
+   "assessed": 668880,
+   "class": "A1",
+   "deed_date": "2026-09-01",
+   "homestead": true,
+   "lat": 30.443212,
+   "lon": -97.809045,
+   "sqft": 3397,
+   "value": 668880,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 8.198,
+   "address": "9307 ASHTON AUSTIN 78750",
+   "assessed": 726877,
+   "class": "A1",
+   "deed_date": "2026-08-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.42933,
+   "lon": -97.79933,
+   "sqft": 2438,
+   "value": 726877,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1986
+  },
+  {
+   "acres": 3.763,
+   "address": "9909 BRANDYWINE AUSTIN 78750",
+   "assessed": 772000,
+   "class": "A1",
+   "deed_date": "2026-08-27",
+   "homestead": true,
+   "lat": 30.436636,
+   "lon": -97.80466,
+   "sqft": 2203,
+   "value": 772000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 6.62,
+   "address": "9902 BRIGHTLING 78750",
+   "assessed": 1232301,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.424496,
+   "lon": -97.81093,
+   "sqft": 4479,
+   "value": 1232301,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 3.834,
+   "address": "9440 SPRING HOLLOW AUSTIN 78750",
+   "assessed": 583547,
+   "class": "A1",
+   "deed_date": "2026-08-24",
+   "homestead": true,
+   "lat": 30.436978,
+   "lon": -97.79563,
+   "sqft": 2037,
+   "value": 583547,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1972
+  },
+  {
+   "acres": 4.205,
+   "address": "9803 PATRICE 78750",
+   "assessed": 1498345,
+   "class": "A1",
+   "deed_date": "2026-08-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.425353,
+   "lon": -97.812848,
+   "sqft": 4030,
+   "value": 1498345,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 2.917,
+   "address": "10600 LORING 78750",
+   "assessed": 653290,
+   "class": "A1",
+   "deed_date": "2026-08-19",
+   "homestead": true,
+   "lat": 30.446001,
+   "lon": -97.810512,
+   "sqft": 2119,
+   "value": 653290,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 3.791,
+   "address": "9404 SPRINGWOOD AUSTIN 78750",
+   "assessed": 601802,
+   "class": "A1",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.438302,
+   "lon": -97.79586,
+   "sqft": 2416,
+   "value": 601802,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1977
+  },
+  {
+   "acres": 2.823,
+   "address": "10526 GLASS MOUNTAIN AUSTIN 78750",
+   "assessed": 645196,
+   "class": "A1",
+   "deed_date": "2026-08-17",
+   "homestead": true,
+   "lat": 30.444056,
+   "lon": -97.813877,
+   "sqft": 2755,
+   "value": 645196,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1981
+  },
+  {
+   "acres": 3.448,
+   "address": "10602 PICKFAIR AUSTIN 78750",
+   "assessed": 841000,
+   "class": "A1",
+   "deed_date": "2026-08-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.433601,
+   "lon": -97.810786,
+   "sqft": 3024,
+   "value": 841000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
+   "acres": 3.135,
+   "address": "10509 LORING 78750",
+   "assessed": 734568,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "homestead": true,
+   "lat": 30.445581,
+   "lon": -97.809569,
+   "sqft": 2332,
+   "value": 734568,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
+   "acres": 2.813,
+   "address": "11105 WINTERGREEN HILL 78750",
+   "assessed": 854449,
+   "class": "A1",
+   "deed_date": "2026-08-11",
+   "homestead": true,
+   "lat": 30.434073,
+   "lon": -97.797567,
+   "sqft": 3028,
+   "value": 854449,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 3.15,
+   "address": "9401 SPRINGWOOD AUSTIN 78750",
+   "assessed": 707464,
+   "class": "A1",
+   "deed_date": "2026-08-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.438693,
+   "lon": -97.795181,
+   "sqft": 3250,
+   "value": 707464,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1977
+  },
+  {
+   "acres": 2.182,
+   "address": "11312 MONET 78726",
+   "assessed": 727127,
+   "class": "A1",
+   "deed_date": "2026-08-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.448821,
+   "lon": -97.822156,
+   "sqft": 2765,
+   "value": 727127,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 4.535,
+   "address": "9805 VISTA VIEW AUSTIN 78750",
+   "assessed": 805556,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "homestead": true,
+   "lat": 30.429518,
+   "lon": -97.807492,
+   "sqft": 4039,
+   "value": 805556,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 3.421,
+   "address": "10008 MANDEVILLE AUSTIN 78750",
+   "assessed": 837959,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "homestead": true,
+   "lat": 30.439889,
+   "lon": -97.804848,
+   "sqft": 3170,
+   "value": 837959,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 3.054,
+   "address": "11503 DOSSHILLS 78750",
+   "assessed": 927120,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.445032,
+   "lon": -97.809322,
+   "sqft": 3605,
+   "value": 927120,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
+   "acres": 2.066,
+   "address": "11612 MEDALLION AUSTIN 78750",
+   "assessed": 649325,
+   "class": "A1",
+   "deed_date": "2026-08-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.444571,
+   "lon": -97.802898,
+   "sqft": 3275,
+   "value": 649325,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 3.368,
+   "address": "9900 RICHELIEU AUSTIN 78750",
+   "assessed": 536931,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "homestead": true,
+   "lat": 30.436213,
+   "lon": -97.804007,
+   "sqft": 1669,
+   "value": 536931,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 3.371,
+   "address": "10721 FOUNTAINBLEU 78750",
+   "assessed": 1081012,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "homestead": true,
+   "lat": 30.434443,
+   "lon": -97.805968,
+   "sqft": 3143,
+   "value": 1081012,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 2.897,
+   "address": "11507 KEMPWOOD AUSTIN 78750",
+   "assessed": 794395,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.43302,
+   "lon": -97.782087,
+   "sqft": 2685,
+   "value": 794395,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1992
+  },
+  {
+   "acres": 8.818,
+   "address": "10904 CENTENNIAL 78726",
+   "assessed": 1396673,
+   "class": "A1",
+   "deed_date": "2026-07-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.446052,
+   "lon": -97.820006,
+   "sqft": 3650,
+   "value": 1396673,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 2.92,
+   "address": "10505 RONWOOD AUSTIN 78750",
+   "assessed": 668463,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "homestead": true,
+   "lat": 30.431704,
+   "lon": -97.806769,
+   "sqft": 2413,
+   "value": 668463,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 3.421,
+   "address": "10605 LEAFWOOD AUSTIN 78750",
+   "assessed": 839636,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.428405,
+   "lon": -97.797226,
+   "sqft": 3060,
+   "value": 839636,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 3.861,
+   "address": "10304 SPICEWOOD AUSTIN 78750",
+   "assessed": 1085560,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.429593,
+   "lon": -97.808622,
+   "sqft": 3751,
+   "value": 1085560,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 7.435,
+   "address": "10100 MANDEVILLE 78750",
+   "assessed": 924299,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "homestead": true,
+   "lat": 30.439908,
+   "lon": -97.805372,
+   "sqft": 3830,
+   "value": 924299,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1974
+  },
+  {
+   "acres": 2.893,
+   "address": "9403 SPRING HOLLOW AUSTIN 78750",
+   "assessed": 684060,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "homestead": true,
+   "lat": 30.441235,
+   "lon": -97.797002,
+   "sqft": 2639,
+   "value": 684060,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 4.603,
+   "address": "9418 SPRING HOLLOW 78750",
+   "assessed": 622705,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "homestead": true,
+   "lat": 30.439349,
+   "lon": -97.798097,
+   "sqft": 2614,
+   "value": 622705,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 3.008,
+   "address": "10103 EASTMAN AUSTIN 78750",
+   "assessed": 1051165,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.427224,
+   "lon": -97.809906,
+   "sqft": 3876,
+   "value": 1128479,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 8.199,
+   "address": "10634 GLASS MOUNTAIN 78750",
+   "assessed": 1043985,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.440256,
+   "lon": -97.815054,
+   "sqft": 3690,
+   "value": 1043985,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 3.12,
+   "address": "9704 BORDEAUX 78750",
+   "assessed": 657074,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "homestead": true,
+   "lat": 30.430576,
+   "lon": -97.805023,
+   "sqft": 2291,
+   "value": 657074,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 3.739,
+   "address": "11917 BROOKWOOD 78750",
+   "assessed": 660642,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.441295,
+   "lon": -97.789755,
+   "sqft": 2762,
+   "value": 660642,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1972
+  },
+  {
+   "acres": 2.204,
+   "address": "11212 MATISSE AUSTIN 78726",
+   "assessed": 812071,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.448682,
+   "lon": -97.820767,
+   "sqft": 2671,
+   "value": 812071,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
+  {
+   "acres": 2.906,
+   "address": "11003 CHATEAU HILL 78750",
+   "assessed": 747998,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "homestead": true,
+   "lat": 30.433453,
+   "lon": -97.79905,
+   "sqft": 2522,
+   "value": 747998,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 2.997,
+   "address": "10507 RONWOOD 78750",
+   "assessed": 642420,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "homestead": true,
+   "lat": 30.431853,
+   "lon": -97.806979,
+   "sqft": 2407,
+   "value": 642420,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 3.028,
+   "address": "9202 CEDAR FOREST AUSTIN 78750",
+   "assessed": 644000,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "homestead": true,
+   "lat": 30.440977,
+   "lon": -97.795989,
+   "sqft": 2351,
+   "value": 644000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1974
+  },
+  {
+   "acres": 3.198,
+   "address": "11924 BROOKWOOD AUSTIN 78750",
+   "assessed": 678139,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "homestead": false,
+   "lat": 30.442083,
+   "lon": -97.789907,
+   "sqft": 2497,
+   "value": 678139,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1972
+  },
+  {
+   "acres": 3.201,
+   "address": "9016 BALCONES CLUB 78750",
+   "assessed": 705581,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "homestead": true,
+   "lat": 30.440879,
+   "lon": -97.792245,
+   "sqft": 2131,
+   "value": 705581,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 3.164,
+   "address": "10503 SPICEWOOD AUSTIN 78750",
+   "assessed": 687501,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.430538,
+   "lon": -97.806837,
+   "sqft": 2206,
+   "value": 687501,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 3.757,
+   "address": "10000 MANDEVILLE 78750",
+   "assessed": 786240,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "homestead": true,
+   "lat": 30.439797,
+   "lon": -97.803509,
+   "sqft": 2512,
+   "value": 786240,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1975
+  },
+  {
+   "acres": 1.865,
+   "address": "11512 TIN CUP 78750",
+   "assessed": 335760,
+   "class": "A4",
+   "deed_date": "2026-06-22",
+   "homestead": true,
+   "lat": 30.443543,
+   "lon": -97.805212,
+   "sqft": 1868,
+   "value": 335760,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 2.119,
+   "address": "9113 EVENING PRIMROSE 78750",
+   "assessed": 931603,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.43391,
+   "lon": -97.792612,
+   "sqft": 3416,
+   "value": 931603,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 4.571,
+   "address": "11442 RUSTIC ROCK 78750",
+   "assessed": 815126,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.432159,
+   "lon": -97.785982,
+   "sqft": 2723,
+   "value": 815126,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1991
+  },
+  {
+   "acres": 2.938,
+   "address": "11009 ARCH AUSTIN 78750",
+   "assessed": 753842,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.432572,
+   "lon": -97.795782,
+   "sqft": 2643,
+   "value": 753842,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 2.981,
+   "address": "11438 RUSTIC ROCK AUSTIN 78750",
+   "assessed": 786733,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.431724,
+   "lon": -97.785621,
+   "sqft": 2372,
+   "value": 786733,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1991
+  },
+  {
+   "acres": 3.2,
+   "address": "10804 WINCHELSEA AUSTIN 78750",
+   "assessed": 1236000,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.438538,
+   "lon": -97.812033,
+   "sqft": 3706,
+   "value": 1236000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
+   "acres": 3.11,
+   "address": "10004 LIRIOPE AUSTIN 78750",
+   "assessed": 680463,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.445232,
+   "lon": -97.800275,
+   "sqft": 2340,
+   "value": 680463,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1998
+  },
+  {
+   "acres": 2.531,
+   "address": "10810 WINTERGREEN HILL 78750",
+   "assessed": 862869,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.430647,
+   "lon": -97.797756,
+   "sqft": 2275,
+   "value": 862869,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 4.152,
+   "address": "9602 PETITE CV II 78750",
+   "assessed": 748131,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "homestead": false,
+   "lat": 30.429011,
+   "lon": -97.803919,
+   "sqft": 2783,
+   "value": 748131,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 3.224,
+   "address": "9105 BALCONES CLUB AUSTIN 78750",
+   "assessed": 609215,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "homestead": true,
+   "lat": 30.443531,
+   "lon": -97.793494,
+   "sqft": 1739,
+   "value": 609215,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1971
+  },
+  {
+   "acres": 1.865,
+   "address": "11512 TIN CUP 78750",
+   "assessed": 289644,
+   "class": "A4",
+   "deed_date": "2026-06-05",
+   "homestead": false,
+   "lat": 30.442941,
+   "lon": -97.804892,
+   "sqft": 1285,
+   "value": 289644,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 3.119,
+   "address": "9401 TOPRIDGE 78750",
+   "assessed": 845265,
+   "class": "A1",
+   "deed_date": "2026-06-03",
+   "homestead": false,
+   "lat": 30.433457,
+   "lon": -97.796471,
+   "sqft": 3232,
+   "value": 845265,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
+   "acres": 2.984,
+   "address": "11413 MONET AUSTIN 78726",
+   "assessed": 713017,
+   "class": "A1",
+   "deed_date": "2026-06-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.450396,
+   "lon": -97.820501,
+   "sqft": 2090,
+   "value": 736356,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1997
+  },
   {
    "acres": 0.136,
    "address": "9707 ANDERSON MILL RD, UNIT #27, AUSTIN, TX  78750",
@@ -26,18 +935,83 @@
    "year_built": 2009
   },
   {
+   "acres": 6.784,
+   "address": "10202 LOCKERBIE AUSTIN 78750",
+   "assessed": 1059925,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "TILE",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.434346,
+   "lon": -97.812459,
+   "sqft": 3706,
+   "value": 1060114,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 9.996,
+   "address": "11403 CENTENNIAL AUSTIN 78726",
+   "assessed": 860686,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "homestead": true,
+   "lat": 30.446293,
+   "lon": -97.81312,
+   "sqft": 2488,
+   "value": 1072057,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1976
+  },
+  {
+   "acres": 5.052,
+   "address": "11703 RUSTIC ROCK 78750",
+   "assessed": 540160,
+   "class": "B2",
+   "deed_date": "2026-05-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.434015,
+   "lon": -97.779488,
+   "sqft": 2204,
+   "value": 540160,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
    "acres": 3.289,
    "address": "9305 SPRINGWOOD 78750",
-   "assessed": 505450,
+   "assessed": 441460,
    "class": "A1",
    "deed_date": "2026-05-19",
    "homestead": false,
    "lat": 30.439484,
    "lon": -97.795181,
    "sqft": 3316,
-   "value": 505450,
+   "value": 441460,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1976
+  },
+  {
+   "acres": 3.643,
+   "address": "10900 PLUMEWOOD AUSTIN 78750",
+   "assessed": 1028000,
+   "class": "A1",
+   "deed_date": "2026-05-16",
+   "homestead": true,
+   "lat": 30.436934,
+   "lon": -97.808058,
+   "sqft": 3141,
+   "value": 1028000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
   },
   {
    "acres": 3.306,
@@ -56,7 +1030,7 @@
   {
    "acres": 2.848,
    "address": "9700 VISTA VIEW 78750",
-   "assessed": 678895,
+   "assessed": 592947,
    "class": "A1",
    "deed_date": "2026-05-15",
    "extras": {
@@ -67,7 +1041,7 @@
    "lat": 30.427996,
    "lon": -97.805402,
    "sqft": 2640,
-   "value": 678895,
+   "value": 592947,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1977
   },
@@ -96,7 +1070,7 @@
    "assessed": 756688,
    "class": "A1",
    "deed_date": "2026-05-13",
-   "homestead": false,
+   "homestead": true,
    "lat": 30.442739,
    "lon": -97.794353,
    "sqft": 2478,
@@ -133,7 +1107,7 @@
    "lat": 30.446969,
    "lon": -97.813779,
    "sqft": 1910,
-   "value": 986706,
+   "value": 979000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1980
   },
@@ -158,7 +1132,7 @@
   },
   {
    "acres": 3.194,
-   "address": "9304 SPRING HOLLOW",
+   "address": "9304 SPRING HOLLOW 78750",
    "assessed": 946464,
    "class": "A1",
    "deed_date": "2026-05-08",
@@ -306,6 +1280,25 @@
    "year_built": 1991
   },
   {
+   "acres": 3.136,
+   "address": "10701 WINCHELSEA AUSTIN 78750",
+   "assessed": 1085257,
+   "class": "A1",
+   "deed_date": "2026-05-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.436946,
+   "lon": -97.812647,
+   "sqft": 3475,
+   "value": 1085257,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2000
+  },
+  {
    "acres": 6.947,
    "address": "10907 SPICEWOOD 78750",
    "assessed": 672967,
@@ -365,7 +1358,7 @@
   {
    "acres": 5.17,
    "address": "11422 RUSTIC ROCK 78750",
-   "assessed": 913245,
+   "assessed": 794158,
    "class": "A1",
    "deed_date": "2026-04-27",
    "extras": {
@@ -377,25 +1370,44 @@
    "lat": 30.430984,
    "lon": -97.783803,
    "sqft": 3294,
-   "value": 913245,
+   "value": 794158,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1991
   },
   {
+   "acres": 2.33,
+   "address": "11600 MEDALLION 78750",
+   "assessed": 649325,
+   "class": "A1",
+   "deed_date": "2026-04-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.443962,
+   "lon": -97.803108,
+   "sqft": 3275,
+   "value": 649325,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
    "acres": 3.421,
    "address": "10006 MANDEVILLE 78750",
-   "assessed": 1059566,
+   "assessed": 956676,
    "class": "A1",
    "deed_date": "2026-04-21",
    "extras": {
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.43987,
    "lon": -97.804516,
    "sqft": 2902,
-   "value": 1059566,
+   "value": 956676,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1974
   },
@@ -451,23 +1463,9 @@
    "year_built": 1972
   },
   {
-   "acres": 2.92,
-   "address": "10505 RONWOOD AUSTIN 78750",
-   "assessed": 668463,
-   "class": "A1",
-   "deed_date": "2026-04-10",
-   "homestead": true,
-   "lat": 30.431704,
-   "lon": -97.806769,
-   "sqft": 2413,
-   "value": 668463,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
-  },
-  {
    "acres": 8.097,
    "address": "11109 CONCHOS AUSTIN 78726",
-   "assessed": 1781172,
+   "assessed": 1548907,
    "class": "A1",
    "deed_date": "2026-04-10",
    "extras": {
@@ -479,7 +1477,7 @@
    "lat": 30.443864,
    "lon": -97.821746,
    "sqft": 5311,
-   "value": 1781172,
+   "value": 1548907,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
   },
@@ -519,7 +1517,7 @@
   {
    "acres": 5.547,
    "address": "9805 PATRICE 78750",
-   "assessed": 2891143,
+   "assessed": 2878791,
    "class": "A1",
    "deed_date": "2026-04-03",
    "extras": {
@@ -531,7 +1529,7 @@
    "lat": 30.425683,
    "lon": -97.812798,
    "sqft": 5211,
-   "value": 3237871,
+   "value": 2878791,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2019
   },
@@ -555,20 +1553,6 @@
    "year_built": 2000
   },
   {
-   "acres": 1.865,
-   "address": "11512 TIN CUP 78750",
-   "assessed": 342754,
-   "class": "A4",
-   "deed_date": "2026-03-31",
-   "homestead": false,
-   "lat": 30.443367,
-   "lon": -97.804824,
-   "sqft": 2149,
-   "value": 342754,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
    "acres": 5.292,
    "address": "10200 PICKFAIR AUSTIN 78750",
    "assessed": 1144489,
@@ -588,6 +1572,20 @@
    "year_built": 1986
   },
   {
+   "acres": 1.865,
+   "address": "11512 TIN CUP 78750",
+   "assessed": 342754,
+   "class": "A4",
+   "deed_date": "2026-03-31",
+   "homestead": false,
+   "lat": 30.443367,
+   "lon": -97.804824,
+   "sqft": 2149,
+   "value": 342754,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
    "acres": 3.115,
    "address": "9311 CLEAROCK AUSTIN 78750",
    "assessed": 726096,
@@ -604,25 +1602,6 @@
    "value": 726096,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1974
-  },
-  {
-   "acres": 19.49,
-   "address": "11200 PENCEWOOD AUSTIN 78750",
-   "assessed": 1160581,
-   "class": "A1",
-   "deed_date": "2026-03-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.441964,
-   "lon": -97.811645,
-   "sqft": 3813,
-   "value": 1160581,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1989
   },
   {
    "acres": 6.4,
@@ -644,18 +1623,23 @@
    "year_built": 2001
   },
   {
-   "acres": 2.893,
-   "address": "9403 SPRING HOLLOW AUSTIN 78750",
-   "assessed": 684060,
+   "acres": 19.49,
+   "address": "11200 PENCEWOOD AUSTIN 78750",
+   "assessed": 1160581,
    "class": "A1",
-   "deed_date": "2026-03-26",
+   "deed_date": "2026-03-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
    "homestead": true,
-   "lat": 30.441235,
-   "lon": -97.797002,
-   "sqft": 2639,
-   "value": 684060,
+   "lat": 30.441964,
+   "lon": -97.811645,
+   "sqft": 3813,
+   "value": 1160581,
    "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
+   "year_built": 1989
   },
   {
    "acres": 11.191,
@@ -688,7 +1672,7 @@
   {
    "acres": 3.536,
    "address": "9704 TALLEYRAN AUSTIN 78750",
-   "assessed": 1071730,
+   "assessed": 985799,
    "class": "A1",
    "deed_date": "2026-03-20",
    "extras": {
@@ -700,7 +1684,7 @@
    "lat": 30.429731,
    "lon": -97.805496,
    "sqft": 3948,
-   "value": 1133624,
+   "value": 985799,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1977
   },
@@ -744,7 +1728,7 @@
   {
    "acres": 3.793,
    "address": "10601 SPICEWOOD AUSTIN 78750",
-   "assessed": 788525,
+   "assessed": 688698,
    "class": "A1",
    "deed_date": "2026-03-17",
    "extras": {
@@ -756,7 +1740,7 @@
    "lat": 30.430928,
    "lon": -97.805946,
    "sqft": 3723,
-   "value": 788525,
+   "value": 688698,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1972
   },
@@ -805,7 +1789,7 @@
   {
    "acres": 2.984,
    "address": "9604 VISTA VIEW AUSTIN 78750",
-   "assessed": 990000,
+   "assessed": 900281,
    "class": "A1",
    "deed_date": "2026-03-11",
    "extras": {
@@ -817,23 +1801,9 @@
    "lat": 30.430133,
    "lon": -97.802737,
    "sqft": 3598,
-   "value": 1035282,
+   "value": 900281,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1976
-  },
-  {
-   "acres": 7.435,
-   "address": "10100 MANDEVILLE 78750",
-   "assessed": 924299,
-   "class": "A1",
-   "deed_date": "2026-03-10",
-   "homestead": true,
-   "lat": 30.439908,
-   "lon": -97.805372,
-   "sqft": 3830,
-   "value": 924299,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1974
   },
   {
    "acres": 3.111,
@@ -972,7 +1942,7 @@
   {
    "acres": 8.526,
    "address": "11202 SIERRA BLANCA 78726",
-   "assessed": 987743,
+   "assessed": 862695,
    "class": "A1",
    "deed_date": "2026-02-25",
    "extras": {
@@ -983,7 +1953,7 @@
    "lat": 30.445856,
    "lon": -97.817339,
    "sqft": 2703,
-   "value": 987743,
+   "value": 862695,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
   },
@@ -1037,10 +2007,10 @@
   {
    "acres": 2.234,
    "address": "10905 CHATEAU HILL 78750",
-   "assessed": 928322,
+   "assessed": 943604,
    "class": "A1",
    "deed_date": "2026-02-13",
-   "homestead": false,
+   "homestead": true,
    "lat": 30.432872,
    "lon": -97.799439,
    "sqft": 3031,
@@ -1070,14 +2040,14 @@
   {
    "acres": 1.865,
    "address": "11512 TIN CUP 78750",
-   "assessed": 345846,
+   "assessed": 325000,
    "class": "A4",
    "deed_date": "2026-02-10",
    "homestead": true,
    "lat": 30.443156,
    "lon": -97.805437,
    "sqft": 1697,
-   "value": 345846,
+   "value": 325000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1982
   },
@@ -1152,9 +2122,28 @@
    "year_built": 1982
   },
   {
+   "acres": 3.017,
+   "address": "10002 ULLSWATER AUSTIN 78750",
+   "assessed": 1021669,
+   "class": "A1",
+   "deed_date": "2026-01-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.427896,
+   "lon": -97.811722,
+   "sqft": 3217,
+   "value": 1021669,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
    "acres": 3.228,
    "address": "10708 PICKFAIR AUSTIN 78750",
-   "assessed": 948299,
+   "assessed": 843133,
    "class": "A1",
    "deed_date": "2026-01-29",
    "extras": {
@@ -1165,7 +2154,7 @@
    "lat": 30.435566,
    "lon": -97.81039,
    "sqft": 3004,
-   "value": 948299,
+   "value": 843133,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1984
   },
@@ -1191,7 +2180,7 @@
   {
    "acres": 2.238,
    "address": "11304 CEZANNE AUSTIN 78726",
-   "assessed": 720387,
+   "assessed": 680551,
    "class": "A1",
    "deed_date": "2026-01-20",
    "extras": {
@@ -1203,21 +2192,21 @@
    "lat": 30.44962,
    "lon": -97.820799,
    "sqft": 2462,
-   "value": 779197,
+   "value": 680551,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1997
   },
   {
    "acres": 3.77,
    "address": "9619 VISTA VIEW 78750",
-   "assessed": 667936,
+   "assessed": 583375,
    "class": "A1",
    "deed_date": "2026-01-19",
    "homestead": false,
    "lat": 30.428475,
    "lon": -97.803102,
    "sqft": 2058,
-   "value": 667936,
+   "value": 583375,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1977
   },
@@ -1238,7 +2227,7 @@
   {
    "acres": 10.38,
    "address": "11024 PENCEWOOD 78750",
-   "assessed": 1205168,
+   "assessed": 1146085,
    "class": "A1",
    "deed_date": "2026-01-15",
    "extras": {
@@ -1250,7 +2239,7 @@
    "lat": 30.440544,
    "lon": -97.812891,
    "sqft": 4111,
-   "value": 1317945,
+   "value": 1146085,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1996
   },
@@ -1309,7 +2298,7 @@
   {
    "acres": 3.996,
    "address": "8711 CREST RIDGE 78750",
-   "assessed": 836975,
+   "assessed": 744154,
    "class": "A1",
    "deed_date": "2025-12-31",
    "extras": {
@@ -1321,7 +2310,7 @@
    "lat": 30.435566,
    "lon": -97.785797,
    "sqft": 2313,
-   "value": 836975,
+   "value": 744154,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1972
   },
@@ -1347,14 +2336,14 @@
   {
    "acres": 2.874,
    "address": "11203 PICKFAIR AUSTIN 78750",
-   "assessed": 1014248,
+   "assessed": 972000,
    "class": "A1",
    "deed_date": "2025-12-22",
    "homestead": true,
    "lat": 30.441073,
    "lon": -97.809619,
    "sqft": 2802,
-   "value": 1014248,
+   "value": 972000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1978
   },
@@ -1369,7 +2358,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.445973,
    "lon": -97.8211,
    "sqft": 3830,
@@ -1380,7 +2369,7 @@
   {
    "acres": 3.519,
    "address": "9805 BRANDYWINE 78750",
-   "assessed": 684267,
+   "assessed": 597639,
    "class": "A1",
    "deed_date": "2025-12-18",
    "extras": {
@@ -1392,21 +2381,21 @@
    "lat": 30.435377,
    "lon": -97.805413,
    "sqft": 2330,
-   "value": 684267,
+   "value": 597639,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1976
   },
   {
    "acres": 3.743,
    "address": "9903 MANDEVILLE AUSTIN 78750",
-   "assessed": 705316,
+   "assessed": 675340,
    "class": "A1",
    "deed_date": "2025-12-18",
    "homestead": true,
    "lat": 30.438963,
    "lon": -97.802873,
    "sqft": 2920,
-   "value": 705316,
+   "value": 675340,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1977
   },
@@ -1434,7 +2423,7 @@
     "foundation": "SLAB",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.430163,
    "lon": -97.810375,
    "sqft": 3066,
@@ -1515,7 +2504,7 @@
   {
    "acres": 3.332,
    "address": "8800 BALCONES CLUB AUSTIN 78750",
-   "assessed": 860590,
+   "assessed": 765151,
    "class": "A1",
    "deed_date": "2025-11-19",
    "extras": {
@@ -1526,7 +2515,7 @@
    "lat": 30.43848,
    "lon": -97.785602,
    "sqft": 2518,
-   "value": 860590,
+   "value": 765151,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1972
   },
@@ -1547,7 +2536,7 @@
   {
    "acres": 8.718,
    "address": "10537 GRAND OAK AUSTIN 78750",
-   "assessed": 851386,
+   "assessed": 756967,
    "class": "A1",
    "deed_date": "2025-11-10",
    "extras": {
@@ -1555,11 +2544,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.428666,
    "lon": -97.80098,
    "sqft": 2586,
-   "value": 851386,
+   "value": 756967,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1993
   },
@@ -1574,7 +2563,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.433923,
    "lon": -97.799386,
    "sqft": 2263,
@@ -1658,42 +2647,9 @@
    "year_built": 2000
   },
   {
-   "acres": 4.152,
-   "address": "9602 PETITE CV II 78750",
-   "assessed": 748131,
-   "class": "A1",
-   "deed_date": "2025-10-30",
-   "homestead": false,
-   "lat": 30.429011,
-   "lon": -97.803919,
-   "sqft": 2783,
-   "value": 748131,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
-  },
-  {
-   "acres": 3.397,
-   "address": "8706 BALCONES CLUB AUSTIN 78750",
-   "assessed": 754822,
-   "class": "A1",
-   "deed_date": "2025-10-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.438437,
-   "lon": -97.784634,
-   "sqft": 3040,
-   "value": 754822,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
-  },
-  {
    "acres": 12.456,
    "address": "10701 GLASS MOUNTAIN AUSTIN 78750",
-   "assessed": 1160057,
+   "assessed": 942033,
    "class": "A1",
    "deed_date": "2025-10-29",
    "extras": {
@@ -1705,14 +2661,33 @@
    "lat": 30.440403,
    "lon": -97.816157,
    "sqft": 2848,
-   "value": 1160057,
+   "value": 942033,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1978
   },
   {
+   "acres": 3.397,
+   "address": "8706 BALCONES CLUB AUSTIN 78750",
+   "assessed": 722742,
+   "class": "A1",
+   "deed_date": "2025-10-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.438437,
+   "lon": -97.784634,
+   "sqft": 3040,
+   "value": 722742,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1972
+  },
+  {
    "acres": 3.53,
    "address": "9905 PATRICE 78750",
-   "assessed": 1146530,
+   "assessed": 1056858,
    "class": "A1",
    "deed_date": "2025-10-24",
    "extras": {
@@ -1724,7 +2699,7 @@
    "lat": 30.426694,
    "lon": -97.812408,
    "sqft": 4265,
-   "value": 1188683,
+   "value": 1056858,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2003
   },
@@ -1771,7 +2746,7 @@
    "lat": 30.432664,
    "lon": -97.790673,
    "sqft": 3660,
-   "value": 1414614,
+   "value": 1050000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2000
   },
@@ -1830,7 +2805,7 @@
   {
    "acres": 3.805,
    "address": "9613 TREE BEND AUSTIN 78750",
-   "assessed": 1495016,
+   "assessed": 1329219,
    "class": "A1",
    "deed_date": "2025-10-16",
    "extras": {
@@ -1838,11 +2813,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.426519,
    "lon": -97.806781,
    "sqft": 4316,
-   "value": 1495016,
+   "value": 1329219,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
   },
@@ -1857,7 +2832,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.424833,
    "lon": -97.807432,
    "sqft": 3434,
@@ -1883,903 +2858,26 @@
    "value": 817274,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1999
-  },
-  {
-   "acres": 2.414,
-   "address": "11308 CEDARCLIFFE AUSTIN 78750",
-   "assessed": 851757,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.431969,
-   "lon": -97.787757,
-   "sqft": 3056,
-   "value": 851757,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": 3.71,
-   "address": "9423 BING CHERRY AUSTIN 78750",
-   "assessed": 1098726,
-   "class": "A1",
-   "deed_date": "2025-10-12",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.435769,
-   "lon": -97.795937,
-   "sqft": 3681,
-   "value": 1098726,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.209,
-   "address": "9707 ANDERSON MILL RD, UNIT #4, AUSTIN, TX  78750",
-   "assessed": 364127,
-   "class": "A8",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.446893,
-   "lon": -97.794303,
-   "sqft": 1302,
-   "value": 364127,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": 2.01,
-   "address": "9902 MARSEILLES AUSTIN 78750",
-   "assessed": 642376,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "homestead": true,
-   "lat": 30.432673,
-   "lon": -97.806929,
-   "sqft": 2172,
-   "value": 642376,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
-  },
-  {
-   "acres": 2.798,
-   "address": "10502 RONWOOD AUSTIN 78750",
-   "assessed": 836593,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "homestead": false,
-   "lat": 30.431343,
-   "lon": -97.807158,
-   "sqft": 2120,
-   "value": 836593,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
-  },
-  {
-   "acres": 6.977,
-   "address": "9311 ASHTON 78750",
-   "assessed": 886006,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "homestead": false,
-   "lat": 30.429799,
-   "lon": -97.799662,
-   "sqft": 3168,
-   "value": 886006,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1986
-  },
-  {
-   "acres": 3.242,
-   "address": "11906 BROOKWOOD AUSTIN 78750",
-   "assessed": 765188,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "homestead": false,
-   "lat": 30.442212,
-   "lon": -97.789488,
-   "sqft": 2211,
-   "value": 765188,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1974
-  },
-  {
-   "acres": 3.931,
-   "address": "9613 VISTA VIEW AUSTIN 78750",
-   "assessed": 740923,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "homestead": true,
-   "lat": 30.429213,
-   "lon": -97.80269,
-   "sqft": 3854,
-   "value": 740923,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 1.865,
-   "address": "11512 TIN CUP 78750",
-   "assessed": 342068,
-   "class": "A4",
-   "deed_date": "2025-09-22",
-   "homestead": true,
-   "lat": 30.443934,
-   "lon": -97.804771,
-   "sqft": 2149,
-   "value": 342068,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 2.572,
-   "address": "11405 CEZANNE 78726",
-   "assessed": 808818,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.449487,
-   "lon": -97.820016,
-   "sqft": 2671,
-   "value": 808818,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1997
-  },
-  {
-   "acres": 2.382,
-   "address": "11006 WINTERGREEN HILL AUSTIN 78750",
-   "assessed": 777437,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.433188,
-   "lon": -97.798351,
-   "sqft": 2133,
-   "value": 777437,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 3.202,
-   "address": "8719 CREST RIDGE 78750",
-   "assessed": 655724,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.435165,
-   "lon": -97.786991,
-   "sqft": 2405,
-   "value": 655724,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1970
-  },
-  {
-   "acres": 2.828,
-   "address": "8700 BALCONES CLUB AUSTIN 78750",
-   "assessed": 668561,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "homestead": false,
-   "lat": 30.438431,
-   "lon": -97.783639,
-   "sqft": 2420,
-   "value": 668561,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
-  },
-  {
-   "acres": 3.328,
-   "address": "9202 SPRING HOLLOW 78750",
-   "assessed": 658178,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "homestead": false,
-   "lat": 30.441692,
-   "lon": -97.794482,
-   "sqft": 2250,
-   "value": 658178,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 2.882,
-   "address": "11207 PICKFAIR AUSTIN 78750",
-   "assessed": 745057,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "homestead": false,
-   "lat": 30.441447,
-   "lon": -97.809207,
-   "sqft": 2537,
-   "value": 745057,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1980
-  },
-  {
-   "acres": 2.923,
-   "address": "10502 LORING AUSTIN 78750",
-   "assessed": 686173,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "homestead": false,
-   "lat": 30.445887,
-   "lon": -97.808569,
-   "sqft": 2694,
-   "value": 686173,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 4.171,
-   "address": "10303 SPICEWOOD AUSTIN 78750",
-   "assessed": 993229,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.429282,
-   "lon": -97.808036,
-   "sqft": 3630,
-   "value": 993229,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2000
-  },
-  {
-   "acres": 3.223,
-   "address": "11105 SPICEWOOD CLUB AUSTIN 78750",
-   "assessed": 702264,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "homestead": true,
-   "lat": 30.438426,
-   "lon": -97.806086,
-   "sqft": 2848,
-   "value": 702264,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 3.497,
-   "address": "10305 PICKFAIR AUSTIN 78750",
-   "assessed": 871446,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.43072,
-   "lon": -97.810322,
-   "sqft": 3162,
-   "value": 871446,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 3.602,
-   "address": "9309 CEDAR FOREST AUSTIN 78750",
-   "assessed": 901475,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.439402,
-   "lon": -97.796292,
-   "sqft": 2806,
-   "value": 901475,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1977
-  },
-  {
-   "acres": 3.295,
-   "address": "11408 SPICEWOOD AUSTIN 78750",
-   "assessed": 828089,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "homestead": false,
-   "lat": 30.440568,
-   "lon": -97.799609,
-   "sqft": 2971,
-   "value": 828089,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 3.649,
-   "address": "9809 MANDEVILLE AUSTIN 78750",
-   "assessed": 708370,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.438133,
-   "lon": -97.804736,
-   "sqft": 2805,
-   "value": 708370,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 3.542,
-   "address": "11923 BROOKWOOD AUSTIN 78750",
-   "assessed": 804966,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "homestead": false,
-   "lat": 30.441823,
-   "lon": -97.790456,
-   "sqft": 3839,
-   "value": 804966,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1970
-  },
-  {
-   "acres": 3.13,
-   "address": "11208 TATERWOOD AUSTIN 78750",
-   "assessed": 720196,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "homestead": false,
-   "lat": 30.442094,
-   "lon": -97.810767,
-   "sqft": 2367,
-   "value": 720196,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1980
-  },
-  {
-   "acres": 4.145,
-   "address": "9703 TREE BEND AUSTIN 78750",
-   "assessed": 1594622,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.427213,
-   "lon": -97.806999,
-   "sqft": 4076,
-   "value": 1594622,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 8.345,
-   "address": "11121 LAUREL CREEK AUSTIN 78726",
-   "assessed": 1334785,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.44593,
-   "lon": -97.821543,
-   "sqft": 3372,
-   "value": 1334785,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": 2.852,
-   "address": "11501 SPICEWOOD AUSTIN 78750",
-   "assessed": 681290,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.441076,
-   "lon": -97.799185,
-   "sqft": 2511,
-   "value": 681290,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1975
-  },
-  {
-   "acres": 3.002,
-   "address": "9804 BORDEAUX AUSTIN 78750",
-   "assessed": 905191,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "homestead": true,
-   "lat": 30.430156,
-   "lon": -97.806785,
-   "sqft": 2468,
-   "value": 905191,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
-  },
-  {
-   "acres": 2.912,
-   "address": "11311 PICKFAIR AUSTIN 78750",
-   "assessed": 806979,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "homestead": true,
-   "lat": 30.442527,
-   "lon": -97.807747,
-   "sqft": 3569,
-   "value": 806979,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1980
-  },
-  {
-   "acres": 5.873,
-   "address": "8908 SPRING LAKE 78750",
-   "assessed": 160000,
-   "class": "C1",
-   "deed_date": "2025-08-11",
-   "homestead": false,
-   "lat": 30.436,
-   "lon": -97.792974,
-   "value": 160000,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 3.635,
-   "address": "9404 ARCHHILL 78750",
-   "assessed": 752768,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "homestead": true,
-   "lat": 30.443689,
-   "lon": -97.799019,
-   "sqft": 2366,
-   "value": 752768,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1975
-  },
-  {
-   "acres": 2.272,
-   "address": "11208 CEDARCLIFFE AUSTIN 78750",
-   "assessed": 817815,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.429929,
-   "lon": -97.787217,
-   "sqft": 2861,
-   "value": 817815,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1997
-  },
-  {
-   "acres": 2.014,
-   "address": "10504 GRAND OAK AUSTIN 78750",
-   "assessed": 789433,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.427981,
-   "lon": -97.801799,
-   "sqft": 2901,
-   "value": 789433,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1993
-  },
-  {
-   "acres": 3.593,
-   "address": "10507 SPICEWOOD 78750",
-   "assessed": 908069,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "homestead": true,
-   "lat": 30.430804,
-   "lon": -97.806271,
-   "sqft": 2387,
-   "value": 908069,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 2.451,
-   "address": "11409 CEZANNE 78726",
-   "assessed": 853914,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.449689,
-   "lon": -97.819829,
-   "sqft": 2952,
-   "value": 853914,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": 3.048,
-   "address": "10401 WELLER AUSTIN 78750",
-   "assessed": 973208,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.443943,
-   "lon": -97.807941,
-   "sqft": 3260,
-   "value": 973208,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 2.289,
-   "address": "10501 RONWOOD AUSTIN 78750",
-   "assessed": 959705,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "homestead": true,
-   "lat": 30.431246,
-   "lon": -97.806519,
-   "sqft": 2440,
-   "value": 959705,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
-  },
-  {
-   "acres": 3.255,
-   "address": "10616 SPICEWOOD AUSTIN 78750",
-   "assessed": 697418,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "homestead": false,
-   "lat": 30.431022,
-   "lon": -97.803406,
-   "sqft": 2699,
-   "value": 697418,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 3.847,
-   "address": "8600 CREST RIDGE AUSTIN 78750",
-   "assessed": 762118,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "homestead": false,
-   "lat": 30.436655,
-   "lon": -97.782674,
-   "sqft": 2740,
-   "value": 762118,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1970
-  },
-  {
-   "acres": 2.828,
-   "address": "10403 WELLER AUSTIN 78750",
-   "assessed": 652073,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "homestead": false,
-   "lat": 30.443697,
-   "lon": -97.8081,
-   "sqft": 2545,
-   "value": 652073,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1981
-  },
-  {
-   "acres": 3.776,
-   "address": "9220 EVENING PRIMROSE 78750",
-   "assessed": 1231585,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.435635,
-   "lon": -97.793395,
-   "sqft": 4457,
-   "value": 1231585,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
-   "acres": 3.583,
-   "address": "11440 RUSTIC ROCK 78750",
-   "assessed": 805855,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.43193,
-   "lon": -97.785805,
-   "sqft": 2268,
-   "value": 805855,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1990
-  },
-  {
-   "acres": 3.433,
-   "address": "10810 SPICEWOOD 78750",
-   "assessed": 1192291,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.433633,
-   "lon": -97.800711,
-   "sqft": 3704,
-   "value": 1192291,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1975
-  },
-  {
-   "acres": 3.954,
-   "address": "10703 ASHTON AUSTIN 78750",
-   "assessed": 913281,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "homestead": false,
-   "lat": 30.431051,
-   "lon": -97.799256,
-   "sqft": 2697,
-   "value": 913281,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1984
-  },
-  {
-   "acres": 0.003,
-   "address": "9122 BALCONES CLUB DR, UNIT #9, AUSTIN, TX  78750",
-   "assessed": 509475,
-   "class": "A8",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.444342,
-   "lon": -97.790114,
-   "sqft": 2079,
-   "value": 509475,
-   "value_kind": "market (WCAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": 2.787,
-   "address": "9410 TOPRIDGE AUSTIN 78750",
-   "assessed": 808830,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.434552,
-   "lon": -97.797384,
-   "sqft": 2622,
-   "value": 808830,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 0.389,
-   "address": "11911 BROOKWOOD RD, AUSTIN, TX  78750",
-   "assessed": 592739,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.444677,
-   "lon": -97.790527,
-   "sqft": 1820,
-   "value": 592739,
-   "value_kind": "market (WCAD)",
-   "year_built": 1974
-  },
-  {
-   "acres": 3.107,
-   "address": "9015 FAIRWAY HILL AUSTIN 78750",
-   "assessed": 685201,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "TILE",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.43907,
-   "lon": -97.791694,
-   "sqft": 2648,
-   "value": 685201,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1975
-  },
-  {
-   "acres": 3.015,
-   "address": "10310 HOLME LACEY 78750",
-   "assessed": 1116494,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.431156,
-   "lon": -97.813536,
-   "sqft": 2774,
-   "value": 1116494,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1985
-  },
-  {
-   "acres": 3.283,
-   "address": "10100 ULLSWATER 78750",
-   "assessed": 1213660,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.427762,
-   "lon": -97.81137,
-   "sqft": 3824,
-   "value": 1213660,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2002
-  },
-  {
-   "acres": 9.512,
-   "address": "10600 OZARK AUSTIN 78750",
-   "assessed": 2352539,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "homestead": true,
-   "lat": 30.441515,
-   "lon": -97.814127,
-   "sqft": 4273,
-   "value": 2352539,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 2.902,
-   "address": "11903 BROOKWOOD AUSTIN 78750",
-   "assessed": 654953,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.442879,
-   "lon": -97.788977,
-   "sqft": 2386,
-   "value": 654953,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
-  },
-  {
-   "acres": 2.268,
-   "address": "9036 EVENING PRIMROSE AUSTIN 78750",
-   "assessed": 987067,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.433052,
-   "lon": -97.79133,
-   "sqft": 3456,
-   "value": 1223875,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
   }
  ],
  "windows": {
   "12mo": {
-   "count": 164,
-   "median_value": 810541,
-   "pct_of_households": 5.24,
-   "pct_of_population": 1.91
+   "count": 169,
+   "median_value": 780728,
+   "pct_of_households": 5.4,
+   "pct_of_population": 1.96
   },
   "3mo": {
-   "count": 29,
-   "median_value": 780728,
-   "pct_of_households": 0.93,
-   "pct_of_population": 0.34
+   "count": 30,
+   "median_value": 734568,
+   "pct_of_households": 0.96,
+   "pct_of_population": 0.35
   },
   "6mo": {
-   "count": 75,
-   "median_value": 786828,
-   "pct_of_households": 2.4,
-   "pct_of_population": 0.87
+   "count": 87,
+   "median_value": 753842,
+   "pct_of_households": 2.78,
+   "pct_of_population": 1.01
   }
  }
 }

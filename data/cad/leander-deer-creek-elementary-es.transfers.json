@@ -1,11 +1,711 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 114,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 123,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1759,
  "months_back": 12,
  "population_acs": 5283,
  "transfers": [
+  {
+   "acres": 1.783,
+   "address": "1503 GRAND FALLS CEDAR PARK 78613",
+   "assessed": 528232,
+   "class": "A1",
+   "deed_date": "2026-09-03",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.478403,
+   "lon": -97.851003,
+   "sqft": 2874,
+   "value": 528232,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.378,
+   "address": "2007 EBBSFLEET CEDAR PARK 78613",
+   "assessed": 774395,
+   "class": "A1",
+   "deed_date": "2026-09-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.470506,
+   "lon": -97.850856,
+   "sqft": 3680,
+   "value": 774395,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.903,
+   "address": "2101 BINDON 78613",
+   "assessed": 494155,
+   "class": "A1",
+   "deed_date": "2026-08-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.470797,
+   "lon": -97.849455,
+   "sqft": 2679,
+   "value": 494155,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.93,
+   "address": "2604 MEXICAN HAT CEDAR PARK 78613",
+   "assessed": 690646,
+   "class": "A1",
+   "deed_date": "2026-08-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.474125,
+   "lon": -97.853314,
+   "sqft": 3391,
+   "value": 690646,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.722,
+   "address": "1208 RITTER 78613",
+   "assessed": 474674,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.482793,
+   "lon": -97.854306,
+   "sqft": 2417,
+   "value": 474674,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.971,
+   "address": "2403 DARTFORD CEDAR PARK 78613",
+   "assessed": 661760,
+   "class": "A1",
+   "deed_date": "2026-08-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.468231,
+   "lon": -97.845804,
+   "sqft": 3335,
+   "value": 661760,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.671,
+   "address": "2835 CHECKER CEDAR PARK 78613",
+   "assessed": 697046,
+   "class": "A1",
+   "deed_date": "2026-08-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.489771,
+   "lon": -97.860727,
+   "sqft": 2958,
+   "value": 697046,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.105,
+   "address": "2413 ALTA MONTE 78613",
+   "assessed": 476383,
+   "class": "A1",
+   "deed_date": "2026-08-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.474427,
+   "lon": -97.850098,
+   "sqft": 2665,
+   "value": 476383,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 2.025,
+   "address": "2314 NARROW VALLEY CEDAR PARK 78613",
+   "assessed": 537768,
+   "class": "A1",
+   "deed_date": "2026-08-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.476648,
+   "lon": -97.849696,
+   "sqft": 3063,
+   "value": 537768,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2002
+  },
+  {
+   "acres": 1.389,
+   "address": "1002 HORNE CEDAR PARK 78613",
+   "assessed": 567061,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.486536,
+   "lon": -97.856489,
+   "sqft": 2684,
+   "value": 567061,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 3.565,
+   "address": "2501 ARMATRADING CEDAR PARK 78613",
+   "assessed": 974172,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.480316,
+   "lon": -97.853589,
+   "sqft": 4731,
+   "value": 974172,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.928,
+   "address": "2606 MEXICAN HAT 78613",
+   "assessed": 770833,
+   "class": "A1",
+   "deed_date": "2026-07-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.474155,
+   "lon": -97.853533,
+   "sqft": 4009,
+   "value": 770833,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 1.667,
+   "address": "2825 CHECKER CEDAR PARK 78613",
+   "assessed": 479511,
+   "class": "A1",
+   "deed_date": "2026-07-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.489054,
+   "lon": -97.860301,
+   "sqft": 2062,
+   "value": 479511,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 3.269,
+   "address": "2609 ARMATRADING CEDAR PARK 78613",
+   "assessed": 924900,
+   "class": "A1",
+   "deed_date": "2026-07-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.481537,
+   "lon": -97.856176,
+   "sqft": 4602,
+   "value": 924900,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 2.321,
+   "address": "2609 LOVETT 78613",
+   "assessed": 602845,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.484192,
+   "lon": -97.856985,
+   "sqft": 3437,
+   "value": 602845,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.353,
+   "address": "1604 TAHOKA DAISY CEDAR PARK 78613",
+   "assessed": 750000,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.476397,
+   "lon": -97.853592,
+   "sqft": 3853,
+   "value": 750000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 100.07,
+   "address": "10405 LIME CREEK LEANDER 78641",
+   "assessed": 762965,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.476436,
+   "lon": -97.899178,
+   "sqft": 2648,
+   "value": 1156000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1985
+  },
+  {
+   "acres": 2.118,
+   "address": "2414 GUARA 78613",
+   "assessed": 501422,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.466653,
+   "lon": -97.845984,
+   "sqft": 2153,
+   "value": 501422,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 4.241,
+   "address": "2500 ARMATRADING CEDAR PARK 78613",
+   "assessed": 987981,
+   "class": "A1",
+   "deed_date": "2026-07-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.480078,
+   "lon": -97.853526,
+   "sqft": 4603,
+   "value": 987981,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.153,
+   "address": "2204 CANTERBURY CV, CEDAR PARK, TX  78613",
+   "assessed": 554613,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.480919,
+   "lon": -97.84804,
+   "sqft": 1394,
+   "value": 554613,
+   "value_kind": "market (WCAD)",
+   "year_built": 1999
+  },
+  {
+   "acres": 1.873,
+   "address": "1109 ROWLEY CEDAR PARK 78613",
+   "assessed": 458068,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.485816,
+   "lon": -97.856501,
+   "sqft": 2378,
+   "value": 458068,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 0.194,
+   "address": "2014 RACHEL RIDGE, CEDAR PARK, TX  78613",
+   "assessed": 520580,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.487653,
+   "lon": -97.849902,
+   "sqft": 1213,
+   "value": 520580,
+   "value_kind": "market (WCAD)",
+   "year_built": 1999
+  },
+  {
+   "acres": 1.92,
+   "address": "2023 TATTLER CEDAR PARK 78613",
+   "assessed": 716935,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.46997,
+   "lon": -97.850106,
+   "sqft": 2906,
+   "value": 716935,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 1.792,
+   "address": "2003 EBBSFLEET CEDAR PARK 78613",
+   "assessed": 706783,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.470968,
+   "lon": -97.85092,
+   "sqft": 3672,
+   "value": 706783,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.37,
+   "address": "2726 ZAMBIA CEDAR PARK 78613",
+   "assessed": 727699,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.472306,
+   "lon": -97.855592,
+   "sqft": 3104,
+   "value": 727699,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 2.528,
+   "address": "2807 RAMBLER VALLEY 78613",
+   "assessed": 725250,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.480039,
+   "lon": -97.859043,
+   "sqft": 3418,
+   "value": 725250,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.461,
+   "address": "2718 CHECKER CEDAR PARK 78613",
+   "assessed": 593755,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.487247,
+   "lon": -97.858329,
+   "sqft": 2684,
+   "value": 593755,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
+   "acres": 0.146,
+   "address": "2203 KIMRA LN, CEDAR PARK, TX  78613",
+   "assessed": 352555,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.482198,
+   "lon": -97.848683,
+   "sqft": 1360,
+   "value": 352555,
+   "value_kind": "market (WCAD)",
+   "year_built": 1998
+  },
+  {
+   "acres": 0.149,
+   "address": "2208 KERR TRL, CEDAR PARK, TX  78613",
+   "assessed": 437122,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.480399,
+   "lon": -97.847198,
+   "sqft": 1908,
+   "value": 437122,
+   "value_kind": "market (WCAD)",
+   "year_built": 1999
+  },
+  {
+   "acres": 1.902,
+   "address": "1502 SHADY CREEK CEDAR PARK 78613",
+   "assessed": 483082,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.48022,
+   "lon": -97.851401,
+   "sqft": 2841,
+   "value": 483082,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 1.708,
+   "address": "1209 RITTER CEDAR PARK 78613",
+   "assessed": 633400,
+   "class": "A1",
+   "deed_date": "2026-06-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.483206,
+   "lon": -97.85467,
+   "sqft": 3353,
+   "value": 633400,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.136,
+   "address": "1800 JOJOBA CEDAR PARK 78613",
+   "assessed": 488364,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.476197,
+   "lon": -97.850109,
+   "sqft": 2675,
+   "value": 488364,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 2.132,
+   "address": "2609 MELEKHIN CEDAR PARK 78613",
+   "assessed": 529653,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.482209,
+   "lon": -97.855596,
+   "sqft": 2670,
+   "value": 529653,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.066,
+   "address": "2506 ARMATRADING CEDAR PARK 78613",
+   "assessed": 798881,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.479899,
+   "lon": -97.854322,
+   "sqft": 3776,
+   "value": 798881,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 4.082,
+   "address": "2808 COSTELLO CEDAR PARK 78613",
+   "assessed": 893010,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.480476,
+   "lon": -97.859501,
+   "sqft": 3661,
+   "value": 973349,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 3.306,
+   "address": "2405 NARROW VALLEY CEDAR PARK 78641",
+   "assessed": 518172,
+   "class": "A1",
+   "deed_date": "2026-06-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.476063,
+   "lon": -97.850875,
+   "sqft": 2884,
+   "value": 518172,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 2.053,
+   "address": "1910 WICKETT CEDAR PARK 78641",
+   "assessed": 512955,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.475234,
+   "lon": -97.849987,
+   "sqft": 3024,
+   "value": 512955,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
   {
    "acres": 0.235,
    "address": "2210 RACHEL RIDGE, CEDAR PARK, TX  78613",
@@ -45,6 +745,82 @@
    "year_built": 1999
   },
   {
+   "acres": 1.476,
+   "address": "902 RIPPERTON CEDAR PARK 78613",
+   "assessed": 481311,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.487663,
+   "lon": -97.861511,
+   "sqft": 2471,
+   "value": 481311,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": 1.646,
+   "address": "2831 CHECKER CEDAR PARK 78613",
+   "assessed": 414086,
+   "class": "A1",
+   "deed_date": "2026-05-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.489408,
+   "lon": -97.860562,
+   "sqft": 1609,
+   "value": 414086,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.768,
+   "address": "2507 POWDERHAM CEDAR PARK 78613",
+   "assessed": 506465,
+   "class": "A1",
+   "deed_date": "2026-05-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.469473,
+   "lon": -97.848802,
+   "sqft": 2111,
+   "value": 506465,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 3.448,
+   "address": "2902 LADY DAY CEDAR PARK 78613",
+   "assessed": 784578,
+   "class": "A1",
+   "deed_date": "2026-05-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.485067,
+   "lon": -97.862823,
+   "sqft": 2682,
+   "value": 784578,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2010
+  },
+  {
    "acres": 0.202,
    "address": "1601 SOMERSET CANYON LN, CEDAR PARK, TX  78613",
    "assessed": 553702,
@@ -66,7 +842,7 @@
   {
    "acres": 2.011,
    "address": "1108 CHALLA CEDAR PARK 78613",
-   "assessed": 585574,
+   "assessed": 503418,
    "class": "A1",
    "deed_date": "2026-05-13",
    "extras": {
@@ -78,7 +854,7 @@
    "lat": 30.484321,
    "lon": -97.854476,
    "sqft": 2524,
-   "value": 585574,
+   "value": 503418,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -93,7 +869,7 @@
     "foundation": "SLB",
     "roof": "HP"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.481116,
    "lon": -97.847438,
    "sqft": 976,
@@ -112,7 +888,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.48768,
    "lon": -97.859078,
    "sqft": 2601,
@@ -123,7 +899,7 @@
   {
    "acres": 2.204,
    "address": "2510 ZAMBIA CEDAR PARK 78613",
-   "assessed": 712908,
+   "assessed": 624151,
    "class": "A1",
    "deed_date": "2026-05-04",
    "extras": {
@@ -135,9 +911,28 @@
    "lat": 30.47215,
    "lon": -97.851269,
    "sqft": 3797,
-   "value": 712908,
+   "value": 624151,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
+  },
+  {
+   "acres": 1.99,
+   "address": "2717 LOVETT 78613",
+   "assessed": 591300,
+   "class": "A1",
+   "deed_date": "2026-05-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.485711,
+   "lon": -97.858156,
+   "sqft": 2752,
+   "value": 591300,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
   },
   {
    "acres": 1.46,
@@ -245,7 +1040,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.484459,
    "lon": -97.860616,
    "sqft": 4566,
@@ -332,7 +1127,7 @@
   {
    "acres": 2.365,
    "address": "2714 GHOLSON CEDAR PARK 78613",
-   "assessed": 839444,
+   "assessed": 775000,
    "class": "A1",
    "deed_date": "2026-04-08",
    "extras": {
@@ -344,7 +1139,7 @@
    "lat": 30.477495,
    "lon": -97.855242,
    "sqft": 3767,
-   "value": 839444,
+   "value": 775000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -366,25 +1161,6 @@
    "value": 643159,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
-  },
-  {
-   "acres": 2.378,
-   "address": "2007 EBBSFLEET CEDAR PARK 78613",
-   "assessed": 774395,
-   "class": "A1",
-   "deed_date": "2026-04-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.470506,
-   "lon": -97.850856,
-   "sqft": 3680,
-   "value": 774395,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
   },
   {
    "acres": 2.033,
@@ -427,7 +1203,7 @@
   {
    "acres": 1.991,
    "address": "1102 ROWLEY CEDAR PARK 78613",
-   "assessed": 699120,
+   "assessed": 643300,
    "class": "A1",
    "deed_date": "2026-03-31",
    "extras": {
@@ -439,7 +1215,7 @@
    "lat": 30.485826,
    "lon": -97.855829,
    "sqft": 2924,
-   "value": 699120,
+   "value": 643300,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -484,7 +1260,7 @@
   {
    "acres": 2.182,
    "address": "1806 CHULA VISTA CEDAR PARK 78613",
-   "assessed": 560785,
+   "assessed": 482107,
    "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
@@ -495,7 +1271,7 @@
    "lat": 30.474964,
    "lon": -97.851055,
    "sqft": 3034,
-   "value": 560785,
+   "value": 482107,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
   },
@@ -521,7 +1297,7 @@
   {
    "acres": 1.843,
    "address": "2205 SPOONBILL CEDAR PARK 78613",
-   "assessed": 547045,
+   "assessed": 467723,
    "class": "A1",
    "deed_date": "2026-03-19",
    "extras": {
@@ -533,7 +1309,7 @@
    "lat": 30.468888,
    "lon": -97.847138,
    "sqft": 2378,
-   "value": 547045,
+   "value": 467723,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2004
   },
@@ -635,7 +1411,7 @@
   {
    "acres": 1.704,
    "address": "617 BASIE CEDAR PARK 78613",
-   "assessed": 608007,
+   "assessed": 532310,
    "class": "A1",
    "deed_date": "2026-03-02",
    "extras": {
@@ -647,28 +1423,9 @@
    "lat": 30.489075,
    "lon": -97.862095,
    "sqft": 2958,
-   "value": 608007,
+   "value": 532310,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
-  },
-  {
-   "acres": 4.241,
-   "address": "2500 ARMATRADING CEDAR PARK 78613",
-   "assessed": 987981,
-   "class": "A1",
-   "deed_date": "2026-02-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.480078,
-   "lon": -97.853526,
-   "sqft": 4603,
-   "value": 987981,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
   },
   {
    "acres": 2.157,
@@ -726,25 +1483,6 @@
    "value": 507479,
    "value_kind": "market (WCAD)",
    "year_built": 2001
-  },
-  {
-   "acres": 1.93,
-   "address": "2604 MEXICAN HAT CEDAR PARK 78613",
-   "assessed": 690646,
-   "class": "A1",
-   "deed_date": "2026-02-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.474125,
-   "lon": -97.853314,
-   "sqft": 3391,
-   "value": 690646,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
   },
   {
    "acres": 0.175,
@@ -915,7 +1653,7 @@
   {
    "acres": 1.928,
    "address": "2602 ZAMBIA CEDAR PARK 78613",
-   "assessed": 692590,
+   "assessed": 606363,
    "class": "A1",
    "deed_date": "2025-12-30",
    "extras": {
@@ -927,14 +1665,14 @@
    "lat": 30.471971,
    "lon": -97.851871,
    "sqft": 3029,
-   "value": 692590,
+   "value": 606363,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2002
   },
   {
    "acres": 0.185,
    "address": "2200 MILAN DR, CEDAR PARK, TX  78613",
-   "assessed": 497274,
+   "assessed": 434963,
    "class": "A1",
    "deed_date": "2025-12-29",
    "extras": {
@@ -946,7 +1684,7 @@
    "lat": 30.482492,
    "lon": -97.848944,
    "sqft": 1130,
-   "value": 497274,
+   "value": 434963,
    "value_kind": "market (WCAD)",
    "year_built": 1999
   },
@@ -972,7 +1710,7 @@
   {
    "acres": 2.055,
    "address": "2310 DERVINGHAM CEDAR PARK 78613",
-   "assessed": 619487,
+   "assessed": 542361,
    "class": "A1",
    "deed_date": "2025-12-23",
    "extras": {
@@ -980,11 +1718,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.466877,
    "lon": -97.847905,
    "sqft": 2938,
-   "value": 619487,
+   "value": 542361,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -1009,7 +1747,7 @@
   {
    "acres": 2.211,
    "address": "2120 BINDON CEDAR PARK 78613",
-   "assessed": 646429,
+   "assessed": 552697,
    "class": "A1",
    "deed_date": "2025-12-20",
    "extras": {
@@ -1017,11 +1755,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.469627,
    "lon": -97.847755,
    "sqft": 3178,
-   "value": 646429,
+   "value": 552697,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -1074,7 +1812,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.483888,
    "lon": -97.854739,
    "sqft": 3689,
@@ -1103,7 +1841,7 @@
   {
    "acres": 1.718,
    "address": "619 BASIE CEDAR PARK 78613",
-   "assessed": 576042,
+   "assessed": 510000,
    "class": "A1",
    "deed_date": "2025-12-08",
    "extras": {
@@ -1111,11 +1849,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.489001,
    "lon": -97.862229,
    "sqft": 2719,
-   "value": 576042,
+   "value": 510000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -1388,7 +2126,7 @@
   {
    "acres": 1.949,
    "address": "1113 ROWLEY 78613",
-   "assessed": 516898,
+   "assessed": 441948,
    "class": "A1",
    "deed_date": "2025-11-04",
    "extras": {
@@ -1400,7 +2138,7 @@
    "lat": 30.485515,
    "lon": -97.856677,
    "sqft": 2292,
-   "value": 516898,
+   "value": 441948,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -1464,7 +2202,7 @@
   {
    "acres": 1.827,
    "address": "1903 WICKETT CEDAR PARK 78613",
-   "assessed": 493092,
+   "assessed": 489248,
    "class": "A1",
    "deed_date": "2025-10-28",
    "extras": {
@@ -1476,7 +2214,7 @@
    "lat": 30.474682,
    "lon": -97.850575,
    "sqft": 2523,
-   "value": 493092,
+   "value": 489248,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2002
   },
@@ -1577,7 +2315,7 @@
   {
    "acres": 2.449,
    "address": "2607 ARMATRADING 78613",
-   "assessed": 940452,
+   "assessed": 861525,
    "class": "A1",
    "deed_date": "2025-10-16",
    "extras": {
@@ -1589,592 +2327,29 @@
    "lat": 30.481457,
    "lon": -97.855889,
    "sqft": 4599,
-   "value": 940452,
+   "value": 861525,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
-  },
-  {
-   "acres": 0.2,
-   "address": "1208 STILLWELL RIDGE, CEDAR PARK, TX  78613",
-   "assessed": 587048,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.486215,
-   "lon": -97.846373,
-   "sqft": 1240,
-   "value": 587048,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 1.39,
-   "address": "2709 CHECKER CEDAR PARK 78613",
-   "assessed": 570157,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.487149,
-   "lon": -97.856988,
-   "sqft": 2958,
-   "value": 570157,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 5.204,
-   "address": "1101 RHONDSTAT RUN 78613",
-   "assessed": 920967,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.48295,
-   "lon": -97.859555,
-   "sqft": 3449,
-   "value": 920967,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.162,
-   "address": "1511 RHAPSODY RIDGE DR, CEDAR PARK, TX  78613",
-   "assessed": 638274,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.481971,
-   "lon": -97.850043,
-   "sqft": 1546,
-   "value": 638274,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 15.913,
-   "address": "11916 LIME CREEK LEANDER 78641",
-   "assessed": 305527,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.484428,
-   "lon": -97.881808,
-   "sqft": 1298,
-   "value": 305527,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1982
-  },
-  {
-   "acres": 1.925,
-   "address": "2500 MELEKHIN 78613",
-   "assessed": 713469,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.480779,
-   "lon": -97.853716,
-   "sqft": 3564,
-   "value": 713469,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.368,
-   "address": "2116 JASPER LN, CEDAR PARK, TX  78613",
-   "assessed": 566235,
-   "class": "A1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.485983,
-   "lon": -97.850422,
-   "sqft": 1551,
-   "value": 566235,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 1.806,
-   "address": "616 BASIE CEDAR PARK 78613",
-   "assessed": 476526,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.488362,
-   "lon": -97.861901,
-   "sqft": 2062,
-   "value": 476526,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 1.928,
-   "address": "2719 ZAMBIA CEDAR PARK 78613",
-   "assessed": 643565,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.472412,
-   "lon": -97.855021,
-   "sqft": 3404,
-   "value": 643565,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 1.653,
-   "address": "2404 ALTA MONTE 78613",
-   "assessed": 566303,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.474873,
-   "lon": -97.849127,
-   "sqft": 3577,
-   "value": 566303,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.149,
-   "address": "2224 KERR TRL, CEDAR PARK, TX  78613",
-   "assessed": 386672,
-   "class": "A1",
-   "deed_date": "2025-09-13",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.479428,
-   "lon": -97.847805,
-   "sqft": 1683,
-   "value": 386672,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.199,
-   "address": "1004 WATER HOLE TRL, CEDAR PARK, TX  78613",
-   "assessed": 586637,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.486184,
-   "lon": -97.851142,
-   "sqft": 1644,
-   "value": 586637,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 1.809,
-   "address": "811 ZAPPA CEDAR PARK 78613",
-   "assessed": 591024,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.487152,
-   "lon": -97.859676,
-   "sqft": 3159,
-   "value": 591024,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.155,
-   "address": "2303 LITTLE TREE BEND, CEDAR PARK, TX  78613",
-   "assessed": 641266,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.483812,
-   "lon": -97.851261,
-   "sqft": 1966,
-   "value": 641266,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.153,
-   "address": "1607 SOMERSET CANYON LN, CEDAR PARK, TX  78613",
-   "assessed": 524270,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.480349,
-   "lon": -97.848695,
-   "sqft": 1279,
-   "value": 524270,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 1.928,
-   "address": "2709 QUIET MOON CEDAR PARK 78613",
-   "assessed": 510587,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.473922,
-   "lon": -97.854253,
-   "sqft": 2392,
-   "value": 510587,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.168,
-   "address": "2113 KIMRA LN, CEDAR PARK, TX  78613",
-   "assessed": 361375,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.483025,
-   "lon": -97.848144,
-   "sqft": 1515,
-   "value": 361375,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.389,
-   "address": "1002 HORNE CEDAR PARK 78613",
-   "assessed": 567061,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.486536,
-   "lon": -97.856489,
-   "sqft": 2684,
-   "value": 567061,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 12.7,
-   "address": "LIME CREEK 78641",
-   "assessed": 123571,
-   "class": "C1",
-   "deed_date": "2025-08-21",
-   "homestead": false,
-   "lat": 30.473343,
-   "lon": -97.901034,
-   "value": 123571,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 2.501,
-   "address": "1907 TOSCA CEDAR PARK 78613",
-   "assessed": 727063,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.47225,
-   "lon": -97.852402,
-   "sqft": 3128,
-   "value": 727063,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 2.671,
-   "address": "2835 CHECKER CEDAR PARK 78613",
-   "assessed": 697046,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.489771,
-   "lon": -97.860727,
-   "sqft": 2958,
-   "value": 697046,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.175,
-   "address": "1006 DEL ROY DR, CEDAR PARK, TX  78613",
-   "assessed": 470832,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.488541,
-   "lon": -97.848383,
-   "sqft": 1212,
-   "value": 470832,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 2.277,
-   "address": "1903 CHULA VISTA CEDAR PARK 78613",
-   "assessed": 484197,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.473362,
-   "lon": -97.850162,
-   "sqft": 2682,
-   "value": 484197,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 1.747,
-   "address": "2516 CAPARZO 78613",
-   "assessed": 754423,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.478861,
-   "lon": -97.853905,
-   "sqft": 3761,
-   "value": 754423,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": 1.753,
-   "address": "2417 ALTA MONTE CEDAR PARK 78613",
-   "assessed": 514723,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.474124,
-   "lon": -97.850245,
-   "sqft": 2233,
-   "value": 514723,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": 3.269,
-   "address": "2609 ARMATRADING CEDAR PARK 78613",
-   "assessed": 924900,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.481537,
-   "lon": -97.856176,
-   "sqft": 4602,
-   "value": 924900,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.202,
-   "address": "2208 LITTLE TREE BEND, CEDAR PARK, TX  78613",
-   "assessed": 631318,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.484141,
-   "lon": -97.85046,
-   "sqft": 1916,
-   "value": 631318,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 1.699,
-   "address": "1000 HORNE CEDAR PARK 78613",
-   "assessed": 626056,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.486679,
-   "lon": -97.856348,
-   "sqft": 3096,
-   "value": 626056,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.249,
-   "address": "2200 LITTLE TREE BEND, CEDAR PARK, TX  78613",
-   "assessed": 490298,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.484535,
-   "lon": -97.849798,
-   "sqft": 2126,
-   "value": 490298,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 1.984,
-   "address": "2702 QUIET MOON CEDAR PARK 78613",
-   "assessed": 731468,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.473386,
-   "lon": -97.853843,
-   "sqft": 3727,
-   "value": 731468,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2005
   }
  ],
  "windows": {
   "12mo": {
-   "count": 114,
-   "median_value": 608007,
-   "pct_of_households": 6.48,
-   "pct_of_population": 2.16
+   "count": 123,
+   "median_value": 593755,
+   "pct_of_households": 6.99,
+   "pct_of_population": 2.33
   },
   "3mo": {
-   "count": 17,
-   "median_value": 614218,
-   "pct_of_households": 0.97,
-   "pct_of_population": 0.32
+   "count": 19,
+   "median_value": 661760,
+   "pct_of_households": 1.08,
+   "pct_of_population": 0.36
   },
   "6mo": {
-   "count": 48,
-   "median_value": 643064,
-   "pct_of_households": 2.73,
-   "pct_of_population": 0.91
+   "count": 59,
+   "median_value": 591300,
+   "pct_of_households": 3.36,
+   "pct_of_population": 1.12
   }
  }
 }

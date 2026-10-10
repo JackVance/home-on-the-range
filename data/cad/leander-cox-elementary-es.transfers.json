@@ -1,11 +1,125 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 118,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 90,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3837,
  "months_back": 12,
  "population_acs": 9413,
  "transfers": [
+  {
+   "acres": 0.173,
+   "address": "1005 SHADOW VALLEY CV, CEDAR PARK, TX  78613",
+   "assessed": 565235,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.509696,
+   "lon": -97.807041,
+   "sqft": 1676,
+   "value": 565235,
+   "value_kind": "market (WCAD)",
+   "year_built": 2001
+  },
+  {
+   "acres": 0.141,
+   "address": "901 BOGART RD, CEDAR PARK, TX  78613",
+   "assessed": 364748,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.517892,
+   "lon": -97.811323,
+   "sqft": 672,
+   "value": 364748,
+   "value_kind": "market (WCAD)",
+   "year_built": 2003
+  },
+  {
+   "acres": 0.122,
+   "address": "813 TRUMAN LN, CEDAR PARK, TX  78613",
+   "assessed": 415410,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.517126,
+   "lon": -97.811927,
+   "sqft": 1094,
+   "value": 415410,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
+  {
+   "acres": 0.215,
+   "address": "902 SAVANNA LN, CEDAR PARK, TX  78613",
+   "assessed": 437595,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.505722,
+   "lon": -97.807452,
+   "sqft": 2175,
+   "value": 437595,
+   "value_kind": "market (WCAD)",
+   "year_built": 1995
+  },
+  {
+   "acres": 0.133,
+   "address": "600 C-BAR RANCH TRL #120, CEDAR PARK, TX  78613",
+   "assessed": 217696,
+   "class": "O1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.521866,
+   "lon": -97.807914,
+   "sqft": 1335,
+   "value": 217696,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.248,
+   "address": "211 RICHMOND ST, CEDAR PARK, TX  78613",
+   "assessed": 689467,
+   "class": "A1",
+   "deed_date": "2026-06-20",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.514653,
+   "lon": -97.807209,
+   "sqft": 1903,
+   "value": 689467,
+   "value_kind": "market (WCAD)",
+   "year_built": 2008
+  },
   {
    "acres": 0.177,
    "address": "301 S LYNNWOOD TRL, CEDAR PARK, TX  78613",
@@ -42,6 +156,25 @@
    "value": 377633,
    "value_kind": "market (WCAD)",
    "year_built": 2000
+  },
+  {
+   "acres": 0.107,
+   "address": "316 BANDSTAND LN, CEDAR PARK, TX  78613",
+   "assessed": 402463,
+   "class": "A1",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.519055,
+   "lon": -97.80575,
+   "sqft": 1253,
+   "value": 402463,
+   "value_kind": "market (WCAD)",
+   "year_built": 2005
   },
   {
    "acres": 0.222,
@@ -518,7 +651,7 @@
    "acres": 0.166,
    "address": "601 C-BAR RANCH TRL #59, CEDAR PARK, TX  78613",
    "assessed": 646370,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-27",
    "extras": {
     "exterior": "STC",
@@ -613,7 +746,7 @@
    "acres": 0.128,
    "address": "601 C-BAR RANCH TRL #38, CEDAR PARK, TX  78613",
    "assessed": 216897,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-13",
    "extras": {
     "exterior": "STC",
@@ -898,7 +1031,7 @@
    "acres": 0.127,
    "address": "600 C-BAR RANCH TRL #118, CEDAR PARK, TX  78613",
    "assessed": 576394,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-30",
    "extras": {
     "exterior": "STC",
@@ -1467,7 +1600,7 @@
   {
    "acres": 0.125,
    "address": "700 HORIZON TRL, CEDAR PARK, TX  78613",
-   "assessed": 355027,
+   "assessed": 341668,
    "class": "A1",
    "deed_date": "2025-10-29",
    "extras": {
@@ -1479,7 +1612,7 @@
    "lat": 30.518229,
    "lon": -97.821547,
    "sqft": 1686,
-   "value": 355027,
+   "value": 341668,
    "value_kind": "market (WCAD)",
    "year_built": 1998
   },
@@ -1577,687 +1710,26 @@
    "value": 638050,
    "value_kind": "market (WCAD)",
    "year_built": 2000
-  },
-  {
-   "acres": 0.154,
-   "address": "1306 DINER DR, CEDAR PARK, TX  78613",
-   "assessed": 367934,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.518663,
-   "lon": -97.807152,
-   "sqft": 1701,
-   "value": 367934,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.126,
-   "address": "706 LEANN LN, CEDAR PARK, TX  78613",
-   "assessed": 379716,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.518986,
-   "lon": -97.817611,
-   "sqft": 1996,
-   "value": 379716,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.121,
-   "address": "911 BOGART RD, CEDAR PARK, TX  78613",
-   "assessed": 391640,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.517859,
-   "lon": -97.810521,
-   "sqft": 724,
-   "value": 391640,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.895,
-   "address": "606 BELL BLVD N, CEDAR PARK, TX  78613",
-   "assessed": 1450000,
-   "class": "F2",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "ML",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.517029,
-   "lon": -97.826668,
-   "sqft": 4800,
-   "value": 1450000,
-   "value_kind": "market (WCAD)",
-   "year_built": 1979
-  },
-  {
-   "acres": 0.108,
-   "address": "1117 RAWHIDE TRL, CEDAR PARK, TX  78613",
-   "assessed": 354268,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.518953,
-   "lon": -97.808449,
-   "sqft": 1017,
-   "value": 354268,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.18,
-   "address": "601 C-BAR RANCH TRL #60, CEDAR PARK, TX  78613",
-   "assessed": 525286,
-   "class": "A8",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.520602,
-   "lon": -97.813308,
-   "sqft": 2094,
-   "value": 525286,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.163,
-   "address": "720 LEANN LN, CEDAR PARK, TX  78613",
-   "assessed": 375016,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.519815,
-   "lon": -97.818265,
-   "sqft": 970,
-   "value": 375016,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.178,
-   "address": "1104 CAMDEN CV, CEDAR PARK, TX  78613",
-   "assessed": 661137,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.509481,
-   "lon": -97.804504,
-   "sqft": 1562,
-   "value": 661137,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.201,
-   "address": "1201 WILLOWBROOK DR, CEDAR PARK, TX  78613",
-   "assessed": 605851,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.51571,
-   "lon": -97.805839,
-   "sqft": 1916,
-   "value": 605851,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.136,
-   "address": "601 C-BAR RANCH TRL #39, CEDAR PARK, TX  78613",
-   "assessed": 633744,
-   "class": "A8",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.521196,
-   "lon": -97.811142,
-   "sqft": 1521,
-   "value": 633744,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.108,
-   "address": "1006 PEYTON PL, CEDAR PARK, TX  78613",
-   "assessed": 345267,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.51878,
-   "lon": -97.810845,
-   "sqft": 1376,
-   "value": 345267,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.257,
-   "address": "2822 BELLAMY CIR, CEDAR PARK, TX  78613",
-   "assessed": 462271,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.527674,
-   "lon": -97.784352,
-   "sqft": 1840,
-   "value": 468910,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.152,
-   "address": "616 FENCE POST PASS, CEDAR PARK, TX  78613",
-   "assessed": 376828,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.51703,
-   "lon": -97.824849,
-   "sqft": 1814,
-   "value": 376828,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.135,
-   "address": "601 C-BAR RANCH TRL #29, CEDAR PARK, TX  78613",
-   "assessed": 484156,
-   "class": "A8",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.519303,
-   "lon": -97.812714,
-   "sqft": 1624,
-   "value": 484156,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.199,
-   "address": "1034 CASHEW LN, CEDAR PARK, TX  78613",
-   "assessed": 539357,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.506512,
-   "lon": -97.802455,
-   "sqft": 1634,
-   "value": 539357,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.12,
-   "address": "1102 PEYTON PL, CEDAR PARK, TX  78613",
-   "assessed": 414559,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.519039,
-   "lon": -97.80894,
-   "sqft": 1097,
-   "value": 414559,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.223,
-   "address": "306 WATER OAK DR, CEDAR PARK, TX  78613",
-   "assessed": 664730,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.511215,
-   "lon": -97.804796,
-   "sqft": 1820,
-   "value": 664730,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.204,
-   "address": "408 WATER OAK DR, CEDAR PARK, TX  78613",
-   "assessed": 633297,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.509818,
-   "lon": -97.802567,
-   "sqft": 1911,
-   "value": 633297,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.108,
-   "address": "1307 DINER DR, CEDAR PARK, TX  78613",
-   "assessed": 409305,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.519053,
-   "lon": -97.806634,
-   "sqft": 906,
-   "value": 409305,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.109,
-   "address": "1225 CARDIGAN ST, CEDAR PARK, TX  78613",
-   "assessed": 372649,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.51828,
-   "lon": -97.80642,
-   "sqft": 702,
-   "value": 372649,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.212,
-   "address": "600 C-BAR RANCH TRL #138, CEDAR PARK, TX  78613",
-   "assessed": 482162,
-   "class": "A8",
-   "deed_date": "2025-09-01",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.521925,
-   "lon": -97.806412,
-   "sqft": 1612,
-   "value": 482162,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.188,
-   "address": "507 DRY BEAN CV, CEDAR PARK, TX  78613",
-   "assessed": 410069,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.517812,
-   "lon": -97.820987,
-   "sqft": 1107,
-   "value": 410069,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.252,
-   "address": "400 TRAILRIDGE DR, CEDAR PARK, TX  78613",
-   "assessed": 664385,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.510558,
-   "lon": -97.801786,
-   "sqft": 2440,
-   "value": 664385,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.326,
-   "address": "212 PHEASANT RIDGE DR, CEDAR PARK, TX  78613",
-   "assessed": 726629,
-   "class": "A1",
-   "deed_date": "2025-08-17",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.510929,
-   "lon": -97.80318,
-   "sqft": 1810,
-   "value": 726629,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.194,
-   "address": "1000 TALLOW TRL, CEDAR PARK, TX  78613",
-   "assessed": 579128,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.507903,
-   "lon": -97.805604,
-   "sqft": 1679,
-   "value": 579128,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.274,
-   "address": "1107 SHILOH ST, CEDAR PARK, TX  78613",
-   "assessed": 688078,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.513099,
-   "lon": -97.80627,
-   "sqft": 2451,
-   "value": 688078,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.108,
-   "address": "1009 PEYTON PL, CEDAR PARK, TX  78613",
-   "assessed": 367352,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.5192,
-   "lon": -97.810685,
-   "sqft": 901,
-   "value": 367352,
-   "value_kind": "market (WCAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 0.223,
-   "address": "806 SAVANNA LN, CEDAR PARK, TX  78613",
-   "assessed": 502522,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.505493,
-   "lon": -97.808056,
-   "sqft": 1363,
-   "value": 502522,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.093,
-   "address": "600 C-BAR RANCH TRL #129, CEDAR PARK, TX  78613",
-   "assessed": 482039,
-   "class": "A8",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.521165,
-   "lon": -97.808361,
-   "sqft": 1566,
-   "value": 482039,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.18,
-   "address": "708 JAGGED ROCK, CEDAR PARK, TX  78613",
-   "assessed": 477595,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.50545,
-   "lon": -97.806518,
-   "sqft": 1076,
-   "value": 477595,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 6.667,
-   "address": "801 C-BAR RANCH TRL, CEDAR PARK, TX  78613",
-   "assessed": 79216067,
-   "class": "B1",
-   "deed_date": "2025-07-30",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.523366,
-   "lon": -97.811139,
-   "sqft": 313727,
-   "value": 79216067,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.127,
-   "address": "600 C-BAR RANCH TRL #135, CEDAR PARK, TX  78613",
-   "assessed": 555286,
-   "class": "A8",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.521765,
-   "lon": -97.806837,
-   "sqft": 1370,
-   "value": 555286,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.128,
-   "address": "600 C-BAR RANCH TRL #116, CEDAR PARK, TX  78613",
-   "assessed": 677995,
-   "class": "A8",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.521577,
-   "lon": -97.808555,
-   "sqft": 1800,
-   "value": 677995,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.251,
-   "address": "2400 E WHITESTONE BLVD, CEDAR PARK, TX  78613",
-   "assessed": 3328611,
-   "class": "F1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "CB",
-    "foundation": "SLB",
-    "roof": "FL"
-   },
-   "homestead": false,
-   "lat": 30.531137,
-   "lon": -97.792259,
-   "sqft": 6895,
-   "value": 3328611,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.107,
-   "address": "1203 CARDIGAN ST, CEDAR PARK, TX  78613",
-   "assessed": 398545,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.518583,
-   "lon": -97.808031,
-   "sqft": 1034,
-   "value": 398545,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
   }
  ],
  "windows": {
   "12mo": {
-   "count": 118,
-   "median_value": 482162,
-   "pct_of_households": 3.08,
-   "pct_of_population": 1.25
+   "count": 90,
+   "median_value": 449744,
+   "pct_of_households": 2.35,
+   "pct_of_population": 0.96
   },
   "3mo": {
-   "count": 26,
-   "median_value": 459844,
-   "pct_of_households": 0.68,
-   "pct_of_population": 0.28
+   "count": 3,
+   "median_value": 415410,
+   "pct_of_households": 0.08,
+   "pct_of_population": 0.03
   },
   "6mo": {
-   "count": 52,
-   "median_value": 465893,
-   "pct_of_households": 1.36,
-   "pct_of_population": 0.55
+   "count": 30,
+   "median_value": 437595,
+   "pct_of_households": 0.78,
+   "pct_of_population": 0.32
   }
  }
 }

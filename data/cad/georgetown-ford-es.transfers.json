@@ -1,11 +1,1170 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 764,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 624,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3218,
  "months_back": 12,
  "population_acs": 8802,
  "transfers": [
+  {
+   "acres": 2.476,
+   "address": "221 FM 3405, GEORGETOWN, TX  78633",
+   "assessed": 559770,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.70913,
+   "lon": -97.76461,
+   "sqft": 1625,
+   "value": 559770,
+   "value_kind": "market (WCAD)",
+   "year_built": 1998
+  },
+  {
+   "acres": 0.165,
+   "address": "310 HANGING STAR LN, GEORGETOWN, TX  78633",
+   "assessed": 421877,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.731128,
+   "lon": -97.754593,
+   "sqft": 1779,
+   "value": 421877,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 0.137,
+   "address": "409 YORKTOWN ST, GEORGETOWN, TX  78633",
+   "assessed": 351860,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.737669,
+   "lon": -97.7594,
+   "sqft": 1391,
+   "value": 351860,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 1.084,
+   "address": "305 SHADY TREE DR, GEORGETOWN, TX  78633",
+   "assessed": 1470505,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.705596,
+   "lon": -97.755175,
+   "sqft": 2962,
+   "value": 1470505,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.291,
+   "address": "28707 RONALD W REAGAN BLVD, GEORGETOWN, TX  78633",
+   "assessed": 1954586,
+   "class": "F1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.741538,
+   "lon": -97.801418,
+   "sqft": 3502,
+   "value": 1954586,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.329,
+   "address": "28705 RONALD W REAGAN BLVD, GEORGETOWN, TX  78633",
+   "assessed": 1206530,
+   "class": "F1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.741181,
+   "lon": -97.800506,
+   "sqft": 3319,
+   "value": 2161181,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.319,
+   "address": "28709 RONALD W REAGAN BLVD, GEORGETOWN, TX  78633",
+   "assessed": 999161,
+   "class": "F1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.741421,
+   "lon": -97.799806,
+   "sqft": 3825,
+   "value": 2031067,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.252,
+   "address": "28713 RONALD W REAGAN BLVD, GEORGETOWN, TX  78633",
+   "assessed": 297815,
+   "class": "F1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "ST",
+    "foundation": "SLB",
+    "roof": "SHD"
+   },
+   "homestead": false,
+   "lat": 30.741628,
+   "lon": -97.79917,
+   "sqft": 3308,
+   "value": 1270074,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 14.729,
+   "address": "10110 RM 2338, GEORGETOWN, TX  78633",
+   "assessed": 30132219,
+   "class": "F1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.743454,
+   "lon": -97.801596,
+   "sqft": 111082,
+   "value": 30132219,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
+  },
+  {
+   "acres": 1.005,
+   "address": "116 LAYTON WAY, GEORGETOWN, TX  78633",
+   "assessed": 788756,
+   "class": "A1",
+   "deed_date": "2026-07-16",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.71219,
+   "lon": -97.798467,
+   "sqft": 3117,
+   "value": 788756,
+   "value_kind": "market (WCAD)",
+   "year_built": 2008
+  },
+  {
+   "acres": 0.044,
+   "address": "4859 WILLIAMS DR #103, GEORGETOWN, TX  78633",
+   "assessed": 845511,
+   "class": "F1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "EIFS",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.695253,
+   "lon": -97.732415,
+   "sqft": 1990,
+   "value": 845511,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 0.151,
+   "address": "113 LAFAYETTE ST, GEORGETOWN, TX  78633",
+   "assessed": 396916,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.734073,
+   "lon": -97.762922,
+   "sqft": 1607,
+   "value": 396916,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.136,
+   "address": "1004 MARTINGALE ST, GEORGETOWN, TX  78633",
+   "assessed": 117522,
+   "class": "O1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.739713,
+   "lon": -97.75376,
+   "sqft": 1391,
+   "value": 117522,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.168,
+   "address": "4913 WOODSTOCK DR, GEORGETOWN, TX  78633",
+   "assessed": 390727,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "HP,BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.686706,
+   "lon": -97.726674,
+   "sqft": 1135,
+   "value": 390727,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.271,
+   "address": "4405 WOODSTOCK DR, GEORGETOWN, TX  78633",
+   "assessed": 464923,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "BV,HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.683697,
+   "lon": -97.724013,
+   "sqft": 1446,
+   "value": 464923,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 1.125,
+   "address": "326 HIGHLAND SPRING LN, GEORGETOWN, TX  78633",
+   "assessed": 1635667,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.692644,
+   "lon": -97.765287,
+   "sqft": 4215,
+   "value": 1788658,
+   "value_kind": "market (WCAD)",
+   "year_built": 2008
+  },
+  {
+   "acres": 0.116,
+   "address": "2356 SAWDUST DR, GEORGETOWN, TX  78633",
+   "assessed": 438832,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.735339,
+   "lon": -97.78754,
+   "sqft": 1502,
+   "value": 438832,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
+   "acres": 0.251,
+   "address": "209 MARTINGALE ST, GEORGETOWN, TX  78633",
+   "assessed": 824773,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.734761,
+   "lon": -97.746038,
+   "sqft": 2956,
+   "value": 824773,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
+   "acres": 0.127,
+   "address": "609 VENETA LN, GEORGETOWN, TX  78633",
+   "assessed": 326956,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.731723,
+   "lon": -97.773297,
+   "sqft": 1437,
+   "value": 326956,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.916,
+   "address": "120 MOCKINGBIRD LN, GEORGETOWN, TX  78633",
+   "assessed": 521815,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.715787,
+   "lon": -97.774865,
+   "sqft": 2194,
+   "value": 521815,
+   "value_kind": "market (WCAD)",
+   "year_built": 1996
+  },
+  {
+   "acres": 1.01,
+   "address": "100 SUNNY GROVE LN, GEORGETOWN, TX  78633",
+   "assessed": 923893,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.713876,
+   "lon": -97.75261,
+   "sqft": 3297,
+   "value": 923893,
+   "value_kind": "market (WCAD)",
+   "year_built": 2001
+  },
+  {
+   "acres": 0.154,
+   "address": "220 COACHSMITH ST, GEORGETOWN, TX  78633",
+   "assessed": 351841,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.740416,
+   "lon": -97.74326,
+   "sqft": 1391,
+   "value": 351841,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
+   "acres": 0.16,
+   "address": "207 HANGING STAR LN, GEORGETOWN, TX  78633",
+   "assessed": 431495,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.731115,
+   "lon": -97.756814,
+   "sqft": 1845,
+   "value": 431495,
+   "value_kind": "market (WCAD)",
+   "year_built": 2019
+  },
+  {
+   "acres": 0.195,
+   "address": "604 WOODEN RAIL LN, GEORGETOWN, TX  78633",
+   "assessed": 474783,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.73075,
+   "lon": -97.760835,
+   "sqft": 2027,
+   "value": 474783,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 0.08,
+   "address": "4841 WILLIAMS DR #107, GEORGETOWN, TX  78633",
+   "assessed": 1639946,
+   "class": "F1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.694496,
+   "lon": -97.730975,
+   "sqft": 3567,
+   "value": 1749478,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 0.22,
+   "address": "1000 ROLLINGWOOD TRL, GEORGETOWN, TX  78633",
+   "assessed": 462119,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.735026,
+   "lon": -97.779876,
+   "sqft": 2391,
+   "value": 462119,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.309,
+   "address": "1021 LOWER PENINSULA LOOP, GEORGETOWN, TX  78633",
+   "assessed": 1230573,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.684014,
+   "lon": -97.7547,
+   "sqft": 3883,
+   "value": 1336377,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 0.181,
+   "address": "101 BRISTOL CV, GEORGETOWN, TX  78633",
+   "assessed": 347724,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.734426,
+   "lon": -97.766173,
+   "sqft": 1625,
+   "value": 347724,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.144,
+   "address": "609 ESTACADO LN, GEORGETOWN, TX  78633",
+   "assessed": 270971,
+   "class": "O1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.742199,
+   "lon": -97.793735,
+   "sqft": 1811,
+   "value": 270971,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.079,
+   "address": "136 MOCKINGBIRD LN, GEORGETOWN, TX  78633",
+   "assessed": 594817,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.715189,
+   "lon": -97.777074,
+   "sqft": 2213,
+   "value": 594817,
+   "value_kind": "market (WCAD)",
+   "year_built": 2007
+  },
+  {
+   "acres": 1.457,
+   "address": "101 GABWOOD CT, GEORGETOWN, TX  78633",
+   "assessed": 890838,
+   "class": "A1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.722206,
+   "lon": -97.776335,
+   "sqft": 2453,
+   "value": 890838,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
+  },
+  {
+   "acres": 0.195,
+   "address": "721 ESTACADO LN, GEORGETOWN, TX  78633",
+   "assessed": 146852,
+   "class": "O1",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.742506,
+   "lon": -97.795435,
+   "sqft": 2497,
+   "value": 146852,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.007,
+   "address": "113 CRYSTAL LN, GEORGETOWN, TX  78633",
+   "assessed": 785878,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.703088,
+   "lon": -97.755957,
+   "sqft": 2706,
+   "value": 785878,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 0.163,
+   "address": "109 CENTERFIRE LN, GEORGETOWN, TX  78633",
+   "assessed": 134455,
+   "class": "O1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.738665,
+   "lon": -97.753492,
+   "sqft": 2027,
+   "value": 134455,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.874,
+   "address": "203 SHOAL DR, GEORGETOWN, TX  78633",
+   "assessed": 471692,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.70547,
+   "lon": -97.766443,
+   "sqft": 2032,
+   "value": 471692,
+   "value_kind": "market (WCAD)",
+   "year_built": 1986
+  },
+  {
+   "acres": 0.198,
+   "address": "104 RED GRANITE RD, GEORGETOWN, TX  78633",
+   "assessed": 523517,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.683847,
+   "lon": -97.727328,
+   "sqft": 2687,
+   "value": 523517,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 0.183,
+   "address": "1928 LAKESIDE RANCH RD, GEORGETOWN, TX  78633",
+   "assessed": 603089,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.682431,
+   "lon": -97.727364,
+   "sqft": 2059,
+   "value": 603089,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 0.147,
+   "address": "210 BELLOWS ST, GEORGETOWN, TX  78633",
+   "assessed": 409367,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.739189,
+   "lon": -97.750852,
+   "sqft": 1607,
+   "value": 409367,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
+  },
+  {
+   "acres": 0.143,
+   "address": "1115 HAVENWOOD LN, UNIT #39, GEORGETOWN, TX  78628",
+   "assessed": 447573,
+   "class": "A8",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.739465,
+   "lon": -97.796149,
+   "sqft": 1595,
+   "value": 447573,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 1.051,
+   "address": "109 ROBERTS CIR, GEORGETOWN, TX  78633",
+   "assessed": 954279,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.696662,
+   "lon": -97.755057,
+   "sqft": 2843,
+   "value": 954279,
+   "value_kind": "market (WCAD)",
+   "year_built": 2003
+  },
+  {
+   "acres": 0.18,
+   "address": "126 LAFAYETTE ST, GEORGETOWN, TX  78633",
+   "assessed": 426630,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.733,
+   "lon": -97.763017,
+   "sqft": 1851,
+   "value": 426630,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.169,
+   "address": "120 ALISTAIR DR, GEORGETOWN, TX  78633",
+   "assessed": 194005,
+   "class": "O1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.734643,
+   "lon": -97.775988,
+   "sqft": 2072,
+   "value": 194005,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.124,
+   "address": "310 LIVEWATER LN, GEORGETOWN, TX  78633",
+   "assessed": 356420,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.722328,
+   "lon": -97.771785,
+   "sqft": 1475,
+   "value": 356420,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.027,
+   "address": "1400 PAXTON LN, FLORENCE, TX  76527",
+   "assessed": 951701,
+   "class": "O1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.758927,
+   "lon": -97.784424,
+   "sqft": 3803,
+   "value": 951701,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.228,
+   "address": "204 WILDERNESS TRL, GEORGETOWN, TX  78633",
+   "assessed": 1335387,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.688766,
+   "lon": -97.774282,
+   "sqft": 4058,
+   "value": 1688324,
+   "value_kind": "market (WCAD)",
+   "year_built": 2015
+  },
+  {
+   "acres": 0.148,
+   "address": "410 RALEIGH DR, GEORGETOWN, TX  78633",
+   "assessed": 173399,
+   "class": "O1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.73453,
+   "lon": -97.781076,
+   "sqft": 1558,
+   "value": 173399,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.123,
+   "address": "209 COACHSMITH ST, GEORGETOWN, TX  78633",
+   "assessed": 342757,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.741123,
+   "lon": -97.742734,
+   "sqft": 1475,
+   "value": 342757,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 11.05,
+   "address": "235 RIDGEWOOD RD E, GEORGETOWN, TX  78633",
+   "assessed": 1317779,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "ST",
+    "foundation": "PB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.724778,
+   "lon": -97.765692,
+   "sqft": 3220,
+   "value": 1317779,
+   "value_kind": "market (WCAD)",
+   "year_built": 2000
+  },
+  {
+   "acres": 11.643,
+   "address": "511 CR 262, GEORGETOWN, TX  78633",
+   "assessed": 2276949,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.697169,
+   "lon": -97.771683,
+   "sqft": 6597,
+   "value": 3001280,
+   "value_kind": "market (WCAD)",
+   "year_built": 2012
+  },
+  {
+   "acres": 0.178,
+   "address": "2112 TOBIANO TRCE, GEORGETOWN, TX  78633",
+   "assessed": 734322,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.726956,
+   "lon": -97.78125,
+   "sqft": 1989,
+   "value": 734322,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
+  },
+  {
+   "acres": 1.003,
+   "address": "120 LAYTON WAY, GEORGETOWN, TX  78633",
+   "assessed": 777964,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.712253,
+   "lon": -97.79889,
+   "sqft": 2949,
+   "value": 777964,
+   "value_kind": "market (WCAD)",
+   "year_built": 2007
+  },
+  {
+   "acres": 0.181,
+   "address": "105 CENTERFIRE LN, GEORGETOWN, TX  78633",
+   "assessed": 480688,
+   "class": "A1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.738933,
+   "lon": -97.753663,
+   "sqft": 1851,
+   "value": 480688,
+   "value_kind": "market (WCAD)",
+   "year_built": 2024
+  },
+  {
+   "acres": 1.156,
+   "address": "205 THREE RIVERS RD, FLORENCE, TX  76527",
+   "assessed": 967397,
+   "class": "O1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.755749,
+   "lon": -97.784307,
+   "sqft": 3696,
+   "value": 967397,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.174,
+   "address": "1009 ELLENSBURG DR, GEORGETOWN, TX  78633",
+   "assessed": 519503,
+   "class": "O1",
+   "deed_date": "2026-06-24",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.745453,
+   "lon": -97.800724,
+   "sqft": 2148,
+   "value": 519503,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.214,
+   "address": "121 WAKE LN, GEORGETOWN, TX  78633",
+   "assessed": 531276,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.68204,
+   "lon": -97.728787,
+   "sqft": 2733,
+   "value": 531276,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 0.18,
+   "address": "609 WOODEN RAIL LN, GEORGETOWN, TX  78633",
+   "assessed": 397956,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.731192,
+   "lon": -97.760403,
+   "sqft": 1607,
+   "value": 397956,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": 0.181,
+   "address": "301 WILDWOOD DR, GEORGETOWN, TX  78633",
+   "assessed": 310514,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.683617,
+   "lon": -97.725674,
+   "sqft": 1862,
+   "value": 310514,
+   "value_kind": "market (WCAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": 0.147,
+   "address": "821 HAMILTON LN, GEORGETOWN, TX  78633",
+   "assessed": 332379,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.726981,
+   "lon": -97.766089,
+   "sqft": 1481,
+   "value": 332379,
+   "value_kind": "market (WCAD)",
+   "year_built": 2016
+  },
+  {
+   "acres": 0.125,
+   "address": "209 SMOKESTACK LN, GEORGETOWN, TX  78633",
+   "assessed": 161658,
+   "class": "O1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.731101,
+   "lon": -97.768722,
+   "sqft": 1475,
+   "value": 161658,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.283,
+   "address": "217 BUCKAROO DR, GEORGETOWN, TX  78633",
+   "assessed": 692820,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.74384,
+   "lon": -97.7893,
+   "sqft": 2419,
+   "value": 692820,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.13,
+   "address": "1000 MARTINGALE ST, GEORGETOWN, TX  78633",
+   "assessed": 119319,
+   "class": "O1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.739829,
+   "lon": -97.753519,
+   "sqft": 1575,
+   "value": 119319,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
   {
    "acres": 1.006,
    "address": "410 SHADY TREE DR, GEORGETOWN, TX  78633",
@@ -43,6 +1202,25 @@
    "value": 648642,
    "value_kind": "market (WCAD)",
    "year_built": 2003
+  },
+  {
+   "acres": 0.251,
+   "address": "128 LAKE RIM CIR, GEORGETOWN, TX  78633",
+   "assessed": 679702,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.687647,
+   "lon": -97.732483,
+   "sqft": 2797,
+   "value": 679702,
+   "value_kind": "market (WCAD)",
+   "year_built": 2017
   },
   {
    "acres": 0.192,
@@ -102,10 +1280,29 @@
    "year_built": 1986
   },
   {
+   "acres": 0.219,
+   "address": "104 MARTINGALE ST, GEORGETOWN, TX  78633",
+   "assessed": 838292,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.736779,
+   "lon": -97.745636,
+   "sqft": 2956,
+   "value": 838292,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
+  },
+  {
    "acres": 0.144,
    "address": "521 ESTACADO LN, GEORGETOWN, TX  78633",
    "assessed": 247316,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-06-16",
    "extras": {
     "exterior": "BRICK",
@@ -143,20 +1340,39 @@
    "acres": 0.164,
    "address": "1425 CORDUROY LN, GEORGETOWN, TX  78633",
    "assessed": 464567,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-06-15",
    "extras": {
     "exterior": "STN",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.744523,
    "lon": -97.800078,
    "sqft": 2388,
    "value": 464567,
    "value_kind": "market (WCAD)",
    "year_built": 2025
+  },
+  {
+   "acres": 0.134,
+   "address": "421 CODA XING, GEORGETOWN, TX  78633",
+   "assessed": 326956,
+   "class": "A1",
+   "deed_date": "2026-06-13",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.733268,
+   "lon": -97.773433,
+   "sqft": 1437,
+   "value": 326956,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
   },
   {
    "acres": 1.041,
@@ -176,6 +1392,25 @@
    "value": 576977,
    "value_kind": "market (WCAD)",
    "year_built": 1999
+  },
+  {
+   "acres": 1.319,
+   "address": "401 GOLDRIDGE DR, GEORGETOWN, TX  78633",
+   "assessed": 1440327,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "exterior": "ST",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.69018,
+   "lon": -97.756435,
+   "sqft": 3309,
+   "value": 1582303,
+   "value_kind": "market (WCAD)",
+   "year_built": 2010
   },
   {
    "acres": 1.05,
@@ -207,7 +1442,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.691958,
    "lon": -97.724722,
    "sqft": 2265,
@@ -235,6 +1470,25 @@
    "year_built": 2025
   },
   {
+   "acres": 0.157,
+   "address": "316 LIVEWATER LN, GEORGETOWN, TX  78633",
+   "assessed": 363380,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.721902,
+   "lon": -97.771876,
+   "sqft": 1391,
+   "value": 363380,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
    "acres": 1.092,
    "address": "209 GOLDRIDGE DR, GEORGETOWN, TX  78633",
    "assessed": 1092131,
@@ -256,8 +1510,8 @@
   {
    "acres": 0.141,
    "address": "613 ESTACADO LN, GEORGETOWN, TX  78633",
-   "assessed": 254289,
-   "class": "O1",
+   "assessed": 186167,
+   "class": "A1",
    "deed_date": "2026-06-11",
    "extras": {
     "exterior": "BRICK",
@@ -268,7 +1522,7 @@
    "lat": 30.74221,
    "lon": -97.793893,
    "sqft": 1865,
-   "value": 254289,
+   "value": 186167,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -290,6 +1544,25 @@
    "value": 1147522,
    "value_kind": "market (WCAD)",
    "year_built": 2000
+  },
+  {
+   "acres": 0.166,
+   "address": "217 SILVER RIDGE DR, GEORGETOWN, TX  78633",
+   "assessed": 402841,
+   "class": "A1",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.732831,
+   "lon": -97.778233,
+   "sqft": 2276,
+   "value": 402841,
+   "value_kind": "market (WCAD)",
+   "year_built": 2023
   },
   {
    "acres": 1.03,
@@ -328,6 +1601,44 @@
    "value": 671584,
    "value_kind": "market (WCAD)",
    "year_built": 2019
+  },
+  {
+   "acres": 0.128,
+   "address": "705 KITTY HAWK RD, GEORGETOWN, TX  78633",
+   "assessed": 353712,
+   "class": "A1",
+   "deed_date": "2026-06-09",
+   "extras": {
+    "exterior": "BRICK",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.734416,
+   "lon": -97.760802,
+   "sqft": 1700,
+   "value": 353712,
+   "value_kind": "market (WCAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": 0.173,
+   "address": "304 KITTY HAWK RD, GEORGETOWN, TX  78633",
+   "assessed": 405408,
+   "class": "A1",
+   "deed_date": "2026-06-08",
+   "extras": {
+    "exterior": "STC",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.73402,
+   "lon": -97.766152,
+   "sqft": 1607,
+   "value": 405408,
+   "value_kind": "market (WCAD)",
+   "year_built": 2022
   },
   {
    "acres": 0.118,
@@ -463,6 +1774,82 @@
    "year_built": 2020
   },
   {
+   "acres": 0.026,
+   "address": "4875 WILLIAMS DR #101, GEORGETOWN, TX  78633",
+   "assessed": 278721,
+   "class": "F1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.696665,
+   "lon": -97.732562,
+   "sqft": 1312,
+   "value": 278721,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.024,
+   "address": "4875 WILLIAMS DR #103, GEORGETOWN, TX  78633",
+   "assessed": 336293,
+   "class": "F1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.696636,
+   "lon": -97.732511,
+   "sqft": 1583,
+   "value": 336293,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.022,
+   "address": "4875 WILLIAMS DR #105, GEORGETOWN, TX  78633",
+   "assessed": 336293,
+   "class": "F1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.696609,
+   "lon": -97.732461,
+   "sqft": 1583,
+   "value": 336293,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.031,
+   "address": "4875 WILLIAMS DR #107, GEORGETOWN, TX  78633",
+   "assessed": 278721,
+   "class": "F1",
+   "deed_date": "2026-06-03",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.696575,
+   "lon": -97.732403,
+   "sqft": 1312,
+   "value": 278721,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
    "acres": 0.173,
    "address": "500 LIVEWATER LN, GEORGETOWN, TX  78633",
    "assessed": 368461,
@@ -492,7 +1879,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.744938,
    "lon": -97.791634,
    "sqft": 2370,
@@ -518,25 +1905,6 @@
    "value": 638798,
    "value_kind": "market (WCAD)",
    "year_built": 2000
-  },
-  {
-   "acres": 1.319,
-   "address": "401 GOLDRIDGE DR, GEORGETOWN, TX  78633",
-   "assessed": 1440327,
-   "class": "A1",
-   "deed_date": "2026-06-01",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.69018,
-   "lon": -97.756435,
-   "sqft": 3309,
-   "value": 1582303,
-   "value_kind": "market (WCAD)",
-   "year_built": 2010
   },
   {
    "acres": 2.857,
@@ -618,14 +1986,14 @@
    "acres": 0.241,
    "address": "356 RIDGEWELL LOOP, GEORGETOWN, TX  78633",
    "assessed": 234262,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-28",
    "extras": {
     "exterior": "BRICK",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.73637,
    "lon": -97.781242,
    "sqft": 2425,
@@ -637,14 +2005,14 @@
    "acres": 0.219,
    "address": "209 BARNSTORM LN, GEORGETOWN, TX  78633",
    "assessed": 556796,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-28",
    "extras": {
     "exterior": "BRICK",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.741725,
    "lon": -97.789628,
    "sqft": 2260,
@@ -701,7 +2069,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.730984,
    "lon": -97.7691,
    "sqft": 1391,
@@ -713,7 +2081,7 @@
    "acres": 0.199,
    "address": "1021 PAINTED HORSE DR, GEORGETOWN, TX  78633",
    "assessed": 141230,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-05-27",
    "extras": {
     "foundation": "SLB",
@@ -724,25 +2092,6 @@
    "lon": -97.77965,
    "sqft": 1984,
    "value": 141230,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.144,
-   "address": "609 ESTACADO LN, GEORGETOWN, TX  78633",
-   "assessed": 270971,
-   "class": "O1",
-   "deed_date": "2026-05-27",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.742199,
-   "lon": -97.793735,
-   "sqft": 1811,
-   "value": 270971,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -795,7 +2144,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.696045,
    "lon": -97.768596,
    "sqft": 3605,
@@ -954,6 +2303,44 @@
    "value": 755544,
    "value_kind": "market (WCAD)",
    "year_built": 1995
+  },
+  {
+   "acres": 1.03,
+   "address": "112 GABRIEL VISTA E, GEORGETOWN, TX  78633",
+   "assessed": 1159587,
+   "class": "A1",
+   "deed_date": "2026-05-20",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.722381,
+   "lon": -97.779048,
+   "sqft": 4151,
+   "value": 1159587,
+   "value_kind": "market (WCAD)",
+   "year_built": 2011
+  },
+  {
+   "acres": 0.146,
+   "address": "602 DOUBLE LOOP ST, GEORGETOWN, TX  78633",
+   "assessed": 472834,
+   "class": "A1",
+   "deed_date": "2026-05-18",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.732734,
+   "lon": -97.758554,
+   "sqft": 2027,
+   "value": 472834,
+   "value_kind": "market (WCAD)",
+   "year_built": 2021
   },
   {
    "acres": 0.166,
@@ -1164,6 +2551,25 @@
    "year_built": 2024
   },
   {
+   "acres": 0.121,
+   "address": "116 CROSS BAR ST, GEORGETOWN, TX  78633",
+   "assessed": 368435,
+   "class": "A1",
+   "deed_date": "2026-05-12",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.721842,
+   "lon": -97.77047,
+   "sqft": 1391,
+   "value": 368435,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
    "acres": 0.173,
    "address": "1508 CORDUROY LN, GEORGETOWN, TX  78633",
    "assessed": 539755,
@@ -1223,7 +2629,7 @@
   {
    "acres": 0.976,
    "address": "220 GABRIEL WOODS DR, GEORGETOWN, TX  78633",
-   "assessed": 1287870,
+   "assessed": 1192353,
    "class": "A1",
    "deed_date": "2026-05-07",
    "extras": {
@@ -1235,7 +2641,7 @@
    "lat": 30.719442,
    "lon": -97.779758,
    "sqft": 3157,
-   "value": 1287870,
+   "value": 1192353,
    "value_kind": "market (WCAD)",
    "year_built": 2009
   },
@@ -1383,7 +2789,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.726915,
    "lon": -97.779752,
    "sqft": 2904,
@@ -1409,6 +2815,44 @@
    "value": 575536,
    "value_kind": "market (WCAD)",
    "year_built": 2024
+  },
+  {
+   "acres": 0.154,
+   "address": "1104 HAVENWOOD LN, UNIT #77, GEORGETOWN, TX  78628",
+   "assessed": 411208,
+   "class": "A8",
+   "deed_date": "2026-04-30",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.738831,
+   "lon": -97.79563,
+   "sqft": 1645,
+   "value": 411208,
+   "value_kind": "market (WCAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.065,
+   "address": "203 WHISPERING SPRING LN, GEORGETOWN, TX  78633",
+   "assessed": 738777,
+   "class": "A1",
+   "deed_date": "2026-04-29",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.693205,
+   "lon": -97.763112,
+   "sqft": 2819,
+   "value": 738777,
+   "value_kind": "market (WCAD)",
+   "year_built": 2006
   },
   {
    "acres": 0.987,
@@ -1452,7 +2896,7 @@
    "acres": 0.2,
    "address": "352 RIDGEWELL LOOP, GEORGETOWN, TX  78633",
    "assessed": 451815,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-29",
    "extras": {
     "exterior": "BRICK",
@@ -1471,7 +2915,7 @@
    "acres": 0.132,
    "address": "112 TIMBERWILDE DR, UNIT #7, GEORGETOWN, TX  78628",
    "assessed": 156504,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-29",
    "extras": {
     "exterior": "M",
@@ -1566,7 +3010,7 @@
    "acres": 0.145,
    "address": "548 RALEIGH DR, GEORGETOWN, TX  78633",
    "assessed": 448749,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-28",
    "extras": {
     "exterior": "BRICK",
@@ -1585,7 +3029,7 @@
    "acres": 0.122,
    "address": "128 KIMBERWICK CT, GEORGETOWN, TX  78633",
    "assessed": 191514,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-28",
    "extras": {
     "exterior": "BRICK",
@@ -1659,7 +3103,7 @@
   {
    "acres": 0.065,
    "address": "4879-1 WILLIAMS DR #101, GEORGETOWN, TX  78633",
-   "assessed": 1074622,
+   "assessed": 1066449,
    "class": "F1",
    "deed_date": "2026-04-24",
    "extras": {
@@ -1671,7 +3115,7 @@
    "lat": 30.695702,
    "lon": -97.733436,
    "sqft": 2510,
-   "value": 1306551,
+   "value": 1066449,
    "value_kind": "market (WCAD)",
    "year_built": 2020
   },
@@ -1736,7 +3180,7 @@
    "acres": 0.136,
    "address": "1105 MARTINGALE ST, GEORGETOWN, TX  78633",
    "assessed": 117522,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-24",
    "extras": {
     "exterior": "BRICK",
@@ -2014,14 +3458,14 @@
    "acres": 0.163,
    "address": "1101 STONEHILL DR, GEORGETOWN, TX  78633",
    "assessed": 142791,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-17",
    "extras": {
     "exterior": "BRICK",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.734986,
    "lon": -97.776902,
    "sqft": 1912,
@@ -2033,7 +3477,7 @@
    "acres": 1.075,
    "address": "208 WINTERS CV, FLORENCE, TX  76527",
    "assessed": 529515,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-17",
    "extras": {
     "exterior": "STC",
@@ -2052,7 +3496,7 @@
    "acres": 1.092,
    "address": "212 THREE RIVERS RD, FLORENCE, TX  76527",
    "assessed": 926315,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-16",
    "extras": {
     "exterior": "STC",
@@ -2070,7 +3514,7 @@
   {
    "acres": 0.189,
    "address": "1232 LAKESIDE RANCH RD, GEORGETOWN, TX  78633",
-   "assessed": 518734,
+   "assessed": 517258,
    "class": "A1",
    "deed_date": "2026-04-15",
    "extras": {
@@ -2082,7 +3526,7 @@
    "lat": 30.690431,
    "lon": -97.731072,
    "sqft": 2812,
-   "value": 518734,
+   "value": 517258,
    "value_kind": "market (WCAD)",
    "year_built": 2016
   },
@@ -2150,7 +3594,7 @@
    "class": "A1",
    "deed_date": "2026-04-14",
    "extras": {
-    "exterior": "M",
+    "exterior": "STC, STN",
     "foundation": "SLB",
     "roof": "MX"
    },
@@ -2372,25 +3816,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.128,
-   "address": "705 KITTY HAWK RD, GEORGETOWN, TX  78633",
-   "assessed": 353712,
-   "class": "A1",
-   "deed_date": "2026-04-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734416,
-   "lon": -97.760802,
-   "sqft": 1700,
-   "value": 353712,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
    "acres": 0.135,
    "address": "125 EMERALD GROVE DR, GEORGETOWN, TX  78633",
    "assessed": 449222,
@@ -2489,7 +3914,7 @@
    "acres": 1.317,
    "address": "1212 DOELLING DR, FLORENCE, TX  76527",
    "assessed": 503407,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-04-08",
    "extras": {
     "exterior": "STC",
@@ -2503,6 +3928,25 @@
    "value": 503407,
    "value_kind": "market (WCAD)",
    "year_built": 2025
+  },
+  {
+   "acres": 1.033,
+   "address": "313 MARQUESA TRL, GEORGETOWN, TX  78633",
+   "assessed": 1431721,
+   "class": "A1",
+   "deed_date": "2026-04-07",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.699198,
+   "lon": -97.767037,
+   "sqft": 3415,
+   "value": 1431721,
+   "value_kind": "market (WCAD)",
+   "year_built": 2012
   },
   {
    "acres": 1.055,
@@ -2562,28 +4006,9 @@
    "year_built": 2024
   },
   {
-   "acres": 0.131,
-   "address": "105 RAILHEAD DR, GEORGETOWN, TX  78633",
-   "assessed": 250164,
-   "class": "O1",
-   "deed_date": "2026-04-01",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.74068,
-   "lon": -97.785553,
-   "sqft": 1750,
-   "value": 250164,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
    "acres": 0.149,
    "address": "511 WOODEN RAIL LN, GEORGETOWN, TX  78633",
-   "assessed": 462577,
+   "assessed": 455187,
    "class": "A1",
    "deed_date": "2026-03-31",
    "extras": {
@@ -2595,7 +4020,7 @@
    "lat": 30.731702,
    "lon": -97.761092,
    "sqft": 1988,
-   "value": 462577,
+   "value": 455187,
    "value_kind": "market (WCAD)",
    "year_built": 2021
   },
@@ -2621,7 +4046,7 @@
   {
    "acres": 0.16,
    "address": "340 RIDGEWELL LOOP, GEORGETOWN, TX  78633",
-   "assessed": 497397,
+   "assessed": 485725,
    "class": "O1",
    "deed_date": "2026-03-31",
    "extras": {
@@ -2633,26 +4058,26 @@
    "lat": 30.736075,
    "lon": -97.780406,
    "sqft": 2070,
-   "value": 497397,
+   "value": 485725,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
   {
    "acres": 0.147,
    "address": "536 RALEIGH DR, GEORGETOWN, TX  78633",
-   "assessed": 407561,
-   "class": "O1",
+   "assessed": 405116,
+   "class": "A1",
    "deed_date": "2026-03-31",
    "extras": {
     "exterior": "BRICK",
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.734701,
    "lon": -97.783424,
    "sqft": 1973,
-   "value": 407561,
+   "value": 405116,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -2925,7 +4350,7 @@
   {
    "acres": 0.18,
    "address": "1509 CORDUROY LN, GEORGETOWN, TX  78633",
-   "assessed": 522611,
+   "assessed": 511485,
    "class": "O1",
    "deed_date": "2026-03-30",
    "extras": {
@@ -2937,14 +4362,14 @@
    "lat": 30.74501,
    "lon": -97.800497,
    "sqft": 2082,
-   "value": 522611,
+   "value": 511485,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
   {
    "acres": 0.158,
    "address": "1421 CORDUROY LN, GEORGETOWN, TX  78633",
-   "assessed": 534095,
+   "assessed": 520895,
    "class": "O1",
    "deed_date": "2026-03-30",
    "extras": {
@@ -2956,7 +4381,7 @@
    "lat": 30.744393,
    "lon": -97.800024,
    "sqft": 2069,
-   "value": 534095,
+   "value": 520895,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -3002,7 +4427,7 @@
    "acres": 0.157,
    "address": "121 SANDROCK TRL, GEORGETOWN, TX  78633",
    "assessed": 236032,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-27",
    "extras": {
     "exterior": "BRICK",
@@ -3192,7 +4617,7 @@
    "acres": 0.238,
    "address": "1216 CATTLE GUARD LN, GEORGETOWN, TX  78633",
    "assessed": 515371,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-26",
    "extras": {
     "exterior": "STN",
@@ -3229,7 +4654,7 @@
   {
    "acres": 0.162,
    "address": "344 RIDGEWELL LOOP, GEORGETOWN, TX  78633",
-   "assessed": 407896,
+   "assessed": 390323,
    "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
@@ -3241,7 +4666,7 @@
    "lat": 30.736129,
    "lon": -97.780573,
    "sqft": 1982,
-   "value": 407896,
+   "value": 390323,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -3268,7 +4693,7 @@
    "acres": 0.156,
    "address": "1709 GARRET OAKS LN, GEORGETOWN, TX  78633",
    "assessed": 405940,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
     "exterior": "HP",
@@ -3287,7 +4712,7 @@
    "acres": 0.161,
    "address": "108 COTTAGE TRAIL DR, UNIT #72, GEORGETOWN, TX  78628",
    "assessed": 270373,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
     "exterior": "M",
@@ -3534,7 +4959,7 @@
    "acres": 0.12,
    "address": "130 KIMBERWICK CT, GEORGETOWN, TX  78633",
    "assessed": 191988,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-20",
    "extras": {
     "exterior": "BRICK",
@@ -3609,7 +5034,7 @@
   {
    "acres": 0.124,
    "address": "740 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 363152,
+   "assessed": 355841,
    "class": "A1",
    "deed_date": "2026-03-19",
    "extras": {
@@ -3621,7 +5046,7 @@
    "lat": 30.723724,
    "lon": -97.768559,
    "sqft": 1391,
-   "value": 363152,
+   "value": 355841,
    "value_kind": "market (WCAD)",
    "year_built": 2023
   },
@@ -3641,25 +5066,6 @@
    "lon": -97.785524,
    "sqft": 1701,
    "value": 470397,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.128,
-   "address": "133 EMERALD GROVE DR, GEORGETOWN, TX  78633",
-   "assessed": 469732,
-   "class": "A1",
-   "deed_date": "2026-03-19",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.740688,
-   "lon": -97.785113,
-   "sqft": 1765,
-   "value": 469732,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -3693,7 +5099,7 @@
     "foundation": "SLB",
     "roof": "MX"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.725722,
    "lon": -97.783561,
    "sqft": 2619,
@@ -3705,7 +5111,7 @@
    "acres": 0.212,
    "address": "120 BUCKAROO DR, GEORGETOWN, TX  78633",
    "assessed": 701450,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-18",
    "extras": {
     "exterior": "BRICK",
@@ -3803,9 +5209,9 @@
    "class": "A1",
    "deed_date": "2026-03-12",
    "extras": {
-    "exterior": "BW",
+    "exterior": "M",
     "foundation": "SLB",
-    "roof": "HP"
+    "roof": "MX"
    },
    "homestead": true,
    "lat": 30.698507,
@@ -4081,7 +5487,7 @@
    "acres": 0.236,
    "address": "2332 TOBIANO TRCE, GEORGETOWN, TX  78633",
    "assessed": 275438,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-09",
    "extras": {
     "exterior": "M",
@@ -4141,7 +5547,7 @@
    "class": "E1",
    "deed_date": "2026-03-06",
    "extras": {
-    "exterior": "M",
+    "exterior": "STN",
     "foundation": "SLB",
     "roof": "MX"
    },
@@ -4175,8 +5581,8 @@
   {
    "acres": 0.162,
    "address": "336 RIDGEWELL LOOP, GEORGETOWN, TX  78633",
-   "assessed": 419667,
-   "class": "O1",
+   "assessed": 412772,
+   "class": "A1",
    "deed_date": "2026-03-06",
    "extras": {
     "exterior": "BRICK",
@@ -4187,7 +5593,7 @@
    "lat": 30.736023,
    "lon": -97.780239,
    "sqft": 2099,
-   "value": 419667,
+   "value": 412772,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -4214,7 +5620,7 @@
    "acres": 0.376,
    "address": "209 BUCKAROO DR, GEORGETOWN, TX  78633",
    "assessed": 348799,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-03-05",
    "extras": {
     "exterior": "STC",
@@ -4590,7 +5996,7 @@
    "acres": 0.161,
    "address": "104 CENTERFIRE LN, GEORGETOWN, TX  78633",
    "assessed": 321558,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-25",
    "extras": {
     "exterior": "BRICK",
@@ -4913,7 +6319,7 @@
    "acres": 0.2,
    "address": "1029 PAINTED HORSE DR, GEORGETOWN, TX  78633",
    "assessed": 657640,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-18",
    "extras": {
     "exterior": "STC",
@@ -5081,25 +6487,6 @@
    "year_built": 2016
   },
   {
-   "acres": 0.214,
-   "address": "121 WAKE LN, GEORGETOWN, TX  78633",
-   "assessed": 531276,
-   "class": "A1",
-   "deed_date": "2026-02-11",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.68204,
-   "lon": -97.728787,
-   "sqft": 2733,
-   "value": 531276,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
    "acres": 0.135,
    "address": "811 SARATOGA LN, GEORGETOWN, TX  78633",
    "assessed": 354658,
@@ -5122,7 +6509,7 @@
    "acres": 1.177,
    "address": "1121 DOELLING DR, FLORENCE, TX  76527",
    "assessed": 769748,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-02-11",
    "extras": {
     "exterior": "STN",
@@ -5540,7 +6927,7 @@
    "acres": 0.198,
    "address": "2320 TOBIANO TRCE, GEORGETOWN, TX  78633",
    "assessed": 592775,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-29",
    "extras": {
     "exterior": "STC",
@@ -5575,25 +6962,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.195,
-   "address": "721 ESTACADO LN, GEORGETOWN, TX  78633",
-   "assessed": 146852,
-   "class": "O1",
-   "deed_date": "2026-01-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.742506,
-   "lon": -97.795435,
-   "sqft": 2497,
-   "value": 146852,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
    "acres": 0.173,
    "address": "118 CENTERFIRE LN, GEORGETOWN, TX  78633",
    "assessed": 341689,
@@ -5616,7 +6984,7 @@
    "acres": 0.146,
    "address": "1313 MARTINGALE ST, GEORGETOWN, TX  78633",
    "assessed": 354916,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-28",
    "extras": {
     "exterior": "BRICK",
@@ -5729,7 +7097,7 @@
    "acres": 0.125,
    "address": "125 KIMBERWICK CT, GEORGETOWN, TX  78633",
    "assessed": 296794,
-   "class": "O1",
+   "class": "A1",
    "deed_date": "2026-01-27",
    "extras": {
     "exterior": "BRICK",
@@ -6254,7 +7622,7 @@
    "year_built": 2000
   },
   {
-   "acres": 0.161,
+   "acres": 0.149,
    "address": "625 BUCKAROO DR, GEORGETOWN, TX  78633",
    "assessed": 518886,
    "class": "A1",
@@ -6265,8 +7633,8 @@
     "roof": "MX"
    },
    "homestead": true,
-   "lat": 30.741339,
-   "lon": -97.785263,
+   "lat": 30.741336,
+   "lon": -97.785269,
    "sqft": 1784,
    "value": 518886,
    "value_kind": "market (WCAD)",
@@ -6592,25 +7960,6 @@
    "lon": -97.762579,
    "sqft": 2956,
    "value": 740000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.18,
-   "address": "609 WOODEN RAIL LN, GEORGETOWN, TX  78633",
-   "assessed": 397956,
-   "class": "A1",
-   "deed_date": "2025-12-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731192,
-   "lon": -97.760403,
-   "sqft": 1607,
-   "value": 397956,
    "value_kind": "market (WCAD)",
    "year_built": 2021
   },
@@ -7153,9 +8502,9 @@
    "class": "A1",
    "deed_date": "2025-12-17",
    "extras": {
-    "exterior": "STN",
+    "exterior": "M",
     "foundation": "SLB",
-    "roof": "HP"
+    "roof": "MX"
    },
    "homestead": true,
    "lat": 30.698727,
@@ -7204,25 +8553,6 @@
    "year_built": 2023
   },
   {
-   "acres": 0.124,
-   "address": "310 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 356420,
-   "class": "A1",
-   "deed_date": "2025-12-17",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.722328,
-   "lon": -97.771785,
-   "sqft": 1475,
-   "value": 356420,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
    "acres": 0.171,
    "address": "2113 TOBIANO TRCE, GEORGETOWN, TX  78633",
    "assessed": 521209,
@@ -7263,7 +8593,7 @@
   {
    "acres": 0.133,
    "address": "1040 STONEHILL DR, GEORGETOWN, TX  78633",
-   "assessed": 454590,
+   "assessed": 352450,
    "class": "A1",
    "deed_date": "2025-12-16",
    "extras": {
@@ -7275,7 +8605,7 @@
    "lat": 30.735461,
    "lon": -97.77649,
    "sqft": 1527,
-   "value": 454590,
+   "value": 352450,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -7320,7 +8650,7 @@
   {
    "acres": 5.047,
    "address": "908 JENNINGS BRANCH, GEORGETOWN, TX  78633",
-   "assessed": 1013575,
+   "assessed": 984447,
    "class": "E1",
    "deed_date": "2025-12-15",
    "extras": {
@@ -7332,7 +8662,7 @@
    "lat": 30.741735,
    "lon": -97.767171,
    "sqft": 3852,
-   "value": 1329787,
+   "value": 1300659,
    "value_kind": "market (WCAD)",
    "year_built": 2015
   },
@@ -7435,7 +8765,7 @@
    "acres": 0.27,
    "address": "11000 RR 2338, FLORENCE, TX  76527",
    "assessed": 142766,
-   "class": "A1",
+   "class": "XV",
    "deed_date": "2025-12-15",
    "extras": {
     "exterior": "WD",
@@ -8434,25 +9764,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.22,
-   "address": "1000 ROLLINGWOOD TRL, GEORGETOWN, TX  78633",
-   "assessed": 462119,
-   "class": "A1",
-   "deed_date": "2025-11-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.735026,
-   "lon": -97.779876,
-   "sqft": 2391,
-   "value": 462119,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
    "acres": 0.178,
    "address": "113 CHARRO CT, GEORGETOWN, TX  78633",
    "assessed": 415926,
@@ -8698,25 +10009,6 @@
    "value": 381004,
    "value_kind": "market (WCAD)",
    "year_built": 2024
-  },
-  {
-   "acres": 0.157,
-   "address": "316 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 363380,
-   "class": "A1",
-   "deed_date": "2025-11-21",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.721902,
-   "lon": -97.771876,
-   "sqft": 1391,
-   "value": 363380,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
   },
   {
    "acres": 0.199,
@@ -9952,25 +11244,6 @@
    "year_built": 2025
   },
   {
-   "acres": 11.05,
-   "address": "235 RIDGEWOOD RD E, GEORGETOWN, TX  78633",
-   "assessed": 1317779,
-   "class": "A1",
-   "deed_date": "2025-10-24",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "PB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.724778,
-   "lon": -97.765692,
-   "sqft": 3220,
-   "value": 1317779,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
    "acres": 0.14,
    "address": "2341 SAWDUST DR, GEORGETOWN, TX  78633",
    "assessed": 438418,
@@ -10502,25 +11775,6 @@
    "year_built": 2025
   },
   {
-   "acres": 0.13,
-   "address": "1000 MARTINGALE ST, GEORGETOWN, TX  78633",
-   "assessed": 119319,
-   "class": "O1",
-   "deed_date": "2025-10-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.739829,
-   "lon": -97.753519,
-   "sqft": 1575,
-   "value": 119319,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
    "acres": 0.128,
    "address": "1002 MARTINGALE ST, GEORGETOWN, TX  78633",
    "assessed": 188396,
@@ -10536,25 +11790,6 @@
    "lon": -97.753638,
    "sqft": 1475,
    "value": 188396,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.136,
-   "address": "1004 MARTINGALE ST, GEORGETOWN, TX  78633",
-   "assessed": 117522,
-   "class": "O1",
-   "deed_date": "2025-10-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.739713,
-   "lon": -97.75376,
-   "sqft": 1391,
-   "value": 117522,
    "value_kind": "market (WCAD)",
    "year_built": 2025
   },
@@ -10595,3896 +11830,26 @@
    "value": 188877,
    "value_kind": "market (WCAD)",
    "year_built": 2025
-  },
-  {
-   "acres": 0.131,
-   "address": "1016 STONEHILL DR, GEORGETOWN, TX  78633",
-   "assessed": 447508,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.735484,
-   "lon": -97.775616,
-   "sqft": 1341,
-   "value": 447508,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.209,
-   "address": "332 BUCKAROO DR, GEORGETOWN, TX  78633",
-   "assessed": 637118,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.741996,
-   "lon": -97.789332,
-   "sqft": 2370,
-   "value": 637118,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.145,
-   "address": "318 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 357586,
-   "class": "A1",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.72177,
-   "lon": -97.771835,
-   "sqft": 1391,
-   "value": 357586,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.009,
-   "address": "203 BOBBYS CV, GEORGETOWN, TX  78633",
-   "assessed": 879221,
-   "class": "A1",
-   "deed_date": "2025-10-11",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.699232,
-   "lon": -97.757827,
-   "sqft": 3022,
-   "value": 944516,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 1.543,
-   "address": "138 MOCKINGBIRD LN, GEORGETOWN, TX  78633",
-   "assessed": 821439,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.714634,
-   "lon": -97.776965,
-   "sqft": 3688,
-   "value": 821439,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 5.023,
-   "address": "1010 WILDWOOD XING, GEORGETOWN, TX  78633",
-   "assessed": 1143137,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.746654,
-   "lon": -97.76446,
-   "sqft": 1761,
-   "value": 1143137,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.265,
-   "address": "100 SPLIT DIAMOND CV, GEORGETOWN, TX  78633",
-   "assessed": 783706,
-   "class": "A1",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.732143,
-   "lon": -97.754394,
-   "sqft": 2806,
-   "value": 783706,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.254,
-   "address": "120 LAKE CAVERN CT, GEORGETOWN, TX  78633",
-   "assessed": 664680,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.690902,
-   "lon": -97.733492,
-   "sqft": 2232,
-   "value": 664680,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.17,
-   "address": "1101 HANGING STAR LN, GEORGETOWN, TX  78633",
-   "assessed": 475131,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.7329,
-   "lon": -97.76041,
-   "sqft": 2010,
-   "value": 475131,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 1.112,
-   "address": "147 CASA LOMA CIR, GEORGETOWN, TX  78633",
-   "assessed": 330357,
-   "class": "A1",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.700977,
-   "lon": -97.742192,
-   "sqft": 1465,
-   "value": 330357,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 1.04,
-   "address": "217 WHISPERING SPRING LN, GEORGETOWN, TX  78633",
-   "assessed": 868201,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "STN, STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.692666,
-   "lon": -97.762358,
-   "sqft": 3171,
-   "value": 868201,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 1.023,
-   "address": "204 DAKOTA DR, GEORGETOWN, TX  78633",
-   "assessed": 702145,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.709569,
-   "lon": -97.792086,
-   "sqft": 2753,
-   "value": 702145,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.292,
-   "address": "2232 SAWDUST DR, GEORGETOWN, TX  78633",
-   "assessed": 480095,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734671,
-   "lon": -97.789763,
-   "sqft": 1572,
-   "value": 480095,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.124,
-   "address": "210 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 357949,
-   "class": "A1",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.723057,
-   "lon": -97.77159,
-   "sqft": 1475,
-   "value": 357949,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.522,
-   "address": "1810 CR 262, GEORGETOWN, TX  78633",
-   "assessed": 713629,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.682835,
-   "lon": -97.762962,
-   "sqft": 3127,
-   "value": 914346,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.142,
-   "address": "1704 GARRET OAKS LN, GEORGETOWN, TX  78633",
-   "assessed": 439144,
-   "class": "A1",
-   "deed_date": "2025-10-07",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737409,
-   "lon": -97.787203,
-   "sqft": 1969,
-   "value": 439144,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.121,
-   "address": "116 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 368435,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.721842,
-   "lon": -97.77047,
-   "sqft": 1391,
-   "value": 368435,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.173,
-   "address": "119 PELHAM ST, GEORGETOWN, TX  78633",
-   "assessed": 413755,
-   "class": "A1",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.738323,
-   "lon": -97.752166,
-   "sqft": 1607,
-   "value": 413755,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.118,
-   "address": "217 SMOKESTACK LN, GEORGETOWN, TX  78633",
-   "assessed": 353946,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731144,
-   "lon": -97.768017,
-   "sqft": 1475,
-   "value": 353946,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.154,
-   "address": "1125 STONEHILL DR, GEORGETOWN, TX  78633",
-   "assessed": 477675,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.735057,
-   "lon": -97.777874,
-   "sqft": 1971,
-   "value": 477675,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.137,
-   "address": "1202 WINEDALE LN, GEORGETOWN, TX  78633",
-   "assessed": 359378,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.723389,
-   "lon": -97.770865,
-   "sqft": 1391,
-   "value": 359378,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.162,
-   "address": "300 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 365607,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722924,
-   "lon": -97.771626,
-   "sqft": 1391,
-   "value": 365607,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.173,
-   "address": "307 HICKORY CREEK RD, GEORGETOWN, TX  78633",
-   "assessed": 446990,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.718943,
-   "lon": -97.769756,
-   "sqft": 1954,
-   "value": 446990,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.193,
-   "address": "400 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 363499,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.721136,
-   "lon": -97.771256,
-   "sqft": 1391,
-   "value": 363499,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.108,
-   "address": "3014 FOUNTAINWOOD DR, GEORGETOWN, TX  78633",
-   "assessed": 640284,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.693871,
-   "lon": -97.751883,
-   "sqft": 2276,
-   "value": 640284,
-   "value_kind": "market (WCAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 1.942,
-   "address": "605 MARQUESA TRL, GEORGETOWN, TX  78633",
-   "assessed": 1484196,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.69709,
-   "lon": -97.766895,
-   "sqft": 3665,
-   "value": 1732455,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 1.102,
-   "address": "513 SOMERSET WOODS CT, GEORGETOWN, TX  78633",
-   "assessed": 774602,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.742139,
-   "lon": -97.781868,
-   "sqft": 2645,
-   "value": 774602,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.165,
-   "address": "801 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 348610,
-   "class": "A1",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.724136,
-   "lon": -97.769333,
-   "sqft": 1475,
-   "value": 348610,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 1.405,
-   "address": "20309 HUNTERS POINT DR, GEORGETOWN, TX  78633",
-   "assessed": 864327,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.688039,
-   "lon": -97.76236,
-   "sqft": 2493,
-   "value": 864327,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 1.335,
-   "address": "107 LANDONS WAY, GEORGETOWN, TX  78633",
-   "assessed": 499040,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.707289,
-   "lon": -97.787871,
-   "sqft": 2082,
-   "value": 499040,
-   "value_kind": "market (WCAD)",
-   "year_built": 1997
-  },
-  {
-   "acres": 0.163,
-   "address": "118 STRIKER LN, GEORGETOWN, TX  78633",
-   "assessed": 454881,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.73996,
-   "lon": -97.750213,
-   "sqft": 1954,
-   "value": 454881,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.148,
-   "address": "123 BUNKERHILL LN, GEORGETOWN, TX  78633",
-   "assessed": 351175,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733391,
-   "lon": -97.763993,
-   "sqft": 1389,
-   "value": 351175,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.212,
-   "address": "422 RALEIGH DR, GEORGETOWN, TX  78633",
-   "assessed": 519305,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734616,
-   "lon": -97.781579,
-   "sqft": 1818,
-   "value": 519305,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.013,
-   "address": "3681 CR 245, FLORENCE, TX  76527",
-   "assessed": 218333,
-   "class": "E1",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "PB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.770741,
-   "lon": -97.789358,
-   "sqft": 1601,
-   "value": 218333,
-   "value_kind": "market (WCAD)",
-   "year_built": 1935
-  },
-  {
-   "acres": 0.154,
-   "address": "1104 HAVENWOOD LN, UNIT #77, GEORGETOWN, TX  78628",
-   "assessed": 411208,
-   "class": "A8",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.738831,
-   "lon": -97.79563,
-   "sqft": 1645,
-   "value": 411208,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.373,
-   "address": "1026 PAINTED HORSE DR, GEORGETOWN, TX  78633",
-   "assessed": 665032,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725082,
-   "lon": -97.78062,
-   "sqft": 3144,
-   "value": 665032,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.215,
-   "address": "605 LIGHTSTONE DR, GEORGETOWN, TX  78633",
-   "assessed": 473622,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.744983,
-   "lon": -97.789684,
-   "sqft": 2443,
-   "value": 473622,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.039,
-   "address": "1005 FOUNTAINWOOD DR, GEORGETOWN, TX  78633",
-   "assessed": 674040,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.701335,
-   "lon": -97.747933,
-   "sqft": 2147,
-   "value": 674040,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 1.007,
-   "address": "5020 WILDERNESS CV, GEORGETOWN, TX  78633",
-   "assessed": 1005211,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.690876,
-   "lon": -97.773753,
-   "sqft": 3640,
-   "value": 1106707,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.187,
-   "address": "123 HANGING STAR LN, GEORGETOWN, TX  78633",
-   "assessed": 425554,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.730955,
-   "lon": -97.75772,
-   "sqft": 1868,
-   "value": 425554,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.148,
-   "address": "211 SMOKESTACK LN, GEORGETOWN, TX  78633",
-   "assessed": 418340,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731146,
-   "lon": -97.768586,
-   "sqft": 1391,
-   "value": 418340,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.148,
-   "address": "524 RALEIGH DR, GEORGETOWN, TX  78633",
-   "assessed": 395922,
-   "class": "A1",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.734643,
-   "lon": -97.782938,
-   "sqft": 1504,
-   "value": 395922,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.246,
-   "address": "1801 LAKESIDE RANCH RD, GEORGETOWN, TX  78633",
-   "assessed": 497116,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.68449,
-   "lon": -97.728424,
-   "sqft": 2550,
-   "value": 497116,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.227,
-   "address": "400 MARTINGALE ST, GEORGETOWN, TX  78633",
-   "assessed": 725894,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737169,
-   "lon": -97.748833,
-   "sqft": 2314,
-   "value": 725894,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.124,
-   "address": "125 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 366696,
-   "class": "A1",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722049,
-   "lon": -97.769966,
-   "sqft": 1391,
-   "value": 366696,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 5.418,
-   "address": "117 HESTER HOLW, GEORGETOWN, TX  78633",
-   "assessed": 971810,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.691478,
-   "lon": -97.743831,
-   "sqft": 2700,
-   "value": 1006427,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 1.095,
-   "address": "106 LAKEVIEW LN, GEORGETOWN, TX  78633",
-   "assessed": 784510,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.700351,
-   "lon": -97.743996,
-   "sqft": 3030,
-   "value": 784510,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 1.556,
-   "address": "401 PR 902, FLORENCE, TX  76527",
-   "assessed": 188664,
-   "class": "A2",
-   "deed_date": "2025-09-23",
-   "homestead": false,
-   "lat": 30.750264,
-   "lon": -97.791156,
-   "value": 188664,
-   "value_kind": "market (WCAD)"
-  },
-  {
-   "acres": 0.123,
-   "address": "123 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 366696,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.722161,
-   "lon": -97.770012,
-   "sqft": 1391,
-   "value": 366696,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.344,
-   "address": "112 SILENT GROVE CT, GEORGETOWN, TX  78633",
-   "assessed": 607517,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "exterior": "SW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.724279,
-   "lon": -97.783075,
-   "sqft": 1878,
-   "value": 607517,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.174,
-   "address": "1509 LAKESIDE RANCH RD, GEORGETOWN, TX  78633",
-   "assessed": 636053,
-   "class": "A1",
-   "deed_date": "2025-09-20",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.688513,
-   "lon": -97.730901,
-   "sqft": 1924,
-   "value": 636053,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.184,
-   "address": "2005 LIMESTONE LAKE DR, GEORGETOWN, TX  78633",
-   "assessed": 707470,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.689767,
-   "lon": -97.732126,
-   "sqft": 2437,
-   "value": 707470,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.146,
-   "address": "213 NOTCHED BOW LN, GEORGETOWN, TX  78633",
-   "assessed": 429070,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733548,
-   "lon": -97.759567,
-   "sqft": 1845,
-   "value": 429070,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 1.101,
-   "address": "106 CACTUS BEND CV, GEORGETOWN, TX  78633",
-   "assessed": 982311,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "ST, STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.719814,
-   "lon": -97.755998,
-   "sqft": 3008,
-   "value": 982311,
-   "value_kind": "market (WCAD)",
-   "year_built": 2010
-  },
-  {
-   "acres": 1.148,
-   "address": "108 WILLOW RUN, GEORGETOWN, TX  78633",
-   "assessed": 970724,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.721584,
-   "lon": -97.75355,
-   "sqft": 3443,
-   "value": 970724,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.185,
-   "address": "120 RED GRANITE RD, GEORGETOWN, TX  78633",
-   "assessed": 533912,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.683331,
-   "lon": -97.726796,
-   "sqft": 2747,
-   "value": 533912,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.129,
-   "address": "125 CLAY HILL ST, GEORGETOWN, TX  78633",
-   "assessed": 322824,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.723205,
-   "lon": -97.770018,
-   "sqft": 1229,
-   "value": 322824,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.133,
-   "address": "121 EMERALD GROVE DR, GEORGETOWN, TX  78633",
-   "assessed": 458679,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.740328,
-   "lon": -97.785015,
-   "sqft": 1632,
-   "value": 458679,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 2.822,
-   "address": "210 WHISPERING SPRING LN, GEORGETOWN, TX  78633",
-   "assessed": 1736424,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "STC, STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.691679,
-   "lon": -97.764545,
-   "sqft": 3883,
-   "value": 1841037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": 1.236,
-   "address": "221 INDEPENDENCE DR, GEORGETOWN, TX  78633",
-   "assessed": 673346,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.747246,
-   "lon": -97.782138,
-   "sqft": 2734,
-   "value": 673346,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.124,
-   "address": "711 KITTY HAWK RD, GEORGETOWN, TX  78633",
-   "assessed": 338014,
-   "class": "A1",
-   "deed_date": "2025-09-17",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734669,
-   "lon": -97.760511,
-   "sqft": 1438,
-   "value": 338014,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.259,
-   "address": "1409 KNEEHIGH LN, GEORGETOWN, TX  78633",
-   "assessed": 362008,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.737045,
-   "lon": -97.787636,
-   "sqft": 1515,
-   "value": 362008,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.114,
-   "address": "1325 KNEEHIGH LN, GEORGETOWN, TX  78633",
-   "assessed": 402232,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737216,
-   "lon": -97.789209,
-   "sqft": 1614,
-   "value": 402232,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.318,
-   "address": "101 SILENT GROVE CT, GEORGETOWN, TX  78633",
-   "assessed": 666829,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "exterior": "WS",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.724508,
-   "lon": -97.782169,
-   "sqft": 3172,
-   "value": 666829,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.176,
-   "address": "605 WOODEN RAIL LN, GEORGETOWN, TX  78633",
-   "assessed": 400528,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731455,
-   "lon": -97.760641,
-   "sqft": 1607,
-   "value": 400528,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.278,
-   "address": "237 SAN XAVIER ST, GEORGETOWN, TX  78633",
-   "assessed": 557955,
-   "class": "A1",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725532,
-   "lon": -97.781476,
-   "sqft": 2489,
-   "value": 557955,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.293,
-   "address": "205 ALYSSA DR, GEORGETOWN, TX  78633",
-   "assessed": 836046,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.703501,
-   "lon": -97.762569,
-   "sqft": 2819,
-   "value": 836046,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.145,
-   "address": "220 HOBBY ST, GEORGETOWN, TX  78633",
-   "assessed": 326635,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726513,
-   "lon": -97.766273,
-   "sqft": 1472,
-   "value": 326635,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.209,
-   "address": "207 HICKORY CREEK RD, GEORGETOWN, TX  78633",
-   "assessed": 459517,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.720203,
-   "lon": -97.771071,
-   "sqft": 2027,
-   "value": 459517,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 3.951,
-   "address": "106 GRAYSTONE LN, GEORGETOWN, TX  78633",
-   "assessed": 1104479,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.719016,
-   "lon": -97.764853,
-   "sqft": 2246,
-   "value": 1104479,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 1.138,
-   "address": "123 LAYTON WAY, GEORGETOWN, TX  78633",
-   "assessed": 742722,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.711149,
-   "lon": -97.799261,
-   "sqft": 2695,
-   "value": 742722,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.161,
-   "address": "100 HANGING STAR LN, GEORGETOWN, TX  78633",
-   "assessed": 467855,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.730389,
-   "lon": -97.759817,
-   "sqft": 2007,
-   "value": 467855,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.331,
-   "address": "208 RED GRANITE RD, GEORGETOWN, TX  78633",
-   "assessed": 597186,
-   "class": "A1",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.682092,
-   "lon": -97.725396,
-   "sqft": 2545,
-   "value": 597186,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 1.156,
-   "address": "100 DIAMOND TRL, GEORGETOWN, TX  78633",
-   "assessed": 894321,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.69903,
-   "lon": -97.754101,
-   "sqft": 3115,
-   "value": 894321,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 0.157,
-   "address": "115 LAFAYETTE ST, GEORGETOWN, TX  78633",
-   "assessed": 466806,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733921,
-   "lon": -97.762909,
-   "sqft": 1988,
-   "value": 466806,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.136,
-   "address": "312 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 363380,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722208,
-   "lon": -97.771827,
-   "sqft": 1391,
-   "value": 363380,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 6.013,
-   "address": "6818 S LAKEWOODS DR, GEORGETOWN, TX  78633",
-   "assessed": 968059,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.708134,
-   "lon": -97.736343,
-   "sqft": 2928,
-   "value": 968059,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 1.45,
-   "address": "1525 CR 262, GEORGETOWN, TX  78633",
-   "assessed": 766361,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.686248,
-   "lon": -97.767997,
-   "sqft": 1403,
-   "value": 766361,
-   "value_kind": "market (WCAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 0.156,
-   "address": "312 WIND HOLLOW DR, GEORGETOWN, TX  78633",
-   "assessed": 397866,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BRICK, HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.68493,
-   "lon": -97.725491,
-   "sqft": 1099,
-   "value": 397866,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.129,
-   "address": "128 RALEIGH DR, GEORGETOWN, TX  78633",
-   "assessed": 416171,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.73284,
-   "lon": -97.778813,
-   "sqft": 1526,
-   "value": 416171,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.125,
-   "address": "121 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 351952,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722273,
-   "lon": -97.770058,
-   "sqft": 1475,
-   "value": 351952,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.121,
-   "address": "112 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 370681,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722063,
-   "lon": -97.770561,
-   "sqft": 1391,
-   "value": 370681,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.273,
-   "address": "233 SAN XAVIER ST, GEORGETOWN, TX  78633",
-   "assessed": 580864,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725538,
-   "lon": -97.78118,
-   "sqft": 2735,
-   "value": 580864,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.007,
-   "address": "132 CASA LOMA CIR, GEORGETOWN, TX  78633",
-   "assessed": 430395,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.699609,
-   "lon": -97.740746,
-   "sqft": 1495,
-   "value": 430395,
-   "value_kind": "market (WCAD)",
-   "year_built": 1980
-  },
-  {
-   "acres": 1.022,
-   "address": "108 LOWER CEDAR CV, GEORGETOWN, TX  78633",
-   "assessed": 1964242,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.682232,
-   "lon": -97.759463,
-   "sqft": 4269,
-   "value": 1964242,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.225,
-   "address": "433 KINGSLAND ST, GEORGETOWN, TX  78633",
-   "assessed": 522103,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.740324,
-   "lon": -97.787147,
-   "sqft": 1938,
-   "value": 522103,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.151,
-   "address": "1104 HANGING STAR LN, GEORGETOWN, TX  78633",
-   "assessed": 385000,
-   "class": "A1",
-   "deed_date": "2025-09-06",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733145,
-   "lon": -97.760896,
-   "sqft": 1791,
-   "value": 385000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.12,
-   "address": "105 LIVEWATER LN, GEORGETOWN, TX  78633",
-   "assessed": 322824,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.724032,
-   "lon": -97.770767,
-   "sqft": 1229,
-   "value": 322824,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.147,
-   "address": "856 HAMILTON LN, GEORGETOWN, TX  78633",
-   "assessed": 331682,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726596,
-   "lon": -97.767454,
-   "sqft": 1604,
-   "value": 331682,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.169,
-   "address": "505 WOODEN RAIL LN, GEORGETOWN, TX  78633",
-   "assessed": 408693,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.731993,
-   "lon": -97.761514,
-   "sqft": 1607,
-   "value": 408693,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.147,
-   "address": "315 KITTY HAWK RD, GEORGETOWN, TX  78633",
-   "assessed": 464917,
-   "class": "A1",
-   "deed_date": "2025-09-04",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733592,
-   "lon": -97.765365,
-   "sqft": 2027,
-   "value": 464917,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.192,
-   "address": "303 BANDANA LN, GEORGETOWN, TX  78633",
-   "assessed": 728216,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.738883,
-   "lon": -97.745844,
-   "sqft": 2850,
-   "value": 728216,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.198,
-   "address": "108 BUCKAROO DR, GEORGETOWN, TX  78633",
-   "assessed": 465254,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.744647,
-   "lon": -97.791229,
-   "sqft": 2276,
-   "value": 465254,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 10.435,
-   "address": "400 CR 249, FLORENCE, TX  76527",
-   "assessed": 517330,
-   "class": "E1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.767668,
-   "lon": -97.791558,
-   "sqft": 3360,
-   "value": 918683,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 1.004,
-   "address": "104 SAN JUAN DR, GEORGETOWN, TX  78633",
-   "assessed": 637724,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.746431,
-   "lon": -97.78817,
-   "sqft": 2453,
-   "value": 637724,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.129,
-   "address": "116 EMERALD GROVE DR, GEORGETOWN, TX  78633",
-   "assessed": 469732,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.739929,
-   "lon": -97.78448,
-   "sqft": 1765,
-   "value": 469732,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.188,
-   "address": "100 RAILHEAD DR, GEORGETOWN, TX  78633",
-   "assessed": 528322,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.740644,
-   "lon": -97.786166,
-   "sqft": 1978,
-   "value": 528322,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.404,
-   "address": "109 SILENT GROVE CT, GEORGETOWN, TX  78633",
-   "assessed": 623246,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.724026,
-   "lon": -97.782342,
-   "sqft": 2940,
-   "value": 623246,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.268,
-   "address": "100 OLD EAGLE RD, GEORGETOWN, TX  78633",
-   "assessed": 549759,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.742857,
-   "lon": -97.790672,
-   "sqft": 1942,
-   "value": 549759,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 1.405,
-   "address": "20101 FOX CHASE CIR, GEORGETOWN, TX  78633",
-   "assessed": 1851965,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MSD"
-   },
-   "homestead": true,
-   "lat": 30.684753,
-   "lon": -97.758551,
-   "sqft": 3928,
-   "value": 1851965,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.298,
-   "address": "1104 TRIBUTARY TRL, GEORGETOWN, TX  78633",
-   "assessed": 676878,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.681822,
-   "lon": -97.730999,
-   "sqft": 3325,
-   "value": 676878,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.256,
-   "address": "602 TALL RIDERS DR, GEORGETOWN, TX  78633",
-   "assessed": 630213,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737491,
-   "lon": -97.749574,
-   "sqft": 2244,
-   "value": 630213,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.195,
-   "address": "301 KITTY HAWK RD, GEORGETOWN, TX  78633",
-   "assessed": 468816,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734597,
-   "lon": -97.765762,
-   "sqft": 1988,
-   "value": 468816,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.215,
-   "address": "504 NORTH FORK TRL, GEORGETOWN, TX  78633",
-   "assessed": 585293,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.682597,
-   "lon": -97.726328,
-   "sqft": 3001,
-   "value": 585293,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 1.02,
-   "address": "105 LOWER CEDAR CV, GEORGETOWN, TX  78633",
-   "assessed": 1170912,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.682735,
-   "lon": -97.75891,
-   "sqft": 3384,
-   "value": 1339374,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.131,
-   "address": "565 RALEIGH DR, GEORGETOWN, TX  78633",
-   "assessed": 456767,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "M, BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734304,
-   "lon": -97.784152,
-   "sqft": 1817,
-   "value": 456767,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.223,
-   "address": "105 RIVERSONG CV, GEORGETOWN, TX  78633",
-   "assessed": 454990,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.720722,
-   "lon": -97.772466,
-   "sqft": 1988,
-   "value": 454990,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 1.012,
-   "address": "101 DAKOTA DR, GEORGETOWN, TX  78633",
-   "assessed": 731242,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.709763,
-   "lon": -97.789958,
-   "sqft": 2923,
-   "value": 731242,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.235,
-   "address": "125 RED GRANITE RD, GEORGETOWN, TX  78633",
-   "assessed": 524900,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.683386,
-   "lon": -97.726019,
-   "sqft": 2162,
-   "value": 524900,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.178,
-   "address": "1128 STONEHILL DR, GEORGETOWN, TX  78633",
-   "assessed": 338764,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.735547,
-   "lon": -97.777891,
-   "sqft": 1639,
-   "value": 338764,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.146,
-   "address": "101 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 359340,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.723098,
-   "lon": -97.771126,
-   "sqft": 1391,
-   "value": 359340,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.21,
-   "address": "1300 MARTINGALE ST, GEORGETOWN, TX  78633",
-   "assessed": 458450,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737345,
-   "lon": -97.755497,
-   "sqft": 1954,
-   "value": 458450,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.152,
-   "address": "101 ASTON CV, GEORGETOWN, TX  78633",
-   "assessed": 1052393,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.72138,
-   "lon": -97.763675,
-   "sqft": 2690,
-   "value": 1052393,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.121,
-   "address": "114 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 356420,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.721953,
-   "lon": -97.770516,
-   "sqft": 1475,
-   "value": 356420,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.174,
-   "address": "331 KITTY HAWK RD, GEORGETOWN, TX  78633",
-   "assessed": 467477,
-   "class": "A1",
-   "deed_date": "2025-08-24",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.732503,
-   "lon": -97.764729,
-   "sqft": 2027,
-   "value": 467477,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.149,
-   "address": "131 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 353953,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.721704,
-   "lon": -97.769824,
-   "sqft": 1625,
-   "value": 353953,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.181,
-   "address": "105 CENTERFIRE LN, GEORGETOWN, TX  78633",
-   "assessed": 480688,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.738933,
-   "lon": -97.753663,
-   "sqft": 1851,
-   "value": 480688,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.413,
-   "address": "100 LAKE RIM CIR, GEORGETOWN, TX  78633",
-   "assessed": 698343,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.688823,
-   "lon": -97.73181,
-   "sqft": 2859,
-   "value": 698343,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.172,
-   "address": "2108 TOBIANO TRCE, GEORGETOWN, TX  78633",
-   "assessed": 584117,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "SW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.72702,
-   "lon": -97.781066,
-   "sqft": 2662,
-   "value": 584117,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.13,
-   "address": "537 RALEIGH DR, GEORGETOWN, TX  78633",
-   "assessed": 462403,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734185,
-   "lon": -97.78316,
-   "sqft": 1837,
-   "value": 462403,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.143,
-   "address": "1204 GLEN HEATHER DR, GEORGETOWN, TX  78633",
-   "assessed": 459276,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.743834,
-   "lon": -97.793197,
-   "sqft": 2422,
-   "value": 459276,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.905,
-   "address": "111 MOCKINGBIRD LN, GEORGETOWN, TX  78633",
-   "assessed": 516979,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.714432,
-   "lon": -97.774685,
-   "sqft": 1839,
-   "value": 516979,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.204,
-   "address": "1704 LAKESIDE RANCH RD, GEORGETOWN, TX  78633",
-   "assessed": 802542,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.685454,
-   "lon": -97.729789,
-   "sqft": 2285,
-   "value": 802542,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.162,
-   "address": "1112 GLEN HEATHER DR, GEORGETOWN, TX  78633",
-   "assessed": 474743,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.743363,
-   "lon": -97.792253,
-   "sqft": 2230,
-   "value": 474743,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.051,
-   "address": "109 ROBERTS CIR, GEORGETOWN, TX  78633",
-   "assessed": 954279,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.696662,
-   "lon": -97.755057,
-   "sqft": 2843,
-   "value": 954279,
-   "value_kind": "market (WCAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.226,
-   "address": "121 OLD EAGLE RD, GEORGETOWN, TX  78633",
-   "assessed": 484442,
-   "class": "A1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.742306,
-   "lon": -97.789852,
-   "sqft": 2788,
-   "value": 484442,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.163,
-   "address": "109 CENTERFIRE LN, GEORGETOWN, TX  78633",
-   "assessed": 134455,
-   "class": "O1",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.738665,
-   "lon": -97.753492,
-   "sqft": 2027,
-   "value": 134455,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.993,
-   "address": "105 HALLIE CT, GEORGETOWN, TX  78633",
-   "assessed": 849028,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.700116,
-   "lon": -97.7631,
-   "sqft": 3184,
-   "value": 849028,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 0.154,
-   "address": "1208 GLEN HEATHER DR, GEORGETOWN, TX  78633",
-   "assessed": 529202,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.743898,
-   "lon": -97.793341,
-   "sqft": 1760,
-   "value": 529202,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.146,
-   "address": "409 RALEIGH DR, GEORGETOWN, TX  78633",
-   "assessed": 458260,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734027,
-   "lon": -97.781079,
-   "sqft": 1837,
-   "value": 458260,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.215,
-   "address": "2205 TOBIANO TRCE, GEORGETOWN, TX  78633",
-   "assessed": 589594,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "WS",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.726107,
-   "lon": -97.782346,
-   "sqft": 2644,
-   "value": 589594,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.16,
-   "address": "104 PELHAM ST, GEORGETOWN, TX  78633",
-   "assessed": 411448,
-   "class": "A1",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.739097,
-   "lon": -97.753282,
-   "sqft": 1607,
-   "value": 411448,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.523,
-   "address": "200 NICOLE WAY, GEORGETOWN, TX  78633",
-   "assessed": 723079,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "foundation": "SLB"
-   },
-   "homestead": false,
-   "lat": 30.69795,
-   "lon": -97.749356,
-   "sqft": 2614,
-   "value": 723079,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.128,
-   "address": "123 HOBBY ST, GEORGETOWN, TX  78633",
-   "assessed": 332379,
-   "class": "A1",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.726732,
-   "lon": -97.763846,
-   "sqft": 1481,
-   "value": 332379,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 1.061,
-   "address": "102 STANDING OAK DR, GEORGETOWN, TX  78633",
-   "assessed": 860307,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "ST, STC",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.714802,
-   "lon": -97.754526,
-   "sqft": 3065,
-   "value": 860307,
-   "value_kind": "market (WCAD)",
-   "year_built": 2010
-  },
-  {
-   "acres": 0.343,
-   "address": "109 ANVIL CT, GEORGETOWN, TX  78633",
-   "assessed": 645295,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736387,
-   "lon": -97.75142,
-   "sqft": 2314,
-   "value": 645295,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.14,
-   "address": "117 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 351952,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.722505,
-   "lon": -97.770143,
-   "sqft": 1475,
-   "value": 351952,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 1.934,
-   "address": "210 STARLIGHT TRL, GEORGETOWN, TX  78633",
-   "assessed": 912879,
-   "class": "A1",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.703057,
-   "lon": -97.752153,
-   "sqft": 2750,
-   "value": 912879,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 1.078,
-   "address": "302 ALYSSA DR, GEORGETOWN, TX  78633",
-   "assessed": 950857,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.702727,
-   "lon": -97.764312,
-   "sqft": 3306,
-   "value": 1048498,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 1.047,
-   "address": "100 HIGHLAND SPRINGS LN, GEORGETOWN, TX  78633",
-   "assessed": 463726,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.694071,
-   "lon": -97.772646,
-   "sqft": 4636,
-   "value": 463726,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.67,
-   "address": "127 LAYTON WAY, GEORGETOWN, TX  78633",
-   "assessed": 860943,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.711009,
-   "lon": -97.799834,
-   "sqft": 3224,
-   "value": 860943,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.232,
-   "address": "306 IRON RAIL LN, GEORGETOWN, TX  78633",
-   "assessed": 720894,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.729781,
-   "lon": -97.762166,
-   "sqft": 2743,
-   "value": 720894,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.162,
-   "address": "237 SILVER RIDGE DR, GEORGETOWN, TX  78633",
-   "assessed": 400618,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733382,
-   "lon": -97.778882,
-   "sqft": 2199,
-   "value": 400618,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "109 EMERALD GROVE DR, GEORGETOWN, TX  78633",
-   "assessed": 448701,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.739957,
-   "lon": -97.785056,
-   "sqft": 1516,
-   "value": 448701,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.165,
-   "address": "107 CENTERFIRE LN, GEORGETOWN, TX  78633",
-   "assessed": 463988,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.738797,
-   "lon": -97.75357,
-   "sqft": 1914,
-   "value": 463988,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.16,
-   "address": "227 WOODLAKE DR, GEORGETOWN, TX  78633",
-   "assessed": 382946,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "BV, HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.687487,
-   "lon": -97.727126,
-   "sqft": 1028,
-   "value": 382946,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.454,
-   "address": "145 ROCK DOCK RD, GEORGETOWN, TX  78633",
-   "assessed": 670556,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.685007,
-   "lon": -97.727541,
-   "sqft": 2296,
-   "value": 670556,
-   "value_kind": "market (WCAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 0.196,
-   "address": "408 RIDGEWELL LOOP, GEORGETOWN, TX  78633",
-   "assessed": 491435,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.735897,
-   "lon": -97.781556,
-   "sqft": 2048,
-   "value": 491435,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.148,
-   "address": "1708 GARRET OAKS LN, GEORGETOWN, TX  78633",
-   "assessed": 555385,
-   "class": "A1",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737265,
-   "lon": -97.787132,
-   "sqft": 1867,
-   "value": 555385,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.182,
-   "address": "116 VISTA LN, GEORGETOWN, TX  78633",
-   "assessed": 931339,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.721635,
-   "lon": -97.777562,
-   "sqft": 3113,
-   "value": 931339,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.173,
-   "address": "201 ALISTAIR DR, GEORGETOWN, TX  78633",
-   "assessed": 447527,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734163,
-   "lon": -97.776932,
-   "sqft": 1436,
-   "value": 447527,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.13,
-   "address": "533 RALEIGH DR, GEORGETOWN, TX  78633",
-   "assessed": 371687,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734168,
-   "lon": -97.783018,
-   "sqft": 2020,
-   "value": 371687,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.3,
-   "address": "100 SILENT GROVE CT, GEORGETOWN, TX  78633",
-   "assessed": 610503,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.724855,
-   "lon": -97.782659,
-   "sqft": 1878,
-   "value": 610503,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.072,
-   "address": "209 STARLIGHT TRL, GEORGETOWN, TX  78633",
-   "assessed": 756722,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.701965,
-   "lon": -97.752649,
-   "sqft": 2839,
-   "value": 756722,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 5.048,
-   "address": "812 JENNINGS BRANCH, GEORGETOWN, TX  78633",
-   "assessed": 1426863,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.740277,
-   "lon": -97.77238,
-   "sqft": 3445,
-   "value": 1426863,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.197,
-   "address": "503 TALL RIDERS DR, GEORGETOWN, TX  78633",
-   "assessed": 765648,
-   "class": "A1",
-   "deed_date": "2025-07-29",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.736671,
-   "lon": -97.748648,
-   "sqft": 2956,
-   "value": 765648,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 1.424,
-   "address": "212 STANDING OAK DR, GEORGETOWN, TX  78633",
-   "assessed": 861456,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.716954,
-   "lon": -97.749679,
-   "sqft": 2956,
-   "value": 861456,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.166,
-   "address": "402 KITTY HAWK RD, GEORGETOWN, TX  78633",
-   "assessed": 459686,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.732371,
-   "lon": -97.763134,
-   "sqft": 2099,
-   "value": 459686,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.156,
-   "address": "108 STRIKER LN, GEORGETOWN, TX  78633",
-   "assessed": 449472,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.739293,
-   "lon": -97.749875,
-   "sqft": 1954,
-   "value": 449472,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.15,
-   "address": "1608 GARRET OAKS LN, GEORGETOWN, TX  78633",
-   "assessed": 533154,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.73765,
-   "lon": -97.787443,
-   "sqft": 1765,
-   "value": 533154,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.136,
-   "address": "2313 SAWDUST DR, GEORGETOWN, TX  78633",
-   "assessed": 434232,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.735441,
-   "lon": -97.789026,
-   "sqft": 1501,
-   "value": 434232,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.211,
-   "address": "103 TYCOON LN, GEORGETOWN, TX  78633",
-   "assessed": 771077,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737841,
-   "lon": -97.746001,
-   "sqft": 2956,
-   "value": 771077,
-   "value_kind": "market (WCAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 0.254,
-   "address": "317 BUCKAROO DR, GEORGETOWN, TX  78633",
-   "assessed": 694006,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.74303,
-   "lon": -97.788998,
-   "sqft": 2521,
-   "value": 694006,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.465,
-   "address": "207 OLDE OAK DR, GEORGETOWN, TX  78633",
-   "assessed": 403225,
-   "class": "A1",
-   "deed_date": "2025-07-27",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.690776,
-   "lon": -97.731311,
-   "sqft": 2296,
-   "value": 403225,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 1.831,
-   "address": "6970 RM 2338, GEORGETOWN, TX  78633",
-   "assessed": 481281,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.71602,
-   "lon": -97.766738,
-   "sqft": 1499,
-   "value": 548361,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.19,
-   "address": "1200 STONEHILL DR, GEORGETOWN, TX  78633",
-   "assessed": 534008,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734542,
-   "lon": -97.778848,
-   "sqft": 2250,
-   "value": 534008,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.171,
-   "address": "103 TIMBERWILDE DR, UNIT #50, GEORGETOWN, TX  78628",
-   "assessed": 531596,
-   "class": "A8",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.738312,
-   "lon": -97.795606,
-   "sqft": 1802,
-   "value": 531596,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.174,
-   "address": "203 PELHAM ST, GEORGETOWN, TX  78633",
-   "assessed": 455305,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.73741,
-   "lon": -97.752061,
-   "sqft": 1988,
-   "value": 455305,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.175,
-   "address": "1305 MARTINGALE ST, GEORGETOWN, TX  78633",
-   "assessed": 492772,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737574,
-   "lon": -97.754838,
-   "sqft": 2209,
-   "value": 492772,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.102,
-   "address": "213 THREE RIVERS RD, FLORENCE, TX  76527",
-   "assessed": 974124,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.755492,
-   "lon": -97.785138,
-   "sqft": 3803,
-   "value": 974124,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.196,
-   "address": "102 POINTER LN, GEORGETOWN, TX  78633",
-   "assessed": 719960,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.735599,
-   "lon": -97.747475,
-   "sqft": 2850,
-   "value": 719960,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.167,
-   "address": "210 HICKORY CREEK RD, GEORGETOWN, TX  78633",
-   "assessed": 472833,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.719793,
-   "lon": -97.771428,
-   "sqft": 1851,
-   "value": 472833,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.377,
-   "address": "2324 TOBIANO TRCE, GEORGETOWN, TX  78633",
-   "assessed": 665032,
-   "class": "A1",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725873,
-   "lon": -97.784775,
-   "sqft": 3144,
-   "value": 665032,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.215,
-   "address": "1010 PAINTED HORSE DR, GEORGETOWN, TX  78633",
-   "assessed": 665032,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725396,
-   "lon": -97.779678,
-   "sqft": 3144,
-   "value": 665032,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.987,
-   "address": "117 RIDGEWOOD CV, GEORGETOWN, TX  78633",
-   "assessed": 548272,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.722393,
-   "lon": -97.767275,
-   "sqft": 2124,
-   "value": 548272,
-   "value_kind": "market (WCAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 0.124,
-   "address": "709 KITTY HAWK RD, GEORGETOWN, TX  78633",
-   "assessed": 399000,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734583,
-   "lon": -97.760606,
-   "sqft": 1575,
-   "value": 399000,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.184,
-   "address": "152 RALEIGH DR, GEORGETOWN, TX  78633",
-   "assessed": 499130,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.733379,
-   "lon": -97.779452,
-   "sqft": 1814,
-   "value": 499130,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.177,
-   "address": "113 CROSS BAR ST, GEORGETOWN, TX  78633",
-   "assessed": 329990,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.722765,
-   "lon": -97.770269,
-   "sqft": 1475,
-   "value": 329990,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.247,
-   "address": "301 BUCKAROO DR, GEORGETOWN, TX  78633",
-   "assessed": 689104,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.743665,
-   "lon": -97.789245,
-   "sqft": 2521,
-   "value": 689104,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.134,
-   "address": "128 EMERALD GROVE DR, GEORGETOWN, TX  78633",
-   "assessed": 470813,
-   "class": "A1",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.740286,
-   "lon": -97.784435,
-   "sqft": 1609,
-   "value": 470813,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.18,
-   "address": "1156 STONEHILL DR, GEORGETOWN, TX  78633",
-   "assessed": 518148,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "exterior": "M, STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734837,
-   "lon": -97.778668,
-   "sqft": 2140,
-   "value": 518148,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.171,
-   "address": "133 SANDROCK TRL, GEORGETOWN, TX  78633",
-   "assessed": 469619,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.733315,
-   "lon": -97.776428,
-   "sqft": 2697,
-   "value": 469619,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.993,
-   "address": "1901 CR 262, GEORGETOWN, TX  78633",
-   "assessed": 992083,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.682771,
-   "lon": -97.761025,
-   "sqft": 2307,
-   "value": 1240310,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.196,
-   "address": "220 HICKORY CREEK RD, GEORGETOWN, TX  78633",
-   "assessed": 470201,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.719231,
-   "lon": -97.770712,
-   "sqft": 2027,
-   "value": 470201,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.263,
-   "address": "345 BUCKAROO DR, GEORGETOWN, TX  78633",
-   "assessed": 683704,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.74192,
-   "lon": -97.788567,
-   "sqft": 2413,
-   "value": 683704,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.033,
-   "address": "206 WHISPERING SPRING LN, GEORGETOWN, TX  78633",
-   "assessed": 793029,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "STN, STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.692823,
-   "lon": -97.764333,
-   "sqft": 2598,
-   "value": 793029,
-   "value_kind": "market (WCAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": 0.168,
-   "address": "316 HANGING STAR LN, GEORGETOWN, TX  78633",
-   "assessed": 478011,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731554,
-   "lon": -97.754294,
-   "sqft": 1984,
-   "value": 478011,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.148,
-   "address": "617 BENTON LN, GEORGETOWN, TX  78633",
-   "assessed": 318618,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.735559,
-   "lon": -97.760959,
-   "sqft": 1229,
-   "value": 318618,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.16,
-   "address": "217 VENETA LN, GEORGETOWN, TX  78633",
-   "assessed": 428673,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734535,
-   "lon": -97.774562,
-   "sqft": 2202,
-   "value": 428673,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.194,
-   "address": "137 SANDROCK TRL, GEORGETOWN, TX  78633",
-   "assessed": 450126,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.733277,
-   "lon": -97.776604,
-   "sqft": 2232,
-   "value": 450126,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.216,
-   "address": "200 SAN XAVIER ST, GEORGETOWN, TX  78633",
-   "assessed": 593002,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.726736,
-   "lon": -97.780616,
-   "sqft": 2810,
-   "value": 593002,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 12.551,
-   "address": "1350 CR 262, GEORGETOWN, TX  78633",
-   "assessed": 2387790,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.687643,
-   "lon": -97.772597,
-   "sqft": 5139,
-   "value": 3236409,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 2.507,
-   "address": "539 CR 245, GEORGETOWN, TX  78633",
-   "assessed": 307247,
-   "class": "E1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.728894,
-   "lon": -97.771601,
-   "sqft": 1731,
-   "value": 330605,
-   "value_kind": "market (WCAD)",
-   "year_built": 1987
-  },
-  {
-   "acres": 0.125,
-   "address": "207 SMOKESTACK LN, GEORGETOWN, TX  78633",
-   "assessed": 187203,
-   "class": "O1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.731062,
-   "lon": -97.768848,
-   "sqft": 1391,
-   "value": 187203,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.989,
-   "address": "164 PENNY LN, GEORGETOWN, TX  78633",
-   "assessed": 740738,
-   "class": "A1",
-   "deed_date": "2025-07-12",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.694282,
-   "lon": -97.723683,
-   "sqft": 4893,
-   "value": 740738,
-   "value_kind": "market (WCAD)",
-   "year_built": 1991
-  },
-  {
-   "acres": 0.118,
-   "address": "219 SMOKESTACK LN, GEORGETOWN, TX  78633",
-   "assessed": 358691,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.731035,
-   "lon": -97.767972,
-   "sqft": 1391,
-   "value": 358691,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.163,
-   "address": "220 ALISTAIR DR, GEORGETOWN, TX  78633",
-   "assessed": 618037,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.734706,
-   "lon": -97.777824,
-   "sqft": 2504,
-   "value": 618037,
-   "value_kind": "market (WCAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": 0.263,
-   "address": "229 SAN XAVIER ST, GEORGETOWN, TX  78633",
-   "assessed": 569630,
-   "class": "A1",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.725608,
-   "lon": -97.780891,
-   "sqft": 2489,
-   "value": 569630,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 1.575,
-   "address": "1751 CR 262, GEORGETOWN, TX  78633",
-   "assessed": 904902,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.684278,
-   "lon": -97.763812,
-   "sqft": 3230,
-   "value": 904902,
-   "value_kind": "market (WCAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 19.862,
-   "address": "2960 CR 245, FLORENCE, TX  76527",
-   "assessed": 558244,
-   "class": "E1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.763384,
-   "lon": -97.781808,
-   "sqft": 1732,
-   "value": 1341352,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.173,
-   "address": "1304 MARTINGALE ST, GEORGETOWN, TX  78633",
-   "assessed": 463988,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.737169,
-   "lon": -97.75516,
-   "sqft": 1914,
-   "value": 463988,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
-  },
-  {
-   "acres": 0.203,
-   "address": "604 CAPROCK CANYON TRL, GEORGETOWN, TX  78633",
-   "assessed": 380039,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.691848,
-   "lon": -97.722843,
-   "sqft": 1846,
-   "value": 380039,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.119,
-   "address": "716 KITTY HAWK RD, GEORGETOWN, TX  78633",
-   "assessed": 337266,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.73431,
-   "lon": -97.76014,
-   "sqft": 1475,
-   "value": 337266,
-   "value_kind": "market (WCAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 0.224,
-   "address": "701 HAVENHILLS LN, GEORGETOWN, TX  78633",
-   "assessed": 706484,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "BRICK",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.730762,
-   "lon": -97.762263,
-   "sqft": 2700,
-   "value": 708440,
-   "value_kind": "market (WCAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 1.102,
-   "address": "217 THREE RIVERS RD, FLORENCE, TX  76527",
-   "assessed": 938691,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.755364,
-   "lon": -97.785548,
-   "sqft": 3425,
-   "value": 938691,
-   "value_kind": "market (WCAD)",
-   "year_built": 2025
   }
  ],
  "windows": {
   "12mo": {
-   "count": 764,
-   "median_value": 476507,
-   "pct_of_households": 23.74,
-   "pct_of_population": 8.68
+   "count": 624,
+   "median_value": 474337,
+   "pct_of_households": 19.39,
+   "pct_of_population": 7.09
   },
   "3mo": {
-   "count": 128,
-   "median_value": 476776,
-   "pct_of_households": 3.98,
-   "pct_of_population": 1.45
+   "count": 18,
+   "median_value": 824773,
+   "pct_of_households": 0.56,
+   "pct_of_population": 0.2
   },
   "6mo": {
-   "count": 331,
-   "median_value": 475009,
-   "pct_of_households": 10.29,
-   "pct_of_population": 3.76
+   "count": 194,
+   "median_value": 476776,
+   "pct_of_households": 6.03,
+   "pct_of_population": 2.2
   }
  }
 }

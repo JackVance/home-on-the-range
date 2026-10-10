@@ -1,11 +1,695 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 112,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 111,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2095,
  "months_back": 12,
  "population_acs": 5594,
  "transfers": [
+  {
+   "acres": null,
+   "address": "320 CRATERS OF THE MOON PFLUGERVILLE 78660",
+   "assessed": 325726,
+   "class": "A1",
+   "deed_date": "2026-09-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.471861,
+   "lon": -97.618279,
+   "sqft": 1496,
+   "value": 325726,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": 2.787,
+   "address": "808 GREAT SAND DUNES 78660",
+   "assessed": 433140,
+   "class": "A1",
+   "deed_date": "2026-09-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.465476,
+   "lon": -97.615587,
+   "sqft": 2388,
+   "value": 433140,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.089,
+   "address": "916 ABBEYGLEN CASTLE PFLUGERVILLE 78660",
+   "assessed": 432326,
+   "class": "A1",
+   "deed_date": "2026-08-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.477587,
+   "lon": -97.605289,
+   "sqft": 3726,
+   "value": 432326,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 2.303,
+   "address": "18804 CHRIGHTON CASTLE PFLUGERVILLE 78660",
+   "assessed": 492693,
+   "class": "A1",
+   "deed_date": "2026-08-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.472297,
+   "lon": -97.607064,
+   "sqft": 3726,
+   "value": 492693,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 0.909,
+   "address": "811 CRATERS OF THE MOON PFLUGERVILLE 78660",
+   "assessed": 267742,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.468795,
+   "lon": -97.612989,
+   "sqft": 1346,
+   "value": 267742,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
+   "acres": null,
+   "address": "18421 CATOCTIN PFLUGERVILLE 78660",
+   "assessed": 399204,
+   "class": "A1",
+   "deed_date": "2026-08-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.473005,
+   "lon": -97.615819,
+   "sqft": 2019,
+   "value": 399204,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": 2.36,
+   "address": "18417 STAR GAZER PFLUGERVILLE 78660",
+   "assessed": 347346,
+   "class": "A1",
+   "deed_date": "2026-08-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.478913,
+   "lon": -97.630303,
+   "sqft": 1768,
+   "value": 347346,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2010
+  },
+  {
+   "acres": 2.09,
+   "address": "613 WINDSOR CASTLE PFLUGERVILLE 78660",
+   "assessed": 507259,
+   "class": "A1",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.472925,
+   "lon": -97.61331,
+   "sqft": 4049,
+   "value": 507259,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 3.131,
+   "address": "19200 PENCIL CACTUS 78660",
+   "assessed": 533587,
+   "class": "A1",
+   "deed_date": "2026-08-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.476193,
+   "lon": -97.624382,
+   "sqft": 3487,
+   "value": 533587,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": null,
+   "address": "18404 MAMMOTH CAVE 78660",
+   "assessed": 306481,
+   "class": "A1",
+   "deed_date": "2026-08-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.466395,
+   "lon": -97.611928,
+   "sqft": 1330,
+   "value": 306481,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2014
+  },
+  {
+   "acres": null,
+   "address": "420 CANE RIVER 78660",
+   "assessed": 321728,
+   "class": "A1",
+   "deed_date": "2026-08-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.473723,
+   "lon": -97.615819,
+   "sqft": 1292,
+   "value": 321728,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": 2.238,
+   "address": "18717 ROYAL POINTE 78660",
+   "assessed": 364114,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.480153,
+   "lon": -97.621428,
+   "sqft": 2073,
+   "value": 364114,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.273,
+   "address": "18124 MAMMOTH CAVE PFLUGERVILLE 78660",
+   "assessed": 398624,
+   "class": "A1",
+   "deed_date": "2026-08-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.463197,
+   "lon": -97.614005,
+   "sqft": 2271,
+   "value": 398624,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.089,
+   "address": "609 PORTCHESTER CASTLE PATH PFLUGERVILLE 78660",
+   "assessed": 487945,
+   "class": "A1",
+   "deed_date": "2026-07-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.477819,
+   "lon": -97.611453,
+   "sqft": 3726,
+   "value": 487945,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.227,
+   "address": "18604 ALNWICK CASTLE PFLUGERVILLE 78660",
+   "assessed": 414736,
+   "class": "A1",
+   "deed_date": "2026-07-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.47341,
+   "lon": -97.614,
+   "sqft": 1826,
+   "value": 416712,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2003
+  },
+  {
+   "acres": 2.089,
+   "address": "404 TIMOTHY JOHN PFLUGERVILLE 78660",
+   "assessed": 355398,
+   "class": "A1",
+   "deed_date": "2026-07-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.480798,
+   "lon": -97.62109,
+   "sqft": 2073,
+   "value": 355398,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2008
+  },
+  {
+   "acres": null,
+   "address": "1204 KINGSTON LACY 78660",
+   "assessed": 390840,
+   "class": "A1",
+   "deed_date": "2026-07-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.469396,
+   "lon": -97.614705,
+   "sqft": 1899,
+   "value": 390840,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2011
+  },
+  {
+   "acres": 2.089,
+   "address": "1024 PORTCHESTER CASTLE PATH PFLUGERVILLE 78660",
+   "assessed": 474661,
+   "class": "A1",
+   "deed_date": "2026-07-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.473122,
+   "lon": -97.608189,
+   "sqft": 3684,
+   "value": 474661,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2005
+  },
+  {
+   "acres": 2.525,
+   "address": "18604 PENCIL CACTUS PFLUGERVILLE 78660",
+   "assessed": 412000,
+   "class": "A1",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.478573,
+   "lon": -97.631455,
+   "sqft": 2954,
+   "value": 412000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": 2.089,
+   "address": "616 PORTCHESTER CASTLE PATH 78660",
+   "assessed": 452328,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.4781,
+   "lon": -97.610827,
+   "sqft": 2277,
+   "value": 452328,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": null,
+   "address": "1116 FOSSIL BEDS 78660",
+   "assessed": 352050,
+   "class": "A1",
+   "deed_date": "2026-07-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.465246,
+   "lon": -97.610768,
+   "sqft": 1635,
+   "value": 352050,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2015
+  },
+  {
+   "acres": 2.891,
+   "address": "712 KINGSTON LACY PFLUGERVILLE 78660",
+   "assessed": 446136,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.474299,
+   "lon": -97.61165,
+   "sqft": 2869,
+   "value": 446136,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.082,
+   "address": "18701 PENCIL CACTUS PFLUGERVILLE 78660",
+   "assessed": 333665,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.477508,
+   "lon": -97.629319,
+   "sqft": 1875,
+   "value": 333665,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": null,
+   "address": "18521 BANDELIER PFLUGERVILLE 78660",
+   "assessed": 327029,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.467829,
+   "lon": -97.608274,
+   "sqft": 1355,
+   "value": 327029,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 2.066,
+   "address": "18820 EDINBURGH CASTLE 78660",
+   "assessed": 345524,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.471925,
+   "lon": -97.605549,
+   "sqft": 1884,
+   "value": 345524,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2009
+  },
+  {
+   "acres": 2.089,
+   "address": "18704 JANA PATRICE PFLUGERVILLE 78660",
+   "assessed": 403919,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.47958,
+   "lon": -97.620922,
+   "sqft": 1834,
+   "value": 403919,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": null,
+   "address": "1100 KINGSTON LACY 78660",
+   "assessed": 366087,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.470546,
+   "lon": -97.613961,
+   "sqft": 1716,
+   "value": 366087,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2012
+  },
+  {
+   "acres": 2.238,
+   "address": "18716 ROYAL POINTE PFLUGERVILLE 78660",
+   "assessed": 411252,
+   "class": "A1",
+   "deed_date": "2026-06-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.479959,
+   "lon": -97.621996,
+   "sqft": 3047,
+   "value": 411252,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2006
+  },
+  {
+   "acres": 2.089,
+   "address": "704 PORTCHESTER CASTLE PATH PFLUGERVILLE 78660",
+   "assessed": 361041,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.477927,
+   "lon": -97.61043,
+   "sqft": 1826,
+   "value": 361041,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2004
+  },
+  {
+   "acres": 2.101,
+   "address": "18713 JANA PATRICE PFLUGERVILLE 78660",
+   "assessed": 381210,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.480008,
+   "lon": -97.620442,
+   "sqft": 2073,
+   "value": 381210,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2007
+  },
+  {
+   "acres": null,
+   "address": "404 CANE RIVER PFLUGERVILLE 78660",
+   "assessed": 350696,
+   "class": "A1",
+   "deed_date": "2026-05-29",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.473932,
+   "lon": -97.616396,
+   "sqft": 1681,
+   "value": 350696,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": null,
+   "address": "18808 STAR GAZER PFLUGERVILLE 78660",
+   "assessed": 435900,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.475379,
+   "lon": -97.625587,
+   "sqft": 2730,
+   "value": 435900,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2013
+  },
+  {
+   "acres": null,
+   "address": "904 WALNUT CANYON 78660",
+   "assessed": 395789,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.465772,
+   "lon": -97.613878,
+   "sqft": 1899,
+   "value": 395789,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2014
+  },
+  {
+   "acres": null,
+   "address": "19101 OBED RIVER 78660",
+   "assessed": 462584,
+   "class": "A1",
+   "deed_date": "2026-05-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.472543,
+   "lon": -97.613283,
+   "sqft": 2714,
+   "value": 462584,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": null,
+   "address": "408 CANE RIVER PFLUGERVILLE 78660",
+   "assessed": 313772,
+   "class": "A1",
+   "deed_date": "2026-05-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.473885,
+   "lon": -97.616299,
+   "sqft": 1292,
+   "value": 313772,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
+  {
+   "acres": null,
+   "address": "201 CANE RIVER PFLUGERVILLE 78660",
+   "assessed": 318252,
+   "class": "A1",
+   "deed_date": "2026-05-21",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.47437,
+   "lon": -97.61843,
+   "sqft": 1292,
+   "value": 318252,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2017
+  },
   {
    "acres": null,
    "address": "716 NIOBRARA RIVER PFLUGERVILLE 78660",
@@ -199,7 +883,7 @@
   {
    "acres": null,
    "address": "1517 PORTCHESTER CASTLE PATH 78660",
-   "assessed": 326244,
+   "assessed": 293946,
    "class": "A1",
    "deed_date": "2026-05-01",
    "extras": {
@@ -211,28 +895,9 @@
    "lat": 30.468971,
    "lon": -97.608893,
    "sqft": 1377,
-   "value": 326244,
+   "value": 293946,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2016
-  },
-  {
-   "acres": 2.227,
-   "address": "18604 ALNWICK CASTLE PFLUGERVILLE 78660",
-   "assessed": 414736,
-   "class": "A1",
-   "deed_date": "2026-04-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.47341,
-   "lon": -97.614,
-   "sqft": 1826,
-   "value": 416712,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
   },
   {
    "acres": 2.238,
@@ -294,7 +959,7 @@
   {
    "acres": null,
    "address": "18400 CONGAREE 78660",
-   "assessed": 372788,
+   "assessed": 342000,
    "class": "A1",
    "deed_date": "2026-04-08",
    "extras": {
@@ -302,11 +967,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.473388,
    "lon": -97.618457,
    "sqft": 1743,
-   "value": 372788,
+   "value": 342000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2017
   },
@@ -718,7 +1383,7 @@
   {
    "acres": 2.089,
    "address": "908 ABBEYGLEN CASTLE PFLUGERVILLE 78660",
-   "assessed": 357408,
+   "assessed": 336000,
    "class": "A1",
    "deed_date": "2026-01-31",
    "extras": {
@@ -730,7 +1395,7 @@
    "lat": 30.477761,
    "lon": -97.605685,
    "sqft": 1826,
-   "value": 357408,
+   "value": 336000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -775,7 +1440,7 @@
   {
    "acres": 2.089,
    "address": "18604 ROYAL POINTE 78660",
-   "assessed": 453662,
+   "assessed": 407434,
    "class": "A1",
    "deed_date": "2026-01-10",
    "extras": {
@@ -787,7 +1452,7 @@
    "lat": 30.478056,
    "lon": -97.621359,
    "sqft": 3047,
-   "value": 453662,
+   "value": 407434,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -813,7 +1478,7 @@
   {
    "acres": 1.618,
    "address": "1412 PORTCHESTER CASTLE PATH 78660",
-   "assessed": 338848,
+   "assessed": 304319,
    "class": "A1",
    "deed_date": "2026-01-07",
    "extras": {
@@ -825,14 +1490,14 @@
    "lat": 30.469984,
    "lon": -97.609886,
    "sqft": 1658,
-   "value": 338848,
+   "value": 304319,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2008
   },
   {
    "acres": 2.089,
    "address": "228 TIMOTHY JOHN PFLUGERVILLE 78660",
-   "assessed": 372353,
+   "assessed": 347300,
    "class": "A1",
    "deed_date": "2026-01-02",
    "extras": {
@@ -844,7 +1509,7 @@
    "lat": 30.480829,
    "lon": -97.61871,
    "sqft": 1998,
-   "value": 372353,
+   "value": 347300,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2007
   },
@@ -897,7 +1562,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.476506,
    "lon": -97.606474,
    "sqft": 3684,
@@ -908,7 +1573,7 @@
   {
    "acres": 2.089,
    "address": "18928 ALNWICK CASTLE 78660",
-   "assessed": 420434,
+   "assessed": 378811,
    "class": "A1",
    "deed_date": "2025-12-17",
    "extras": {
@@ -920,14 +1585,14 @@
    "lat": 30.478909,
    "lon": -97.611889,
    "sqft": 2452,
-   "value": 420434,
+   "value": 378811,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2005
   },
   {
    "acres": null,
    "address": "19108 OBED RIVER DR 78660",
-   "assessed": 433968,
+   "assessed": 399000,
    "class": "A1",
    "deed_date": "2025-12-16",
    "extras": {
@@ -939,14 +1604,14 @@
    "lat": 30.4723,
    "lon": -97.613882,
    "sqft": 2297,
-   "value": 433968,
+   "value": 399000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2016
   },
   {
    "acres": 2.451,
    "address": "613 KINGSTON LACY 78660",
-   "assessed": 444109,
+   "assessed": 420000,
    "class": "A1",
    "deed_date": "2025-12-09",
    "extras": {
@@ -958,7 +1623,7 @@
    "lat": 30.475305,
    "lon": -97.612582,
    "sqft": 2228,
-   "value": 444109,
+   "value": 420000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2011
   },
@@ -1049,7 +1714,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.475675,
    "lon": -97.624658,
    "sqft": 3023,
@@ -1097,9 +1762,9 @@
   },
   {
    "acres": 101.22,
-   "address": "600 NEW MEISTER",
+   "address": "600 NEW MEISTER 78660",
    "assessed": 72636045,
-   "class": "F1",
+   "class": "F2",
    "deed_date": "2025-11-13",
    "homestead": false,
    "lat": 30.482381,
@@ -1169,7 +1834,7 @@
   {
    "acres": null,
    "address": "904 BRYCE CANYON 78660",
-   "assessed": 363988,
+   "assessed": 326898,
    "class": "A1",
    "deed_date": "2025-11-07",
    "extras": {
@@ -1181,7 +1846,7 @@
    "lat": 30.468065,
    "lon": -97.612402,
    "sqft": 1716,
-   "value": 363988,
+   "value": 326898,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2014
   },
@@ -1196,7 +1861,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.4759,
    "lon": -97.61081,
    "sqft": 2803,
@@ -1264,7 +1929,7 @@
   {
    "acres": null,
    "address": "18705 OBED RIVER PFLUGERVILLE 78660",
-   "assessed": 363962,
+   "assessed": 346674,
    "class": "A1",
    "deed_date": "2025-10-27",
    "extras": {
@@ -1276,7 +1941,7 @@
    "lat": 30.469563,
    "lon": -97.607095,
    "sqft": 1618,
-   "value": 363962,
+   "value": 346674,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2016
   },
@@ -1291,7 +1956,7 @@
     "roof": "COMPOSITIO",
     "roof_style": "HIP"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.473977,
    "lon": -97.616494,
    "sqft": 1496,
@@ -1359,7 +2024,7 @@
   {
    "acres": null,
    "address": "18724 STAR GAZER 78660",
-   "assessed": 438741,
+   "assessed": 394033,
    "class": "A1",
    "deed_date": "2025-10-17",
    "extras": {
@@ -1371,702 +2036,29 @@
    "lat": 30.476288,
    "lon": -97.625945,
    "sqft": 2926,
-   "value": 438741,
+   "value": 394033,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2012
-  },
-  {
-   "acres": null,
-   "address": "1122 BRYCE CANYON DR 78660",
-   "assessed": 426120,
-   "class": "A1",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.466818,
-   "lon": -97.609716,
-   "sqft": 1977,
-   "value": 426120,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": 2.078,
-   "address": "18420 STAR GAZER PFLUGERVILLE 78660",
-   "assessed": 439883,
-   "class": "A1",
-   "deed_date": "2025-09-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.479447,
-   "lon": -97.630107,
-   "sqft": 2730,
-   "value": 439883,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": null,
-   "address": "909 NIOBRARA RIVER PFLUGERVILLE 78660",
-   "assessed": 356176,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.469326,
-   "lon": -97.611575,
-   "sqft": 1823,
-   "value": 356176,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2012
-  },
-  {
-   "acres": null,
-   "address": "19000 OBED RIVER PFLUGERVILLE 78660",
-   "assessed": 331037,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.471398,
-   "lon": -97.61201,
-   "sqft": 1400,
-   "value": 331037,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 2.787,
-   "address": "18720 ALNWICK CASTLE PFLUGERVILLE 78660",
-   "assessed": 437650,
-   "class": "A1",
-   "deed_date": "2025-09-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.475547,
-   "lon": -97.613864,
-   "sqft": 2557,
-   "value": 437650,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": null,
-   "address": "18308 CUYAHOGA 78660",
-   "assessed": 335174,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.472879,
-   "lon": -97.619897,
-   "sqft": 1400,
-   "value": 335174,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2018
-  },
-  {
-   "acres": 2.609,
-   "address": "1016 LONESOME LILLY PFLUGERVILLE 78660",
-   "assessed": 532753,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.47808,
-   "lon": -97.625736,
-   "sqft": 4476,
-   "value": 532753,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2011
-  },
-  {
-   "acres": null,
-   "address": "1012 AUTUMN SAGE PFLUGERVILLE 78660",
-   "assessed": 479073,
-   "class": "A1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.477781,
-   "lon": -97.63094,
-   "sqft": 2730,
-   "value": 479073,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": 2.089,
-   "address": "904 OLD WICK CASTLE 78660",
-   "assessed": 439715,
-   "class": "A1",
-   "deed_date": "2025-09-08",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.472863,
-   "lon": -97.609988,
-   "sqft": 2435,
-   "value": 439715,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": null,
-   "address": "801 BRYCE CANYON 78660",
-   "assessed": 390615,
-   "class": "A1",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.46832,
-   "lon": -97.614044,
-   "sqft": 1951,
-   "value": 390615,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": 2.295,
-   "address": "18812 HUNTINGTOWER CASTLE PFLUGERVILLE 78660",
-   "assessed": 356631,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.475711,
-   "lon": -97.611312,
-   "sqft": 1826,
-   "value": 356631,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2003
-  },
-  {
-   "acres": null,
-   "address": "616 NIOBRARA RIVER PFLUGERVILLE 78660",
-   "assessed": 377048,
-   "class": "A1",
-   "deed_date": "2025-08-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.471197,
-   "lon": -97.614368,
-   "sqft": 1757,
-   "value": 377048,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": 2.089,
-   "address": "700 STOKESAY CASTLE PFLUGERVILLE 78660",
-   "assessed": 493309,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.478675,
-   "lon": -97.609958,
-   "sqft": 2452,
-   "value": 493309,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2004
-  },
-  {
-   "acres": null,
-   "address": "18201 BANDELIER PFLUGERVILLE 78660",
-   "assessed": 344558,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.462439,
-   "lon": -97.611731,
-   "sqft": 1509,
-   "value": 344558,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": null,
-   "address": "18515 BANDELIER PFLUGERVILLE 78660",
-   "assessed": 324204,
-   "class": "A1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.46742,
-   "lon": -97.608536,
-   "sqft": 1355,
-   "value": 324204,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": null,
-   "address": "18345 TALLGRASS PRAIRIE 78660",
-   "assessed": 392170,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.467003,
-   "lon": -97.613244,
-   "sqft": 2101,
-   "value": 392170,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": null,
-   "address": "WILKE 78660",
-   "assessed": 1780733,
-   "class": "C1",
-   "deed_date": "2025-08-26",
-   "homestead": false,
-   "lat": 30.479826,
-   "lon": -97.608543,
-   "value": 1780733,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 1.997,
-   "address": "18830 OBED RIVER PFLUGERVILLE 78660",
-   "assessed": 339797,
-   "class": "A1",
-   "deed_date": "2025-08-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.470443,
-   "lon": -97.610025,
-   "sqft": 1619,
-   "value": 339797,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2008
-  },
-  {
-   "acres": null,
-   "address": "18524 STAR GAZER 78660",
-   "assessed": 444837,
-   "class": "A1",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "foundation": "SLAB"
-   },
-   "homestead": true,
-   "lat": 30.479212,
-   "lon": -97.627828,
-   "sqft": 2583,
-   "value": 444837,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": 2.089,
-   "address": "608 TIMOTHY JOHN PFLUGERVILLE 78660",
-   "assessed": 366720,
-   "class": "A1",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.480768,
-   "lon": -97.623249,
-   "sqft": 1834,
-   "value": 366720,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": 2.61,
-   "address": "18801 EDINBURGH CASTLE PFLUGERVILLE 78660",
-   "assessed": 495359,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.470795,
-   "lon": -97.605591,
-   "sqft": 3684,
-   "value": 495359,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": 1.948,
-   "address": "1400 PORTCHESTER CASTLE PATH 78660",
-   "assessed": 370148,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.470146,
-   "lon": -97.610213,
-   "sqft": 1957,
-   "value": 370148,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "1108 AUTUMN SAGE PFLUGERVILLE 78660",
-   "assessed": 407678,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.478198,
-   "lon": -97.631663,
-   "sqft": 2106,
-   "value": 407678,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.909,
-   "address": "815 CRATERS OF THE MOON PFLUGERVILLE 78660",
-   "assessed": 303271,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.468699,
-   "lon": -97.612789,
-   "sqft": 1346,
-   "value": 303271,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "18401 PENCIL CACTUS PFLUGERVILLE 78660",
-   "assessed": 392195,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.479761,
-   "lon": -97.630821,
-   "sqft": 2021,
-   "value": 392195,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": 106.698,
-   "address": "18607 HEATHERWILDE 78660",
-   "assessed": 4505777,
-   "class": "F5",
-   "deed_date": "2025-08-06",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "METAL",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.475742,
-   "lon": -97.617261,
-   "sqft": 4743,
-   "value": 4505777,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1981
-  },
-  {
-   "acres": null,
-   "address": "18509 STAR GAZER PFLUGERVILLE 78660",
-   "assessed": 433387,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "foundation": "SLAB"
-   },
-   "homestead": true,
-   "lat": 30.479033,
-   "lon": -97.628595,
-   "sqft": 2583,
-   "value": 433387,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2014
-  },
-  {
-   "acres": 2.089,
-   "address": "913 DOVER CASTLE 78660",
-   "assessed": 414402,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.472989,
-   "lon": -97.609399,
-   "sqft": 2376,
-   "value": 414402,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2006
-  },
-  {
-   "acres": null,
-   "address": "19105 OBED RIVER PFLUGERVILLE 78660",
-   "assessed": 384140,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.472633,
-   "lon": -97.613477,
-   "sqft": 1757,
-   "value": 384140,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": null,
-   "address": "721 NOATAK PFLUGERVILLE 78660",
-   "assessed": 323806,
-   "class": "A1",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.470951,
-   "lon": -97.612999,
-   "sqft": 1378,
-   "value": 323806,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2013
-  },
-  {
-   "acres": 1.591,
-   "address": "1313 PORTCHESTER CASTLE PATH PFLUGERVILLE 78660",
-   "assessed": 312116,
-   "class": "A1",
-   "deed_date": "2025-07-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.470365,
-   "lon": -97.610613,
-   "sqft": 1400,
-   "value": 312116,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "309 CANE RIVER PFLUGERVILLE 78660",
-   "assessed": 310823,
-   "class": "A1",
-   "deed_date": "2025-07-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.473872,
-   "lon": -97.617381,
-   "sqft": 1330,
-   "value": 310823,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2017
-  },
-  {
-   "acres": null,
-   "address": "1001 NIOBRARA RIVER PFLUGERVILLE 78660",
-   "assessed": 321778,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.468966,
-   "lon": -97.610826,
-   "sqft": 1210,
-   "value": 321778,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2012
-  },
-  {
-   "acres": 2.089,
-   "address": "18701 JANA PATRICE PFLUGERVILLE 78660",
-   "assessed": 518571,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.479426,
-   "lon": -97.620252,
-   "sqft": 3047,
-   "value": 518571,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2007
-  },
-  {
-   "acres": null,
-   "address": "18303 BANDELIER PFLUGERVILLE 78660",
-   "assessed": 326605,
-   "class": "A1",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.464284,
-   "lon": -97.610552,
-   "sqft": 1355,
-   "value": 326605,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
-  },
-  {
-   "acres": null,
-   "address": "1116 NIOBRARA RIVER PFLUGERVILLE 78660",
-   "assessed": 353253,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.468574,
-   "lon": -97.608966,
-   "sqft": 1580,
-   "value": 353253,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2016
   }
  ],
  "windows": {
   "12mo": {
-   "count": 112,
-   "median_value": 370148,
-   "pct_of_households": 5.35,
-   "pct_of_population": 2.0
+   "count": 111,
+   "median_value": 361041,
+   "pct_of_households": 5.3,
+   "pct_of_population": 1.98
   },
   "3mo": {
-   "count": 15,
-   "median_value": 410994,
-   "pct_of_households": 0.72,
-   "pct_of_population": 0.27
+   "count": 20,
+   "median_value": 412000,
+   "pct_of_households": 0.95,
+   "pct_of_population": 0.36
   },
   "6mo": {
-   "count": 46,
-   "median_value": 357049,
-   "pct_of_households": 2.2,
-   "pct_of_population": 0.82
+   "count": 48,
+   "median_value": 395789,
+   "pct_of_households": 2.29,
+   "pct_of_population": 0.86
   }
  }
 }

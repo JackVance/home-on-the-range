@@ -1,11 +1,771 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 105,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 121,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3325,
  "months_back": 12,
  "population_acs": 6992,
  "transfers": [
+  {
+   "acres": 5.46,
+   "address": "1201 VERDANT 78746",
+   "assessed": 2193760,
+   "class": "A1",
+   "deed_date": "2026-09-04",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.27027,
+   "lon": -97.801522,
+   "sqft": 4390,
+   "value": 2193760,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1999
+  },
+  {
+   "acres": 2.782,
+   "address": "1510 TERRAPIN 78746",
+   "assessed": 648643,
+   "class": "A1",
+   "deed_date": "2026-09-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.266843,
+   "lon": -97.804606,
+   "sqft": 1100,
+   "value": 648643,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 2.885,
+   "address": "1507 AQUIFER 78746",
+   "assessed": 697598,
+   "class": "A1",
+   "deed_date": "2026-09-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.26713,
+   "lon": -97.804897,
+   "sqft": 1524,
+   "value": 697598,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1981
+  },
+  {
+   "acres": 2.538,
+   "address": "1510 TERRAPIN 78746",
+   "assessed": 613836,
+   "class": "A1",
+   "deed_date": "2026-09-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.266706,
+   "lon": -97.804472,
+   "sqft": 1064,
+   "value": 613836,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 2.257,
+   "address": "2005 MISTYWOOD AUSTIN 78746",
+   "assessed": 1088971,
+   "class": "A1",
+   "deed_date": "2026-09-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.26317,
+   "lon": -97.806666,
+   "sqft": 2174,
+   "value": 1088971,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 1.743,
+   "address": "3307 SANDERLING AUSTIN 78746",
+   "assessed": 814637,
+   "class": "A1",
+   "deed_date": "2026-09-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.272907,
+   "lon": -97.802998,
+   "sqft": 1585,
+   "value": 814637,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 9.28,
+   "address": "1433 ALLEN AUSTIN 78746",
+   "assessed": 1816183,
+   "class": "A1",
+   "deed_date": "2026-08-31",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.27296,
+   "lon": -97.815186,
+   "sqft": 3304,
+   "value": 2145755,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1965
+  },
+  {
+   "acres": 2.941,
+   "address": "3100 HONEY TREE AUSTIN 78746",
+   "assessed": 999600,
+   "class": "A1",
+   "deed_date": "2026-08-28",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.270769,
+   "lon": -97.797765,
+   "sqft": 3416,
+   "value": 999600,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 1.989,
+   "address": "3303 SANDERLING AUSTIN 78746",
+   "assessed": 777548,
+   "class": "A1",
+   "deed_date": "2026-08-27",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.27302,
+   "lon": -97.802539,
+   "sqft": 1405,
+   "value": 777548,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 2.439,
+   "address": "3114 HONEY TREE 78746",
+   "assessed": 975063,
+   "class": "A1",
+   "deed_date": "2026-08-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.271149,
+   "lon": -97.79934,
+   "sqft": 1630,
+   "value": 975063,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 2.114,
+   "address": "3107 MISTYGLEN 78746",
+   "assessed": 1539936,
+   "class": "A1",
+   "deed_date": "2026-08-25",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.263675,
+   "lon": -97.804929,
+   "sqft": 2196,
+   "value": 1539936,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 2.127,
+   "address": "3415 ROSEFINCH 78746",
+   "assessed": 3120000,
+   "class": "A1",
+   "deed_date": "2026-08-21",
+   "homestead": false,
+   "lat": 30.273774,
+   "lon": -97.805923,
+   "sqft": 3720,
+   "value": 3811005,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2021
+  },
+  {
+   "acres": 2.175,
+   "address": "1704 STONERIDGE 78746",
+   "assessed": 1280309,
+   "class": "A1",
+   "deed_date": "2026-08-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.265638,
+   "lon": -97.80531,
+   "sqft": 2170,
+   "value": 1335920,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1977
+  },
+  {
+   "acres": 2.22,
+   "address": "1702 BARN SWALLOW AUSTIN 78746",
+   "assessed": 1142811,
+   "class": "A1",
+   "deed_date": "2026-08-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.267904,
+   "lon": -97.808758,
+   "sqft": 1844,
+   "value": 1255041,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 4.464,
+   "address": "1903 HOLLY HILL AUSTIN 78746",
+   "assessed": 1374074,
+   "class": "A1",
+   "deed_date": "2026-08-14",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.261785,
+   "lon": -97.801986,
+   "sqft": 2824,
+   "value": 1374074,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
+   "acres": 2.101,
+   "address": "2509 FLORA 78746",
+   "assessed": 765279,
+   "class": "B2",
+   "deed_date": "2026-08-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.258792,
+   "lon": -97.786383,
+   "sqft": 1932,
+   "value": 765279,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 7.941,
+   "address": "2801 REGENTS PARK 78746",
+   "assessed": 2499306,
+   "class": "A1",
+   "deed_date": "2026-08-10",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.26462,
+   "lon": -97.79348,
+   "sqft": 5357,
+   "value": 2499306,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1990
+  },
+  {
+   "acres": 3.051,
+   "address": "3415 RAIN FOREST AUSTIN 78746",
+   "assessed": 1349359,
+   "class": "A1",
+   "deed_date": "2026-08-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.267554,
+   "lon": -97.810027,
+   "sqft": 2554,
+   "value": 1569419,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 10.96,
+   "address": "BEE CAVE 78746",
+   "assessed": 11961,
+   "class": "C1",
+   "deed_date": "2026-08-04",
+   "homestead": false,
+   "lat": 30.270196,
+   "lon": -97.793447,
+   "value": 11961,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 8.613,
+   "address": "2904 REGENTS PARK 78746",
+   "assessed": 1153255,
+   "class": "C1",
+   "deed_date": "2026-07-23",
+   "homestead": false,
+   "lat": 30.264344,
+   "lon": -97.795911,
+   "value": 1153255,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 2.121,
+   "address": "1805 STONERIDGE 78746",
+   "assessed": 1048767,
+   "class": "A1",
+   "deed_date": "2026-07-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.264796,
+   "lon": -97.805497,
+   "sqft": 1978,
+   "value": 1048767,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 2.166,
+   "address": "3523 PEREGRINE FALCON 78746",
+   "assessed": 1116718,
+   "class": "A1",
+   "deed_date": "2026-07-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.268404,
+   "lon": -97.811889,
+   "sqft": 1808,
+   "value": 1116718,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 1.944,
+   "address": "1511 TERRAPIN 78746",
+   "assessed": 657000,
+   "class": "A1",
+   "deed_date": "2026-07-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.266771,
+   "lon": -97.803826,
+   "sqft": 1174,
+   "value": 657000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 1.465,
+   "address": "13 TREEMONT 78746",
+   "assessed": 1002000,
+   "class": "A1",
+   "deed_date": "2026-07-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.269926,
+   "lon": -97.793681,
+   "sqft": 1137,
+   "value": 1002000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2001
+  },
+  {
+   "acres": 2.407,
+   "address": "3303 THOUSAND OAKS 78746",
+   "assessed": 1230000,
+   "class": "A1",
+   "deed_date": "2026-07-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.26693,
+   "lon": -97.806712,
+   "sqft": 1884,
+   "value": 1230000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 4.536,
+   "address": "1808 INTERVAIL 78746",
+   "assessed": 1405027,
+   "class": "A1",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.261907,
+   "lon": -97.79959,
+   "sqft": 2984,
+   "value": 1405027,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
+  {
+   "acres": 3.446,
+   "address": "3303 ROSEFINCH AUSTIN 78746",
+   "assessed": 1748270,
+   "class": "A1",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.273637,
+   "lon": -97.803211,
+   "sqft": 2390,
+   "value": 1748270,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 3.055,
+   "address": "3117 EANES 78746",
+   "assessed": 2102119,
+   "class": "A1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.265583,
+   "lon": -97.801401,
+   "sqft": 2916,
+   "value": 2102119,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 3.965,
+   "address": "3605 SILVER HILL AUSTIN 78746",
+   "assessed": 1431392,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.275564,
+   "lon": -97.808747,
+   "sqft": 3093,
+   "value": 1431392,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1984
+  },
+  {
+   "acres": 2.314,
+   "address": "2002 MISTYWOOD AUSTIN 78746",
+   "assessed": 1434951,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.263688,
+   "lon": -97.806674,
+   "sqft": 2570,
+   "value": 1434951,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 1.825,
+   "address": "1504 AQUIFER 78746",
+   "assessed": 599177,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.267617,
+   "lon": -97.805168,
+   "sqft": 1600,
+   "value": 599177,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 2.428,
+   "address": "3102 HONEY TREE 78746",
+   "assessed": 1082243,
+   "class": "A1",
+   "deed_date": "2026-06-18",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.270927,
+   "lon": -97.797986,
+   "sqft": 1738,
+   "value": 1082243,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
+   "acres": 3.175,
+   "address": "3112 EANES AUSTIN 78746",
+   "assessed": 1288878,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.266208,
+   "lon": -97.801145,
+   "sqft": 2265,
+   "value": 1288878,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 3.986,
+   "address": "3605 PINNACLE AUSTIN 78746",
+   "assessed": 1353826,
+   "class": "A1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.271443,
+   "lon": -97.811521,
+   "sqft": 2737,
+   "value": 1423998,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 2.167,
+   "address": "1701 THOUSAND OAKS AUSTIN 78746",
+   "assessed": 952719,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.2662,
+   "lon": -97.805396,
+   "sqft": 2413,
+   "value": 952719,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1977
+  },
+  {
+   "acres": 2.222,
+   "address": "3106 MISTYGLEN AUSTIN 78746",
+   "assessed": 1057039,
+   "class": "A1",
+   "deed_date": "2026-06-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.264064,
+   "lon": -97.804629,
+   "sqft": 2310,
+   "value": 1102445,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
+  },
+  {
+   "acres": 2.979,
+   "address": "3406 PEREGRINE FALCON AUSTIN 78746",
+   "assessed": 1191435,
+   "class": "A1",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.269567,
+   "lon": -97.809178,
+   "sqft": 1846,
+   "value": 1191435,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
+   "acres": 28.9,
+   "address": "3667 STONERIDGE AUSTIN 78746",
+   "assessed": 8750000,
+   "class": "A1",
+   "deed_date": "2026-06-08",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "TILE",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.264843,
+   "lon": -97.8151,
+   "sqft": 10170,
+   "value": 8750000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2016
+  },
+  {
+   "acres": 1.53,
+   "address": "3405 RAIN FOREST 78746",
+   "assessed": 2412541,
+   "class": "A1",
+   "deed_date": "2026-06-02",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": false,
+   "lat": 30.268112,
+   "lon": -97.809158,
+   "sqft": 4407,
+   "value": 2506159,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2019
+  },
+  {
+   "acres": 3.51,
+   "address": "1308 VERDANT 78746",
+   "assessed": 2059269,
+   "class": "A1",
+   "deed_date": "2026-05-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.269028,
+   "lon": -97.802422,
+   "sqft": 3942,
+   "value": 2271697,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1994
+  },
+  {
+   "acres": 4.742,
+   "address": "1709 CRESTED BUTTE AUSTIN 78746",
+   "assessed": 1388787,
+   "class": "A1",
+   "deed_date": "2026-05-22",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.262173,
+   "lon": -97.79805,
+   "sqft": 2260,
+   "value": 1388787,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1982
+  },
   {
    "acres": 2.476,
    "address": "2112 WYCHWOOD AUSTIN 78746",
@@ -24,6 +784,25 @@
    "value": 1186495,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1981
+  },
+  {
+   "acres": 4.936,
+   "address": "1300 PUDDLEBY AUSTIN 78746",
+   "assessed": 1800000,
+   "class": "A1",
+   "deed_date": "2026-05-20",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.266193,
+   "lon": -97.797223,
+   "sqft": 3123,
+   "value": 1800000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1987
   },
   {
    "acres": 5.237,
@@ -66,7 +845,7 @@
   {
    "acres": 1.097,
    "address": "3203 TWINBERRY 78746",
-   "assessed": 545250,
+   "assessed": 522077,
    "class": "A1",
    "deed_date": "2026-05-15",
    "extras": {
@@ -74,11 +853,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.262104,
    "lon": -97.80806,
    "sqft": 1236,
-   "value": 545250,
+   "value": 522077,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1981
   },
@@ -180,7 +959,7 @@
   {
    "acres": 2.81,
    "address": "3627 PEREGRINE FALCON AUSTIN 78746",
-   "assessed": 1338013,
+   "assessed": 1188691,
    "class": "A1",
    "deed_date": "2026-05-11",
    "extras": {
@@ -192,7 +971,7 @@
    "lat": 30.270645,
    "lon": -97.811857,
    "sqft": 2004,
-   "value": 1338013,
+   "value": 1188691,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1980
   },
@@ -216,23 +995,23 @@
    "year_built": 1978
   },
   {
-   "acres": 1.465,
-   "address": "13 TREEMONT 78746",
-   "assessed": 1338575,
+   "acres": 3.549,
+   "address": "1206 CONSTANT SPRINGS AUSTIN 78746",
+   "assessed": 1512614,
    "class": "A1",
-   "deed_date": "2026-05-08",
+   "deed_date": "2026-05-07",
    "extras": {
     "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
+    "roof": "METAL",
+    "roof_style": "GABLE"
    },
    "homestead": true,
-   "lat": 30.269926,
-   "lon": -97.793681,
-   "sqft": 1137,
-   "value": 1677911,
+   "lat": 30.273561,
+   "lon": -97.808375,
+   "sqft": 3378,
+   "value": 1512614,
    "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
+   "year_built": 1980
   },
   {
    "acres": 2.211,
@@ -268,14 +1047,33 @@
    "lat": 30.268711,
    "lon": -97.802219,
    "sqft": 3556,
-   "value": 2264993,
+   "value": 2168731,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1994
   },
   {
+   "acres": 2.29,
+   "address": "3104 MISTYGLEN AUSTIN 78746",
+   "assessed": 1096211,
+   "class": "A1",
+   "deed_date": "2026-04-30",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.263888,
+   "lon": -97.804439,
+   "sqft": 3222,
+   "value": 1846329,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1978
+  },
+  {
    "acres": 4.514,
    "address": "2006 WYCHWOOD 78746",
-   "assessed": 2223354,
+   "assessed": 1820000,
    "class": "A1",
    "deed_date": "2026-04-24",
    "extras": {
@@ -287,14 +1085,14 @@
    "lat": 30.262814,
    "lon": -97.8066,
    "sqft": 3891,
-   "value": 2519232,
+   "value": 1820000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1981
   },
   {
    "acres": 1.471,
    "address": "1500 AQUIFER 78746",
-   "assessed": 539350,
+   "assessed": 512614,
    "class": "A1",
    "deed_date": "2026-04-24",
    "extras": {
@@ -302,11 +1100,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.268128,
    "lon": -97.804834,
    "sqft": 1596,
-   "value": 607651,
+   "value": 512614,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
   },
@@ -330,9 +1128,47 @@
    "year_built": 1980
   },
   {
+   "acres": null,
+   "address": "3304 STONERIDGE 78746",
+   "assessed": 2879677,
+   "class": "A1",
+   "deed_date": "2026-04-17",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "METAL",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.265723,
+   "lon": -97.809861,
+   "sqft": 4600,
+   "value": 3256000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 2021
+  },
+  {
+   "acres": 4.368,
+   "address": "1906 WINTER PARK AUSTIN 78746",
+   "assessed": 1595756,
+   "class": "A1",
+   "deed_date": "2026-04-15",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.261302,
+   "lon": -97.801492,
+   "sqft": 2922,
+   "value": 1595756,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1983
+  },
+  {
    "acres": 2.991,
    "address": "2904 ANGELFIRE 78746",
-   "assessed": 1330990,
+   "assessed": 1182452,
    "class": "A1",
    "deed_date": "2026-04-14",
    "extras": {
@@ -344,7 +1180,7 @@
    "lat": 30.263642,
    "lon": -97.798554,
    "sqft": 2385,
-   "value": 1330990,
+   "value": 1182452,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1983
   },
@@ -370,14 +1206,14 @@
   {
    "acres": 3.319,
    "address": "3700 MOON RIVER AUSTIN 78746",
-   "assessed": 3549077,
+   "assessed": 3301796,
    "class": "A1",
    "deed_date": "2026-04-09",
    "homestead": true,
    "lat": 30.275166,
    "lon": -97.810113,
    "sqft": 5797,
-   "value": 4394632,
+   "value": 3940788,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2024
   },
@@ -394,25 +1230,6 @@
    "value": 2914062,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2024
-  },
-  {
-   "acres": 2.121,
-   "address": "1805 STONERIDGE 78746",
-   "assessed": 1048767,
-   "class": "A1",
-   "deed_date": "2026-03-31",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.264796,
-   "lon": -97.805497,
-   "sqft": 1978,
-   "value": 1048767,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
   },
   {
    "acres": 3.14,
@@ -436,7 +1253,7 @@
   {
    "acres": 2.743,
    "address": "3111 EANESWOOD AUSTIN 78746",
-   "assessed": 1202682,
+   "assessed": 1101886,
    "class": "A1",
    "deed_date": "2026-03-25",
    "extras": {
@@ -448,7 +1265,7 @@
    "lat": 30.268025,
    "lon": -97.799889,
    "sqft": 2453,
-   "value": 1240304,
+   "value": 1101886,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
   },
@@ -550,7 +1367,7 @@
   {
    "acres": 2.292,
    "address": "1904 CETONA AUSTIN 78746",
-   "assessed": 1828821,
+   "assessed": 1799194,
    "class": "A1",
    "deed_date": "2026-03-17",
    "extras": {
@@ -562,7 +1379,7 @@
    "lat": 30.265545,
    "lon": -97.807944,
    "sqft": 3375,
-   "value": 2132757,
+   "value": 1799194,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2006
   },
@@ -605,25 +1422,6 @@
    "year_built": 1996
   },
   {
-   "acres": 1.53,
-   "address": "3405 RAIN FOREST 78746",
-   "assessed": 2412541,
-   "class": "A1",
-   "deed_date": "2026-03-12",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.268112,
-   "lon": -97.809158,
-   "sqft": 4407,
-   "value": 2506159,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2019
-  },
-  {
    "acres": 2.782,
    "address": "1407 SPRING GARDEN AUSTIN 78746",
    "assessed": 1250000,
@@ -645,7 +1443,7 @@
   {
    "acres": 2.117,
    "address": "21 TREEMONT AUSTIN 78746",
-   "assessed": 1656455,
+   "assessed": 1250000,
    "class": "A1",
    "deed_date": "2026-03-12",
    "extras": {
@@ -657,7 +1455,7 @@
    "lat": 30.270408,
    "lon": -97.794104,
    "sqft": 2483,
-   "value": 1656455,
+   "value": 1250000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
   },
@@ -728,39 +1526,6 @@
    "year_built": 1980
   },
   {
-   "acres": 9.28,
-   "address": "1433 ALLEN AUSTIN 78746",
-   "assessed": 1816183,
-   "class": "A1",
-   "deed_date": "2026-02-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.27296,
-   "lon": -97.815186,
-   "sqft": 3304,
-   "value": 2544198,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1965
-  },
-  {
-   "acres": 2.127,
-   "address": "3415 ROSEFINCH 78746",
-   "assessed": 3120000,
-   "class": "A1",
-   "deed_date": "2026-02-25",
-   "homestead": false,
-   "lat": 30.273774,
-   "lon": -97.805923,
-   "sqft": 3720,
-   "value": 3811005,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2021
-  },
-  {
    "acres": 2.513,
    "address": "3629 PEREGRINE FALCON AUSTIN 78746",
    "assessed": 2949315,
@@ -815,7 +1580,7 @@
   {
    "acres": 2.168,
    "address": "1317 DUSKY THRUSH 78746",
-   "assessed": 1012478,
+   "assessed": 899485,
    "class": "A1",
    "deed_date": "2026-02-13",
    "extras": {
@@ -827,7 +1592,7 @@
    "lat": 30.270678,
    "lon": -97.80544,
    "sqft": 1867,
-   "value": 1012478,
+   "value": 899485,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
   },
@@ -846,7 +1611,7 @@
    "lat": 30.269339,
    "lon": -97.803358,
    "sqft": 3714,
-   "value": 2297618,
+   "value": 2041204,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
@@ -898,33 +1663,14 @@
    "lat": 30.266947,
    "lon": -97.808152,
    "sqft": 4959,
-   "value": 3055877,
+   "value": 2928401,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
   {
-   "acres": 5.46,
-   "address": "1201 VERDANT 78746",
-   "assessed": 2772431,
-   "class": "A1",
-   "deed_date": "2026-01-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.27027,
-   "lon": -97.801522,
-   "sqft": 4390,
-   "value": 2772431,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1999
-  },
-  {
    "acres": 5.907,
    "address": "1203 DUSKY THRUSH AUSTIN 78746",
-   "assessed": 1654515,
+   "assessed": 1395749,
    "class": "A1",
    "deed_date": "2026-01-19",
    "extras": {
@@ -936,14 +1682,14 @@
    "lat": 30.273854,
    "lon": -97.80669,
    "sqft": 2923,
-   "value": 1654515,
+   "value": 1395749,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1981
   },
   {
    "acres": 3.373,
    "address": "3117 THOUSAND OAKS AUSTIN 78746",
-   "assessed": 1513118,
+   "assessed": 970000,
    "class": "A1",
    "deed_date": "2026-01-13",
    "extras": {
@@ -951,13 +1697,32 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.265399,
    "lon": -97.804272,
    "sqft": 1659,
-   "value": 1513118,
+   "value": 970000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1978
+  },
+  {
+   "acres": 1.366,
+   "address": "1504 AQUIFER 78746",
+   "assessed": 590000,
+   "class": "A1",
+   "deed_date": "2025-12-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "HIP"
+   },
+   "homestead": true,
+   "lat": 30.267776,
+   "lon": -97.805099,
+   "sqft": 1600,
+   "value": 590000,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1980
   },
   {
    "acres": 1.631,
@@ -979,35 +1744,16 @@
    "year_built": 1979
   },
   {
-   "acres": 1.366,
-   "address": "1504 AQUIFER 78746",
-   "assessed": 602383,
-   "class": "A1",
-   "deed_date": "2025-12-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.267776,
-   "lon": -97.805099,
-   "sqft": 1600,
-   "value": 602383,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1980
-  },
-  {
    "acres": 2.547,
    "address": "3509 PEREGRINE FALCON AUSTIN 78746",
-   "assessed": 2864937,
+   "assessed": 2637634,
    "class": "A1",
    "deed_date": "2025-12-19",
    "homestead": true,
    "lat": 30.268579,
    "lon": -97.810264,
    "sqft": 5009,
-   "value": 3126640,
+   "value": 2637634,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2021
   },
@@ -1033,7 +1779,7 @@
   {
    "acres": 1.858,
    "address": "3 TREEMONT AUSTIN 78746",
-   "assessed": 1103970,
+   "assessed": 1003869,
    "class": "A1",
    "deed_date": "2025-12-18",
    "extras": {
@@ -1045,7 +1791,7 @@
    "lat": 30.268913,
    "lon": -97.794749,
    "sqft": 2906,
-   "value": 1129974,
+   "value": 1003869,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1997
   },
@@ -1071,7 +1817,7 @@
   {
    "acres": 2.83,
    "address": "2215 TARLTON AUSTIN 78746",
-   "assessed": 1732514,
+   "assessed": 1680237,
    "class": "A1",
    "deed_date": "2025-12-15",
    "extras": {
@@ -1083,14 +1829,14 @@
    "lat": 30.263178,
    "lon": -97.809346,
    "sqft": 3214,
-   "value": 1991746,
+   "value": 1680237,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1995
   },
   {
    "acres": 2.203,
    "address": "1707 BARN SWALLOW 78746",
-   "assessed": 2691924,
+   "assessed": 2680000,
    "class": "A1",
    "deed_date": "2025-12-12",
    "extras": {
@@ -1102,14 +1848,14 @@
    "lat": 30.267485,
    "lon": -97.808403,
    "sqft": 3869,
-   "value": 2691924,
+   "value": 2680000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2020
   },
   {
    "acres": 2.615,
    "address": "2116 WYCHWOOD 78746",
-   "assessed": 1179700,
+   "assessed": 995195,
    "class": "A1",
    "deed_date": "2025-12-11",
    "extras": {
@@ -1121,14 +1867,14 @@
    "lat": 30.260898,
    "lon": -97.806205,
    "sqft": 2273,
-   "value": 1179700,
+   "value": 995195,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1981
   },
   {
    "acres": 4.239,
    "address": "2943 THOUSAND OAKS AUSTIN 78746",
-   "assessed": 1407823,
+   "assessed": 1387500,
    "class": "A1",
    "deed_date": "2025-12-10",
    "extras": {
@@ -1136,11 +1882,11 @@
     "roof": "COMPOSITIO",
     "roof_style": "GABLE"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.264934,
    "lon": -97.799065,
    "sqft": 3186,
-   "value": 1407823,
+   "value": 1387500,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1984
   },
@@ -1166,7 +1912,7 @@
   {
    "acres": 1.638,
    "address": "7 TREEMONT AUSTIN 78746",
-   "assessed": 1250146,
+   "assessed": 1150000,
    "class": "A1",
    "deed_date": "2025-12-05",
    "extras": {
@@ -1178,14 +1924,14 @@
    "lat": 30.269326,
    "lon": -97.794377,
    "sqft": 1983,
-   "value": 1250146,
+   "value": 1150000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 2001
   },
   {
    "acres": 3.043,
    "address": "3107 EANESWOOD 78746",
-   "assessed": 1227357,
+   "assessed": 1090384,
    "class": "A1",
    "deed_date": "2025-12-02",
    "extras": {
@@ -1197,9 +1943,28 @@
    "lat": 30.267942,
    "lon": -97.799281,
    "sqft": 1966,
-   "value": 1227357,
+   "value": 1090384,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
+  },
+  {
+   "acres": 2.638,
+   "address": "3107 THOUSAND OAKS AUSTIN 78746",
+   "assessed": 1750278,
+   "class": "A1",
+   "deed_date": "2025-12-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.264622,
+   "lon": -97.803348,
+   "sqft": 3017,
+   "value": 1750278,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1981
   },
   {
    "acres": 2.253,
@@ -1219,25 +1984,6 @@
    "value": 1107653,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1979
-  },
-  {
-   "acres": 2.638,
-   "address": "3107 THOUSAND OAKS AUSTIN 78746",
-   "assessed": 1750278,
-   "class": "A1",
-   "deed_date": "2025-12-01",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.264622,
-   "lon": -97.803348,
-   "sqft": 3017,
-   "value": 1750278,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1981
   },
   {
    "acres": 2.289,
@@ -1273,7 +2019,7 @@
    "lat": 30.266771,
    "lon": -97.788116,
    "sqft": 3251,
-   "value": 1692433,
+   "value": 1540114,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1975
   },
@@ -1356,7 +2102,7 @@
   {
    "acres": 3.145,
    "address": "2928 CHATELAINE AUSTIN 78746",
-   "assessed": 2715393,
+   "assessed": 2525000,
    "class": "A1",
    "deed_date": "2025-11-04",
    "extras": {
@@ -1368,14 +2114,14 @@
    "lat": 30.268208,
    "lon": -97.794702,
    "sqft": 4501,
-   "value": 2715393,
+   "value": 2525000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1998
   },
   {
    "acres": 2.177,
    "address": "1703 STONERIDGE 78746",
-   "assessed": 1198550,
+   "assessed": 1096817,
    "class": "A1",
    "deed_date": "2025-10-31",
    "extras": {
@@ -1387,7 +2133,7 @@
    "lat": 30.265611,
    "lon": -97.804707,
    "sqft": 3539,
-   "value": 1234598,
+   "value": 1096817,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1977
   },
@@ -1411,28 +2157,9 @@
    "year_built": 2010
   },
   {
-   "acres": 2.29,
-   "address": "3104 MISTYGLEN AUSTIN 78746",
-   "assessed": 1096211,
-   "class": "A1",
-   "deed_date": "2025-10-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.263888,
-   "lon": -97.804439,
-   "sqft": 3222,
-   "value": 1846329,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
-  },
-  {
    "acres": 3.513,
    "address": "1807 APRICOT GLEN AUSTIN 78746",
-   "assessed": 1284919,
+   "assessed": 1135800,
    "class": "A1",
    "deed_date": "2025-10-24",
    "extras": {
@@ -1444,7 +2171,7 @@
    "lat": 30.263119,
    "lon": -97.803019,
    "sqft": 3328,
-   "value": 1402471,
+   "value": 1135800,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1981
   },
@@ -1503,7 +2230,7 @@
   {
    "acres": 25.21,
    "address": "1515 CAPITAL OF TX HY 78746",
-   "assessed": 12002927,
+   "assessed": 10750000,
    "class": "F1",
    "deed_date": "2025-10-15",
    "extras": {
@@ -1515,451 +2242,29 @@
    "lat": 30.273268,
    "lon": -97.816757,
    "sqft": 64791,
-   "value": 12002927,
+   "value": 10750000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1981
-  },
-  {
-   "acres": 2.53,
-   "address": "1106 SNOWY OWL AUSTIN 78746",
-   "assessed": 1149820,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.273924,
-   "lon": -97.804915,
-   "sqft": 2015,
-   "value": 1149820,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1980
-  },
-  {
-   "acres": 3.309,
-   "address": "3600 RIPPLE CREEK 78746",
-   "assessed": 1326917,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.272607,
-   "lon": -97.809305,
-   "sqft": 2797,
-   "value": 1326917,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
-  },
-  {
-   "acres": 2.6,
-   "address": "3420 PINNACLE 78746",
-   "assessed": 1095903,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.27066,
-   "lon": -97.808417,
-   "sqft": 1923,
-   "value": 1095903,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1980
-  },
-  {
-   "acres": 3.61,
-   "address": "1301 VERDANT AUSTIN 78746",
-   "assessed": 2075625,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.269069,
-   "lon": -97.801485,
-   "sqft": 3902,
-   "value": 2253387,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1995
-  },
-  {
-   "acres": 7.09,
-   "address": "2707 WALSH TARLTON 78746",
-   "assessed": 869330,
-   "class": "F1",
-   "deed_date": "2025-10-01",
-   "homestead": false,
-   "lat": 30.258149,
-   "lon": -97.811336,
-   "sqft": 1588,
-   "value": 869330,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1976
-  },
-  {
-   "acres": 2.71,
-   "address": "1327 WILDERNESS 78746",
-   "assessed": 3007046,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "homestead": false,
-   "lat": 30.268104,
-   "lon": -97.802101,
-   "sqft": 4366,
-   "value": 3007046,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2025
-  },
-  {
-   "acres": 3.12,
-   "address": "3101 MISTYGLEN AUSTIN 78746",
-   "assessed": 1262424,
-   "class": "A1",
-   "deed_date": "2025-09-23",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.263258,
-   "lon": -97.80423,
-   "sqft": 2818,
-   "value": 1262424,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1978
-  },
-  {
-   "acres": 4.15,
-   "address": "1808 APRICOT GLEN 78746",
-   "assessed": 1366284,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.263377,
-   "lon": -97.803704,
-   "sqft": 2538,
-   "value": 1366284,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1981
-  },
-  {
-   "acres": 11.763,
-   "address": "1101 CHATELAINE AUSTIN 78746",
-   "assessed": 2332968,
-   "class": "A1",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.268927,
-   "lon": -97.793425,
-   "sqft": 3414,
-   "value": 2332968,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1998
-  },
-  {
-   "acres": 2.305,
-   "address": "3104 EANESWOOD AUSTIN 78746",
-   "assessed": 1188093,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.268465,
-   "lon": -97.798999,
-   "sqft": 2921,
-   "value": 1188093,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 6.106,
-   "address": "3313 TEXAS STAR AUSTIN 78746",
-   "assessed": 1960000,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.266562,
-   "lon": -97.808144,
-   "sqft": 3449,
-   "value": 1960000,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1997
-  },
-  {
-   "acres": 3.059,
-   "address": "1915 HOLLY HILL AUSTIN 78746",
-   "assessed": 1231275,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": false,
-   "lat": 30.261064,
-   "lon": -97.801762,
-   "sqft": 2555,
-   "value": 1231275,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1983
-  },
-  {
-   "acres": 4.71,
-   "address": "2500 DANA 78746",
-   "assessed": 1033389,
-   "class": "B2",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.258026,
-   "lon": -97.786061,
-   "sqft": 3056,
-   "value": 1033389,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 2.16,
-   "address": "3409 ROSEFINCH AUSTIN 78746",
-   "assessed": 1044998,
-   "class": "A1",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.272975,
-   "lon": -97.805633,
-   "sqft": 1991,
-   "value": 1044998,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1981
-  },
-  {
-   "acres": 2.535,
-   "address": "1701 APRICOT GLEN AUSTIN 78746",
-   "assessed": 1100000,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.264118,
-   "lon": -97.801959,
-   "sqft": 2378,
-   "value": 1100000,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1981
-  },
-  {
-   "acres": 2.19,
-   "address": "1302 WILDERNESS AUSTIN 78746",
-   "assessed": 1111896,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.267659,
-   "lon": -97.798751,
-   "sqft": 1967,
-   "value": 1111896,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1980
-  },
-  {
-   "acres": 3.525,
-   "address": "1313 BRIANS MEADOW 78746",
-   "assessed": 1830000,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.269185,
-   "lon": -97.802848,
-   "sqft": 3502,
-   "value": 1830000,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1995
-  },
-  {
-   "acres": 60.0,
-   "address": "1301 MO-PAC EXPRESSWAY 78746",
-   "assessed": 54330488,
-   "class": "F1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "BUILT-UP",
-    "roof_style": "FLAT"
-   },
-   "homestead": false,
-   "lat": 30.261999,
-   "lon": -97.787944,
-   "sqft": 228750,
-   "value": 54330488,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2001
-  },
-  {
-   "acres": 2.308,
-   "address": "1316 WILDERNESS 78746",
-   "assessed": 1971827,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": true,
-   "lat": 30.26789,
-   "lon": -97.800424,
-   "sqft": 3506,
-   "value": 1971827,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 2.116,
-   "address": "1706 BARN SWALLOW AUSTIN 78746",
-   "assessed": 1578009,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.267518,
-   "lon": -97.808985,
-   "sqft": 2642,
-   "value": 1578009,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 3.012,
-   "address": "3305 THOUSAND OAKS 78746",
-   "assessed": 2352407,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "homestead": true,
-   "lat": 30.267093,
-   "lon": -97.806949,
-   "sqft": 3792,
-   "value": 2352407,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 2023
-  },
-  {
-   "acres": 2.457,
-   "address": "3406 CACTUS WREN AUSTIN 78746",
-   "assessed": 1053855,
-   "class": "A1",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "HIP"
-   },
-   "homestead": true,
-   "lat": 30.27145,
-   "lon": -97.806813,
-   "sqft": 1856,
-   "value": 1053855,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1979
-  },
-  {
-   "acres": 1.5,
-   "address": "1801 CAPITAL OF TX HY 78746",
-   "assessed": 1922933,
-   "class": "F1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "BUILT-UP",
-    "roof_style": "FLAT"
-   },
-   "homestead": false,
-   "lat": 30.270955,
-   "lon": -97.817106,
-   "sqft": 7048,
-   "value": 1922933,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1975
   }
  ],
  "windows": {
   "12mo": {
-   "count": 105,
-   "median_value": 1654515,
-   "pct_of_households": 3.16,
-   "pct_of_population": 1.5
+   "count": 121,
+   "median_value": 1423998,
+   "pct_of_households": 3.64,
+   "pct_of_population": 1.73
   },
   "3mo": {
-   "count": 20,
-   "median_value": 1527637,
-   "pct_of_households": 0.6,
-   "pct_of_population": 0.29
+   "count": 26,
+   "median_value": 1116718,
+   "pct_of_households": 0.78,
+   "pct_of_population": 0.37
   },
   "6mo": {
-   "count": 52,
-   "median_value": 1656455,
-   "pct_of_households": 1.56,
-   "pct_of_population": 0.74
+   "count": 64,
+   "median_value": 1374074,
+   "pct_of_households": 1.92,
+   "pct_of_population": 0.92
   }
  }
 }

@@ -1,13 +1,13 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 10,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 8,
  "disclaimer": "Transfers outside all registered zones (rest of Travis/Williamson/Hays). CAD values, not prices.",
  "months_back": 12,
  "transfers": [
   {
    "acres": 2.589,
    "address": "211 CAVE SPRINGS DR, WIMBERLEY, TX  78676",
-   "assessed": 721943,
+   "assessed": 750000,
    "class": "A",
    "deed_date": "2026-03-31",
    "extras": {
@@ -21,14 +21,14 @@
    "lat": 30.035253,
    "lon": -98.238536,
    "sqft": 3014,
-   "value": 721943,
+   "value": 750000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1997
   },
   {
    "acres": 12.592,
    "address": "104 BLANCO RIVER RD, WIMBERLEY, TX  78676",
-   "assessed": 915940,
+   "assessed": 663536,
    "class": "A",
    "deed_date": "2026-03-16",
    "extras": {},
@@ -36,7 +36,7 @@
    "lat": 29.979081,
    "lon": -98.202124,
    "sqft": 1428,
-   "value": 915940,
+   "value": 663536,
    "value_kind": "market (Hays CAD)",
    "year_built": 1972
   },
@@ -55,7 +55,7 @@
   {
    "acres": null,
    "address": "219 BLANCO DR, WIMBERLEY, TX  78676",
-   "assessed": 578350,
+   "assessed": 568000,
    "class": "A",
    "deed_date": "2026-01-28",
    "extras": {
@@ -68,14 +68,14 @@
    "lat": 29.976505,
    "lon": -98.202841,
    "sqft": 2154,
-   "value": 578350,
+   "value": 568000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1976
   },
   {
    "acres": 3.188,
    "address": "100 LOST FALLS CV, WIMBERLEY, TX  78676",
-   "assessed": 567670,
+   "assessed": 610240,
    "class": "A",
    "deed_date": "2025-12-16",
    "extras": {
@@ -89,14 +89,14 @@
    "lat": 30.044407,
    "lon": -98.236384,
    "sqft": 2022,
-   "value": 567670,
+   "value": 610240,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 0.93,
    "address": "205 BLUFF RD, FISCHER, TX  78623",
-   "assessed": 691184,
+   "assessed": 1081413,
    "class": "A",
    "deed_date": "2025-12-12",
    "extras": {
@@ -106,18 +106,18 @@
     "heat_ac": "1CAH",
     "roof": "H-M"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 29.974586,
    "lon": -98.202861,
    "sqft": 1658,
-   "value": 1129780,
+   "value": 1081413,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 1.53,
    "address": "340 RIVER RAPIDS RD, WIMBERLEY, TX  78676",
-   "assessed": 942450,
+   "assessed": 989000,
    "class": "A",
    "deed_date": "2025-12-09",
    "extras": {},
@@ -125,7 +125,7 @@
    "lat": 29.979871,
    "lon": -98.20573,
    "sqft": 2893,
-   "value": 942450,
+   "value": 989000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1993
   },
@@ -141,52 +141,13 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 29.978582,
    "lon": -98.203795,
    "sqft": 2891,
    "value": 411280,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
-  },
-  {
-   "acres": 0.892,
-   "address": "104 RIVER ROAD CIR, WIMBERLEY, TX  78676",
-   "assessed": 814235,
-   "class": "A",
-   "deed_date": "2025-09-24",
-   "extras": {
-    "exterior": "C-S",
-    "fireplace": "1",
-    "foundation": "S",
-    "roof": "H-M"
-   },
-   "homestead": true,
-   "lat": 29.981493,
-   "lon": -98.202874,
-   "sqft": 1998,
-   "value": 1030000,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 11.482,
-   "address": "COUNTY ROAD 313, LEXINGTON, TX  78947",
-   "assessed": 541453,
-   "class": "E1",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.457565,
-   "lon": -97.158497,
-   "sqft": 1495,
-   "value": 541453,
-   "value_kind": "market (WCAD)",
-   "year_built": 2000
   }
  ]
 }

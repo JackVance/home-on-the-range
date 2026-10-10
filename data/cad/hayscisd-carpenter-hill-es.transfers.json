@@ -1,15 +1,531 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 199,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 178,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 3611,
  "months_back": 12,
  "population_acs": 10474,
  "transfers": [
   {
+   "acres": 17.71,
+   "address": "1111 RED CORRAL RANCH RD, WIMBERLEY, TX  78676",
+   "assessed": 489450,
+   "class": "D1",
+   "deed_date": "2026-08-21",
+   "extras": {
+    "exterior": "S",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-M"
+   },
+   "homestead": true,
+   "lat": 30.112874,
+   "lon": -97.910704,
+   "sqft": 1943,
+   "value": 882000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": 0.309,
+   "address": "215 BERMUDA LN, BUDA, TX  78610",
+   "assessed": 470473,
+   "class": "A",
+   "deed_date": "2026-08-13",
+   "extras": {
+    "bedrooms": "3.000000",
+    "exterior": "R",
+    "fireplace": "1FP",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.105933,
+   "lon": -97.857042,
+   "sqft": 1791,
+   "value": 470473,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2000
+  },
+  {
+   "acres": 0.689,
+   "address": "213 MILLINGTON LN, BUDA, TX  78610",
+   "assessed": 671260,
+   "class": "A",
+   "deed_date": "2026-07-30",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.10635,
+   "lon": -97.877355,
+   "sqft": 2202,
+   "value": 671260,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1997
+  },
+  {
+   "acres": 0.54,
+   "address": "315 TURNSTONE DR, BUDA, TX  78610",
+   "assessed": 607150,
+   "class": "A",
+   "deed_date": "2026-07-22",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.109745,
+   "lon": -97.86332,
+   "sqft": 2273,
+   "value": 607150,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": 0.82,
+   "address": "201 TOWHEE DR, BUDA, TX  78610",
+   "assessed": 643020,
+   "class": "A",
+   "deed_date": "2026-07-21",
+   "extras": {
+    "exterior": "R",
+    "foundation": "S",
+    "roof": "G-C"
+   },
+   "homestead": false,
+   "lat": 30.106914,
+   "lon": -97.869037,
+   "sqft": 2468,
+   "value": 643020,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": 0.299,
+   "address": "103 NOPAL LN, BUDA, TX  78610",
+   "assessed": 528850,
+   "class": "A",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "R",
+    "fireplace": "1FP",
+    "foundation": "S",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.103453,
+   "lon": -97.85534,
+   "sqft": 1905,
+   "value": 528850,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2001
+  },
+  {
+   "acres": 32.66,
+   "address": "2660 ELDER HILL RD, DRIFTWOOD, TX  78619",
+   "assessed": 1227910,
+   "class": "D1",
+   "deed_date": "2026-07-07",
+   "extras": {
+    "bedrooms": "5.000000",
+    "exterior": "R-S",
+    "foundation": "S",
+    "heat_ac": "3CAH",
+    "roof": "S-M"
+   },
+   "homestead": true,
+   "lat": 30.115806,
+   "lon": -98.068089,
+   "sqft": 4695,
+   "value": 2106150,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 0.689,
+   "address": "315 APPLETON CT, BUDA, TX  78610",
+   "assessed": 666460,
+   "class": "A",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "B",
+    "fireplace": "1FP",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.109027,
+   "lon": -97.877165,
+   "sqft": 2063,
+   "value": 677180,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1999
+  },
+  {
+   "acres": 5.06,
+   "address": "26 COUNTRY OAKS DR, BUDA, TX  78610",
+   "assessed": 464640,
+   "class": "A",
+   "deed_date": "2026-07-01",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.119375,
+   "lon": -97.878521,
+   "sqft": 1624,
+   "value": 464640,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": 1.0,
+   "address": "13500 COPPER HILLS DR, MANCHACA, TX  78652",
+   "assessed": 707150,
+   "class": "A",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "B",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": false,
+   "lat": 30.144055,
+   "lon": -97.880907,
+   "sqft": 2069,
+   "value": 707150,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1997
+  },
+  {
+   "acres": 1.125,
+   "address": "139 WARE DR, BUDA, TX  78610",
+   "assessed": 699430,
+   "class": "A",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "bedrooms": "4.000000",
+    "exterior": "R-S",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.060167,
+   "lon": -97.923883,
+   "sqft": 3531,
+   "value": 699430,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2005
+  },
+  {
+   "acres": 0.159,
+   "address": "320 SAN SABA DR, BUDA, TX  78610",
+   "assessed": 703100,
+   "class": "A",
+   "deed_date": "2026-06-30",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.102738,
+   "lon": -97.844975,
+   "sqft": 2954,
+   "value": 703100,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.15,
+   "address": "301 SAN SABA DR, BUDA, TX  78610",
+   "assessed": 504180,
+   "class": "A",
+   "deed_date": "2026-06-30",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.102575,
+   "lon": -97.845264,
+   "sqft": 1813,
+   "value": 504180,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 1.86,
+   "address": "786 RANCHERS CLUB LN, DRIFTWOOD, TX  78619",
+   "assessed": 856212,
+   "class": "A",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "bedrooms": "5.000000",
+    "exterior": "R",
+    "fireplace": "1FP",
+    "foundation": "S",
+    "heat_ac": "2CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.093875,
+   "lon": -98.043908,
+   "sqft": 3825,
+   "value": 919160,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2003
+  },
+  {
+   "acres": 1.78,
+   "address": "3127 LA VENTANA PKWY, DRIFTWOOD, TX  78619",
+   "assessed": 882650,
+   "class": "A",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "R",
+    "fireplace": "1FP",
+    "foundation": "S",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.095806,
+   "lon": -98.046129,
+   "sqft": 3455,
+   "value": 882650,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2002
+  },
+  {
+   "acres": null,
+   "address": "1011 MOCKINGBIRD DR, MANCHACA, TX  78652",
+   "assessed": 552130,
+   "class": "A",
+   "deed_date": "2026-06-27",
+   "extras": {
+    "exterior": "R, C-S",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.138014,
+   "lon": -97.88835,
+   "sqft": 2059,
+   "value": 552130,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1978
+  },
+  {
+   "acres": 0.238,
+   "address": "310 SAN SABA DR, BUDA, TX  78610",
+   "assessed": 703100,
+   "class": "A",
+   "deed_date": "2026-06-26",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.102578,
+   "lon": -97.845015,
+   "sqft": 2954,
+   "value": 703100,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "2802 ROBIN RD, MANCHACA, TX  78652",
+   "assessed": 407460,
+   "class": "A",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "B",
+    "foundation": "S",
+    "roof": "H-C"
+   },
+   "homestead": false,
+   "lat": 30.139188,
+   "lon": -97.892234,
+   "sqft": 1629,
+   "value": 407460,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1978
+  },
+  {
+   "acres": 2.11,
+   "address": "220 OAK FOREST CV, BUDA, TX  78610",
+   "assessed": 496560,
+   "class": "A",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "S",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "G-M"
+   },
+   "homestead": true,
+   "lat": 30.100565,
+   "lon": -97.902272,
+   "sqft": 1735,
+   "value": 496560,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1999
+  },
+  {
+   "acres": null,
+   "address": "104 PHALAROPE DR, BUDA, TX  78610",
+   "assessed": 369350,
+   "class": "A",
+   "deed_date": "2026-06-24",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.123856,
+   "lon": -97.866097,
+   "sqft": 1612,
+   "value": 369350,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1979
+  },
+  {
+   "acres": 0.164,
+   "address": "417 FRANCIS LOTTIE DR, BUDA, TX  78610",
+   "assessed": 566831,
+   "class": "A",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "bedrooms": "4.000000",
+    "exterior": "R, B",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": false,
+   "lat": 30.099102,
+   "lon": -97.883503,
+   "sqft": 2372,
+   "value": 566831,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": null,
+   "address": "12709 EAGLE NEST DR, BUDA, TX  78610",
+   "assessed": 396620,
+   "class": "A",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "R-C",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.115823,
+   "lon": -97.862671,
+   "sqft": 1938,
+   "value": 396620,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1998
+  },
+  {
+   "acres": 1.0,
+   "address": "13301 RAMROD DR, MANCHACA, TX  78652",
+   "assessed": 440113,
+   "class": "A",
+   "deed_date": "2026-06-20",
+   "extras": {
+    "exterior": "B",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "G-C"
+   },
+   "homestead": true,
+   "lat": 30.147656,
+   "lon": -97.883113,
+   "sqft": 1959,
+   "value": 659290,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": null,
+   "address": "1013 DOVE DR, MANCHACA, TX  78652",
+   "assessed": 581363,
+   "class": "A",
+   "deed_date": "2026-06-18",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.138387,
+   "lon": -97.886972,
+   "sqft": 2415,
+   "value": 617900,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": null,
+   "address": "12612 CRYSTAL CREEK DR, BUDA, TX  78610",
+   "assessed": 344230,
+   "class": "A",
+   "deed_date": "2026-06-17",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.118167,
+   "lon": -97.86059,
+   "sqft": 1334,
+   "value": 344230,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": null,
+   "address": "203 LEISUREWOODS DR, BUDA, TX  78610",
+   "assessed": 590100,
+   "class": "A",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "bedrooms": "3.000000",
+    "exterior": "R",
+    "foundation": "S",
+    "roof": "G-C"
+   },
+   "homestead": true,
+   "lat": 30.121688,
+   "lon": -97.866752,
+   "sqft": 1788,
+   "value": 590100,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1980
+  },
+  {
+   "acres": 1.467,
+   "address": "303 CANYON WOOD DR, DRIPPING SPRINGS, TX  78620",
+   "assessed": 681350,
+   "class": "A",
+   "deed_date": "2026-06-11",
+   "extras": {
+    "bedrooms": "3.000000",
+    "exterior": "B",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.118917,
+   "lon": -97.868657,
+   "sqft": 2384,
+   "value": 733460,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1993
+  },
+  {
+   "acres": 0.567,
+   "address": "162 CLUB RANCH CT, DRIFTWOOD, TX  78619",
+   "assessed": 2048014,
+   "class": "A",
+   "deed_date": "2026-06-11",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.130805,
+   "lon": -97.999663,
+   "sqft": 5133,
+   "value": 2048014,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2024
+  },
+  {
    "acres": 0.319,
    "address": "132 CLOVERLEAF CV, BUDA, TX  78610",
-   "assessed": 546430,
+   "assessed": 562370,
    "class": "A",
    "deed_date": "2026-06-10",
    "extras": {
@@ -19,18 +535,18 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.106901,
    "lon": -97.857356,
    "sqft": 2077,
-   "value": 546430,
+   "value": 562370,
    "value_kind": "market (Hays CAD)",
    "year_built": 1996
   },
   {
    "acres": 3.34,
    "address": "1101 RED OAK ST, BUDA, TX  78610",
-   "assessed": 1130539,
+   "assessed": 1240000,
    "class": "A",
    "deed_date": "2026-06-09",
    "extras": {
@@ -43,14 +559,14 @@
    "lat": 30.112568,
    "lon": -97.908623,
    "sqft": 3899,
-   "value": 1198360,
+   "value": 1240000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1997
   },
   {
    "acres": 4.323,
    "address": "16210 OAK GROVE DR, BUDA, TX  78610",
-   "assessed": 872440,
+   "assessed": 530580,
    "class": "A",
    "deed_date": "2026-06-09",
    "extras": {
@@ -59,18 +575,18 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.108919,
    "lon": -97.890077,
    "sqft": 2596,
-   "value": 872440,
+   "value": 530580,
    "value_kind": "market (Hays CAD)",
    "year_built": 2005
   },
   {
    "acres": 2.34,
    "address": "321 MOURNING DOVE LN, BUDA, TX  78610",
-   "assessed": 871420,
+   "assessed": 746660,
    "class": "A",
    "deed_date": "2026-06-08",
    "extras": {
@@ -84,14 +600,14 @@
    "lat": 30.104538,
    "lon": -97.896352,
    "sqft": 2795,
-   "value": 871420,
+   "value": 746660,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 0.382,
    "address": "114 YELLOW ROSE CV, DRIFTWOOD, TX  78619",
-   "assessed": 1967578,
+   "assessed": 2221570,
    "class": "A",
    "deed_date": "2026-06-08",
    "extras": {},
@@ -99,14 +615,33 @@
    "lat": 30.130504,
    "lon": -97.996324,
    "sqft": 5086,
-   "value": 2555420,
+   "value": 2221570,
    "value_kind": "market (Hays CAD)",
    "year_built": 2024
   },
   {
+   "acres": 2379.2,
+   "address": "13548 SECTION HOUSE 78652",
+   "assessed": 345414,
+   "class": "E1",
+   "deed_date": "2026-06-05",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.112446,
+   "lon": -97.835542,
+   "sqft": 1646,
+   "value": 9797556,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1950
+  },
+  {
    "acres": null,
    "address": "215 DEWBERRY CV, BUDA, TX  78610",
-   "assessed": 549307,
+   "assessed": 536607,
    "class": "A",
    "deed_date": "2026-06-04",
    "extras": {
@@ -115,32 +650,39 @@
     "foundation": "S",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.110903,
    "lon": -97.855209,
    "sqft": 2453,
-   "value": 549307,
+   "value": 536607,
    "value_kind": "market (Hays CAD)",
    "year_built": 1986
   },
   {
-   "acres": 0.63,
-   "address": "302 TOWHEE DR, BUDA, TX  78610",
-   "assessed": 517210,
+   "acres": 0.689,
+   "address": "408 MILLINGTON LN, BUDA, TX  78610",
+   "assessed": 564750,
    "class": "A",
    "deed_date": "2026-06-04",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.107387,
-   "lon": -97.865442,
-   "sqft": 2118,
-   "value": 517210,
-   "value_kind": "market (Hays CAD)"
+   "extras": {
+    "exterior": "B-C",
+    "fireplace": "1FP",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 30.109177,
+   "lon": -97.879576,
+   "sqft": 2235,
+   "value": 564750,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1999
   },
   {
    "acres": 2.285,
    "address": "504 BUCKAROO TRL, BUDA, TX  78610",
-   "assessed": 570603,
+   "assessed": 622476,
    "class": "A",
    "deed_date": "2026-06-04",
    "extras": {
@@ -150,29 +692,43 @@
    "lat": 30.113376,
    "lon": -97.860073,
    "sqft": 2096,
-   "value": 678960,
+   "value": 707520,
    "value_kind": "market (Hays CAD)",
    "year_built": 1977
   },
   {
-   "acres": 2.0,
-   "address": "16223 OXBOW TRL, BUDA, TX  78610",
-   "assessed": 427028,
+   "acres": 0.63,
+   "address": "302 TOWHEE DR, BUDA, TX  78610",
+   "assessed": 539790,
    "class": "A",
    "deed_date": "2026-06-04",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
+   "lat": 30.107387,
+   "lon": -97.865442,
+   "sqft": 2118,
+   "value": 539790,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": 2.0,
+   "address": "16223 OXBOW TRL, BUDA, TX  78610",
+   "assessed": 503080,
+   "class": "A",
+   "deed_date": "2026-06-04",
+   "extras": {},
+   "homestead": false,
    "lat": 30.104289,
    "lon": -97.860588,
    "sqft": 1794,
-   "value": 501123,
+   "value": 503080,
    "value_kind": "market (Hays CAD)",
    "year_built": 1983
   },
   {
    "acres": 44.391,
    "address": "115 PALABRO CIR, DRIFTWOOD, TX  78619",
-   "assessed": 1383470,
+   "assessed": 1544890,
    "class": "A",
    "deed_date": "2026-06-03",
    "extras": {
@@ -185,29 +741,29 @@
    "lat": 30.138135,
    "lon": -98.021889,
    "sqft": 4478,
-   "value": 1383470,
+   "value": 1544890,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": 3.23,
    "address": "1180 LIVE OAK LOOP, BUDA, TX  78610",
-   "assessed": 848535,
+   "assessed": 1021930,
    "class": "A",
    "deed_date": "2026-06-02",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 30.10998,
    "lon": -97.909088,
    "sqft": 2700,
-   "value": 915909,
+   "value": 1021930,
    "value_kind": "market (Hays CAD)",
    "year_built": 1983
   },
   {
    "acres": 4.844,
    "address": "2009 NATURE VIEW LOOP, DRIFTWOOD, TX  78619",
-   "assessed": 1180000,
+   "assessed": 1257320,
    "class": "A",
    "deed_date": "2026-06-02",
    "extras": {
@@ -220,14 +776,14 @@
    "lat": 30.124522,
    "lon": -97.971713,
    "sqft": 3059,
-   "value": 1180000,
+   "value": 1257320,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 0.998,
    "address": "130 HY RD, BUDA, TX  78610",
-   "assessed": 475710,
+   "assessed": 589692,
    "class": "A",
    "deed_date": "2026-06-02",
    "extras": {
@@ -237,13 +793,28 @@
     "heat_ac": "CAH",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.092878,
    "lon": -97.877151,
    "sqft": 2096,
-   "value": 475710,
+   "value": 598930,
    "value_kind": "market (Hays CAD)",
    "year_built": 1980
+  },
+  {
+   "acres": null,
+   "address": "310 CANVASBACK DR, BUDA, TX  78610",
+   "assessed": 572499,
+   "class": "A",
+   "deed_date": "2026-06-01",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.116935,
+   "lon": -97.867228,
+   "sqft": 2183,
+   "value": 572499,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1984
   },
   {
    "acres": null,
@@ -262,7 +833,7 @@
   {
    "acres": null,
    "address": "806 LAUREL CV, BUDA, TX  78610",
-   "assessed": 469172,
+   "assessed": 509480,
    "class": "A",
    "deed_date": "2026-05-29",
    "extras": {
@@ -271,18 +842,33 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.105633,
    "lon": -97.853161,
    "sqft": 1806,
-   "value": 494620,
+   "value": 509480,
    "value_kind": "market (Hays CAD)",
    "year_built": 1992
   },
   {
    "acres": null,
+   "address": "404 BITTERN CIR, BUDA, TX  78610",
+   "assessed": 325000,
+   "class": "A",
+   "deed_date": "2026-05-28",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.111477,
+   "lon": -97.867725,
+   "sqft": 1921,
+   "value": 325000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1983
+  },
+  {
+   "acres": null,
    "address": "121 PHALAROPE DR, BUDA, TX  78610",
-   "assessed": 531270,
+   "assessed": 514050,
    "class": "A",
    "deed_date": "2026-05-28",
    "extras": {},
@@ -290,24 +876,24 @@
    "lat": 30.122083,
    "lon": -97.866184,
    "sqft": 1731,
-   "value": 531270,
+   "value": 514050,
    "value_kind": "market (Hays CAD)",
    "year_built": 1978
   },
   {
-   "acres": null,
-   "address": "404 BITTERN CIR, BUDA, TX  78610",
-   "assessed": 532213,
+   "acres": 0.138,
+   "address": "155 COMFORT DR, BUDA, TX  78610",
+   "assessed": 668860,
    "class": "A",
    "deed_date": "2026-05-28",
    "extras": {},
-   "homestead": true,
-   "lat": 30.111477,
-   "lon": -97.867725,
-   "sqft": 1921,
-   "value": 571510,
+   "homestead": false,
+   "lat": 30.103286,
+   "lon": -97.846099,
+   "sqft": 2758,
+   "value": 668860,
    "value_kind": "market (Hays CAD)",
-   "year_built": 1983
+   "year_built": 2025
   },
   {
    "acres": null,
@@ -331,7 +917,7 @@
   {
    "acres": 2.254,
    "address": "859 E OVERLOOK MTN, BUDA, TX  78610",
-   "assessed": 1026378,
+   "assessed": 1119685,
    "class": "A",
    "deed_date": "2026-05-19",
    "extras": {
@@ -345,14 +931,14 @@
    "lat": 30.118877,
    "lon": -97.89576,
    "sqft": 4143,
-   "value": 1164160,
+   "value": 1194570,
    "value_kind": "market (Hays CAD)",
    "year_built": 2001
   },
   {
    "acres": null,
    "address": "314 WILLET DR, BUDA, TX  78610",
-   "assessed": 508014,
+   "assessed": 529450,
    "class": "A",
    "deed_date": "2026-05-15",
    "extras": {
@@ -364,14 +950,14 @@
    "lat": 30.111412,
    "lon": -97.863334,
    "sqft": 1683,
-   "value": 547350,
+   "value": 529450,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": 0.596,
    "address": "2001 BIG VALLEY DR, MANCHACA, TX  78652",
-   "assessed": 255230,
+   "assessed": 280753,
    "class": "E",
    "deed_date": "2026-05-13",
    "extras": {},
@@ -379,13 +965,13 @@
    "lat": 30.127515,
    "lon": -97.85371,
    "sqft": 1690,
-   "value": 255230,
+   "value": 294910,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 5.001,
    "address": "100 SOUTHERN RD, BUDA, TX  78610",
-   "assessed": 700292,
+   "assessed": 763955,
    "class": "A",
    "deed_date": "2026-05-13",
    "extras": {
@@ -400,14 +986,14 @@
    "lat": 30.1013,
    "lon": -97.87029,
    "sqft": 2380,
-   "value": 984320,
+   "value": 986300,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": 5.78,
    "address": "320 RUBY RANCH RD, BUDA, TX  78610",
-   "assessed": 1107855,
+   "assessed": 1100400,
    "class": "A",
    "deed_date": "2026-05-13",
    "extras": {
@@ -421,14 +1007,14 @@
    "lat": 30.089963,
    "lon": -97.91596,
    "sqft": 2813,
-   "value": 1313520,
+   "value": 1100400,
    "value_kind": "market (Hays CAD)",
    "year_built": 2011
   },
   {
    "acres": 1.576,
    "address": "194 WILDERNESS CV, DRIFTWOOD, TX  78619",
-   "assessed": 674642,
+   "assessed": 700010,
    "class": "A",
    "deed_date": "2026-05-13",
    "extras": {
@@ -437,18 +1023,18 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.122236,
    "lon": -97.97152,
    "sqft": 2903,
-   "value": 674642,
+   "value": 700010,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": 2.957,
    "address": "500 BUCKAROO TRL, BUDA, TX  78610",
-   "assessed": 723457,
+   "assessed": 795803,
    "class": "A",
    "deed_date": "2026-05-12",
    "extras": {
@@ -458,35 +1044,29 @@
    "lat": 30.113437,
    "lon": -97.858528,
    "sqft": 2877,
-   "value": 821936,
+   "value": 888850,
    "value_kind": "market (Hays CAD)",
    "year_built": 1978
   },
   {
-   "acres": 13.33,
-   "address": "1270 ELDER HILL RD, DRIFTWOOD, TX  78619",
-   "assessed": 572240,
-   "class": "E",
-   "deed_date": "2026-05-12",
-   "extras": {
-    "bedrooms": "1.000000",
-    "exterior": "S-M",
-    "foundation": "P-B",
-    "heat_ac": "CAH",
-    "roof": "G-M"
-   },
+   "acres": 0.157,
+   "address": "527 CYRUS MILTON DR, BUDA, TX  78610",
+   "assessed": 621030,
+   "class": "A",
+   "deed_date": "2026-05-11",
+   "extras": {},
    "homestead": true,
-   "lat": 30.12019,
-   "lon": -98.047483,
-   "sqft": 3508,
-   "value": 1433830,
+   "lat": 30.103783,
+   "lon": -97.885454,
+   "sqft": 2722,
+   "value": 621030,
    "value_kind": "market (Hays CAD)",
-   "year_built": 1998
+   "year_built": 2024
   },
   {
    "acres": 0.198,
    "address": "176 CYRUS MILTON DR, BUDA, TX  78610",
-   "assessed": 575734,
+   "assessed": 593540,
    "class": "A",
    "deed_date": "2026-05-07",
    "extras": {
@@ -500,14 +1080,14 @@
    "lat": 30.099211,
    "lon": -97.886704,
    "sqft": 2372,
-   "value": 575734,
+   "value": 593540,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": 1.286,
    "address": "12403 SLIPPERY ROCK DR, BUDA, TX  78610",
-   "assessed": 399938,
+   "assessed": 425240,
    "class": "A",
    "deed_date": "2026-05-05",
    "extras": {
@@ -520,28 +1100,42 @@
    "lat": 30.123354,
    "lon": -97.857719,
    "sqft": 1656,
-   "value": 399938,
+   "value": 425240,
    "value_kind": "market (Hays CAD)",
    "year_built": 1984
   },
   {
-   "acres": 3.25,
-   "address": "2105 CHAPARRAL RD, MANCHACA, TX  78652",
-   "assessed": 276407,
-   "class": "E",
+   "acres": null,
+   "address": "1008 BLUEBIRD DR, MANCHACA, TX  78652",
+   "assessed": 436265,
+   "class": "A",
    "deed_date": "2026-05-01",
    "extras": {},
    "homestead": true,
+   "lat": 30.137819,
+   "lon": -97.890452,
+   "sqft": 1955,
+   "value": 436265,
+   "value_kind": "market (Hays CAD)"
+  },
+  {
+   "acres": 3.25,
+   "address": "2105 CHAPARRAL RD, MANCHACA, TX  78652",
+   "assessed": 454650,
+   "class": "E",
+   "deed_date": "2026-05-01",
+   "extras": {},
+   "homestead": false,
    "lat": 30.137274,
    "lon": -97.8809,
    "sqft": 1302,
-   "value": 471530,
+   "value": 454650,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": null,
    "address": "12805 DOVE DR, BUDA, TX  78610",
-   "assessed": 444750,
+   "assessed": 485182,
    "class": "A",
    "deed_date": "2026-04-30",
    "extras": {
@@ -553,14 +1147,14 @@
    "lat": 30.113621,
    "lon": -97.852494,
    "sqft": 1740,
-   "value": 472300,
+   "value": 486700,
    "value_kind": "market (Hays CAD)",
    "year_built": 1993
   },
   {
    "acres": 3.94,
    "address": "1153 LIVE OAK LOOP, BUDA, TX  78610",
-   "assessed": 1381880,
+   "assessed": 1352350,
    "class": "A",
    "deed_date": "2026-04-30",
    "extras": {},
@@ -568,14 +1162,14 @@
    "lat": 30.111041,
    "lon": -97.912516,
    "sqft": 3849,
-   "value": 1381880,
+   "value": 1352350,
    "value_kind": "market (Hays CAD)",
    "year_built": 1988
   },
   {
-   "acres": null,
+   "acres": 1.3,
    "address": "305 CANYON WREN DR, BUDA, TX  78610",
-   "assessed": 665990,
+   "assessed": 643130,
    "class": "A",
    "deed_date": "2026-04-30",
    "extras": {
@@ -590,14 +1184,14 @@
    "lat": 30.118643,
    "lon": -97.868835,
    "sqft": 2340,
-   "value": 665990,
+   "value": 643130,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": 1.93,
    "address": "2516 LA VENTANA PKWY, DRIFTWOOD, TX  78619",
-   "assessed": 859180,
+   "assessed": 832390,
    "class": "A",
    "deed_date": "2026-04-28",
    "extras": {
@@ -605,18 +1199,18 @@
     "foundation": "S",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.101375,
    "lon": -98.048645,
    "sqft": 2769,
-   "value": 859180,
+   "value": 832390,
    "value_kind": "market (Hays CAD)",
    "year_built": 2005
   },
   {
    "acres": 5.0,
    "address": "100 SHADY RIVER RD, WIMBERLEY, TX  78676",
-   "assessed": 596079,
+   "assessed": 655687,
    "class": "E",
    "deed_date": "2026-04-24",
    "extras": {
@@ -628,14 +1222,14 @@
    "lat": 30.102126,
    "lon": -97.864977,
    "sqft": 2652,
-   "value": 737587,
+   "value": 677190,
    "value_kind": "market (Hays CAD)",
    "year_built": 1993
   },
   {
    "acres": 2.275,
    "address": "430 HUMPHREYS DR, BUDA, TX  78610",
-   "assessed": 606323,
+   "assessed": 666955,
    "class": "A",
    "deed_date": "2026-04-24",
    "extras": {
@@ -650,14 +1244,14 @@
    "lat": 30.076778,
    "lon": -97.924826,
    "sqft": 3070,
-   "value": 772257,
+   "value": 764980,
    "value_kind": "market (Hays CAD)",
    "year_built": 2001
   },
   {
    "acres": 3.044,
    "address": "901 CLARK CV, BUDA, TX  78610",
-   "assessed": 1394306,
+   "assessed": 1175000,
    "class": "A",
    "deed_date": "2026-04-24",
    "extras": {
@@ -672,14 +1266,14 @@
    "lat": 30.067011,
    "lon": -97.925335,
    "sqft": 3510,
-   "value": 1394306,
+   "value": 1175000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 2.19,
    "address": "109 RANCHERS CLUB LN, DRIFTWOOD, TX  78619",
-   "assessed": 977594,
+   "assessed": 985300,
    "class": "A",
    "deed_date": "2026-04-23",
    "extras": {
@@ -688,18 +1282,18 @@
     "foundation": "S",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.102097,
    "lon": -98.041632,
    "sqft": 3435,
-   "value": 1014790,
+   "value": 985300,
    "value_kind": "market (Hays CAD)",
    "year_built": 2008
   },
   {
    "acres": null,
    "address": "12715 CRYSTAL CREEK DR, BUDA, TX  78610",
-   "assessed": 436800,
+   "assessed": 421560,
    "class": "A",
    "deed_date": "2026-04-21",
    "extras": {
@@ -714,14 +1308,14 @@
    "lat": 30.11497,
    "lon": -97.859943,
    "sqft": 1862,
-   "value": 436800,
+   "value": 421560,
    "value_kind": "market (Hays CAD)",
    "year_built": 1982
   },
   {
    "acres": 6.296,
    "address": "335 HY RD, BUDA, TX  78610",
-   "assessed": 891226,
+   "assessed": 972246,
    "class": "A",
    "deed_date": "2026-04-21",
    "extras": {
@@ -735,14 +1329,14 @@
    "lat": 30.092356,
    "lon": -97.887426,
    "sqft": 4714,
-   "value": 1080610,
+   "value": 1124040,
    "value_kind": "market (Hays CAD)",
    "year_built": 2010
   },
   {
    "acres": 0.154,
    "address": "407 FRANCIS LOTTIE DR, BUDA, TX  78610",
-   "assessed": 579000,
+   "assessed": 625010,
    "class": "A",
    "deed_date": "2026-04-21",
    "extras": {
@@ -756,14 +1350,14 @@
    "lat": 30.098956,
    "lon": -97.883478,
    "sqft": 2562,
-   "value": 579000,
+   "value": 625010,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 2.266,
    "address": "238 W OVERLOOK MOUNTAIN, BUDA, TX  78610",
-   "assessed": 1045300,
+   "assessed": 1075540,
    "class": "A",
    "deed_date": "2026-04-20",
    "extras": {
@@ -777,14 +1371,14 @@
    "lat": 30.11214,
    "lon": -97.901425,
    "sqft": 3196,
-   "value": 1045300,
+   "value": 1075540,
    "value_kind": "market (Hays CAD)",
    "year_built": 2011
   },
   {
    "acres": 1.09,
    "address": "959 RANCHERS CLUB LN, DRIFTWOOD, TX  78619",
-   "assessed": 903700,
+   "assessed": 960552,
    "class": "A",
    "deed_date": "2026-04-20",
    "extras": {},
@@ -792,14 +1386,14 @@
    "lat": 30.09217,
    "lon": -98.04627,
    "sqft": 3404,
-   "value": 903700,
+   "value": 960552,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": 3.466,
    "address": "150 STORY DR, BUDA, TX  78610",
-   "assessed": 1386972,
+   "assessed": 1391980,
    "class": "A",
    "deed_date": "2026-04-20",
    "extras": {
@@ -813,7 +1407,7 @@
    "lat": 30.061649,
    "lon": -97.923777,
    "sqft": 5069,
-   "value": 1386972,
+   "value": 1391980,
    "value_kind": "market (Hays CAD)",
    "year_built": 2002
   },
@@ -841,7 +1435,7 @@
   {
    "acres": 2.04,
    "address": "120 MOURNING DOVE LN, BUDA, TX  78610",
-   "assessed": 934730,
+   "assessed": 894680,
    "class": "A",
    "deed_date": "2026-04-16",
    "extras": {
@@ -855,7 +1449,7 @@
    "lat": 30.10787,
    "lon": -97.898946,
    "sqft": 3544,
-   "value": 934730,
+   "value": 894680,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
@@ -876,21 +1470,21 @@
   {
    "acres": null,
    "address": "531 COUNTRY LN, BUDA, TX  78610",
-   "assessed": 285170,
+   "assessed": 295110,
    "class": "A",
    "deed_date": "2026-04-15",
    "extras": {},
-   "homestead": false,
+   "homestead": true,
    "lat": 30.123807,
    "lon": -97.873023,
    "sqft": 1394,
-   "value": 285170,
+   "value": 295110,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 0.164,
    "address": "166 CHARLES MARVIN DR, BUDA, TX  78610",
-   "assessed": 575734,
+   "assessed": 500000,
    "class": "A",
    "deed_date": "2026-04-15",
    "extras": {
@@ -904,14 +1498,14 @@
    "lat": 30.101857,
    "lon": -97.885147,
    "sqft": 2372,
-   "value": 575734,
+   "value": 500000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": null,
    "address": "320 LEISUREWOODS DR, BUDA, TX  78610",
-   "assessed": 490723,
+   "assessed": 512950,
    "class": "A",
    "deed_date": "2026-04-14",
    "extras": {
@@ -923,14 +1517,14 @@
    "lat": 30.115406,
    "lon": -97.865962,
    "sqft": 1785,
-   "value": 530120,
+   "value": 512950,
    "value_kind": "market (Hays CAD)",
    "year_built": 1982
   },
   {
    "acres": 0.29,
    "address": "162 GROUNDHOG DR, BUDA, TX  78610",
-   "assessed": 736460,
+   "assessed": 655000,
    "class": "A",
    "deed_date": "2026-04-13",
    "extras": {
@@ -940,11 +1534,11 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.102865,
    "lon": -97.8863,
    "sqft": 2956,
-   "value": 736460,
+   "value": 655000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2023
   },
@@ -961,9 +1555,24 @@
    "value_kind": "market (TCAD appraisal)"
   },
   {
+   "acres": 1.0,
+   "address": "3400 CHAPARRAL RD, MANCHACA, TX  78652",
+   "assessed": 304180,
+   "class": "E",
+   "deed_date": "2026-04-08",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.141837,
+   "lon": -97.899471,
+   "sqft": 2200,
+   "value": 304180,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1976
+  },
+  {
    "acres": null,
    "address": "207 LEISUREWOODS DR, BUDA, TX  78610",
-   "assessed": 460354,
+   "assessed": 552425,
    "class": "A",
    "deed_date": "2026-04-07",
    "extras": {
@@ -971,18 +1580,18 @@
     "foundation": "S",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.120744,
    "lon": -97.86643,
    "sqft": 2098,
-   "value": 460354,
+   "value": 576430,
    "value_kind": "market (Hays CAD)",
    "year_built": 1979
   },
   {
    "acres": 13.52,
    "address": "162 ANNIE OAKLEY TRL, DRIFTWOOD, TX  78619",
-   "assessed": 748060,
+   "assessed": 877704,
    "class": "D1",
    "deed_date": "2026-04-07",
    "extras": {
@@ -996,29 +1605,29 @@
    "lat": 30.106853,
    "lon": -98.026199,
    "sqft": 1151,
-   "value": 1620120,
+   "value": 1730140,
    "value_kind": "market (Hays CAD)",
    "year_built": 1890
   },
   {
    "acres": 0.7,
    "address": "211 LONGSPUR DR, BUDA, TX  78610",
-   "assessed": 542415,
+   "assessed": 569120,
    "class": "A",
    "deed_date": "2026-04-06",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 30.1051,
    "lon": -97.867014,
    "sqft": 2125,
-   "value": 542415,
+   "value": 569120,
    "value_kind": "market (Hays CAD)",
    "year_built": 1987
   },
   {
    "acres": null,
    "address": "1012 SWALLOW DR, MANCHACA, TX  78652",
-   "assessed": 462650,
+   "assessed": 439018,
    "class": "A",
    "deed_date": "2026-04-01",
    "extras": {},
@@ -1026,14 +1635,14 @@
    "lat": 30.138372,
    "lon": -97.886195,
    "sqft": 1773,
-   "value": 462650,
+   "value": 439018,
    "value_kind": "market (Hays CAD)",
    "year_built": 1978
   },
   {
    "acres": null,
    "address": "317 CANYON WREN DR, BUDA, TX  78610",
-   "assessed": 518003,
+   "assessed": 538990,
    "class": "A",
    "deed_date": "2026-04-01",
    "extras": {
@@ -1047,14 +1656,14 @@
    "lat": 30.115635,
    "lon": -97.869722,
    "sqft": 1787,
-   "value": 557310,
+   "value": 538990,
    "value_kind": "market (Hays CAD)",
    "year_built": 1994
   },
   {
    "acres": 1.08,
    "address": "148 TRAIL MASTER CIR, DRIFTWOOD, TX  78619",
-   "assessed": 854150,
+   "assessed": 861580,
    "class": "A",
    "deed_date": "2026-03-31",
    "extras": {
@@ -1068,14 +1677,14 @@
    "lat": 30.104353,
    "lon": -98.045485,
    "sqft": 3595,
-   "value": 854150,
+   "value": 861580,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": null,
    "address": "12702 PHEASANT RUN, BUDA, TX  78610",
-   "assessed": 585000,
+   "assessed": 550000,
    "class": "A",
    "deed_date": "2026-03-27",
    "extras": {},
@@ -1083,35 +1692,14 @@
    "lat": 30.116429,
    "lon": -97.85772,
    "sqft": 2118,
-   "value": 585000,
+   "value": 550000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1984
   },
   {
-   "acres": 1.0,
-   "address": "13500 COPPER HILLS DR, MANCHACA, TX  78652",
-   "assessed": 707150,
-   "class": "A",
-   "deed_date": "2026-03-27",
-   "extras": {
-    "exterior": "B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 30.144055,
-   "lon": -97.880907,
-   "sqft": 2069,
-   "value": 707150,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1997
-  },
-  {
    "acres": 0.689,
    "address": "500 MILLINGTON LN, BUDA, TX  78610",
-   "assessed": 513689,
+   "assessed": 508350,
    "class": "A",
    "deed_date": "2026-03-23",
    "extras": {
@@ -1125,29 +1713,44 @@
    "lat": 30.109168,
    "lon": -97.879885,
    "sqft": 1795,
-   "value": 523100,
+   "value": 508350,
    "value_kind": "market (Hays CAD)",
    "year_built": 1999
   },
   {
+   "acres": 0.151,
+   "address": "370 SAN SABA DR, BUDA, TX  78610",
+   "assessed": 599990,
+   "class": "A",
+   "deed_date": "2026-03-23",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.103479,
+   "lon": -97.844847,
+   "sqft": 2251,
+   "value": 599990,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
    "acres": 2.56,
    "address": "16019 ARBOR TRL, BUDA, TX  78610",
-   "assessed": 687981,
+   "assessed": 600000,
    "class": "A",
    "deed_date": "2026-03-18",
    "extras": {},
    "homestead": true,
    "lat": 30.118618,
    "lon": -97.910517,
-   "sqft": 2595,
-   "value": 823350,
+   "sqft": 2858,
+   "value": 600000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": 1.353,
    "address": "1585 ELLIOTT RANCH RD, BUDA, TX  78610",
-   "assessed": 822692,
+   "assessed": 890830,
    "class": "A",
    "deed_date": "2026-03-17",
    "extras": {
@@ -1162,9 +1765,24 @@
    "lat": 30.120637,
    "lon": -97.89752,
    "sqft": 3127,
-   "value": 862260,
+   "value": 890830,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
+  },
+  {
+   "acres": 3.09,
+   "address": "300 OAK SPRINGS DR, DRIPPING SPRINGS TX 78620",
+   "assessed": 725520,
+   "class": "A",
+   "deed_date": "2026-03-13",
+   "extras": {},
+   "homestead": false,
+   "lat": 30.099363,
+   "lon": -97.904072,
+   "sqft": 1941,
+   "value": 725520,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1981
   },
   {
    "acres": 1.0,
@@ -1189,19 +1807,46 @@
    "year_built": 1996
   },
   {
-   "acres": 3.09,
-   "address": "300 OAK SPRINGS DR, DRIPPING SPRINGS TX 78620",
-   "assessed": 527325,
+   "acres": 2.143,
+   "address": "691 E OVERLOOK MTN, BUDA, TX  78610",
+   "assessed": 1155028,
    "class": "A",
-   "deed_date": "2026-03-13",
-   "extras": {},
+   "deed_date": "2026-03-11",
+   "extras": {
+    "bedrooms": "5.000000",
+    "exterior": "B",
+    "foundation": "S",
+    "heat_ac": "2CAH",
+    "roof": "HG-C"
+   },
    "homestead": true,
-   "lat": 30.099363,
-   "lon": -97.904072,
-   "sqft": 1941,
-   "value": 794390,
+   "lat": 30.116963,
+   "lon": -97.893336,
+   "sqft": 3181,
+   "value": 1251480,
    "value_kind": "market (Hays CAD)",
-   "year_built": 1981
+   "year_built": 2001
+  },
+  {
+   "acres": 1.444,
+   "address": "1729 ELLIOTT RANCH RD, BUDA, TX  78610",
+   "assessed": 739996,
+   "class": "A",
+   "deed_date": "2026-03-09",
+   "extras": {
+    "exterior": "R",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 30.122364,
+   "lon": -97.895441,
+   "sqft": 2629,
+   "value": 774240,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2006
   },
   {
    "acres": null,
@@ -1218,30 +1863,9 @@
    "value_kind": "market (Hays CAD)"
   },
   {
-   "acres": 1.444,
-   "address": "1729 ELLIOTT RANCH RD, BUDA, TX  78610",
-   "assessed": 678329,
-   "class": "A",
-   "deed_date": "2026-03-09",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.122364,
-   "lon": -97.895441,
-   "sqft": 2629,
-   "value": 744690,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2006
-  },
-  {
    "acres": 0.5,
    "address": "505 CANYON WREN DR, BUDA, TX  78610",
-   "assessed": 568830,
+   "assessed": 550030,
    "class": "A",
    "deed_date": "2026-03-09",
    "extras": {
@@ -1256,41 +1880,56 @@
    "lat": 30.109663,
    "lon": -97.869746,
    "sqft": 1818,
-   "value": 568830,
+   "value": 550030,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": 0.59,
    "address": "605 CANYON WREN DR, BUDA, TX  78610",
-   "assessed": 548580,
+   "assessed": 530630,
    "class": "A",
    "deed_date": "2026-03-09",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 30.107458,
    "lon": -97.869602,
    "sqft": 2029,
-   "value": 548580,
+   "value": 530630,
    "value_kind": "market (Hays CAD)",
    "year_built": 1987
   },
   {
+   "acres": 0.189,
+   "address": "294 SAN SABA DR, BUDA, TX  78610",
+   "assessed": 809400,
+   "class": "A",
+   "deed_date": "2026-03-09",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.102371,
+   "lon": -97.845093,
+   "sqft": 3644,
+   "value": 809400,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
    "acres": 9.99,
    "address": "7917 ORISHA 78739",
-   "assessed": 360000,
+   "assessed": 351000,
    "class": "A1",
    "deed_date": "2026-03-05",
-   "homestead": false,
+   "homestead": true,
    "lat": 30.176317,
    "lon": -97.922007,
-   "value": 360000,
+   "value": 351000,
    "value_kind": "market (TCAD appraisal)"
   },
   {
    "acres": null,
    "address": "211 WAXWING DR, BUDA, TX  78610",
-   "assessed": 527022,
+   "assessed": 536720,
    "class": "A",
    "deed_date": "2026-02-27",
    "extras": {},
@@ -1298,14 +1937,14 @@
    "lat": 30.115679,
    "lon": -97.867321,
    "sqft": 1741,
-   "value": 554250,
+   "value": 536720,
    "value_kind": "market (Hays CAD)",
    "year_built": 1984
   },
   {
    "acres": 2.0,
    "address": "11115 DRIFT ALONG WAY, DRIFTWOOD, TX  78619",
-   "assessed": 948524,
+   "assessed": 1042000,
    "class": "E",
    "deed_date": "2026-02-27",
    "extras": {
@@ -1319,28 +1958,28 @@
    "lat": 30.090466,
    "lon": -98.00466,
    "sqft": 3552,
-   "value": 948524,
+   "value": 1042000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": null,
    "address": "202 CANYON WREN DR, BUDA, TX  78610",
-   "assessed": 620788,
+   "assessed": 410000,
    "class": "A",
    "deed_date": "2026-02-26",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 30.122268,
    "lon": -97.867671,
    "sqft": 2484,
-   "value": 655020,
+   "value": 410000,
    "value_kind": "market (Hays CAD)"
   },
   {
-   "acres": 26.67,
+   "acres": 26.63,
    "address": "13511 CARPENTER LN, MANCHACA, TX  78652",
-   "assessed": 559446,
+   "assessed": 563372,
    "class": "E",
    "deed_date": "2026-02-25",
    "extras": {
@@ -1352,14 +1991,14 @@
    "lat": 30.134043,
    "lon": -97.875903,
    "sqft": 1920,
-   "value": 1048500,
+   "value": 984990,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
    "acres": 3.297,
    "address": "215 WILDERNESS CV, DRIFTWOOD, TX  78619",
-   "assessed": 671830,
+   "assessed": 739014,
    "class": "A",
    "deed_date": "2026-02-25",
    "extras": {
@@ -1374,14 +2013,14 @@
    "lat": 30.122297,
    "lon": -97.970971,
    "sqft": 4234,
-   "value": 1074808,
+   "value": 1087424,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": 5.0,
    "address": "13503 CARPENTER LN, MANCHACA, TX  78652",
-   "assessed": 327380,
+   "assessed": 392856,
    "class": "E",
    "deed_date": "2026-02-25",
    "extras": {
@@ -1394,14 +2033,14 @@
    "lat": 30.137271,
    "lon": -97.874647,
    "sqft": 2164,
-   "value": 580340,
+   "value": 601100,
    "value_kind": "market (Hays CAD)",
    "year_built": 2024
   },
   {
    "acres": 16.697,
    "address": "140 OAK TERRACE, WIMBERLEY, TX  78676",
-   "assessed": 1946985,
+   "assessed": 1395000,
    "class": "A",
    "deed_date": "2026-02-23",
    "extras": {
@@ -1415,14 +2054,14 @@
    "lat": 30.104359,
    "lon": -97.894509,
    "sqft": 2830,
-   "value": 1946985,
+   "value": 1395000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": null,
    "address": "308 FOX HOLLOW, BUDA, TX  78610",
-   "assessed": 608800,
+   "assessed": 626050,
    "class": "A",
    "deed_date": "2026-02-19",
    "extras": {
@@ -1434,14 +2073,14 @@
    "lat": 30.110277,
    "lon": -97.857223,
    "sqft": 2401,
-   "value": 608800,
+   "value": 626050,
    "value_kind": "market (Hays CAD)",
    "year_built": 1994
   },
   {
    "acres": 2.53,
    "address": "2943 LA VENTANA PKWY, DRIFTWOOD, TX  78619",
-   "assessed": 1465527,
+   "assessed": 1442000,
    "class": "A",
    "deed_date": "2026-02-17",
    "extras": {
@@ -1456,14 +2095,14 @@
    "lat": 30.096911,
    "lon": -98.048156,
    "sqft": 5029,
-   "value": 1465527,
+   "value": 1442000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2005
   },
   {
    "acres": null,
    "address": "408 LEISUREWOODS DR, BUDA, TX  78610",
-   "assessed": 619402,
+   "assessed": 589000,
    "class": "A",
    "deed_date": "2026-02-17",
    "extras": {
@@ -1475,13 +2114,13 @@
    "lat": 30.111557,
    "lon": -97.866375,
    "sqft": 2342,
-   "value": 660460,
+   "value": 589000,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 2.15,
    "address": "126 ISLAND OAKS LN, DRIFTWOOD, TX  78619",
-   "assessed": 881380,
+   "assessed": 800000,
    "class": "A",
    "deed_date": "2026-02-17",
    "extras": {
@@ -1491,18 +2130,18 @@
     "heat_ac": "2CAH",
     "roof": "G-T"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.105983,
    "lon": -98.04472,
    "sqft": 3088,
-   "value": 881380,
+   "value": 800000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2003
   },
   {
    "acres": 1.515,
    "address": "241 E OVERLOOK MTN, BUDA, TX  78610",
-   "assessed": 821228,
+   "assessed": 877050,
    "class": "A",
    "deed_date": "2026-02-16",
    "extras": {
@@ -1516,14 +2155,14 @@
    "lat": 30.111586,
    "lon": -97.896187,
    "sqft": 2765,
-   "value": 846810,
+   "value": 877050,
    "value_kind": "market (Hays CAD)",
    "year_built": 2002
   },
   {
    "acres": null,
    "address": "12709 SHADY ACRES DR, BUDA, TX  78610",
-   "assessed": 492820,
+   "assessed": 474990,
    "class": "A",
    "deed_date": "2026-02-13",
    "extras": {
@@ -1537,14 +2176,14 @@
    "lat": 30.115424,
    "lon": -97.855921,
    "sqft": 1804,
-   "value": 492820,
+   "value": 474990,
    "value_kind": "market (Hays CAD)",
    "year_built": 1984
   },
   {
    "acres": null,
    "address": "307 SMOKEY ROCK LN, BUDA, TX  78610",
-   "assessed": 600000,
+   "assessed": 581201,
    "class": "A",
    "deed_date": "2026-02-13",
    "extras": {
@@ -1557,14 +2196,14 @@
    "lat": 30.119444,
    "lon": -97.858313,
    "sqft": 1698,
-   "value": 600000,
+   "value": 581201,
    "value_kind": "market (Hays CAD)",
    "year_built": 1983
   },
   {
    "acres": 1.0,
    "address": "801 ELDER HILL RD, DRIFTWOOD, TX  78619",
-   "assessed": 123090,
+   "assessed": 133180,
    "class": "E",
    "deed_date": "2026-02-12",
    "extras": {
@@ -1576,14 +2215,14 @@
    "lat": 30.117923,
    "lon": -98.037906,
    "sqft": 480,
-   "value": 123090,
+   "value": 133180,
    "value_kind": "market (Hays CAD)",
    "year_built": 1940
   },
   {
    "acres": 0.689,
    "address": "212 MILLINGTON LN, BUDA, TX  78610",
-   "assessed": 448440,
+   "assessed": 493284,
    "class": "A",
    "deed_date": "2026-02-11",
    "extras": {
@@ -1597,28 +2236,28 @@
    "lat": 30.106519,
    "lon": -97.876869,
    "sqft": 1905,
-   "value": 448440,
+   "value": 520280,
    "value_kind": "market (Hays CAD)",
    "year_built": 1997
   },
   {
    "acres": null,
    "address": "106 KILDEER DR, BUDA, TX  78610",
-   "assessed": 479656,
+   "assessed": 481965,
    "class": "A",
    "deed_date": "2026-02-11",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 30.121512,
    "lon": -97.864209,
    "sqft": 1882,
-   "value": 523060,
+   "value": 481965,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 5.28,
    "address": "811 DOVE DR, MANCHACA, TX  78652",
-   "assessed": 635664,
+   "assessed": 693451,
    "class": "E",
    "deed_date": "2026-02-10",
    "extras": {
@@ -1632,14 +2271,14 @@
    "lat": 30.132043,
    "lon": -97.886098,
    "sqft": 2132,
-   "value": 872760,
+   "value": 851450,
    "value_kind": "market (Hays CAD)",
    "year_built": 1983
   },
   {
    "acres": 76.93,
    "address": "11500 DRIFT ALONG WAY, DRIFTWOOD, TX  78619",
-   "assessed": 582890,
+   "assessed": 3297330,
    "class": "E",
    "deed_date": "2026-02-10",
    "extras": {
@@ -1653,14 +2292,14 @@
    "lat": 30.087875,
    "lon": -98.000736,
    "sqft": 3860,
-   "value": 3687990,
+   "value": 3297330,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": 0.75,
    "address": "210 LONGSPUR DR, BUDA, TX  78610",
-   "assessed": 719450,
+   "assessed": 710000,
    "class": "A",
    "deed_date": "2026-02-10",
    "extras": {},
@@ -1668,14 +2307,14 @@
    "lat": 30.105729,
    "lon": -97.867239,
    "sqft": 2399,
-   "value": 719450,
+   "value": 710000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": 3.083,
    "address": "1921 RUBY RANCH RD, BUDA, TX  78610",
-   "assessed": 593824,
+   "assessed": 653206,
    "class": "A",
    "deed_date": "2026-02-09",
    "extras": {
@@ -1688,14 +2327,14 @@
    "lat": 30.059738,
    "lon": -97.919498,
    "sqft": 2140,
-   "value": 818010,
+   "value": 738200,
    "value_kind": "market (Hays CAD)",
    "year_built": 2005
   },
   {
    "acres": 3.46,
    "address": "60 COUNTRY OAKS DR, BUDA, TX  78610",
-   "assessed": 650277,
+   "assessed": 709393,
    "class": "A",
    "deed_date": "2026-02-07",
    "extras": {},
@@ -1703,14 +2342,14 @@
    "lat": 30.119398,
    "lon": -97.886835,
    "sqft": 2175,
-   "value": 967100,
+   "value": 963740,
    "value_kind": "market (Hays CAD)",
    "year_built": 1988
   },
   {
    "acres": 1.478,
    "address": "130 RICHARDS DR, BUDA, TX  78610",
-   "assessed": 869620,
+   "assessed": 847490,
    "class": "A",
    "deed_date": "2026-02-06",
    "extras": {
@@ -1720,18 +2359,18 @@
     "heat_ac": "2CAH",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.072028,
    "lon": -97.919509,
    "sqft": 3226,
-   "value": 869620,
+   "value": 847490,
    "value_kind": "market (Hays CAD)",
    "year_built": 2003
   },
   {
    "acres": 0.689,
    "address": "201 MILLINGTON LN, BUDA, TX  78610",
-   "assessed": 531726,
+   "assessed": 546500,
    "class": "A",
    "deed_date": "2026-02-05",
    "extras": {
@@ -1745,28 +2384,28 @@
    "lat": 30.105731,
    "lon": -97.876989,
    "sqft": 1837,
-   "value": 600102,
+   "value": 546500,
    "value_kind": "market (Hays CAD)",
    "year_built": 1999
   },
   {
    "acres": 0.85,
    "address": "12501 SHADY ACRES LN, BUDA, TX  78610",
-   "assessed": 366893,
+   "assessed": 354640,
    "class": "A",
    "deed_date": "2026-02-03",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 30.121893,
    "lon": -97.856432,
    "sqft": 1958,
-   "value": 366960,
+   "value": 354640,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 2.09,
    "address": "320 WOODLAND OAKS TRL, BUDA, TX  78610",
-   "assessed": 690176,
+   "assessed": 685190,
    "class": "A",
    "deed_date": "2026-02-03",
    "extras": {
@@ -1779,14 +2418,14 @@
    "lat": 30.106135,
    "lon": -97.903748,
    "sqft": 2623,
-   "value": 690176,
+   "value": 685190,
    "value_kind": "market (Hays CAD)",
    "year_built": 1999
   },
   {
    "acres": 1.871,
    "address": "311 CLARK CV, BUDA, TX  78610",
-   "assessed": 819573,
+   "assessed": 781702,
    "class": "A",
    "deed_date": "2026-02-03",
    "extras": {
@@ -1800,14 +2439,14 @@
    "lat": 30.075375,
    "lon": -97.921117,
    "sqft": 2683,
-   "value": 857402,
+   "value": 781702,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": null,
    "address": "320 SHRIKE DR, BUDA, TX  78610",
-   "assessed": 531538,
+   "assessed": 462000,
    "class": "A",
    "deed_date": "2026-01-30",
    "extras": {
@@ -1819,13 +2458,13 @@
    "lat": 30.115556,
    "lon": -97.86427,
    "sqft": 1956,
-   "value": 575250,
+   "value": 462000,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 0.703,
    "address": "220 GROVE LN, BUDA, TX  78610",
-   "assessed": 544806,
+   "assessed": 594334,
    "class": "A",
    "deed_date": "2026-01-30",
    "extras": {
@@ -1844,27 +2483,9 @@
    "year_built": 2000
   },
   {
-   "acres": 0.82,
-   "address": "201 TOWHEE DR, BUDA, TX  78610",
-   "assessed": 665870,
-   "class": "A",
-   "deed_date": "2026-01-23",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "roof": "G-C"
-   },
-   "homestead": false,
-   "lat": 30.106914,
-   "lon": -97.869037,
-   "sqft": 2468,
-   "value": 665870,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
    "acres": null,
    "address": "201 DEWBERRY CV, BUDA, TX  78610",
-   "assessed": 570092,
+   "assessed": 592030,
    "class": "A",
    "deed_date": "2026-01-22",
    "extras": {
@@ -1874,18 +2495,18 @@
     "heat_ac": "1CAH",
     "roof": "HG-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.111004,
    "lon": -97.852571,
    "sqft": 2306,
-   "value": 575470,
+   "value": 592030,
    "value_kind": "market (Hays CAD)",
    "year_built": 1994
   },
   {
    "acres": 0.169,
    "address": "217 CYRUS MILTON DR, BUDA, TX  78610",
-   "assessed": 593540,
+   "assessed": 550000,
    "class": "A",
    "deed_date": "2026-01-22",
    "extras": {
@@ -1899,14 +2520,14 @@
    "lat": 30.099821,
    "lon": -97.886977,
    "sqft": 2372,
-   "value": 593540,
+   "value": 550000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2023
   },
   {
    "acres": null,
    "address": "12708 AZALEA CIR, BUDA, TX  78610",
-   "assessed": 873849,
+   "assessed": 919010,
    "class": "A",
    "deed_date": "2026-01-20",
    "extras": {
@@ -1918,13 +2539,13 @@
    "lat": 30.110856,
    "lon": -97.857078,
    "sqft": 3725,
-   "value": 893550,
+   "value": 919010,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 0.689,
    "address": "217 MILLINGTON LN, BUDA, TX  78610",
-   "assessed": 494427,
+   "assessed": 539375,
    "class": "A",
    "deed_date": "2026-01-16",
    "extras": {
@@ -1938,7 +2559,7 @@
    "lat": 30.106696,
    "lon": -97.8775,
    "sqft": 1840,
-   "value": 561590,
+   "value": 580680,
    "value_kind": "market (Hays CAD)",
    "year_built": 1997
   },
@@ -1955,7 +2576,7 @@
     "heat_ac": "2CAH",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.108875,
    "lon": -97.864485,
    "sqft": 2602,
@@ -1966,7 +2587,7 @@
   {
    "acres": 2.0,
    "address": "16209 OXBOW TRL, BUDA, TX  78610",
-   "assessed": 757133,
+   "assessed": 766900,
    "class": "A",
    "deed_date": "2026-01-12",
    "extras": {},
@@ -1974,14 +2595,14 @@
    "lat": 30.109549,
    "lon": -97.860674,
    "sqft": 2821,
-   "value": 808440,
+   "value": 766900,
    "value_kind": "market (Hays CAD)",
    "year_built": 1978
   },
   {
    "acres": 3.573,
    "address": "1468 NATURE VIEW LOOP, DRIFTWOOD, TX  78619",
-   "assessed": 1035074,
+   "assessed": 1138581,
    "class": "A",
    "deed_date": "2026-01-06",
    "extras": {
@@ -1994,14 +2615,14 @@
    "lat": 30.125564,
    "lon": -97.979437,
    "sqft": 4311,
-   "value": 1171020,
+   "value": 1202040,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": 2.0,
    "address": "16217 OXBOW TRL, BUDA, TX  78610",
-   "assessed": 477144,
+   "assessed": 656055,
    "class": "A",
    "deed_date": "2025-12-31",
    "extras": {},
@@ -2009,14 +2630,44 @@
    "lat": 30.106243,
    "lon": -97.860571,
    "sqft": 1879,
-   "value": 597961,
+   "value": 656055,
    "value_kind": "market (Hays CAD)",
    "year_built": 1984
   },
   {
+   "acres": 0.202,
+   "address": "383 CARPENTER HILL DR, BUDA, TX  78610",
+   "assessed": 575000,
+   "class": "A",
+   "deed_date": "2025-12-30",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.100241,
+   "lon": -97.885078,
+   "sqft": 2788,
+   "value": 575000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": 0.178,
+   "address": "323 CARPENTER HILL DR, BUDA, TX  78610",
+   "assessed": 575000,
+   "class": "A",
+   "deed_date": "2025-12-30",
+   "extras": {},
+   "homestead": true,
+   "lat": 30.099478,
+   "lon": -97.885667,
+   "sqft": 2788,
+   "value": 575000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
    "acres": null,
    "address": "208 BUTTERCUP WAY, KYLE, TX  78640",
-   "assessed": 294990,
+   "assessed": 260000,
    "class": "A",
    "deed_date": "2025-12-26",
    "extras": {
@@ -2026,15 +2677,15 @@
    "lat": 30.109151,
    "lon": -97.854768,
    "sqft": 1855,
-   "value": 294990,
+   "value": 260000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2004
   },
   {
    "acres": 0.227,
    "address": "110 CHARLOTTE AGITHA DR, BUDA, TX  78610",
-   "assessed": 445155,
-   "class": "O",
+   "assessed": 560000,
+   "class": "A",
    "deed_date": "2025-12-22",
    "extras": {
     "bedrooms": "4.000000",
@@ -2047,14 +2698,14 @@
    "lat": 30.098194,
    "lon": -97.886198,
    "sqft": 2372,
-   "value": 445155,
+   "value": 560000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": 44.391,
    "address": "177 PALABRO CIR, DRIFTWOOD, TX  78619",
-   "assessed": 1223380,
+   "assessed": 1232472,
    "class": "A",
    "deed_date": "2025-12-22",
    "extras": {
@@ -2068,14 +2719,14 @@
    "lat": 30.138008,
    "lon": -98.020788,
    "sqft": 3728,
-   "value": 1223380,
+   "value": 1232472,
    "value_kind": "market (Hays CAD)",
    "year_built": 2023
   },
   {
    "acres": 1.49,
    "address": "914 RANCHERS CLUB LN, DRIFTWOOD, TX  78619",
-   "assessed": 1050410,
+   "assessed": 1040630,
    "class": "A",
    "deed_date": "2025-12-19",
    "extras": {
@@ -2090,14 +2741,14 @@
    "lat": 30.09285,
    "lon": -98.045456,
    "sqft": 3444,
-   "value": 1050410,
+   "value": 1040630,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
    "acres": null,
    "address": "204 FOX HOLLOW, BUDA, TX  78610",
-   "assessed": 606451,
+   "assessed": 653965,
    "class": "A",
    "deed_date": "2025-12-19",
    "extras": {
@@ -2110,13 +2761,13 @@
    "lat": 30.110264,
    "lon": -97.853656,
    "sqft": 2986,
-   "value": 606451,
+   "value": 653965,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": null,
    "address": "12628 LIVE OAK LN, BUDA, TX  78610",
-   "assessed": 198926,
+   "assessed": 218819,
    "class": "A",
    "deed_date": "2025-12-19",
    "extras": {},
@@ -2130,7 +2781,7 @@
   {
    "acres": 5.01,
    "address": "16170 OAK GROVE RD, BUDA, TX  78610",
-   "assessed": 911890,
+   "assessed": 728010,
    "class": "A",
    "deed_date": "2025-12-19",
    "extras": {
@@ -2143,7 +2794,7 @@
    "lat": 30.107877,
    "lon": -97.901433,
    "sqft": 1972,
-   "value": 911890,
+   "value": 728010,
    "value_kind": "market (Hays CAD)",
    "year_built": 1999
   },
@@ -2172,7 +2823,7 @@
   {
    "acres": 0.55,
    "address": "602 LEISUREWOODS DR, BUDA, TX  78610",
-   "assessed": 624550,
+   "assessed": 603470,
    "class": "A",
    "deed_date": "2025-12-15",
    "extras": {
@@ -2182,19 +2833,19 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.108,
    "lon": -97.866236,
    "sqft": 2039,
-   "value": 624550,
+   "value": 603470,
    "value_kind": "market (Hays CAD)",
    "year_built": 1995
   },
   {
    "acres": 0.164,
    "address": "120 CHARLOTTE AGITHA DR, BUDA, TX  78610",
-   "assessed": 438923,
-   "class": "O",
+   "assessed": 524900,
+   "class": "A",
    "deed_date": "2025-12-15",
    "extras": {
     "bedrooms": "3.000000",
@@ -2203,18 +2854,18 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.098198,
    "lon": -97.886394,
    "sqft": 2229,
-   "value": 438923,
+   "value": 524900,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": 2.06,
    "address": "200 WOODLAND OAKS TRL, BUDA, TX  78610",
-   "assessed": 691778,
+   "assessed": 689650,
    "class": "A",
    "deed_date": "2025-12-10",
    "extras": {},
@@ -2222,14 +2873,14 @@
    "lat": 30.105086,
    "lon": -97.899369,
    "sqft": 2247,
-   "value": 739120,
+   "value": 689650,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": null,
    "address": "3905 CATTLEMAN, MANCHACA, TX  78652",
-   "assessed": 435026,
+   "assessed": 593320,
    "class": "A",
    "deed_date": "2025-12-05",
    "extras": {
@@ -2240,7 +2891,7 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.143871,
    "lon": -97.883566,
    "sqft": 1640,
@@ -2272,22 +2923,22 @@
   {
    "acres": 4.847,
    "address": "1240 NEXT STEP DR, DRIFTWOOD, TX  78619",
-   "assessed": 2455390,
+   "assessed": 4785430,
    "class": "A",
    "deed_date": "2025-12-02",
    "extras": {},
-   "homestead": false,
+   "homestead": true,
    "lat": 30.130376,
    "lon": -98.006954,
    "sqft": 9483,
-   "value": 2455390,
+   "value": 4785430,
    "value_kind": "market (Hays CAD)",
    "year_built": 2024
   },
   {
    "acres": 19.7,
    "address": "501 S OAK FOREST RD, DRIPPING SPRINGS, TX  78620",
-   "assessed": 719270,
+   "assessed": 645900,
    "class": "D1",
    "deed_date": "2025-11-25",
    "extras": {
@@ -2302,14 +2953,14 @@
    "lat": 30.104126,
    "lon": -97.905738,
    "sqft": 2236,
-   "value": 1587100,
+   "value": 1649930,
    "value_kind": "market (Hays CAD)",
    "year_built": 1994
   },
   {
    "acres": 1.729,
    "address": "2806 WREN RD, MANCHACA, TX  78652",
-   "assessed": 546300,
+   "assessed": 457710,
    "class": "A",
    "deed_date": "2025-11-20",
    "extras": {},
@@ -2317,13 +2968,14 @@
    "lat": 30.134532,
    "lon": -97.893325,
    "sqft": 1802,
-   "value": 546300,
-   "value_kind": "market (Hays CAD)"
+   "value": 457710,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1984
   },
   {
    "acres": 5.45,
    "address": "3140 LA VENTANA PKWY, DRIFTWOOD, TX  78619",
-   "assessed": 2272960,
+   "assessed": 2219960,
    "class": "A",
    "deed_date": "2025-11-17",
    "extras": {
@@ -2338,14 +2990,14 @@
    "lat": 30.094457,
    "lon": -98.046628,
    "sqft": 4785,
-   "value": 2272960,
+   "value": 2219960,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": null,
    "address": "12711 DOVE DR, BUDA, TX  78610",
-   "assessed": 475870,
+   "assessed": 467200,
    "class": "A",
    "deed_date": "2025-11-14",
    "extras": {
@@ -2355,17 +3007,17 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.115036,
    "lon": -97.852771,
    "sqft": 1955,
-   "value": 475870,
+   "value": 467200,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 1.72,
    "address": "2375 LA VENTANA PKWY, DRIFTWOOD, TX  78619",
-   "assessed": 1202070,
+   "assessed": 1335570,
    "class": "A",
    "deed_date": "2025-11-14",
    "extras": {
@@ -2378,14 +3030,14 @@
    "lat": 30.099978,
    "lon": -98.046563,
    "sqft": 3626,
-   "value": 1202070,
+   "value": 1335570,
    "value_kind": "market (Hays CAD)",
    "year_built": 2004
   },
   {
    "acres": null,
    "address": "1006 LAUREL CV, BUDA, TX  78610",
-   "assessed": 470591,
+   "assessed": 491020,
    "class": "A",
    "deed_date": "2025-11-13",
    "extras": {
@@ -2399,14 +3051,14 @@
    "lat": 30.103271,
    "lon": -97.853159,
    "sqft": 1815,
-   "value": 476540,
+   "value": 491020,
    "value_kind": "market (Hays CAD)",
    "year_built": 1993
   },
   {
    "acres": 0.918,
    "address": "200 DODGEN TRL, BUDA, TX  78610",
-   "assessed": 415290,
+   "assessed": 483594,
    "class": "A",
    "deed_date": "2025-11-07",
    "extras": {},
@@ -2414,25 +3066,25 @@
    "lat": 30.092375,
    "lon": -97.88817,
    "sqft": 2407,
-   "value": 415290,
+   "value": 489650,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": 10.0,
    "address": "7817 ORISHA 78739",
-   "assessed": 360000,
+   "assessed": 350000,
    "class": "A1",
    "deed_date": "2025-11-05",
-   "homestead": false,
+   "homestead": true,
    "lat": 30.17724,
    "lon": -97.922899,
-   "value": 360000,
+   "value": 350000,
    "value_kind": "market (TCAD appraisal)"
   },
   {
    "acres": 1.624,
    "address": "10242 BRANGUS RD, DRIFTWOOD, TX  78619",
-   "assessed": 863346,
+   "assessed": 835000,
    "class": "A",
    "deed_date": "2025-11-05",
    "extras": {
@@ -2442,18 +3094,18 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.120494,
    "lon": -97.98349,
    "sqft": 3646,
-   "value": 888870,
+   "value": 835000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2008
   },
   {
    "acres": 1.565,
    "address": "1052 LITTLE BEAR RD, BUDA, TX  78610",
-   "assessed": 774363,
+   "assessed": 851799,
    "class": "A",
    "deed_date": "2025-10-29",
    "extras": {
@@ -2468,14 +3120,14 @@
    "lat": 30.122787,
    "lon": -97.897657,
    "sqft": 2792,
-   "value": 784016,
+   "value": 858400,
    "value_kind": "market (Hays CAD)",
    "year_built": 2006
   },
   {
    "acres": 1.569,
    "address": "185 WARE DR, BUDA, TX  78610",
-   "assessed": 791429,
+   "assessed": 862010,
    "class": "A",
    "deed_date": "2025-10-28",
    "extras": {
@@ -2489,14 +3141,14 @@
    "lat": 30.059497,
    "lon": -97.923378,
    "sqft": 3998,
-   "value": 791429,
+   "value": 862010,
    "value_kind": "market (Hays CAD)",
    "year_built": 2005
   },
   {
    "acres": 1.0,
    "address": "13510 COPPER HILLS DR, MANCHACA, TX  78652",
-   "assessed": 681147,
+   "assessed": 669000,
    "class": "A",
    "deed_date": "2025-10-24",
    "extras": {
@@ -2507,18 +3159,18 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 30.143245,
    "lon": -97.881961,
    "sqft": 2221,
-   "value": 681147,
+   "value": 669000,
    "value_kind": "market (Hays CAD)",
    "year_built": 1999
   },
   {
    "acres": 0.164,
    "address": "147 CHARLOTTE AGITHA DR, BUDA, TX  78610",
-   "assessed": 606260,
+   "assessed": 599370,
    "class": "A",
    "deed_date": "2025-10-24",
    "extras": {
@@ -2532,14 +3184,14 @@
    "lat": 30.097941,
    "lon": -97.886816,
    "sqft": 2562,
-   "value": 606260,
+   "value": 599370,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": null,
    "address": "302 CANYON WREN DR, BUDA, TX  78610",
-   "assessed": 603140,
+   "assessed": 553744,
    "class": "A",
    "deed_date": "2025-10-23",
    "extras": {},
@@ -2547,14 +3199,35 @@
    "lat": 30.118612,
    "lon": -97.868178,
    "sqft": 2268,
-   "value": 603140,
+   "value": 553744,
    "value_kind": "market (Hays CAD)",
    "year_built": 1983
   },
   {
+   "acres": 44.391,
+   "address": "202 AUDREY CT, DRIFTWOOD, TX  78619",
+   "assessed": 1544890,
+   "class": "A",
+   "deed_date": "2025-10-23",
+   "extras": {
+    "exterior": "W",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "2CAH",
+    "roof": "H-M"
+   },
+   "homestead": false,
+   "lat": 30.1375,
+   "lon": -98.021771,
+   "sqft": 4478,
+   "value": 1544890,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2022
+  },
+  {
    "acres": null,
    "address": "12508 DARRYL DR, BUDA, TX  78610",
-   "assessed": 396920,
+   "assessed": 383270,
    "class": "A",
    "deed_date": "2025-10-22",
    "extras": {
@@ -2566,13 +3239,13 @@
    "lat": 30.121625,
    "lon": -97.859132,
    "sqft": 1544,
-   "value": 396920,
+   "value": 383270,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": null,
    "address": "212 DEWBERRY CV, BUDA, TX  78610",
-   "assessed": 462351,
+   "assessed": 502550,
    "class": "A",
    "deed_date": "2025-10-21",
    "extras": {
@@ -2584,14 +3257,14 @@
    "lat": 30.111425,
    "lon": -97.85477,
    "sqft": 1810,
-   "value": 462351,
+   "value": 502550,
    "value_kind": "market (Hays CAD)",
    "year_built": 1986
   },
   {
    "acres": null,
    "address": "212 RANGER DR, BUDA, TX  78610",
-   "assessed": 361870,
+   "assessed": 324140,
    "class": "A",
    "deed_date": "2025-10-20",
    "extras": {
@@ -2605,14 +3278,14 @@
    "lat": 30.115013,
    "lon": -97.855376,
    "sqft": 1276,
-   "value": 361870,
+   "value": 324140,
    "value_kind": "market (Hays CAD)",
    "year_built": 1985
   },
   {
    "acres": 3.31,
    "address": "200 OAK FOREST DR, BUDA, TX  78610",
-   "assessed": 942229,
+   "assessed": 810000,
    "class": "A",
    "deed_date": "2025-10-17",
    "extras": {
@@ -2626,1138 +3299,50 @@
    "lat": 30.097843,
    "lon": -97.904407,
    "sqft": 5436,
-   "value": 1100120,
+   "value": 810000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2003
   },
   {
-   "acres": 1.5,
-   "address": "405 WARE DR, BUDA, TX  78610",
-   "assessed": 816848,
+   "acres": 44.391,
+   "address": "132 CENTRAL CLUB CIR, DRIFTWOOD, TX  78619",
+   "assessed": 1571100,
    "class": "A",
-   "deed_date": "2025-10-09",
+   "deed_date": "2025-10-17",
    "extras": {
-    "exterior": "S",
+    "exterior": "W",
     "fireplace": "1",
     "foundation": "S",
     "heat_ac": "2CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.056193,
-   "lon": -97.925148,
-   "sqft": 4042,
-   "value": 816848,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.794,
-   "address": "924 THURMAN ROBERTS WAY, DRIFTWOOD, TX  78619",
-   "assessed": 4228010,
-   "class": "A",
-   "deed_date": "2025-10-09",
-   "extras": {
-    "bedrooms": "5.000000",
-    "exterior": "R-W",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.142481,
-   "lon": -98.020756,
-   "sqft": 5144,
-   "value": 4228010,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 1.365,
-   "address": "1146 LIVE OAK LOOP, BUDA, TX  78610",
-   "assessed": 530092,
-   "class": "A",
-   "deed_date": "2025-10-08",
-   "extras": {
-    "exterior": "R-C",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.112085,
-   "lon": -97.913881,
-   "sqft": 1688,
-   "value": 578560,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2005
-  },
-  {
-   "acres": 5.002,
-   "address": "401 SOUTHERN DR, BUDA, TX  78610",
-   "assessed": 837030,
-   "class": "A",
-   "deed_date": "2025-10-06",
-   "extras": {
-    "exterior": "B",
-    "foundation": "S",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.104464,
-   "lon": -97.872574,
-   "sqft": 2184,
-   "value": 837030,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": null,
-   "address": "209 TREETOP WAY, BUDA, TX  78610",
-   "assessed": 593740,
-   "class": "A",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.113122,
-   "lon": -97.854522,
-   "sqft": 2349,
-   "value": 593740,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": null,
-   "address": "304 LEISUREWOODS DR, BUDA, TX  78610",
-   "assessed": 530341,
-   "class": "A",
-   "deed_date": "2025-10-02",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.118705,
-   "lon": -97.865586,
-   "sqft": 1805,
-   "value": 580470,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": null,
-   "address": "12604 SHADY ACRES DR, BUDA, TX  78610",
-   "assessed": 455017,
-   "class": "A",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "R-W",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.118087,
-   "lon": -97.856582,
-   "sqft": 2140,
-   "value": 457440,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1982
-  },
-  {
-   "acres": 8.08,
-   "address": "16000 ARBOR TRL, BUDA, TX  78610",
-   "assessed": 730029,
-   "class": "A",
-   "deed_date": "2025-09-30",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.122753,
-   "lon": -97.912047,
-   "sqft": 1816,
-   "value": 1050000,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 5.03,
-   "address": "401 MATZIG CV, BUDA, TX  78610",
-   "assessed": 1360093,
-   "class": "A",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "R-S",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.083878,
-   "lon": -97.910111,
-   "sqft": 3428,
-   "value": 1462935,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": null,
-   "address": "12615 LIVE OAK LN, BUDA, TX  78610",
-   "assessed": 349740,
-   "class": "A",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "bedrooms": "3.000000"
-   },
-   "homestead": true,
-   "lat": 30.121919,
-   "lon": -97.872928,
-   "sqft": 1040,
-   "value": 349740,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1970
-  },
-  {
-   "acres": 4.09,
-   "address": "310 WOODLAND OAKS TRL, BUDA, TX  78610",
-   "assessed": 758794,
-   "class": "A",
-   "deed_date": "2025-09-29",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.1064,
-   "lon": -97.902764,
-   "sqft": 2446,
-   "value": 1082760,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 1.005,
-   "address": "200 CLARK CV, BUDA, TX  78610",
-   "assessed": 619830,
-   "class": "A",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "exterior": "R-C",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 30.07678,
-   "lon": -97.919743,
-   "sqft": 2373,
-   "value": 619830,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 2.95,
-   "address": "500 ELDER HILL RD, DRIFTWOOD, TX  78619",
-   "assessed": 778780,
-   "class": "E",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "2",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "G-T"
-   },
-   "homestead": true,
-   "lat": 30.123771,
-   "lon": -98.043057,
-   "sqft": 3454,
-   "value": 778780,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1984
-  },
-  {
-   "acres": null,
-   "address": "305 GOLDENEYE CIR, BUDA, TX  78610",
-   "assessed": 560520,
-   "class": "A",
-   "deed_date": "2025-09-24",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.11932,
-   "lon": -97.864463,
-   "sqft": 2265,
-   "value": 560520,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1983
-  },
-  {
-   "acres": null,
-   "address": "304 TREETOP WAY, BUDA, TX  78610",
-   "assessed": 496018,
-   "class": "A",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.109152,
-   "lon": -97.855819,
-   "sqft": 1933,
-   "value": 510290,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 1.505,
-   "address": "1316 NATURE VIEW LOOP, DRIFTWOOD, TX  78619",
-   "assessed": 742797,
-   "class": "A",
-   "deed_date": "2025-09-19",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "R, S",
-    "fireplace": "2",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.126145,
-   "lon": -97.98191,
-   "sqft": 3039,
-   "value": 769850,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 5.06,
-   "address": "26 COUNTRY OAKS DR, BUDA, TX  78610",
-   "assessed": 582740,
-   "class": "A",
-   "deed_date": "2025-09-17",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.119375,
-   "lon": -97.878521,
-   "sqft": 1624,
-   "value": 936040,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 5.0,
-   "address": "401 OAK MEADOWS, SAN MARCOS TX",
-   "assessed": 168136,
-   "class": "A",
-   "deed_date": "2025-09-16",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.102397,
-   "lon": -97.905756,
-   "sqft": 1440,
-   "value": 263850,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 1.04,
-   "address": "210 CLARK CV, BUDA, TX  78610",
-   "assessed": 711610,
-   "class": "A",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.076602,
-   "lon": -97.920395,
-   "sqft": 2883,
-   "value": 711610,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2004
-  },
-  {
-   "acres": 5.39,
-   "address": "68 COUNTRY OAKS DR, BUDA, TX  78610",
-   "assessed": 684206,
-   "class": "A",
-   "deed_date": "2025-09-09",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.118842,
-   "lon": -97.887567,
-   "sqft": 3196,
-   "value": 1093474,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1979
-  },
-  {
-   "acres": 2.0,
-   "address": "541 ELLIOTT RANCH RD, BUDA, TX  78610",
-   "assessed": 298460,
-   "class": "A",
-   "deed_date": "2025-09-08",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.112969,
-   "lon": -97.887143,
-   "sqft": 2245,
-   "value": 298460,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 2.43,
-   "address": "420 OAK FOREST DR, BUDA, TX  78610",
-   "assessed": 893540,
-   "class": "A",
-   "deed_date": "2025-09-05",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.103642,
-   "lon": -97.904632,
-   "sqft": 2874,
-   "value": 893540,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1996
-  },
-  {
-   "acres": 1.37,
-   "address": "2442 LA VENTANA PKWY, DRIFTWOOD, TX  78619",
-   "assessed": 784960,
-   "class": "A",
-   "deed_date": "2025-09-05",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1FP",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.100991,
-   "lon": -98.047691,
-   "sqft": 3030,
-   "value": 784960,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 9.73,
-   "address": "201 OVERLOOK CV, DRIPPING SPRINGS, TX  78620",
-   "assessed": 435015,
-   "class": "A",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "foundation": "P-B",
-    "heat_ac": "CAH",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 30.111574,
-   "lon": -97.896835,
-   "sqft": 908,
-   "value": 896990,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.216,
-   "address": "384 FRED DR, BUDA, TX  78610",
-   "assessed": 660630,
-   "class": "A",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "B, R",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.100221,
-   "lon": -97.886049,
-   "sqft": 2440,
-   "value": 660630,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 5.0,
-   "address": "201 CREEKSIDE TRL, KYLE, TX  78640",
-   "assessed": 497600,
-   "class": "E",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "R-W",
-    "fireplace": "1",
-    "foundation": "S",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 30.067719,
-   "lon": -97.928693,
-   "sqft": 2421,
-   "value": 611650,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1983
-  },
-  {
-   "acres": null,
-   "address": "905 BLUEBIRD DR, MANCHACA, TX  78652",
-   "assessed": 419590,
-   "class": "A",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.134152,
-   "lon": -97.889842,
-   "sqft": 1736,
-   "value": 419590,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": null,
-   "address": "13402 RAMROD DR, MANCHACA TX",
-   "assessed": 428819,
-   "class": "A",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "exterior": "B",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.145319,
-   "lon": -97.884229,
-   "sqft": 1694,
-   "value": 602610,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1984
-  },
-  {
-   "acres": 5.49,
-   "address": "200 MATZIG CV, BUDA, TX  78610",
-   "assessed": 1218716,
-   "class": "A",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "R-S",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.086293,
-   "lon": -97.912426,
-   "sqft": 3298,
-   "value": 1383770,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 2.0,
-   "address": "1620 ELDER HILL RD, DRIFTWOOD, TX  78619",
-   "assessed": 274109,
-   "class": "E",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 30.117514,
-   "lon": -98.049607,
-   "sqft": 2171,
-   "value": 390310,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1940
-  },
-  {
-   "acres": 1.532,
-   "address": "10259 BRANGUS RD, DRIFTWOOD, TX  78619",
-   "assessed": 840270,
-   "class": "A",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "B",
-    "foundation": "S",
-    "roof": "H-C"
+    "roof": "H-M"
    },
    "homestead": false,
-   "lat": 30.120795,
-   "lon": -97.984224,
-   "sqft": 4004,
-   "value": 840270,
+   "lat": 30.137056,
+   "lon": -98.02115,
+   "sqft": 4729,
+   "value": 1571100,
    "value_kind": "market (Hays CAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.232,
-   "address": "171 WILLIAM CLAYTON DR, BUDA, TX  78610",
-   "assessed": 543270,
-   "class": "A",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R, B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.100813,
-   "lon": -97.885706,
-   "sqft": 2206,
-   "value": 543270,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": null,
-   "address": "1009 SWALLOW DR, MANCHACA, TX  78652",
-   "assessed": 385060,
-   "class": "A",
-   "deed_date": "2025-08-21",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.137643,
-   "lon": -97.885348,
-   "sqft": 1676,
-   "value": 385060,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1979
-  },
-  {
-   "acres": null,
-   "address": "12705 CRYSTAL CREEK DR, BUDA, TX  78610",
-   "assessed": 350150,
-   "class": "A",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.116374,
-   "lon": -97.859894,
-   "sqft": 1244,
-   "value": 350150,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": null,
-   "address": "2802 HUMMINGBIRD RD, MANCHACA, TX  78652",
-   "assessed": 445120,
-   "class": "A",
-   "deed_date": "2025-08-18",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.138043,
-   "lon": -97.89233,
-   "sqft": 1554,
-   "value": 445120,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 0.3,
-   "address": "208 BERMUDA LN, BUDA, TX  78610",
-   "assessed": 551938,
-   "class": "A",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "B-C",
-    "fireplace": "1FP",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.106274,
-   "lon": -97.857516,
-   "sqft": 2678,
-   "value": 611720,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": 2.027,
-   "address": "330 WOODLAND OAKS TRL, BUDA, TX  78610",
-   "assessed": 731580,
-   "class": "A",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "R, S",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.106322,
-   "lon": -97.904426,
-   "sqft": 2630,
-   "value": 731580,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": 0.401,
-   "address": "1010 MAGNOLIA CV, BUDA, TX  78610",
-   "assessed": 521180,
-   "class": "A",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 30.102772,
-   "lon": -97.854215,
-   "sqft": 1748,
-   "value": 521180,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1995
-  },
-  {
-   "acres": 2.864,
-   "address": "2005 CHAPARRAL RD, MANCHACA, TX  78652",
-   "assessed": 638129,
-   "class": "A",
-   "deed_date": "2025-08-11",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.138048,
-   "lon": -97.876046,
-   "sqft": 3546,
-   "value": 939080,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1991
-  },
-  {
-   "acres": null,
-   "address": "12614 CRYSTAL CREEK DR, BUDA, TX  78610",
-   "assessed": 410030,
-   "class": "A",
-   "deed_date": "2025-08-08",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R",
-    "foundation": "S",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 30.117963,
-   "lon": -97.860664,
-   "sqft": 1325,
-   "value": 410030,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1981
-  },
-  {
-   "acres": 1.89,
-   "address": "1343 LITTLE BEAR RD, BUDA, TX  78610",
-   "assessed": 801360,
-   "class": "A",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.123102,
-   "lon": -97.893248,
-   "sqft": 3704,
-   "value": 867171,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": null,
-   "address": "12613 CRYSTAL CREEK DR, BUDA, TX  78610",
-   "assessed": 365440,
-   "class": "A",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "B",
-    "foundation": "S",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.118125,
-   "lon": -97.859918,
-   "sqft": 1269,
-   "value": 365440,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1984
-  },
-  {
-   "acres": null,
-   "address": "12635 LIVE OAK LN, BUDA, TX  78610",
-   "assessed": 293240,
-   "class": "A",
-   "deed_date": "2025-08-04",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.119187,
-   "lon": -97.8728,
-   "sqft": 1276,
-   "value": 293240,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 1.66,
-   "address": "190 CHALK BLUFF CT, DRIFTWOOD, TX  78619",
-   "assessed": 970810,
-   "class": "A",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1FP",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.106489,
-   "lon": -98.040921,
-   "sqft": 3065,
-   "value": 970810,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": null,
-   "address": "2805 CHAPARRAL RD, MANCHACA, TX  78652",
-   "assessed": 426490,
-   "class": "A",
-   "deed_date": "2025-07-26",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.1357,
-   "lon": -97.892719,
-   "sqft": 1830,
-   "value": 426490,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1976
-  },
-  {
-   "acres": 0.164,
-   "address": "417 CYRUS MILTON DR, BUDA, TX  78610",
-   "assessed": 272505,
-   "class": "O",
-   "deed_date": "2025-07-24",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.102702,
-   "lon": -97.886827,
-   "sqft": 2440,
-   "value": 272505,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.329,
-   "address": "2073 DRIFTWOOD RANCH DR, DRIFTWOOD, TX  78619",
-   "assessed": 1169660,
-   "class": "A",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "R-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": false,
-   "lat": 30.132513,
-   "lon": -97.99844,
-   "sqft": 4720,
-   "value": 1821190,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": 2.546,
-   "address": "280 WHITNEY RUN, BUDA, TX  78610",
-   "assessed": 910846,
-   "class": "A",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "2CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 30.117075,
-   "lon": -97.901877,
-   "sqft": 4142,
-   "value": 975720,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": 0.316,
-   "address": "623 PRICKLY PEAR PASS, BUDA, TX  78610",
-   "assessed": 544060,
-   "class": "A",
-   "deed_date": "2025-07-21",
-   "extras": {
-    "exterior": "R",
-    "fireplace": "1FP",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.102746,
-   "lon": -97.854705,
-   "sqft": 1978,
-   "value": 544060,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 11.254,
-   "address": "204 BRIDGES LN, BUDA, TX  78610",
-   "assessed": 950683,
-   "class": "A",
-   "deed_date": "2025-07-18",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.09103,
-   "lon": -97.879514,
-   "sqft": 2664,
-   "value": 1300630,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 2.157,
-   "address": "502 BUCKAROO TRL, BUDA, TX  78610",
-   "assessed": 754202,
-   "class": "A",
-   "deed_date": "2025-07-17",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.113372,
-   "lon": -97.859625,
-   "sqft": 2531,
-   "value": 824410,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1978
-  },
-  {
-   "acres": 5.002,
-   "address": "600 SOUTHERN DR, BUDA, TX  78610",
-   "assessed": 771980,
-   "class": "A",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "R-C",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.107534,
-   "lon": -97.871041,
-   "sqft": 2844,
-   "value": 1042180,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1999
-  },
-  {
-   "acres": 1.456,
-   "address": "1265 NEXT STEP DR, DRIFTWOOD, TX  78619",
-   "assessed": 2281460,
-   "class": "A",
-   "deed_date": "2025-07-16",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.130848,
-   "lon": -98.007307,
-   "sqft": 6461,
-   "value": 2281460,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": null,
-   "address": "900 LAUREL CV, BUDA, TX  78610",
-   "assessed": 445000,
-   "class": "A",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "B",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.105173,
-   "lon": -97.853119,
-   "sqft": 2182,
-   "value": 445000,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": 0.192,
-   "address": "451 CARPENTER HILL DR, BUDA, TX  78610",
-   "assessed": 585230,
-   "class": "A",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R, B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.100508,
-   "lon": -97.883872,
-   "sqft": 2229,
-   "value": 585230,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 1.504,
-   "address": "230 WILDERNESS CV, DRIFTWOOD, TX  78619",
-   "assessed": 756041,
-   "class": "A",
-   "deed_date": "2025-07-14",
-   "extras": {
-    "exterior": "S, R",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.121793,
-   "lon": -97.971164,
-   "sqft": 3039,
-   "value": 781800,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 0.75,
-   "address": "212 LONGSPUR DR, BUDA, TX  78610",
-   "assessed": 542570,
-   "class": "A",
-   "deed_date": "2025-07-11",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.105704,
-   "lon": -97.866914,
-   "sqft": 1894,
-   "value": 542570,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": null,
-   "address": "108 KILDEER DR, BUDA, TX  78610",
-   "assessed": 475949,
-   "class": "A",
-   "deed_date": "2025-07-11",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.121682,
-   "lon": -97.863886,
-   "sqft": 1599,
-   "value": 515120,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 1.92,
-   "address": "545 RANCHERS CLUB LN, DRIFTWOOD, TX  78619",
-   "assessed": 1029780,
-   "class": "A",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "R, S",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 30.095968,
-   "lon": -98.041694,
-   "sqft": 3525,
-   "value": 1029780,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 6.59,
-   "address": "460 CALICHE DR, DRIFTWOOD, TX  78619",
-   "assessed": 617380,
-   "class": "A",
-   "deed_date": "2025-07-09",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.105315,
-   "lon": -98.072943,
-   "sqft": 1000,
-   "value": 617380,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2012
+   "year_built": 2022
   }
  ],
  "windows": {
   "12mo": {
-   "count": 199,
-   "median_value": 655020,
-   "pct_of_households": 5.51,
-   "pct_of_population": 1.9
+   "count": 178,
+   "median_value": 621030,
+   "pct_of_households": 4.93,
+   "pct_of_population": 1.7
   },
   "3mo": {
-   "count": 50,
-   "median_value": 678960,
-   "pct_of_households": 1.38,
-   "pct_of_population": 0.48
+   "count": 6,
+   "median_value": 643020,
+   "pct_of_households": 0.17,
+   "pct_of_population": 0.06
   },
   "6mo": {
-   "count": 105,
-   "median_value": 665990,
-   "pct_of_households": 2.91,
-   "pct_of_population": 1.0
+   "count": 83,
+   "median_value": 625010,
+   "pct_of_households": 2.3,
+   "pct_of_population": 0.79
   }
  }
 }

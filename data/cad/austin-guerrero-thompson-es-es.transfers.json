@@ -1,15 +1,84 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 15,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 16,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 1828,
  "months_back": 12,
  "population_acs": 4173,
  "transfers": [
   {
+   "acres": 1.664,
+   "address": "9706 NORTH CREEK 78753",
+   "assessed": 280784,
+   "class": "A1",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.363833,
+   "lon": -97.689429,
+   "sqft": 1032,
+   "value": 280784,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
+  },
+  {
+   "acres": 3.455,
+   "address": "LAMAR 78753",
+   "assessed": 180600,
+   "class": "C1",
+   "deed_date": "2026-07-01",
+   "homestead": false,
+   "lat": 30.368662,
+   "lon": -97.694885,
+   "value": 180600,
+   "value_kind": "market (TCAD appraisal)"
+  },
+  {
+   "acres": 1.749,
+   "address": "9704 ORIOLE 78753",
+   "assessed": 301889,
+   "class": "A1",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": true,
+   "lat": 30.363523,
+   "lon": -97.688896,
+   "sqft": 934,
+   "value": 301889,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1972
+  },
+  {
+   "acres": 1.781,
+   "address": "9505 NORTH CREEK 78753",
+   "assessed": 311285,
+   "class": "A1",
+   "deed_date": "2026-06-23",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "COMPOSITIO",
+    "roof_style": "GABLE"
+   },
+   "homestead": false,
+   "lat": 30.361718,
+   "lon": -97.690467,
+   "sqft": 1284,
+   "value": 311285,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1970
+  },
+  {
    "acres": 1.49,
    "address": "201 STARLING 78753",
-   "assessed": 298707,
+   "assessed": 262593,
    "class": "A1",
    "deed_date": "2026-05-11",
    "extras": {
@@ -21,7 +90,7 @@
    "lat": 30.365883,
    "lon": -97.689271,
    "sqft": 1315,
-   "value": 298707,
+   "value": 262593,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1971
   },
@@ -47,7 +116,7 @@
   {
    "acres": 1.697,
    "address": "100 PHEASANT 78753",
-   "assessed": 264121,
+   "assessed": 231027,
    "class": "A1",
    "deed_date": "2026-04-14",
    "extras": {
@@ -59,7 +128,7 @@
    "lat": 30.365298,
    "lon": -97.690666,
    "sqft": 910,
-   "value": 264121,
+   "value": 231027,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1971
   },
@@ -84,7 +153,7 @@
   },
   {
    "acres": 135.45,
-   "address": "10000 LAMAR",
+   "address": "10000 LAMAR 78753",
    "assessed": 37000000,
    "class": "B1",
    "deed_date": "2026-03-19",
@@ -100,25 +169,6 @@
    "value": 37000000,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1983
-  },
-  {
-   "acres": 1.749,
-   "address": "9704 ORIOLE 78753",
-   "assessed": 301889,
-   "class": "A1",
-   "deed_date": "2026-02-26",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.363523,
-   "lon": -97.688896,
-   "sqft": 934,
-   "value": 301889,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
   },
   {
    "acres": 1.546,
@@ -161,7 +211,7 @@
   {
    "acres": 41.542,
    "address": "9800 LAMAR 78753",
-   "assessed": 3240175,
+   "assessed": 3020394,
    "class": "F1",
    "deed_date": "2026-01-29",
    "extras": {
@@ -173,14 +223,33 @@
    "lat": 30.367981,
    "lon": -97.695818,
    "sqft": 46727,
-   "value": 3240175,
+   "value": 3020394,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1983
   },
   {
+   "acres": 66.273,
+   "address": "9414 LAMAR 78753",
+   "assessed": 6794832,
+   "class": "F1",
+   "deed_date": "2026-01-26",
+   "extras": {
+    "foundation": "SLAB",
+    "roof": "BUILT-UP",
+    "roof_style": "FLAT"
+   },
+   "homestead": false,
+   "lat": 30.364578,
+   "lon": -97.697757,
+   "sqft": 76919,
+   "value": 6794832,
+   "value_kind": "market (TCAD appraisal)",
+   "year_built": 1979
+  },
+  {
    "acres": 1.521,
    "address": "107 LONGSPUR AUSTIN 78753",
-   "assessed": 250262,
+   "assessed": 214900,
    "class": "A1",
    "deed_date": "2026-01-15",
    "extras": {
@@ -192,7 +261,7 @@
    "lat": 30.365246,
    "lon": -97.689842,
    "sqft": 921,
-   "value": 250262,
+   "value": 214900,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1972
   },
@@ -233,76 +302,26 @@
    "value": 298189,
    "value_kind": "market (TCAD appraisal)",
    "year_built": 1971
-  },
-  {
-   "acres": 1.581,
-   "address": "9801 ORIOLE 78753",
-   "assessed": 295675,
-   "class": "A1",
-   "deed_date": "2025-09-18",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.363906,
-   "lon": -97.688064,
-   "sqft": 1431,
-   "value": 295675,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
-  },
-  {
-   "acres": 1.544,
-   "address": "9510 NORTH CREEK 78753",
-   "assessed": 100903,
-   "class": "C1",
-   "deed_date": "2025-08-13",
-   "homestead": false,
-   "lat": 30.36237,
-   "lon": -97.690621,
-   "value": 100903,
-   "value_kind": "market (TCAD appraisal)"
-  },
-  {
-   "acres": 1.687,
-   "address": "102 PHEASANT 78753",
-   "assessed": 272666,
-   "class": "A1",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "foundation": "SLAB",
-    "roof": "COMPOSITIO",
-    "roof_style": "GABLE"
-   },
-   "homestead": false,
-   "lat": 30.365381,
-   "lon": -97.690848,
-   "sqft": 922,
-   "value": 272666,
-   "value_kind": "market (TCAD appraisal)",
-   "year_built": 1972
   }
  ],
  "windows": {
   "12mo": {
-   "count": 15,
-   "median_value": 298707,
-   "pct_of_households": 0.82,
-   "pct_of_population": 0.36
+   "count": 16,
+   "median_value": 311285,
+   "pct_of_households": 0.88,
+   "pct_of_population": 0.38
   },
   "3mo": {
-   "count": 3,
-   "median_value": 298707,
-   "pct_of_households": 0.16,
-   "pct_of_population": 0.07
+   "count": 0,
+   "median_value": null,
+   "pct_of_households": 0.0,
+   "pct_of_population": 0.0
   },
   "6mo": {
-   "count": 10,
-   "median_value": 312326,
-   "pct_of_households": 0.55,
-   "pct_of_population": 0.24
+   "count": 7,
+   "median_value": 280784,
+   "pct_of_households": 0.38,
+   "pct_of_population": 0.17
   }
  }
 }

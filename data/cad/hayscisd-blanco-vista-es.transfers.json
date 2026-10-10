@@ -1,6 +1,6 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 129,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 120,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2316,
  "months_back": 12,
@@ -8,8 +8,394 @@
  "transfers": [
   {
    "acres": null,
+   "address": "106 PRESTON TRL, SAN MARCOS, TX  78666",
+   "assessed": 271373,
+   "class": "A",
+   "deed_date": "2026-07-11",
+   "extras": {
+    "exterior": "R, C-S",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "G-C"
+   },
+   "homestead": false,
+   "lat": 29.951023,
+   "lon": -97.894542,
+   "sqft": 1510,
+   "value": 271373,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": null,
+   "address": "202 SILO ST, SAN MARCOS, TX  78666",
+   "assessed": 288290,
+   "class": "A",
+   "deed_date": "2026-07-09",
+   "extras": {
+    "exterior": "C-S",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": false,
+   "lat": 29.944821,
+   "lon": -97.890387,
+   "sqft": 1445,
+   "value": 288290,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2008
+  },
+  {
+   "acres": null,
+   "address": "305 HAY BARN ST, SAN MARCOS, TX  78666",
+   "assessed": 301670,
+   "class": "A",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "B, C-S",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.946723,
+   "lon": -97.890596,
+   "sqft": 1365,
+   "value": 301670,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": null,
+   "address": "1039 SAND POST PL, SAN MARCOS, TX  78666",
+   "assessed": 245590,
+   "class": "A",
+   "deed_date": "2026-07-06",
+   "extras": {
+    "exterior": "C-S",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.950355,
+   "lon": -97.887513,
+   "sqft": 1301,
+   "value": 245590,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": null,
+   "address": "755 EASTON DR, SAN MARCOS, TX  78666",
+   "assessed": 392930,
+   "class": "A",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "exterior": "B-C",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.946635,
+   "lon": -97.898459,
+   "sqft": 2564,
+   "value": 392930,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2015
+  },
+  {
+   "acres": null,
+   "address": "120 WITCHHAZEL WAY, SAN MARCOS, TX  78666",
+   "assessed": 214980,
+   "class": "A",
+   "deed_date": "2026-07-02",
+   "extras": {
+    "bedrooms": "2.000000",
+    "exterior": "B, C-S",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": false,
+   "lat": 29.953644,
+   "lon": -97.897586,
+   "sqft": 1026,
+   "value": 214980,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": null,
+   "address": "216 ANCIENT OAK WAY, SAN MARCOS, TX  78666",
+   "assessed": 507140,
+   "class": "A",
+   "deed_date": "2026-07-01",
+   "extras": {
+    "bedrooms": "4.000000",
+    "exterior": "C-S",
+    "fireplace": "1",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.952481,
+   "lon": -97.888516,
+   "sqft": 2486,
+   "value": 507140,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": null,
+   "address": "461 CHASTE TREE DR, SAN MARCOS, TX  78666",
+   "assessed": 483580,
+   "class": "A",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "bedrooms": "4.000000",
+    "exterior": "R-C, B-S",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "HG-C"
+   },
+   "homestead": false,
+   "lat": 29.958334,
+   "lon": -97.895742,
+   "sqft": 2930,
+   "value": 483580,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2022
+  },
+  {
+   "acres": null,
+   "address": "709 OLD SETTLERS DR, SAN MARCOS, TX  78666",
+   "assessed": 393590,
+   "class": "A",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "R, B",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.947187,
+   "lon": -97.898956,
+   "sqft": 2248,
+   "value": 393590,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 5.01,
+   "address": "700 THURMAN RD, SAN MARCOS, TX  78666",
+   "assessed": 130703,
+   "class": "A",
+   "deed_date": "2026-06-26",
+   "extras": {},
+   "homestead": true,
+   "lat": 29.985352,
+   "lon": -97.990288,
+   "sqft": 1216,
+   "value": 250340,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2007
+  },
+  {
+   "acres": null,
+   "address": "226 PINCEA PL, SAN MARCOS, TX  78666",
+   "assessed": 408030,
+   "class": "A",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "R, B",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "G-C, H-C"
+   },
+   "homestead": true,
+   "lat": 29.948371,
+   "lon": -97.892706,
+   "sqft": 2246,
+   "value": 408030,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": null,
+   "address": "204 DURATA DR, SAN MARCOS, TX  78666",
+   "assessed": 461770,
+   "class": "A",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "R, B",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.952653,
+   "lon": -97.894064,
+   "sqft": 2734,
+   "value": 461770,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2018
+  },
+  {
+   "acres": 1.4,
+   "address": "2121 CYPRESS RD, KYLE, TX  78640",
+   "assessed": 178733,
+   "class": "E",
+   "deed_date": "2026-06-25",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.991363,
+   "lon": -97.894029,
+   "sqft": 726,
+   "value": 182620,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1920
+  },
+  {
+   "acres": 10.55,
+   "address": "2335 CYPRESS RD, KYLE, TX  78640",
+   "assessed": 647269,
+   "class": "E",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "B",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.990212,
+   "lon": -97.897415,
+   "sqft": 2849,
+   "value": 1467540,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": null,
+   "address": "2820 JACOB LN, SAN MARCOS, TX  78666",
+   "assessed": 454410,
+   "class": "A",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "B",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.95021,
+   "lon": -97.897899,
+   "sqft": 2898,
+   "value": 454410,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2016
+  },
+  {
+   "acres": 13.64,
+   "address": "700 PIEDRAS PASS, SAN MARCOS, TX  78666",
+   "assessed": 155471,
+   "class": "A",
+   "deed_date": "2026-06-16",
+   "extras": {},
+   "homestead": true,
+   "lat": 29.963921,
+   "lon": -97.960119,
+   "sqft": 336,
+   "value": 808970,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2006
+  },
+  {
+   "acres": 0.14,
+   "address": "1249 BLUE OAK BLVD, SAN MARCOS, TX  78666",
+   "assessed": 352567,
+   "class": "A",
+   "deed_date": "2026-06-15",
+   "extras": {},
+   "homestead": true,
+   "lat": 29.959437,
+   "lon": -97.897201,
+   "sqft": 1990,
+   "value": 352567,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2024
+  },
+  {
+   "acres": null,
+   "address": "2924 BRAND IRON DR, SAN MARCOS, TX  78666",
+   "assessed": 268340,
+   "class": "A",
+   "deed_date": "2026-06-12",
+   "extras": {
+    "bedrooms": "3.000000",
+    "exterior": "B-C",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.954227,
+   "lon": -97.897659,
+   "sqft": 1383,
+   "value": 268340,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2020
+  },
+  {
+   "acres": null,
+   "address": "615 HARWOOD DR, SAN MARCOS, TX  78666",
+   "assessed": 386930,
+   "class": "A",
+   "deed_date": "2026-06-10",
+   "extras": {
+    "exterior": "R-B",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.944942,
+   "lon": -97.897726,
+   "sqft": 2402,
+   "value": 386930,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2013
+  },
+  {
+   "acres": null,
+   "address": "730 BLUE OAK BLVD, SAN MARCOS, TX  78666",
+   "assessed": 360000,
+   "class": "A",
+   "deed_date": "2026-06-07",
+   "extras": {
+    "bedrooms": "3.000000",
+    "exterior": "B, C-S",
+    "foundation": "S",
+    "heat_ac": "1CAH",
+    "roof": "HG-C"
+   },
+   "homestead": true,
+   "lat": 29.951465,
+   "lon": -97.899211,
+   "sqft": 2180,
+   "value": 360000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2021
+  },
+  {
+   "acres": null,
    "address": "317 HAY BARN ST, SAN MARCOS, TX  78666",
-   "assessed": 325890,
+   "assessed": 311220,
    "class": "A",
    "deed_date": "2026-05-30",
    "extras": {
@@ -22,14 +408,14 @@
    "lat": 29.946991,
    "lon": -97.890374,
    "sqft": 1516,
-   "value": 325890,
+   "value": 311220,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
    "address": "135 WAINSCOT OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 265510,
+   "assessed": 259700,
    "class": "A",
    "deed_date": "2026-05-27",
    "extras": {
@@ -42,14 +428,14 @@
    "lat": 29.948999,
    "lon": -97.888426,
    "sqft": 1244,
-   "value": 265510,
+   "value": 259700,
    "value_kind": "market (Hays CAD)",
    "year_built": 2016
   },
   {
    "acres": null,
    "address": "202 PINCEA PL, SAN MARCOS, TX  78666",
-   "assessed": 443460,
+   "assessed": 421740,
    "class": "A",
    "deed_date": "2026-05-26",
    "extras": {
@@ -62,14 +448,14 @@
    "lat": 29.947854,
    "lon": -97.893534,
    "sqft": 2907,
-   "value": 443460,
+   "value": 421740,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
    "acres": null,
    "address": "535 FIELD CORN LN, SAN MARCOS, TX  78666",
-   "assessed": 325000,
+   "assessed": 339950,
    "class": "A",
    "deed_date": "2026-05-22",
    "extras": {
@@ -82,14 +468,14 @@
    "lat": 29.948197,
    "lon": -97.89154,
    "sqft": 1842,
-   "value": 325000,
+   "value": 339950,
    "value_kind": "market (Hays CAD)",
    "year_built": 2016
   },
   {
    "acres": 3.51,
    "address": "110 ROADRUNNER RD, UNIT #A, SAN MARCOS, TX  78666",
-   "assessed": 295780,
+   "assessed": 299830,
    "class": "A",
    "deed_date": "2026-05-19",
    "extras": {},
@@ -97,14 +483,14 @@
    "lat": 29.962469,
    "lon": -97.961253,
    "sqft": 1456,
-   "value": 295780,
+   "value": 299830,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": null,
    "address": "229 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 387000,
+   "assessed": 401970,
    "class": "A",
    "deed_date": "2026-05-18",
    "extras": {
@@ -118,14 +504,14 @@
    "lat": 29.943576,
    "lon": -97.899544,
    "sqft": 2204,
-   "value": 387000,
+   "value": 401970,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
    "address": "553 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 431480,
+   "assessed": 400000,
    "class": "A",
    "deed_date": "2026-05-15",
    "extras": {
@@ -140,14 +526,14 @@
    "lat": 29.948183,
    "lon": -97.900707,
    "sqft": 2606,
-   "value": 431480,
+   "value": 400000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": 2.0,
    "address": "101 WILDCAT HOLLOW DR, KYLE, TX  78640",
-   "assessed": 494370,
+   "assessed": 552503,
    "class": "A",
    "deed_date": "2026-05-14",
    "extras": {
@@ -162,27 +548,42 @@
    "lat": 29.975817,
    "lon": -97.894882,
    "sqft": 1829,
-   "value": 494370,
+   "value": 565170,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": null,
    "address": "212 FOX RD, SAN MARCOS, TX  78666",
-   "assessed": 80030,
+   "assessed": 66110,
    "deed_date": "2026-05-14",
    "extras": {},
    "homestead": false,
    "lat": 29.986367,
    "lon": -97.987588,
    "sqft": 924,
-   "value": 80030,
+   "value": 66110,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
+   "address": "113 LADOLIA LN, SAN MARCOS, TX  78666",
+   "assessed": 393480,
+   "class": "A",
+   "deed_date": "2026-05-14",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.95822,
+   "lon": -97.896255,
+   "sqft": 2199,
+   "value": 393480,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "737 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 425260,
+   "assessed": 404630,
    "class": "A",
    "deed_date": "2026-05-13",
    "extras": {
@@ -195,14 +596,14 @@
    "lat": 29.951628,
    "lon": -97.899773,
    "sqft": 2302,
-   "value": 425260,
+   "value": 404630,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": null,
    "address": "225 LACEY OAK LOOP, SAN MARCOS, TX  78666",
-   "assessed": 400581,
+   "assessed": 375401,
    "class": "A",
    "deed_date": "2026-05-12",
    "extras": {
@@ -215,14 +616,29 @@
    "lat": 29.943173,
    "lon": -97.892979,
    "sqft": 2148,
-   "value": 400581,
+   "value": 375401,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
+   "acres": 2.14,
+   "address": "901 DEERTRAIL DR, SAN MARCOS, TX  78666",
+   "assessed": 506890,
+   "class": "A",
+   "deed_date": "2026-05-11",
+   "extras": {},
+   "homestead": true,
+   "lat": 29.951976,
+   "lon": -97.95076,
+   "sqft": 2072,
+   "value": 506890,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2007
+  },
+  {
    "acres": null,
    "address": "3308 JACOB LN, SAN MARCOS, TX  78666",
-   "assessed": 358470,
+   "assessed": 325000,
    "class": "A",
    "deed_date": "2026-05-11",
    "extras": {
@@ -236,14 +652,14 @@
    "lat": 29.953231,
    "lon": -97.89175,
    "sqft": 1669,
-   "value": 358470,
+   "value": 325000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2023
   },
   {
    "acres": null,
    "address": "301 HAY BARN ST, SAN MARCOS, TX  78666",
-   "assessed": 325794,
+   "assessed": 295981,
    "class": "A",
    "deed_date": "2026-05-08",
    "extras": {
@@ -256,14 +672,14 @@
    "lat": 29.946624,
    "lon": -97.89068,
    "sqft": 1516,
-   "value": 325794,
+   "value": 295981,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
    "address": "149 PINCEA PL, SAN MARCOS, TX  78666",
-   "assessed": 406230,
+   "assessed": 386740,
    "class": "A",
    "deed_date": "2026-05-01",
    "extras": {
@@ -276,14 +692,14 @@
    "lat": 29.947789,
    "lon": -97.894236,
    "sqft": 2478,
-   "value": 406230,
+   "value": 386740,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": 5.0,
    "address": "201 PIEDRAS PASS, SAN MARCOS, TX  78666",
-   "assessed": 135028,
+   "assessed": 147304,
    "class": "A",
    "deed_date": "2026-04-28",
    "extras": {},
@@ -291,13 +707,48 @@
    "lat": 29.958918,
    "lon": -97.968416,
    "sqft": 1568,
-   "value": 223830,
+   "value": 264070,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": null,
+   "address": "105 LEATHER OAK LOOP, SAN MARCOS, TX  78666",
+   "assessed": 368460,
+   "class": "A",
+   "deed_date": "2026-04-27",
+   "extras": {
+    "exterior": "R, B",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "H-C"
+   },
+   "homestead": true,
+   "lat": 29.951023,
+   "lon": -97.890394,
+   "sqft": 1905,
+   "value": 368460,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2017
+  },
+  {
+   "acres": null,
+   "address": "316 WITCHHAZEL WAY, SAN MARCOS, TX  78666",
+   "assessed": 257500,
+   "class": "O",
+   "deed_date": "2026-04-27",
+   "extras": {},
+   "homestead": true,
+   "lat": 29.956055,
+   "lon": -97.898974,
+   "sqft": 1252,
+   "value": 257500,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "118 ALFORD ST, SAN MARCOS, TX  78666",
-   "assessed": 327630,
+   "assessed": 312850,
    "class": "A",
    "deed_date": "2026-04-24",
    "extras": {
@@ -310,14 +761,14 @@
    "lat": 29.947231,
    "lon": -97.889726,
    "sqft": 1438,
-   "value": 327630,
+   "value": 312850,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
    "address": "1031 SAND POST PL, SAN MARCOS, TX  78666",
-   "assessed": 260980,
+   "assessed": 238000,
    "class": "A",
    "deed_date": "2026-04-24",
    "extras": {
@@ -331,14 +782,29 @@
    "lat": 29.950223,
    "lon": -97.88735,
    "sqft": 1194,
-   "value": 260980,
+   "value": 238000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": null,
+   "address": "344 WITCHHAZEL WAY, SAN MARCOS, TX  78666",
+   "assessed": 304660,
+   "class": "O",
+   "deed_date": "2026-04-23",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.95658,
+   "lon": -97.899293,
+   "sqft": 1531,
+   "value": 304660,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "632 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 381740,
+   "assessed": 363720,
    "class": "A",
    "deed_date": "2026-04-21",
    "extras": {
@@ -352,7 +818,7 @@
    "lat": 29.949029,
    "lon": -97.899745,
    "sqft": 1990,
-   "value": 381740,
+   "value": 363720,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
@@ -380,7 +846,7 @@
   {
    "acres": null,
    "address": "404 ANCIENT OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 590389,
+   "assessed": 533000,
    "class": "A",
    "deed_date": "2026-04-17",
    "extras": {
@@ -393,14 +859,14 @@
    "lat": 29.954259,
    "lon": -97.889993,
    "sqft": 3333,
-   "value": 590389,
+   "value": 533000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": 5.0,
    "address": "3700 HILLIARD RD, SAN MARCOS, TX  78666",
-   "assessed": 746520,
+   "assessed": 840480,
    "class": "E",
    "deed_date": "2026-04-15",
    "extras": {},
@@ -408,14 +874,14 @@
    "lat": 29.960916,
    "lon": -97.974279,
    "sqft": 2271,
-   "value": 761720,
+   "value": 871200,
    "value_kind": "market (Hays CAD)",
    "year_built": 2003
   },
   {
    "acres": null,
    "address": "203 MOSSYCUP DR, SAN MARCOS, TX  78666",
-   "assessed": 283870,
+   "assessed": 268000,
    "class": "A",
    "deed_date": "2026-04-14",
    "extras": {
@@ -427,14 +893,14 @@
    "lat": 29.9476,
    "lon": -97.889559,
    "sqft": 1424,
-   "value": 283870,
+   "value": 268000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": null,
    "address": "906 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 400000,
+   "assessed": 396880,
    "class": "A",
    "deed_date": "2026-04-14",
    "extras": {
@@ -448,14 +914,14 @@
    "lat": 29.955364,
    "lon": -97.900037,
    "sqft": 2180,
-   "value": 400000,
+   "value": 396880,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
    "address": "147 WAINSCOT OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 267550,
+   "assessed": 261660,
    "class": "A",
    "deed_date": "2026-04-13",
    "extras": {
@@ -468,14 +934,14 @@
    "lat": 29.949152,
    "lon": -97.888689,
    "sqft": 1262,
-   "value": 267550,
+   "value": 261660,
    "value_kind": "market (Hays CAD)",
    "year_built": 2016
   },
   {
    "acres": null,
    "address": "150 SILO ST, SAN MARCOS, TX  78666",
-   "assessed": 304280,
+   "assessed": 290920,
    "class": "A",
    "deed_date": "2026-04-10",
    "extras": {
@@ -488,14 +954,14 @@
    "lat": 29.944548,
    "lon": -97.890586,
    "sqft": 1410,
-   "value": 304280,
+   "value": 290920,
    "value_kind": "market (Hays CAD)",
    "year_built": 2012
   },
   {
    "acres": null,
    "address": "610 IRVIN DR, SAN MARCOS, TX  78666",
-   "assessed": 380730,
+   "assessed": 388140,
    "class": "A",
    "deed_date": "2026-04-09",
    "extras": {
@@ -510,14 +976,14 @@
    "lat": 29.943717,
    "lon": -97.896288,
    "sqft": 2137,
-   "value": 380730,
+   "value": 388140,
    "value_kind": "market (Hays CAD)",
    "year_built": 2010
   },
   {
    "acres": null,
    "address": "3605 CINKAPIN DR, SAN MARCOS, TX  78666",
-   "assessed": 519090,
+   "assessed": 492830,
    "class": "A",
    "deed_date": "2026-04-09",
    "extras": {
@@ -531,14 +997,14 @@
    "lat": 29.951846,
    "lon": -97.894458,
    "sqft": 3332,
-   "value": 519090,
+   "value": 492830,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": null,
    "address": "237 LEATHER OAK LOOP, SAN MARCOS, TX  78666",
-   "assessed": 396870,
+   "assessed": 377940,
    "class": "A",
    "deed_date": "2026-04-06",
    "extras": {
@@ -551,14 +1017,14 @@
    "lat": 29.951768,
    "lon": -97.892022,
    "sqft": 2041,
-   "value": 396870,
+   "value": 377940,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": null,
    "address": "134 FENCE LINE DR, SAN MARCOS, TX  78666",
-   "assessed": 377146,
+   "assessed": 370360,
    "class": "A",
    "deed_date": "2026-04-02",
    "extras": {
@@ -573,15 +1039,15 @@
    "lat": 29.943788,
    "lon": -97.892293,
    "sqft": 2478,
-   "value": 377146,
+   "value": 370360,
    "value_kind": "market (Hays CAD)",
    "year_built": 2008
   },
   {
    "acres": null,
    "address": "1062 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 338738,
-   "class": "O",
+   "assessed": 429430,
+   "class": "A",
    "deed_date": "2026-04-02",
    "extras": {
     "bedrooms": "4.000000",
@@ -594,14 +1060,14 @@
    "lat": 29.958355,
    "lon": -97.900175,
    "sqft": 2570,
-   "value": 338738,
+   "value": 429430,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
    "acres": null,
    "address": "100 STAGELINE DR, KYLE, TX  78640",
-   "assessed": 341268,
+   "assessed": 372293,
    "class": "A",
    "deed_date": "2026-03-30",
    "extras": {
@@ -620,7 +1086,7 @@
   {
    "acres": null,
    "address": "2836 JACOB LN, SAN MARCOS, TX  78666",
-   "assessed": 495230,
+   "assessed": 470400,
    "class": "A",
    "deed_date": "2026-03-27",
    "extras": {},
@@ -628,7 +1094,7 @@
    "lat": 29.950292,
    "lon": -97.897069,
    "sqft": 3030,
-   "value": 495230,
+   "value": 470400,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
@@ -655,8 +1121,38 @@
   },
   {
    "acres": null,
+   "address": "340 WITCHHAZEL WAY, SAN MARCOS, TX  78666",
+   "assessed": 317410,
+   "class": "O",
+   "deed_date": "2026-03-27",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.956502,
+   "lon": -97.899246,
+   "sqft": 1621,
+   "value": 317410,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "2752 BRAND IRON DR, SAN MARCOS, TX  78666",
+   "assessed": 283350,
+   "class": "O",
+   "deed_date": "2026-03-27",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.956593,
+   "lon": -97.898819,
+   "sqft": 1356,
+   "value": 283350,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "228 DURATA DR, SAN MARCOS, TX  78666",
-   "assessed": 422150,
+   "assessed": 401690,
    "class": "A",
    "deed_date": "2026-03-26",
    "extras": {
@@ -670,14 +1166,14 @@
    "lat": 29.953316,
    "lon": -97.894736,
    "sqft": 2386,
-   "value": 422150,
+   "value": 401690,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": 5.1,
    "address": "3353 CYPRESS RD, KYLE, TX  78640",
-   "assessed": 214194,
+   "assessed": 233626,
    "class": "D1",
    "deed_date": "2026-03-24",
    "extras": {
@@ -690,14 +1186,14 @@
    "lat": 29.991369,
    "lon": -97.91818,
    "sqft": 1274,
-   "value": 892180,
+   "value": 973930,
    "value_kind": "market (Hays CAD)",
    "year_built": 2007
   },
   {
    "acres": null,
    "address": "123 FRASIER DR, SAN MARCOS, TX  78666",
-   "assessed": 219470,
+   "assessed": 215110,
    "class": "A",
    "deed_date": "2026-03-18",
    "extras": {
@@ -710,14 +1206,29 @@
    "lat": 29.950772,
    "lon": -97.886646,
    "sqft": 1027,
-   "value": 219470,
+   "value": 215110,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
+   "acres": null,
+   "address": "312 WITCHHAZEL WAY, SAN MARCOS, TX  78666",
+   "assessed": 248130,
+   "class": "O",
+   "deed_date": "2026-03-16",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.955977,
+   "lon": -97.898927,
+   "sqft": 1177,
+   "value": 248130,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
    "acres": 24.99,
    "address": "5005 HILLIARD RD, SAN MARCOS, TX  78666",
-   "assessed": 1187120,
+   "assessed": 1213571,
    "class": "E",
    "deed_date": "2026-03-11",
    "extras": {
@@ -730,14 +1241,14 @@
    "lat": 29.977359,
    "lon": -97.998238,
    "sqft": 1137,
-   "value": 1187120,
+   "value": 1229410,
    "value_kind": "market (Hays CAD)",
    "year_built": 2000
   },
   {
    "acres": null,
    "address": "133 ALBA AVE, SAN MARCOS, TX  78666",
-   "assessed": 365630,
+   "assessed": 348600,
    "class": "A",
    "deed_date": "2026-03-09",
    "extras": {
@@ -751,14 +1262,29 @@
    "lat": 29.945769,
    "lon": -97.901665,
    "sqft": 1830,
-   "value": 365630,
+   "value": 348600,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
+   "address": "113 KALAMON CT, SAN MARCOS, TX  78666",
+   "assessed": 478130,
+   "class": "O",
+   "deed_date": "2026-03-09",
+   "extras": {},
+   "homestead": true,
+   "lat": 29.958567,
+   "lon": -97.897236,
+   "sqft": 2969,
+   "value": 478130,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "922 SILO ST, SAN MARCOS, TX  78666",
-   "assessed": 385310,
+   "assessed": 320500,
    "class": "A",
    "deed_date": "2026-03-07",
    "extras": {
@@ -771,14 +1297,14 @@
    "lat": 29.950223,
    "lon": -97.885943,
    "sqft": 2087,
-   "value": 385310,
+   "value": 320500,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": null,
    "address": "306 HOMESTEAD RD, KYLE, TX  78640",
-   "assessed": 302033,
+   "assessed": 329490,
    "class": "A",
    "deed_date": "2026-03-06",
    "extras": {
@@ -794,8 +1320,23 @@
   },
   {
    "acres": null,
+   "address": "4527 ROYAL OAK BLVD, SAN MARCOS, TX  78666",
+   "assessed": 389650,
+   "class": "O",
+   "deed_date": "2026-03-06",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.956115,
+   "lon": -97.894914,
+   "sqft": 2166,
+   "value": 389650,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "238 HAY BARN ST, SAN MARCOS, TX  78666",
-   "assessed": 300020,
+   "assessed": 286910,
    "class": "A",
    "deed_date": "2026-03-05",
    "extras": {
@@ -808,14 +1349,14 @@
    "lat": 29.946157,
    "lon": -97.890447,
    "sqft": 1421,
-   "value": 300020,
+   "value": 286910,
    "value_kind": "market (Hays CAD)",
    "year_built": 2009
   },
   {
    "acres": null,
    "address": "3210 JACOB LN, SAN MARCOS, TX  78666",
-   "assessed": 380400,
+   "assessed": 353000,
    "class": "A",
    "deed_date": "2026-03-02",
    "extras": {
@@ -829,14 +1370,14 @@
    "lat": 29.951738,
    "lon": -97.892809,
    "sqft": 1910,
-   "value": 380400,
+   "value": 353000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": 0.194,
    "address": "419 ANCIENT OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 477114,
+   "assessed": 463000,
    "class": "A",
    "deed_date": "2026-03-02",
    "extras": {
@@ -850,34 +1391,34 @@
    "lat": 29.953268,
    "lon": -97.890206,
    "sqft": 2503,
-   "value": 477114,
+   "value": 463000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2016
   },
   {
    "acres": 12.024,
    "address": "1600 ALPINE TRL, SAN MARCOS, TX  78666",
-   "assessed": 596913,
+   "assessed": 671895,
    "class": "A",
    "deed_date": "2026-02-26",
    "extras": {
     "exterior": "W",
     "foundation": "P-B",
     "heat_ac": "W-U",
-    "roof": "F-M"
+    "roof": "G-C"
    },
    "homestead": true,
    "lat": 29.981329,
    "lon": -97.977351,
    "sqft": 288,
-   "value": 624950,
+   "value": 706250,
    "value_kind": "market (Hays CAD)",
    "year_built": 2000
   },
   {
    "acres": 4.649,
    "address": "601 RIVERBEND BLVD, SAN MARCOS, TX  78666",
-   "assessed": 527570,
+   "assessed": 719849,
    "class": "D1",
    "deed_date": "2026-02-25",
    "extras": {},
@@ -885,14 +1426,14 @@
    "lat": 29.994087,
    "lon": -98.00534,
    "sqft": 2200,
-   "value": 992370,
+   "value": 1008234,
    "value_kind": "market (Hays CAD)",
    "year_built": 2023
   },
   {
    "acres": null,
    "address": "2827 BRAND IRON DR, SAN MARCOS, TX  78666",
-   "assessed": 325030,
+   "assessed": 317330,
    "class": "A",
    "deed_date": "2026-02-24",
    "extras": {
@@ -906,14 +1447,14 @@
    "lat": 29.955417,
    "lon": -97.897638,
    "sqft": 1842,
-   "value": 325030,
+   "value": 317330,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
    "address": "2939 BRAND IRON DR, SAN MARCOS, TX  78666",
-   "assessed": 268900,
+   "assessed": 262980,
    "class": "A",
    "deed_date": "2026-02-17",
    "extras": {
@@ -923,18 +1464,18 @@
     "heat_ac": "CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 29.954331,
    "lon": -97.897012,
    "sqft": 1275,
-   "value": 268900,
+   "value": 262980,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
    "address": "142 FENCE LINE DR, SAN MARCOS, TX  78666",
-   "assessed": 362740,
+   "assessed": 345870,
    "class": "A",
    "deed_date": "2026-02-13",
    "extras": {
@@ -948,14 +1489,14 @@
    "lat": 29.943597,
    "lon": -97.891974,
    "sqft": 1923,
-   "value": 362740,
+   "value": 345870,
    "value_kind": "market (Hays CAD)",
    "year_built": 2011
   },
   {
    "acres": null,
    "address": "660 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 400390,
+   "assessed": 381240,
    "class": "A",
    "deed_date": "2026-02-06",
    "extras": {
@@ -969,14 +1510,14 @@
    "lat": 29.949931,
    "lon": -97.899465,
    "sqft": 2049,
-   "value": 400390,
+   "value": 381240,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
    "address": "102 WAINSCOT OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 257060,
+   "assessed": 242000,
    "class": "A",
    "deed_date": "2026-02-04",
    "extras": {
@@ -985,18 +1526,18 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 29.948854,
    "lon": -97.887549,
    "sqft": 1262,
-   "value": 257060,
+   "value": 242000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
    "address": "425 LACEY OAK LOOP, SAN MARCOS, TX  78666",
-   "assessed": 363081,
+   "assessed": 356730,
    "class": "A",
    "deed_date": "2026-02-04",
    "extras": {
@@ -1010,14 +1551,14 @@
    "lat": 29.940819,
    "lon": -97.895111,
    "sqft": 1841,
-   "value": 363081,
+   "value": 356730,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": null,
    "address": "106 MOSSYCUP DR, SAN MARCOS, TX  78666",
-   "assessed": 261430,
+   "assessed": 255750,
    "class": "A",
    "deed_date": "2026-02-04",
    "extras": {
@@ -1031,15 +1572,15 @@
    "lat": 29.947699,
    "lon": -97.888798,
    "sqft": 1395,
-   "value": 261430,
+   "value": 255750,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": null,
    "address": "765 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 338798,
-   "class": "O",
+   "assessed": 429520,
+   "class": "A",
    "deed_date": "2026-01-30",
    "extras": {
     "bedrooms": "3.000000",
@@ -1048,18 +1589,33 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 29.952562,
    "lon": -97.899807,
    "sqft": 2428,
-   "value": 338798,
+   "value": 429520,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
+   "acres": null,
+   "address": "2776 BRAND IRON DR, SAN MARCOS, TX  78666",
+   "assessed": 332098,
+   "class": "A",
+   "deed_date": "2026-01-23",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.956136,
+   "lon": -97.898541,
+   "sqft": 1870,
+   "value": 340240,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
    "acres": 2.0,
    "address": "745 OAK MEADOW, SAN MARCOS TX",
-   "assessed": 236306,
+   "assessed": 259937,
    "class": "A",
    "deed_date": "2026-01-20",
    "extras": {},
@@ -1067,13 +1623,13 @@
    "lat": 29.971978,
    "lon": -97.967801,
    "sqft": 1728,
-   "value": 251330,
+   "value": 286600,
    "value_kind": "market (Hays CAD)"
   },
   {
    "acres": null,
    "address": "234 ROCK BLUFF LN, SAN MARCOS, TX  78666",
-   "assessed": 312631,
+   "assessed": 307840,
    "class": "A",
    "deed_date": "2026-01-20",
    "extras": {
@@ -1086,14 +1642,14 @@
    "lat": 29.949356,
    "lon": -97.894754,
    "sqft": 1565,
-   "value": 312631,
+   "value": 307840,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": null,
    "address": "814 JESSE TRL, SAN MARCOS, TX  78666",
-   "assessed": 503470,
+   "assessed": 495700,
    "class": "A",
    "deed_date": "2026-01-12",
    "extras": {
@@ -1106,14 +1662,14 @@
    "lat": 29.948809,
    "lon": -97.898663,
    "sqft": 3013,
-   "value": 503470,
+   "value": 495700,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
    "acres": null,
    "address": "768 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 400490,
+   "assessed": 381350,
    "class": "A",
    "deed_date": "2026-01-09",
    "extras": {
@@ -1127,14 +1683,29 @@
    "lat": 29.952651,
    "lon": -97.899251,
    "sqft": 1979,
-   "value": 400490,
+   "value": 381350,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
+   "acres": 0.5,
+   "address": "2585 CYPRESS RD, KYLE, TX  78640",
+   "assessed": 150180,
+   "class": "E",
+   "deed_date": "2026-01-06",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.991344,
+   "lon": -97.901892,
+   "sqft": 2076,
+   "value": 150180,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 1920
+  },
+  {
    "acres": null,
    "address": "318 LEATHER OAK LOOP, SAN MARCOS, TX  78666",
-   "assessed": 387810,
+   "assessed": 300000,
    "class": "A",
    "deed_date": "2026-01-02",
    "extras": {
@@ -1147,14 +1718,14 @@
    "lat": 29.951133,
    "lon": -97.890964,
    "sqft": 2041,
-   "value": 387810,
+   "value": 300000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2013
   },
   {
    "acres": null,
    "address": "623 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 442504,
+   "assessed": 417160,
    "class": "A",
    "deed_date": "2026-01-02",
    "extras": {
@@ -1167,29 +1738,35 @@
    "lat": 29.948924,
    "lon": -97.900354,
    "sqft": 2594,
-   "value": 442504,
+   "value": 417160,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
-   "acres": 5.01,
-   "address": "700 THURMAN RD, SAN MARCOS, TX  78666",
-   "assessed": 119811,
+   "acres": null,
+   "address": "333 BLUE OAK BLVD, SAN MARCOS, TX  78666",
+   "assessed": 358000,
    "class": "A",
-   "deed_date": "2025-12-18",
-   "extras": {},
-   "homestead": true,
-   "lat": 29.985352,
-   "lon": -97.990288,
-   "sqft": 1216,
-   "value": 207220,
+   "deed_date": "2025-12-30",
+   "extras": {
+    "bedrooms": "4.000000",
+    "exterior": "R-C, B",
+    "foundation": "S",
+    "heat_ac": "CAH",
+    "roof": "HG-C"
+   },
+   "homestead": false,
+   "lat": 29.945027,
+   "lon": -97.900312,
+   "sqft": 2033,
+   "value": 358000,
    "value_kind": "market (Hays CAD)",
-   "year_built": 2007
+   "year_built": 2022
   },
   {
    "acres": null,
    "address": "606 IRVIN DR, SAN MARCOS, TX  78666",
-   "assessed": 405770,
+   "assessed": 386330,
    "class": "A",
    "deed_date": "2025-12-16",
    "extras": {
@@ -1202,14 +1779,14 @@
    "lat": 29.943564,
    "lon": -97.896352,
    "sqft": 2478,
-   "value": 405770,
+   "value": 386330,
    "value_kind": "market (Hays CAD)",
    "year_built": 2013
   },
   {
    "acres": null,
    "address": "221 PINCEA PL, SAN MARCOS, TX  78666",
-   "assessed": 365000,
+   "assessed": 344349,
    "class": "A",
    "deed_date": "2025-12-15",
    "extras": {
@@ -1223,14 +1800,14 @@
    "lat": 29.948626,
    "lon": -97.893338,
    "sqft": 2345,
-   "value": 365000,
+   "value": 344349,
    "value_kind": "market (Hays CAD)",
    "year_built": 2015
   },
   {
    "acres": null,
    "address": "154 ANGEL OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 358470,
+   "assessed": 341850,
    "class": "A",
    "deed_date": "2025-12-15",
    "extras": {
@@ -1240,18 +1817,18 @@
     "heat_ac": "CAH",
     "roof": "HG-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 29.95563,
    "lon": -97.890817,
    "sqft": 1669,
-   "value": 358470,
+   "value": 341850,
    "value_kind": "market (Hays CAD)",
    "year_built": 2023
   },
   {
    "acres": null,
    "address": "410 EASTON DR, SAN MARCOS, TX  78666",
-   "assessed": 404920,
+   "assessed": 385510,
    "class": "A",
    "deed_date": "2025-12-12",
    "extras": {
@@ -1261,18 +1838,18 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 29.943292,
    "lon": -97.896524,
    "sqft": 2586,
-   "value": 404920,
+   "value": 385510,
    "value_kind": "market (Hays CAD)",
    "year_built": 2011
   },
   {
    "acres": null,
    "address": "606 HARWOOD DR, SAN MARCOS, TX  78666",
-   "assessed": 400807,
+   "assessed": 374780,
    "class": "A",
    "deed_date": "2025-12-10",
    "extras": {
@@ -1286,14 +1863,14 @@
    "lat": 29.94406,
    "lon": -97.897218,
    "sqft": 2345,
-   "value": 400807,
+   "value": 374780,
    "value_kind": "market (Hays CAD)",
    "year_built": 2010
   },
   {
    "acres": null,
    "address": "930 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 480500,
+   "assessed": 456550,
    "class": "A",
    "deed_date": "2025-12-05",
    "extras": {
@@ -1307,14 +1884,35 @@
    "lat": 29.956058,
    "lon": -97.90045,
    "sqft": 2841,
-   "value": 480500,
+   "value": 456550,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   },
   {
+   "acres": 10.874,
+   "address": "6460 CYPRESS RD, KYLE, TX  78640",
+   "assessed": 579492,
+   "class": "E",
+   "deed_date": "2025-12-04",
+   "extras": {
+    "exterior": "R",
+    "fireplace": "1FP",
+    "foundation": "P-B",
+    "heat_ac": "1CAH",
+    "roof": "G-M"
+   },
+   "homestead": true,
+   "lat": 29.983395,
+   "lon": -97.912611,
+   "sqft": 3738,
+   "value": 1130360,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2001
+  },
+  {
    "acres": 1.0,
    "address": "6470 CYPRESS RD, KYLE, TX  78640",
-   "assessed": 243680,
+   "assessed": 279940,
    "class": "E",
    "deed_date": "2025-12-04",
    "extras": {
@@ -1326,35 +1924,14 @@
    "lat": 29.982454,
    "lon": -97.910334,
    "sqft": 2808,
-   "value": 243680,
+   "value": 279940,
    "value_kind": "market (Hays CAD)",
    "year_built": 1970
   },
   {
-   "acres": 10.874,
-   "address": "6460 CYPRESS RD, KYLE, TX  78640",
-   "assessed": 527840,
-   "class": "D1",
-   "deed_date": "2025-12-04",
-   "extras": {
-    "exterior": "R, W",
-    "fireplace": "1FP",
-    "foundation": "P-B",
-    "heat_ac": "1CAH",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 29.983395,
-   "lon": -97.912611,
-   "sqft": 3738,
-   "value": 1107070,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2001
-  },
-  {
    "acres": null,
    "address": "3105 BRAND IRON DR, SAN MARCOS, TX  78666",
-   "assessed": 516360,
+   "assessed": 490270,
    "class": "A",
    "deed_date": "2025-12-04",
    "extras": {
@@ -1368,14 +1945,14 @@
    "lat": 29.954327,
    "lon": -97.895639,
    "sqft": 3099,
-   "value": 516360,
+   "value": 490270,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": 5.75,
    "address": "1120 THURMAN RD, SAN MARCOS, TX  78666",
-   "assessed": 836710,
+   "assessed": 747955,
    "class": "A",
    "deed_date": "2025-12-03",
    "extras": {
@@ -1387,14 +1964,14 @@
    "lat": 29.987674,
    "lon": -97.994679,
    "sqft": 3856,
-   "value": 836710,
+   "value": 747955,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
    "address": "813 EASTON DR, SAN MARCOS, TX  78666",
-   "assessed": 425100,
+   "assessed": 404510,
    "class": "A",
    "deed_date": "2025-12-03",
    "extras": {
@@ -1407,14 +1984,59 @@
    "lat": 29.947618,
    "lon": -97.89764,
    "sqft": 2466,
-   "value": 425100,
+   "value": 404510,
    "value_kind": "market (Hays CAD)",
    "year_built": 2012
   },
   {
    "acres": null,
+   "address": "4522 ROYAL OAK BLVD, SAN MARCOS, TX  78666",
+   "assessed": 478130,
+   "class": "A",
+   "deed_date": "2025-11-26",
+   "extras": {},
+   "homestead": false,
+   "lat": 29.955556,
+   "lon": -97.895351,
+   "sqft": 2969,
+   "value": 478130,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "4518 ROYAL OAK BLVD, SAN MARCOS, TX  78666",
+   "assessed": 420000,
+   "class": "A",
+   "deed_date": "2025-11-25",
+   "extras": {},
+   "homestead": true,
+   "lat": 29.95545,
+   "lon": -97.895244,
+   "sqft": 3080,
+   "value": 420000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
+   "address": "109 KALAMON CT, SAN MARCOS, TX  78666",
+   "assessed": 420000,
+   "class": "A",
+   "deed_date": "2025-11-25",
+   "extras": {},
+   "homestead": true,
+   "lat": 29.958794,
+   "lon": -97.897195,
+   "sqft": 3080,
+   "value": 420000,
+   "value_kind": "market (Hays CAD)",
+   "year_built": 2025
+  },
+  {
+   "acres": null,
    "address": "102 SILO ST, SAN MARCOS, TX  78666",
-   "assessed": 304310,
+   "assessed": 260000,
    "class": "A",
    "deed_date": "2025-11-24",
    "extras": {
@@ -1424,33 +2046,33 @@
     "heat_ac": "1CAH",
     "roof": "G-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 29.943361,
    "lon": -97.891494,
    "sqft": 1420,
-   "value": 304310,
+   "value": 260000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2008
   },
   {
    "acres": null,
    "address": "3713 CINKAPIN DR, SAN MARCOS, TX  78666",
-   "assessed": 412100,
+   "assessed": 392260,
    "class": "A",
    "deed_date": "2025-11-24",
    "extras": {},
-   "homestead": true,
+   "homestead": false,
    "lat": 29.952313,
    "lon": -97.896416,
    "sqft": 2230,
-   "value": 412100,
+   "value": 392260,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": 15.093,
    "address": "1201 ALPINE TRL, SAN MARCOS TX",
-   "assessed": 347807,
+   "assessed": 379426,
    "class": "A",
    "deed_date": "2025-11-20",
    "extras": {},
@@ -1458,14 +2080,14 @@
    "lat": 29.978157,
    "lon": -97.973698,
    "sqft": 1304,
-   "value": 646190,
+   "value": 772390,
    "value_kind": "market (Hays CAD)",
    "year_built": 1991
   },
   {
    "acres": null,
    "address": "3621 CINKAPIN DR, SAN MARCOS, TX  78666",
-   "assessed": 482600,
+   "assessed": 460180,
    "class": "A",
    "deed_date": "2025-11-19",
    "extras": {
@@ -1474,18 +2096,18 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 29.951727,
    "lon": -97.895291,
    "sqft": 2868,
-   "value": 482600,
+   "value": 460180,
    "value_kind": "market (Hays CAD)",
    "year_built": 2017
   },
   {
    "acres": null,
    "address": "249 PINCEA PL, SAN MARCOS, TX  78666",
-   "assessed": 356460,
+   "assessed": 313000,
    "class": "A",
    "deed_date": "2025-11-11",
    "extras": {
@@ -1498,14 +2120,14 @@
    "lat": 29.949048,
    "lon": -97.892338,
    "sqft": 1842,
-   "value": 356460,
+   "value": 313000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": 8.182,
    "address": "1200 ALPINE TRL, SAN MARCOS, TX  78666",
-   "assessed": 447630,
+   "assessed": 491906,
    "class": "A",
    "deed_date": "2025-11-06",
    "extras": {
@@ -1515,14 +2137,14 @@
    "lat": 29.979052,
    "lon": -97.971652,
    "sqft": 1035,
-   "value": 447630,
+   "value": 499060,
    "value_kind": "market (Hays CAD)",
    "year_built": 2008
   },
   {
    "acres": null,
    "address": "745 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 389220,
+   "assessed": 377382,
    "class": "A",
    "deed_date": "2025-11-05",
    "extras": {
@@ -1535,14 +2157,14 @@
    "lat": 29.951879,
    "lon": -97.899771,
    "sqft": 2219,
-   "value": 389220,
+   "value": 377382,
    "value_kind": "market (Hays CAD)",
    "year_built": 2021
   },
   {
    "acres": null,
    "address": "1006 EASTON DR, SAN MARCOS, TX  78666",
-   "assessed": 394770,
+   "assessed": 375970,
    "class": "A",
    "deed_date": "2025-11-04",
    "extras": {
@@ -1555,34 +2177,29 @@
    "lat": 29.95021,
    "lon": -97.896656,
    "sqft": 2077,
-   "value": 394770,
+   "value": 375970,
    "value_kind": "market (Hays CAD)",
    "year_built": 2014
   },
   {
    "acres": null,
-   "address": "105 LEATHER OAK LOOP, SAN MARCOS, TX  78666",
-   "assessed": 386780,
+   "address": "105 KALAMON CT, SAN MARCOS, TX  78666",
+   "assessed": 389650,
    "class": "A",
-   "deed_date": "2025-10-24",
-   "extras": {
-    "exterior": "R, B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
+   "deed_date": "2025-10-23",
+   "extras": {},
    "homestead": true,
-   "lat": 29.951023,
-   "lon": -97.890394,
-   "sqft": 1905,
-   "value": 386780,
+   "lat": 29.958929,
+   "lon": -97.89712,
+   "sqft": 2166,
+   "value": 389650,
    "value_kind": "market (Hays CAD)",
-   "year_built": 2017
+   "year_built": 2025
   },
   {
    "acres": null,
    "address": "4327 TRAIL RIDGE PASS, SAN MARCOS, TX  78666",
-   "assessed": 481790,
+   "assessed": 457790,
    "class": "A",
    "deed_date": "2025-10-22",
    "extras": {
@@ -1596,14 +2213,14 @@
    "lat": 29.946751,
    "lon": -97.89158,
    "sqft": 2795,
-   "value": 481790,
+   "value": 457790,
    "value_kind": "market (Hays CAD)",
    "year_built": 2018
   },
   {
    "acres": 1.14,
    "address": "141 MEADOW BLUFF, SAN MARCOS, TX  78666",
-   "assessed": 171410,
+   "assessed": 135610,
    "class": "A",
    "deed_date": "2025-10-21",
    "extras": {},
@@ -1611,14 +2228,14 @@
    "lat": 29.972413,
    "lon": -97.964085,
    "sqft": 960,
-   "value": 171410,
+   "value": 135610,
    "value_kind": "market (Hays CAD)",
    "year_built": 1997
   },
   {
    "acres": null,
    "address": "432 LACEY OAK LOOP, SAN MARCOS, TX  78666",
-   "assessed": 345790,
+   "assessed": 308000,
    "class": "A",
    "deed_date": "2025-10-20",
    "extras": {
@@ -1632,14 +2249,14 @@
    "lat": 29.941266,
    "lon": -97.894635,
    "sqft": 1598,
-   "value": 345790,
+   "value": 308000,
    "value_kind": "market (Hays CAD)",
    "year_built": 2019
   },
   {
    "acres": null,
    "address": "541 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 387920,
+   "assessed": 369530,
    "class": "A",
    "deed_date": "2025-10-16",
    "extras": {
@@ -1648,18 +2265,18 @@
     "heat_ac": "1CAH",
     "roof": "H-C"
    },
-   "homestead": true,
+   "homestead": false,
    "lat": 29.947809,
    "lon": -97.900922,
    "sqft": 1979,
-   "value": 387920,
+   "value": 369530,
    "value_kind": "market (Hays CAD)",
    "year_built": 2020
   },
   {
    "acres": null,
    "address": "962 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 338738,
+   "assessed": 429430,
    "class": "A",
    "deed_date": "2025-10-16",
    "extras": {
@@ -1673,865 +2290,29 @@
    "lat": 29.956921,
    "lon": -97.900933,
    "sqft": 2570,
-   "value": 338738,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": null,
-   "address": "212 LACEY OAK LOOP, SAN MARCOS, TX  78666",
-   "assessed": 408971,
-   "class": "A",
-   "deed_date": "2025-10-13",
-   "extras": {
-    "exterior": "R, B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.942869,
-   "lon": -97.893602,
-   "sqft": 2456,
-   "value": 408971,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 6.395,
-   "address": "5200 HILLIARD RD, SAN MARCOS TX",
-   "assessed": 563737,
-   "class": "A",
-   "deed_date": "2025-10-07",
-   "extras": {},
-   "homestead": true,
-   "lat": 29.97751,
-   "lon": -97.995147,
-   "sqft": 2344,
-   "value": 578850,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 6.67,
-   "address": "5100 HILLIARD RD, SAN MARCOS TX",
-   "assessed": 350790,
-   "class": "A",
-   "deed_date": "2025-10-07",
-   "extras": {},
-   "homestead": false,
-   "lat": 29.976891,
-   "lon": -97.993804,
-   "sqft": 1400,
-   "value": 350790,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": 4.01,
-   "address": "5461 HILLIARD RD, SAN MARCOS, TX  78666",
-   "assessed": 303552,
-   "class": "A",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "bedrooms": "3.000000",
-    "fireplace": "1",
-    "foundation": "P-B",
-    "heat_ac": "CAH",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 29.978799,
-   "lon": -98.000271,
-   "sqft": 1647,
-   "value": 306630,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": null,
-   "address": "121 GINKO ST, SAN MARCOS, TX  78666",
-   "assessed": 376500,
-   "class": "A",
-   "deed_date": "2025-09-29",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "C",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.957869,
-   "lon": -97.899641,
-   "sqft": 2122,
-   "value": 376500,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": null,
-   "address": "335 CHASTE TREE DR, SAN MARCOS, TX  78666",
-   "assessed": 448990,
-   "class": "A",
-   "deed_date": "2025-09-26",
-   "extras": {},
-   "homestead": false,
-   "lat": 29.956364,
-   "lon": -97.896623,
-   "sqft": 2676,
-   "value": 448990,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": null,
-   "address": "122 FARM HOUSE RD, SAN MARCOS, TX  78666",
-   "assessed": 357310,
-   "class": "A",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "R, C-S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.944508,
-   "lon": -97.895048,
-   "sqft": 1877,
-   "value": 357310,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2011
-  },
-  {
-   "acres": null,
-   "address": "1073 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 456220,
-   "class": "A",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.958905,
-   "lon": -97.900284,
-   "sqft": 2594,
-   "value": 456220,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": null,
-   "address": "238 ROCK BLUFF LN, SAN MARCOS, TX  78666",
-   "assessed": 311370,
-   "class": "A",
-   "deed_date": "2025-09-18",
-   "extras": {},
-   "homestead": true,
-   "lat": 29.94932,
-   "lon": -97.894868,
-   "sqft": 1565,
-   "value": 311370,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": null,
-   "address": "936 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 418250,
-   "class": "A",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "B",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": false,
-   "lat": 29.956199,
-   "lon": -97.900533,
-   "sqft": 2169,
-   "value": 418250,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": 4.37,
-   "address": "985 RIVERBEND BLVD, SAN MARCOS, TX  78666",
-   "assessed": 285330,
-   "class": "A",
-   "deed_date": "2025-09-02",
-   "extras": {},
-   "homestead": false,
-   "lat": 29.993357,
-   "lon": -97.99622,
-   "sqft": 1292,
-   "value": 673090,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2003
-  },
-  {
-   "acres": null,
-   "address": "2784 BRAND IRON DR, SAN MARCOS, TX  78666",
-   "assessed": 236331,
-   "class": "A",
-   "deed_date": "2025-09-02",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 29.955966,
-   "lon": -97.898432,
-   "sqft": 1110,
-   "value": 236331,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": null,
-   "address": "3489 CINKAPIN DR, SAN MARCOS, TX  78666",
-   "assessed": 474090,
-   "class": "A",
-   "deed_date": "2025-09-01",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.95381,
-   "lon": -97.893424,
-   "sqft": 2947,
-   "value": 474090,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": null,
-   "address": "332 WITCHHAZEL WAY, SAN MARCOS, TX  78666",
-   "assessed": 165420,
-   "class": "A",
-   "deed_date": "2025-08-29",
-   "extras": {},
-   "homestead": true,
-   "lat": 29.956351,
-   "lon": -97.899154,
-   "sqft": 1188,
-   "value": 165420,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": null,
-   "address": "921 STAMPEDE RD, SAN MARCOS, TX  78666",
-   "assessed": 312950,
-   "class": "A",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "C-S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.95169,
-   "lon": -97.887759,
-   "sqft": 1494,
-   "value": 312950,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": null,
-   "address": "141 ANGEL OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 319515,
-   "class": "O",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "R-C, B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": false,
-   "lat": 29.955473,
-   "lon": -97.891588,
-   "sqft": 2412,
-   "value": 319515,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": null,
-   "address": "461 CHASTE TREE DR, SAN MARCOS, TX  78666",
-   "assessed": 496680,
-   "class": "A",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "R-C, B-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 29.958334,
-   "lon": -97.895742,
-   "sqft": 2930,
-   "value": 496680,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2022
-  },
-  {
-   "acres": null,
-   "address": "141 SILO ST, SAN MARCOS, TX  78666",
-   "assessed": 309000,
-   "class": "A",
-   "deed_date": "2025-08-20",
-   "extras": {
-    "exterior": "R, C-S",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 29.944721,
-   "lon": -97.890995,
-   "sqft": 2242,
-   "value": 309000,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "912 EASTON DR, SAN MARCOS, TX  78666",
-   "assessed": 392928,
-   "class": "A",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "B",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.948677,
-   "lon": -97.896782,
-   "sqft": 2077,
-   "value": 392928,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": null,
-   "address": "234 ALFORD ST, SAN MARCOS, TX  78666",
-   "assessed": 330790,
-   "class": "A",
-   "deed_date": "2025-08-18",
-   "extras": {
-    "exterior": "R, B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.947952,
-   "lon": -97.890887,
-   "sqft": 1534,
-   "value": 330790,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": null,
-   "address": "161 EMERY OAK CT, SAN MARCOS, TX  78666",
-   "assessed": 512723,
-   "class": "A",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "B, C-S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.951895,
-   "lon": -97.897137,
-   "sqft": 3274,
-   "value": 512723,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2019
-  },
-  {
-   "acres": 1.0,
-   "address": "461 OAK MEADOWS, SAN MARCOS, TX  78666",
-   "assessed": 217870,
-   "class": "A",
-   "deed_date": "2025-08-14",
-   "extras": {},
-   "homestead": false,
-   "lat": 29.969064,
-   "lon": -97.971388,
-   "sqft": 1680,
-   "value": 217870,
-   "value_kind": "market (Hays CAD)"
-  },
-  {
-   "acres": null,
-   "address": "139 WAINSCOT OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 236460,
-   "class": "A",
-   "deed_date": "2025-08-12",
-   "extras": {
-    "exterior": "C-S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 29.949048,
-   "lon": -97.888513,
-   "sqft": 1027,
-   "value": 236460,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": null,
-   "address": "314 LEATHER OAK LOOP, SAN MARCOS, TX  78666",
-   "assessed": 365730,
-   "class": "A",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "B, R",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.95131,
-   "lon": -97.891064,
-   "sqft": 1830,
-   "value": 365730,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": null,
-   "address": "537 LACEY OAK LOOP, SAN MARCOS, TX  78666",
-   "assessed": 345150,
-   "class": "A",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "B",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.942791,
-   "lon": -97.895664,
-   "sqft": 1593,
-   "value": 345150,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": null,
-   "address": "220 ANCIENT OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 510710,
-   "class": "A",
-   "deed_date": "2025-07-31",
-   "extras": {
-    "exterior": "R, B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.952599,
-   "lon": -97.888366,
-   "sqft": 2772,
-   "value": 510710,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": null,
-   "address": "101 FARM HOUSE RD, SAN MARCOS, TX  78666",
-   "assessed": 360520,
-   "class": "A",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "exterior": "R, C-S",
-    "fireplace": "1",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 29.945138,
-   "lon": -97.894455,
-   "sqft": 2012,
-   "value": 360520,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2007
-  },
-  {
-   "acres": null,
-   "address": "119 FRASIER DR, SAN MARCOS, TX  78666",
-   "assessed": 252650,
-   "class": "A",
-   "deed_date": "2025-07-30",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "B, C-S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.95072,
-   "lon": -97.886561,
-   "sqft": 1410,
-   "value": 252650,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": null,
-   "address": "118 FORT GRIFFIN DR, SAN MARCOS, TX  78666",
-   "assessed": 209720,
-   "class": "A",
-   "deed_date": "2025-07-25",
-   "extras": {
-    "exterior": "B, C-S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-C"
-   },
-   "homestead": false,
-   "lat": 29.950938,
-   "lon": -97.893474,
-   "sqft": 944,
-   "value": 209720,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": null,
-   "address": "214 SILO ST, SAN MARCOS, TX  78666",
-   "assessed": 313420,
-   "class": "A",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "B"
-   },
-   "homestead": true,
-   "lat": 29.945085,
-   "lon": -97.890179,
-   "sqft": 1529,
-   "value": 313420,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2009
-  },
-  {
-   "acres": null,
-   "address": "615 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 344806,
-   "class": "A",
-   "deed_date": "2025-07-23",
-   "extras": {},
-   "homestead": true,
-   "lat": 29.948689,
-   "lon": -97.900456,
-   "sqft": 1800,
-   "value": 344806,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2023
-  },
-  {
-   "acres": null,
-   "address": "316 CHASTE TREE DR, SAN MARCOS, TX  78666",
-   "assessed": 409130,
-   "class": "A",
-   "deed_date": "2025-07-22",
-   "extras": {},
-   "homestead": false,
-   "lat": 29.955649,
-   "lon": -97.896056,
-   "sqft": 2204,
-   "value": 409130,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": null,
-   "address": "319 CHASTE TREE DR, SAN MARCOS, TX  78666",
-   "assessed": 448990,
-   "class": "A",
-   "deed_date": "2025-07-21",
-   "extras": {},
-   "homestead": true,
-   "lat": 29.955816,
-   "lon": -97.896666,
-   "sqft": 2676,
-   "value": 448990,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 7.965,
-   "address": "701 ALPINE TRL, UNIT #C, SAN MARCOS, TX  78666",
-   "assessed": 241811,
-   "class": "A",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "W",
-    "foundation": "P-B",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 29.973921,
-   "lon": -97.974464,
-   "sqft": 956,
-   "value": 384637,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": null,
-   "address": "302 MOSSYCUP DR, SAN MARCOS, TX  78666",
-   "assessed": 312210,
-   "class": "A",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "C-S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 29.948953,
-   "lon": -97.890643,
-   "sqft": 1730,
-   "value": 312210,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": null,
-   "address": "313 DURATA DR, SAN MARCOS, TX  78666",
-   "assessed": 463070,
-   "class": "A",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "bedrooms": "4.000000",
-    "exterior": "R, B",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 29.953293,
-   "lon": -97.895577,
-   "sqft": 2564,
-   "value": 463070,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": null,
-   "address": "2924 BRAND IRON DR, SAN MARCOS, TX  78666",
-   "assessed": 280520,
-   "class": "A",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "B-C",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": false,
-   "lat": 29.954227,
-   "lon": -97.897659,
-   "sqft": 1383,
-   "value": 280520,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2020
-  },
-  {
-   "acres": 2.06,
-   "address": "140 BLUEBONNET PASS, SAN MARCOS, TX  78666",
-   "assessed": 261150,
-   "class": "A",
-   "deed_date": "2025-07-15",
-   "extras": {},
-   "homestead": true,
-   "lat": 29.972797,
-   "lon": -97.963157,
-   "sqft": 1792,
-   "value": 261150,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 1994
-  },
-  {
-   "acres": null,
-   "address": "726 OLD SETTLERS DR, SAN MARCOS, TX  78666",
-   "assessed": 509830,
-   "class": "A",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "B-C",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.947865,
-   "lon": -97.899214,
-   "sqft": 3002,
-   "value": 509830,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": null,
-   "address": "102 ALFORD ST, SAN MARCOS, TX  78666",
-   "assessed": 340470,
-   "class": "A",
-   "deed_date": "2025-07-15",
-   "extras": {
-    "exterior": "R, B",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "H-C"
-   },
-   "homestead": true,
-   "lat": 29.946901,
-   "lon": -97.889201,
-   "sqft": 1534,
-   "value": 340470,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 10.387,
-   "address": "2625 ALPINE TRL, SAN MARCOS, TX  78666",
-   "assessed": 360668,
-   "class": "A",
-   "deed_date": "2025-07-12",
-   "extras": {
-    "exterior": "V",
-    "foundation": "P-B",
-    "heat_ac": "1CAH",
-    "roof": "G-M"
-   },
-   "homestead": true,
-   "lat": 29.974769,
-   "lon": -97.989256,
-   "sqft": 1484,
-   "value": 484340,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2000
-  },
-  {
-   "acres": null,
-   "address": "111 GAMBEL OAK WAY, SAN MARCOS, TX  78666",
-   "assessed": 262180,
-   "class": "A",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "exterior": "C-S",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "G-C"
-   },
-   "homestead": true,
-   "lat": 29.949413,
-   "lon": -97.887381,
-   "sqft": 1404,
-   "value": 262180,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": null,
-   "address": "337 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 400000,
-   "class": "A",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "R",
-    "foundation": "S",
-    "heat_ac": "1CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 29.945191,
-   "lon": -97.900363,
-   "sqft": 2162,
-   "value": 400000,
-   "value_kind": "market (Hays CAD)",
-   "year_built": 2021
-  },
-  {
-   "acres": null,
-   "address": "948 BLUE OAK BLVD, SAN MARCOS, TX  78666",
-   "assessed": 352387,
-   "class": "A",
-   "deed_date": "2025-07-11",
-   "extras": {
-    "bedrooms": "3.000000",
-    "exterior": "B-C",
-    "foundation": "S",
-    "heat_ac": "CAH",
-    "roof": "HG-C"
-   },
-   "homestead": true,
-   "lat": 29.956559,
-   "lon": -97.900745,
-   "sqft": 1827,
-   "value": 352387,
+   "value": 429430,
    "value_kind": "market (Hays CAD)",
    "year_built": 2022
   }
  ],
  "windows": {
   "12mo": {
-   "count": 129,
-   "median_value": 380730,
-   "pct_of_households": 5.57,
-   "pct_of_population": 2.08
+   "count": 120,
+   "median_value": 377382,
+   "pct_of_households": 5.18,
+   "pct_of_population": 1.93
   },
   "3mo": {
-   "count": 27,
-   "median_value": 380730,
-   "pct_of_households": 1.17,
-   "pct_of_population": 0.43
+   "count": 1,
+   "median_value": 271373,
+   "pct_of_households": 0.04,
+   "pct_of_population": 0.02
   },
   "6mo": {
-   "count": 57,
-   "median_value": 380400,
-   "pct_of_households": 2.46,
-   "pct_of_population": 0.92
+   "count": 49,
+   "median_value": 363720,
+   "pct_of_households": 2.12,
+   "pct_of_population": 0.79
   }
  }
 }

@@ -1,11 +1,87 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 75,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 61,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 2417,
  "months_back": 12,
  "population_acs": 6001,
  "transfers": [
+  {
+   "acres": 0.295,
+   "address": "1103 GREEN MEADOW DR, ROUND ROCK, TX  78664",
+   "assessed": 301206,
+   "class": "A1",
+   "deed_date": "2026-07-08",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.525165,
+   "lon": -97.66837,
+   "sqft": 1484,
+   "value": 301206,
+   "value_kind": "market (WCAD)",
+   "year_built": 1977
+  },
+  {
+   "acres": 0.253,
+   "address": "1711 EGGER AVE, ROUND ROCK, TX  78664",
+   "assessed": 355137,
+   "class": "A1",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.526304,
+   "lon": -97.674635,
+   "sqft": 1818,
+   "value": 355137,
+   "value_kind": "market (WCAD)",
+   "year_built": 1973
+  },
+  {
+   "acres": 0.263,
+   "address": "526 DENNIS DR, ROUND ROCK, TX  78664",
+   "assessed": 309730,
+   "class": "A1",
+   "deed_date": "2026-06-29",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.525309,
+   "lon": -97.675879,
+   "sqft": 1599,
+   "value": 309730,
+   "value_kind": "market (WCAD)",
+   "year_built": 1976
+  },
+  {
+   "acres": 0.198,
+   "address": "709 ANDOVER DR, ROUND ROCK, TX  78664",
+   "assessed": 363978,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.526373,
+   "lon": -97.674011,
+   "sqft": 1575,
+   "value": 363978,
+   "value_kind": "market (WCAD)",
+   "year_built": 1977
+  },
   {
    "acres": 2.425,
    "address": "503 W OAK DR, ROUND ROCK, TX  78664",
@@ -32,9 +108,9 @@
    "class": "A1",
    "deed_date": "2026-06-15",
    "extras": {
-    "exterior": "M",
+    "exterior": "BV",
     "foundation": "SLB",
-    "roof": "MX"
+    "roof": "GBL"
    },
    "homestead": true,
    "lat": 30.526225,
@@ -43,6 +119,25 @@
    "value": 382056,
    "value_kind": "market (WCAD)",
    "year_built": 1977
+  },
+  {
+   "acres": 0.187,
+   "address": "1602 PROVIDENT LN, ROUND ROCK, TX  78664",
+   "assessed": 303985,
+   "class": "A1",
+   "deed_date": "2026-06-05",
+   "extras": {
+    "exterior": "WD",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.524542,
+   "lon": -97.664478,
+   "sqft": 1292,
+   "value": 303985,
+   "value_kind": "market (WCAD)",
+   "year_built": 1983
   },
   {
    "acres": 0.275,
@@ -119,6 +214,25 @@
    "value": 264586,
    "value_kind": "market (WCAD)",
    "year_built": 1983
+  },
+  {
+   "acres": 0.304,
+   "address": "514 SARA DR, ROUND ROCK, TX  78664",
+   "assessed": 377416,
+   "class": "A1",
+   "deed_date": "2026-05-21",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.526447,
+   "lon": -97.676463,
+   "sqft": 1512,
+   "value": 377416,
+   "value_kind": "market (WCAD)",
+   "year_built": 1977
   },
   {
    "acres": 0.42,
@@ -254,6 +368,25 @@
    "year_built": 1977
   },
   {
+   "acres": 0.274,
+   "address": "908 GREEN MEADOW DR, ROUND ROCK, TX  78664",
+   "assessed": 357927,
+   "class": "A1",
+   "deed_date": "2026-04-30",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.524836,
+   "lon": -97.670556,
+   "sqft": 1527,
+   "value": 357927,
+   "value_kind": "market (WCAD)",
+   "year_built": 1977
+  },
+  {
    "acres": 0.218,
    "address": "1709 W MESA PARK DR, ROUND ROCK, TX  78664",
    "assessed": 267778,
@@ -351,7 +484,7 @@
   {
    "acres": 0.321,
    "address": "504 VIRGINIA DR, ROUND ROCK, TX  78664",
-   "assessed": 461347,
+   "assessed": 439669,
    "class": "A1",
    "deed_date": "2026-03-26",
    "extras": {
@@ -363,7 +496,7 @@
    "lat": 30.523334,
    "lon": -97.676926,
    "sqft": 2203,
-   "value": 461347,
+   "value": 439669,
    "value_kind": "market (WCAD)",
    "year_built": 1972
   },
@@ -613,6 +746,25 @@
    "year_built": 1975
   },
   {
+   "acres": 0.377,
+   "address": "1104 GREEN MEADOW DR, ROUND ROCK, TX  78664",
+   "assessed": 274884,
+   "class": "A1",
+   "deed_date": "2026-01-22",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.525729,
+   "lon": -97.668201,
+   "sqft": 1397,
+   "value": 274884,
+   "value_kind": "market (WCAD)",
+   "year_built": 1977
+  },
+  {
    "acres": 0.273,
    "address": "1008 PROVIDENT LN, ROUND ROCK, TX  78664",
    "assessed": 665000,
@@ -691,7 +843,7 @@
   {
    "acres": 0.23,
    "address": "1400 DANA CT, ROUND ROCK, TX  78664",
-   "assessed": 275284,
+   "assessed": 269228,
    "class": "A1",
    "deed_date": "2026-01-01",
    "extras": {
@@ -703,14 +855,14 @@
    "lat": 30.521917,
    "lon": -97.666123,
    "sqft": 1264,
-   "value": 275284,
+   "value": 269228,
    "value_kind": "market (WCAD)",
    "year_built": 1979
   },
   {
    "acres": 0.357,
    "address": "1604 WILD FLOWER DR, ROUND ROCK, TX  78664",
-   "assessed": 308745,
+   "assessed": 293984,
    "class": "A1",
    "deed_date": "2025-12-31",
    "extras": {
@@ -722,14 +874,14 @@
    "lat": 30.524522,
    "lon": -97.669955,
    "sqft": 1478,
-   "value": 308745,
+   "value": 293984,
    "value_kind": "market (WCAD)",
    "year_built": 1977
   },
   {
    "acres": 0.279,
    "address": "903 ROLLING GREEN CIR, ROUND ROCK, TX  78664",
-   "assessed": 262178,
+   "assessed": 234921,
    "class": "A1",
    "deed_date": "2025-12-22",
    "extras": {
@@ -741,7 +893,7 @@
    "lat": 30.526793,
    "lon": -97.670994,
    "sqft": 1298,
-   "value": 262178,
+   "value": 234921,
    "value_kind": "market (WCAD)",
    "year_built": 1976
   },
@@ -839,25 +991,6 @@
    "value": 299809,
    "value_kind": "market (WCAD)",
    "year_built": 1985
-  },
-  {
-   "acres": 0.304,
-   "address": "514 SARA DR, ROUND ROCK, TX  78664",
-   "assessed": 377416,
-   "class": "A1",
-   "deed_date": "2025-11-25",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.526447,
-   "lon": -97.676463,
-   "sqft": 1512,
-   "value": 377416,
-   "value_kind": "market (WCAD)",
-   "year_built": 1977
   },
   {
    "acres": 0.193,
@@ -1029,425 +1162,26 @@
    "value": 392268,
    "value_kind": "market (WCAD)",
    "year_built": 1976
-  },
-  {
-   "acres": 0.171,
-   "address": "1402 BETH LN, ROUND ROCK, TX  78664",
-   "assessed": 267535,
-   "class": "A1",
-   "deed_date": "2025-10-05",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.526209,
-   "lon": -97.665109,
-   "sqft": 1284,
-   "value": 267535,
-   "value_kind": "market (WCAD)",
-   "year_built": 1984
-  },
-  {
-   "acres": 0.187,
-   "address": "1603 MILLS MEADOW DR, ROUND ROCK, TX  78664",
-   "assessed": 276089,
-   "class": "A1",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.524665,
-   "lon": -97.661839,
-   "sqft": 1314,
-   "value": 276089,
-   "value_kind": "market (WCAD)",
-   "year_built": 1983
-  },
-  {
-   "acres": 0.308,
-   "address": "507 VIRGINIA DR, ROUND ROCK, TX  78664",
-   "assessed": 428794,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.522763,
-   "lon": -97.67659,
-   "sqft": 2593,
-   "value": 428794,
-   "value_kind": "market (WCAD)",
-   "year_built": 1971
-  },
-  {
-   "acres": 0.217,
-   "address": "607 ANDOVER DR, ROUND ROCK, TX  78664",
-   "assessed": 349337,
-   "class": "A1",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.527065,
-   "lon": -97.6753,
-   "sqft": 1596,
-   "value": 349337,
-   "value_kind": "market (WCAD)",
-   "year_built": 1978
-  },
-  {
-   "acres": 0.258,
-   "address": "1910 W MESA PARK DR, ROUND ROCK, TX  78664",
-   "assessed": 295723,
-   "class": "A1",
-   "deed_date": "2025-09-12",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.52885,
-   "lon": -97.671907,
-   "sqft": 1664,
-   "value": 295723,
-   "value_kind": "market (WCAD)",
-   "year_built": 1977
-  },
-  {
-   "acres": 0.317,
-   "address": "902 VIRGINIA DR, ROUND ROCK, TX  78664",
-   "assessed": 330510,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.522872,
-   "lon": -97.671501,
-   "sqft": 1935,
-   "value": 330510,
-   "value_kind": "market (WCAD)",
-   "year_built": 1977
-  },
-  {
-   "acres": 0.154,
-   "address": "1308 ARIZONA MESA CV, ROUND ROCK, TX  78664",
-   "assessed": 331251,
-   "class": "A1",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "HP,BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.521426,
-   "lon": -97.660272,
-   "sqft": 1762,
-   "value": 331251,
-   "value_kind": "market (WCAD)",
-   "year_built": 2006
-  },
-  {
-   "acres": 0.188,
-   "address": "1010 WAYNE DR, ROUND ROCK, TX  78664",
-   "assessed": 288341,
-   "class": "A1",
-   "deed_date": "2025-08-27",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.526198,
-   "lon": -97.669386,
-   "sqft": 1637,
-   "value": 288341,
-   "value_kind": "market (WCAD)",
-   "year_built": 1978
-  },
-  {
-   "acres": 0.189,
-   "address": "1304 TROY LN, ROUND ROCK, TX  78664",
-   "assessed": 272385,
-   "class": "A1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.527865,
-   "lon": -97.666065,
-   "sqft": 1308,
-   "value": 272385,
-   "value_kind": "market (WCAD)",
-   "year_built": 1984
-  },
-  {
-   "acres": 0.355,
-   "address": "1604 ROBB LN, ROUND ROCK, TX  78664",
-   "assessed": 340748,
-   "class": "A1",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.524497,
-   "lon": -97.678572,
-   "sqft": 1596,
-   "value": 340748,
-   "value_kind": "market (WCAD)",
-   "year_built": 1973
-  },
-  {
-   "acres": 0.242,
-   "address": "514 DENNIS DR, ROUND ROCK, TX  78664",
-   "assessed": 411723,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.524243,
-   "lon": -97.675564,
-   "sqft": 1813,
-   "value": 411723,
-   "value_kind": "market (WCAD)",
-   "year_built": 1975
-  },
-  {
-   "acres": 0.287,
-   "address": "531 DENNIS DR, ROUND ROCK, TX  78664",
-   "assessed": 502814,
-   "class": "A1",
-   "deed_date": "2025-08-07",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.525622,
-   "lon": -97.675347,
-   "sqft": 2839,
-   "value": 502814,
-   "value_kind": "market (WCAD)",
-   "year_built": 1976
-  },
-  {
-   "acres": 0.21,
-   "address": "1411 BELLMAR DR, ROUND ROCK, TX  78664",
-   "assessed": 269885,
-   "class": "A1",
-   "deed_date": "2025-08-05",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.523031,
-   "lon": -97.666982,
-   "sqft": 1351,
-   "value": 269885,
-   "value_kind": "market (WCAD)",
-   "year_built": 1981
-  },
-  {
-   "acres": 0.381,
-   "address": "1603 EGGER AVE, ROUND ROCK, TX  78664",
-   "assessed": 345740,
-   "class": "A1",
-   "deed_date": "2025-08-02",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.52477,
-   "lon": -97.673474,
-   "sqft": 1601,
-   "value": 345740,
-   "value_kind": "market (WCAD)",
-   "year_built": 1975
-  },
-  {
-   "acres": 0.34,
-   "address": "611 VIRGINIA DR, ROUND ROCK, TX  78664",
-   "assessed": 410374,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.52253,
-   "lon": -97.672588,
-   "sqft": 2199,
-   "value": 410374,
-   "value_kind": "market (WCAD)",
-   "year_built": 1971
-  },
-  {
-   "acres": 0.396,
-   "address": "517 DENNIS DR, ROUND ROCK, TX  78664",
-   "assessed": 368999,
-   "class": "A1",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.523729,
-   "lon": -97.67528,
-   "sqft": 1678,
-   "value": 368999,
-   "value_kind": "market (WCAD)",
-   "year_built": 1975
-  },
-  {
-   "acres": 0.193,
-   "address": "1304 WROXTON WAY, ROUND ROCK, TX  78664",
-   "assessed": 280109,
-   "class": "A1",
-   "deed_date": "2025-07-28",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.520882,
-   "lon": -97.664994,
-   "sqft": 1504,
-   "value": 280109,
-   "value_kind": "market (WCAD)",
-   "year_built": 1978
-  },
-  {
-   "acres": 0.211,
-   "address": "1403 MILLS MEADOW, ROUND ROCK, TX  78664",
-   "assessed": 276328,
-   "class": "A1",
-   "deed_date": "2025-07-22",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.522099,
-   "lon": -97.661815,
-   "sqft": 1280,
-   "value": 276328,
-   "value_kind": "market (WCAD)",
-   "year_built": 1982
-  },
-  {
-   "acres": 0.314,
-   "address": "504 DENNIS DR, ROUND ROCK, TX  78664",
-   "assessed": 373844,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.524265,
-   "lon": -97.677342,
-   "sqft": 1992,
-   "value": 373844,
-   "value_kind": "market (WCAD)",
-   "year_built": 1975
-  },
-  {
-   "acres": 0.211,
-   "address": "905 ROLLING GREEN CIR, ROUND ROCK, TX  78664",
-   "assessed": 259162,
-   "class": "A1",
-   "deed_date": "2025-07-16",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.526872,
-   "lon": -97.670751,
-   "sqft": 1208,
-   "value": 259162,
-   "value_kind": "market (WCAD)",
-   "year_built": 1976
-  },
-  {
-   "acres": 0.183,
-   "address": "1207 YORKSHIRE LN, ROUND ROCK, TX  78664",
-   "assessed": 294130,
-   "class": "A1",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.523777,
-   "lon": -97.66672,
-   "sqft": 1126,
-   "value": 294130,
-   "value_kind": "market (WCAD)",
-   "year_built": 1983
   }
  ],
  "windows": {
   "12mo": {
-   "count": 75,
+   "count": 61,
    "median_value": 301778,
-   "pct_of_households": 3.1,
-   "pct_of_population": 1.25
+   "pct_of_households": 2.52,
+   "pct_of_population": 1.02
   },
   "3mo": {
-   "count": 16,
-   "median_value": 301778,
-   "pct_of_households": 0.66,
-   "pct_of_population": 0.27
+   "count": 0,
+   "median_value": null,
+   "pct_of_households": 0.0,
+   "pct_of_population": 0.0
   },
   "6mo": {
-   "count": 34,
-   "median_value": 291613,
-   "pct_of_households": 1.41,
-   "pct_of_population": 0.57
+   "count": 22,
+   "median_value": 309730,
+   "pct_of_households": 0.91,
+   "pct_of_population": 0.37
   }
  }
 }

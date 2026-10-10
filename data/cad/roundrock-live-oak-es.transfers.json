@@ -1,11 +1,144 @@
 {
- "as_of": "2026-07-09T16:15:05+00:00",
- "count": 142,
+ "as_of": "2026-10-10T23:27:21+00:00",
+ "count": 111,
  "disclaimer": "Deed-transfer dates + CAD appraised/assessed values. NOT sale prices \u2014 Texas is a non-disclosure state.",
  "households_acs": 6447,
  "months_back": 12,
  "population_acs": 12465,
  "transfers": [
+  {
+   "acres": 0.223,
+   "address": "8710 CLEARBROOK TRL, AUSTIN, TX  78729",
+   "assessed": 435608,
+   "class": "B2",
+   "deed_date": "2026-07-14",
+   "extras": {
+    "exterior": "WB",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.456385,
+   "lon": -97.770596,
+   "sqft": 1022,
+   "value": 435608,
+   "value_kind": "market (WCAD)",
+   "year_built": 1982
+  },
+  {
+   "acres": 0.176,
+   "address": "8713 TALYNE CHAISE CIR, AUSTIN, TX  78729",
+   "assessed": 471981,
+   "class": "B2",
+   "deed_date": "2026-07-13",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": false,
+   "lat": 30.459797,
+   "lon": -97.766859,
+   "sqft": 2414,
+   "value": 471981,
+   "value_kind": "market (WCAD)",
+   "year_built": 2004
+  },
+  {
+   "acres": 0.034,
+   "address": "13400 BRIARWICK DR, UNIT #801, AUSTIN, TX  78729",
+   "assessed": 350619,
+   "class": "A8",
+   "deed_date": "2026-07-12",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.466518,
+   "lon": -97.766708,
+   "sqft": 950,
+   "value": 350619,
+   "value_kind": "market (WCAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": 0.029,
+   "address": "13400 BRIARWICK DR, UNIT #1303, AUSTIN, TX  78729",
+   "assessed": 326520,
+   "class": "A8",
+   "deed_date": "2026-06-30",
+   "extras": {
+    "exterior": "M",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.465783,
+   "lon": -97.767479,
+   "sqft": 703,
+   "value": 326520,
+   "value_kind": "market (WCAD)",
+   "year_built": 2014
+  },
+  {
+   "acres": 0.292,
+   "address": "9313 LONGVALE DR, AUSTIN, TX  78729",
+   "assessed": 361943,
+   "class": "A1",
+   "deed_date": "2026-06-26",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.45511,
+   "lon": -97.78183,
+   "sqft": 1223,
+   "value": 361943,
+   "value_kind": "market (WCAD)",
+   "year_built": 1975
+  },
+  {
+   "acres": 0.282,
+   "address": "9604 NEWBERRY DR, AUSTIN, TX  78729",
+   "assessed": 387923,
+   "class": "A1",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": true,
+   "lat": 30.456422,
+   "lon": -97.78607,
+   "sqft": 1725,
+   "value": 387923,
+   "value_kind": "market (WCAD)",
+   "year_built": 1975
+  },
+  {
+   "acres": 0.031,
+   "address": "8518 CAHILL DR, UNIT #19, AUSTIN, TX  78729",
+   "assessed": 284600,
+   "class": "A8",
+   "deed_date": "2026-06-25",
+   "extras": {
+    "exterior": "BV",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": false,
+   "lat": 30.44506,
+   "lon": -97.775926,
+   "sqft": 520,
+   "value": 284600,
+   "value_kind": "market (WCAD)",
+   "year_built": 2002
+  },
   {
    "acres": 0.371,
    "address": "12604 BRIGHTSIDE ST, AUSTIN, TX  78729",
@@ -26,6 +159,25 @@
    "year_built": 1975
   },
   {
+   "acres": 0.213,
+   "address": "9006 FROSTWOOD TRL, AUSTIN, TX  78729",
+   "assessed": 426841,
+   "class": "A1",
+   "deed_date": "2026-06-22",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.460132,
+   "lon": -97.773379,
+   "sqft": 994,
+   "value": 426841,
+   "value_kind": "market (WCAD)",
+   "year_built": 1985
+  },
+  {
    "acres": 0.333,
    "address": "13170 POND SPRINGS RD, AUSTIN, TX  78729",
    "assessed": 578310,
@@ -43,6 +195,43 @@
    "value": 578310,
    "value_kind": "market (WCAD)",
    "year_built": 1960
+  },
+  {
+   "acres": 1.713,
+   "address": "13233 POND SPRINGS RD, AUSTIN, TX  78729",
+   "assessed": 6412405,
+   "class": "F1",
+   "deed_date": "2026-06-17",
+   "extras": {
+    "foundation": "SLB",
+    "roof": "FL"
+   },
+   "homestead": false,
+   "lat": 30.446437,
+   "lon": -97.77896,
+   "sqft": 23887,
+   "value": 6412405,
+   "value_kind": "market (WCAD)",
+   "year_built": 1986
+  },
+  {
+   "acres": 0.189,
+   "address": "8109 LULING LN, AUSTIN, TX  78729",
+   "assessed": 567636,
+   "class": "A1",
+   "deed_date": "2026-06-16",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "HP"
+   },
+   "homestead": true,
+   "lat": 30.45692,
+   "lon": -97.760072,
+   "sqft": 1259,
+   "value": 567636,
+   "value_kind": "market (WCAD)",
+   "year_built": 1998
   },
   {
    "acres": 0.179,
@@ -74,7 +263,7 @@
     "foundation": "SLB",
     "roof": "GBL"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.455443,
    "lon": -97.772774,
    "sqft": 2116,
@@ -277,7 +466,7 @@
     "foundation": "SLB",
     "roof": "GBL"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.45617,
    "lon": -97.783672,
    "sqft": 1596,
@@ -324,6 +513,25 @@
    "year_built": 1975
   },
   {
+   "acres": 0.218,
+   "address": "8903 BUBBLING SPRINGS TRL, AUSTIN, TX  78729",
+   "assessed": 417899,
+   "class": "A1",
+   "deed_date": "2026-05-06",
+   "extras": {
+    "exterior": "STN",
+    "foundation": "SLB",
+    "roof": "GBL"
+   },
+   "homestead": false,
+   "lat": 30.450008,
+   "lon": -97.778094,
+   "sqft": 1753,
+   "value": 417899,
+   "value_kind": "market (WCAD)",
+   "year_built": 1981
+  },
+  {
    "acres": 0.09,
    "address": "13503 FELDSPAR DR, UNIT #39, AUSTIN, TX  78729",
    "assessed": 361642,
@@ -353,7 +561,7 @@
     "foundation": "SLB",
     "roof": "GBL"
    },
-   "homestead": false,
+   "homestead": true,
    "lat": 30.456022,
    "lon": -97.7747,
    "sqft": 1243,
@@ -394,6 +602,25 @@
    "value": 448620,
    "value_kind": "market (WCAD)",
    "year_built": 1999
+  },
+  {
+   "acres": 0.103,
+   "address": "13608 PINE WARBLER DR, AUSTIN, TX  78729",
+   "assessed": 395879,
+   "class": "A8",
+   "deed_date": "2026-05-04",
+   "extras": {
+    "exterior": "HP",
+    "foundation": "SLB",
+    "roof": "MX"
+   },
+   "homestead": true,
+   "lat": 30.465509,
+   "lon": -97.763198,
+   "sqft": 1916,
+   "value": 395879,
+   "value_kind": "market (WCAD)",
+   "year_built": 2009
   },
   {
    "acres": 0.279,
@@ -1106,7 +1333,7 @@
   {
    "acres": 0.231,
    "address": "8800 PINEY POINT DR, AUSTIN, TX  78729",
-   "assessed": 402444,
+   "assessed": 392760,
    "class": "B2",
    "deed_date": "2026-01-22",
    "extras": {
@@ -1118,7 +1345,7 @@
    "lat": 30.44953,
    "lon": -97.775672,
    "sqft": 2042,
-   "value": 402444,
+   "value": 392760,
    "value_kind": "market (WCAD)",
    "year_built": 1982
   },
@@ -1262,9 +1489,9 @@
    "class": "A1",
    "deed_date": "2025-12-30",
    "extras": {
-    "exterior": "WB",
+    "exterior": "M",
     "foundation": "SLB",
-    "roof": "GBL"
+    "roof": "MX"
    },
    "homestead": false,
    "lat": 30.458156,
@@ -1581,9 +1808,9 @@
    "class": "A1",
    "deed_date": "2025-11-26",
    "extras": {
-    "exterior": "BV",
+    "exterior": "HP",
     "foundation": "SLB",
-    "roof": "GBL"
+    "roof": "MX"
    },
    "homestead": true,
    "lat": 30.448494,
@@ -1671,7 +1898,7 @@
   {
    "acres": 0.028,
    "address": "13400 BRIARWICK DR, UNIT #1803, AUSTIN, TX  78729",
-   "assessed": 326520,
+   "assessed": 322724,
    "class": "A8",
    "deed_date": "2025-11-14",
    "extras": {
@@ -1683,7 +1910,7 @@
    "lat": 30.465267,
    "lon": -97.768253,
    "sqft": 703,
-   "value": 326520,
+   "value": 322724,
    "value_kind": "market (WCAD)",
    "year_built": 2014
   },
@@ -1850,831 +2077,26 @@
    "value": 413327,
    "value_kind": "market (WCAD)",
    "year_built": 1984
-  },
-  {
-   "acres": 0.248,
-   "address": "9406 SHADY OAKS DR, AUSTIN, TX  78729",
-   "assessed": 392371,
-   "class": "A1",
-   "deed_date": "2025-10-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.456655,
-   "lon": -97.782045,
-   "sqft": 1596,
-   "value": 392371,
-   "value_kind": "market (WCAD)",
-   "year_built": 1976
-  },
-  {
-   "acres": 0.276,
-   "address": "13304 SADDLEBROOK TRL, AUSTIN, TX  78729",
-   "assessed": 488359,
-   "class": "B2",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.458117,
-   "lon": -97.763322,
-   "sqft": 1270,
-   "value": 488359,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.028,
-   "address": "13400 BRIARWICK DR, UNIT #1404, AUSTIN, TX  78729",
-   "assessed": 344178,
-   "class": "A8",
-   "deed_date": "2025-10-10",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.465892,
-   "lon": -97.767146,
-   "sqft": 811,
-   "value": 344178,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.484,
-   "address": "13003 BROADMEADE AVE, AUSTIN, TX  78729",
-   "assessed": 440193,
-   "class": "A1",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.457072,
-   "lon": -97.776851,
-   "sqft": 2274,
-   "value": 440193,
-   "value_kind": "market (WCAD)",
-   "year_built": 1978
-  },
-  {
-   "acres": 0.074,
-   "address": "8800 HAZELHURST DR #50, AUSTIN, TX  78729",
-   "assessed": 417257,
-   "class": "A8",
-   "deed_date": "2025-10-03",
-   "extras": {
-    "exterior": "ST",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.460578,
-   "lon": -97.769644,
-   "sqft": 1997,
-   "value": 417257,
-   "value_kind": "market (WCAD)",
-   "year_built": 2001
-  },
-  {
-   "acres": 0.092,
-   "address": "8517 INCA DOVE DR, AUSTIN, TX  78729",
-   "assessed": 398823,
-   "class": "A8",
-   "deed_date": "2025-10-03",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.462485,
-   "lon": -97.763124,
-   "sqft": 1916,
-   "value": 398823,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.095,
-   "address": "9000 MOONSTONE DR, UNIT #25, AUSTIN, TX  78729",
-   "assessed": 494685,
-   "class": "A8",
-   "deed_date": "2025-10-01",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.469352,
-   "lon": -97.767746,
-   "sqft": 1436,
-   "value": 494685,
-   "value_kind": "market (WCAD)",
-   "year_built": 2017
-  },
-  {
-   "acres": 0.022,
-   "address": "8706 SCHICK RD, AUSTIN, TX  78729",
-   "assessed": 270014,
-   "class": "A8",
-   "deed_date": "2025-09-30",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.447834,
-   "lon": -97.776566,
-   "sqft": 649,
-   "value": 270014,
-   "value_kind": "market (WCAD)",
-   "year_built": 1984
-  },
-  {
-   "acres": 0.278,
-   "address": "12604 TREE LINE DR, AUSTIN, TX  78729",
-   "assessed": 481166,
-   "class": "A1",
-   "deed_date": "2025-09-26",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.451057,
-   "lon": -97.778285,
-   "sqft": 1628,
-   "value": 481166,
-   "value_kind": "market (WCAD)",
-   "year_built": 1980
-  },
-  {
-   "acres": 0.022,
-   "address": "8805-A CLEARBROOK TRL, AUSTIN, TX  78729",
-   "assessed": 238806,
-   "class": "A8",
-   "deed_date": "2025-09-25",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.456468,
-   "lon": -97.7717,
-   "sqft": 858,
-   "value": 238806,
-   "value_kind": "market (WCAD)",
-   "year_built": 1982
-  },
-  {
-   "acres": 0.241,
-   "address": "13309 IVYWOOD CV, AUSTIN, TX  78729",
-   "assessed": 559691,
-   "class": "A1",
-   "deed_date": "2025-09-22",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.462673,
-   "lon": -97.77304,
-   "sqft": 1614,
-   "value": 559691,
-   "value_kind": "market (WCAD)",
-   "year_built": 1991
-  },
-  {
-   "acres": 0.028,
-   "address": "8518 CAHILL DR, UNIT #20, AUSTIN, TX  78729",
-   "assessed": 302668,
-   "class": "A8",
-   "deed_date": "2025-09-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.445129,
-   "lon": -97.776075,
-   "sqft": 572,
-   "value": 302668,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.256,
-   "address": "13306 SADDLEBROOK TRL, AUSTIN, TX  78729",
-   "assessed": 396737,
-   "class": "B2",
-   "deed_date": "2025-09-11",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.458345,
-   "lon": -97.763244,
-   "sqft": 1004,
-   "value": 396737,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.232,
-   "address": "12909 TILGHMAN TRL, AUSTIN, TX  78729",
-   "assessed": 374314,
-   "class": "A1",
-   "deed_date": "2025-09-10",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.455032,
-   "lon": -97.774294,
-   "sqft": 1410,
-   "value": 374314,
-   "value_kind": "market (WCAD)",
-   "year_built": 1983
-  },
-  {
-   "acres": 0.035,
-   "address": "13400 BRIARWICK DR, UNIT #101, AUSTIN, TX  78729",
-   "assessed": 350619,
-   "class": "A8",
-   "deed_date": "2025-09-09",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.466306,
-   "lon": -97.769146,
-   "sqft": 950,
-   "value": 350619,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.202,
-   "address": "13334 WATER OAK LN, AUSTIN, TX  78729",
-   "assessed": 434338,
-   "class": "B2",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.460631,
-   "lon": -97.766032,
-   "sqft": 2088,
-   "value": 434338,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.134,
-   "address": "8313 OSBORNE DR, AUSTIN, TX  78729",
-   "assessed": 412573,
-   "class": "A1",
-   "deed_date": "2025-09-03",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.460177,
-   "lon": -97.759666,
-   "sqft": 954,
-   "value": 412573,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.032,
-   "address": "13400 BRIARWICK DR, UNIT #1405, AUSTIN, TX  78729",
-   "assessed": 332916,
-   "class": "A8",
-   "deed_date": "2025-08-29",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.465876,
-   "lon": -97.767218,
-   "sqft": 946,
-   "value": 332916,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.69,
-   "address": "13125 POND SPRINGS RD, AUSTIN, TX  78729",
-   "assessed": 3735717,
-   "class": "F1",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.443877,
-   "lon": -97.775755,
-   "sqft": 8239,
-   "value": 3735717,
-   "value_kind": "market (WCAD)",
-   "year_built": 1986
-  },
-  {
-   "acres": 0.023,
-   "address": "13309 MORRIS RD, UNIT #12, AUSTIN, TX  78729",
-   "assessed": 546678,
-   "class": "A8",
-   "deed_date": "2025-08-28",
-   "extras": {
-    "exterior": "STC",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.460502,
-   "lon": -97.767882,
-   "sqft": 570,
-   "value": 546678,
-   "value_kind": "market (WCAD)",
-   "year_built": 2024
-  },
-  {
-   "acres": 0.111,
-   "address": "8310 ALVIN HIGH LN, AUSTIN, TX  78729",
-   "assessed": 394025,
-   "class": "A1",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.459568,
-   "lon": -97.76064,
-   "sqft": 856,
-   "value": 394025,
-   "value_kind": "market (WCAD)",
-   "year_built": 1998
-  },
-  {
-   "acres": 0.028,
-   "address": "8518 CAHILL DR, UNIT #23, AUSTIN, TX  78729",
-   "assessed": 302668,
-   "class": "A8",
-   "deed_date": "2025-08-26",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.445316,
-   "lon": -97.775878,
-   "sqft": 572,
-   "value": 302668,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.518,
-   "address": "12129 ROXIE DR, AUSTIN, TX  78729",
-   "assessed": 738565,
-   "class": "F1",
-   "deed_date": "2025-08-25",
-   "extras": {
-    "exterior": "ML",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": false,
-   "lat": 30.442996,
-   "lon": -97.781113,
-   "sqft": 5140,
-   "value": 738565,
-   "value_kind": "market (WCAD)",
-   "year_built": 1975
-  },
-  {
-   "acres": 0.026,
-   "address": "13700 SAGE GROUSE DR, UNIT #1601, AUSTIN, TX  78729",
-   "assessed": 318813,
-   "class": "A8",
-   "deed_date": "2025-08-22",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.465702,
-   "lon": -97.762303,
-   "sqft": 726,
-   "value": 318813,
-   "value_kind": "market (WCAD)",
-   "year_built": 2016
-  },
-  {
-   "acres": 0.229,
-   "address": "9312 LONGVALE DR, AUSTIN, TX  78729",
-   "assessed": 364378,
-   "class": "A1",
-   "deed_date": "2025-08-21",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.455545,
-   "lon": -97.782321,
-   "sqft": 1264,
-   "value": 364378,
-   "value_kind": "market (WCAD)",
-   "year_built": 1975
-  },
-  {
-   "acres": 0.265,
-   "address": "13211 BRIAR HOLLOW DR, AUSTIN, TX  78729",
-   "assessed": 440675,
-   "class": "A1",
-   "deed_date": "2025-08-19",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.459724,
-   "lon": -97.771931,
-   "sqft": 1224,
-   "value": 440675,
-   "value_kind": "market (WCAD)",
-   "year_built": 1985
-  },
-  {
-   "acres": 0.25,
-   "address": "8621 TALYNE CHAISE CIR, AUSTIN, TX  78729",
-   "assessed": 478588,
-   "class": "B2",
-   "deed_date": "2025-08-15",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.459085,
-   "lon": -97.76641,
-   "sqft": 2368,
-   "value": 478588,
-   "value_kind": "market (WCAD)",
-   "year_built": 2002
-  },
-  {
-   "acres": 0.452,
-   "address": "13016 STILLFOREST ST, AUSTIN, TX  78729",
-   "assessed": 491746,
-   "class": "A1",
-   "deed_date": "2025-08-14",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.458989,
-   "lon": -97.776792,
-   "sqft": 2037,
-   "value": 491746,
-   "value_kind": "market (WCAD)",
-   "year_built": 1978
-  },
-  {
-   "acres": 0.107,
-   "address": "8605 ROCK PIGEON DR, AUSTIN, TX  78729",
-   "assessed": 399804,
-   "class": "A8",
-   "deed_date": "2025-08-14",
-   "extras": {},
-   "homestead": false,
-   "lat": 30.464729,
-   "lon": -97.762685,
-   "sqft": 1916,
-   "value": 399804,
-   "value_kind": "market (WCAD)",
-   "year_built": 2013
-  },
-  {
-   "acres": 0.431,
-   "address": "13014 STILLFOREST ST, AUSTIN, TX  78729",
-   "assessed": 422589,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "STN",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.458689,
-   "lon": -97.776727,
-   "sqft": 1886,
-   "value": 422589,
-   "value_kind": "market (WCAD)",
-   "year_built": 1978
-  },
-  {
-   "acres": 0.313,
-   "address": "8511 SLANT OAK DR, AUSTIN, TX  78729",
-   "assessed": 346558,
-   "class": "A1",
-   "deed_date": "2025-08-13",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.457158,
-   "lon": -97.766688,
-   "sqft": 1381,
-   "value": 346558,
-   "value_kind": "market (WCAD)",
-   "year_built": 1977
-  },
-  {
-   "acres": 0.361,
-   "address": "9301 ROBINS NEST LN, AUSTIN, TX  78729",
-   "assessed": 497931,
-   "class": "A1",
-   "deed_date": "2025-08-11",
-   "extras": {
-    "exterior": "WB",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.452426,
-   "lon": -97.782279,
-   "sqft": 1264,
-   "value": 497931,
-   "value_kind": "market (WCAD)",
-   "year_built": 1975
-  },
-  {
-   "acres": 0.208,
-   "address": "9205 AMANDA DR, AUSTIN, TX  78729",
-   "assessed": 486153,
-   "class": "A1",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": true,
-   "lat": 30.46086,
-   "lon": -97.775419,
-   "sqft": 2355,
-   "value": 486153,
-   "value_kind": "market (WCAD)",
-   "year_built": 1993
-  },
-  {
-   "acres": 0.032,
-   "address": "13400 BRIARWICK DR, UNIT #204, AUSTIN, TX  78729",
-   "assessed": 332916,
-   "class": "A8",
-   "deed_date": "2025-08-04",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.466461,
-   "lon": -97.768559,
-   "sqft": 946,
-   "value": 332916,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.034,
-   "address": "13400 BRIARWICK DR, UNIT #2504, AUSTIN, TX  78729",
-   "assessed": 332916,
-   "class": "A8",
-   "deed_date": "2025-08-02",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.465063,
-   "lon": -97.767247,
-   "sqft": 946,
-   "value": 332916,
-   "value_kind": "market (WCAD)",
-   "year_built": 2014
-  },
-  {
-   "acres": 0.03,
-   "address": "13400 BRIARWICK DR, UNIT #1103, AUSTIN, TX  78729",
-   "assessed": 345153,
-   "class": "A8",
-   "deed_date": "2025-08-02",
-   "extras": {
-    "exterior": "M",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.466264,
-   "lon": -97.76798,
-   "sqft": 811,
-   "value": 345153,
-   "value_kind": "market (WCAD)",
-   "year_built": 2015
-  },
-  {
-   "acres": 0.107,
-   "address": "8713 BLACK VIREO DR, AUSTIN, TX  78729",
-   "assessed": 468947,
-   "class": "A8",
-   "deed_date": "2025-08-01",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": true,
-   "lat": 30.464372,
-   "lon": -97.76394,
-   "sqft": 1198,
-   "value": 468947,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
-  },
-  {
-   "acres": 0.089,
-   "address": "8521 WHITE IBIS DR, AUSTIN, TX  78729",
-   "assessed": 363349,
-   "class": "A8",
-   "deed_date": "2025-07-28",
-   "extras": {},
-   "homestead": true,
-   "lat": 30.462304,
-   "lon": -97.763796,
-   "sqft": 1611,
-   "value": 363349,
-   "value_kind": "market (WCAD)",
-   "year_built": 2012
-  },
-  {
-   "acres": 0.09,
-   "address": "13519 FELDSPAR DR, UNIT #31, AUSTIN, TX  78729",
-   "assessed": 497904,
-   "class": "A8",
-   "deed_date": "2025-07-24",
-   "extras": {
-    "exterior": "BW",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.468538,
-   "lon": -97.767441,
-   "sqft": 1190,
-   "value": 497904,
-   "value_kind": "market (WCAD)",
-   "year_built": 2018
-  },
-  {
-   "acres": 0.361,
-   "address": "9613 NEWBERRY DR, AUSTIN, TX  78729",
-   "assessed": 361634,
-   "class": "A1",
-   "deed_date": "2025-07-23",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.455575,
-   "lon": -97.786865,
-   "sqft": 1274,
-   "value": 361634,
-   "value_kind": "market (WCAD)",
-   "year_built": 1974
-  },
-  {
-   "acres": 0.305,
-   "address": "12507 WISTFUL CV, AUSTIN, TX  78729",
-   "assessed": 439133,
-   "class": "A1",
-   "deed_date": "2025-07-17",
-   "extras": {
-    "exterior": "WD",
-    "foundation": "SLB",
-    "roof": "HP"
-   },
-   "homestead": false,
-   "lat": 30.449577,
-   "lon": -97.778197,
-   "sqft": 2063,
-   "value": 439133,
-   "value_kind": "market (WCAD)",
-   "year_built": 1981
-  },
-  {
-   "acres": 0.268,
-   "address": "9600 NEWBERRY DR, AUSTIN, TX  78729",
-   "assessed": 440964,
-   "class": "A1",
-   "deed_date": "2025-07-10",
-   "extras": {
-    "exterior": "BV",
-    "foundation": "SLB",
-    "roof": "GBL"
-   },
-   "homestead": true,
-   "lat": 30.456577,
-   "lon": -97.785547,
-   "sqft": 1815,
-   "value": 440964,
-   "value_kind": "market (WCAD)",
-   "year_built": 1974
-  },
-  {
-   "acres": 0.122,
-   "address": "13628 OYSTERCATCHER DR, AUSTIN, TX  78729",
-   "assessed": 370891,
-   "class": "A8",
-   "deed_date": "2025-07-09",
-   "extras": {
-    "exterior": "HP",
-    "foundation": "SLB",
-    "roof": "MX"
-   },
-   "homestead": false,
-   "lat": 30.466246,
-   "lon": -97.762917,
-   "sqft": 1752,
-   "value": 370891,
-   "value_kind": "market (WCAD)",
-   "year_built": 2008
   }
  ],
  "windows": {
   "12mo": {
-   "count": 142,
-   "median_value": 434338,
-   "pct_of_households": 2.2,
-   "pct_of_population": 1.14
+   "count": 111,
+   "median_value": 435608,
+   "pct_of_households": 1.72,
+   "pct_of_population": 0.89
   },
   "3mo": {
-   "count": 33,
-   "median_value": 444395,
-   "pct_of_households": 0.51,
-   "pct_of_population": 0.26
+   "count": 3,
+   "median_value": 435608,
+   "pct_of_households": 0.05,
+   "pct_of_population": 0.02
   },
   "6mo": {
-   "count": 65,
-   "median_value": 440552,
-   "pct_of_households": 1.01,
-   "pct_of_population": 0.52
+   "count": 43,
+   "median_value": 435608,
+   "pct_of_households": 0.67,
+   "pct_of_population": 0.34
   }
  }
 }
