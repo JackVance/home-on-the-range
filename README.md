@@ -1,8 +1,16 @@
-# home-finder
+# Home On The Range
 
-A local, single-user tool that overlays, for target Austin-metro high school
-attendance zones (Westlake/Eanes, Vandegrift/Leander, Westwood/Round Rock —
-extensible via `zones.toml`):
+Where should the herd settle? Every Austin-metro school attendance zone
+(29 districts; 400+ zones across the district, high, middle, and elementary
+levels) on one interactive map, with TEA ratings, Census demographics,
+appraised home values, and recent deed transfers per zone.
+
+**Live map:** https://bigolbuffalo.com/HomeOnTheRange.html
+(the [bigolbuffalo](https://github.com/JackVance/bigolbuffalo) repo hosts the
+site wrapper; this repo is the whole tool — pipeline, data, and viewer).
+
+Formerly "home-finder". The tool overlays, per attendance zone (all
+registered in `zones.toml`):
 
 1. **Attendance-zone boundary polygons** (district ArcGIS services, gated +
    provenance-stamped)
