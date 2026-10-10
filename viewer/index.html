@@ -169,13 +169,20 @@ map.on("dragstart", () => { userMovedMap = true; });
 map.on("zoomstart", () => { userMovedMap = true; });
 
 // Basemaps — all free/keyless. "Light" is the least distracting under data.
+// (CARTO dropped keyless access in 2026 — its tiles now ship an "API KEY
+// REQUIRED" watermark — so Light/Dark use Esri's gray canvases instead.
+// Esri canvas tiles only exist to z16; maxNativeZoom upscales past that.)
+const esriCanvas = (name) => L.layerGroup([
+  L.tileLayer(`https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${name}_Gray_Base/MapServer/tile/{z}/{y}/{x}`, {
+    attribution: "Esri, &copy; OpenStreetMap contributors", maxNativeZoom: 16, maxZoom: 20 }),
+  L.tileLayer(`https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${name}_Gray_Reference/MapServer/tile/{z}/{y}/{x}`, {
+    maxNativeZoom: 16, maxZoom: 20 }),
+]);
 const BASEMAPS = {
-  "Light": L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-    attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 20 }),
+  "Light": esriCanvas("Light"),
   "Streets": L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors", maxZoom: 19 }),
-  "Dark": L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-    attribution: "&copy; OpenStreetMap &copy; CARTO", maxZoom: 20 }),
+  "Dark": esriCanvas("Dark"),
   "Satellite": L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
     attribution: "Esri, Maxar, Earthstar Geographics", maxZoom: 19 }),
   "None": L.tileLayer("", { attribution: "" }),
